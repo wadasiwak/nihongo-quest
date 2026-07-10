@@ -7,11 +7,11 @@ description: Build, launch, and drive nihongo-quest end-to-end to verify changes
 
 ## Launch
 
-- dev: `npm run dev` → http://localhost:5230（strictPort）
+- dev: `npm run dev` → http://localhost:5240（strictPort）
 - 內容驗證: `npm run check`（全量）｜`npm run check -- src/content/jlpt/n5/vocab-kanji.ts`（單檔）
 - build: `npm run build`（tsc -b && vite build；fail-fast，禁止 `build | grep`）
-- e2e: `npm run e2e`（自 spawn `vite preview` :5231、finally kill；截圖 /tmp/nihongo-quest-e2e/）
-- screenshot: `npm run shot`（:5232，輸出 scripts/shots/，含 iPhone 13 尺寸）
+- e2e: `npm run e2e`（自 spawn `vite preview` :5241、finally kill；截圖 /tmp/nihongo-quest-e2e/）
+- screenshot: `npm run shot`（:5242，輸出 scripts/shots/，含 iPhone 13 尺寸）
 
 ## Drive（Playwright + system Chrome）
 

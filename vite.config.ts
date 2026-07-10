@@ -21,6 +21,6 @@ export default defineConfig({
   // Relative base so the static build works at any path (GitHub Pages
   // serves it under /nihongo-quest/).
   base: './',
-  server: { port: 5230 },
-  preview: { port: 5230 },
+  server: { port: 5240 },
+  preview: { port: 5240 },
 })

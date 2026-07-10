@@ -1,10 +1,10 @@
 // e2e：起 preview → 驗六個關鍵設計斷言 → 截圖。需先 npm run build。
-// port 5231（避開 dev 5230）；截圖 /tmp/nihongo-quest-e2e/；失敗集中最後回報。
+// port 5241（避開 dev 5240）；截圖 /tmp/nihongo-quest-e2e/；失敗集中最後回報。
 import { spawn } from 'node:child_process'
 import { mkdirSync } from 'node:fs'
 import { chromium } from 'playwright'
 
-const PORT = 5231
+const PORT = 5241
 const BASE_URL = `http://localhost:${PORT}/`
 const shotDir = '/tmp/nihongo-quest-e2e/'
 mkdirSync(shotDir, { recursive: true })

@@ -4,7 +4,7 @@ import { spawn } from 'node:child_process'
 import { mkdirSync } from 'node:fs'
 import { chromium, devices } from 'playwright'
 
-const PORT = 5232
+const PORT = 5242
 const BASE_URL = `http://localhost:${PORT}/`
 const outDir = new URL('./shots/', import.meta.url).pathname
 mkdirSync(outDir, { recursive: true })
