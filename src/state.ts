@@ -72,10 +72,15 @@ export const useView = create<UiState>((set) => ({
   setView: (view) => {
     set({ view })
     const h = viewToHash(view)
-    history.replaceState(null, '', h || window.location.pathname + window.location.search)
+    // push（非 replace）讓瀏覽器返回鍵可以一路退回上一頁
+    if (h !== window.location.hash) {
+      history.pushState(null, '', h || window.location.pathname + window.location.search)
+    }
   },
 }))
 
-window.addEventListener('hashchange', () => {
+const syncFromLocation = () => {
   useView.setState({ view: hashToView(window.location.hash) })
-})
+}
+window.addEventListener('hashchange', syncFromLocation)
+window.addEventListener('popstate', syncFromLocation)

@@ -1,4 +1,4 @@
-import { useMemo } from 'react'
+import { useMemo, type ReactNode } from 'react'
 import { useView } from './state'
 import { unitById } from './content/registry'
 import { questionsByUnit } from './content/jlpt'
@@ -33,6 +33,23 @@ function Drill({ unitId }: { unitId: string }) {
   )
 }
 
+/** 沒有自帶返回鈕的頁面，統一加一條「← 首頁」列 */
+function WithHomeBar({ children }: { children: ReactNode }) {
+  const setView = useView((s) => s.setView)
+  return (
+    <div>
+      <button
+        className="back-btn"
+        style={{ marginBottom: 12 }}
+        onClick={() => setView({ name: 'home' })}
+      >
+        ← 首頁
+      </button>
+      {children}
+    </div>
+  )
+}
+
 export default function App() {
   const view = useView((s) => s.view)
   return (
@@ -41,12 +58,12 @@ export default function App() {
       {view.name === 'level' && <LevelHome level={view.level} />}
       {view.name === 'drill' && <Drill unitId={view.unitId} />}
       {view.name === 'mock' && <MockExam level={view.level} />}
-      {view.name === 'kaiwa' && <KaiwaHome />}
+      {view.name === 'kaiwa' && <WithHomeBar><KaiwaHome /></WithHomeBar>}
       {view.name === 'scene' && <SceneView sceneId={view.sceneId} />}
-      {view.name === 'cards' && <DeckHome />}
-      {view.name === 'wrong' && <WrongBook />}
-      {view.name === 'stats' && <StatsView />}
-      {view.name === 'daily' && <DailyChallenge />}
+      {view.name === 'cards' && <WithHomeBar><DeckHome /></WithHomeBar>}
+      {view.name === 'wrong' && <WithHomeBar><WrongBook /></WithHomeBar>}
+      {view.name === 'stats' && <WithHomeBar><StatsView /></WithHomeBar>}
+      {view.name === 'daily' && <WithHomeBar><DailyChallenge /></WithHomeBar>}
     </div>
   )
 }

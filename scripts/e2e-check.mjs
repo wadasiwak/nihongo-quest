@@ -109,6 +109,22 @@ try {
     await page.close()
   }
 
+  // ---- 5.5 導覽：錯題本有「← 首頁」鈕、瀏覽器返回鍵可退回 ----
+  {
+    const page = await browser.newPage()
+    await page.goto(BASE_URL)
+    await page.waitForTimeout(400)
+    await page.click('button:has-text("錯題本")')
+    await page.waitForTimeout(300)
+    const hasHomeBtn = await page.locator('button:has-text("← 首頁")').count()
+    check(hasHomeBtn > 0, '錯題本頁有「← 首頁」鈕')
+    await page.goBack()
+    await page.waitForTimeout(400)
+    const body = await page.evaluate(() => document.body.innerText)
+    check(body.includes('JLPT 級別練習'), '瀏覽器返回鍵可從錯題本退回首頁')
+    await page.close()
+  }
+
   // ---- 6. 亂 hash 回首頁（還原參數嚴格驗證）----
   {
     const page = await browser.newPage()
