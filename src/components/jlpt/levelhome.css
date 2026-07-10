@@ -1,0 +1,20 @@
+.level-home { display: flex; flex-direction: column; gap: 18px; }
+.page-header { display: flex; align-items: center; gap: 12px; }
+.page-header h1 { margin: 8px 0; }
+.back-btn {
+  background: var(--cell); border: 1px solid var(--border); border-radius: 8px;
+  color: var(--text); padding: 6px 12px; cursor: pointer; font-size: 14px;
+}
+.back-btn:hover { background: var(--cell-hover); }
+.level-home h2 { font-size: 15px; color: var(--text-dim); margin: 2px 0 8px; }
+.unit-list { display: flex; flex-direction: column; gap: 8px; }
+.unit-row, .mock-entry {
+  display: flex; flex-direction: column; gap: 3px; align-items: flex-start;
+  background: var(--cell); border: 1px solid var(--border); border-radius: var(--radius);
+  color: var(--text); padding: 12px 14px; cursor: pointer; text-align: left;
+}
+.unit-row:hover, .mock-entry:hover { background: var(--cell-hover); border-color: var(--accent-dim); }
+.unit-title { font-size: 15px; font-weight: 600; }
+.unit-goal { font-size: 12px; color: var(--text-dim); }
+.unit-meta { font-size: 12px; color: var(--accent); }
+.empty-note { color: var(--text-dim); font-size: 14px; }

@@ -1,0 +1,13 @@
+{
+  "name": "日語道場 nihongo-quest",
+  "short_name": "日語道場",
+  "description": "JLPT N1~N5 原創練習題（單字・文法・讀解・聽解）＋日本觀光與商務情境會話。免費、免註冊、離線可用。",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#14121c",
+  "theme_color": "#14121c",
+  "icons": [
+    { "src": "./favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" },
+    { "src": "./apple-touch-icon.png", "sizes": "180x180", "type": "image/png", "purpose": "any" }
+  ]
+}

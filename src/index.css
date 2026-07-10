@@ -1,0 +1,46 @@
+:root {
+  --bg: #12131f;
+  --panel: #1a1c2e;
+  --cell: #1e2033;
+  --cell-hover: #272a45;
+  --border: #363a5c;
+  --text: #d6d8ec;
+  --text-dim: #8b8fae;
+  --accent: #7c86ff;
+  --accent-dim: #5a61b8;
+  --radius: 12px;
+  font-family: 'PingFang TC', 'Noto Sans TC', 'Microsoft JhengHei', system-ui, sans-serif;
+  color-scheme: dark;
+}
+
+/* 日文內容用日系字體渲染（漢字字形正確：直、令、骨…中日寫法不同） */
+.ja, :lang(ja) {
+  font-family: 'Hiragino Sans', 'Hiragino Kaku Gothic ProN', 'Yu Gothic Medium',
+    'Yu Gothic', 'Noto Sans JP', 'Meiryo', sans-serif;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background:
+    radial-gradient(1200px 500px at 80% -10%, rgba(124, 134, 255, 0.07), transparent 60%),
+    radial-gradient(900px 500px at 0% 110%, rgba(92, 107, 165, 0.08), transparent 60%),
+    var(--bg);
+  min-height: 100vh;
+  color: var(--text);
+  -webkit-font-smoothing: antialiased;
+}
+
+.app {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 12px 16px 48px;
+}
+
+.app h1 {
+  font-size: 20px;
+  letter-spacing: 2px;
+  color: var(--accent);
+  margin: 8px 0;
+}

@@ -1,0 +1,306 @@
+/* 錯題本／統計／每日一練／設定 共用樣式（只用 index.css 既有 CSS 變數；手機優先） */
+
+.rv-view {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 8px 0 32px;
+}
+
+.rv-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-bottom: 8px;
+}
+
+.rv-title {
+  font-size: 18px;
+  margin: 8px 0;
+}
+
+.rv-sub {
+  color: var(--text-dim);
+  font-size: 13px;
+  margin: 2px 0 14px;
+  line-height: 1.6;
+}
+
+.rv-section-h {
+  font-size: 14px;
+  color: var(--text-dim);
+  margin: 20px 0 8px;
+  letter-spacing: 1px;
+}
+
+.rv-empty {
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 36px 16px;
+  text-align: center;
+  color: var(--text-dim);
+  line-height: 2;
+}
+
+.rv-btn {
+  display: inline-block;
+  background: var(--accent);
+  color: #fff;
+  border: none;
+  border-radius: var(--radius);
+  padding: 10px 18px;
+  font-size: 14px;
+  font-family: inherit;
+  cursor: pointer;
+  transition: filter 0.15s;
+}
+.rv-btn:hover { filter: brightness(1.12); }
+.rv-btn:disabled {
+  background: var(--accent-dim);
+  opacity: 0.55;
+  cursor: not-allowed;
+}
+
+.rv-btn-ghost {
+  display: inline-block;
+  background: var(--cell);
+  color: var(--text);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 9px 16px;
+  font-size: 14px;
+  font-family: inherit;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+.rv-btn-ghost:hover { background: var(--cell-hover); }
+
+/* ---- 錯題清單 ---- */
+
+.rv-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.rv-item {
+  background: var(--cell);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 10px 12px;
+}
+
+.rv-item-stem {
+  font-size: 15px;
+  line-height: 1.6;
+  margin-bottom: 6px;
+  word-break: break-word;
+}
+
+.rv-item-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 10px;
+  font-size: 12px;
+  color: var(--text-dim);
+  align-items: center;
+}
+
+.rv-badge {
+  display: inline-block;
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: 1px 8px;
+  font-size: 11px;
+  color: var(--text-dim);
+}
+
+.rv-badge-due {
+  border-color: var(--accent-dim);
+  color: var(--accent);
+}
+
+.rv-details {
+  margin-top: 20px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--panel);
+  padding: 8px 12px;
+}
+.rv-details summary {
+  cursor: pointer;
+  color: var(--text-dim);
+  font-size: 14px;
+  padding: 4px 0;
+}
+.rv-details .rv-list { margin-top: 8px; }
+
+/* ---- 統計 ---- */
+
+.st-tiles {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 8px;
+  margin: 12px 0 4px;
+}
+
+.st-tile {
+  background: var(--cell);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 12px;
+}
+.st-tile-label { font-size: 12px; color: var(--text-dim); margin-bottom: 4px; }
+.st-tile-value { font-size: 22px; color: var(--text); }
+.st-tile-value small { font-size: 12px; color: var(--text-dim); margin-left: 4px; }
+
+.st-weak {
+  background: var(--panel);
+  border: 1px solid var(--accent-dim);
+  border-radius: var(--radius);
+  padding: 12px;
+  margin: 12px 0;
+}
+.st-weak h3 {
+  margin: 0 0 8px;
+  font-size: 14px;
+  color: var(--accent);
+}
+
+.st-unit-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  width: 100%;
+  text-align: left;
+  background: var(--cell);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 10px 12px;
+  color: var(--text);
+  font-size: 14px;
+  font-family: inherit;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+.st-unit-row:hover { background: var(--cell-hover); }
+.st-unit-row + .st-unit-row { margin-top: 6px; }
+.st-unit-name { flex: 1; min-width: 0; }
+.st-unit-acc { color: var(--text-dim); font-size: 13px; white-space: nowrap; }
+.st-unit-acc strong { color: var(--text); font-size: 15px; }
+.st-weak .st-unit-acc strong { color: var(--accent); }
+
+.st-table-wrap { overflow-x: auto; margin: 8px 0; }
+.st-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13px;
+  min-width: 420px;
+}
+.st-table th, .st-table td {
+  border: 1px solid var(--border);
+  padding: 8px 10px;
+  text-align: center;
+}
+.st-table th {
+  background: var(--panel);
+  color: var(--text-dim);
+  font-weight: normal;
+}
+.st-table td { background: var(--cell); }
+.st-table td.st-na { color: var(--text-dim); }
+.st-table td small { display: block; color: var(--text-dim); font-size: 11px; margin-top: 2px; }
+
+/* ---- 每日一練 ---- */
+
+.dl-result {
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 28px 16px;
+  text-align: center;
+}
+.dl-score {
+  font-size: 40px;
+  color: var(--accent);
+  margin: 8px 0;
+}
+.dl-score small { font-size: 16px; color: var(--text-dim); }
+.dl-streak { color: var(--text); font-size: 15px; margin: 6px 0; }
+.dl-hint { color: var(--text-dim); font-size: 13px; margin: 10px 0 18px; }
+.dl-actions { display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; }
+
+/* ---- 設定面板 ---- */
+
+.sp-panel {
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.sp-row { display: flex; flex-direction: column; gap: 8px; }
+.sp-label { font-size: 14px; color: var(--text); }
+.sp-label-line {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+.sp-value { font-size: 13px; color: var(--accent); }
+
+.sp-slider {
+  width: 100%;
+  accent-color: var(--accent);
+}
+
+.sp-toggle {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 14px;
+  cursor: pointer;
+}
+.sp-toggle input { accent-color: var(--accent); width: 18px; height: 18px; }
+
+.sp-btn-sm {
+  background: var(--cell);
+  color: var(--text-dim);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: 3px 12px;
+  font-size: 12px;
+  font-family: inherit;
+  cursor: pointer;
+}
+.sp-btn-sm:hover { background: var(--cell-hover); color: var(--text); }
+
+.sp-actions { display: flex; gap: 10px; flex-wrap: wrap; }
+
+.sp-msg { font-size: 13px; border-radius: var(--radius); padding: 8px 12px; }
+.sp-msg-ok { background: var(--cell); border: 1px solid var(--accent-dim); color: var(--accent); }
+.sp-msg-err { background: var(--cell); border: 1px solid var(--border); color: var(--text); }
+
+.sp-note {
+  font-size: 12px;
+  color: var(--text-dim);
+  line-height: 1.7;
+  border-top: 1px solid var(--border);
+  padding-top: 12px;
+  margin: 0;
+}
+
+@media (min-width: 640px) {
+  .rv-view { padding-top: 16px; }
+}

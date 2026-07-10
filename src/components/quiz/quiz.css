@@ -1,0 +1,418 @@
+/* quiz 引擎共用樣式（QuizSession import；MockExam/MockResult 共用 .qz 前綴）
+   主題色一律用 index.css 的全域變數；.qz 只補充語意色（對/錯/警示）。 */
+
+.qz {
+  --qz-ok: #46c48a;
+  --qz-ok-bg: rgba(70, 196, 138, 0.12);
+  --qz-bad: #e5636f;
+  --qz-bad-bg: rgba(229, 99, 111, 0.12);
+  --qz-warn: #eab54e;
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 4px 0 32px;
+}
+
+/* ---- header / 進度 ---- */
+.qz-head {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-bottom: 8px;
+}
+.qz-title {
+  flex: 1;
+  min-width: 0;
+  font-weight: 600;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.qz-progressbar {
+  height: 6px;
+  background: var(--cell);
+  border-radius: 3px;
+  overflow: hidden;
+}
+.qz-progressbar-fill {
+  height: 100%;
+  background: var(--accent);
+  transition: width 0.25s;
+}
+.qz-counter {
+  color: var(--text-dim);
+  font-size: 13px;
+  margin: 6px 0 12px;
+}
+
+/* ---- 按鈕 ---- */
+.qz-btn {
+  border: 1px solid var(--border);
+  background: var(--cell);
+  color: var(--text);
+  border-radius: var(--radius);
+  padding: 10px 16px;
+  font-size: 15px;
+  font-family: inherit;
+  cursor: pointer;
+}
+.qz-btn:hover:not(:disabled) { background: var(--cell-hover); }
+.qz-btn:disabled { opacity: 0.45; cursor: not-allowed; }
+.qz-btn--primary { background: var(--accent-dim); border-color: var(--accent); color: #fff; }
+.qz-btn--primary:hover:not(:disabled) { background: var(--accent); }
+.qz-btn--warn { background: transparent; border-color: var(--qz-warn); color: var(--qz-warn); }
+.qz-btn--ghost { background: transparent; border-color: transparent; color: var(--text-dim); }
+.qz-btn--sm { padding: 5px 10px; font-size: 13px; border-radius: 8px; }
+
+/* ---- 計時器 ---- */
+.qz-timer {
+  font-variant-numeric: tabular-nums;
+  font-weight: 700;
+  font-size: 16px;
+  color: var(--text);
+  background: var(--cell);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 4px 10px;
+}
+.qz-timer--warn {
+  color: var(--qz-bad);
+  border-color: var(--qz-bad);
+  animation: qz-blink 1s steps(2, start) infinite;
+}
+@keyframes qz-blink { 50% { opacity: 0.55; } }
+
+/* ---- 題幹 / 選項 ---- */
+.qz-stem { font-size: 18px; line-height: 1.8; margin: 14px 0 4px; }
+.qz-reading { color: var(--text-dim); font-size: 13px; margin: 0 0 8px; }
+.qz-hint { color: var(--text-dim); font-size: 13px; line-height: 1.6; }
+
+.qz-options {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 14px;
+}
+.qz-opt-row { display: flex; align-items: stretch; gap: 8px; }
+.qz-opt-row .qz-opt { flex: 1; min-width: 0; }
+.qz-opt {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  text-align: left;
+  background: var(--cell);
+  border: 1px solid var(--border);
+  color: var(--text);
+  border-radius: var(--radius);
+  padding: 14px;
+  min-height: 52px;
+  font-size: 17px;
+  font-family: inherit;
+  line-height: 1.5;
+  cursor: pointer;
+}
+.qz-opt:hover:not(:disabled) { background: var(--cell-hover); }
+.qz-opt:disabled { cursor: default; }
+.qz-opt--selected {
+  border-color: var(--accent);
+  background: var(--cell-hover);
+  box-shadow: 0 0 0 1px var(--accent) inset;
+}
+.qz-opt--correct { border-color: var(--qz-ok); background: var(--qz-ok-bg); }
+.qz-opt--wrong { border-color: var(--qz-bad); background: var(--qz-bad-bg); }
+.qz-opt-num { color: var(--text-dim); flex: none; }
+
+/* ---- 並べ替え ---- */
+.qz-order-sentence {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px;
+  font-size: 18px;
+  line-height: 1.9;
+  margin-top: 14px;
+}
+.qz-order-fixed { padding: 2px 0; }
+.qz-slot {
+  min-width: 64px;
+  min-height: 44px;
+  border: 1px dashed var(--border);
+  border-radius: 8px;
+  background: var(--panel);
+  color: var(--text);
+  font-size: 16px;
+  font-family: inherit;
+  padding: 6px 10px;
+  cursor: pointer;
+}
+.qz-slot:disabled { cursor: default; }
+.qz-slot--star {
+  border-color: var(--accent);
+  color: var(--accent);
+  box-shadow: 0 0 0 1px var(--accent-dim) inset;
+}
+.qz-slot--correct { border-style: solid; border-color: var(--qz-ok); background: var(--qz-ok-bg); color: var(--text); }
+.qz-slot--wrong { border-style: solid; border-color: var(--qz-bad); background: var(--qz-bad-bg); color: var(--text); }
+.qz-segments { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 12px; }
+.qz-seg {
+  background: var(--cell);
+  border: 1px solid var(--border);
+  color: var(--text);
+  border-radius: var(--radius);
+  padding: 12px 16px;
+  min-height: 48px;
+  font-size: 17px;
+  font-family: inherit;
+  cursor: pointer;
+}
+.qz-seg:hover:not(:disabled) { background: var(--cell-hover); }
+.qz-seg:disabled { opacity: 0.35; cursor: default; }
+
+/* ---- 聽解 ---- */
+.qz-banner {
+  background: rgba(234, 181, 78, 0.12);
+  border: 1px solid var(--qz-warn);
+  color: var(--qz-warn);
+  border-radius: var(--radius);
+  padding: 10px 12px;
+  font-size: 14px;
+  line-height: 1.6;
+  margin: 12px 0;
+}
+.qz-listen-bar {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin: 14px 0 4px;
+}
+.qz-script {
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 10px 14px;
+  margin: 10px 0;
+  line-height: 1.9;
+  font-size: 15px;
+}
+.qz-script p { margin: 4px 0; }
+.qz-script-speaker {
+  display: inline-block;
+  color: var(--accent);
+  font-size: 12px;
+  border: 1px solid var(--accent-dim);
+  border-radius: 6px;
+  padding: 0 6px;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+.qz-tts-wrap { display: inline-flex; }
+.qz-tts--playing { border-color: var(--accent); color: var(--accent); }
+
+/* ---- 語速 ---- */
+.qz-speed {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 13px;
+  color: var(--text-dim);
+}
+.qz-speed-label { display: inline-flex; align-items: center; gap: 6px; }
+.qz-speed input[type='range'] { width: 110px; accent-color: var(--accent); }
+.qz-speed-value { min-width: 42px; color: var(--text); }
+
+/* ---- 文章面板 ---- */
+.qz-passage {
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  margin: 12px 0;
+  overflow: hidden;
+}
+.qz-passage-head {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+  background: none;
+  border: none;
+  color: var(--text);
+  padding: 10px 12px;
+  font-size: 14px;
+  font-family: inherit;
+  cursor: pointer;
+}
+.qz-passage-title {
+  font-weight: 600;
+  flex: 1;
+  min-width: 0;
+  text-align: left;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.qz-passage-count { color: var(--text-dim); flex: none; }
+.qz-passage-toggle { color: var(--accent); flex: none; }
+.qz-passage-text {
+  padding: 0 14px 14px;
+  white-space: pre-wrap;
+  line-height: 1.9;
+  font-size: 16px;
+  max-height: 45vh;
+  overflow-y: auto;
+}
+
+/* ---- 回饋 / 詳解 ---- */
+.qz-explain {
+  border-radius: var(--radius);
+  padding: 12px 14px;
+  margin-top: 14px;
+  border: 1px solid var(--border);
+}
+.qz-explain--ok { border-color: var(--qz-ok); background: var(--qz-ok-bg); }
+.qz-explain--bad { border-color: var(--qz-bad); background: var(--qz-bad-bg); }
+.qz-explain-verdict { font-weight: 700; margin: 0 0 6px; }
+.qz-explain--ok .qz-explain-verdict { color: var(--qz-ok); }
+.qz-explain--bad .qz-explain-verdict { color: var(--qz-bad); }
+.qz-explain-answer { margin: 0 0 6px; font-size: 15px; }
+.qz-explain-text { margin: 6px 0 0; color: var(--text); line-height: 1.8; font-size: 14px; }
+
+.qz-actions { display: flex; gap: 10px; margin-top: 18px; flex-wrap: wrap; }
+.qz-actions .qz-btn { flex: 1; min-height: 48px; }
+
+.qz-empty {
+  color: var(--text-dim);
+  background: var(--panel);
+  border: 1px dashed var(--border);
+  border-radius: var(--radius);
+  padding: 20px;
+  text-align: center;
+  line-height: 1.7;
+}
+
+/* ---- 結果頁（SessionResult / MockResult）---- */
+.qz-result h2 { margin: 8px 0 12px; font-size: 20px; }
+.qz-result h3 { margin: 20px 0 8px; font-size: 16px; }
+.qz-score-line { font-size: 18px; margin-bottom: 14px; }
+.qz-verdict {
+  font-size: 20px;
+  font-weight: 700;
+  border-radius: var(--radius);
+  padding: 12px 16px;
+  margin: 10px 0;
+  text-align: center;
+  border: 1px solid var(--border);
+}
+.qz-verdict--pass { color: var(--qz-ok); border-color: var(--qz-ok); background: var(--qz-ok-bg); }
+.qz-verdict--fail { color: var(--qz-bad); border-color: var(--qz-bad); background: var(--qz-bad-bg); }
+.qz-total { margin: 8px 0 16px; font-size: 16px; }
+
+.qz-sections { display: flex; flex-direction: column; gap: 14px; }
+.qz-section-label {
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+  font-size: 14px;
+  margin-bottom: 4px;
+  flex-wrap: wrap;
+}
+.qz-section-nums { color: var(--text-dim); }
+.qz-bar {
+  position: relative;
+  height: 14px;
+  background: var(--cell);
+  border-radius: 7px;
+  overflow: hidden;
+}
+.qz-bar-fill { height: 100%; background: var(--qz-ok); border-radius: 7px; transition: width 0.4s; }
+.qz-bar-fill--fail { background: var(--qz-bad); }
+.qz-bar-line { position: absolute; top: 0; bottom: 0; width: 2px; background: var(--text); opacity: 0.7; }
+
+.qz-disclaimer { color: var(--qz-warn); font-size: 13px; line-height: 1.7; margin: 16px 0; }
+
+/* ---- 逐題回顧 ---- */
+.qz-review-list {
+  list-style: none;
+  margin: 8px 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.qz-review-item {
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+}
+.qz-review-item summary {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px;
+  cursor: pointer;
+  list-style: none;
+}
+.qz-review-item summary::-webkit-details-marker { display: none; }
+.qz-review-stem {
+  flex: 1;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 15px;
+}
+.qz-mark { flex: none; font-weight: 700; }
+.qz-mark--ok { color: var(--qz-ok); }
+.qz-mark--bad { color: var(--qz-bad); }
+.qz-review-body { padding: 0 12px 12px; border-top: 1px solid var(--border); }
+.qz-review-body > p { margin: 8px 0; font-size: 14px; line-height: 1.7; }
+.qz-review-options { display: flex; flex-direction: column; gap: 6px; margin: 10px 0; }
+.qz-review-opt {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 8px 10px;
+  font-size: 15px;
+}
+.qz-review-opt--correct { border-color: var(--qz-ok); background: var(--qz-ok-bg); }
+.qz-review-opt--wrong { border-color: var(--qz-bad); background: var(--qz-bad-bg); }
+.qz-tag {
+  font-size: 12px;
+  color: var(--text-dim);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 0 6px;
+  margin-left: auto;
+  flex: none;
+}
+.qz-tag + .qz-tag { margin-left: 0; }
+.qz-tag--ok { color: var(--qz-ok); border-color: var(--qz-ok); }
+
+/* ---- 模擬考入口 ---- */
+.qz-mock-intro h2 { margin: 12px 0; }
+.qz-mock-meta {
+  list-style: none;
+  padding: 0;
+  margin: 12px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.qz-mock-meta li {
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 10px 14px;
+  line-height: 1.6;
+}
+
+/* ---- 桌機微調（手機優先）---- */
+@media (min-width: 640px) {
+  .qz { padding-top: 8px; }
+  .qz-stem { font-size: 20px; }
+  .qz-opt { font-size: 18px; }
+  .qz-actions .qz-btn { flex: 0 0 auto; min-width: 180px; }
+}
