@@ -20,6 +20,8 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '部長指出圖表資料太舊，女の人要男の人先修正，他最後也說「すぐに直します」，所以第一件事是修改資料。影印雖是他原本要做的，但被「コピーはその後でいいよ」改到修正並檢查之後，順序不對；會議室已經「鈴木さんに頼んである」（拜託給鈴木了），不用他做；聯絡部長對話中沒有要求。',
+    explanationEn:
+      'The department head reported that the graph data is outdated, the woman asks him to fix it first, and he ends with 「すぐに直します」, so correcting the data comes first. Copying was his original plan, but 「コピーはその後でいいよ」 pushes it to after the fix and her check; the meeting room has already been delegated with 「鈴木さんに頼んである」; and contacting the department head is never requested in the conversation.',
   },
   {
     id: 'n3-listening-kadai-002',
@@ -44,6 +46,8 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '男學生說「今日の午後、研究室に行ってくるよ」，所以最先做的是把題目直接拿去老師的研究室。寄電子郵件是他自己的提案，被女學生用「メールじゃなくて」明確更正；做簡報被提醒要等題目通過之後，他也決定「週末に作る」，順序在後；整理問卷結果是女學生正在做的事，不是他的課題。',
+    explanationEn:
+      'The male student says 「今日の午後、研究室に行ってくるよ」, so his first task is taking the topic directly to the professor\'s office. Emailing it was his own idea, but the female student explicitly corrects it with 「メールじゃなくて」 because the professor rarely checks email; making slides should wait until the topic is approved, and he decides to do it on the weekend; and compiling the survey results is what the female student is working on, not his job.',
   },
   {
     id: 'n3-listening-kadai-003',
@@ -69,6 +73,8 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '女の人說「それより先に、市役所に転出届を出してきて」，市公所只有平日辦公、今天又是週五，所以男の人第一件事是去市公所辦遷出登記。拿紙箱是他原本的提議，但被「それより先に」壓到後面，且「週末でも間に合う」；解約電力被女の人以「私がやっておくから、いいよ」接手，不用他做；搬行李對話中沒提到。',
+    explanationEn:
+      'The woman says 「それより先に、市役所に転出届を出してきてくれない？」 — the city office is only open on weekdays and today is Friday — so his first task is filing the move-out notification at the city office. Getting boxes was his own suggestion, but it is pushed back by 「それより先に」 and the boxes 「週末でも間に合う」; canceling the electricity is taken over by the woman with 「私がやっておくから、いいよ」; and moving the luggage is never mentioned in the conversation.',
   },
   {
     id: 'n3-listening-kadai-004',
@@ -88,6 +94,8 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '男の人提醒新幹線早上的班次很快就會客滿，女の人回答「じゃあ、すぐ予約します」，所以最先做的是訂新幹線。自己查飯店是她原本在做的事，但被更正為「總務に頼めばすぐ取れる」，不必自己訂；而拜託總務這件事又被「その後でいいから」排到訂新幹線之後，順序不對；出差報告對話中完全沒提到。',
+    explanationEn:
+      'The man warns that morning bullet train seats fill up fast, and the woman replies 「じゃあ、すぐ予約します」, so booking the Shinkansen comes first. Searching for a hotel herself is what she had been doing, but she is corrected: the company has a contracted hotel and general affairs can arrange it; that request in turn is deferred with 「その後でいいから」 until after the train is booked; and a business trip report is never mentioned at all.',
   },
   {
     id: 'n3-listening-kadai-005',
@@ -112,6 +120,8 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '男學生發現「財布を教室に置いてきちゃった」，說「先に取ってくるよ」，所以第一件事是回教室拿錢包。向老師申請購物許可是他提出的疑慮，但女學生說「昨日もらっておいた」，已經辦好，不必再做；看板已經「山田さんたちに任せてある」（交給山田他們），也不用管；買材料要等他拿了錢包、兩人會合之後才去，順序在後。',
+    explanationEn:
+      'The male student realizes 「財布を教室に置いてきちゃった」 and says 「先に取ってくるよ」, so his first move is going back to the classroom for his wallet. Getting the teacher\'s permission was his concern, but the female student already handled it yesterday (「昨日もらっておいた」); the sign has been entrusted to Yamada\'s group (「山田さんたちに任せてある」); and shopping for ingredients happens only after he retrieves the wallet and they meet up, so it comes later.',
   },
   {
     id: 'n3-listening-kadai-006',
@@ -132,6 +142,8 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '櫃檯人員說「まずこちらの問診票にご記入ください」，所以第一件事是填寫初診單。健保卡雖然她說「今出します」想馬上拿出來，但被更正為「問診票を書き終わってから、一緒に出していただければ結構」，順序被排到填完之後；量體溫則被「看護師が測りますので、そのままでお待ちください」否定，不用自己量；掛號預約也被開頭的「大丈夫ですよ」表明不需要。',
+    explanationEn:
+      'The receptionist says 「まずこちらの問診票にご記入ください」, so filling out the medical questionnaire comes first. She tried to hand over her insurance card right away with 「今出します」, but is told to submit it together after finishing the form; taking her own temperature is ruled out because a nurse will do it before the examination (「そのままでお待ちください」); and making an appointment is unnecessary, as the receptionist confirmed at the start with 「大丈夫ですよ」 that she can be seen without one.',
   },
   {
     id: 'n3-listening-kadai-007',
@@ -151,6 +163,8 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '前輩說「その前に昼休みを取っちゃって」，要他在盤點之前先去吃午休，男の人也回答「お先に失礼します」，所以最先做的是休息。倉庫盤點雖然是接下來的工作，但被明確排在午休「その前に」之後，而且「三時までに終わればいい」不趕，順序不對；商品清單輸入他已回報「さっき終わりました」，是完成的事；會議準備對話中沒有出現。',
+    explanationEn:
+      'The senior colleague tells him 「その前に昼休みを取っちゃって」 — take lunch before the inventory check — and he answers 「お先に失礼します」, so taking his lunch break comes first. The warehouse inventory check is his next job, but it is explicitly placed after the break and is not urgent since 「三時までに終わればいい」; the product list entry is already done, as he reported 「さっき終わりました」; and meeting preparation never appears in the conversation.',
   },
   {
     id: 'n3-listening-kadai-008',
@@ -170,6 +184,8 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '女の人拜託他「その前に、ホテルの予約確認のメール、印刷してきて」，男の人回答「今からすぐ印刷するよ」，所以第一件事是印飯店的預約確認信。睡覺是他自己說要做的，但被「その前に」排到印完之後，順序不對；伴手禮清單被女の人以「私が作っておくから」接手；八點集合則被更正為「八時じゃなくて七時半」，時間本身就是被否定的資訊。',
+    explanationEn:
+      'The woman asks him 「その前に、ホテルの予約確認のメール、印刷してきてくれない？」 and he replies 「今からすぐ印刷するよ」, so printing the hotel confirmation email comes first. Going to bed was his own plan, but 「その前に」 puts it after the printing; the souvenir list is taken over by the woman with 「私が作っておくから」; and meeting at eight is corrected to seven thirty with 「八時じゃなくて七時半」, so that time itself is rejected information.',
   },
   {
     id: 'n3-listening-kadai-009',
@@ -190,6 +206,8 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '女學生建議用資料庫查同主題的論文，並要他「先にパソコン室に行ってて」，男學生也說「先に行ってるね」，所以最先做的是去電腦室。預約書他已經「さっきカウンターでしてきた」，是做完的事；等到週一書還回來，被他自己以「待ってたら間に合わないよ」否定，因為截止日是週五；到櫃檯借書的是女學生（「私はこの本を借りてから行く」），不是他。',
+    explanationEn:
+      'The female student suggests searching the database for papers on the same theme and tells him 「先にパソコン室に行ってて」; he answers 「先に行ってるね」, so going to the computer room comes first. Reserving the book is already done — 「さっきカウンターでしてきた」; waiting until Monday for the book\'s return is rejected by his own words 「待ってたら間に合わないよ」 since the deadline is Friday; and it is the female student who will borrow a book at the counter (「私はこの本を借りてから行く」), not him.',
   },
   {
     id: 'n3-listening-kadai-010',
@@ -215,5 +233,7 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '女の人指示「予約の前に、まず参加する人の数を確認して」，男の人回答「今からみんなにメールします」，所以第一件事是寄信確認人數。訂義式餐廳雖然已被同意，但被排在「予約の前に」之後，要等回信收齊才打電話，順序不對；站前的居酒屋則被「先月行ったばかりだよ」委婉否定而換店；打電話點餐更是要在最後才做。',
+    explanationEn:
+      'The woman instructs 「予約の前に、まず参加する人の数を確認して」, and the man responds 「今からみんなにメールします」, so emailing everyone to confirm the headcount comes first. Booking the Italian restaurant is approved but placed after the count with 「予約の前に」, and he should phone the restaurant only once the replies are in; the izakaya by the station is gently vetoed with 「先月行ったばかりだよ」, prompting a change of venue; and calling to order food would come last of all.',
   },
 ]

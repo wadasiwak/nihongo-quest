@@ -20,6 +20,8 @@ export const questions: JlptQuestion[] = [
         answerIndex: 0,
         explanation:
           '依據「当日出席できない方は、今週金曜日までに佐藤に連絡してください」，不能出席的人要在本週五前聯絡佐藤。「資料を印刷して佐藤さんに送る」錯，資料是佐藤寄出、大家「各自」印，不用回傳；「月曜日に第一会議室へ行く」錯，會議已改到週二；「会議室を予約する」錯，訂會議室不是與會者要做的事，文中也沒有這個要求。',
+        explanationEn:
+          'The notice says 「当日出席できない方は、今週金曜日までに佐藤に連絡してください」, so anyone who cannot attend must contact Sato by this Friday. Printing the materials and sending them to Sato is wrong — Sato sends the materials and everyone prints their own copy, with nothing to send back; going to the meeting room on Monday is wrong because the meeting was moved to Tuesday; reserving the meeting room is not something attendees are asked to do anywhere in the notice.',
       },
     ],
   },
@@ -43,6 +45,8 @@ export const questions: JlptQuestion[] = [
         answerIndex: 0,
         explanation:
           '依據「階段の利用が難しい方は、前日までに一階の管理室にご相談ください」，行動不便或行李多的人要在前一天先找管理室商量。「掲示板で点検の時間を知らせる」錯，公佈欄是管理室用來通知時間變更的，不是住戶要做的事；「正午まで管理室で待つ」文中沒有這個指示；「点検の間だけエレベーターを使う」正好相反，檢修期間電梯不能使用。',
+        explanationEn:
+          'The notice says 「階段の利用が難しい方は、前日までに一階の管理室にご相談ください」, so people who have trouble using the stairs should consult the first-floor management office by the day before. Posting the inspection time on the bulletin board is wrong — the board is how the office announces schedule changes, not something residents do; waiting in the office until noon is never instructed; using the elevator only during the inspection is the exact opposite, since the elevator is out of service then.',
       },
     ],
   },
@@ -65,6 +69,8 @@ export const questions: JlptQuestion[] = [
         answerIndex: 0,
         explanation:
           '依據「細かい部分を忘れてしまい、相手にもう一度聞いて、迷惑をかけたことがある。それからは…書くようになった」，契機是忘記細節、給對方添了麻煩。「若いころ覚えられなかった」錯，筆者年輕時是「覚えられると思って」才不記的；「相手に頼まれた」文中沒有，被拜託的是工作本身；「時間がかかるから」相反，筆者認為記筆記其實是讓工作更快的方法。',
+        explanationEn:
+          'The passage states 「細かい部分を忘れてしまい、相手にもう一度聞いて、迷惑をかけたことがある」 and that the writer started writing everything down after that — forgetting details and troubling the other person was the trigger. "Could not remember things when young" is wrong: the writer skipped notes precisely because he thought he could remember; "the other person asked him to take notes" appears nowhere — what was requested was the work itself; "because notes take time" is backwards, since the writer concludes note-taking actually speeds work up.',
       },
     ],
   },
@@ -87,6 +93,8 @@ export const questions: JlptQuestion[] = [
         answerIndex: 0,
         explanation:
           '這封信的核心是「お届けが予定より三日ほど遅れて、二十日ごろになりそうです」，也就是交貨延遲的通知與道歉。「注文が半分になった」錯，「半分だけお送りする」是提議先寄一半應急，訂購數量沒有變；「機械を新しくする」錯，文中只說機器故障，沒提換新；「田中さんが工場へ行く」文中完全沒有提到。',
+        explanationEn:
+          'The heart of this e-mail is 「お届けが予定より三日ほど遅れて、二十日ごろになりそうです」 — notifying and apologizing that delivery will be about three days late. "The order was halved" is wrong: 「半分だけお送りする」 is only an offer to ship half early as a stopgap, and the order quantity is unchanged; "replacing the factory machine" is wrong because the text mentions only a breakdown, not a new machine; Tanaka visiting the factory is never mentioned at all.',
       },
     ],
   },
@@ -110,6 +118,8 @@ export const questions: JlptQuestion[] = [
         answerIndex: 0,
         explanation:
           '依據「確実に買いたい方は、前の日の午後五時までに…用紙で申し込んでください」，想確保買到便當要在前一天下午五點前用申請單登記。「当日の朝、休憩室に並ぶ」錯，便當數量有限，排隊不保證買得到，公告要求的是事先申請；「席を予約する」錯，座位是「譲り合って」使用，沒有預約制；「食堂の入口で受け取る」錯，入口放的是申請單，販售地點在二樓休息室。',
+        explanationEn:
+          'The notice says 「確実に買いたい方は、前の日の午後五時までに」 apply using the form, so those who want to be sure of getting a boxed lunch must sign up by 5 p.m. the day before. Lining up in the break room that morning does not guarantee a lunch since quantities are limited — advance application is what is required; reserving a seat is wrong because seats are shared 「譲り合って」 with no reservation system; picking up lunches at the cafeteria entrance is wrong — the entrance only holds the application forms, and sales take place in the second-floor break room.',
       },
       {
         id: 'n3-reading-tanbun-005-q2',
@@ -123,6 +133,8 @@ export const questions: JlptQuestion[] = [
         answerIndex: 0,
         explanation:
           '依據「この間、食堂は利用できません」，施工期間員工餐廳不能使用，正解。「休憩室は利用できない」正好相反，休息室反而成了賣便當的地方，只是中午會很擁擠；「食堂の入口で販売される」錯，入口放的是申請用紙，販賣在二樓休息室；「二十日まで続く」錯，工期是下個月一日到十日。',
+        explanationEn:
+          'The notice states 「この間、食堂は利用できません」, so the staff cafeteria cannot be used during the construction — that matches. "The break room cannot be used" is the opposite: the break room is where boxed lunches will be sold, it will merely be crowded at lunchtime; "lunches are sold at the cafeteria entrance" is wrong because the entrance only holds application forms and sales happen in the second-floor break room; "construction lasts until the 20th" is wrong — the work runs from the 1st to the 10th of next month.',
       },
     ],
   },
@@ -145,6 +157,8 @@ export const questions: JlptQuestion[] = [
         answerIndex: 0,
         explanation:
           '依據「始めたきっかけは、健康診断で運動不足だと言われたことだ」，開始走路的契機是健檢被說運動不足。「仕事の順番を考える時間がほしかった」錯，思考工作順序是持續之後才「気がついた」的好處，不是起因；「会社が駅から二十分かかる」錯，二十分鐘是他刻意提前一站下車走的路程；「すぐ仕事が始められなかった」文中沒有這樣說，那只是走路帶來的改善結果的反面推測。',
+        explanationEn:
+          'The passage says 「始めたきっかけは、健康診断で運動不足だと言われたことだ」 — the trigger was being told at a health checkup that he lacked exercise. "Wanted time to plan the day\'s tasks" is wrong: thinking through the work order is a benefit he only noticed after continuing, not the starting reason; "the office is a twenty-minute walk from the station" is wrong because the twenty minutes comes from deliberately getting off one stop early; "could not start work right away" is never stated — it is merely a back-formed guess from the improvement walking brought.',
       },
       {
         id: 'n3-reading-tanbun-006-q2',
@@ -158,6 +172,8 @@ export const questions: JlptQuestion[] = [
         answerIndex: 0,
         explanation:
           '文末「今では頭の準備の時間として続けている」點明現在持續走路是為了在上班前整理思緒。「運動不足を直すためだけ」錯在「だけ」，運動確實是最初目的，但筆者明說現在的定位已經變成頭腦的準備時間；「健康診断を受けるため」錯，健檢只是當初的契機；「電車に乗る時間を短くするため」錯，提前一站下車反而是多花時間走路。',
+        explanationEn:
+          'The closing line 「今では頭の準備の時間として続けている」 makes clear that the writer now keeps walking to get his mind ready before work. "Only to fix his lack of exercise" fails on "only": exercise was indeed the original goal, but the writer explicitly reframes the habit as mental preparation time; "to take a health checkup" is wrong because the checkup was merely the initial trigger; "to shorten the train ride" is wrong since getting off one stop early actually costs extra time walking.',
       },
     ],
   },

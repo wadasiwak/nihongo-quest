@@ -20,6 +20,8 @@ export const questions: JlptQuestion[] = [
         answerIndex: 0,
         explanation:
           '因果在第二段：因病一週動彈不得，事後發現消失的預定大多「なくても特に困らない」，真正必要的其實極少——這個發現直接引出「それ以来」的新習慣。選項2 是筆者「以前」的想法，且已被後文推翻；選項3 借用文中「急な仕事」一詞，但文章說的是空白日讓人不慌張，不是預定寫不下；選項4 文中並沒有「每週必休」的說法。',
+        explanationEn:
+          'The cause is in the second paragraph: a week of illness wiped out his plans, and afterward he realized most of the cancelled ones were 「なくても特に困らない」 — the truly necessary plans were very few. This discovery directly triggers the new habit introduced by 「それ以来」. Option 2 is the writer\'s former belief, later overturned; option 3 borrows the phrase 「急な仕事」, but the passage says empty days keep him from panicking, not that his planner ran out of space; option 4\'s "must rest every week" appears nowhere in the text.',
       },
       {
         id: 'n2-reading-chubun-001-q2',
@@ -33,6 +35,8 @@ export const questions: JlptQuestion[] = [
         answerIndex: 0,
         explanation:
           '第三段先具體說明空白日的好處——「急な仕事が入っても慌てずにすむ」「ゆっくり考える余裕も生まれる」，接著才總結為「生活を支えるクッション」，故緩衝的內容就是這兩點。選項2 把契機（生病）誤當成空白日的用途；選項3「準備」是文中沒有的說法；選項4 恰好相反，筆者主張不要靠「埋まった手帳」來安心，更不是看空白來安心。',
+        explanationEn:
+          'The third paragraph first spells out the concrete benefits — 「急な仕事が入っても慌てずにすむ」 and 「ゆっくり考える余裕も生まれる」 — and only then sums them up as a cushion supporting daily life, so those two points are what the metaphor means. Option 2 mistakes the trigger (falling ill) for the purpose of the empty days; the "preparation" in option 3 appears nowhere; option 4 is backwards — the writer warns against seeking reassurance from the planner, whether filled or blank.',
       },
       {
         id: 'n2-reading-chubun-001-q3',
@@ -46,6 +50,8 @@ export const questions: JlptQuestion[] = [
         answerIndex: 0,
         explanation:
           '主旨在末段：「空白もまた大切な『予定』の一つなのだと、今の私は考えている」。選項2 正好被「忙しいことそのものが悪いと言いたいわけではない」否定；選項3 是筆者「以前」的信念，文章整體正是在推翻它；選項4 文中只說空白日讓人面對急事不慌張，從未主張要拒絕急事。',
+        explanationEn:
+          'The main point is in the final paragraph: 「空白もまた大切な『予定』の一つなのだと、今の私は考えている」. Option 2 is expressly denied by 「忙しいことそのものが悪いと言いたいわけではない」; option 3 is the writer\'s former belief, which the whole essay works to overturn; option 4 goes beyond the text — empty days merely let one handle sudden work calmly, and refusing such work is never advocated.',
       },
     ],
   },
@@ -68,6 +74,8 @@ export const questions: JlptQuestion[] = [
         answerIndex: 0,
         explanation:
           '第二段的邏輯：店主只擺「自分が本当にすすめたい本」，並靠「何を置かないか」的取捨造出獨一無二的書架，「〜ことによって」明示了因果。選項2 與文中「品ぞろえの豊富さでは大型店にはとてもかなわない」矛盾；選項3 正是被「売れそうな本を並べるのではなく」否定的做法；選項4 手寫卡片是介紹書的內容，與價格無關，且末段也說強項「安さでも速さでもなく」。',
+        explanationEn:
+          'The logic of the second paragraph: the owner stocks only books he truly wants to recommend, and by deciding 「何を置かないか」 he creates shelves found nowhere else — 「〜ことによって」 marks the cause explicitly. Option 2 contradicts 「品ぞろえの豊富さでは、大型店にはとてもかなわない」; option 3 is precisely what the text denies with 「売れそうな本を並べるのではなく」; option 4 ties the handwritten cards to price, but the cards describe what moved the owner, and the ending also says the strength is 「安さでも速さでもなく」.',
       },
       {
         id: 'n2-reading-chubun-002-q2',
@@ -81,6 +89,8 @@ export const questions: JlptQuestion[] = [
         answerIndex: 0,
         explanation:
           '第三段「検索すれば目当ての本がすぐ手に入る時代だからこそ〜かえって貴重に感じられる」，「だからこそ」直接標出原因：正因目標明確的書唾手可得，計畫外的相遇才顯得珍貴。選項2 借用開頭「年々減り続けている」，但那是書店的處境，不是讀者心境變化的原因；選項3 文中做「検索」的是客人不是店主；選項4 通販費時一事文中完全沒提。',
+        explanationEn:
+          'The third paragraph says 「検索すれば目当ての本がすぐ手に入る時代だからこそ〜かえって貴重に感じられる」 — 「だからこそ」 marks the reason: precisely because a targeted book is instantly obtainable, unplanned encounters feel all the more precious. Option 2 borrows the opening\'s 「年々減り続けている」, but that describes the bookstores\' plight, not the change in readers\' feelings; in option 3 the one who searches is the customer, not the owner; option 4\'s slow mail-order delivery is never mentioned.',
       },
       {
         id: 'n2-reading-chubun-002-q3',
@@ -94,6 +104,8 @@ export const questions: JlptQuestion[] = [
         answerIndex: 0,
         explanation:
           '結論在末段「つまり」之後：小書店的強項是透過店主這個「人」與書相遇，那是「効率では測れない価値」。選項2 與「品ぞろえではかなわない」的前提相反，文章主張的是靠取捨取勝；選項3 恰與「安さでも速さでもなく」矛盾；選項4 只重複開頭的背景描述，忽略了文章重心——即使如此仍有客人不斷上門的書店及其價值。',
+        explanationEn:
+          'The conclusion follows 「つまり」 in the last paragraph: the small bookstore\'s strength is encountering books through the owner as a person — a value 「効率では測れない」. Option 2 contradicts the premise that small shops cannot compete on selection; the essay argues they win by curation instead; option 3 clashes head-on with 「安さでも速さでもなく」; option 4 merely repeats the opening background and misses the essay\'s focus — that such shops still keep drawing customers, and why.',
       },
     ],
   },
@@ -116,6 +128,8 @@ export const questions: JlptQuestion[] = [
         answerIndex: 0,
         explanation:
           '「代償」的內容緊接在後：推薦來的總是「『今までの自分』に似た作品ばかり」，於是「自分の世界が同じような作品だけで固められていく」——便利換來的是世界變窄。選項2 借用「分析」一詞，但文章談的是喜好被固定，不是個資外洩；選項3 方向相反，推薦機能反而讓「外れ」變少；選項4 費用問題文中完全沒有提到。',
+        explanationEn:
+          'The cost is spelled out right after the phrase: the recommendations are always works resembling 「今までの自分」, so that 「自分の世界が同じような作品だけで固められていく」 — convenience narrows one\'s world without one noticing. Option 2 borrows the word "analyzed," but the passage is about tastes being fixed, not personal data leaking out; option 3 points the wrong way — the feature makes misses fewer, not more; option 4\'s rising fees are never mentioned at all.',
       },
       {
         id: 'n2-reading-chubun-003-q2',
@@ -129,6 +143,8 @@ export const questions: JlptQuestion[] = [
         answerIndex: 0,
         explanation:
           '主張在末段：「たまには機能の外に出て、すすめられていない作品をあえて選んでみてはどうだろうか」，因為看似繞遠路反而能拓寬世界。選項2 被「機能を使うなと言いたいわけではない」明確否定；選項3 與筆者立場相反——「外れ」中可能發現新喜好，正是「無駄に見える回り道」的價值；選項4 文中反而說分析越來越精準（外れが少なくなっていく），並未質疑其準確度。',
+        explanationEn:
+          'The claim is in the final paragraph: 「たまには機能の外に出て、すすめられていない作品をあえて選んでみてはどうだろうか」, because the seemingly wasteful detour may broaden one\'s world. Option 2 is explicitly rejected by 「機能を使うなと言いたいわけではない」; option 3 is the opposite of the writer\'s view — it is among the misses that new tastes can be discovered, the very value of the detour; option 4 misreads the text, which says the analysis keeps getting more accurate (misses decrease) and never doubts its precision.',
       },
     ],
   },

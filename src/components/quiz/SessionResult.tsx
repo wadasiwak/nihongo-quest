@@ -3,7 +3,7 @@
  * 另輸出 stemText/correctAnswerText/chosenAnswerText 給 MockResult 共用。
  */
 import type { LeafQuestion, SessionPlan } from '../../lib/session'
-import { t, useT } from '../../lib/i18n'
+import { pickExplanation, t, useT } from '../../lib/i18n'
 import type { ItemRecord } from './QuizSession'
 
 /** 題幹摘要（列表列用） */
@@ -73,7 +73,7 @@ export function SessionResult({ plan, records, onExit }: SessionResultProps) {
                   <p>
                     {T.correctAnswerLabel}<span lang="ja">{correctAnswerText(q)}</span>
                   </p>
-                  {q.explanation && <p className="qz-explain-text">{q.explanation}</p>}
+                  {q.explanation && <p className="qz-explain-text">{pickExplanation(q)}</p>}
                 </div>
               </details>
             </li>

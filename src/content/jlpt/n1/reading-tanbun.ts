@@ -20,6 +20,8 @@ export const questions: JlptQuestion[] = [
         answerIndex: 0,
         explanation:
           '筆者說「新しい発想は…寄り道や一見無意味な試行の中から生まれる」，並警告全盤否定無駄形同切除未來的可能性，故正解是「看似無用之處藏有新發想的空間」。「やめさえすれば回復する」是文中沒有的過度推論；筆者也承認效率化能確保短期成果，並未主張拋棄成果主義；「刻意增加無用工作」更是把「不要全盤否定」曲解成反向操作。',
+        explanationEn:
+          'The author states 「新しい発想は…寄り道や一見無意味な試行の中から生まれる」 and warns that rejecting all waste borders on cutting off future possibilities, so the correct option — seemingly useless activity is precisely where new ideas can arise — matches. The claim that creativity recovers on its own 「やめさえすれば」 is an over-inference absent from the text; the author concedes that efficiency secures short-term results and never argues for abandoning results-oriented management; and deliberately increasing useless work twists the point (do not reject waste wholesale) into its opposite.',
       },
     ],
   },
@@ -43,6 +45,8 @@ export const questions: JlptQuestion[] = [
         answerIndex: 0,
         explanation:
           '文書主旨在「製品価格を…改定させていただきたく」與「ご了承賜りますよう」，即告知漲價並請求諒解。「経営努力の成果を示す」錯在文中提到自助努力是為了鋪陳不得已，而非宣傳成果；「取引を見直す」是文中完全沒有的威脅性過度推論；「生産工程の見直し」是弊社自己做的事，選項偷換成要求對方去做。',
+        explanationEn:
+          'The letter\'s point lies in 「製品価格を…改定させていただきたく」 and 「ご了承賜りますよう」: announcing a price increase and asking the client for understanding. The option about showing 「経営努力の成果」 is wrong because the self-help efforts are mentioned only to show the increase is unavoidable, not to advertise achievements; 「取引を見直す」 is a threatening over-inference found nowhere in the letter; and 「生産工程の見直し」 is something the writer\'s own company did — the option flips it into a request toward the client.',
       },
     ],
   },
@@ -65,6 +69,8 @@ export const questions: JlptQuestion[] = [
         answerIndex: 0,
         explanation:
           '關鍵句是「専門性の核心は…真偽や重みを見極め、文脈の中に位置づける判断力にある」，正解即其換句話說。「情報の独占」正是文中被否定的舊有形象（知識の独占はもはや成立しない）；「檢索より速く答えを示す」把文中「検索すれば即座に得られる」的敘述張冠李戴到專家身上；「排除し管理する」則是文中未提及的過度引申，筆者談的是判斷與選別，不是資訊管制。',
+        explanationEn:
+          'The key sentence is 「専門性の核心は…真偽や重みを見極め、文脈の中に位置づける判断力にある」, and the correct option is its paraphrase. 「情報の独占」 is precisely the old image the text rejects (「知識の独占はもはや成立しない」); the option about giving answers faster than a search misattributes to experts what the text says about searching (「検索すれば即座に得られる」); and 「排除し管理する」 is an over-extension never mentioned — the author speaks of judgment and selection, not information control.',
       },
     ],
   },
@@ -87,6 +93,8 @@ export const questions: JlptQuestion[] = [
         answerIndex: 0,
         explanation:
           '筆者明言「危ういのは…単純な図式こそが現実そのものだと思い込むとき」，故正解是把單純化的說明誤當成現實全貌。筆者說追求易懂「それ自体は結構なこと」，可知他並不反對易懂本身，「怠慢の表れ」是過度推論；「わかりやすさが失われる」方向完全相反；「複雑な説明が消える」則是文中沒有的擔憂，筆者擔心的是接收端的誤認，不是說明的消失。',
+        explanationEn:
+          'The author says outright 「危ういのは…単純な図式こそが現実そのものだと思い込むとき」, so the answer is mistaking a simplified explanation for the whole of reality. Since he calls the pursuit of clarity 「それ自体は結構なこと」, he does not oppose clarity itself, and 「怠慢の表れ」 is an over-inference; the option about clarity being lost points in the exact opposite direction; and worrying that 「複雑な説明が消える」 appears nowhere — the concern is the receiver\'s misperception, not the disappearance of explanations.',
       },
     ],
   },
@@ -109,6 +117,8 @@ export const questions: JlptQuestion[] = [
         answerIndex: 0,
         explanation:
           '前句說「道具は…楽になった分をどう使うかまでは決めてくれない」，因此「預けた側の設計」指的是人自己規劃如何運用多出來的餘裕。「頭で覚える習慣に戻る」是把筆者的問題意識曲解成否定外部化本身的過度推論；「預ける量を減らす」文中未提；「判断も機械に任せる」則與「道具は決めてくれない」的主張正面牴觸。',
+        explanationEn:
+          'The preceding sentence says 「道具は…楽になった分をどう使うかまでは決めてくれない」, so 「預けた側の設計」 means that humans themselves must decide how to use the leeway the tools create. 「頭で覚える習慣に戻る」 over-reads the author\'s concern as a rejection of outsourcing memory itself; reducing the amount entrusted to machines is never mentioned; and 「判断も機械に任せる」 directly contradicts the claim that 「道具は決めてくれない」.',
       },
       {
         id: 'n1-reading-tanbun-005-q2',
@@ -122,6 +132,8 @@ export const questions: JlptQuestion[] = [
         answerIndex: 0,
         explanation:
           '文中說空出的容量被新資訊佔據，「じっくり考える時間はかえって減ったように思える」，可見交給機器不保證思考時間增加，正解與此相符。「思考力そのものが失われた」把「時間減少的印象」誇大成能力喪失；「必ず浪費へ変える」與「実りにするか浪費にするかは設計次第」矛盾；「遮断しさえすれば」是文中沒有的條件式過度推論。',
+        explanationEn:
+          'The passage says the freed-up capacity is taken over by incoming information and 「じっくり考える時間はかえって減ったように思える」, so entrusting memory to machines does not guarantee more time for careful thought — exactly what the correct option says. 「思考力そのものが失われた」 inflates an impression about time into a loss of ability; 「必ず浪費へ変える」 contradicts the idea that whether progress becomes fruit or waste depends on our own design; and the conditional 「遮断しさえすれば」 is an over-inference the text never makes.',
       },
     ],
   },
@@ -145,6 +157,8 @@ export const questions: JlptQuestion[] = [
         answerIndex: 0,
         explanation:
           '通知指出「部署間の連携の遅れや、新入社員の育成機会の不足といった課題も報告されています」，接著以「つきましては」導出變更，故理由是連攜與育成上的課題。「軽減という成果が得られなかった」與「一定の成果があった」相反；「段階的に廃止」被「縮小を目的とするものではなく」明確否定，是典型的過度推論；「社員からの要望」文中完全沒有提及。',
+        explanationEn:
+          'The notice reports 「部署間の連携の遅れや、新入社員の育成機会の不足といった課題も報告されています」 and then introduces the change with 「つきましては」, so the reason is these problems with coordination and training. Saying the commuting-burden benefit 「得られなかった」 contradicts 「一定の成果があった」; 「段階的に廃止」 is explicitly denied by 「縮小を目的とするものではなく」, a classic over-inference; and a request from employees is never mentioned anywhere.',
       },
       {
         id: 'n1-reading-tanbun-006-q2',
@@ -158,6 +172,8 @@ export const questions: JlptQuestion[] = [
         answerIndex: 0,
         explanation:
           '通知末尾明確指示「各部署は出社日の業務計画を十月末日までに総務部へ提出してください」，正解照此。「在宅勤務を週二日以内に減らす」偷換了數字的對象——週二日是「全員出社日」，不是在宅上限；「育成計画を協議する」把課題描述誤讀成指示事項；「通勤負担の報告書」則是借用文中字眼拼湊出的不存在要求。',
+        explanationEn:
+          'The notice ends with the explicit instruction 「各部署は出社日の業務計画を十月末日までに総務部へ提出してください」, which the correct option restates. Cutting telework to two days or fewer swaps what the number applies to — the two days are 「全員出社日」, mandatory office days, not a telework cap; drafting and discussing a training plan misreads the description of problems as an instruction; and a report on commuting burdens is a nonexistent requirement stitched together from words in the text.',
       },
     ],
   },
@@ -180,6 +196,8 @@ export const questions: JlptQuestion[] = [
         answerIndex: 0,
         explanation:
           '筆者主張「議論の質を左右しているのは…問いの立て方のほう」，結尾並呼籲養成懷疑「何に答えようとしているのか」的習慣，正解即此意。「優れた答えを重ねれば議論は深まる」與「浅い場所を掘り続けることにしかならない」正面牴觸；「答える訓練は必要ない」把「相較之下缺乏問的訓練」誇大成否定答的訓練，是過度推論；「制度を改めるべきだ」則是文中沒有的具體處方，筆者談的是思考習慣而非評價制度。',
+        explanationEn:
+          'The author argues 「議論の質を左右しているのは…問いの立て方のほう」 and closes by urging the habit of doubting 「何に答えようとしているのか」, which is exactly what the correct option says. Claiming that piling up good answers will deepen the discussion collides head-on with 「浅い場所を掘り続けることにしかならない」; saying answer training is no longer needed inflates the point that we lack training in questioning by comparison; and 「制度を改めるべきだ」 is a concrete prescription the text never makes — the author discusses habits of thought, not evaluation systems.',
       },
     ],
   },
@@ -203,6 +221,8 @@ export const questions: JlptQuestion[] = [
         answerIndex: 0,
         explanation:
           '主旨在「納期を十日程度延期させていただきたく、お詫びかたがたお願い申し上げます」，即為延期道歉並請求諒解。「確定した新しい納期を伝える」錯在文中明說確定納期要「来週半ばには…ご連絡できる見込み」，尚未確定；「自社の責任ではない」是文中沒有的卸責說法，全文反而一再致歉；「費用の負担を依頼」則是借「代替生産」字眼拼湊的過度推論，文中未提任何費用。',
+        explanationEn:
+          'The point is 「納期を十日程度延期させていただきたく、お詫びかたがたお願い申し上げます」: apologizing for the delay and asking for understanding. Conveying a confirmed new date is wrong because the letter says the firm date is still only 「来週半ばには…ご連絡できる見込み」 — not yet fixed; 「自社の責任ではない」 is a deflection found nowhere in the text, which instead apologizes repeatedly; and asking the client to bear costs is an over-inference built from the phrase 「代替生産」 — no costs are mentioned at all.',
       },
     ],
   },
@@ -225,6 +245,8 @@ export const questions: JlptQuestion[] = [
         answerIndex: 0,
         explanation:
           '筆者說言語化「経験を損なう行為であると同時に、経験を所有し直す行為でもある」，並以「それでも語る」「その往復にしか…道はない」作結，正解完整對應這個兩面性。「語らないほうが誠実」正是文中被「そうでもない」否定的立場；「技術を磨けば少しも損なわず伝えられる」與開頭「何かがこぼれ落ちる」的前提矛盾；「共有できない経験は価値を持たない」則是把共有的效用誇大成價值判準的過度推論。',
+        explanationEn:
+          'The author calls verbalization 「経験を損なう行為であると同時に、経験を所有し直す行為でもある」 and concludes with 「それでも語る」 and 「その往復にしか…道はない」 — the correct option captures both sides of this. 「語らないほうが誠実」 is precisely the position the text rejects with 「そうでもない」; the idea that polishing technique lets you convey experience without any loss contradicts the opening premise 「何かがこぼれ落ちる」; and 「共有できない経験は価値を持たない」 over-extends the usefulness of sharing into a criterion of worth.',
       },
     ],
   },
@@ -247,6 +269,8 @@ export const questions: JlptQuestion[] = [
         answerIndex: 0,
         explanation:
           '關鍵句是「厄介なのは、指標がひとたび目標になると…実質から離れていくことである」，正解即其換句話說。「測ること自体が評価をゆがめる」被「問題の根は、測ること自体にはない」明確否定；「実質を映さない指標」誤讀了例子——閱覽數與分數本來是能映照實質的窗，是追逐行為使其失真；「指標を増やせば現実を映せる」則是文中完全沒有的解方，屬過度推論。',
+        explanationEn:
+          'The key sentence is 「厄介なのは、指標がひとたび目標になると…実質から離れていくことである」, and the correct option paraphrases it. The claim that measuring itself distorts evaluation is flatly denied by 「問題の根は、測ること自体にはない」; 「実質を映さない指標」 misreads the examples — view counts and test scores are windows that can reflect substance, and it is the chasing of them that corrupts behavior; and adding more indicators to capture reality is a remedy the text never proposes, a pure over-inference.',
       },
     ],
   },
@@ -269,6 +293,8 @@ export const questions: JlptQuestion[] = [
         answerIndex: 0,
         explanation:
           '前句是「手本をなぞるうちに、なぞりきれない部分が必ず残る」，「その残余」即指這個怎麼描也描不全的部分，筆者稱之為個人固有之物的芽。「誰にも模倣されたことのない部分」把主語從學習者偷換成手本本身；「模倣をやめた後の印象」與文意相反——殘餘是在持續模仿中浮現的，不是放棄模仿後的殘像；「省略された練習」則是借「修業」字眼虛構的內容。',
+        explanationEn:
+          'The preceding sentence reads 「手本をなぞるうちに、なぞりきれない部分が必ず残る」, so 「その残余」 refers to the part that cannot be fully traced no matter how faithfully one copies the model — what the author calls the seed of one\'s own uniqueness. 「誰にも模倣されたことのない部分」 swaps the subject from the learner to the model itself; an impression lingering after one stops imitating reverses the logic, since the residue emerges through continued imitation, not after abandoning it; and 「省略された練習」 is content invented from the word 「修業」.',
       },
       {
         id: 'n1-reading-tanbun-011-q2',
@@ -282,6 +308,8 @@ export const questions: JlptQuestion[] = [
         answerIndex: 0,
         explanation:
           '「独創とは、模倣の放棄からではなく、模倣の果てに現れる」「似ることを恐れる必要はない」二句直接支持正解。「最初から自分の型を作らせるべき」正是被畑の比喩批判的做法；「模倣を続ける限り固有のものは生まれない」與主旨完全相反；「独創性を求めること自体をやめるべき」是過度推論——筆者批判的是排斥模仿的教法，並未否定追求獨創這個目標。',
+        explanationEn:
+          'The sentences 「独創とは、模倣の放棄からではなく、模倣の果てに現れる」 and 「似ることを恐れる必要はない」 directly support the correct option. Making students build their own style from the start is exactly what the field metaphor criticizes; the claim that nothing of one\'s own can emerge as long as one keeps imitating is the exact opposite of the thesis; and saying schools should stop demanding originality altogether is an over-inference — the author criticizes teaching that rejects imitation, not the goal of originality itself.',
       },
     ],
   },
@@ -305,6 +333,8 @@ export const questions: JlptQuestion[] = [
         answerIndex: 0,
         explanation:
           '核心句是「来年三月末日をもちまして修理の受付を終了させていただきます」，通知的主旨即修理受理的終止。「製造と販売を終了」偷換了終止的對象——Ｈ系列本來就是二〇一五年以前販售的舊產品，文中談的只有修理；「使用してはならない」被「使用自体を妨げるものではございません」明確否定；「無償で新型と交換」則是把「買い替えをご検討ください」的建議誇大成不存在的優惠。',
+        explanationEn:
+          'The core sentence is 「来年三月末日をもちまして修理の受付を終了させていただきます」 — what the notice announces is the end of repair acceptance. Ending 「製造と販売」 swaps the object: the H series consists of models sold before 2015 anyway, and the text speaks only of repairs; 「使用してはならない」 is explicitly denied by 「使用自体を妨げるものではございません」; and a free exchange for a new model inflates the mere suggestion 「買い替えをご検討ください」 into a nonexistent offer.',
       },
       {
         id: 'n1-reading-tanbun-012-q2',
@@ -318,6 +348,8 @@ export const questions: JlptQuestion[] = [
         answerIndex: 0,
         explanation:
           '末句「終了日までにお申し込みいただいた修理につきましては、従来どおり承ります」與正解一致。「十年未満なら四月以降も修理可」是似是而非的過度推論——「十年以上」只是建議買い替え的對象，修理受理是全面終止，與使用年數無關；「使用が禁止される」與「使用自体を妨げるものではございません」矛盾；「無料で引き取り」是文中完全沒有的服務。',
+        explanationEn:
+          'The final sentence 「終了日までにお申し込みいただいた修理につきましては、従来どおり承ります」 matches the correct option. The idea that units under ten years old can still be repaired after April is a plausible-sounding over-inference — 「十年以上」 only marks which units are advised for replacement, while repair acceptance ends across the board regardless of age; a ban on use contradicts 「使用自体を妨げるものではございません」; and free pickup of old units is a service the notice never mentions.',
       },
     ],
   },

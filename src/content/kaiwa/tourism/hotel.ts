@@ -275,6 +275,8 @@ export const scene: KaiwaScene = {
       answerIndex: 0,
       explanation:
         '「〜てもらえますか」用於請求對方為自己做事，拜託櫃檯代為保管行李時就用「預かってもらえますか」。「あげ」「さしあげ」是自己為別人做事的方向，用在請求句上方向相反；「しまい」來自「〜てしまう」，表示完了或遺憾，放進請求句語意不通。',
+      explanationEn:
+        '「〜てもらえますか」 asks someone to do something for you, so requesting the front desk to keep your luggage is 「預かってもらえますか」. 「あげ」 and 「さしあげ」 describe you doing a favor for someone else — the opposite direction for a request; 「しまい」 comes from 「〜てしまう」, which expresses completion or regret and makes no sense inside a request.',
     },
     {
       kind: 'choice',
@@ -284,6 +286,8 @@ export const scene: KaiwaScene = {
       answerIndex: 0,
       explanation:
         '熱水「出不來」的主語是お湯，要用自動詞「出る」的否定形「出ない」。「出さない」是他動詞「出す」的否定，變成「某人不放出熱水」，語意不合；「出しない」是不存在的活用形；「出られない」是可能形的否定，多用於人無法離開，也不合此處語境。',
+      explanationEn:
+        'The subject is the hot water itself, so you need the negative of the intransitive verb 「出る」: 「出ない」 — the water does not come out. 「出さない」 is the negative of the transitive 「出す」, meaning someone refuses to let the water out, which does not fit; 「出しない」 is not a real conjugation; and 「出られない」 is the negative potential, usually about a person being unable to leave, so it is also wrong here.',
     },
     {
       kind: 'choice',
@@ -293,6 +297,8 @@ export const scene: KaiwaScene = {
       answerIndex: 0,
       explanation:
         '「〜から〜まで」表示時間的起點與終點，「七時から十時まで」就是「從七點到十點」。「に」表示時間點、「で」表示期限或手段，都無法與後面的「まで」搭配表示起點；「まで」放在此處則與句尾的「まで」重複，整句語意不通。',
+      explanationEn:
+        '「〜から〜まで」 marks the start and end of a time span: 「七時から十時まで」 means "from seven to ten." 「に」 marks a single point in time and 「で」 marks a deadline or means, so neither can pair with the following 「まで」 to express a starting point; putting 「まで」 in the blank would duplicate the 「まで」 at the end and leave the sentence meaningless.',
     },
     {
       kind: 'choice',
@@ -302,6 +308,8 @@ export const scene: KaiwaScene = {
       answerIndex: 0,
       explanation:
         '可能形「使えます」表示「可以使用」，可能形的對象用助詞「が」，「カードが使えますか」是詢問能否刷卡的固定說法。「使います」是一般形，受詞須接「を」，與題幹的「が」不搭；「使られます」「使えれます」都是不存在的錯誤活用形。',
+      explanationEn:
+        'The potential form 「使えます」 means "can be used," and its object takes the particle 「が」— 「カードが使えますか」 is the standard way to ask whether cards are accepted. Plain 「使います」 would need its object marked with 「を」, clashing with the 「が」 in the stem; 「使られます」 and 「使えれます」 are both nonexistent, incorrect conjugations.',
     },
     {
       kind: 'order',
@@ -312,6 +320,8 @@ export const scene: KaiwaScene = {
       starIndex: 2,
       explanation:
         '正解語序是「朝食の 時間を 教えて いただけますか」。「朝食の」修飾「時間」必須緊接其前，「時間を」是「教えて」的受詞，句尾接表示客氣請求的「〜ていただけますか」。若把「教えて」放在「時間を」之前，受詞懸空、無法成句。★在第三格「教えて」。',
+      explanationEn:
+        'The correct order is 「朝食の 時間を 教えて いただけますか」 (could you tell me the breakfast hours?). 「朝食の」 modifies 「時間」 and must come right before it; 「時間を」 is the object of 「教えて」; and the polite request 「〜ていただけますか」 closes the sentence. If 「教えて」 came before 「時間を」, the object would be left dangling. The starred third slot is 「教えて」.',
     },
     {
       kind: 'order',
@@ -322,6 +332,8 @@ export const scene: KaiwaScene = {
       starIndex: 1,
       explanation:
         '正解語序是「チェックアウトの 時間に 遅れて しまいました」。「チェックアウトの」修飾「時間」，「時間に遅れる」是「沒趕上、遲了」的固定搭配，句尾「〜てしまいました」表達懊悔的語氣。「遅れて」若放句首，「時間に」便失去依附的述語，整句不成立。★在第二格「時間に」。',
+      explanationEn:
+        'The correct order is 「チェックアウトの 時間に 遅れて しまいました」 (I missed the checkout time). 「チェックアウトの」 modifies 「時間」; 「時間に遅れる」 is the set collocation for being late for a time; and 「〜てしまいました」 at the end conveys regret. If 「遅れて」 came first, 「時間に」 would have no predicate to attach to and the sentence would fall apart. The starred second slot is 「時間に」.',
     },
   ],
 }

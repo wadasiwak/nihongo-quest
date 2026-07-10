@@ -21,6 +21,8 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '老師開頭雖然肯定電子辭典的方便，但用「でも」轉折後大篇幅說明紙本辭典的好處，最後以「ぜひ紙の辞書も使ってみてください」收尾，主旨是鼓勵大家也用紙本辭典。「電子辞書は持ち運びに便利だ」只是開頭提到的細節，並非說話者最想表達的事；「もう使わなくてもいい」與結論完全相反。',
+    explanationEn:
+      'The teacher briefly praises electronic dictionaries, but pivots with 「でも」 to explain at length the merits of paper dictionaries — nearby words catch your eye, and words found by hand stick in memory — and closes with 「ぜひ紙の辞書も使ってみてください」. His main point is encouraging students to try paper dictionaries too. The convenience of electronic dictionaries is only an opening detail, and saying paper dictionaries are no longer needed is the exact opposite of his conclusion.',
   },
   {
     id: 'n3-listening-gaiyo-002',
@@ -42,6 +44,8 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '留言的核心請求是「待ち合わせを七時に変えてもらえないかな」，也就是希望把碰面時間從六點改成七點，故正解是想更改約定時間。「会議が長引きそうだ」只是改時間的理由、「場所は駅前」只是附帶說明，都是細節而非主旨；「映画に行けなくなった」則說得太過，她只是想延後一小時，並沒有取消。',
+    explanationEn:
+      'The core request of the voicemail is 「待ち合わせを七時に変えてもらえないかな」 — she wants to move the meeting time from six to seven. The meeting running long is only her reason for the change, and the station-front location is just a supporting note, so both are details rather than the main point; saying she can no longer go to the movie overstates it, since she only wants to push things back an hour, not cancel.',
   },
   {
     id: 'n3-listening-gaiyo-003',
@@ -63,6 +67,8 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '部長從電費變高說起，接著具體要求「離開房間關燈」「冷氣設二十八度」，最後說「一人一人の協力をお願いします」，整段話的目的是請大家配合省電。「暑い日が続いている」只是電費變高的背景原因之一，屬於細節；「予約制」「エアコンを新しくする」在獨白中根本沒有提出，皆非主旨。',
+    explanationEn:
+      'The manager starts from the higher electricity bill, gives concrete instructions — turn off the lights when leaving a room, set the air conditioner to 28 degrees — and finishes with 「一人一人の協力をお願いします」, so the whole speech is a request for everyone to help save electricity. The string of hot days is just background for the higher bill; a reservation system for meeting rooms and replacing the air conditioners are never proposed anywhere in the talk.',
   },
   {
     id: 'n3-listening-gaiyo-004',
@@ -84,6 +90,8 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '播音員依序介紹新圖書館「開到晚上十點」「附設咖啡廳」「自習室免費但需預約」，並在最後邀請聽眾去看看，整段是在介紹新圖書館的便利服務。「カフェ」「予約」都只是介紹中的一項細節，並不是整段話的主題；獨白只提到圖書館位於車站南口，並沒有說明怎麼去，「行き方」不成立。',
+    explanationEn:
+      'The announcer introduces the new library\'s features one by one — open until 10 p.m., a cafe on the first floor, a free study room that requires online reservation — and ends by inviting listeners to visit, so the topic is the convenient services of the new library. The cafe and the reservation system are each only one detail within that introduction; and although the library is said to be at the station\'s south exit, no directions for getting there are ever given, so that option fails.',
   },
   {
     id: 'n3-listening-gaiyo-005',
@@ -105,6 +113,8 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '老師先肯定打工的好處，再用「ただ」帶出打工過度影響課業的問題，最後點明「勉強を第一に考えて、無理のない範囲で働いてください」，主旨是課業優先、打工適度。「日本語の練習になる」「週二十八時間まで」都是獨白中出現的細節，不是結論；「しないほうがいい」則過度解讀，老師並沒有反對打工本身。',
+    explanationEn:
+      'The teacher first acknowledges the benefits of part-time work, then uses 「ただ」 to warn that overworking makes some students fall asleep in class or miss reports, and concludes with 「勉強を第一に考えて、無理のない範囲で働いてください」 — put studying first and work only within reason. The Japanese practice benefit and the 28-hour weekly limit are details along the way, not the conclusion; and advising students not to work at all overreads her, since she never opposes part-time jobs themselves.',
   },
   {
     id: 'n3-listening-gaiyo-006',
@@ -126,6 +136,8 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '醫師開頭就說重點是「時間の長さより、眠りの質」，之後舉出睡前滑手機、喝咖啡等壞習慣，最後總結「寝る前の習慣を見直すことから始めて」，主旨是改善睡前習慣。「スマホを見る」只是被舉出的一個例子，屬於細節；「眠る時間は長いほどいい」與醫師「長さより質」的主張相反；他也只說睡前不要喝咖啡，並非說咖啡本身有害。',
+    explanationEn:
+      'The doctor opens by saying what matters is 「時間の長さより、眠りの質」, lists bad pre-bed habits such as looking at a smartphone and drinking coffee or tea, and sums up with 「寝る前の習慣を見直すことから始めて」 — his main point is to rethink one\'s habits before bed. Smartphone use is just one example he gives; sleeping longer being better contradicts his quality-over-length claim; and he only warns against coffee right before bed, never says coffee itself is harmful.',
   },
   {
     id: 'n3-listening-gaiyo-007',
@@ -148,6 +160,8 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '社長用「ただ、一つだけ」把話題聚焦到「自分から元気に挨拶をすること」，並說明打招呼是建立信賴的第一步，最後還要大家從明天早上開始實行，主旨顯然是主動打招呼的重要性。「先輩が教えてくれる」「失敗してもいい」都是前段安撫新人的細節，不是他最想強調的事；「早く会社に来る」在獨白中完全沒有提到。',
+    explanationEn:
+      'The president narrows his message with 「ただ、一つだけ」 to 「自分から元気に挨拶をすること」, explains that greetings are the first step in building trust, and tells the new employees to start tomorrow morning by saying 「おはようございます」 first — so his key message is the importance of greeting people on your own initiative. Seniors teaching the job and it being fine to fail at first are reassuring details from the earlier part, and coming to work early is never mentioned at all.',
   },
   {
     id: 'n3-listening-gaiyo-008',
@@ -169,6 +183,8 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '老師用「でも」推翻「味噌最重要」的一般印象，明言「みそ汁の味は、だしで決まる」，並說不用高級味噌、只要仔細熬高湯就會好喝，課程也從熬高湯開始，主旨是高湯（だし）最關鍵。「高いみそ」「珍しい材料」是獨白中被否定的說法，正好與主旨相反；「短い時間で作る」則完全沒有被提到。',
+    explanationEn:
+      'The teacher overturns the common belief that the miso matters most, declaring 「みそ汁の味は、だしで決まる」 — the soup\'s flavor is decided by the dashi — and adds that carefully made stock alone makes it surprisingly delicious without expensive miso or rare ingredients; the lesson even begins with dashi practice. Expensive miso and unusual ingredients are exactly the ideas she rejects, the opposite of her point, and making it quickly is never mentioned.',
   },
   {
     id: 'n3-listening-gaiyo-009',
@@ -190,6 +206,8 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '這通留言的目的在最後一句：「ご都合のいい日を、お電話でお知らせください」，也就是請病人來電改約日期，故正解是希望對方回電更改預約。「医者が休む」是需要改期的原因、「水曜か金曜なら同じ時間」是可選方案，兩者都只是細節；「キャンセルになった」說得太重，牙科是請對方改期，並沒有取消預約。',
+    explanationEn:
+      'The purpose of the voicemail is in its final line: 「ご都合のいい日を、お電話でお知らせください」 — the patient is asked to call back and reschedule the appointment. The dentist being away on Tuesday is only the reason a change is needed, and Wednesday or Friday at the same time is just the proposed alternative, so both are details; saying the appointment was canceled goes too far, since the clinic is asking to reschedule, not canceling.',
   },
   {
     id: 'n3-listening-gaiyo-010',
@@ -211,5 +229,7 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '講者主張減少垃圾不必做大事，舉自備購物袋、不買過量為例，最後總結「一人一人が、今日からできる小さなことを続けていきましょう」，主旨是每個人持續做小事最重要。「約九百グラム」只是用來說明累積效果的數據細節；「マイバッグを持つ人が増えている」獨白並沒有這樣說；「町に任せたほうがいい」與呼籲個人行動的主旨相反。',
+    explanationEn:
+      'The speaker argues that reducing garbage does not require anything big — bringing your own shopping bag, buying only what you can eat — and concludes with 「一人一人が、今日からできる小さなことを続けていきましょう」, so her main point is that each person keeping up small habits is what matters. The 900-gram figure is merely a statistic used to show how small efforts add up; she never says more people are carrying their own bags; and leaving it to the town government contradicts her call for individual action.',
   },
 ]

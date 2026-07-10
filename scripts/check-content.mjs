@@ -49,6 +49,17 @@ function checkZhText(file, label, text, { min = 0, max = 250 } = {}) {
   if (text.length > max) warn(file, `${label} 超過 ${max} 字（${text.length}）`)
 }
 
+
+/** 選填英文詳解：有給就必須像英文且 ≥20 字元 */
+function checkEnText(file, label, text) {
+  if (text == null) return
+  if (typeof text !== 'string' || text.trim().length < 20) {
+    err(file, `${label} 過短（<20 字元）`)
+    return
+  }
+  if (!/[A-Za-z]{2}/.test(text)) err(file, `${label} 不含英文字母，不像英文`)
+}
+
 function checkOptions(file, qid, options, expected) {
   if (!Array.isArray(options) || options.length !== expected) {
     err(file, `${qid} options 應恰 ${expected} 個`)
@@ -93,6 +104,7 @@ function checkChoice(file, q, unit, idRe) {
       err(file, `${q.id} 漢字読み選項必須全假名`)
   }
   checkZhText(file, `${q.id} explanation`, q.explanation, { min: 40 })
+  checkEnText(file, `${q.id} explanationEn`, q.explanationEn)
 }
 
 function checkOrder(file, q, unit, idRe) {
@@ -107,6 +119,7 @@ function checkOrder(file, q, unit, idRe) {
   if (typeof q.before !== 'string' || typeof q.after !== 'string') err(file, `${q.id} before/after 缺漏`)
   else if (!q.before.trim() && !q.after.trim()) err(file, `${q.id} before/after 至少一個非空`)
   checkZhText(file, `${q.id} explanation`, q.explanation, { min: 40 })
+  checkEnText(file, `${q.id} explanationEn`, q.explanationEn)
 }
 
 function checkPassage(file, q, unit, idRe) {
@@ -142,6 +155,7 @@ function checkPassage(file, q, unit, idRe) {
     if (checkOptions(file, sub.id, sub.options, unit.optionCount))
       checkAnswerIndex(file, sub.id, sub.answerIndex, unit.optionCount)
     checkZhText(file, `${sub.id} explanation`, sub.explanation, { min: 40 })
+    checkEnText(file, `${sub.id} explanationEn`, sub.explanationEn)
   })
   return q.questions.length
 }
@@ -174,6 +188,7 @@ function checkListening(file, q, unit, idRe) {
   if (checkOptions(file, q.id, q.options, unit.optionCount))
     checkAnswerIndex(file, q.id, q.answerIndex, unit.optionCount)
   checkZhText(file, `${q.id} explanation`, q.explanation, { min: 40 })
+  checkEnText(file, `${q.id} explanationEn`, q.explanationEn)
 }
 
 /** 驗一個 JLPT 單元檔；回傳小題數（passage 展開計） */

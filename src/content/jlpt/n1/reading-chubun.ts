@@ -20,6 +20,8 @@ export const questions: JlptQuestion[] = [
         answerIndex: 0,
         explanation:
           '第一段明言陷阱在於「専門家の判断は…領域の外側で何が起きるかまでは視野に入っていない」，即專家判斷只在自己領域內最佳化。「隱藏數據」是文中完全沒有提到的過度推論；「常識比專門知識更正確」則偷換了筆者「兩者互補」的立場。',
+        explanationEn:
+          'The first paragraph states the pitfall plainly: 「専門家の判断は…領域の外側で何が起きるかまでは視野に入っていない」 — expert judgment is optimized only within its own field and tends not to see effects beyond it. The option about experts hiding inconvenient data is an over-inference the text never makes, and the claim that common sense gives the right answer to every problem swaps out the author\'s actual position that the two are complementary.',
       },
       {
         id: 'n1-reading-chubun-001-q2',
@@ -33,6 +35,8 @@ export const questions: JlptQuestion[] = [
         answerIndex: 0,
         explanation:
           '「こうした」承接前句的具體例：藥的療效可被專門知識證明，但服藥生活對日常造成的負擔「数値には表れにくい」，這正是數值無法呈現的部分。實驗數據恰好是「數值化」的東西，方向相反；「隱瞞副作用」是文中沒有的過度推論；費用總額其實可以數值化，也非文中所指。',
+        explanationEn:
+          '「こうした」 picks up the concrete example in the preceding sentence: a drug\'s efficacy can be proven by expertise, but the burden that a life of taking it imposes on the patient\'s daily routine 「数値には表れにくい」 — precisely what numbers fail to capture. Experimental data are exactly the quantified kind of thing, the opposite direction; concealed side effects are an over-inference absent from the text; and the total cost of treatment can in fact be quantified and is not what the phrase refers to.',
       },
       {
         id: 'n1-reading-chubun-001-q3',
@@ -46,6 +50,8 @@ export const questions: JlptQuestion[] = [
         answerIndex: 0,
         explanation:
           '末段點出「両者は本来補い合う関係にある」，並說「委ねる部分と自分の頭で判断する部分との線引き」是現代人被要求的知性作業。「只靠常識」被筆者以「だからといって…ではない」明確否定；「常識派不上用場」與「軽んじられがちだが…力だ」的評價相反。',
+        explanationEn:
+          'The final paragraph states 「両者は本来補い合う関係にある」 and calls drawing the line — 「委ねる部分と自分の頭で判断する部分との線引き」 — the intellectual task demanded of people today, which the correct option restates. Relying on common sense alone is explicitly rejected with 「だからといって…ではない」, and the claim that common sense is nearly useless contradicts the author\'s appraisal 「軽んじられがちだが…力だ」.',
       },
     ],
   },
@@ -68,6 +74,8 @@ export const questions: JlptQuestion[] = [
         answerIndex: 0,
         explanation:
           '「この二分法」指涉前句「都市を人工の極、自然をその対極と見なし」的想法，即把都市與自然當成兩極對立。「原生林與里山的區別」是第二段才出現的素材，被挪來偷換指涉對象；「癒やし」「郊外」等詞雖在文中出現，但都不是「二分法」一詞所指的內容。',
+        explanationEn:
+          '「この二分法」 points back to the idea in the preceding sentence, 「都市を人工の極、自然をその対極と見なし」 — treating city and nature as opposite poles. The distinction between virgin forest and satoyama is material that only appears in the second paragraph, borrowed here to swap the referent; words like 「癒やし」 and 「郊外」 do occur in the text, but neither is what the term 「二分法」 refers to.',
       },
       {
         id: 'n1-reading-chubun-002-q2',
@@ -81,6 +89,8 @@ export const questions: JlptQuestion[] = [
         answerIndex: 0,
         explanation:
           '第二段以里山、田園為例，說明人們心中的「自然」其實是「人が手を入れ続けた結果の景観」，因此「純粋な自然」只是與自然疏離的人隔著距離抱持的幻想。「原生林已消滅」是文中未述的過度推論——筆者只說想像中的風景「多くは原生林ではない」；「只透過影像認識自然」也是文外捏造。',
+        explanationEn:
+          'Using satoyama and farmland as examples, the second paragraph shows that the "nature" people picture is really 「人が手を入れ続けた結果の景観」 — a landscape shaped by continuous human intervention — so 「純粋な自然」 is an illusion held at a distance by those cut off from nature. The claim that virgin forests have already vanished is an over-inference the text never makes; the author only says the imagined scenery 「多くは原生林ではない」. Knowing nature only through photos and video is likewise fabricated from outside the text.',
       },
       {
         id: 'n1-reading-chubun-002-q3',
@@ -94,6 +104,8 @@ export const questions: JlptQuestion[] = [
         answerIndex: 0,
         explanation:
           '末段主張「必要なのは…逃げることではなく、自分の足元で両者がどう絡み合っているかに目を向けること」，並稱重整與都市中自然的相處方式是超越二分法的第一步。「更常去郊外」正是被否定的「逃げる」發想；「都市排除自然」與第三段「排除して成立しているのではなく」直接矛盾；「里山無造訪價值」是筆者未下的過度推論。',
+        explanationEn:
+          'The final paragraph argues 「必要なのは…逃げることではなく、自分の足元で両者がどう絡み合っているかに目を向けること」 and calls consciously rebuilding one\'s relationship with nature inside the city the first step beyond the dichotomy. Going to the suburbs even more often is precisely the rejected idea of 「逃げる」; saying the city excludes nature directly contradicts 「排除して成立しているのではなく」 in the third paragraph; and declaring satoyama not worth visiting is an over-inference the author never draws.',
       },
     ],
   },
@@ -116,6 +128,8 @@ export const questions: JlptQuestion[] = [
         answerIndex: 0,
         explanation:
           '第二段的邏輯是：外部化古已有之，而人類把從記憶中解放出來的力量「考えることや新しいものを生み出すことに振り向けてきた」，所以是力量的重新分配而非衰退。「機器記得更準」文中未作為理由；「批判被證明是錯的」是過度推論——筆者只說「批判があったと伝えられる」，並未說它已被證偽。',
+        explanationEn:
+          'The logic of the second paragraph is that externalizing memory is nothing new, and humans have redirected the capacity freed from memorizing — 「考えることや新しいものを生み出すことに振り向けてきた」 — hence a redistribution of powers, not a decline. That machines remember more accurately is never given as the reason; and saying the old criticism was proven wrong is an over-inference — the author only reports 「批判があったと伝えられる」 and never claims it was refuted.',
       },
       {
         id: 'n1-reading-chubun-003-q2',
@@ -129,6 +143,8 @@ export const questions: JlptQuestion[] = [
         answerIndex: 0,
         explanation:
           '第三段指出問題「外部化の中身ではなく、預けたきりで引き出さなくなること」，並以「預けることと委ねきることとは違う」總結，正解正是這條界線。「恢復背誦訓練」是文中沒有的過度推論；「不再需要把知識放進腦中」把「知識は頭の外にあってもよい」推過了頭——筆者仍要求喚出、組合知識的營為；「只有機器會使能力衰退」與筆者將機器與文字、印刷術同列的論旨相反。',
+        explanationEn:
+          'The third paragraph locates the problem in 「外部化の中身ではなく、預けたきりで引き出さなくなること」 and sums it up with 「預けることと委ねきることとは違う」 — the correct option is exactly this dividing line. Reviving rote memorization at school is an over-inference not in the text; "no longer needing knowledge in one\'s head" pushes 「知識は頭の外にあってもよい」 too far, since the author still demands the work of recalling and combining it; and "only devices cause decline" runs against the thesis that places devices in the same line as writing and printing.',
       },
     ],
   },
@@ -151,6 +167,8 @@ export const questions: JlptQuestion[] = [
         answerIndex: 0,
         explanation:
           '筆者承認翻譯是「原理的に不可能なことへの挑戦」（有失去的一面），但第二段接著指出翻譯是「徹底した読解と創造の往復」、名譯甚至照亮原文新魅力——只數損失就是只看到一半。「能完全再現相同體驗」與首段「再現することはできない」直接矛盾；「味わいは失われない」偷換了筆者以「確かに」承認的前提；「複製技術進步」是文中全無的概念。',
+        explanationEn:
+          'The author concedes that translation is 「原理的に不可能なことへの挑戦」 — something is indeed lost — but the second paragraph then shows it is 「徹底した読解と創造の往復」, and a fine translation can even illuminate new charms in the original; counting only the losses therefore sees just half of the enterprise. Claiming the same experience can be fully reproduced directly contradicts 「再現することはできない」 in the opening; saying the original\'s flavor is never lost swaps out the very premise the author concedes with 「確かに」; and advances in copying technology are a notion entirely absent from the text.',
       },
       {
         id: 'n1-reading-chubun-004-q2',
@@ -164,6 +182,8 @@ export const questions: JlptQuestion[] = [
         answerIndex: 0,
         explanation:
           '第二段明言翻譯者不是機械式替換字詞，而是深讀原文後「釣り合う表現を探し出してくる」，即「徹底した読解と創造の往復」。「機械的に置き換える」正是被「〜のではない」否定的說法；「改造成比原文更優秀的作品」是把「新しい魅力を照らし出す」推過頭的過度推論；「消除語言差異、造出共通語」則偷換了「橋を架ける」的比喻——架橋是連結兩岸，不是把兩岸合而為一。',
+        explanationEn:
+          'The second paragraph states that translators do not mechanically substitute word for word; after reading the original more deeply than anyone, they 「釣り合う表現を探し出してくる」 — the enterprise the author calls 「徹底した読解と創造の往復」. 「機械的に置き換える」 is precisely what is denied with 「〜のではない」; remaking the work into something better than the original over-extends 「新しい魅力を照らし出す」; and erasing the differences to create one common language distorts the metaphor 「橋を架ける」 — a bridge connects the two banks, it does not merge them into one.',
       },
       {
         id: 'n1-reading-chubun-004-q3',
@@ -177,6 +197,8 @@ export const questions: JlptQuestion[] = [
         answerIndex: 0,
         explanation:
           '末段總結「翻訳は、何かを運び損ねながら、同時にそれ以上のものを生み出してきた営み」，第三段「受け入れる側の言語そのものを揺さぶり、豊かにしてきた」正是所生之物的例證。「應該讀原文」是文中未述的過度推論——筆者通篇在替翻譯辯護；「視為語言混亂而警戒」與筆者把翻譯語扎根當作豐富化的正面評價相反；「名譯毫無損失」與首段「再現することはできない」矛盾。',
+        explanationEn:
+          'The closing line sums up: 「翻訳は、何かを運び損ねながら、同時にそれ以上のものを生み出してきた営み」, and the third paragraph\'s 「受け入れる側の言語そのものを揺さぶり、豊かにしてきた」 is exactly the evidence of what it produces. "Literature should be read in the original" is an over-inference never stated — the whole essay is a defense of translation; treating translation-born expressions as corruption to guard against reverses the author\'s positive view of their taking root as enrichment; and "a fine translation loses nothing" contradicts 「再現することはできない」 in the opening.',
       },
     ],
   },
@@ -199,6 +221,8 @@ export const questions: JlptQuestion[] = [
         answerIndex: 0,
         explanation:
           '第二段以書信與當令水果為例，總結「待つことは、対象について思いを巡らせ、期待を熟成させる時間でもあった」。「應切詰的空白」正是筆者以「単なる空白ではなかった」否定的看法；「提高水果的味道」偷換了概念——等待中育成的是「季節の移ろいへの感覚」，不是果實品質；「判斷是否催促」是文中沒有的內容。',
+        explanationEn:
+          'Using letters and seasonal fruit as examples, the second paragraph concludes 「待つことは、対象について思いを巡らせ、期待を熟成させる時間でもあった」 — waiting was time in which thoughts and anticipation could ripen. A blank to be trimmed away is exactly the view the author denies with 「単なる空白ではなかった」; improving the fruit\'s flavor swaps the concept, since what waiting cultivated was 「季節の移ろいへの感覚」, not the quality of the fruit; and judging whether one may press for a reply appears nowhere in the text.',
       },
       {
         id: 'n1-reading-chubun-005-q2',
@@ -212,6 +236,8 @@ export const questions: JlptQuestion[] = [
         answerIndex: 0,
         explanation:
           '此句緊接「すぐに手に入るものに対して、私たちはそこまで深く思いを向けない」，反比例指的是入手越快、投注的關心越淺。「費時入手＝品質必高」是雙重偷換——文章談的是關心的深淺而非物的品質，且「必ず」的斷定也是過度推論；「越急越慢」把抽象的關心問題偷換成入手速度本身；「費用」更是文中全無的概念。',
+        explanationEn:
+          'The sentence directly follows 「すぐに手に入るものに対して、私たちはそこまで深く思いを向けない」, so the inverse proportion means the faster something is obtained, the shallower the interest we invest in it. "Things obtained slowly are always higher quality" is a double substitution — the passage is about depth of interest, not the object\'s quality, and the assertion with 「必ず」 is itself an over-inference; "the more you rush, the longer it takes" turns the abstract point about interest into acquisition speed itself; and cost is a concept entirely absent from the text.',
       },
       {
         id: 'n1-reading-chubun-005-q3',
@@ -225,6 +251,8 @@ export const questions: JlptQuestion[] = [
         answerIndex: 0,
         explanation:
           '首段承認自己受惠於效率化、末段又說「効率化そのものを否定する気はない」，但「待つ力まで手放してよいのか」值得停下來思考——正解完整涵蓋這個「肯定＋保留」的立場。「回到不便的時代」被首段「戻れと言うつもりはない」明確否定；「回信慢＝輕視」正是第三段舉出的錯誤反應例；「全面否定效率化」與末段宣言直接矛盾。',
+        explanationEn:
+          'The opening admits the author benefits from efficiency, and the final paragraph says 「効率化そのものを否定する気はない」, yet asks whether 「待つ力まで手放してよいのか」 is worth pausing over — the correct option captures this stance of acceptance plus reservation. Returning to an inconvenient age is explicitly rejected by 「戻れと言うつもりはない」 in the opening; reading a slow reply as a slight is precisely the mistaken reaction cited in the third paragraph; and total rejection of efficiency directly contradicts the closing declaration.',
       },
     ],
   },
@@ -247,6 +275,8 @@ export const questions: JlptQuestion[] = [
         answerIndex: 0,
         explanation:
           '第二段明言「趣味の本質は、それ自体が楽しいからするという一点にあり、目的と手段の連鎖の外側にあることにこそ価値がある」。「培養工作技能」「有益健康」正是筆者批判的「効用で趣味を語る」思路，把趣味偷換回手段；「留下上達記錄」更是第三段被舉為趣味淪為「第二の仕事」的徵兆，方向完全相反。',
+        explanationEn:
+          'The second paragraph states it plainly: 「趣味の本質は、それ自体が楽しいからするという一点にあり、目的と手段の連鎖の外側にあることにこそ価値がある」. The options about acquiring work skills or health benefits follow exactly the mindset of 「効用で趣味を語る」 that the author criticizes, turning the hobby back into a means; and keeping records of improvement is cited in the third paragraph as a symptom of a hobby degenerating into 「第二の仕事」 — the complete opposite direction.',
       },
       {
         id: 'n1-reading-chubun-006-q2',
@@ -260,6 +290,8 @@ export const questions: JlptQuestion[] = [
         answerIndex: 0,
         explanation:
           '末段結論「役に立たないままでいさせておくこと。それが…いちばんの敬意ではないか」，正解直接對應。「決して役に立たない」是過度推論——筆者明說「結果として役に立つことはある」，只是反對把效用當理由；「意識上達與記錄」正是第三段趣味淪為第二份工作、失去憩息之所的過程；「選履歷寫得出的趣味」則是首段被當作風氣症狀舉出的助言，非筆者主張。',
+        explanationEn:
+          'The conclusion reads 「役に立たないままでいさせておくこと。それが…いちばんの敬意ではないか」, which the correct option matches directly. "Hobbies are never useful" is an over-inference — the author explicitly says 「結果として役に立つことはある」 and objects only to making utility the reason for continuing; consciously pursuing improvement and records is precisely the third paragraph\'s process by which a hobby becomes a second job and a place of rest is lost; and choosing a resume-worthy hobby is the advice cited in the opening as a symptom of the trend, not the author\'s own view.',
       },
     ],
   },

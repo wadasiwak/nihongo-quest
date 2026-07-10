@@ -10,7 +10,7 @@ import type { SessionItem, SessionPlan } from '../../lib/session'
 import { scoreMock, type MockResultSummary } from '../../lib/score'
 import { rateForLevel, stopSpeaking } from '../../lib/tts'
 import { todayKey } from '../../lib/rng'
-import { useT } from '../../lib/i18n'
+import { pickExplanation, useT } from '../../lib/i18n'
 import { useProgress } from '../../store/progress'
 import { ChoiceInteraction, type AnswerDetail } from './ChoiceInteraction'
 import { OrderInteraction } from './OrderInteraction'
@@ -247,7 +247,7 @@ export function QuizSession({ plan, level, onExit }: QuizSessionProps) {
         )}
       </div>
       {revealed && rec && (
-        <Explanation correct={rec.correct} explanation={q.explanation} correctAnswer={correctAnswerText(q)} />
+        <Explanation correct={rec.correct} explanation={pickExplanation(q)} correctAnswer={correctAnswerText(q)} />
       )}
       <div className="qz-actions">
         {isMock ? (

@@ -8,6 +8,7 @@ export const questions: JlptQuestion[] = [
     options: ['移す', '写す', '映す', '移る'],
     answerIndex: 0,
     explanation: '表示把東西搬到別的位置時，「うつす」寫作「移す」（移動、挪動）。「写す」是抄寫、拍照，「映す」是把影像投映在鏡子或螢幕上，都與搬動書櫃的語境不合；「移る」讀「うつる」，是自動詞，送假名也不同。',
+    explanationEn: 'When moving something to another place, 「うつす」 is written 「移す」 (to move, to shift). 「写す」 means to copy or photograph, and 「映す」 means to project an image onto a mirror or screen — neither fits moving a bookshelf; 「移る」 is read 「うつる」, an intransitive verb with different okurigana.',
   },
   {
     id: 'n3-vocab-hyoki-002',
@@ -16,6 +17,7 @@ export const questions: JlptQuestion[] = [
     options: ['預ける', '領ける', '頂ける', '預かる'],
     answerIndex: 0,
     explanation: '「あずける」寫作「預ける」，意思是把人或物品託付給別人保管。「預かる」讀「あずかる」，是「代別人保管」，方向相反且送假名不同；「領ける」是不存在的寫法，「頂ける」讀「いただける」，讀音完全不同。',
+    explanationEn: '「あずける」 is written 「預ける」, meaning to entrust a person or item to someone else\'s care. 「預かる」 is read 「あずかる」 and means to look after something for someone — the opposite direction, with different okurigana; 「領ける」 is a nonexistent spelling, and 「頂ける」 is read 「いただける」, a completely different reading.',
   },
   {
     id: 'n3-vocab-hyoki-003',
@@ -24,6 +26,7 @@ export const questions: JlptQuestion[] = [
     options: ['険しい', '験しい', '検しい', '剣しい'],
     answerIndex: 0,
     explanation: '「けわしい」寫作「険しい」，形容山路陡峭險峻，也可形容表情嚴厲。「験」用於「試験・経験」，「検」用於「検査・検討」，三字偏旁不同容易混淆；「剣」是刀劍的劍，讀「けん・つるぎ」，都不能寫成形容詞「けわしい」。',
+    explanationEn: '「けわしい」 is written 「険しい」, describing a steep, treacherous mountain path (it can also describe a stern expression). 「験」 is used in 「試験・経験」 and 「検」 in 「検査・検討」 — the three characters differ only in radical and are easily confused; 「剣」 means sword and is read 「けん・つるぎ」. None of them can spell the adjective 「けわしい」.',
   },
   {
     id: 'n3-vocab-hyoki-004',
@@ -32,6 +35,7 @@ export const questions: JlptQuestion[] = [
     options: ['確認', '確任', '格認', '隔認'],
     answerIndex: 0,
     explanation: '「かくにん」寫作「確認」，意為確定核對。「任」與「認」讀音相近但「確任」不是日文詞；「格」「隔」與「確」同音（かく）卻字義不同，「格」是規格的格，「隔」是間隔的隔，組不成「確認」這個詞。',
+    explanationEn: '「かくにん」 is written 「確認」, meaning to confirm or verify. 「任」 sounds similar to 「認」, but 「確任」 is not a Japanese word; 「格」 and 「隔」 share the reading 「かく」 with 「確」 yet differ in meaning — 「格」 as in standards, 「隔」 as in intervals — so neither can form the word 「確認」.',
   },
   {
     id: 'n3-vocab-hyoki-005',
@@ -40,6 +44,7 @@ export const questions: JlptQuestion[] = [
     options: ['複雑', '復雑', '腹雑', '覆雑'],
     answerIndex: 0,
     explanation: '「ふくざつ」寫作「複雑」（複雜）。「複」「復」「腹」「覆」都讀「ふく」，是典型的同音形近干擾：「復」用於「復習・往復」，「腹」是肚子，「覆」用於「覆面」等，只有表示重疊繁多的「複」才能構成「複雑」。',
+    explanationEn: '「ふくざつ」 is written 「複雑」 (complicated). 「複」「復」「腹」「覆」 are all read 「ふく」 — a classic homophone-plus-lookalike trap: 「復」 appears in 「復習・往復」, 「腹」 means belly, and 「覆」 appears in 「覆面」. Only 「複」, meaning multiple or overlapping, can form 「複雑」.',
   },
   {
     id: 'n3-vocab-hyoki-006',
@@ -48,6 +53,7 @@ export const questions: JlptQuestion[] = [
     options: ['壊して', '懐して', '破して', '壌して'],
     answerIndex: 0,
     explanation: '「こわす」寫作「壊す」，指弄壞、破壞物品。「懐」「壌」與「壊」右半相同、字形極近：「懐」讀「かい・なつかしい」（懷念），「壌」用於「土壌」；「破」雖有打破之意，但動詞是「破る（やぶる）」，沒有「破して」的寫法。',
+    explanationEn: '「こわす」 is written 「壊す」, meaning to break or damage an object. 「懐」 and 「壌」 share the same right half as 「壊」 and look nearly identical: 「懐」 is read 「かい・なつかしい」 (nostalgic), and 「壌」 appears in 「土壌」; 「破」 does carry the sense of breaking, but its verb is 「破る（やぶる）」 — the form 「破して」 does not exist.',
   },
   {
     id: 'n3-vocab-hyoki-007',
@@ -56,6 +62,7 @@ export const questions: JlptQuestion[] = [
     options: ['冷える', '冶える', '凍える', '涼える'],
     answerIndex: 0,
     explanation: '「ひえる」寫作「冷える」，指氣溫下降、身體發冷。「冶」與「冷」只差一點、字形極近，但讀「や」（冶金）；「凍える」是真實存在的詞，但讀「こごえる」（凍僵），讀音不合；「涼」的動詞用法是「涼む（すずむ）」，沒有「涼える」。',
+    explanationEn: '「ひえる」 is written 「冷える」, meaning the temperature drops or the body gets chilled. 「冶」 differs from 「冷」 by just one dot and looks nearly identical, but is read 「や」 (as in metallurgy); 「凍える」 is a real word but is read 「こごえる」 (to freeze stiff), so the reading does not match; the verb form of 「涼」 is 「涼む（すずむ）」 — 「涼える」 does not exist.',
   },
   {
     id: 'n3-vocab-hyoki-008',
@@ -64,6 +71,7 @@ export const questions: JlptQuestion[] = [
     options: ['修理', '収理', '終理', '習理'],
     answerIndex: 0,
     explanation: '「しゅうり」寫作「修理」，意為修理、修繕。「収」「終」「習」都讀「しゅう」，是同音干擾：「収」用於「収入・回収」，「終」用於「終了」，「習」用於「練習・習慣」，都無法與「理」組成表示修繕的詞。',
+    explanationEn: '「しゅうり」 is written 「修理」, meaning to repair or fix. 「収」「終」「習」 are all read 「しゅう」 and serve as homophone distractors: 「収」 appears in 「収入・回収」, 「終」 in 「終了」, and 「習」 in 「練習・習慣」 — none of them combine with 「理」 to form a word meaning repair.',
   },
   {
     id: 'n3-vocab-hyoki-009',
@@ -72,6 +80,7 @@ export const questions: JlptQuestion[] = [
     options: ['誘った', '秀った', '透った', '誘そった'],
     answerIndex: 0,
     explanation: '「さそう」寫作「誘う」，意為邀約、邀請。「誘」是「言＋秀」，干擾項「秀」「透」都含相同部件、字形相近，但「秀」讀「しゅう」、「透」讀「とう・すく」，都沒有「さそう」的訓讀；「誘そった」漢字對了但送假名多了一個「そ」，寫法錯誤。',
+    explanationEn: '「さそう」 is written 「誘う」, meaning to invite someone along. 「誘」 is composed of 「言＋秀」; the distractors 「秀」 and 「透」 contain the same component and look similar, but 「秀」 is read 「しゅう」 and 「透」 is read 「とう・すく」 — neither has the kun-reading さそう; 「誘そった」 uses the right kanji but adds an extra 「そ」 to the okurigana, making the spelling wrong.',
   },
   {
     id: 'n3-vocab-hyoki-010',
@@ -80,6 +89,7 @@ export const questions: JlptQuestion[] = [
     options: ['暖かい', '温かい', '暑かい', '暖たかい'],
     answerIndex: 0,
     explanation: '形容氣候、氣溫的「あたたかい」寫作「暖かい」；「温かい」雖同音，但用於食物、水溫或人心（温かいスープ、温かい心），描述冬天的天氣不用此字。「暑かい」不存在（炎熱是「暑い」）；「暖たかい」送假名錯誤，正確送假名是「暖かい」。',
+    explanationEn: 'When describing climate or air temperature, 「あたたかい」 is written 「暖かい」; the homophone 「温かい」 is used for food, water, or people\'s hearts (「温かいスープ」「温かい心」), not for winter weather. 「暑かい」 does not exist (hot weather is 「暑い」); 「暖たかい」 has the wrong okurigana — the correct form is 「暖かい」.',
   },
   {
     id: 'n3-vocab-hyoki-011',
@@ -88,6 +98,7 @@ export const questions: JlptQuestion[] = [
     options: ['珍しい', '診しい', '彫しい', '珍らしい'],
     answerIndex: 0,
     explanation: '「めずらしい」寫作「珍しい」，意為罕見、稀奇。「診」與「珍」右半相同、字形極近，但讀「しん」，用於「診察」；「彫」讀「ほる・ちょう」（雕刻），不是形容詞；「珍らしい」漢字正確卻多送了「ら」，送假名錯誤，正確寫法只送「しい」。',
+    explanationEn: '「めずらしい」 is written 「珍しい」, meaning rare or unusual. 「診」 shares the same right half as 「珍」 and looks very similar, but is read 「しん」 and used in 「診察」; 「彫」 is read 「ほる・ちょう」 (to carve) and is not an adjective; 「珍らしい」 uses the correct kanji but adds an extra 「ら」 — the correct okurigana is just 「しい」.',
   },
   {
     id: 'n3-vocab-hyoki-012',
@@ -96,6 +107,7 @@ export const questions: JlptQuestion[] = [
     options: ['比べて', '批べて', '並べて', '此べて'],
     answerIndex: 0,
     explanation: '「くらべる」寫作「比べる」，意為比較。「批」與「比」形近，但讀「ひ」，用於「批判」，沒有「くらべる」的訓讀；「並べて」是真實的詞，但讀「ならべて」（排列），讀音不合；「此」讀「これ・し」，也組不成這個動詞。',
+    explanationEn: '「くらべる」 is written 「比べる」, meaning to compare. 「批」 resembles 「比」 but is read 「ひ」 and used in 「批判」 — it has no kun-reading くらべる; 「並べて」 is a real word but is read 「ならべて」 (to line up), so the reading does not fit; 「此」 is read 「これ・し」 and cannot form this verb either.',
   },
   {
     id: 'n3-vocab-hyoki-013',
@@ -104,6 +116,7 @@ export const questions: JlptQuestion[] = [
     options: ['支払う', '枝払う', '技払う', '支仏う'],
     answerIndex: 0,
     explanation: '「しはらう」寫作「支払う」，意為支付款項。「枝」（えだ・し）與「技」（ぎ・わざ）都和「支」形近，是常見的混淆字，但組不成「支払う」；「仏」（佛）與「払」只差一筆、字形極近，讀「ぶつ・ほとけ」，「支仏う」是不存在的寫法。',
+    explanationEn: '「しはらう」 is written 「支払う」, meaning to pay money. 「枝」 (えだ・し) and 「技」 (ぎ・わざ) both resemble 「支」 and are commonly confused with it, but cannot form 「支払う」; 「仏」 (Buddha) differs from 「払」 by a single stroke and looks nearly identical, but is read 「ぶつ・ほとけ」 — 「支仏う」 is a nonexistent spelling.',
   },
   {
     id: 'n3-vocab-hyoki-014',
@@ -112,6 +125,7 @@ export const questions: JlptQuestion[] = [
     options: ['輸出', '輪出', '軸出', '愉出'],
     answerIndex: 0,
     explanation: '「ゆしゅつ」寫作「輸出」，意為出口。「輪」（わ・りん）與「軸」（じく）都是車字旁、與「輸」字形相近，但讀音不同，「輪出」「軸出」都不是詞；「愉」雖與「輸」同音（ゆ），但是「愉快」的愉，屬同音異字干擾。',
+    explanationEn: '「ゆしゅつ」 is written 「輸出」, meaning export. 「輪」 (わ・りん) and 「軸」 (じく) share the vehicle radical with 「輸」 and look similar, but their readings differ — 「輪出」 and 「軸出」 are not words; 「愉」 does share the reading 「ゆ」 with 「輸」, but it is the 愉 of 「愉快」, a same-sound different-character distractor.',
   },
   {
     id: 'n3-vocab-hyoki-015',
@@ -120,6 +134,7 @@ export const questions: JlptQuestion[] = [
     options: ['細かい', '紐かい', '組かい', '絹かい'],
     answerIndex: 0,
     explanation: '「こまかい」寫作「細かい」，意為細小、細微。干擾項「紐」（ひも）、「組」（くみ・そ）、「絹」（きぬ・けん）都和「細」一樣是糸字旁，字形容易看混，但都沒有「こまかい」這個訓讀，也不能加「かい」構成形容詞。',
+    explanationEn: '「こまかい」 is written 「細かい」, meaning small or fine. The distractors 「紐」 (ひも), 「組」 (くみ・そ), and 「絹」 (きぬ・けん) all share the thread radical with 「細」 and are easy to misread at a glance, but none of them has the kun-reading こまかい, nor can they take 「かい」 to form an adjective.',
   },
   {
     id: 'n3-vocab-hyoki-016',
@@ -128,6 +143,7 @@ export const questions: JlptQuestion[] = [
     options: ['直して', '治して', '植して', '値して'],
     answerIndex: 0,
     explanation: '修改錯誤、修正文章的「なおす」寫作「直す」；同音的「治す」專指治療疾病或傷勢（風邪を治す），改作文不能用。「植」（うえる・しょく）與「値」（ね・ち）都和「直」形近，但「植して」「値して」都不是日文的動詞寫法。',
+    explanationEn: 'For correcting mistakes or fixing a piece of writing, 「なおす」 is written 「直す」; the homophone 「治す」 is used only for curing illness or injury (「風邪を治す」) and cannot apply to correcting an essay. 「植」 (うえる・しょく) and 「値」 (ね・ち) both resemble 「直」, but 「植して」 and 「値して」 are not valid Japanese verb forms.',
   },
   {
     id: 'n3-vocab-hyoki-017',
@@ -136,6 +152,7 @@ export const questions: JlptQuestion[] = [
     options: ['迎える', '仰える', '抑える', '向える'],
     answerIndex: 0,
     explanation: '「むかえる」寫作「迎える」，意為迎接。「仰」（あおぐ）與「抑」都和「迎」右半形近：「抑える」是真實的詞，但讀「おさえる」（壓住、抑制），讀音不合；「向」雖然意思相關（向かう），但「向える」送假名錯誤，不是正確寫法。',
+    explanationEn: '「むかえる」 is written 「迎える」, meaning to greet or welcome. 「仰」 (あおぐ) and 「抑」 both share a similar right-side shape with 「迎」: 「抑える」 is a real word but is read 「おさえる」 (to hold down, suppress), so the reading does not fit; 「向」 is related in meaning (「向かう」), but 「向える」 has the wrong okurigana and is not a correct spelling.',
   },
   {
     id: 'n3-vocab-hyoki-018',
@@ -144,6 +161,7 @@ export const questions: JlptQuestion[] = [
     options: ['記録', '紀録', '記緑', '規録'],
     answerIndex: 0,
     explanation: '「きろく」寫作「記録」，意為記錄、記載。「紀」與「記」同音同旁，但用於「世紀・紀元」，「紀録」是常見的誤寫；「緑」（みどり・りょく）與「録」字形極近但意思是綠色；「規」（き）用於「規則」，「規録」不是詞。',
+    explanationEn: '「きろく」 is written 「記録」, meaning to record or keep a log. 「紀」 shares both the reading and radical with 「記」 but is used in 「世紀・紀元」 — 「紀録」 is a common miswriting; 「緑」 (みどり・りょく) looks nearly identical to 「録」 but means green; 「規」 (き) is used in 「規則」, and 「規録」 is not a word.',
   },
   {
     id: 'n3-vocab-hyoki-019',
@@ -152,6 +170,7 @@ export const questions: JlptQuestion[] = [
     options: ['破れて', '敗れて', '波れて', '被れて'],
     answerIndex: 0,
     explanation: '紙、布等裂開的「やぶれる」寫作「破れる」；同音的「敗れる」專指比賽或戰爭中落敗（試合に敗れる），袋子破掉不能用。「波」（なみ）、「被」（ひ）都和「破」同為皮字部件的形近字，「波れて」「被れて」都不是日文的寫法。',
+    explanationEn: 'For paper or cloth tearing, 「やぶれる」 is written 「破れる」; the homophone 「敗れる」 refers only to losing a match or war (「試合に敗れる」) and cannot describe a bag ripping. 「波」 (なみ) and 「被」 (ひ) are lookalikes sharing the 皮 component with 「破」, but 「波れて」 and 「被れて」 are not valid Japanese spellings.',
   },
   {
     id: 'n3-vocab-hyoki-020',
@@ -160,5 +179,6 @@ export const questions: JlptQuestion[] = [
     options: ['責任', '積任', '績任', '債任'],
     answerIndex: 0,
     explanation: '「せきにん」寫作「責任」。「積」（つむ・せき）與「績」（せき）都和「責」同音且含相同部件，是典型形近同音干擾：「積」用於「面積・積む」，「績」用於「成績」；「債」（さい）是「債券」的債，字形近但讀音不同，都組不成「責任」。',
+    explanationEn: '「せきにん」 is written 「責任」 (responsibility). 「積」 (つむ・せき) and 「績」 (せき) share both the reading and a component with 「責」, making them classic lookalike homophone distractors: 「積」 is used in 「面積・積む」 and 「績」 in 「成績」; 「債」 (さい) is the 債 of 「債券」 — similar in shape but different in reading. None of them can form 「責任」.',
   },
 ]

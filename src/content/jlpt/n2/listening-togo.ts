@@ -32,6 +32,8 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '兩人逐一排除：海鮮市場行程因清晨六點出發、從家裡趕不上而放棄；健行因太太膝蓋受傷走不了四小時；採果行程只有半天，被嫌不夠盡興。溫泉行程雖然最貴，但含午餐且幾乎不用走路，最後兩人決定報名溫泉與庭園之旅。三個干擾項都是對話中出現、卻被比較後否決的選項。',
+    explanationEn:
+      'The couple eliminates the options one by one: the seafood market tour departs at 6 a.m., too early to reach from home; the hiking tour is out because the wife has a bad knee and cannot walk for four hours; and the fruit-picking tour is only half a day, which she finds unsatisfying for a precious day off. The hot spring and garden tour is the most expensive but includes lunch and requires little walking, so they sign up for it. All three distractors are options mentioned and then rejected during the comparison.',
   },
   {
     id: 'n2-listening-togo-002',
@@ -58,6 +60,8 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '對話中依序否決三台：掃地機器人因家裡是兩層樓、樓梯還是得自己掃；吸力最強款五公斤太重、聲音大會吵醒寶寶；紙袋式雖便宜，但有插頭，上二樓每次都要換插座很麻煩。太太指出家裡房間少、充一次可用二十分鐘已足夠，輕便最重要，因此兩人決定買無線輕量款。',
+    explanationEn:
+      'Three models are rejected in turn: the robot vacuum cannot handle stairs, and their house has two floors, so they would still clean the stairs themselves; the strongest-suction model weighs five kilograms — too heavy to carry up and down — and its noise would wake the baby; the paper-bag model is cheap but corded, meaning the plug must be switched every time they clean upstairs. The wife notes that with few rooms, twenty minutes of battery is plenty and lightness matters most, so they choose the light cordless model.',
   },
   {
     id: 'n2-listening-togo-003',
@@ -84,6 +88,8 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '需統整價格與用量：先生每月約用十GB，無限流量方案七千圓被嫌太貴；一度比較「先生二十GB＋太太最便宜方案」合計七千圓的組合，看似比家庭方案八千圓划算，但太太的三GB方案超量會限速，之前旅行連地圖都開不了。家庭方案每人十五GB、只差一千圓更安心，最後兩人選了家庭方案。',
+    explanationEn:
+      'This requires combining prices and usage. The husband uses about 10 GB a month, so the 7,000-yen unlimited plan is dismissed as too expensive. They briefly compare the split of his 20 GB plan plus her cheapest plan (7,000 yen total) against the family plan (8,000 yen for two), which looks 1,000 yen cheaper — but her 3 GB plan throttles after the limit, and she once could not even open a map while traveling. With 15 GB each for only 1,000 yen more, the family plan wins, and that is what they choose.',
   },
   {
     id: 'n2-listening-togo-004',
@@ -110,6 +116,8 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '兩人是上班族同事：瑜伽在平日上午，要上班去不了；商用英語會話在週三晚上，男方部門每週三固定開會到很晚；義大利料理教室雖在週六，但每次另收兩千圓材料費，十堂課加上學費太傷荷包。攝影講座在週日早上、又是初學者取向，女方剛買了相機，兩人因此決定報名攝影講座。',
+    explanationEn:
+      'The two are office coworkers, so scheduling rules most options out: yoga is on weekday mornings when they work; business English is on Wednesday nights, but the man\'s department has a late meeting every Wednesday; and the Italian cooking class, though on Saturdays, charges an extra 2,000 yen in ingredient fees per session, which over ten sessions plus tuition adds up to a painful amount. The photography course meets on Sunday mornings, is aimed at beginners, and the woman has just bought a camera, so they decide to enroll in that one.',
   },
   {
     id: 'n2-listening-togo-005',
@@ -136,6 +144,8 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '要同時滿足格局、預算、通勤三個條件：太太在家工作需要獨立工作間，單間套房首先出局；站前新屋雖寬敞，但月租十二萬超出兩人設定的十萬上限；搭公車的物件最便宜，先生卻因每天搭電車通勤、還要先搭公車到站太辛苦而否決。步行十二分鐘的２ＤＫ租金在預算內、朝南採光好，兩人決定週末去看這間。',
+    explanationEn:
+      'Three conditions must be satisfied at once: layout, budget, and commute. The wife works from home and needs a dedicated workroom, so the one-room studio is out immediately; the new 2LDK by the station is spacious but its 120,000-yen rent exceeds their agreed 100,000-yen cap; and the cheapest bus-access unit is vetoed by the husband, who commutes by train daily and does not want an extra bus ride on congested morning roads. The 2DK twelve minutes\' walk from the station is within budget, faces south with good sunlight — a plus for her home office — so they arrange to view it on the weekend.',
   },
   {
     id: 'n2-listening-togo-006',
@@ -162,5 +172,7 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '男方平日白天要上班，「デイ会員」直接排除；「ナイト会員」看似適合下班後去，但他近來加班多，能六點下班的日子一週不到一天，七千圓太浪費；「フルタイム会員」雖然隨時可用，太太點出他實際上大概只有週末去得成，付一萬圓不划算。統整之後，只有週末一定有空、又最便宜的「ウィークエンド会員」最合理。',
+    explanationEn:
+      'The man works weekday daytimes, so the day membership is ruled out immediately. The night membership looks right for after work, but he has been doing so much overtime that he can leave by six barely one day a week, making 7,000 yen a waste. The full-time membership allows access anytime, yet his wife points out he would realistically only go on weekends, so 10,000 yen is not worth it. Putting it all together, the weekend membership — the cheapest option and the only time he is reliably free — is the sensible choice, and that is what he picks.',
   },
 ]

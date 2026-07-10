@@ -8,6 +8,7 @@ export const questions: JlptQuestion[] = [
     options: ['削る', '消る', '刈る', '刻る'],
     answerIndex: 0,
     explanation: '「けずる」寫作「削る」，本義是削、刨，引申為削減預算或經費。「消る」是不存在的寫法，「消す」才讀「けす」；「刈る」讀「かる」，是割草、剪髮的割；「刻る」也不是日文詞，「刻む」讀「きざむ」。只有「削る」符合削減的語意與讀音。',
+    explanationEn: '「けずる」 is written 「削る」, literally to shave or whittle, and by extension to cut a budget or expenses. 「消る」 is not a real spelling — 「消す」 is read 「けす」; 「刈る」 is read 「かる」 (to mow grass, cut hair); 「刻る」 is not a Japanese word either — 「刻む」 is read 「きざむ」. Only 「削る」 fits both the meaning and the reading.',
   },
   {
     id: 'n2-vocab-hyoki-002',
@@ -16,6 +17,7 @@ export const questions: JlptQuestion[] = [
     options: ['占う', '疑う', '補う', '占なう'],
     answerIndex: 0,
     explanation: '「うらなう」寫作「占う」，意思是占卜、算命。「疑う」讀「うたがう」（懷疑），「補う」讀「おぎなう」（彌補），字形相似但讀音與語意都不合；「占なう」是送假名錯誤，「占」已含「うらな」的部分，正確送假名只有「う」。',
+    explanationEn: '「うらなう」 is written 「占う」, meaning to tell fortunes or divine. 「疑う」 is read 「うたがう」 (to doubt) and 「補う」 is read 「おぎなう」 (to make up for) — similar-looking verbs whose readings and meanings do not fit; 「占なう」 has incorrect okurigana: the kanji 「占」 already covers 「うらな」, so the only okurigana written out is 「う」.',
   },
   {
     id: 'n2-vocab-hyoki-003',
@@ -24,6 +26,7 @@ export const questions: JlptQuestion[] = [
     options: ['畳んで', '塁んで', '包んで', '畳たんで'],
     answerIndex: 0,
     explanation: '「たたむ」寫作「畳む」，指把衣物、棉被折疊整齊。「塁」是棒球「塁（壘包）」的字，與「畳」形近但沒有「たたむ」的用法；「包んで」讀「つつんで」，是包裹的意思；「畳たんで」是送假名錯誤，正確送假名是「畳んで」。',
+    explanationEn: '「たたむ」 is written 「畳む」, meaning to fold clothes or bedding neatly. 「塁」 is the kanji for a base in baseball — it resembles 「畳」 but is never read たたむ; 「包んで」 is read 「つつんで」 and means to wrap; 「畳たんで」 has incorrect okurigana — the correct form is 「畳んで」.',
   },
   {
     id: 'n2-vocab-hyoki-004',
@@ -32,6 +35,7 @@ export const questions: JlptQuestion[] = [
     options: ['憎く', '増く', '僧く', '悩く'],
     answerIndex: 0,
     explanation: '「にくい」寫作「憎い」，表示可恨、憎恨，此處為連用形「憎く」。「増」讀「ぞう・ふ（える）」，「僧」讀「そう」（僧侶），兩字與「憎」同為「曽」旁的形近字，但都不能表示憎恨；「悩」讀「のう・なや（む）」，是煩惱的惱，讀音完全不同。',
+    explanationEn: '「にくい」 is written 「憎い」 (hateful, detestable), appearing here in the adverbial form 「憎く」. 「増」 is read 「ぞう・ふ（える）」 (to increase) and 「僧」 is read 「そう」 (monk) — both share the 「曽」 component with 「憎」 but cannot express hatred; 「悩」 is read 「のう・なや（む）」 (to worry), a completely different reading.',
   },
   {
     id: 'n2-vocab-hyoki-005',
@@ -40,6 +44,7 @@ export const questions: JlptQuestion[] = [
     options: ['敬う', '警う', '驚う', '敬まう'],
     answerIndex: 0,
     explanation: '「うやまう」寫作「敬う」，意思是尊敬、敬重。「警」用於「警察・警告」，「驚」讀「おどろ（く）」，都是「敬」的形近字，但沒有「うやまう」的訓讀；「敬まう」是送假名錯誤，「敬」的訓讀送假名只有「う」，多寫「ま」就錯了。',
+    explanationEn: '「うやまう」 is written 「敬う」, meaning to respect or revere. 「警」 appears in 「警察・警告」 and 「驚」 is read 「おどろ（く）」 (to be surprised) — both are look-alikes of 「敬」 with no kun-reading うやまう; 「敬まう」 has incorrect okurigana: 「敬」 takes only 「う」, so writing the extra 「ま」 is an error.',
   },
   {
     id: 'n2-vocab-hyoki-006',
@@ -48,6 +53,7 @@ export const questions: JlptQuestion[] = [
     options: ['破片', '波片', '敗片', '破辺'],
     answerIndex: 0,
     explanation: '「はへん」寫作「破片」，指打破後的碎片。「波」與「破」同音（は）且形近，但「波片」不是日文詞；「敗」讀「はい」，長短音不同，「敗片」也不存在；「辺」與「片」同音（へん）卻是「周邊」的邊，「破辺」組不成詞。破碎的碎片只能寫「破片」。',
+    explanationEn: '「はへん」 is written 「破片」, meaning fragments of something broken. 「波」 (wave) shares the reading は with 「破」 and looks similar, but 「波片」 is not a Japanese word; 「敗」 is read 「はい」, a different syllable length, and 「敗片」 does not exist; 「辺」 is also read へん but means edge or vicinity, so 「破辺」 forms no word. Broken shards can only be written 「破片」.',
   },
   {
     id: 'n2-vocab-hyoki-007',
@@ -56,6 +62,7 @@ export const questions: JlptQuestion[] = [
     options: ['矛盾', '予盾', '矛順', '務盾'],
     answerIndex: 0,
     explanation: '「むじゅん」寫作「矛盾」，源自矛與盾的典故，指前後不一致。「予」與「矛」形近，但讀「よ」，「予盾」不是詞；「順」與「盾」同音（じゅん）卻是順序的順；「務」雖讀「む」，是事務的務，「務盾」也不存在。只有「矛盾」是正確的漢字組合。',
+    explanationEn: '「むじゅん」 is written 「矛盾」 (contradiction), from the classic tale of the spear and the shield. 「予」 resembles 「矛」 but is read 「よ」, and 「予盾」 is not a word; 「順」 shares the reading じゅん with 「盾」 but means order or sequence; 「務」 is read む but means duty, and 「務盾」 does not exist. Only 「矛盾」 is the correct kanji combination.',
   },
   {
     id: 'n2-vocab-hyoki-008',
@@ -64,6 +71,7 @@ export const questions: JlptQuestion[] = [
     options: ['収めた', '納めた', '治めた', '修めた'],
     answerIndex: 0,
     explanation: '四個選項都讀「おさめる」，是典型的同音異字題。「勝利を収める」是固定搭配，「収める」表示取得成果、收穫。「納める」用於繳納稅金、交貨；「治める」用於治理國家、平定；「修める」用於修習學問技藝，都不能搭配「勝利」。',
+    explanationEn: 'All four options are read 「おさめる」 — a classic same-sound, different-kanji question. 「勝利を収める」 is a set collocation: 「収める」 means to gain or achieve a result. 「納める」 is used for paying taxes or delivering goods; 「治める」 for governing a country or quelling unrest; 「修める」 for mastering studies or skills — none of them collocate with 「勝利」.',
   },
   {
     id: 'n2-vocab-hyoki-009',
@@ -72,6 +80,7 @@ export const questions: JlptQuestion[] = [
     options: ['治めた', '収めた', '納めた', '修めた'],
     answerIndex: 0,
     explanation: '「国をおさめる」的「おさめる」寫作「治める」，表示治理、統治，也用於平定動亂。「収める」是收穫成果或把東西收進去；「納める」是繳納、奉納；「修める」是修習學問品行。四字同音，必須依「治理國家」的語境選「治める」。',
+    explanationEn: 'In 「国をおさめる」, the verb is written 「治める」, meaning to govern or rule, also used for quelling disorder. 「収める」 means to achieve results or put something away; 「納める」 means to pay or dedicate; 「修める」 means to cultivate learning or character. All four are homophones, so the context of ruling a country demands 「治める」.',
   },
   {
     id: 'n2-vocab-hyoki-010',
@@ -80,6 +89,7 @@ export const questions: JlptQuestion[] = [
     options: ['購入', '講入', '構入', '溝入'],
     answerIndex: 0,
     explanation: '「こうにゅう」寫作「購入」，意思是購買。「購」「講」「構」「溝」都以「冓」為聲旁、同讀「こう」，是典型的形近字陷阱：「講」用於「講義・講演」，「構」用於「構造・結構」，「溝」是水溝的溝，都組不成表示購買的詞，只有貝字旁的「購」與買賣金錢有關。',
+    explanationEn: '「こうにゅう」 is written 「購入」 (purchase). 「購」「講」「構」「溝」 all take 「冓」 as their phonetic component and are all read 「こう」 — a classic look-alike trap: 「講」 appears in 「講義・講演」, 「構」 in 「構造・結構」, and 「溝」 means ditch; none of them form a word meaning to buy. Only 「購」, with the shell radical associated with money, relates to commerce.',
   },
   {
     id: 'n2-vocab-hyoki-011',
@@ -88,6 +98,7 @@ export const questions: JlptQuestion[] = [
     options: ['講演', '構演', '購演', '公演'],
     answerIndex: 0,
     explanation: '「こうえん」在「教授演講」的語境寫作「講演」，指學術性、知識性的演講。「公演」雖然也是真實存在的詞且同音，但指戲劇、音樂等的公開表演，與教授談環境問題的場面不合；「構演」「購演」則是利用形近字「構」「購」拼湊的不存在寫法。',
+    explanationEn: 'In the context of a professor giving a talk, 「こうえん」 is written 「講演」, an academic or informative lecture. 「公演」 is a real word with the same reading, but it means a public performance of theater or music, which does not fit a professor discussing environmental issues; 「構演」 and 「購演」 are nonexistent spellings pieced together from the look-alike kanji 「構」 and 「購」.',
   },
   {
     id: 'n2-vocab-hyoki-012',
@@ -96,6 +107,7 @@ export const questions: JlptQuestion[] = [
     options: ['招待', '紹待', '照待', '昭待'],
     answerIndex: 0,
     explanation: '「しょうたい」寫作「招待」，意思是邀請。「招」「紹」「照」「昭」同讀「しょう」且字形相近：「紹」用於「紹介」，「照」是照射的照，「昭」用於「昭和」，都不能與「待」組成表示邀請的詞。只有提手旁的「招」有招請、招呼之意。',
+    explanationEn: '「しょうたい」 is written 「招待」 (to invite). 「招」「紹」「照」「昭」 are all read 「しょう」 and look alike: 「紹」 appears in 「紹介」, 「照」 means to shine on, and 「昭」 appears in 「昭和」 — none of them combine with 「待」 to mean inviting. Only 「招」, with the hand radical, carries the sense of beckoning or inviting.',
   },
   {
     id: 'n2-vocab-hyoki-013',
@@ -104,6 +116,7 @@ export const questions: JlptQuestion[] = [
     options: ['紹介', '招介', '照介', '詔介'],
     answerIndex: 0,
     explanation: '「しょうかい」寫作「紹介」，意思是介紹。「招」是招待的招，「照」是照明的照，「詔」是詔書的詔，三字都讀「しょう」且與「紹」形近，但「招介」「照介」「詔介」都不是日文詞。介紹人與人認識，只能用糸字旁的「紹」。',
+    explanationEn: '「しょうかい」 is written 「紹介」 (introduction). 「招」 (as in 「招待」), 「照」 (illumination) and 「詔」 (imperial edict) are all read 「しょう」 and resemble 「紹」, but 「招介」「照介」「詔介」 are not Japanese words. Introducing one person to another can only use 「紹」 with the thread radical.',
   },
   {
     id: 'n2-vocab-hyoki-014',
@@ -112,6 +125,7 @@ export const questions: JlptQuestion[] = [
     options: ['幼い', '幻い', '劣い', '幼ない'],
     answerIndex: 0,
     explanation: '「おさない」寫作「幼い」，意思是年幼的、幼小的。「幻」讀「げん・まぼろし」（幻影），與「幼」形近但不是形容詞；「劣」讀「おと（る）」（差勁），「劣い」不存在；「幼ない」是送假名錯誤，「幼い」的送假名只有「い」，不能多寫「な」。',
+    explanationEn: '「おさない」 is written 「幼い」, meaning very young or infantile. 「幻」 is read 「げん・まぼろし」 (illusion) — similar in shape to 「幼」 but not an adjective; 「劣」 is read 「おと（る）」 (to be inferior), and 「劣い」 does not exist; 「幼ない」 has incorrect okurigana: 「幼い」 takes only 「い」, so the extra 「な」 is wrong.',
   },
   {
     id: 'n2-vocab-hyoki-015',
@@ -120,6 +134,7 @@ export const questions: JlptQuestion[] = [
     options: ['快い', '決い', '悦い', '快よい'],
     answerIndex: 0,
     explanation: '「こころよい」寫作「快い」，形容舒適、暢快，是 N2 常考的特殊訓讀。「決」與「快」形近，讀「けつ・き（める）」，「決い」不存在；「悦」讀「えつ」（喜悅），也沒有這個訓讀；「快よい」是送假名錯誤，正確送假名只有「い」，「よ」包含在「快」的讀音裡。',
+    explanationEn: '「こころよい」 is written 「快い」 (pleasant, refreshing), a special kun-reading frequently tested at N2. 「決」 resembles 「快」 but is read 「けつ・き（める）」, and 「決い」 does not exist; 「悦」 is read 「えつ」 (delight) and has no such kun-reading; 「快よい」 has incorrect okurigana — only 「い」 is written out, since the 「よ」 is contained within the reading of 「快」.',
   },
   {
     id: 'n2-vocab-hyoki-016',
@@ -128,6 +143,7 @@ export const questions: JlptQuestion[] = [
     options: ['傾いて', '頃いて', '項いて', '傾むいて'],
     answerIndex: 0,
     explanation: '「かたむく」寫作「傾く」，表示傾斜、歪向一邊。「頃」讀「ころ」（時候），「項」讀「こう」（項目），兩字都與「傾」共用「頁」的字形，是形近字陷阱，但都沒有「かたむく」的讀法；「傾むいて」是送假名錯誤，「む」已含在「傾」的訓讀內，不必寫出。',
+    explanationEn: '「かたむく」 is written 「傾く」, meaning to tilt or lean to one side. 「頃」 is read 「ころ」 (around the time) and 「項」 is read 「こう」 (item) — both share the 「頁」 element with 「傾」, a look-alike trap, but neither has the reading かたむく; 「傾むいて」 has incorrect okurigana: the 「む」 is already contained in the kun-reading of 「傾」 and should not be written out.',
   },
   {
     id: 'n2-vocab-hyoki-017',
@@ -136,6 +152,7 @@ export const questions: JlptQuestion[] = [
     options: ['補う', '捕う', '浦う', '補なう'],
     answerIndex: 0,
     explanation: '「おぎなう」寫作「補う」，意思是補充、彌補不足。「捕」讀「ほ・と（る）」，用於「捕まえる・逮捕」；「浦」讀「うら」，是海浦的浦，兩字與「補」同為「甫」旁的形近字，但都不讀「おぎなう」；「補なう」是送假名錯誤，正確送假名只有「う」。',
+    explanationEn: '「おぎなう」 is written 「補う」, meaning to supplement or make up for a shortfall. 「捕」 is read 「ほ・と（る）」, as in 「捕まえる・逮捕」; 「浦」 is read 「うら」 (inlet) — both share the 「甫」 component with 「補」 but are never read おぎなう; 「補なう」 has incorrect okurigana: the correct okurigana is just 「う」.',
   },
   {
     id: 'n2-vocab-hyoki-018',
@@ -144,6 +161,7 @@ export const questions: JlptQuestion[] = [
     options: ['貧しい', '貪しい', '賓しい', '貧い'],
     answerIndex: 0,
     explanation: '「まずしい」寫作「貧しい」，形容貧窮、匱乏。「貪」讀「どん・むさぼ（る）」（貪婪），與「貧」只差上半部的一筆，是最容易看錯的形近字；「賓」讀「ひん」（來賓），「賓しい」不存在；「貧い」則是送假名錯誤，少寫了「し」，正確是「貧しい」。',
+    explanationEn: '「まずしい」 is written 「貧しい」 (poor, meager). 「貪」 is read 「どん・むさぼ（る）」 (to covet) and differs from 「貧」 by only a stroke in the upper part, making it the easiest kanji to misread here; 「賓」 is read 「ひん」 (guest), and 「賓しい」 does not exist; 「貧い」 has incomplete okurigana — it is missing the 「し」, and the correct form is 「貧しい」.',
   },
   {
     id: 'n2-vocab-hyoki-019',
@@ -152,6 +170,7 @@ export const questions: JlptQuestion[] = [
     options: ['勢い', '熱い', '執い', '勢おい'],
     answerIndex: 0,
     explanation: '「いきおい」寫作「勢い」，意思是氣勢、勁頭，「勢いよく」表示猛烈有勁地。「熱い」是真實的詞但讀「あつい」（熱的），讀音不合；「執」讀「しつ・と（る）」，與「勢」「熱」下半形近，「執い」不存在；「勢おい」是送假名錯誤，正確送假名只有「い」。',
+    explanationEn: '「いきおい」 is written 「勢い」, meaning momentum or vigor; 「勢いよく」 means with great force. 「熱い」 is a real word but is read 「あつい」 (hot), so the reading does not match; 「執」 is read 「しつ・と（る）」 and shares its lower half with 「勢」 and 「熱」, but 「執い」 does not exist; 「勢おい」 has incorrect okurigana — only 「い」 is written out.',
   },
   {
     id: 'n2-vocab-hyoki-020',
@@ -160,5 +179,6 @@ export const questions: JlptQuestion[] = [
     options: ['往復', '往複', '往腹', '応復'],
     answerIndex: 0,
     explanation: '「おうふく」寫作「往復」，指來回、往返。「復」「複」「腹」同讀「ふく」且形近，是經典陷阱：「複」用於「複雑・複数」（重複之意），「腹」是肚子，都不能表示返回；「応」雖讀「おう」，是回應的應，「応復」不是日文詞。往返只能用「彳」旁的「復」。',
+    explanationEn: '「おうふく」 is written 「往復」, meaning a round trip. 「復」「複」「腹」 are all read 「ふく」 and look alike — a classic trap: 「複」 appears in 「複雑・複数」 (duplication), 「腹」 means belly, and neither can express returning; 「応」 is read 「おう」 but means response, and 「応復」 is not a Japanese word. Only 「復」 with the 「彳」 radical expresses going and coming back.',
   },
 ]

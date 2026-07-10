@@ -20,6 +20,8 @@ export const questions: JlptQuestion[] = [
         answerIndex: 0,
         explanation:
           '筆者在結尾說「効率だけを追い求めるあまり、偶然が生む価値まで切り捨ててしまうとすれば、それこそもったいない」，主張別為了效率丟掉偶然的價值。「短時間で成果を出すことが大切」是筆者要反思的時代風氣，非其主張；「単なる怠慢」筆者明言不打算正當化，但也沒把雜談、失敗歸為怠慢；「すべて発見につながる」過度概括，原文只說「珍しくない」。',
+        explanationEn:
+          'The writer concludes that if the pursuit of efficiency alone makes us discard the value born of chance, 「それこそもったいない」 ("that would be the real waste"), which matches the correct option. "Producing results quickly matters most" is the prevailing attitude the writer questions, not his own view; the writer explicitly refuses to justify 「単なる怠慢」 but never labels chatting or failed experiments as laziness; "all waste leads to new discoveries" overgeneralizes — the text only says such cases are 「珍しくない」 ("not rare").',
       },
     ],
   },
@@ -43,6 +45,8 @@ export const questions: JlptQuestion[] = [
         answerIndex: 0,
         explanation:
           '主旨在「九月一日より当社の配送料金を改定させていただくことになりました」，即通知九月起調整運費。「八月末で契約が終了」錯，八月三十一日前簽約的部分是「適用現行料金」，不是契約結束；「高騰を抑える方法」錯，燃料費上漲是漲價的理由，信中沒說要抑制它；「料金表を送ってほしい」相反，新料金表是小林附在信裡給對方看的。',
+        explanationEn:
+          'The main point is 「九月一日より当社の配送料金を改定させていただくことになりました」 — a notice that shipping rates change from September 1. "The contract ends at the end of August" is wrong: orders contracted by August 31 simply keep the current rates; "considering ways to curb fuel costs" is wrong because rising fuel costs are given as the reason for the increase, not something to be curbed; "please send the new rate table" reverses the situation — Kobayashi attached the table himself for the client to read.',
       },
     ],
   },
@@ -65,6 +69,8 @@ export const questions: JlptQuestion[] = [
         answerIndex: 0,
         explanation:
           '理由在「辞書の内容そのものが電子版の土台になっている」「改訂の作業まで止めてしまえば、電子版の質もいずれ保てなくなる」。「売り上げが増え続けている」與開頭「減り続けている」相反；「費用がかからなくなった」錯，原文說改訂「多額の費用がかかるにもかかわらず」仍持續；「手軽に調べられる」是電子辭典的優點，套到紙本辭典上是文中字眼的誤用。',
+        explanationEn:
+          'The reason is stated directly: 「辞書の内容そのものが電子版の土台になっている」, and if revision work stopped, 「電子版の質もいずれ保てなくなる」. "Sales keep increasing" contradicts the opening 「減り続けている」; "revision hardly costs anything now" contradicts the statement that they continue 「多額の費用がかかるにもかかわらず」; "paper dictionaries are handier to consult" misapplies to paper what the passage says about electronic dictionaries and smartphone apps.',
       },
     ],
   },
@@ -87,6 +93,8 @@ export const questions: JlptQuestion[] = [
         answerIndex: 0,
         explanation:
           '筆者主張「変わったのは量ではなく、読み方だろう」「問われるべきは…『どう読むか』」，重點在閱讀方式的變化。「文字をほとんど読まなくなった」與筆者「読む量なら昔より増えているかもしれない」的觀察相反；「向き合う機会は増えている」錯，原文說「確かに減った」；「やめたほうがいい」文中沒有，筆者並未否定用手機閱讀本身。',
+        explanationEn:
+          'The writer argues 「変わったのは量ではなく、読み方だろう」 and that the real question is 「どう読むか」 — the focus should be on how reading has changed, not how much. "Young people hardly read text anymore" contradicts the observation that the amount read may even have increased; "time spent facing a single book has increased" is wrong because the text says it has 「確かに減った」; "they should stop reading on smartphones" appears nowhere — the writer never condemns phone reading itself.',
       },
     ],
   },
@@ -109,6 +117,8 @@ export const questions: JlptQuestion[] = [
         answerIndex: 0,
         explanation:
           '文章先指出睡眠不足「思わぬ事故やミスを招きかねない」，接著說「こうした状況を受けて」企業開始允許午睡，因果關係明確。「怠けているとわかった」錯，「怠けている印象」是部分人對午睡的偏見，不是企業的動機；「睡眠時間が長い」與「世界的に見ても短く」相反；「眠気を感じる人が減ってきた」錯，調查說近四成的人感到強烈睏意，是問題存在的證據。',
+        explanationEn:
+          'The passage says sleep deprivation 「思わぬ事故やミスを招きかねない」, and then, 「こうした状況を受けて」, companies began allowing naps — a clear causal link. "They found employees slacking off" is wrong: the impression of laziness is a lingering prejudice about naps, not the companies\' motive; "Japanese workers sleep long hours" contradicts 「世界的に見ても短く」; "fewer people feel sleepy" is wrong — nearly forty percent reporting strong daytime sleepiness is evidence that the problem exists.',
       },
       {
         id: 'n2-reading-tanbun-005-q2',
@@ -122,6 +132,8 @@ export const questions: JlptQuestion[] = [
         answerIndex: 0,
         explanation:
           '「十五分程度の仮眠が午後の作業効率を高めることは、研究でも確かめられている」與正解一致。「まだ一つもない」錯，原文說允許午睡的企業「現れ始めた」；「四割近く」是回答「日中に強い眠気を感じる」的人的比例，不是午睡的人數，屬文中數字的張冠李戴；「悪い印象はなくなった」錯，原文說抱持怠惰印象的人「いまだに多い」。',
+        explanationEn:
+          '「十五分程度の仮眠が午後の作業効率を高めることは、研究でも確かめられている」 matches the correct option. "Not a single company allows naps yet" contradicts 「現れ始めた」; "nearly forty percent take naps at lunchtime" misattributes the figure, which is the share who feel strong daytime sleepiness, not the share who nap; "the bad image of napping has already disappeared" is wrong because the text says people holding that impression are 「いまだに多い」.',
       },
     ],
   },
@@ -145,6 +157,8 @@ export const questions: JlptQuestion[] = [
         answerIndex: 0,
         explanation:
           '依據「該当フロアの部署は、三階の共用スペースで勤務するか、在宅勤務に切り替えてください」，五樓的員工要二選一。「六階に移動」錯，六樓同樣「使用できません」；「十一月十日まで在宅勤務」錯，十日是申請在宅勤務的期限，不是在宅勤務的期間；「すべて中止」錯，通知只要求會議「できるだけオンラインで」進行，並非全部取消。',
+        explanationEn:
+          'According to 「該当フロアの部署は、三階の共用スペースで勤務するか、在宅勤務に切り替えてください」, fifth-floor staff must choose one of those two options. Moving to the sixth floor is wrong since that floor is equally 「使用できません」; "work from home until November 10" confuses the application deadline with the work-from-home period; "cancel all client meetings" overstates the notice, which only asks that meetings be held online 「できるだけ」 ("as much as possible").',
       },
       {
         id: 'n2-reading-tanbun-006-q2',
@@ -158,6 +172,8 @@ export const questions: JlptQuestion[] = [
         answerIndex: 0,
         explanation:
           '「所属長の承認を得たうえで、総務部に届け出てください」表示順序是先取得主管核准，再向總務部申報，所以「まず」要做的是取得所屬主管的承認。「工事の予定を届け出る」錯，要申報的是自己在宅勤務一事，工程是總務部通知大家的；「共用スペースを予約する」文中沒有預約的要求；「十一月十五日までに」錯，期限是十一月十日，十五日是工程開始日。',
+        explanationEn:
+          '「所属長の承認を得たうえで、総務部に届け出てください」 sets the order: first obtain the supervisor\'s approval, then notify General Affairs — so the first step is getting the approval. "Report the construction schedule" is wrong: what must be reported is one\'s own remote work, and the construction itself was announced by General Affairs; nothing in the notice mentions reserving the shared space; "by November 15" is wrong because the deadline is November 10 — the 15th is when the construction starts.',
       },
     ],
   },

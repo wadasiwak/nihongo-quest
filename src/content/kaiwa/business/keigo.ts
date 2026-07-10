@@ -278,6 +278,8 @@ export const scene: KaiwaScene = {
       answerIndex: 0,
       explanation:
         '對外報上自己的名字，要用「言う」的謙讓語「申す」來壓低自己，所以「田中と申します」才對。「おっしゃる」是「言う」的尊敬語，用在自己身上等於抬高自己，方向完全顛倒；「なさる」「ご覧になる」也是尊敬語，且詞義（做、看）根本對不上。',
+      explanationEn:
+        'When introducing yourself to an outside party, you lower yourself with 「申す」, the humble form of 「言う」, so 「田中と申します」 is correct. 「おっしゃる」 is the honorific form of 「言う」, and using it about yourself would elevate yourself — exactly backwards; 「なさる」 and 「ご覧になる」 are also honorifics, and their meanings ("do" and "look") do not even match.',
     },
     {
       kind: 'choice',
@@ -287,6 +289,8 @@ export const scene: KaiwaScene = {
       answerIndex: 0,
       explanation:
         '句子的主語是社長，動作要用尊敬語抬高，「行く」的尊敬語是「いらっしゃる」。「伺う」和「参る」都是「行く」的謙讓語，只能用在自己或自己人身上，套在社長的動作上是失禮的誤用；「拝見する」是「見る」的謙讓語，連詞義都不對。',
+      explanationEn:
+        'The subject is the company president, so his action takes an honorific: the respectful form of 「行く」 is 「いらっしゃる」. 「伺う」 and 「参る」 are both humble forms of 「行く」, usable only for yourself or your own side — applying them to the president is a rude misuse; 「拝見する」 is the humble form of 「見る」, so even its meaning is wrong.',
     },
     {
       kind: 'choice',
@@ -296,6 +300,8 @@ export const scene: KaiwaScene = {
       answerIndex: 0,
       explanation:
         '接受上司指示時，最穩的回覆是「承知しました」（或「かしこまりました」）。「了解しました」被許多人視為對同事、晚輩的用語，對上司易失禮；「ご苦労さまです」是上位者慰勞下位者的話，對部長說是經典地雷；「うん、わかった」是常體，職場對上司不可用。',
+      explanationEn:
+        'The safest reply when accepting a superior\'s instruction is 「承知しました」 (or 「かしこまりました」). 「了解しました」 is widely regarded as appropriate only toward peers or juniors and can offend a boss; 「ご苦労さまです」 is what a superior says to appreciate a subordinate\'s work, so saying it to your department head is a classic blunder; 「うん、わかった」 is plain casual style and unusable toward a boss at work.',
     },
     {
       kind: 'choice',
@@ -305,6 +311,8 @@ export const scene: KaiwaScene = {
       answerIndex: 0,
       explanation:
         '看企劃書的人是自己，要用「見る」的謙讓語「拝見する」壓低自己的動作。「ご覧になりました」是尊敬語，用在自己身上變成自抬身價；「拝見されました」是在謙讓語上再疊尊敬助動詞「れる」的常見誤用，方向混亂；「お見しました」則根本不成詞。',
+      explanationEn:
+        'You are the one who read the proposal, so your own action takes the humble 「拝見する」 (humble form of "to see"). 「ご覧になりました」 is honorific and would raise your own status; 「拝見されました」 is the common error of stacking the honorific auxiliary れる on top of a humble verb, muddling the direction of respect; and 「お見しました」 is simply not a word.',
     },
     {
       kind: 'order',
@@ -315,6 +323,8 @@ export const scene: KaiwaScene = {
       starIndex: 1,
       explanation:
         '正解語序是「部長がお書きになった報告書を拝見しました」。寫報告書的是部長，用萬用尊敬語句型「お書きになる」抬高對方；看的人是自己，用謙讓語「拝見する」壓低自己，一句話裡完成尊敬與謙讓的分工。「お書きに」後面只能接「なった」，修飾「報告書を」，最後接動詞「拝見し」，語序唯一。',
+      explanationEn:
+        'The correct order is 「部長がお書きになった報告書を拝見しました」 (I read the report the department head wrote). The writer is the boss, so the all-purpose honorific 「お書きになる」 elevates him; the reader is you, so the humble 「拝見する」 lowers yourself — one sentence dividing respect and humility correctly. 「お書きに」 can only be followed by 「なった」, which modifies 「報告書を」, and the verb 「拝見し」 comes last; the order is unique.',
     },
     {
       kind: 'order',
@@ -325,6 +335,8 @@ export const scene: KaiwaScene = {
       starIndex: 2,
       explanation:
         '正解語序是「社長が召し上がったお菓子を私もいただきました」。吃的動作屬於社長時用尊敬語「召し上がる」，屬於自己時用謙讓語「いただく」，同一個「吃」依主語切換說法。「社長が召し上がった」是修飾「お菓子」的連體修飾節，之後主語換成「私も」，句尾接「いただき」＋「ました」，其他排列會造成主語衝突而不通。',
+      explanationEn:
+        'The correct order is 「社長が召し上がったお菓子を私もいただきました」 (I too ate the sweets the president had eaten). The same verb "eat" switches by subject: honorific 「召し上がる」 for the president, humble 「いただく」 for yourself. 「社長が召し上がった」 is a relative clause modifying 「お菓子」; the subject then changes to 「私も」, and the sentence closes with 「いただき」+「ました」. Any other arrangement creates a subject clash and breaks down.',
     },
   ],
 }

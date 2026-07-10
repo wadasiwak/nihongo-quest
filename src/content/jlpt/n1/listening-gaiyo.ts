@@ -22,6 +22,8 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '講師先舉出「找優秀人才」這個常見想法，再用「しかし」推翻，指出決定成果的是「失敗やミスを恐れずに報告できる雰囲気」，結尾更說管理職的工作就是打造歡迎壞消息的場域，主旨是報告文化決定組織成果。「報告が早ければ傷が浅い」只是支持主旨的細節理由；「優秀な人材を集める」是被推翻的說法；「厳しく叱責して監視」與講師的主張正好相反。',
+    explanationEn:
+      'The lecturer first raises the common belief that gathering talented people is the key, then overturns it with 「しかし」: what decides outcomes is 「失敗やミスを恐れずに報告できる雰囲気」, and he closes by saying a manager\'s job is to create a place where bad news is welcomed — so the main point is that a reporting culture determines organizational results. 「報告が早ければ傷が浅い」 is only a supporting detail; gathering top talent is the view he rejects; and strict scolding and surveillance is the exact opposite of his position.',
   },
   {
     id: 'n1-listening-gaiyo-002',
@@ -44,6 +46,8 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '教授先承認實務知識能成為即戰力，再以「ただ」轉折指出這類知識在情勢改變後很快失效，並對比「教養」是面對沒有答案的問題時思考的基礎，結尾用「だからこそ〜価値があるのではないでしょうか」點明主旨：越是變動的時代越值得投資看似繞遠路的學問。「実務的な知識は即戦力になる」只是讓步段的細節；「哲学や歴史は敬遠されがち」是開頭描述的現象；教授明言不否定實務學習，故「資格の勉強はやめたほうがいい」過度解讀。',
+    explanationEn:
+      'The professor first concedes that practical knowledge is immediately useful, then pivots with 「ただ」: knowledge that is useful right away quickly stops being useful once circumstances change, whereas liberal learning becomes a foundation for thinking through problems that have no answer. She closes with 「だからこそ〜価値があるのではないでしょうか」, making the point that in a fast-changing era, seemingly roundabout learning is worth the time. The line about practical knowledge being 「即戦力」 belongs to the concession; philosophy and history being shunned is just the opening observation; and telling people to quit studying for qualifications over-reads her, since she explicitly does not deny practical study.',
   },
   {
     id: 'n1-listening-gaiyo-003',
@@ -66,6 +70,8 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '專家自己在結尾明說「最終的な判断だけは手放すな。これが〜一番伝えたいことです」，主旨即：可以善用 AI，但最終判斷必須留在自己手上。「診断を人間より正確にこなす」只是開頭鋪陳的細節；「使用はやめるべきだ」與「技術を拒む必要はありません」直接矛盾；「精度に問題が残っている」也被「懸念しているのは技術の精度そのものではない」否定，都不是主張。',
+    explanationEn:
+      'The expert states his own conclusion outright at the end: 「最終的な判断だけは手放すな。これが〜一番伝えたいことです」 — use AI freely, but the final judgment must stay in your own hands. AI performing diagnoses more accurately than humans is only scene-setting detail from the opening; quitting AI use contradicts 「技術を拒む必要はありません」; and remaining accuracy problems are ruled out by 「懸念しているのは技術の精度そのものではない」, so none of those are his claim.',
   },
   {
     id: 'n1-listening-gaiyo-004',
@@ -88,6 +94,8 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '講師以「でも、本当にそうでしょうか」推翻「全員馬上贊成＝理想會議」的表面印象，指出沒有反對意見可能只是大家已放棄發言，最後直接總結「会議の目的は〜異論をぶつけ合うことにある」，主旨是開會重在交鋒異見而非快速合意。「全員がすぐ賛成する会議は理想的」正是被推翻的說法；「発言するのはいつも同じ数人」只是開頭引起共鳴的觀察；「会議の回数を減らす」則從頭到尾沒有提到。',
+    explanationEn:
+      'The lecturer uses 「でも、本当にそうでしょうか」 to overturn the surface impression that a meeting where everyone instantly agrees is ideal, pointing out that the absence of dissent may just mean people have given up speaking, and she concludes directly: 「会議の目的は〜異論をぶつけ合うことにある」. The main point is that meetings exist to clash opinions, not to reach agreement quickly. The claim that instant unanimous approval is ideal is precisely what she rejects; only a few people ever speaking is just the relatable opening observation; and reducing the number of meetings is never mentioned at all.',
   },
   {
     id: 'n1-listening-gaiyo-005',
@@ -110,6 +118,8 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '這篇隨筆從「說出わかった的瞬間就停止思考」談起，以重讀舊書的經驗為例，最後歸結出「理解とは到達点ではなく、問い続ける過程そのもの」，這句正是筆者的核心主張。「読み返すと違う印象を受ける」只是用來支撐主張的個人經驗，屬於細節；「一度読めば十分」是筆者年輕時的想法，後來已被自己否定；「年を取ると理解が難しくなる」則是對「違う顔を見せる」的誤讀，文中並無此意。',
+    explanationEn:
+      'The essay opens with the thought that the moment one says 「わかった」, one stops thinking, uses the experience of rereading old books as its example, and arrives at 「理解とは到達点ではなく、問い続ける過程そのもの」 — that final line is the author\'s central claim. Rereading a book and finding a different impression is merely the personal experience that supports the claim; reading a book once being enough is the author\'s youthful assumption, which she herself later rejects; and comprehension becoming harder with age misreads 「違う顔を見せる」, an idea nowhere in the text.',
   },
   {
     id: 'n1-listening-gaiyo-006',
@@ -132,6 +142,8 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '社會學者說明網路上顯眼的「世論」可能只是少數大聲者被放大的意見，並警告「社会全体の声だと思い込むと実像を見誤る」，結尾呼籲要意識到沉默的多數，主旨是不可把網路聲量當成整體民意。「投稿するのはごく一部」是支撐論點的資料細節，不是結論本身；「ネットの利用は控えるべきだ」文中並未主張，他只要求解讀時保持警覺；「実像を正確に映している」與整段論旨完全相反。',
+    explanationEn:
+      'The sociologist explains that the visible online 「世論」 may be nothing more than the amplified opinions of a loud minority, warns that mistaking it for society\'s voice means misjudging reality, and closes by urging listeners to stay aware of the silent majority not reflected there — the main point is not to equate online volume with overall public opinion. Only a small fraction of users posting frequently is the data detail that supports the argument, not the conclusion; he never argues for avoiding the internet, only for cautious interpretation; and saying the internet accurately mirrors society contradicts the entire argument.',
   },
   {
     id: 'n1-listening-gaiyo-007',
@@ -154,6 +166,8 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '專家指出調查中離職最大主因是「ここにいても成長できない」的感受，最後明言「給料の前に、成長を実感できる仕事の任せ方を見直すべき」，主旨是讓年輕員工有成長實感才留得住人。「待遇を改善すれば食い止められる」被「それだけでは定着しません」直接否定；「最も多いのは給料への不満」與調查結果相反；「難しい仕事を任せないほうがいい」方向完全顛倒，講者批評的正是只讓新人做單純作業。',
+    explanationEn:
+      'The expert reports that the most common reason for quitting in exit surveys was the feeling of 「ここにいても成長できない」, not dissatisfaction with pay, and she concludes: 「給料の前に、成長を実感できる仕事の任せ方を見直すべき」 — young employees stay when they can feel themselves growing. The claim that better treatment alone can stop attrition is directly denied by 「それだけでは定着しません」; pay complaints being the top reason contradicts the survey result; and avoiding giving young people difficult work points the wrong way entirely — what she criticizes is assigning only simple tasks without explaining their meaning.',
   },
   {
     id: 'n1-listening-gaiyo-008',
@@ -177,6 +191,8 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '作家批評只有輸入的學習像「ざるで水をすくう」一樣留不住，並以自身經驗說明向人說明、寫成文章時才算真正理解，結尾直接呼籲「学んだら、必ず外に出す」，主旨是輸出才是學習的關鍵。「学び直しを始める人が増えている」只是開頭的背景描述；「聴いて読むだけでも十分」正是被他批評的態度；「無理にまとめないほうがいい」與其主張相反，他認為說不清楚的地方正是尚未理解之處。',
+    explanationEn:
+      'The writer criticizes input-only learning as being like 「ざるで水をすくう」 — it all drains away — and explains from his own experience that real understanding comes when he explains things to others or writes them down, ending with the direct appeal 「学んだら、必ず外に出す」. The main point is that output is the key to learning. The rise in adult re-learners is just background; being satisfied with listening and reading is exactly the attitude he criticizes; and avoiding writing difficult content up runs against his claim that what you cannot put into words is precisely what you have not yet understood.',
   },
   {
     id: 'n1-listening-gaiyo-009',
@@ -199,6 +215,8 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '經營者以「私はむしろ逆だと考えています」否定「自動化後職人就不需要了」的想法，舉出機器無法察覺金屬歪斜與異音、減少職人的同業反而不良品增加，最後總結「自動化を進めるほど職人の目が要る」，主旨是自動化與職人經驗相輔相成。「生産量がほぼ倍になった」只是開頭的細節；「職人はもう必要なくなる」正是被推翻的立場；「手作業に戻すべきだ」他也從未主張，他本人就是自動化的受益者。',
+    explanationEn:
+      'The owner rejects the idea that artisans become unnecessary after automation with 「私はむしろ逆だと考えています」, noting that only a seasoned craftsman can sense trouble from slight warping or changes in sound, and that competitors who cut artisans are now plagued by defects. He concludes 「自動化を進めるほど職人の目が要る」 — automation and artisan experience support each other. Production nearly doubling is just an opening detail; artisans becoming unnecessary is the position he overturns; and he never advocates returning to manual work — he himself benefits from automation.',
   },
   {
     id: 'n1-listening-gaiyo-010',
@@ -221,6 +239,8 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '建築家指出人們愛一座城市並非因為效率，廣場、巷弄這些帳面上的「無駄」才構成街道的記憶，結尾明言「必要なのは、さらなる効率化ではなく、あえて無駄を残す勇気」，主旨是城市應保留看似無用的空間。「数字の上では無駄だ」雖是文中字句，但只是鋪陳，並非她最想說的話；「効率を最優先にすべきだ」與結論相反；「便利な街ほど愛される」也被「便利ではあっても、どこか息苦しい」否定。',
+    explanationEn:
+      'The architect argues that people do not love a city for its efficiency: plazas you drop into for no reason and alleys worth a detour — spaces that are pure waste on paper — are what create a city\'s memory. She states plainly at the end that 「必要なのは、さらなる効率化ではなく、あえて無駄を残す勇気」, so the main point is that cities should keep seemingly useless space. Calling such spaces wasteful on paper is her own wording but only part of the setup; putting efficiency first contradicts her conclusion; and the idea that convenient cities are the most loved is refuted by 「便利ではあっても、どこか息苦しい」.',
   },
   {
     id: 'n1-listening-gaiyo-011',
@@ -243,6 +263,8 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '產業醫先反駁「削減睡眠是美德」的舊觀念，指出睡眠不足時注意力與判斷力下降且本人無法自覺，結尾明言「睡眠は削るべきコストではなく、仕事の質を支える投資」，主旨是把睡眠視為投資而非成本。「徹夜明けの脳は酒に酔ったときと同じ」只是佐證用的研究細節；「努力が足りない」被「足りないのは努力ではなく休息」直接否定；「労働時間を延ばすべきだ」與整段主張方向相反。',
+    explanationEn:
+      'The occupational physician first pushes back on the old notion that cutting sleep to work is a virtue, noting that sleep deprivation degrades attention and judgment more than one realizes — and that the decline cannot be self-detected. He concludes: 「睡眠は削るべきコストではなく、仕事の質を支える投資」, which is the main point — treat sleep as an investment, not a cost. The comparison of an all-nighter brain to being drunk is merely the supporting research detail; insufficient effort is directly denied by 「足りないのは努力ではなく休息」; and extending working hours runs opposite to the whole argument.',
   },
   {
     id: 'n1-listening-gaiyo-012',
@@ -265,6 +287,8 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '研究者說明賞味期限只是「好吃的參考基準」，批評只看日期、不確認內容物就丟棄的行為，結尾點明「日付だけをうのみにせず、まず五感で確かめる」才是減少食物浪費的第一步，此即主旨。「賞味期限と消費期限は性質が違う」雖是文中內容，但只是支撐主旨的背景知識細節；「過ぎたらすぐ捨てるべきだ」正是講者批評的行為；「食品ロスは減ってきている」與開頭「大量に捨てられています」相反。',
+    explanationEn:
+      'The researcher explains that 賞味期限 is only a guideline for tasting good — quite different in nature from the safety-related 消費期限 — and criticizes throwing food away over a one-day-old date without even checking it. She closes with 「日付だけをうのみにせず、まず五感で確かめる」 as the first step to reducing food waste, which is the main point. The difference between the two date labels is in the talk but serves as background knowledge supporting the point; discarding food as soon as the date passes is the very behavior she criticizes; and food waste declining contradicts the opening 「大量に捨てられています」.',
   },
   {
     id: 'n1-listening-gaiyo-013',
@@ -287,6 +311,8 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '語言學者舉出歷史上被罵「乱れ」的說法後來成為標準的事實，主張語言本來就會隨時代變化，結尾說與其嘆息，不如把變化視為「言葉が生きて動いている証し」，這正是他最想傳達的主張。「標準になった例もある」只是論證過程中的細節；「正しい形に直していくべきだ」與主張方向相反；講者明言不否定學習合宜的言葉遣い，故「学ぶ必要のない」與其立場矛盾。',
+    explanationEn:
+      'The linguist points out that expressions once condemned as corrupted have become today\'s standard, argues that language by nature shifts with the times, and concludes that rather than lamenting, we should view change as 「言葉が生きて動いている証し」 — that is the claim he most wants to convey. Old "corrupt" forms becoming standard is a detail within the argument; correcting young people\'s speech back to proper forms runs opposite to his position; and since he explicitly does not deny the importance of learning situation-appropriate language, saying it need not be learned contradicts him.',
   },
   {
     id: 'n1-listening-gaiyo-014',
@@ -309,6 +335,8 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '專家舉出只追求觀光客數量、反而讓居民疲憊不堪而損及城市魅力的實例，指出旅人受吸引的是居民活得有生氣的城市，結尾明言「出発点は、客の数ではなく、まず住民が誇りを持って暮らせる町をつくること」，主旨是別弄錯先後順序。「まず観光客の数を増やすべきだ」正是被批評的做法；「ごみや騒音の問題が起こる」只是舉例中的細節；「呼び込むのをやめるべきだ」過度解讀，講者並未反對觀光本身。',
+    explanationEn:
+      'The expert cites cases where chasing visitor numbers alone exhausted residents with garbage and noise and ended up damaging the town\'s appeal, observes that travelers are drawn to towns where residents live vibrantly, and concludes: 「出発点は、客の数ではなく、まず住民が誇りを持って暮らせる町をつくること」 — do not get the order wrong. Increasing tourist numbers first is precisely the approach she criticizes; garbage and noise problems are details within her examples; and giving up on attracting outside visitors over-reads her, since she never opposes tourism itself.',
   },
   {
     id: 'n1-listening-gaiyo-015',
@@ -331,6 +359,8 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '專家先承認備蓄重要，再用「ですが」轉折指出災區成敗的關鍵在於平時是否把災害想像成發生在自己身上的事，並點出「知道」與「身體能動」之間的鴻溝，結尾總結備え＝物資之外還要「我が事として想像し、一度体を動かしてみること」，此即主旨。「備蓄しておけば万全だ」是被轉折否定的想法；「歩いてみた人はごくわずか」只是描述現狀的細節；「配れば被害は防げる」與「眺めるだけで終わる」的批評矛盾。',
+    explanationEn:
+      'The expert first grants that stockpiling matters, then pivots with 「ですが」: what separated outcomes in actual disaster areas was whether people had imagined disaster happening to themselves, and he highlights the gulf between knowing something and being able to move when it counts. He sums up that preparedness means, beyond supplies, imagining disaster as one\'s own affair and physically walking through it once — that is the main point. Stockpiles making preparation complete is the idea his pivot rejects; only a handful of people having walked their evacuation route is a detail describing the status quo; and distributing hazard maps preventing damage contradicts his criticism that most people 「眺めるだけで終わってしまいます」.',
   },
   {
     id: 'n1-listening-gaiyo-016',
@@ -353,6 +383,8 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '專家斷言「会見の技術によって信頼を取り戻せた例は一つもない」，指出世人看的是能否公開事實並建立防止再犯的機制，結尾把謝罪定義為「事実を明らかにして再発を防ぐ行動そのもの」，主旨即：重點是行動而非儀式技巧。「頭を下げる角度や言葉の選び方が重要」正是被否定的表面功夫；「立派な言葉を並べれば不信は解消できる」被「かえって不信は深まります」直接推翻；「会見は開かないほうがいい」文中並無此主張。',
+    explanationEn:
+      'The expert declares that 「会見の技術によって信頼を取り戻せた例は一つもない」: what the public watches is whether a company discloses what happened and builds a mechanism to prevent recurrence. She ends by defining apology as 「事実を明らかにして再発を防ぐ行動そのもの」 — action, not the technique of a ritual, is the point. The angle of the bow and choice of words being important is exactly the surface skill she dismisses; lining up fine words of apology is overturned by 「かえって不信は深まります」; and never holding a press conference is a claim found nowhere in the talk.',
   },
   {
     id: 'n1-listening-gaiyo-017',
@@ -375,6 +407,8 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '講師以自己當選手時代的「根性論」開場，再用運動科學的結論與實例推翻它，最後直接呼籲「自分の経験ではなく、科学の知見に基づいて練習を組み立てる」，主旨是指導應依科學知見而非個人經驗。「長ければ長いほどいい」是被科學否定的舊觀念；「結果を出したチームもある」只是支撐主旨的實例細節，並非結論本身；「そのまま伝えていくべきだ」正是講者惋惜批評的惡性循環，方向完全相反。',
+    explanationEn:
+      'The lecturer opens with the grit-based coaching of his playing days, overturns it with the findings of sports science and a real example, and closes with the direct appeal to build training 「自分の経験ではなく、科学の知見に基づいて」 — coaching should rest on scientific findings, not personal experience. Longer practice being always better is the old belief science has refuted; teams succeeding after cutting practice time is only the supporting example, not the conclusion itself; and passing one\'s own coaching on unchanged is precisely the vicious cycle he laments, the exact opposite direction.',
   },
   {
     id: 'n1-listening-gaiyo-018',
@@ -397,6 +431,8 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '研究者先肯定分類回收的風氣，再用「ただ」點出「分別すれば責任を果たした」這種心態的盲點：回收本身耗能且只有一部分能再利用，因此「そもそもごみになる物を持ち込まない」效果遠大於事後處理，結尾把重點放在購買前先停下來想一想，此即主旨。「分別すれば責任は果たせる」正是被質疑的心態；「多くのエネルギーがかかる」只是論證用的細節；講者明言分類要繼續，故「やめてかまわない」與其立場相反。',
+    explanationEn:
+      'The researcher first welcomes the sorting-and-recycling ethos, then uses 「ただ」 to expose the blind spot in the feeling that sorting alone fulfills one\'s environmental duty: recycling itself consumes much energy and only part of the material is reused, so not bringing home things that will become garbage is far more effective than processing waste afterward. She ends by placing the emphasis on pausing at the moment of purchase — that is the main point. Sorting fulfilling one\'s duty is the mindset she questions; the energy cost of recycling is a detail used in the argument; and since she explicitly says to keep sorting, quitting it contradicts her position.',
   },
   {
     id: 'n1-listening-gaiyo-019',
@@ -419,6 +455,8 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '學藝員指出先讀解說會讓人照著文字的框架看畫，奪走自己發現的樂趣，並強調「絵の見方に正解はありません」，結尾具體呼籲「まず絵とじっくり向き合って、それから解説を読んでみてください」，主旨就是調換鑑賞的順序。「先に解説文を読んでおくべきだ」與主張正好相反；「解説を読む時間のほうが長い来館者もいる」只是開頭引入話題的觀察細節；「知識がなければ楽しめない」與「素朴な感想こそが鑑賞の入り口」矛盾。',
+    explanationEn:
+      'The curator explains that reading the caption first makes us see the painting exactly as the text dictates, robbing us of the joy of discovering with our own eyes, and stresses that 「絵の見方に正解はありません」. His concrete closing appeal — 「まず絵とじっくり向き合って、それから解説を読んでみてください」 — is the main point: simply reverse the order. Reading the caption first for deeper understanding is the exact opposite of his advice; visitors spending longer on captions than on artworks is just the opening observation; and needing correct knowledge to enjoy art contradicts 「素朴な感想こそが、鑑賞の入り口」.',
   },
   {
     id: 'n1-listening-gaiyo-020',
@@ -441,5 +479,7 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '心理學者區分「不情願的孤立」與「自己選擇的獨處」，指出後者有整理思緒、安定情緒的功能而「心の健康に欠かせません」，結尾說關鍵在於「その時間を自分で選んでいるかどうか」，主旨是自選的獨處反而是心理健康所必需。「一人でいる時間は減らすべきだ」正是講者批評的過度恐慌；「望まない孤立は健康によくない」雖為文中承認的內容，但只是鋪陳的前提細節，不是最想說的話；「常につながっていれば安定する」被「よほど心をすり減らします」否定。',
+    explanationEn:
+      'The psychologist distinguishes unwanted isolation from solitude chosen for oneself, explaining that the latter helps organize thoughts and settle emotions and is 「心の健康に欠かせません」. She concludes that what matters is 「その時間を自分で選んでいるかどうか」 — chosen solitude is in fact necessary for mental health, which is the main point. Reducing time alone is the very over-anxiety she criticizes; unwanted isolation being unhealthy is acknowledged in the talk but only as a premise-level detail; and constant connection bringing stability is refuted by 「よほど心をすり減らします」.',
   },
 ]

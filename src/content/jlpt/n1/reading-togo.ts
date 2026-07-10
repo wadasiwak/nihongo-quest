@@ -20,6 +20,8 @@ export const questions: JlptQuestion[] = [
         answerIndex: 0,
         explanation:
           'Ａ說「価値を生む中心に人間の判断がある」，Ｂ說作品價值取決於「人間の経験が刻まれているかどうか」——兩者都把價值的關鍵放在「人如何參與」上。選項2 只是Ｂ對 AI 輸出的評價，且Ｂ也承認補助性使用有意義，說「沒有意義」過頭；選項3 是Ａ舉攝影史的類比，「必ず」太絕對且Ｂ未提；選項4 只是Ｂ的讓步，Ａ反而積極肯定 AI 參與創作。',
+        explanationEn:
+          'A says 「価値を生む中心に人間の判断がある」 and B says a work\'s value turns on 「人間の経験が刻まれているかどうか」 — both locate the decisive factor in how humans are involved. Option 2 is only B\'s assessment of AI output, and since B accepts auxiliary uses, saying AI has no place in creation overshoots; option 3 comes from A\'s photography analogy, but 「必ず」 is too absolute and B never says it; option 4 is merely B\'s concession, while A positively welcomes AI in creation.',
       },
       {
         id: 'n1-reading-togo-001-q2',
@@ -33,6 +35,8 @@ export const questions: JlptQuestion[] = [
         answerIndex: 0,
         explanation:
           'Ａ的重心在「何を選び、どう磨き上げるかを決めるのは人間」的構想力；Ｂ的重心在創作者的親身經驗是否刻在作品核心。選項2 兩邊都說反了：Ａ明言「問われているのは技術そのものの是非ではなく」，Ｂ明言不否定補助性使用；選項3 攝影類比只有Ａ提出，Ｂ並無此預測；選項4 與兩篇主張完全相反，Ａ強調人的判斷不可或缺，Ｂ說 AI 輸出讀不出生きた証。',
+        explanationEn:
+          'A\'s emphasis lies in the human power of conception — 「何を選び、どう磨き上げるかを決めるのは人間」 — while B\'s lies in whether the maker\'s lived experience is engraved in the core of the expression. Option 2 gets both writers backwards: A explicitly says 「問われているのは技術そのものの是非ではなく」, and B explicitly does not reject auxiliary uses; option 3 fails because the photography analogy is A\'s alone and B makes no such prediction; option 4 contradicts both essays — A insists human judgment is indispensable, and B says no 「誰かが生きた証」 can be read in AI output.',
       },
     ],
   },
@@ -55,6 +59,8 @@ export const questions: JlptQuestion[] = [
         answerIndex: 0,
         explanation:
           'Ａ從「努力が正当に報われる」「若手にとって公平」肯定成果主義；Ｂ開頭即說「導入には慎重であるべきだ」，理由是挑戰與協力會被犧牲。選項2 兩邊都錯：Ａ把人事費刪減視為制度墮落的結果而非優點，Ｂ也明言「年功序列に戻ればよいという話でもない」；選項3 Ｂ並不贊成急著導入；選項4 與Ａ「基準明確が不可欠」、Ｂ批判只看數字的立場正好相反。',
+        explanationEn:
+          'A endorses performance-based pay as fair, citing 「努力が正当に報われる」 and calling it 「若手にとって公平」; B opens with 「導入には慎重であるべきだ」 because risky challenges and cooperation with colleagues would be pushed aside. Option 2 is wrong on both sides: A treats payroll cutting as what the system degenerates into, not a virtue, and B explicitly says 「年功序列に戻ればよいという話でもない」; option 3 fails since B hardly urges rapid adoption; option 4 directly contradicts A\'s insistence that clear criteria are indispensable and B\'s criticism of judging by numbers alone.',
       },
       {
         id: 'n1-reading-togo-002-q2',
@@ -68,6 +74,8 @@ export const questions: JlptQuestion[] = [
         answerIndex: 0,
         explanation:
           'Ａ說制度要能運作，前提是評價基準明確且讓員工信服；Ｂ說缺了「過程や貢献をどう評価に組み込むか」的設計，換制度只會讓職場疲弊——兩者共通點是「評價的設計決定制度成敗」。選項2 是把Ａ的論點誇大成「確実に防げる」，且Ｂ未提；選項3 與Ｂ主張把協力納入評價正好相反；選項4 兩篇都不主張維持年功序列，Ａ視其為被取代的對象，Ｂ也明言不是走回頭路。',
+        explanationEn:
+          'A says the system can only function if the evaluation criteria are clear and presented in a way employees can accept; B says that without designing 「過程や、他者への貢献をどう評価に組み込むのか」, swapping systems will only exhaust the workplace — the shared point is that the design of evaluation decides whether the system succeeds. Option 2 inflates A\'s argument into a guarantee (「確実に」), which B never discusses; option 3 is the opposite of B\'s call to build cooperation into evaluation; option 4 fails because neither writer defends keeping seniority-based pay — A treats it as the thing being replaced, and B explicitly rejects going back to it.',
       },
     ],
   },
@@ -90,6 +98,8 @@ export const questions: JlptQuestion[] = [
         answerIndex: 0,
         explanation:
           'Ａ結尾說「全員が毎日出社する働き方を当然の前提とする時代には、もう戻れない」，Ｂ也讓步承認「毎日全員が出社する必要はない」——這是兩篇唯一明文重疊的認識。選項2 是Ｂ單方面對在宅勤務代價的指摘，Ａ未提；選項3 是Ａ單方面的主張，Ｂ反而認為有螢幕無法替代的機能；選項4 恰好是Ａ開頭批判的「その場しのぎ」觀點，兩篇都不採取此立場。',
+        explanationEn:
+          'A closes with 「全員が毎日出社する働き方を当然の前提とする時代には、もう戻れない」, and B likewise concedes 「毎日全員が出社する必要はない」 — this is the only understanding the two passages explicitly share. Option 2 is B\'s one-sided complaint about the costs of remote work, which A never raises; option 3 is A\'s one-sided claim, whereas B holds that some functions cannot be replaced through a screen; option 4 is precisely the stopgap (「その場しのぎ」) view that A attacks at the outset, and neither writer takes that position.',
       },
       {
         id: 'n1-reading-togo-003-q2',
@@ -103,6 +113,8 @@ export const questions: JlptQuestion[] = [
         answerIndex: 0,
         explanation:
           'Ａ主張改成以成果衡量工作，讓在宅勤務延續下去；Ｂ則主張正視面對面的無形機能，按工作性質設計對面與在宅的併用——一個往「場所不重要」推進，一個往「兩者組合」收斂。選項2 把兩篇的主張互換了，「仕事の性質ごとに設計」是Ｂ的說法；選項3 與兩篇內容相反，Ａ正是肯定通勤時間回歸生活，Ｂ明言無形機能「代替できない」；選項4 兩篇都沒有回到以在辦公室時間長短評價的主張。',
+        explanationEn:
+          'A argues for switching to management that measures 「生み出した成果」 so remote work can continue, pushing toward the idea that location no longer matters; B argues for facing the invisible functions of the office and designing a blend of in-person and remote work by the nature of each task. Option 2 swaps the two positions — 「仕事の性質ごとに設計」 is B\'s phrase; option 3 contradicts both texts, since A celebrates commuting time returning to daily life and B says the intangible functions 「代替できない」; option 4 fails because neither writer wants to go back to evaluating work by hours spent in the office.',
       },
     ],
   },
@@ -125,6 +137,8 @@ export const questions: JlptQuestion[] = [
         answerIndex: 0,
         explanation:
           'Ａ說「地方の衰退をこのまま放置してよいはずがない」，Ｂ開頭也說地方活力低下是「放置できない問題」，這是兩篇明文重疊的認識。選項2 恰是Ｂ批判的做法（補助金促移住也難讓人定居），Ａ也未說是「最も有効」；選項3 只是Ｂ對集中利點的評價，且Ｂ仍主張培育地方的核心都市，並非不必談分散；選項4 誇大了Ａ的「現実味を帯びてきた」，Ａ只說可能性出現，Ｂ更未提及。',
+        explanationEn:
+          'A says 「地方の衰退をこのまま放置してよいはずがない」, and B opens by calling regional decline a 「放置できない問題」 — this is the recognition the two passages explicitly share. Option 2 is exactly the approach B criticizes (subsidized relocation will not make people settle without jobs and schools), and A never calls it the most effective means; option 3 reflects only B\'s view of the benefits of concentration, and even B still argues for nurturing regional core cities, so dispersal remains worth discussing; option 4 overstates A\'s 「現実味を帯びてきた」 — A only says the option has become realistic, and B does not mention it at all.',
       },
       {
         id: 'n1-reading-togo-004-q2',
@@ -138,6 +152,8 @@ export const questions: JlptQuestion[] = [
         answerIndex: 0,
         explanation:
           'Ａ的對策是政府整備制度、把人流導回地方；Ｂ則反對硬性分散，主張把機能集中到各地方的核心都市、打磨在地產業文化——「小さな集中」才能帶來全國的分散。選項2 把兩篇的主張互換，且「全国に薄く人を配る」正是Ｂ否定的做法；選項3 歸屬顛倒，災害風險是Ａ主張分散的理由而非維持集中的理由；選項4 兩篇都積極提出對策，沒有「只能接受現狀」的論調。',
+        explanationEn:
+          'A\'s remedy is for the state and municipalities to build supporting institutions and redirect the flow of people back to the regions; B opposes forced dispersal and instead proposes concentrating functions in each region\'s core city and polishing industries and culture found nowhere else — 「小さな集中」 in many places is what ultimately yields nationwide dispersal. Option 2 swaps the two positions, and spreading people thinly across the country is precisely what B rejects; option 3 reverses the attribution — disaster risk is A\'s reason for dispersal, not for maintaining concentration; option 4 fails because both writers actively propose countermeasures rather than resigning themselves to the status quo.',
       },
     ],
   },
@@ -160,6 +176,8 @@ export const questions: JlptQuestion[] = [
         answerIndex: 0,
         explanation:
           'Ａ雖力推數位教材，仍明言「紙が長年果たしてきた役割を否定するつもりはない」；Ｂ雖以紙為中心，也承認數位「検索のしやすさ」「繰り返しの練習に強い」的利點——兩篇共通處是承認雙方各有優點與角色。選項2 只是Ｂ的主張，Ａ反而要以數位為前提重新設計學習；選項4 只是Ａ的主張，Ｂ並不同意；選項3 把Ｂ「読みが浅くなりがち」的顧慮誇大成全面禁用，連Ｂ都主張按性質併用數位。',
+        explanationEn:
+          'Even while championing digital materials, A states 「紙が長年果たしてきた役割を否定するつもりはない」; and B, while keeping paper at the center, acknowledges digital\'s strengths in 「検索のしやすさ」 and repeated practice — so the common ground is that each medium has merits and a role worth recognizing. Option 2 is B\'s position alone, while A wants learning redesigned on a digital premise; option 4 is A\'s position alone, which B does not accept; option 3 inflates B\'s worry that on-screen reading 「読みが浅くなりがち」 into a total ban, even though B himself advocates using digital according to the material\'s nature.',
       },
       {
         id: 'n1-reading-togo-005-q2',
@@ -173,6 +191,8 @@ export const questions: JlptQuestion[] = [
         answerIndex: 0,
         explanation:
           'Ａ的核心是「デジタルを前提に学び方そのものを設計し直す」的發想轉換；Ｂ的核心是深度閱讀用紙、查找與反覆練習用數位的分工，並以紙築起深入理解的基礎。選項2 把兩篇說法互換，且「紙の再現をデジタルで目指す」正是Ａ否定的方向；選項3 與兩篇的讓步語句相反，Ａ明言不否定紙的角色、Ｂ明言認同數位的利點；選項4 動画・音声只是Ａ舉的一項利點，兩篇都沒有做此預測。',
+        explanationEn:
+          'A\'s core is the shift in thinking: 「デジタルを前提に学び方そのものを設計し直す」. B\'s core is a division of labor — thoughtful, deep reading on paper, lookup and repeated drills on digital — with paper laying the foundation for deep understanding. Option 2 swaps the two positions, and 「紙の再現をデジタルで目指す」 is exactly the direction A rejects; option 3 contradicts both writers\' concessions — A explicitly does not deny paper\'s role and B explicitly grants digital\'s advantages; option 4 fails because video and audio are just one benefit A lists, and neither writer makes such a prediction.',
       },
     ],
   },
@@ -195,6 +215,8 @@ export const questions: JlptQuestion[] = [
         answerIndex: 0,
         explanation:
           'Ａ說企業抱住所有員工到最後的前提「すでに崩れている」，Ｂ也讓步承認終身雇用「かつてのままの形で維持するのが難しい」——舊形態難以為繼是兩篇明文重疊的認識。選項2 與Ｂ的憂慮相反，Ｂ認為雇用零碎化會讓技能萎縮；選項3 恰是Ａ否定的「自己責任に丸投げ」；選項4 與兩篇一致的前提相反，連主張守住育成機能的Ｂ也說要「制度の中身を改めながら」。',
+        explanationEn:
+          'A says the premise that companies can hold on to every employee to the end has 「すでに崩れている」, and B concedes that maintaining lifetime employment 「かつてのままの形で維持するのが難しい」 — the shared recognition is that the old form cannot continue unchanged. Option 2 is the opposite of B\'s fear that fragmented employment would make workers\' skills wither; option 3 is precisely the 「自己責任に丸投げ」 that A rejects; option 4 contradicts the premise both writers accept — even B, who wants the training function preserved, says the system\'s content must be reformed (「制度の中身を改めながら」).',
       },
       {
         id: 'n1-reading-togo-006-q2',
@@ -208,6 +230,8 @@ export const questions: JlptQuestion[] = [
         answerIndex: 0,
         explanation:
           'Ａ主張以「どこでも働けること」為軸，先由社會整備學習支援等制度、再推進雇用流動化；Ｂ則把焦點放在長期雇用支撐的人材育成機能，主張邊改制度內容邊守住沉住氣育人的機制。選項2 把兩篇的主張互換了；選項3 兩篇都沒有「直ちに廃止」「短期契約に切り替え」的激進主張，Ｂ更是反對急於流動化；選項4 與兩篇內容相反，Ａ明言需要學習支援，Ｂ正是要守住企業育成的價值。',
+        explanationEn:
+          'A takes 「どこでも働けること」 as the axis: society should first put retraining support and portability protections in place, then push employment fluidity forward. B focuses on the talent-development function that long-term employment has carried, arguing to preserve a system that patiently develops people while reforming its content. Option 2 swaps the two positions; option 3 fails because neither writer makes the radical claim of abolishing lifetime employment at once or converting all jobs to short-term contracts — B in fact warns against rushing fluidity; option 4 contradicts both texts, since A explicitly calls for retraining support and B\'s whole point is to defend corporate talent development.',
       },
     ],
   },

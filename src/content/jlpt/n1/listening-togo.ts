@@ -26,6 +26,8 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '女の人原本最想參加浮世繪拓印體驗，但一開場館方就宣布已滿席；經丈夫提議後她說「私はそれにするわ」，改選下午的漆藝蒔繪體驗。「浮世絵の摺り体験」是她被迫放棄的第一志願；「仏像の見方講座」是男の人自己要去聽的，屬於「男方選項」混淆；「日本庭園のガイドツアー」則因下午天氣可能轉壞、雨天中止而被排除。',
+    explanationEn:
+      'The woman most wanted the ukiyo-e printing workshop, but the staff announces at the start that it is already full; after her husband’s suggestion she says 「私はそれにするわ」 and switches to the afternoon maki-e lacquer workshop. 「浮世絵の摺り体験」 is the first choice she was forced to give up; 「仏像の見方講座」 is what the husband decides to attend, a his-choice decoy; and 「日本庭園のガイドツアー」 is ruled out because the weather looks likely to turn and it is canceled in rain.',
   },
   {
     id: 'n1-listening-togo-002',
@@ -52,6 +54,8 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '女の人先以「朝六時集合はさすがに無理」放棄最想去的紅葉遊船，又因上週腳受傷、無法走三小時而婉拒老店食べ歩き，最後被「自己做陶器還能試飲日本酒」吸引，決定報名陶藝加酒藏參觀。「温泉と海鮮市場」是丈夫選的行程，屬於「男方選項」混淆；遊船與食べ歩き都是對話中被她親口否定的選項。',
+    explanationEn:
+      'The woman first gives up the foliage cruise she most wanted, saying 「朝六時集合はさすがに無理」, then declines the old-shop food walk because her foot, injured last week, cannot take three hours of walking. She is finally drawn to making her own pottery plus sake tasting and signs up for the pottery-and-brewery tour. 「温泉と海鮮市場」 is the husband’s pick, a his-choice decoy, while the cruise and the food walk are both options she rejects out of her own mouth in the dialogue.',
   },
   {
     id: 'n1-listening-togo-003',
@@ -78,6 +82,8 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '四個方案被逐一淘汰：演唱會因場地費加演出費將近超出預算一倍而作罷；感謝セール因每年都辦、缺乏五十週年的特別感被否決；工場見學因安全管理準備需半年、趕不上三個月後的典禮而放棄。最後兩人以費用低、又能觸及年輕客層為由，拍板 SNS 攝影投稿比賽（「それでいこう」）。「記念コンサート」是女の人一開始屬意的方案，聽到前半就作答容易誤選。',
+    explanationEn:
+      'The four proposals are eliminated one by one: the concert would nearly double the budget with hall and performer fees; the thank-you sale runs every year and lacks fiftieth-anniversary specialness; the factory tour needs half a year of safety preparation and cannot make the ceremony three months away. The two finally settle on the SNS photo contest (「それでいこう」) for its low cost and its reach among younger customers. 「記念コンサート」 is what the woman favored at first, so answering from only the first half leads you astray.',
   },
   {
     id: 'n1-listening-togo-004',
@@ -104,6 +110,8 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '男の人通勤時一直看影片、流量大，若選按用量計費的段階制反而「高くつきかねない」（恐怕更貴），因此選擇定額安心的吃到飽方案。「段階制プラン」是太太自己要辦的方案，屬於「對方選項」混淆；「家族割」需三條門號以上，他家只有夫妻兩人不符資格；「シニアプラン」限六十五歲以上，對話中說「還要二十年後」，也不適用。',
+    explanationEn:
+      'The man watches videos throughout his commute, so heavy data on the pay-as-you-go tiered plan could 「高くつきかねない」 (end up costing more), and he chooses the worry-free flat-rate unlimited plan. 「段階制プラン」 is what the wife takes for herself, a partner-choice decoy; 「家族割」 requires at least three lines while their household has only the two of them; and 「シニアプラン」 is for customers 65 and over — as the dialogue says, still twenty years away for him.',
   },
   {
     id: 'n1-listening-togo-005',
@@ -130,6 +138,8 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '女の人有腰傷，醫生囑咐不要造成腰部負擔，因此動作激烈的ダンスエクササイズ先被排除；早朝ヨガ雖被丈夫推薦，但六點半開課得五點起床，她自認無法持續；最後選擇「水の中なら腰にも優しい」的水中ウォーキング。「筋力トレーニング講座」是男の人因曾自己亂練弄傷肩膀而選的，屬於「男方選項」混淆。',
+    explanationEn:
+      'The woman has a bad back and doctor’s orders not to strain it, so the vigorous dance exercise class is ruled out first; her husband suggests early-morning yoga, but a 6:30 start means getting up at five, which she doubts she could keep up. She settles on water walking because 「水の中なら腰にも優しい」 (the water is gentle on her back). 「筋力トレーニング講座」 is the husband’s pick — he once hurt his shoulder training self-taught — making it a his-choice decoy.',
   },
   {
     id: 'n1-listening-togo-006',
@@ -156,6 +166,8 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '駅前マンション超出預算兩萬圓且面向大馬路吵雜，被在家工作、堅持要安靜的妻子否決；郊外一戸建て因公車三十分鐘加上早晨塞車被認為不切實際；商店街旁的公寓屋齡四十年、日照差到「洗濯物も乾かない」。公園沿いのマンション安靜、租金在預算內、走路十五分鐘可當運動，最後丈夫說「そこに決めよう」拍板。「駅前のマンション」是丈夫最初屬意的，容易誤選。',
+    explanationEn:
+      'The station-front condo runs 20,000 yen over budget and faces a noisy main road, so the wife, who works from home and will not compromise on quiet, vetoes it; the suburban house is deemed unrealistic with a 30-minute bus ride plus morning congestion; the apartment by the shopping street is forty years old with sunlight so poor 「洗濯物も乾かない」 (the laundry would never dry). The parkside condo is quiet, within budget, and the 15-minute walk can count as exercise, so the husband closes with 「そこに決めよう」. 「駅前のマンション」 is what he initially favored, an easy wrong pick.',
   },
   {
     id: 'n1-listening-togo-007',
@@ -182,6 +194,8 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '丈夫先後屬意「露天風呂付き客室」與「湯めぐり」，但前者價格近乎兩倍、被妻子以「結婚記念日でもあるまいし」否決，後者因需搭接駁車往返反而匆忙也被打消；妻子主張在旅館裡悠閒享用美食，丈夫附和「一番人気だというのにしよう」，即館方介紹時說「當館第一人氣」的特選会席プラン。「露天風呂付き客室プラン」是丈夫最初的憧憬，只聽前半容易誤選；「素泊まり」因晚上外出用餐麻煩而被排除。',
+    explanationEn:
+      'The husband is tempted first by the open-air-bath room and then by the bath-hopping plan, but the former costs nearly double and the wife dismisses it with 「結婚記念日でもあるまいし」 (it’s not as if it’s our anniversary), and the latter is dropped because the shuttle-bus transfers would make things hectic. She argues for relaxing at the inn over a fine meal, and he agrees with 「一番人気だというのにしよう」 — the special kaiseki plan the front desk called the inn’s most popular. 「露天風呂付き客室プラン」 is the husband’s initial dream and traps anyone who stops listening halfway; 「素泊まり」 is ruled out because going out for dinner feels like a chore.',
   },
   {
     id: 'n1-listening-togo-008',
@@ -208,6 +222,8 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '四個場地逐一比較：市民ホール音響雖佳但採抽選制、下個月才知結果，趕不上再來週要寄的邀請函；ホテル宴会場交通絕佳卻要價預算的一點五倍；貸し会議室僅容百人、直接出局。大学の講堂雖然離車站要搭二十分鐘公車，但參加者過半是該校校友、路線熟門熟路，兩人認為足以彌補交通劣勢，最後男の人說「そこに申し込んでおいてくれ」拍板。「市民ホール」是條件看似最好的場地，只聽優點不聽時程限制就容易誤選。',
+    explanationEn:
+      'Comparing the four venues: the civic hall has fine acoustics but is allotted by lottery with results not known until next month, too late for invitations going out the week after next; the hotel banquet room has a perfect location but quotes 1.5 times the budget; the rental meeting room holds only a hundred people and is dismissed outright. The university auditorium requires a 20-minute bus ride from the station, but over half the attendees are alumni who know the way, which the two decide more than offsets the inconvenience, and the man closes with 「そこに申し込んでおいてくれ」. 「市民ホール」 looks best on paper, so hearing only its merits and not the scheduling constraint leads to the wrong answer.',
   },
   {
     id: 'n1-listening-togo-009',
@@ -234,6 +250,8 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '女の人原想為下個月的新產品發表鍛鍊「話し方」而報プレゼンテーション研修，卻因平日夜間三回與接小孩時間衝突而放棄；同事推薦可自由安排時間的ロジカルライティング，她以「想先學會用數字說話」婉拒，最後選擇雖然作業多但扎實的データ分析研修（「私はそれにするわ」）。「ビジネス英語研修」是男の人為秋天的海外案子選的，屬於「對方選項」混淆；「プレゼンテーション研修」是她被迫放棄的第一志願，也容易誤選。',
+    explanationEn:
+      'The woman originally wanted the presentation seminar to polish her speaking for next month’s product launch, but its three weekday-evening sessions clash with picking up her child; her colleague suggests the anytime e-learning logical-writing course, which she declines because she first wants to argue from numbers. She commits to the data analysis seminar — heavy on assignments but genuinely strengthening — with 「私はそれにするわ」. 「ビジネス英語研修」 is what the man picks for his autumn overseas assignments, a partner-choice decoy; 「プレゼンテーション研修」 is the first choice she had to abandon, another tempting wrong answer.',
   },
   {
     id: 'n1-listening-togo-010',
@@ -260,6 +278,8 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '男の人最初對能強制儲蓄的積立型養老保険心動，但被妻子以「背著房貸、月付最重恐怕讓家計轉不過來」勸退；妻子點出他是自營業者、一旦倒下收入就會中斷，最適合每月像薪水一樣給付的收入保障保険，他也認同「僕に必要なのはそれだな」。「がん保険」是妻子因家族多癌症病史而自己要保的，屬於「對方選項」混淆；「医療保険」因與現有共済保障重疊而被排除；「積立型」是他一開始屬意的，只聽前半容易誤選。',
+    explanationEn:
+      'The man is initially drawn to the savings-type endowment plan that would force him to save, but his wife talks him out of it: with a mortgage, the heaviest monthly premium could sink the household budget. She points out that as a self-employed worker his income stops the moment he falls ill, so the income-protection insurance that pays out monthly like a salary suits him best, and he agrees with 「僕に必要なのはそれだな」. 「がん保険」 is what the wife takes for herself given her family’s cancer history, a partner-choice decoy; 「医療保険」 is dropped as overlapping his existing kyosai coverage; and the endowment plan is the early temptation that misleads half-listeners.',
   },
   {
     id: 'n1-listening-togo-011',
@@ -286,6 +306,8 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '女の人最想要有現場秀的シェフの実演コース，但價格加五成、在公司下達節約經費指令的今年不可行；和食弁当被她以「站著歡談的派對配盒裝便當太乏味」否決；オードブル只有冷盤也嫌冷清。剩下的立食ビュッフェ需要簡易調理空間，確認會場休息室可借用後，兩人以「菜色種類最多」為由請業者估價定案。「シェフの実演コース」是女の人一開始力推的方案，只聽前半就作答容易誤選。',
+    explanationEn:
+      'The woman most wants the chef’s live-carving course, but its 50-percent surcharge is impossible in a year when cost-cutting orders have come down; she rejects the boxed washoku lunches as dreary for a standing, mingling party, and the hors d’oeuvre platters alone would mean nothing but cold dishes. That leaves the standing buffet, which needs a simple cooking space — once they confirm the venue’s anteroom can be borrowed, they request a quote on it for having the widest variety. 「シェフの実演コース」 is what the woman pushed at the start, so answering from the first half alone leads you astray.',
   },
   {
     id: 'n1-listening-togo-012',
@@ -312,5 +334,7 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '男の人建議女の人選最便宜的ナイト・週末プラン，但她寫稿多在平日下午，白天不能用就毫無意義；她又表明不像對方那樣每天報到、行李只有一台筆電，不需要固定席，因此選擇較便宜的自由席プラン，尖峰沒位子時去咖啡店即可。「固定席プラン」是男の人因攝影器材笨重、想放著不動而選的，屬於「對方選項」混淆；「個室プラン」月費四萬一開始就被嫌太貴而出局。',
+    explanationEn:
+      'The man suggests the woman take the cheapest night-and-weekend plan, but she writes her drafts mostly on weekday afternoons, so a plan unusable in daytime is pointless; she also notes she will not come in daily like him and carries only a laptop, so she needs no fixed desk and picks the cheaper free-address plan, retreating to a nearby cafe when it is crowded at peak times. 「固定席プラン」 is the man’s choice, made so he can leave his heavy camera gear in place — a partner-choice decoy; 「個室プラン」 was knocked out at the start as too expensive at 40,000 yen a month.',
   },
 ]

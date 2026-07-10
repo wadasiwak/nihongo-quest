@@ -21,6 +21,8 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '講者先肯定遠距工作，再用「ただ」點出閒聊「失われつつある」的隱憂，最後以「求められるのは〜気軽に話せる場をいかに作るか」收束，主旨是要打造遠距下也能閒聊的環境。「通勤時間が減った」只是開頭引用的細節；「アイデアは会議から生まれる」與獨白中「会議の場ではなく」相反；「オフィスに戻すべき」也被明確否定。',
+    explanationEn:
+      'The speaker first affirms telework, then uses 「ただ」 to raise the concern that casual chatting is 「失われつつある」, and concludes with 「求められるのは〜気軽に話せる場をいかに作るか」 — his main point is creating spaces for casual conversation even when working remotely. Shorter commutes are just a detail cited at the start; the idea that new ideas come from meetings contradicts his statement 「会議の場ではなく」; and bringing everyone back to the office is explicitly rejected.',
   },
   {
     id: 'n2-listening-gaiyo-002',
@@ -42,6 +44,8 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '講者先承認無現金支付的優點，再用「しかしその一方で」帶出長者被排除的問題，最後主張「技術の進歩に人への配慮が伴ってこそ」，主旨是推動無現金化時要顧及跟不上的人。「会計が早く済む」只是開頭列舉的優點細節；「現金の取り扱いをやめるべき」與其主張方向相反；「お年寄りにスマホが広まりつつある」獨白中並沒有這樣說。',
+    explanationEn:
+      'The speaker first acknowledges the merits of cashless payment, then uses 「しかしその一方で」 to introduce the problem of elderly people being left out, and finally argues 「技術の進歩に人への配慮が伴ってこそ」 — her theme is that going cashless requires consideration for those who cannot keep up. Faster checkout is merely an advantage listed at the beginning; stores dropping cash entirely runs against her position; and the claim that smartphones are spreading among the elderly is never made in the talk.',
   },
   {
     id: 'n2-listening-gaiyo-003',
@@ -63,6 +67,8 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '報告用「つまり」總結：「優先して改善すべきなのは、製品そのものではなく、説明書の分かりやすさだ」，並預告要提改訂案，主旨即改善說明書。「九割が満足」是鋪陳用的問卷細節；「製品の性能を高めるべき」正好被「製品そのものではなく」否定；「相談室の担当者を増やす」獨白中完全沒有提出。',
+    explanationEn:
+      'The report wraps up with 「つまり」: 「優先して改善すべきなのは、製品そのものではなく、説明書の分かりやすさだ」, and she promises a revision draft, so improving the manual is her main message. The ninety-percent satisfaction figure is background detail from the survey; improving the product itself is exactly what 「製品そのものではなく」 rules out; and adding staff to the customer service desk is never proposed anywhere in the talk.',
   },
   {
     id: 'n2-listening-gaiyo-004',
@@ -84,6 +90,8 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '專家明言問題「食べるか食べないかということよりも、何を食べているか」，最後再以「量より、まず中身を見直して」收尾，主旨是重新檢視早餐內容。「菓子パンだけだと眠くなりかねない」只是支持主張的一個例子，屬細節；「完璧な食事を用意しなければ」被「用意しろとは言いません」直接否定；「抜いたほうがいい」獨白從頭到尾都沒有主張。',
+    explanationEn:
+      'The expert states the real issue as 「食べるか食べないかということよりも、何を食べているか」 and closes with 「量より、まず中身を見直して」, so his main point is to reexamine what breakfast consists of. Getting sleepy after a pastry-only breakfast is just one supporting example; preparing a perfect meal is directly denied with 「用意しろとは言いません」; and skipping breakfast is never advocated at any point in the talk.',
   },
   {
     id: 'n2-listening-gaiyo-005',
@@ -105,6 +113,8 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '講者用「しかし」轉折，指出震災中多數人是被鄰居救出，並以「日ごろから近所の人と声をかけ合う関係を作っておくこと。それこそが〜何よりの備え」明示結論，主旨是平日的鄰里關係才是保命關鍵。「備蓄は欠かせません」只是開頭讓步的細節；「消防や警察がすぐ助けてくれる」與獨白內容相反；「家具の固定」則完全沒有被提到。',
+    explanationEn:
+      'The speaker pivots with 「しかし」, noting that most people rescued from collapsed houses were saved by neighbors, and makes his conclusion explicit: 「日ごろから近所の人と声をかけ合う関係を作っておくこと。それこそが〜何よりの備え」 — everyday neighborhood ties are what save lives. Stockpiling water and food is only a concession made at the start; the idea that fire and police will arrive quickly contradicts the talk; and securing furniture is never mentioned at all.',
   },
   {
     id: 'n2-listening-gaiyo-006',
@@ -126,6 +136,8 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '講者先鋪陳空屋的弊害與拆除派的主張，再用「一方」舉出改建咖啡廳、旅宿的成功例，最後以「地域の資源として生かしていく〜発想の転換」總結，主旨是活用而非拆除。「景観や治安への悪影響」只是開頭鋪陳的細節；「取り壊し費用が安くなっている」獨白中沒說，反而說要花大錢；「すぐに取り壊したほうがいい」是講者要聽眾跳脫的舊思維，與主旨相反。',
+    explanationEn:
+      'After outlining the harms of vacant houses and the calls for demolition, the speaker uses 「一方」 to introduce successful conversions into cafes and lodgings, then concludes with 「地域の資源として生かしていく〜発想の転換」 — the theme is using empty houses as community resources rather than tearing them down. The harm to scenery and safety is just background detail; demolition costs are said to be high, not getting cheaper; and demolishing dangerous houses right away is precisely the old mindset she urges listeners to move beyond.',
   },
   {
     id: 'n2-listening-gaiyo-007',
@@ -147,6 +159,8 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '報告的結論在最後一句：「広告の出し方を、実際のお客様に合わせて見直すべきだ」，前面的銷售數字與購買者分析都是為此鋪陳，主旨是調整宣傳策略。「目標を二割上回っている」只是開頭報告的業績細節；「操作をもっと簡単に」不成立，操作簡單正是被銀髮族肯定的優點；「シニア向けの新開発」獨白中並沒有提案。',
+    explanationEn:
+      'The conclusion comes in the final line: 「広告の出し方を、実際のお客様に合わせて見直すべきだ」 — advertising should be redirected toward the actual buyers, and the sales figures and buyer analysis before it are all setup for that point. Exceeding the sales target by twenty percent is just an opening detail; making the product simpler to operate makes no sense because its easy operation is exactly what seniors praised; and developing a new senior-oriented product is never proposed in the report.',
   },
   {
     id: 'n2-listening-gaiyo-008',
@@ -168,6 +182,8 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '專家對比兩種稱讚方式後，用「つまり、大事なのは〜結果ではなく過程に目を向けてほめること」直接點出主旨：要稱讚努力的過程。「回数が多いほど伸びる」被「ほめる回数を増やすことではなく」否定；「点数をほめると挑戦する子に育つ」與獨白所說「挑戦しなくなる」正好相反；「ほめるのをやめたほうがいい」說得太過，她只是提醒稱讚的方式，並未反對稱讚本身。',
+    explanationEn:
+      'After contrasting the two styles of praise, the expert states her point directly: 「つまり、大事なのは〜結果ではなく過程に目を向けてほめること」 — praise the process of effort, not the result. Praising more often is rejected by 「ほめる回数を増やすことではなく」; praising test scores producing challenge-loving children is the exact opposite of her claim that such children 「挑戦しなくなる」; and giving up on praise altogether overstates her position, since she only cautions about how to praise, not against praising itself.',
   },
   {
     id: 'n2-listening-gaiyo-009',
@@ -189,6 +205,8 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '講者批評追求人數是「本末転倒」，最後主張「より多くの人を呼ぶことではなく、一人一人に長く滞在してもらい、深く味わってもらうこと」，主旨是從衝人數轉向重視停留品質。「渋滞やごみが増える」只是說明弊害的細節；「数をさらに増やす方法」與主張正好相反；「住民は受け入れに賛成」不成立，獨白說的是居民深受其擾。',
+    explanationEn:
+      'The speaker criticizes chasing visitor numbers as 「本末転倒」 and concludes with 「より多くの人を呼ぶことではなく、一人一人に長く滞在してもらい、深く味わってもらうこと」 — tourism should shift from headcounts to the quality of each stay. Traffic jams and garbage are only details illustrating the harm; finding ways to attract even more tourists is the opposite of her argument; and residents welcoming tourists contradicts the talk, which describes them as suffering from the crowds.',
   },
   {
     id: 'n2-listening-gaiyo-010',
@@ -210,5 +228,7 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '講者用「ですから、私たちが今すべきなのは〜AIを道具として使いこなす力を身につけること」作結，主旨是與其害怕不如學會駕馭 AI。「単純な作業が置き換えられつつある」只是承認現狀的細節；「法律で止めるべき」不成立，他說這股潮流「止めようがありません」；「新しい仕事を生み出すことはない」與獨白中「新しい仕事を生み出してもきました」正好相反。',
+    explanationEn:
+      'The speaker concludes with 「ですから、私たちが今すべきなのは〜AIを道具として使いこなす力を身につけること」 — rather than fearing AI, we should learn to master it as a tool. Simple tasks already being replaced by AI is a detail he concedes along the way; stopping AI by law contradicts his remark that the trend 「止めようがありません」; and the claim that AI creates no new jobs is the exact opposite of his statement 「新しい仕事を生み出してもきました」.',
   },
 ]

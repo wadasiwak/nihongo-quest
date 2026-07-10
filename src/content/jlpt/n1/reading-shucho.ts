@@ -21,6 +21,8 @@ export const questions: JlptQuestion[] = [
         answerIndex: 0,
         explanation:
           '第一段末尾明言：「問題は、効率がひとつの『手段』であることを忘れ、それ自体を『目的』に据えてしまう転倒にある」，即手段與目的的顛倒。「非効率な働き方に戻る」與筆者「恩恵を否定するつもりは毛頭ない」的立場相反；「会議を短くしすぎて目的が達成できない」文中並未如此論述；「数字で示すことを拒む」只是挪用了首段的字眼，並非「転倒」的內容。',
+        explanationEn:
+          'The end of the first paragraph states it directly: 「問題は、効率がひとつの『手段』であることを忘れ、それ自体を『目的』に据えてしまう転倒にある」 — the inversion of means and end. Returning to inefficient ways of working contradicts the author\'s stance of 「恩恵を否定するつもりは毛頭ない」; the essay never argues that overly short meetings defeat their own purpose; and refusing to show results in numbers merely recycles wording from the opening paragraph and is not what 「転倒」 refers to.',
       },
       {
         id: 'n1-reading-shucho-001-q2',
@@ -34,6 +36,8 @@ export const questions: JlptQuestion[] = [
         answerIndex: 0,
         explanation:
           '第三段結尾寫道：「効率化が徹底されるほど、効率化の対象を選ぶ知性そのものが痩せ細っていくという逆説」，即越徹底追求效率，選擇效率化對象的智性反而越萎縮。「無駄な時間を増やすほど仕事が速くなる」文中沒有這種因果主張；「短期的な数字も悪化する」相反地，文中說不貢獻於短期數字的活動遭到排擠；「創造性を重視する人ほど定型作業を好む」是無中生有的組合。',
+        explanationEn:
+          'The third paragraph closes with: 「効率化が徹底されるほど、効率化の対象を選ぶ知性そのものが痩せ細っていくという逆説」 — the more thoroughly efficiency is pursued, the more the very intelligence that chooses what to make efficient withers away. The claim that adding seemingly wasted time makes work go faster appears nowhere as a causal claim; the idea that short-term numbers also worsen is backwards — the text says activities that do not serve short-term numbers get squeezed out; and creativity-minded people preferring routine tasks is a fabricated pairing.',
       },
       {
         id: 'n1-reading-shucho-001-q3',
@@ -47,6 +51,8 @@ export const questions: JlptQuestion[] = [
         answerIndex: 0,
         explanation:
           '末段是全文主張所在：筆者肯定「定型的な作業を効率化することは大いに結構」，但強調要在效率的追求之外「効率では測れない時間を意識的に確保する」，這才是不被工具反過來役使的條件。「効率を排除すべき」過度極端，違背筆者「毛頭ない」的表態；「あえて非効率に行うべき」與「私は非効率を礼賛したいのではない」直接矛盾；「さらなる効率化に注ぎ込む」正是筆者批評「永遠に立ち止まる機会を持てない」的做法。',
+        explanationEn:
+          'The final paragraph carries the thesis: the author approves that 「定型的な作業を効率化することは大いに結構」, but insists on deliberately securing, outside the pursuit of efficiency, 「効率では測れない時間」 — that is the condition for wielding efficiency as a tool rather than being used by it. Banishing efficiency from the workplace is far too extreme and contradicts the author\'s 「毛頭ない」 disclaimer; doing everything inefficiently on purpose collides head-on with 「私は非効率を礼賛したいのではない」; and pouring saved time into further efficiency is exactly the practice criticized as leaving us 「永遠に立ち止まる機会を持てない」.',
       },
     ],
   },
@@ -70,6 +76,8 @@ export const questions: JlptQuestion[] = [
         answerIndex: 0,
         explanation:
           '第二段結論：「教養が『役に立たない』ように見えるのは、それが無力だからではなく、実用性という物差しの外側で働く知だからである」——實用性是以特定目的為前提的相對尺度，而教養是重新質問目的本身的學問，原理上無法用該尺度衡量。「長い時間がかかる」文中未提，且筆者否定的是尺度本身而非時程；「証明書が出ない」只是第三段的附帶描述，不是看似無用的理由；「現代では通用しない」與筆者主張完全相反。',
+        explanationEn:
+          'The second paragraph concludes: 「教養が『役に立たない』ように見えるのは、それが無力だからではなく、実用性という物差しの外側で働く知だからである」 — usefulness is a relative measure that only becomes measurable once a goal is fixed, whereas liberal learning questions the goal itself, so in principle it cannot be measured by that yardstick. Taking a very long time to pay off is never mentioned, and the author\'s point is about the yardstick itself, not the timeline; the lack of certificates is only an incidental remark in paragraph three, not the stated reason; and the claim that such learning no longer works in modern society is the exact opposite of the author\'s position.',
       },
       {
         id: 'n1-reading-shucho-002-q2',
@@ -83,6 +91,8 @@ export const questions: JlptQuestion[] = [
         answerIndex: 0,
         explanation:
           '第三段舉「歴史を学んだ者」不會斷然排斥異己的價值觀、「文学に親しんだ者」不輕易把他人內面套進單純的框架，最後總結「教養とは……自分の見方を相対化し、世界を複数の角度から眺め直すための構え」。「知識の量が多い」與「教養とは知識の量ではなく」直接矛盾；「商談や交渉で役立つ」是第二段用來說明實用性的例子，並非教養的功用；「決して他人を見下さなくなる」被末段「安易な効能書きに、私は与しない」明確否定。',
+        explanationEn:
+          'Paragraph three gives the examples — one who has studied history does not dismiss alien values out of hand, and one steeped in literature hesitates to force other people\'s inner lives into simple molds — then sums up: 「教養とは……自分の見方を相対化し、世界を複数の角度から眺め直すための構え」. Having a large stock of knowledge contradicts 「教養とは知識の量ではなく」; usefulness in business negotiations belongs to paragraph two\'s illustration of practicality, not to what culture does; and the claim that the cultured never look down on others is expressly rejected in the final paragraph, where the author refuses such 「安易な効能書き」.',
       },
       {
         id: 'n1-reading-shucho-002-q3',
@@ -96,6 +106,8 @@ export const questions: JlptQuestion[] = [
         answerIndex: 0,
         explanation:
           '末段筆者刻意先退一步（不附和「人格が高まる」的廉價功效論），再點出全文主張：「教養の本領が『答えを増やす』ことではなく『問いを増やす』ことにある」，並以「変化の激しい時代に本当に必要なのは、後者のほうではないだろうか」收束。「実用的な知識は学んでも意味がない」筆者從未否定實用知識本身；「害のほうが大きい」把筆者提及的墮落風險誇大成反對教養的結論；「収入に直結する形へ改革すべき」正是筆者質疑的「役に立つか」式思考。',
+        explanationEn:
+          'In the final paragraph the author first steps back — refusing the cheap claim that culture ennobles character — and then states the thesis: 「教養の本領が『答えを増やす』ことではなく『問いを増やす』ことにある」, closing with 「変化の激しい時代に本当に必要なのは、後者のほうではないだろうか」. The author never denies the worth of practical knowledge itself, so saying it is meaningless to learn is wrong; the harm-outweighs-benefit option inflates the mentioned risk of degeneration into a case against culture; and reforming liberal arts to link directly to income is precisely the 「役に立つか」 mode of thinking the essay calls into question.',
       },
     ],
   },
@@ -119,6 +131,8 @@ export const questions: JlptQuestion[] = [
         answerIndex: 0,
         explanation:
           '第二段明言：多數決所顯示的只是「その時点で多くの人がどう考えているかという意見の分布」，「多くの人が支持したから正しいという保証はどこにもない」，並以「数の力と真理とは、本来別の秩序に属する」總結。「集計の誤り」文中完全沒有談計票技術問題；「少数意見のほうが常に正しい」筆者只說少數意見「中には警告が含まれていることが少なくない」，並未主張少數恆對；「すべて誤りだった」誇大了「後から誤りと判明した決定の多く」這一敘述。',
+        explanationEn:
+          'The second paragraph is explicit: what a majority vote shows is only 「その時点で多くの人がどう考えているかという意見の分布」, and 「多くの人が支持したから正しいという保証はどこにもない」, summed up as 「数の力と真理とは、本来別の秩序に属する」. Errors in vote counting are never discussed — the text raises no technical tallying issue; the author never claims minorities are always right, only that minority opinions often contain warnings; and 「すべて誤りだった」 overstates the passage\'s 「後から誤りだったと判明した決定の多く」.',
       },
       {
         id: 'n1-reading-shucho-003-q2',
@@ -132,6 +146,8 @@ export const questions: JlptQuestion[] = [
         answerIndex: 0,
         explanation:
           '第三段寫道：多數決是「限られた時間の中でやむを得ず打つ『暫定的な句点』であり、決定の後も検証と修正に開かれていてこそ意味を持つ」——句點是暫時的，決定後仍須保持檢證修正的空間。「異論を再び持ち出すべきではない」正是筆者批判的「もう決まったことだ」式封殺；「従わなくてもよい」文中並未否定決定的拘束力，暫定不等於可不服從；「全員一致になるまで待つ」與末段「全員一致を待てば何も決められず」相悖。',
+        explanationEn:
+          'Paragraph three says a majority decision is 「限られた時間の中でやむを得ず打つ『暫定的な句点』であり、決定の後も検証と修正に開かれていてこそ意味を持つ」 — the period is provisional, and room for verification and revision must remain after the decision. Saying dissent should never be raised again is exactly the 「もう決まったことだ」 silencing the author criticizes; the text never denies the binding force of a decision, so provisional does not mean one may disobey; and waiting for unanimity contradicts the final paragraph\'s 「全員一致を待てば何も決められず」.',
       },
       {
         id: 'n1-reading-shucho-003-q3',
@@ -145,6 +161,8 @@ export const questions: JlptQuestion[] = [
         answerIndex: 0,
         explanation:
           '末段是主張所在：筆者承認多數決是「なお手放すことのできない次善の知恵」，因此該問的是「運用の質」——表決前是否窮盡異論、表決後是否保留檢證迴路，並以「結論を絶対視することではなく、暫定的な合意にすぎないと自覚し続けること」收束。「別の決定方法に置き換えるべき」與「代わる魔法のような決定方法があると言いたいのではない」矛盾；「全員一致こそ理想」被「何も決められず」否定；「速やかに従うべきだ」正是首段筆者質疑的思考停止。',
+        explanationEn:
+          'The final paragraph carries the thesis: the author accepts majority rule as 「なお手放すことのできない次善の知恵」, so what must be asked is the quality of its operation — whether dissent was exhausted before the vote and whether channels for re-examining the conclusion remain afterward — closing with the idea that respecting majority rule means 「結論を絶対視することではなく、暫定的な合意にすぎないと自覚し続けること」. Replacing it with another method contradicts 「代わる魔法のような決定方法があると言いたいのではない」; holding up unanimity as the ideal is refuted by 「何も決められず」; and demanding that the losing side promptly submit is precisely the thought-stopping attitude questioned in the opening paragraph.',
       },
     ],
   },
@@ -168,6 +186,8 @@ export const questions: JlptQuestion[] = [
         answerIndex: 0,
         explanation:
           '第二段的論旨：過去人們在迷路、找地標、問路的「遠回りの過程」中鍛鍊了掌握空間的能力，而「便利な道具は、こうした『過程』を短絡させることで成立する」，於是自力走完結果之路的機會本身消失了。「指示は正確ではない」文中反而說「指示どおりに歩けば確実に目的地へ着く」；「尋ねるほうが早い」文中沒有比較速度；「昔の人は記憶力が優れていた」是無中生有，筆者談的是過程鍛鍊能力，不是先天優劣。',
+        explanationEn:
+          'The point of paragraph two: people used to build mental maps through the roundabout process of getting lost, hunting for landmarks, and asking directions, and 「便利な道具は、こうした『過程』を短絡させることで成立する」 — so the very chance to trace the path to a result on one\'s own disappears. Claiming the app\'s directions are inaccurate contradicts the text, which says 「指示どおりに歩けば確実に目的地へ着く」; no comparison of speed between asking people and using the app is made; and the idea that people in the past had better memory is invented — the author\'s point is that the process trains ability, not that anyone was innately superior.',
       },
       {
         id: 'n1-reading-shucho-004-q2',
@@ -181,6 +201,8 @@ export const questions: JlptQuestion[] = [
         answerIndex: 0,
         explanation:
           '第三段直接說明理由：「便利さの利得は使ったその瞬間にはっきり実感できるのに対し、失われる能力は長い時間をかけて静かに衰えていくため、我々は取引が行われたことにすら気づかない」——利得即時可感、代價緩慢無形，這種時間差使交換難以察覺。「価格に表示されていない」把比喻性的「交換」曲解成金錢標價問題；「動作原理が理解できない」談的是技術黑箱，文中未提；「周囲の人が先に気づく」文中沒有本人與旁人的對比。',
+        explanationEn:
+          'Paragraph three states the reason directly: 「便利さの利得は使ったその瞬間にはっきり実感できるのに対し、失われる能力は長い時間をかけて静かに衰えていくため、我々は取引が行われたことにすら気づかない」 — the gain is felt at once while the cost erodes slowly and invisibly, and this time lag makes the exchange hard to notice. The price-tag option misreads the metaphorical 「交換」 as a matter of monetary labeling; the inner workings of devices being too complex is a black-box issue the text never raises; and no contrast between the person and bystanders noticing first appears anywhere.',
       },
       {
         id: 'n1-reading-shucho-004-q3',
@@ -194,6 +216,8 @@ export const questions: JlptQuestion[] = [
         answerIndex: 0,
         explanation:
           '末段為全文主張：「便利さを受け取るたびに、自分が何を差し出しているのかを一度は意識せよ」，並強調「何を道具に任せ、何を自分の手に残すか」的自覺劃線，結尾以「省略するかどうかを自分で選べること」定義真正的豐足。「不便な生活に戻るべきだ」與「戻れと説きたいのではない」直接矛盾；「惜しむのは時代錯誤」正是筆者要讀者停下來反省的態度的反面；「あらゆる過程を省略できる社会を目指す」則是筆者警告會淪為「道具の提案にただ頷くだけの主体」的方向。',
+        explanationEn:
+          'The final paragraph is the thesis: 「便利さを受け取るたびに、自分が何を差し出しているのかを一度は意識せよ」, with the deliberate line-drawing of 「何を道具に任せ、何を自分の手に残すか」, and the closing definition of true richness as being able to choose for oneself whether to skip the process. Urging a return to inconvenient living directly contradicts 「戻れと説きたいのではない」; dismissing regret over lost abilities as outdated sentimentality is the very attitude the author asks readers to pause and reconsider; and aiming for a society where every process can be skipped is the direction the author warns would leave only 「道具の提案にただ頷くだけの主体」.',
       },
     ],
   },

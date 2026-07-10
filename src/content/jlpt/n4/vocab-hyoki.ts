@@ -9,6 +9,8 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '「かす」（借出、借給別人）寫作「貸す」，因此是「貸して」。「借して」用了反向詞「借りる」（借入）的漢字，「借」沒有「かす」的訓讀；「貨して」的「貨」（貨物的貨）與「貸」只差一撇、字形極像；「賃」（家賃的賃）也是形近的貝部字，都不能寫「かす」。',
+    explanationEn:
+      'かす (to lend) is written 「貸す」, so the answer is 「貸して」. 「借して」 uses the kanji of the opposite word 「借りる」 (to borrow) — 「借」 has no reading かす; 「貨」 (goods) looks almost identical to 「貸」, differing by just one stroke; 「賃」 (as in 「家賃」) is another look-alike kanji with the shell radical. None of them can write かす.',
   },
   {
     kind: 'choice',
@@ -18,6 +20,8 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '「かりる」（借入、向別人借）寫作「借りる」，過去式是「借りました」。「貸りました」把借出方向的「貸」誤用在借入；「昔」（むかし，從前）是「借」去掉人字旁的形近字；「惜」（可惜的惜）則是換成豎心旁的形近字，兩者都沒有「かりる」的讀法。',
+    explanationEn:
+      'かりる (to borrow) is written 「借りる」, so the past form is 「借りました」. 「貸りました」 misuses 「貸」, the kanji for lending — the opposite direction; 「昔」 (long ago) is 「借」 without the person radical; 「惜」 swaps in the heart radical instead. Neither look-alike has the reading かりる.',
   },
   {
     kind: 'choice',
@@ -27,6 +31,8 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '「えいが」（電影）寫作「映画」，「映」是放映的映、「画」是圖畫的画。「英画」把「映」換成同音的「英」（英語的英），是典型同音異字錯誤；「映面」「英面」把「画」誤寫成形近的「面」，日文裡都不是詞。',
+    explanationEn:
+      'えいが (movie) is written 「映画」 — 「映」 as in projecting and 「画」 as in picture. 「英画」 swaps in the same-sounding 「英」 (as in English), a classic homophone mistake; 「映面」 and 「英面」 replace 「画」 with the look-alike 「面」. None of the wrong options are real Japanese words.',
   },
   {
     kind: 'choice',
@@ -36,6 +42,8 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '「ちず」（地圖）寫作「地図」。「池図」把「地」誤寫成只差偏旁的「池」（いけ，池塘）；「地区」的「区」（ちく的く）與「図」外框相似、內部不同，是形近干擾，而且「地区」讀「ちく」，意思是地區，與看地圖找路的語境不合。',
+    explanationEn:
+      'ちず (map) is written 「地図」. 「池図」 mistakes 「地」 for 「池」 (pond), which differs only in its radical; 「区」 shares a similar outer frame with 「図」 but has different insides — and 「地区」 is actually read ちく and means "district", which makes no sense when you are checking a map to find your way.',
   },
   {
     kind: 'choice',
@@ -45,6 +53,8 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '「りょうり」（料理、做菜）寫作「料理」。「科」（科學的科）與「料」同為米字旁、只差右半，是最容易看錯的形近字；「里」（さと，故鄉、里）則是「理」去掉王字旁的形近字。四個選項只有「料理」是真正存在的詞。',
+    explanationEn:
+      'りょうり (cooking) is written 「料理」. 「科」 (as in science) shares the rice radical with 「料」 and differs only in the right half — the easiest kanji to misread here; 「里」 (village, hometown) is 「理」 without the king radical. Of the four options, only 「料理」 is a word that actually exists.',
   },
   {
     kind: 'choice',
@@ -54,6 +64,8 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '門窗打開的「あく」寫作「開く」，所以是「開きました」。「空く」雖然也讀「あく」，但意思是「空出來」（如座位空了），門被風吹開不能用「空」；「閉」是反義的「閉める」的漢字；「間」（あいだ）與「開」同為門字框的形近字，沒有「あく」的讀法。',
+    explanationEn:
+      'A door opening is あく, written 「開く」, so the answer is 「開きました」. 「空く」 is also read あく but means to become empty or vacant (like a seat), so it cannot describe a door blown open by the wind; 「閉」 is the kanji of the opposite word 「閉める」 (to close); 「間」 shares the gate frame with 「開」 but is never read あく.',
   },
   {
     kind: 'choice',
@@ -63,6 +75,8 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '關窗、關門的「しめる」寫作「閉める」。「締める」雖然同樣讀「しめる」，但用於繫緊、勒緊（如ネクタイを締める），關窗不能用；「開めて」用了反義的「開」；「閉て」漏掉送假名「め」，是送假名錯誤，正確送法是「閉める→閉めて」。',
+    explanationEn:
+      'Closing a window or door is しめる, written 「閉める」. 「締める」 is also read しめる but means to fasten or tighten (as in ネクタイを締める, tightening a necktie), not closing a window; 「開めて」 uses the opposite kanji for opening; 「閉て」 drops the okurigana め — the correct spelling is 「閉める→閉めて」.',
   },
   {
     kind: 'choice',
@@ -72,6 +86,8 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '「うんてん」（駕駛）寫作「運転」。「連」（連れる的連）與「運」同為辶部、字形相近；「伝」（伝える的伝）與「転」右半相同、只差偏旁，讀音也同為「てん／でん」系，是典型的形近＋音近雙重干擾。正確組合只有「運転」。',
+    explanationEn:
+      'うんてん (driving) is written 「運転」. 「連」 (as in 「連れる」) shares the movement radical with 「運」 and looks similar; 「伝」 (as in 「伝える」) shares its right half with 「転」 and its readings てん/でん sound alike too — a double trap of similar shape and similar sound. The only correct combination is 「運転」.',
   },
   {
     kind: 'choice',
@@ -81,6 +97,8 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '「しゃしん」（照片）寫作「写真」。「直」（直す的直）與「真」只差上下幾筆、字形極像，是最危險的形近干擾；「新」（あたらしい）和「心」（こころ）雖然音讀都是「しん」，但都不是照片的「しん」，屬同音異字錯誤。',
+    explanationEn:
+      'しゃしん (photo) is written 「写真」. 「直」 (as in 「直す」) differs from 「真」 by only a few strokes at the top and bottom — the most dangerous look-alike here; 「新」 (new) and 「心」 (heart) both have the on-reading しん, but they are the wrong homophones — the しん of a photo is only ever 「真」.',
   },
   {
     kind: 'choice',
@@ -90,6 +108,8 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '「べんきょう」（讀書、學習）寫作「勉強」。「免」是「勉」去掉力字的形近字，單獨讀「めん」；「張」（頑張る的張）與「強」同為弓字旁、右半不同，讀音也近（ちょう），容易混淆。正確寫法只有「勉強」一種。',
+    explanationEn:
+      'べんきょう (studying) is written 「勉強」. 「免」 is 「勉」 minus the strength element and is read めん; 「張」 (as in 「頑張る」) shares the bow radical with 「強」 and its reading ちょう sounds close, making it easy to confuse. The only correct spelling is 「勉強」.',
   },
   {
     kind: 'choice',
@@ -99,6 +119,8 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '「びょういん」（醫院）寫作「病院」。「員」（店員的員）與「院」音讀同為「いん」，是常考的同音異字，「病員」不是日文的詞；「疲」（疲れる的疲）與「病」同為疒字頭、字形相近，但讀「ひ」，不能寫「びょう」。',
+    explanationEn:
+      'びょういん (hospital) is written 「病院」. 「員」 (as in 「店員」) shares the on-reading いん with 「院」 — a frequently tested homophone — but 「病員」 is not a Japanese word; 「疲」 (as in 「疲れる」) shares the sickness radical with 「病」 and looks similar, but it is read ひ and cannot write びょう.',
   },
   {
     kind: 'choice',
@@ -108,6 +130,8 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '「しつもん」（提問、問題）寫作「質問」。「門」（もん，門）是「問」去掉中間口字的形近字；「間」（あいだ）同樣是門字框的形近字，兩者都不能表示「發問」；「貿」（貿易的貿）與「質」同為貝部、上半相似，也是形近干擾。',
+    explanationEn:
+      'しつもん (question) is written 「質問」. 「門」 (gate) is 「問」 without the mouth element inside; 「間」 is another look-alike with the same gate frame — neither can express asking a question; 「貿」 (as in 「貿易」) shares the shell radical and a similar upper half with 「質」, another shape-based trap.',
   },
   {
     kind: 'choice',
@@ -117,6 +141,8 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '「せかい」（世界）寫作「世界」。「海」（うみ）、「回」（一回的回）、「会」（会う的会）音讀都是「かい」，全是同音異字干擾，但「せかい」的「かい」只能寫「界」（田字頭的界），其他三個組合在日文裡都不成詞。',
+    explanationEn:
+      'せかい (the world) is written 「世界」. 「海」 (sea), 「回」 (as in 「一回」), and 「会」 (as in 「会う」) all share the on-reading かい, so they are pure homophone traps — but the かい of せかい can only be written 「界」. The other three combinations are not words in Japanese.',
   },
   {
     kind: 'choice',
@@ -126,6 +152,8 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '「あるく」（走路、步行）寫作「歩く」，て形是「歩いて」。「走」是跑的「走る（はしる）」，沒有「あるく」的讀法；「歩るいて」多送了一個「る」，是常見送假名錯誤，正確只送「く」；「少」（すくない）是「歩」少掉下半的形近字。',
+    explanationEn:
+      'あるく (to walk) is written 「歩く」, so the te-form is 「歩いて」. 「走」 belongs to 「走る」 (to run, read はしる) and is never read あるく; 「歩るいて」 adds an extra okurigana る — a very common mistake, since only the く is written in kana; 「少」 (few) is 「歩」 missing its lower half.',
   },
   {
     kind: 'choice',
@@ -135,6 +163,8 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '「いそぐ」（趕快、著急）寫作「急ぐ」，て形是「急いで」。「急そいで」多送了「そ」，是送假名錯誤；「速」（はやい，速度快）和「忙」（いそがしい，忙碌）語意相關、容易聯想，但都沒有「いそぐ」這個訓讀，不能這樣寫。',
+    explanationEn:
+      'いそぐ (to hurry) is written 「急ぐ」, so the te-form is 「急いで」. 「急そいで」 adds an extra okurigana そ, a spelling mistake; 「速」 (fast, as in はやい) and 「忙」 (busy, as in いそがしい) are related in meaning and easy to associate, but neither has the kun-reading いそぐ, so they cannot be used here.',
   },
   {
     kind: 'choice',
@@ -144,6 +174,8 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '寄送行李、包裹的「おくる」寫作「送る」。「贈る」雖然同樣讀「おくる」，但專指贈送禮物、獻上心意，單純寄東西用「送る」；「迭」是與「送」同為辶部的形近字，日常日文幾乎不用；「送くりました」多送了「く」，是送假名錯誤。',
+    explanationEn:
+      'Sending luggage or a package is おくる, written 「送る」. 「贈る」 is also read おくる, but it specifically means giving a gift or offering something from the heart — plain shipping uses 「送る」; 「迭」 is a look-alike with the same movement radical, hardly used in everyday Japanese; 「送くりました」 adds an extra okurigana く.',
   },
   {
     kind: 'choice',
@@ -153,6 +185,8 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '「てんき」（天氣）寫作「天気」。「汽」（汽車的汽）與「気」音同形近，但多了三點水，用於水蒸氣相關詞；「夭」是「天」出頭變形的形近字，讀「よう」；「記」（日記的記）音讀是「き」，屬同音異字，但天氣的「き」只能寫「気」。',
+    explanationEn:
+      'てんき (weather) is written 「天気」. 「汽」 (as in 「汽車」) sounds the same as 「気」 and looks similar, but it carries the water radical and is used for steam-related words; 「夭」 is a distorted look-alike of 「天」 read よう; 「記」 (as in 「日記」) is read き but is the wrong homophone — the き of weather is only 「気」.',
   },
   {
     kind: 'choice',
@@ -162,6 +196,8 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '「ようじ」（要辦的事情）寫作「用事」。「字」（じ，文字）和「時」（じ，時間）音讀都是「じ」，是同音異字干擾，「用字」「用時」都不是表示「有事要辦」的詞；「要」（重要的要）音讀「よう」，「要事」是中文式寫法，日文的「ようじ」不這樣寫。',
+    explanationEn:
+      'ようじ (an errand, something to take care of) is written 「用事」. 「字」 (letter, character) and 「時」 (time) are both read じ — homophone traps — but 「用字」 and 「用時」 do not mean having business to attend to; 「要」 is read よう, yet 「要事」 is not how Japanese writes ようじ.',
   },
   {
     kind: 'choice',
@@ -171,6 +207,8 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '「とおい」（遠的）寫作「遠い」，送假名只有「い」。「遠おい」多送了「お」，是送假名錯誤；「達」（友達的達）與「遠」同為辶部的形近字，沒有「とおい」的讀法；「近」是反義詞「ちかい」（近的）的漢字，語意正好相反。',
+    explanationEn:
+      'とおい (far) is written 「遠い」, with only the い written in kana. 「遠おい」 adds an extra okurigana お, a spelling mistake; 「達」 (as in 「友達」) shares the movement radical with 「遠」 but has no reading とおい; 「近」 is the kanji of the antonym ちかい (near), the exact opposite in meaning.',
   },
   {
     kind: 'choice',
@@ -180,5 +218,7 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '「あかるい」（明亮的）寫作「明るい」，送假名是「るい」。「明かるい」多送了「か」，是送假名錯誤；「暗」是反義詞「くらい」（暗的）的漢字；「朝」（あさ，早上）左半與「明」相似，是形近干擾，但沒有「あかるい」的讀法。',
+    explanationEn:
+      'あかるい (bright) is written 「明るい」, with るい as the okurigana. 「明かるい」 adds an extra か, a spelling mistake; 「暗」 is the kanji of the antonym くらい (dark); 「朝」 (morning) resembles 「明」 on its left side — a shape-based trap — but it has no reading あかるい.',
   },
 ]

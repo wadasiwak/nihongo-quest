@@ -277,6 +277,8 @@ export const scene: KaiwaScene = {
       answerIndex: 0,
       explanation:
         '面試是口頭場合，稱呼對方公司要用「御社（おんしゃ）」。「貴社（きしゃ）」意思相同但屬書面用語，用於履歷或電子郵件；「弊社」「当社」都是指自己的公司，在面試中用來稱對方公司會完全說反。',
+      explanationEn:
+        'An interview is a spoken setting, so you refer to the other side\'s company as 「御社」 (おんしゃ). 「貴社」 (きしゃ) means the same but is written language, used in resumes and emails; 「弊社」 and 「当社」 both refer to your own company, so using them for the interviewer\'s company gets the relationship exactly backwards.',
     },
     {
       id: 'biz-interview-002',
@@ -286,6 +288,8 @@ export const scene: KaiwaScene = {
       answerIndex: 0,
       explanation:
         '自報姓名要用「言う」的謙讓語「申します」，壓低自己以示禮貌。「おっしゃいます」是尊敬語，只能用於對方的動作，不能用在自己身上；「申されます」是謙讓語誤接尊敬助動詞的錯誤敬語；「お言いします」則不是正確的謙讓語形式。',
+      explanationEn:
+        'When giving your own name you use 「申します」, the humble form of 「言う」, lowering yourself to show politeness. 「おっしゃいます」 is honorific and can only describe the other person\'s speech, never your own; 「申されます」 wrongly stacks an honorific auxiliary onto a humble verb; and 「お言いします」 is simply not a valid humble construction.',
     },
     {
       id: 'biz-interview-003',
@@ -295,6 +299,8 @@ export const scene: KaiwaScene = {
       answerIndex: 0,
       explanation:
         '對面試官表示「我明白了」，最得體的是謙讓說法「承知いたしました」。「ご承知しました」是錯誤敬語，「ご承知」通常用於對方而非自己；「了解です」對上位者顯得輕率失禮；「わかったよ」是常體加終助詞，面試中絕對不能用。',
+      explanationEn:
+        'The most appropriate acknowledgment to an interviewer is the humble 「承知いたしました」 (understood). 「ご承知しました」 is incorrect keigo — the prefix ご in 「ご承知」 is normally used of the other person, not yourself; 「了解です」 sounds too casual toward a superior; and 「わかったよ」 is plain style with a casual final particle, absolutely unusable in an interview.',
     },
     {
       id: 'biz-interview-004',
@@ -304,6 +310,8 @@ export const scene: KaiwaScene = {
       answerIndex: 0,
       explanation:
         '敘述自己過去持續做的工作，要用「〜ておりました」，它是「〜ていました」的謙讓說法。「いらっしゃいました」「なさいました」都是尊敬語，用在自己身上是敬語方向錯誤；「〜てございました」不能用來描述自身的動作，文法不成立。',
+      explanationEn:
+        'To describe work you were doing in a previous job, use 「〜ておりました」, the humble equivalent of 「〜ていました」. 「いらっしゃいました」 and 「なさいました」 are honorific forms, so using them about yourself points the respect in the wrong direction; 「〜てございました」 cannot describe one\'s own actions and is ungrammatical here.',
     },
     {
       id: 'biz-interview-005',
@@ -314,6 +322,8 @@ export const scene: KaiwaScene = {
       starIndex: 2,
       explanation:
         '正解語序是「御社の求人を拝見して、ぜひ働きたいと思い、応募いたしました」。「御社の」後面必須接名詞「求人を」，再接謙讓語「拝見して」（「見る」的謙讓）；接著用「ぜひ働きたいと思い」說明動機，最後連到「応募いたしました」。★在第三格，即「ぜひ働きたいと」。',
+      explanationEn:
+        'The correct order is 「御社の求人を拝見して、ぜひ働きたいと思い、応募いたしました」. 「御社の」 must be followed by the noun phrase 「求人を」, then the humble 「拝見して」 (humble form of "to see"); 「ぜひ働きたいと思い」 states the motivation, leading into 「応募いたしました」. The starred third slot is 「ぜひ働きたいと」.',
     },
     {
       id: 'biz-interview-006',
@@ -324,6 +334,8 @@ export const scene: KaiwaScene = {
       starIndex: 1,
       explanation:
         '正解語序是「入社までに勉強しておくべきことがあれば、教えていただけますか」。「〜ておく」表示事先準備，「勉強して」後只能接「おくべき」；「おくべき」修飾名詞「こと」構成「おくべきことが」，再接假定形「あれば」帶出後面的請求句。★在第二格「おくべき」。',
+      explanationEn:
+        'The correct order is 「入社までに勉強しておくべきことがあれば、教えていただけますか」 (if there is anything I should study before joining, could you tell me?). 「〜ておく」 expresses advance preparation, so 「勉強して」 can only be followed by 「おくべき」; 「おくべき」 modifies the noun 「こと」 to form 「おくべきことが」, and the conditional 「あれば」 then introduces the request. The starred second slot is 「おくべき」.',
     },
   ],
 }

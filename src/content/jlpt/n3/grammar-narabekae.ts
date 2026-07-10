@@ -10,6 +10,8 @@ export const questions: JlptQuestion[] = [
     starIndex: 0,
     explanation:
       '完整句：「彼は、日本語ばかりでなく英語や中国語も話せると聞いて驚いた。」「〜ばかりでなく」（不僅…連…也）直接接在名詞「日本語」後；「や」後面必須緊接名詞，故「英語や」只能放在「中国語も」前；句尾「話せる」接「と聞いて」構成引用內容，四段順序因此唯一。',
+    explanationEn:
+      'Complete sentence: 「彼は、日本語ばかりでなく英語や中国語も話せると聞いて驚いた。」 「〜ばかりでなく」 ("not only... but also") attaches directly to the noun 「日本語」; the listing particle 「や」 must be followed immediately by a noun, so 「英語や」 can only precede 「中国語も」; sentence-final 「話せる」 links to 「と聞いて」 as the quoted content, so the order of the four segments is uniquely determined.',
   },
   {
     kind: 'order',
@@ -20,6 +22,8 @@ export const questions: JlptQuestion[] = [
     starIndex: 2,
     explanation:
       '完整句：「外国語は、毎日練習すれば練習するほど上達が早くなるものだ。」「〜ば〜ほど」（越…越…）是固定句型：ば形之後必須重複同一動詞的辭書形再接「ほど」，故「練習すれば→する→ほど」順序不可調換；「上達」是名詞，只能接在句尾助詞「が」前，語序唯一。',
+    explanationEn:
+      'Complete sentence: 「外国語は、毎日練習すれば練習するほど上達が早くなるものだ。」 「〜ば〜ほど」 ("the more..., the more...") is a fixed pattern: after the ba-form, the same verb must be repeated in the dictionary form and then take 「ほど」, so the order 「練習すれば」→「する」→「ほど」 cannot be rearranged; 「上達」 is a noun and can only stand before the particle 「が」, making the word order unique.',
   },
   {
     kind: 'order',
@@ -30,6 +34,8 @@ export const questions: JlptQuestion[] = [
     starIndex: 1,
     explanation:
       '完整句：「この写真を見るたびに沖縄旅行のことを思い出す。」「〜たびに」（每當…就…）須接動詞辭書形，只能跟在「見る」後；「沖縄」和「旅行の」組成複合詞「沖縄旅行」，「の」後又必須緊接名詞「こと」，故這兩段固定在句尾，整句只有一種排法。',
+    explanationEn:
+      'Complete sentence: 「この写真を見るたびに沖縄旅行のことを思い出す。」 「〜たびに」 ("every time...") must follow a dictionary-form verb, so it can only come after 「見る」; 「沖縄」 and 「旅行の」 form the compound 「沖縄旅行」, and the 「の」 must be followed directly by the noun 「こと」, so these two segments are locked at the end — only one arrangement works.',
   },
   {
     kind: 'order',
@@ -40,6 +46,8 @@ export const questions: JlptQuestion[] = [
     starIndex: 2,
     explanation:
       '完整句：「毎日ジョギングをしているが、走ることが好きなわけではなく、健康のために続けているだけだ。」「〜わけではない」（並非…）前面須接連體形，故「好きな」緊接「わけでは」；「なく」是中止形，用來連接後半句；「走ることが」是「好きな」的對象，只能放最前，語序唯一。',
+    explanationEn:
+      'Complete sentence: 「毎日ジョギングをしているが、走ることが好きなわけではなく、健康のために続けているだけだ。」 「〜わけではない」 ("it is not that...") must follow the attributive form, so 「好きな」 comes right before 「わけでは」; 「なく」 is the continuative form that links to the second half of the sentence; 「走ることが」 is the object of 「好きな」 and can only go first, so the word order is unique.',
   },
   {
     kind: 'order',
@@ -50,6 +58,8 @@ export const questions: JlptQuestion[] = [
     starIndex: 3,
     explanation:
       '完整句：「父は、医者に注意されて、たばこをやめることにしたと母が言っていた。」「〜ことにする」（決定…）表示自己下的決定：動詞辭書形「やめる」修飾「ことに」，再接「した」；「たばこを」是「やめる」的受詞須放最前；「した」後緊接引用的「と」，順序唯一。',
+    explanationEn:
+      'Complete sentence: 「父は、医者に注意されて、たばこをやめることにしたと母が言っていた。」 「〜ことにする」 ("decide to...") expresses a decision one makes oneself: the dictionary form 「やめる」 modifies 「ことに」, which is then followed by 「した」; 「たばこを」 is the object of 「やめる」 and must go first; 「した」 connects directly to the quotative 「と」, so the order is unique.',
   },
   {
     kind: 'order',
@@ -60,6 +70,8 @@ export const questions: JlptQuestion[] = [
     starIndex: 3,
     explanation:
       '完整句：「来月から、大阪にある本社で働くことになりました。」「〜ことになる」（因外部決定而變成…）前須接連體形，故「働く」緊貼「ことになりました」；「大阪に」＋「ある」構成修飾「本社」的子句，「本社で」再接動詞「働く」，接續環環相扣，只有這一種排法。',
+    explanationEn:
+      'Complete sentence: 「来月から、大阪にある本社で働くことになりました。」 「〜ことになる」 ("it has been decided that...", by an external party) must follow the attributive form, so 「働く」 sits right before 「ことになりました」; 「大阪に」 plus 「ある」 forms the relative clause modifying 「本社」, and 「本社で」 then connects to the verb 「働く」 — each link constrains the next, allowing only this one arrangement.',
   },
   {
     kind: 'order',
@@ -70,6 +82,8 @@ export const questions: JlptQuestion[] = [
     starIndex: 1,
     explanation:
       '完整句：「初めて来る人でも迷わないように、駅からの地図を送っておいた。」「〜ように」（為了能…）表目的，前接無意志動詞「迷わない」；「駅からの」的「の」後必須緊接名詞「地図」，而「地図」後緊貼助詞「を」，故後兩段固定在句尾，語序唯一。',
+    explanationEn:
+      'Complete sentence: 「初めて来る人でも迷わないように、駅からの地図を送っておいた。」 「〜ように」 expresses purpose ("so that...") and takes the non-volitional verb 「迷わない」 before it; the 「の」 of 「駅からの」 must be followed directly by the noun 「地図」, and 「地図」 sits right before the particle 「を」, so the last two segments are fixed at the end and the order is unique.',
   },
   {
     kind: 'order',
@@ -80,6 +94,8 @@ export const questions: JlptQuestion[] = [
     starIndex: 2,
     explanation:
       '完整句：「駅前に新しくできたケーキ屋のチーズケーキって、もう食べてみた？」口語的「〜って」（說到…）用來提起話題，須接在名詞「チーズケーキ」後；副詞「新しく」只能修飾動詞「できた」，「できた」修飾「ケーキ屋」，「の」再連到「チーズケーキ」，一路接續固定，排法唯一。',
+    explanationEn:
+      'Complete sentence: 「駅前に新しくできたケーキ屋のチーズケーキって、もう食べてみた？」 The colloquial topic marker 「〜って」 ("speaking of...") must follow the noun 「チーズケーキ」; the adverb 「新しく」 can only modify the verb 「できた」, 「できた」 modifies 「ケーキ屋」, and 「の」 then links to 「チーズケーキ」 — the chain of connections is fixed, so only one arrangement is possible.',
   },
   {
     kind: 'order',
@@ -90,6 +106,8 @@ export const questions: JlptQuestion[] = [
     starIndex: 1,
     explanation:
       '完整句：「兄は、音楽を聞きながら寝るのが習慣になっている。」「〜ながら」（一邊…一邊…）須接動詞連用形，只能跟在「聞き」後；辭書形「寝る」修飾形式名詞「の」，「のが」再接「習慣になっている」作主語，四段接續環環相扣，語序唯一。',
+    explanationEn:
+      'Complete sentence: 「兄は、音楽を聞きながら寝るのが習慣になっている。」 「〜ながら」 ("while doing...") must attach to the masu-stem, so it can only follow 「聞き」; the dictionary form 「寝る」 modifies the nominalizer 「の」, and 「のが」 then serves as the subject of 「習慣になっている」 — each of the four segments constrains the next, making the order unique.',
   },
   {
     kind: 'order',
@@ -100,6 +118,8 @@ export const questions: JlptQuestion[] = [
     starIndex: 0,
     explanation:
       '完整句：「彼は、いかにも残念そうな顔をして部屋を出て行った。」樣態的「〜そうだ」（看起來…）接な形容詞語幹，故「残念」後必須是「そうな」；「そうな」是連體形，後面須接名詞「顔を」；「して」以て形連接後句。副詞「いかにも」慣與「〜そうだ」呼應，首段只能填「残念」。',
+    explanationEn:
+      'Complete sentence: 「彼は、いかにも残念そうな顔をして部屋を出て行った。」 The appearance 「〜そうだ」 ("looks...") attaches to the stem of a na-adjective, so 「残念」 must be followed by 「そうな」; 「そうな」 is the attributive form and must be followed by the noun phrase 「顔を」; 「して」 links to the rest with the te-form. The adverb 「いかにも」 idiomatically pairs with 「〜そうだ」, so only 「残念」 can fill the first slot.',
   },
   {
     kind: 'order',
@@ -110,6 +130,8 @@ export const questions: JlptQuestion[] = [
     starIndex: 3,
     explanation:
       '完整句：「天気予報によると、今年の夏は例年より暑いらしい。」推量傳聞的「らしい」（聽說、似乎）接在い形容詞「暑い」後；比較的「より」必須緊跟名詞「例年」；開頭「今年の」的「の」後只能接名詞「夏は」。由「によると」帶出消息來源，整句排法唯一。',
+    explanationEn:
+      'Complete sentence: 「天気予報によると、今年の夏は例年より暑いらしい。」 The hearsay 「らしい」 ("apparently") attaches after the i-adjective 「暑い」; the comparative 「より」 must come right after the noun 「例年」; the opening 「今年の」 can only be followed by the noun phrase 「夏は」. With 「によると」 introducing the information source, the sentence has exactly one valid arrangement.',
   },
   {
     kind: 'order',
@@ -120,6 +142,8 @@ export const questions: JlptQuestion[] = [
     starIndex: 2,
     explanation:
       '完整句：「この寺は、多くの観光客に愛されており、週末は特に人が多い。」考受身「愛される」：動作主用「に」標示，故「観光客に」放在「愛され」前；「多くの」的「の」後須接名詞「観光客」；「ており」須接連用形「愛され」，用來中止接續後半句，語序唯一。',
+    explanationEn:
+      'Complete sentence: 「この寺は、多くの観光客に愛されており、週末は特に人が多い。」 This tests the passive 「愛される」: the agent is marked with 「に」, so 「観光客に」 goes before 「愛され」; the 「の」 of 「多くの」 must be followed by the noun 「観光客」; 「ており」 attaches to the masu-stem 「愛され」 and serves as the clause-linking pause before the second half, so the order is unique.',
   },
   {
     kind: 'order',
@@ -130,6 +154,8 @@ export const questions: JlptQuestion[] = [
     starIndex: 3,
     explanation:
       '完整句：「母は、弟に嫌いな野菜を食べさせようとして、毎日いろいろ工夫している。」考使役「食べさせる」：連用形「食べ」後必須緊接「させよう」，意向形再與後面的「として」組成「〜ようとする」（想辦法要…）；「嫌いな」修飾「野菜」、「野菜を」是受詞，順序固定不可換。',
+    explanationEn:
+      'Complete sentence: 「母は、弟に嫌いな野菜を食べさせようとして、毎日いろいろ工夫している。」 This tests the causative 「食べさせる」: the stem 「食べ」 must be followed directly by 「させよう」, and this volitional form combines with the following 「として」 to make 「〜ようとする」 ("try to..."); 「嫌いな」 modifies 「野菜」 and 「野菜を」 is the object, so the order is fixed and cannot be swapped.',
   },
   {
     kind: 'order',
@@ -140,6 +166,8 @@ export const questions: JlptQuestion[] = [
     starIndex: 0,
     explanation:
       '完整句：「この本は難しくて、何度読んでも内容が頭に入ってこない。」「〜ても」（即使…也）在此拆成「読んで＋も」，「も」必須緊跟て形；疑問詞「何度」與「ても」呼應，須放在「読んで」前；「内容」是名詞，只能接在句尾助詞「が」前，四段語序唯一。',
+    explanationEn:
+      'Complete sentence: 「この本は難しくて、何度読んでも内容が頭に入ってこない。」 「〜ても」 ("no matter how / even if") is split here into 「読んで」 plus 「も」, and 「も」 must directly follow the te-form; the question word 「何度」 pairs with 「ても」 and must precede 「読んで」; 「内容」 is a noun that can only stand before the particle 「が」, so the order of the four segments is unique.',
   },
   {
     kind: 'order',
@@ -150,6 +178,8 @@ export const questions: JlptQuestion[] = [
     starIndex: 1,
     explanation:
       '完整句：「約束の時間をとっくに過ぎているのに、彼はまだ現れない。」逆接的「〜のに」（明明…卻）接在「いる」後；「過ぎて＋いる」是「ている」的拆分，接續固定；副詞「とっくに」（早就）表完成，須修飾「過ぎている」、放在其前，與句尾「まだ現れない」形成對比，語序唯一。',
+    explanationEn:
+      'Complete sentence: 「約束の時間をとっくに過ぎているのに、彼はまだ現れない。」 The contrastive 「〜のに」 ("even though") attaches after 「いる」; 「過ぎて」 plus 「いる」 is the split-up 「ている」 construction, so that connection is fixed; the adverb 「とっくに」 ("long ago / already") modifies 「過ぎている」 and must precede it, contrasting with the sentence-final 「まだ現れない」 — the order is unique.',
   },
   {
     kind: 'order',
@@ -160,6 +190,8 @@ export const questions: JlptQuestion[] = [
     starIndex: 0,
     explanation:
       '完整句：「台風のため電車が止まってしまい、会議に間に合わなかった。」表原因的「〜ため」（由於…）前須接「名詞＋の」，故「ため」必須緊跟開頭的「台風の」；「電車が」是「止まって」的主語；「しまい」是「てしまう」的連用中止形，須緊接て形「止まって」，語序唯一。',
+    explanationEn:
+      'Complete sentence: 「台風のため電車が止まってしまい、会議に間に合わなかった。」 The causal 「〜ため」 ("because of...") must follow "noun + の", so 「ため」 comes directly after the opening 「台風の」; 「電車が」 is the subject of 「止まって」; 「しまい」 is the clause-linking stem of 「てしまう」 and must attach directly to the te-form 「止まって」, making the order unique.',
   },
   {
     kind: 'order',
@@ -170,6 +202,8 @@ export const questions: JlptQuestion[] = [
     starIndex: 2,
     explanation:
       '完整句：「彼女は十年も日本に住んでいたのだから、日本語が上手なはずだと思っていたが、そうでもなかった。」「〜はずだ」（照理應該…）表有根據的推測：な形容詞以連體形「上手な」接「はず」，再接「だ」與引用的「と」相連；「日本語が」是「上手な」的對象，只能放最前，語序唯一。',
+    explanationEn:
+      'Complete sentence: 「彼女は十年も日本に住んでいたのだから、日本語が上手なはずだと思っていたが、そうでもなかった。」 「〜はずだ」 ("should be...") expresses a grounded expectation: the na-adjective takes its attributive form 「上手な」 before 「はず」, which is followed by 「だ」 connecting to the quotative 「と」; 「日本語が」 is the object of 「上手な」 and can only go first, so the order is unique.',
   },
   {
     kind: 'order',
@@ -180,6 +214,8 @@ export const questions: JlptQuestion[] = [
     starIndex: 1,
     explanation:
       '完整句：「姉は、聞いた話が本当かどうか確かめないと気が済まない性格だ。」「〜かどうか」（是否…）接在名詞「本当」後，構成「話が本当かどうか」的疑問子句，作「確かめる」的對象；「ないと」須接動詞連用形「確かめ」，再連句尾「気が済まない」（不…就不痛快），語序唯一。',
+    explanationEn:
+      'Complete sentence: 「姉は、聞いた話が本当かどうか確かめないと気が済まない性格だ。」 「〜かどうか」 ("whether or not") attaches after the noun 「本当」, building the embedded question 「話が本当かどうか」 as the object of 「確かめる」; 「ないと」 must attach to the verb stem 「確かめ」 and then connects to the sentence-final 「気が済まない」 ("won\'t feel satisfied unless..."), so the order is unique.',
   },
   {
     kind: 'order',
@@ -190,6 +226,8 @@ export const questions: JlptQuestion[] = [
     starIndex: 3,
     explanation:
       '完整句：「この会社に入ったばかりで、仕事の流れがまだよく分かっていない。」「〜たばかり」（才剛…）須接た形，故「ばかりで」緊跟「入った」；開頭助詞「に」後只能接動詞「入った」；「仕事の」的「の」須緊接名詞「流れ」，「流れが」再連句尾述語，四段順序唯一。',
+    explanationEn:
+      'Complete sentence: 「この会社に入ったばかりで、仕事の流れがまだよく分かっていない。」 「〜たばかり」 ("just recently did...") requires the ta-form, so 「ばかりで」 comes right after 「入った」; the opening particle 「に」 can only be followed by the verb 「入った」; the 「の」 of 「仕事の」 must be followed directly by the noun 「流れ」, and 「流れが」 then links to the sentence-final predicate — the four segments have a unique order.',
   },
   {
     kind: 'order',
@@ -200,5 +238,7 @@ export const questions: JlptQuestion[] = [
     starIndex: 0,
     explanation:
       '完整句：「子どものころ、母に毎日ピアノのレッスンに通わせられたのを覚えている。」考使役受身「通わせられる」（被迫去…）：未然形「通わ」後必須緊接「せられた」；「ピアノの」的「の」後須接名詞「レッスン」，「レッスンに」再接移動動詞「通う」，接續環環相扣，語序唯一。',
+    explanationEn:
+      'Complete sentence: 「子どものころ、母に毎日ピアノのレッスンに通わせられたのを覚えている。」 This tests the causative-passive 「通わせられる」 ("was made to attend..."): the irrealis stem 「通わ」 must be followed directly by 「せられた」; the 「の」 of 「ピアノの」 must be followed by the noun 「レッスン」, and 「レッスンに」 then connects to the motion verb 「通う」 — each link constrains the next, so the order is unique.',
   },
 ]

@@ -17,6 +17,8 @@ export const questions: JlptQuestion[] = [
     spokenOptions: true,
     explanation:
       '向上司請假要用使役＋謙讓的「休ませていただけないでしょうか」（能否讓我休假），委婉徵求許可。「お休みになってください」是尊敬語，變成勸課長去休息，敬語對象弄反了；「休んでもいいですよ」是給對方許可的說法，等於部下核准上司放假，完全失禮。',
+    explanationEn:
+      'To ask a boss for a day off, use the causative plus humble form 「休ませていただけないでしょうか」 — literally asking whether you may be allowed to rest — which politely seeks permission. 「お休みになってください」 is honorific and ends up urging the section chief himself to take a rest, aiming the respect at the wrong action; 「休んでもいいですよ」 grants permission to the other person, as if a subordinate were approving the boss\'s vacation, which is completely rude.',
   },
   {
     id: 'n3-listening-hatsuwa-002',
@@ -34,6 +36,8 @@ export const questions: JlptQuestion[] = [
     spokenOptions: true,
     explanation:
       '請前輩幫忙要用「〜ていただけませんか」（能否請您教我），是受益者謙讓的問法。「教えてあげましょうか」授受方向顛倒，變成自己要教前輩；「早く教えてよ」用催促的常體命令口氣對前輩說話，非常失禮。',
+    explanationEn:
+      'When asking a senior colleague for help, use 「〜ていただけませんか」 — a humble request in which the speaker is the one receiving the favor. 「教えてあげましょうか」 reverses giver and receiver, offering to teach the senior instead; 「早く教えてよ」 uses a pushy, plain-form demand toward a senior, which is extremely rude.',
   },
   {
     id: 'n3-listening-hatsuwa-003',
@@ -51,6 +55,8 @@ export const questions: JlptQuestion[] = [
     spokenOptions: true,
     explanation:
       '婉拒邀約的固定說法是「ちょっと都合が悪くて……」，話說一半留餘地，再補「また今度誘ってください」表達好意。「誘ってあげます」授受方向錯，邀請人明明是對方，卻說成自己施恩要去邀對方；「もう誘わないでください」直接拒人於千里之外，語氣失禮。',
+    explanationEn:
+      'The standard way to decline an invitation gently is 「ちょっと都合が悪くて……」, trailing off to soften the refusal, then adding 「また今度誘ってください」 to show goodwill. 「誘ってあげますね」 gets the giving-receiving direction wrong — the coworker is the one inviting, yet the speaker talks as if graciously offering to invite them next time; 「もう誘わないでください」 shuts the person out completely and sounds rude.',
   },
   {
     id: 'n3-listening-hatsuwa-004',
@@ -68,6 +74,8 @@ export const questions: JlptQuestion[] = [
     spokenOptions: true,
     explanation:
       '慰問身體不適的人用「お大事に」（請保重），再加「ゆっくり休んでください」表達關心。「お先に失礼します」是自己先離開時說的話，立場完全弄反，該說這句的是早退的同事；「熱ぐらいで帰るなんて」責備生病的人，語氣失禮又沒同理心。',
+    explanationEn:
+      'To comfort someone who is unwell, say 「お大事に」 (take care) and add 「ゆっくり休んでください」 to show concern. 「お先に失礼します」 is what you say when you yourself leave first — the roles are reversed, since it is the sick coworker who would say it; 「熱ぐらいで帰るなんて」 scolds a sick person for going home over a mere fever, which is rude and lacks any sympathy.',
   },
   {
     id: 'n3-listening-hatsuwa-005',
@@ -85,6 +93,8 @@ export const questions: JlptQuestion[] = [
     spokenOptions: true,
     explanation:
       '職場遲到的標準致歉是「遅くなって申し訳ありません」，先道歉不找藉口。「お待たせしてあげました」把表示施恩的「〜てあげる」用在自己的過失上，授受方向完全錯誤，聽起來像讓大家等是在賞臉；「仕方ないでしょう」把責任推給電車、反過來要大家接受，語氣失禮。',
+    explanationEn:
+      'The standard workplace apology for being late is 「遅くなって申し訳ありません」 — apologize first, no excuses. 「お待たせしてあげました」 attaches the favor-granting 「〜てあげる」 to one\'s own fault, completely inverting the benefactive direction so it sounds as if making everyone wait were a kindness; 「仕方ないでしょう」 blames the train and demands that everyone accept it, which comes across as rude.',
   },
   {
     id: 'n3-listening-hatsuwa-006',
@@ -102,6 +112,8 @@ export const questions: JlptQuestion[] = [
     spokenOptions: true,
     explanation:
       '拜託同事代辦事情用「〜ておいていただけませんか」，客氣又點出是「先處理好」的委託。「課長からもらってきて」授受方向相反，變成去向課長「拿」文件，和想拜託的事完全不同；「渡しなさいよ」是上對下的命令形，對同僚這樣說話很失禮。',
+    explanationEn:
+      'To ask a coworker to handle something in your absence, use 「〜ておいていただけませんか」 — polite, and it conveys getting the task done in advance. 「課長からもらってきてくれませんか」 flips the direction of transfer, asking the coworker to collect a document from the section chief instead of delivering one; 「渡しなさいよ」 is a top-down command form, which is quite rude when speaking to a peer.',
   },
   {
     id: 'n3-listening-hatsuwa-007',
@@ -119,6 +131,8 @@ export const questions: JlptQuestion[] = [
     spokenOptions: true,
     explanation:
       '受了上司的幫忙，道謝要用謙讓的「手伝っていただいて」表示恩惠來自對方。「ご苦労さま」是上位者慰勞下位者的話，對課長說是敬語對象錯誤、相當失禮；「手伝ってあげて」授受方向顛倒，變成課長受了說話者的恩惠，意思整個相反。',
+    explanationEn:
+      'Having received help from a superior, thank them with the humble 「手伝っていただいて」, which marks the favor as coming from the other person. 「ご苦労さま」 is what a superior says to reward a subordinate\'s effort, so saying it to the section chief misdirects the politeness and is quite rude; 「手伝ってあげて」 reverses the benefactive direction, as if the chief had received the speaker\'s favor — the opposite of what happened.',
   },
   {
     id: 'n3-listening-hatsuwa-008',
@@ -136,6 +150,8 @@ export const questions: JlptQuestion[] = [
     spokenOptions: true,
     explanation:
       '對外部客人提到自己公司的人，要用謙讓語「外出しております」，即使對方是課長也不能抬高。「外出していらっしゃいます」對客人用尊敬語抬高自己人，敬語對象錯誤；「何か用ですか」對客人像在盤問，語氣非常失禮，應說「ご用件をうかがいましょうか」之類。',
+    explanationEn:
+      'When speaking to an outside visitor about someone from your own company, use the humble 「外出しております」 — even the section chief must not be elevated in front of a customer. 「外出していらっしゃいます」 uses honorific language to raise your own colleague before a guest, targeting the respect wrongly; 「何か用ですか」 interrogates the visitor and sounds very rude — something like 「ご用件をうかがいましょうか」 would be appropriate instead.',
   },
   {
     id: 'n3-listening-hatsuwa-009',
@@ -153,6 +169,8 @@ export const questions: JlptQuestion[] = [
     spokenOptions: true,
     explanation:
       '向前輩借東西用謙讓語「お借りしてもいいですか」，客氣地徵求同意。「貸してあげましょうか」授受方向顛倒，書在前輩手上，卻說成自己要借給前輩；「私にくださいよ」變成要對方把書送給自己，不但語意錯，語氣也像在討東西，很失禮。',
+    explanationEn:
+      'To borrow something from a senior, use the humble 「お借りしてもいいですか」 to politely ask permission. 「貸してあげましょうか」 flips the direction of lending — the book is in the senior\'s hands, yet the speaker offers to lend it to them; 「私にくださいよ」 asks the senior to hand the book over as a gift, which is both wrong in meaning and rude in tone, like demanding something for free.',
   },
   {
     id: 'n3-listening-hatsuwa-010',
@@ -170,5 +188,7 @@ export const questions: JlptQuestion[] = [
     spokenOptions: true,
     explanation:
       '弄壞別人的東西，要用他動詞「割ってしまって」承認是自己的過失，並主動提出賠償。「コップが割れてしまいましたね」用自動詞裝成杯子自己破的，像個旁觀者在推卸責任；「弁償していただけますか」方向完全相反，弄壞東西的人反而要求對方賠償，荒謬又失禮。',
+    explanationEn:
+      'Having broken someone else\'s cup, you should use the transitive 「割ってしまって」 to own the mistake and offer to replace it. 「コップが割れてしまいましたね」 uses the intransitive verb as if the cup broke by itself, sounding like a bystander dodging responsibility; 「弁償していただけますか」 points in exactly the wrong direction — the person who broke the cup demands compensation from its owner, which is absurd and offensive.',
   },
 ]

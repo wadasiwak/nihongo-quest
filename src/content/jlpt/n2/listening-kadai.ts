@@ -25,6 +25,8 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '樣品還沒從倉庫送到，女の人指示「すぐ倉庫に発送状況を確認して」，男の人也回答「ただちに連絡します」，所以第一件事是向倉庫確認。翻譯被「急がなくていい」延後，寄給當地員工是週四前即可，順序都在後面；機票存根是女の人自己去總務拿，不是他的工作。',
+    explanationEn:
+      'The samples have not arrived from the warehouse yet, and the woman instructs him with 「すぐ倉庫に発送状況を確認して」; he answers 「ただちに連絡します」, so his first task is to check the shipping status with the warehouse. The translation was deprioritized with 「急がなくていい」, sending materials to the local staff only needs to happen by Thursday, and the flight ticket copies are something the woman will get from general affairs herself, so none of those come first.',
   },
   {
     id: 'n2-listening-kadai-002',
@@ -50,6 +52,8 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '部長指出銷售預測還是去年的資料，要求換成最新版，女の人也說「すぐ直します」，所以第一步是更新資料。照片被「このままでいい」否定，不必換；競爭對手分析在下週會議前補上即可，排在後面；重新提交前還要先給男の人確認，更不是第一步。',
+    explanationEn:
+      'The department head pointed out that the sales forecast still uses last year\'s data and asked for it to be replaced with the latest figures; the woman says 「すぐ直します」, so updating that data is her first step. The photos were rejected as unnecessary with 「このままでいい」, the competitor analysis only needs to be added before next week\'s meeting, and before resubmitting she must first show the document to the man for checking, so submission is even further down the line.',
   },
   {
     id: 'n2-listening-kadai-003',
@@ -74,6 +78,8 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '課長指示「まず出荷記録を調べて」確認是否為己方疏失，女の人最後也說「すぐに調べます」，所以第一步是查出貨紀錄。正式道歉電話被「それからだ」排在調查之後；替代商品的安排要等原因確定；給總公司的報告書課長說由他自己處理，不是女の人的工作。',
+    explanationEn:
+      'The section chief instructs 「まず出荷記録を調べて」 to determine whether the mistake was on their side, and the woman closes with 「すぐに調べます」, so checking the shipping records comes first. The formal apology call is explicitly placed after the investigation with 「それからだ」, arranging a replacement product must wait until the cause is clear, and the report to headquarters is something the chief says he will handle himself.',
   },
   {
     id: 'n2-listening-kadai-004',
@@ -99,6 +105,8 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '小冊子混入了印刷歪掉的不良品，男の人說「全部チェックして、不良品を抜いておかないと」並要她「選別を進めて」，所以第一步是檢查並挑出不良品。向印刷公司追加訂購是男の人負責聯絡；換桌子的配置要等下午工讀生來了再做；招牌業者已經裝好了，不需要再裝。',
+    explanationEn:
+      'Defective pamphlets with misaligned printing got mixed in, and the man says 「全部チェックして、不良品を抜いておかないと」 and tells her 「選別を進めて」, so her first task is to inspect the pamphlets and pull out the bad ones. Ordering extra copies is the man\'s job since he will contact the printing company himself, rearranging the desks can wait until the part-time workers arrive in the afternoon, and the booth sign has already been installed by the contractor.',
   },
   {
     id: 'n2-listening-kadai-005',
@@ -124,6 +132,8 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '為了避免詢問持續湧入，女の人指示「まず全社にメールで障害のお知らせを流して」，男の人回答「すぐに送ります」，所以第一步是發送全公司的故障通知信。原因報告書被「復旧してからでいい」延後；向營業部個別說明是女の人親自去；委託維護公司調查已經在進行中（依頼しているところ），不必再做。',
+    explanationEn:
+      'To stop the flood of inquiries, the woman instructs 「まず全社にメールで障害のお知らせを流して」, and the man replies 「すぐに送ります」, so sending a company-wide outage notification email is his first task. The incident report is postponed with 「復旧してからでいい」, the individual explanation to the sales department is something the woman will do in person, and the request to the maintenance company is already underway, as shown by 「依頼しているところ」, so it does not need to be done again.',
   },
   {
     id: 'n2-listening-kadai-006',
@@ -149,6 +159,8 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '單價還停留在上個月的價格表，男の人要求「金額の修正を先に済ませて」，女の人也說「すぐ計算し直します」，所以第一步是用新價格表重算金額。向工廠確認交期由男の人打電話，是別人負責；課長的核准要等修改完成之後；寄給客戶更被叮嚀「承認が出てから」，順序都在後面。',
+    explanationEn:
+      'The unit prices are still based on last month\'s price list, and the man tells her 「金額の修正を先に済ませて」; she also says she will recalculate right away, so redoing the figures with the new price list comes first. Asking the factory about the delivery date is handled by the man, who will phone them himself; the section chief\'s approval only comes after the corrections are done; and sending the quote to the client is explicitly warned to happen only 「承認が出てから」, so all of those come later.',
   },
   {
     id: 'n2-listening-kadai-007',
@@ -174,6 +186,8 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '營業部今早更新了邀請名單，男の人說要「新しいリストと印刷済みの宛名を照らし合わせないと」，最後也宣告「リストの確認から始めます」，所以第一步是核對名單與收件人名條。補印不足的名條是核對之後的事；裝入信封要等地圖送到，被「それからね」延後；地圖是設計負責人在重做，不是他的工作。',
+    explanationEn:
+      'The sales department updated the guest list this morning, and the man says 「新しいリストと印刷済みの宛名を照らし合わせないといけませんね」, then declares 「リストの確認から始めます」, so cross-checking the new list against the printed address labels is his first step. Printing the missing labels only happens after that check, stuffing the envelopes is pushed back with 「それからね」 because they must wait for the map, and redoing the map itself is the designer\'s job, not his.',
   },
   {
     id: 'n2-listening-kadai-008',
@@ -199,6 +213,8 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '男の人說「その前に、まず部長の空いている時間を秘書さんに確認してくれる？」，理由是沒有候補時段就無從通知對方，女の人也回答「すぐに確認いたします」，所以第一步是向秘書確認部長的空檔。聯絡應徵者被「その前に」擋在後面；面試室改約要等新日程確定；評價表昨天就準備好了，不需要再做。',
+    explanationEn:
+      'The man says 「その前に、まず部長の空いている時間を秘書さんに確認してくれる？」, reasoning that without candidate time slots there is nothing to tell the applicant, and the woman answers 「すぐに確認いたします」, so checking the manager\'s availability with the secretary comes first. Contacting the applicant is explicitly blocked until then by 「その前に」, rebooking the interview room can wait until the new schedule is fixed, and the evaluation sheets were already finished yesterday, so nothing needs to be done there.',
   },
   {
     id: 'n2-listening-kadai-009',
@@ -224,6 +240,8 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '參加人數增加到四十二人，現有會議室坐不下，女の人指示「まず、大会議室が空いているかどうか、総務に問い合わせて」，男の人最後也說「総務に電話してみます」，所以第一步是向總務詢問大會議室。教材加印要等場地確保之後，因為人數還可能變動；通知講師由女の人親自處理；報到名冊前一天再印就來得及，都不是現在做的事。',
+    explanationEn:
+      'Attendance has grown to forty-two people, too many for the current room, so the woman instructs 「まず、大会議室が空いているかどうか、総務に問い合わせてもらえる？」 and the man ends with 「総務に電話してみます」; asking general affairs about the large meeting room is therefore his first task. Printing extra textbooks must wait until the room is secured because the headcount could still change, contacting the instructor is something the woman will do herself, and the reception roster can be printed the day before, so none of these are done now.',
   },
   {
     id: 'n2-listening-kadai-010',
@@ -248,5 +266,7 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '男の人原本想直接請客戶延後交期，但被女の人「待って。その前に」更正，改為先詢問其他往來過的供應商有沒有同款零件的庫存，他也說「すぐ電話します」，所以第一步是向別的供應商詢問庫存。向客戶請求延期要等確定真的來不及才做；向課長報告是女の人負責；更改出貨日只是被提到的可能影響，對話中並沒有決定要做。',
+    explanationEn:
+      'The man initially wanted to ask the customer for a deadline extension, but the woman corrects him with 「待って。その前に」 and tells him to first check whether another supplier they have dealt with before can ship the same part right away; he says 「すぐ電話します」, so asking the other supplier about stock comes first. Requesting an extension from the customer happens only if that route turns out to be too slow, reporting to the section chief is the woman\'s job, and changing the shipping date is merely a possible consequence mentioned in passing, never decided on.',
   },
 ]

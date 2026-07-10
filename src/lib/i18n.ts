@@ -608,6 +608,11 @@ export function sectionLabel(section: Section, zhLabel: string): string {
   return getLang() === 'en' ? SECTION_LABEL_EN[section] : zhLabel
 }
 
+/** 詳解：英文模式優先用 explanationEn，缺漏 fallback 繁中 */
+export function pickExplanation(q: { explanation: string; explanationEn?: string }): string {
+  return getLang() === 'en' && q.explanationEn ? q.explanationEn : q.explanation
+}
+
 /** 場景標題：英文模式顯示日文題名（學習情境下比中文名更合適） */
 export function sceneTitle(title: string, titleJa: string): string {
   return getLang() === 'en' ? titleJa : title

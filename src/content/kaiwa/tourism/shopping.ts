@@ -265,6 +265,8 @@ export const scene: KaiwaScene = {
       answerIndex: 0,
       explanation:
         '「〜てもいいですか」用動詞て形加「も」來請求許可。「払う」是五段動詞，て形是「払って」，所以正解是「払っても」。「払いても」活用錯誤（う結尾的動詞て形要促音便成って）；「払うでも」「払ったも」都不是正確的活用形，無法成句。',
+      explanationEn:
+        '「〜てもいいですか」 asks permission using the te-form plus 「も」. 「払う」 is a godan verb whose te-form is 「払って」, so the answer is 「払っても」. 「払いても」 is a misconjugation — verbs ending in う take the double-consonant change to って; 「払うでも」 and 「払ったも」 are not valid conjugated forms and cannot build this sentence.',
     },
     {
       id: 'tour-shopping-002',
@@ -274,6 +276,8 @@ export const scene: KaiwaScene = {
       answerIndex: 0,
       explanation:
         '「あります」是自動詞，詢問「有沒有其他顏色」時，主題用助詞「は」提示：「ほかの色はありますか」。「を」用來標示他動詞的受詞，不能接自動詞「あります」；「に」表示存在的場所而非存在的主體；「で」表示手段或範圍，放這裡語意不通。',
+      explanationEn:
+        '「あります」 is intransitive, so when asking whether other colors are available, the thing you are asking about is presented as the topic with 「は」: 「ほかの色はありますか」. 「を」 marks the object of a transitive verb and cannot go with 「あります」; 「に」 marks the place where something exists, not the thing that exists; 「で」 marks a means or scope and makes no sense here.',
     },
     {
       id: 'tour-shopping-003',
@@ -283,6 +287,8 @@ export const scene: KaiwaScene = {
       answerIndex: 0,
       explanation:
         '詢問物品放在什麼地方要用疑問詞「どこ」（哪裡），「どこにありますか」是問位置的固定說法。「どれ」是問「哪一個」，指從數個選項中挑選，不能表示場所；「だれ」問人、「いつ」問時間，放進句子裡都語意不通。',
+      explanationEn:
+        'To ask where an item is located, use the question word 「どこ」 (where); 「どこにありますか」 is the standard way to ask about a location. 「どれ」 means "which one," used for picking among several items, and cannot indicate a place; 「だれ」 asks about a person and 「いつ」 asks about time, so neither makes sense in this sentence.',
     },
     {
       id: 'tour-shopping-004',
@@ -292,6 +298,8 @@ export const scene: KaiwaScene = {
       answerIndex: 0,
       explanation:
         'い形容詞修飾名詞時直接用辭書形，「大きいサイズ」就是「大的尺寸」，正解是「大きい」。「大きく」是連用形，用來修飾動詞而非名詞；「大きさ」是名詞「大小」，後面不能再接「サイズ」；「大きければ」是條件形，放在名詞前不成立。',
+      explanationEn:
+        'An i-adjective modifies a noun in its plain form, so 「大きいサイズ」 means "a bigger size" and the answer is 「大きい」. 「大きく」 is the adverbial form, which modifies verbs rather than nouns; 「大きさ」 is the noun "size/magnitude" and cannot be followed by another noun like 「サイズ」; 「大きければ」 is the conditional form and cannot sit before a noun.',
     },
     {
       id: 'tour-shopping-005',
@@ -302,6 +310,8 @@ export const scene: KaiwaScene = {
       starIndex: 2,
       explanation:
         '正解語序是「もう 少し 大きい サイズは ありますか」。「もう少し」（再稍微）是固定搭配的副詞，必須放在被修飾的形容詞「大きい」前面；「サイズは」是主題，緊接在述語「ありますか」之前。若把「大きい」移到「もう少し」前面，副詞就沒有修飾對象，語序不通。★在第三格，即「大きい」。',
+      explanationEn:
+        'The correct order is 「もう 少し 大きい サイズは ありますか」 (do you have a slightly bigger size?). 「もう少し」 (a little more) is a fixed adverbial that must come before the adjective it modifies, 「大きい」; 「サイズは」 is the topic and sits right before the predicate 「ありますか」. Moving 「大きい」 in front of 「もう少し」 would leave the adverb with nothing to modify. The starred third slot is 「大きい」.',
     },
     {
       id: 'tour-shopping-006',
@@ -312,6 +322,8 @@ export const scene: KaiwaScene = {
       starIndex: 3,
       explanation:
         '正解語序是「この シャツを 着て みても いいです か」。連體詞「この」直接接名詞「シャツ」，受詞「シャツを」必須放在動詞「着て」前面；「〜てみる」（試著做）接在て形之後，再以「〜てもいいですか」請求許可，所以「みても」之後接「いいです」。若把「着て」放到「みても」後面，句型就拆散不成句。★在第四格，即「いいです」。',
+      explanationEn:
+        'The correct order is 「この シャツを 着て みても いいです か」 (may I try this shirt on?). The demonstrative 「この」 attaches to 「シャツ」, and the object 「シャツを」 must precede the verb 「着て」; 「〜てみる」 (try doing) follows the te-form, and 「〜てもいいですか」 then asks permission, so 「みても」 is followed by 「いいです」. Placing 「着て」 after 「みても」 would tear the pattern apart. The starred fourth slot is 「いいです」.',
     },
   ],
 }

@@ -291,6 +291,8 @@ export const scene: KaiwaScene = {
       answerIndex: 0,
       explanation:
         '「動詞て形＋いただけませんか」是客氣地請對方為自己做某事的固定句型，「いただける」是「もらう」的謙讓語可能形，直譯是「能否請您告訴我」。「さしあげ」方向相反，變成我為對方做事；「くださり」形態有誤，正確說法是「くださいませんか」。',
+      explanationEn:
+        'Te-form + 「いただけませんか」 is the polite set pattern for asking someone to do something for you; 「いただける」 is the potential form of the humble verb for receiving, so the sentence means "could you possibly tell me (when we reach the station)?" 「さしあげ」 points the favor the wrong way — you doing something for the other person; 「くださり」 is the wrong shape here — the correct alternative would be 「くださいませんか」.',
     },
     {
       kind: 'choice',
@@ -300,6 +302,8 @@ export const scene: KaiwaScene = {
       answerIndex: 0,
       explanation:
         '「止まる」是自動詞，表示電車自己停靠，詢問「這班電車停不停某站」要說「〜に止まりますか」。「止める」是他動詞，指把某物停住，需要用「を」標示受詞，放在這裡文法不合；「止まらせます」是使役形，語意變成「讓電車停下」，不是乘客詢問的語氣。',
+      explanationEn:
+        '「止まる」 is intransitive — the train stops on its own — so asking whether this train stops at a station is 「〜に止まりますか」. 「止める」 is transitive, meaning to bring something to a stop, and would need an object marked with 「を」, so it does not fit grammatically; 「止まらせます」 is the causative, "to make the train stop," which is not how a passenger asks about the route.',
     },
     {
       kind: 'choice',
@@ -309,6 +313,8 @@ export const scene: KaiwaScene = {
       answerIndex: 0,
       explanation:
         '「終電」指當天最後一班電車，「終電に間に合う」＝趕上末班車，整句意思是「沒趕上末班車，只好搭計程車回飯店」，語意通順。「改札」是驗票閘門、「運賃」是車資，都不能和「間に合う」搭配；「定期」是定期票，也和趕不趕得上無關。',
+      explanationEn:
+        '「終電」 is the last train of the day, and 「終電に間に合う」 means to catch it — so the sentence reads "I missed the last train, so I took a taxi back to the hotel," which makes perfect sense. 「改札」 is the ticket gate and 「運賃」 is the fare, neither of which collocates with 「間に合う」; 「定期」 is a commuter pass, which has nothing to do with making it in time.',
     },
     {
       kind: 'choice',
@@ -318,6 +324,8 @@ export const scene: KaiwaScene = {
       answerIndex: 0,
       explanation:
         '「席を譲る」是「讓座」的固定搭配，在電車上把座位讓給老人家就用這個說法。「渡す」是把東西交到對方手上，座位無法用手交付，搭配不自然；「返す」是歸還原本屬於對方的東西，「拾う」是撿起掉落物，語意都不合。',
+      explanationEn:
+        '「席を譲る」 is the set collocation for giving up one\'s seat, exactly what you do for an elderly person on the train. 「渡す」 means to hand something over physically, and you cannot hand a seat to someone; 「返す」 means to return something that belonged to the other person, and 「拾う」 means to pick up something dropped — neither meaning fits.',
     },
     {
       kind: 'order',
@@ -328,6 +336,8 @@ export const scene: KaiwaScene = {
       starIndex: 1,
       explanation:
         '正解語序是「どこで 切符を 買えば いい の（か）」。「疑問詞＋〜ばいいですか」是請對方給建議的常用句型（該在哪裡買票才好）；「の」接在「いい」後面，和句尾的「か」組成間接疑問「〜のか分かりますか」。「買えば」必須緊跟在受詞「切符を」之後，其他排列都不成句。',
+      explanationEn:
+        'The correct order is 「どこで 切符を 買えば いい の（か）」. Question word + 「〜ばいいですか」 is the common pattern for asking advice — where should I buy a ticket; 「の」 follows 「いい」 and combines with the final 「か」 to form the embedded question 「〜のか分かりますか」. 「買えば」 must come right after its object 「切符を」, and no other arrangement produces a grammatical sentence.',
     },
     {
       kind: 'order',
@@ -338,6 +348,8 @@ export const scene: KaiwaScene = {
       starIndex: 2,
       explanation:
         '正解語序是「乗り換え なければ ならない そうです」。「〜なければならない」表示義務（非做不可），前面接動詞ます形去掉ます的「乗り換え」；句尾的「そうです」是傳聞用法，整句意思是「聽說去京都必須在大阪轉車」。「そうです」若不放在最後，文型就斷裂不成句。',
+      explanationEn:
+        'The correct order is 「乗り換え なければ ならない そうです」. 「〜なければならない」 expresses obligation (must do), attaching to the stem 「乗り換え」; the final 「そうです」 is the hearsay usage, so the whole sentence means "I hear you have to transfer at Osaka to get to Kyoto." If 「そうです」 is placed anywhere but last, the grammar pattern breaks apart.',
     },
   ],
 }

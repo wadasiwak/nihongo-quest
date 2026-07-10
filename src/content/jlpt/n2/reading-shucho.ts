@@ -21,6 +21,8 @@ export const questions: JlptQuestion[] = [
         answerIndex: 0,
         explanation:
           '第二段明確對比：成功只給「このやり方でよい」的確認，失敗才提供「どこが、なぜだめだったのか」的具體情報，並稱失敗是「次の挑戦のための貴重な材料」。說「差別不大」或「成功學得更多」都與此對比相反；「単なる結果にすぎない」更是筆者以「〜ではなく」直接否定的講法。',
+        explanationEn:
+          'The second paragraph draws the contrast explicitly: success only gives the confirmation 「このやり方でよい」, while failure supplies concrete information about 「どこが、なぜだめだったのか」, making it 「次の挑戦のための貴重な材料」. Saying the two teach about equally much, or that success teaches more, contradicts this contrast; "failure is a mere result needing no deep analysis" is precisely the view the writer rejects with the phrasing 「単なる結果ではなく」.',
       },
       {
         id: 'n2-reading-shucho-001-q2',
@@ -34,6 +36,8 @@ export const questions: JlptQuestion[] = [
         answerIndex: 0,
         explanation:
           '第三段的論理鏈是：責める組織→人は失敗を隠す→隠された失敗は共有されず→同じ失敗がもっと大きな形で繰り返される，因此正解完整重現這條因果。「自信を失う」「会社をやめる」文中皆未提及；「記録を残さなくなる」看似相近，但文中說的是「隱瞞失敗」而非「不留紀錄」，且把「認める」的因果方向弄反了。',
+        explanationEn:
+          'The third paragraph lays out the causal chain: in an organization that blames failure, people come to hide their failures; hidden failures are never shared, and so the same failure is eventually repeated in a larger form — the correct option reproduces this chain in full. Losing confidence and employees quitting are never mentioned; "no one keeps records" sounds close, but the text speaks of concealing failures, not of failing to record them, and it also reverses the causal role of 「認める」.',
       },
       {
         id: 'n2-reading-shucho-001-q3',
@@ -47,6 +51,8 @@ export const questions: JlptQuestion[] = [
         answerIndex: 0,
         explanation:
           '末段總結「必要なのは、失敗を避ける技術ではなく、失敗とうまく付き合い、そこから学び続ける姿勢」，加上第四段主張建立「記録し、分析し、次に生かす」仕組み，正解涵蓋全文主張。筆者明言「失敗そのものをほめたいわけではない」，故「積極的に失敗するべき」錯；「避けるべき失敗」只是讓步的補足，非主旨；「厳しく評価すべき」與筆者立場相反。',
+        explanationEn:
+          'The final paragraph concludes that what we need is 「失敗を避ける技術ではなく、失敗とうまく付き合い、そこから学び続ける姿勢」, and the fourth paragraph urges building systems that record, analyze, and apply failures — the correct option covers both. The writer explicitly says 「失敗そのものをほめたいわけではない」, so "everyone should actively fail" is wrong; avoiding life-threatening failures is only a concessive aside, not the thesis; evaluating struggling staff more harshly is the opposite of the writer\'s stance.',
       },
     ],
   },
@@ -70,6 +76,8 @@ export const questions: JlptQuestion[] = [
         answerIndex: 0,
         explanation:
           '劃線句前面說：把複雜問題硬塞進單純圖式，「わかった気にはなれるものの、実際には大切な部分が切り捨てられてしまう」，正解即此換句話說。「短いほど理解が深くなる」與筆者的憂慮正好相反；「専門家は説明を省略する」混淆了第一段「專家只會堆專門用語」的批評；「時間と手間」文中並未討論。',
+        explanationEn:
+          'Just before the underlined sentence, the writer says that forcing complex problems into a simple scheme lets us feel we understand, while 「実際には大切な部分が切り捨てられてしまう」 — the correct option paraphrases exactly this. "The shorter the explanation, the deeper the understanding" is the reverse of the writer\'s worry; "experts omit their explanations" garbles the first paragraph\'s jab at experts who merely pile up jargon; the time and effort needed to make explanations is never discussed.',
       },
       {
         id: 'n2-reading-shucho-002-q2',
@@ -83,6 +91,8 @@ export const questions: JlptQuestion[] = [
         answerIndex: 0,
         explanation:
           '第三段開頭「さらに心配なのは」直接點名：習慣了易懂說明，遇到難懂事物就「考える前に拒否するようになる」，正解照應此句。「動画や要約を作れる人が減る」「専門用語の文章がなくなる」都是文中字眼的錯誤重組，筆者並無此憂；「情報量が多くて選べない」雖是常見議題，但本文完全沒有討論資訊篩選的問題。',
+        explanationEn:
+          'The third paragraph opens with 「さらに心配なのは」 and names the fear directly: once accustomed to easy explanations, people come to reject anything hard to understand 「考える前に」 — exactly what the correct option says. Fewer people able to make short videos or summaries, and jargon-filled writing vanishing from society, are jumbled recombinations of words from the text that the writer never worries about; information overload and how to choose sources is a familiar issue but simply is not discussed in this essay.',
       },
       {
         id: 'n2-reading-shucho-002-q3',
@@ -96,6 +106,8 @@ export const questions: JlptQuestion[] = [
         answerIndex: 0,
         explanation:
           '末段明言「わかりやすさを入り口として利用しつつも、最後は自分の頭で複雑さと向き合うこと」是這個時代被要求的態度，正解即全文主張。筆者已聲明「難解な文章を書けと言っているのではない」，故「難しい言葉で書くべき」錯；「まとめる技術を身につけるべき」只談傳達方，漏掉筆者更強調的接收方努力；筆者肯定易懂化的工夫，並未主張停用要約與解說影片。',
+        explanationEn:
+          'The last paragraph states the thesis: use accessibility as an entry point, but in the end 「自分の頭で複雑さと向き合うこと」 — the attitude demanded of us in an age flooded with information. The writer has already disclaimed 「難解な文章を書けと言っているのではない」, so "write in difficult language" is wrong; "everyone should master summarizing skills" covers only the sender\'s side and drops the receiver\'s effort the writer stresses more; the writer affirms the craft of making things clear and never tells readers to stop using summaries or explainer videos.',
       },
     ],
   },

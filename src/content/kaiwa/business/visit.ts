@@ -285,6 +285,8 @@ export const scene: KaiwaScene = {
       answerIndex: 0,
       explanation:
         '拜訪客戶到櫃檯報到時，固定說法是「お約束をいただいております」（我與對方有約），把「約束」加上「お」並用「いただく」表謙恭。「ご遠慮」是客氣推辭、「お世辞」是恭維話、「ご馳走」是款待，放進句中語意都不通。',
+      explanationEn:
+        'When checking in at a client\'s reception desk, the set phrase is 「お約束をいただいております」 (I have an appointment), dressing 「約束」 with the polite お and the humble 「いただく」. 「ご遠慮」 means politely declining, 「お世辞」 means flattery, and 「ご馳走」 means a treat or feast — none of them makes sense in this sentence.',
     },
     {
       kind: 'choice',
@@ -294,6 +296,8 @@ export const scene: KaiwaScene = {
       answerIndex: 0,
       explanation:
         '收下對方名片時說「頂戴いたします」，「頂戴する」是「もらう」的謙讓語，表示恭敬地收下。「返却」是歸還、「拝借」是暫借（謙讓語），名片是收下而非借用；「遠慮」是客氣推辭，都不合名片交換的語境。',
+      explanationEn:
+        'When receiving someone\'s business card you say 「頂戴いたします」; 「頂戴する」 is the humble form of 「もらう」, expressing respectful acceptance. 「返却」 means returning something, 「拝借」 is the humble word for borrowing — but a business card is received, not borrowed; and 「遠慮」 means politely declining. None fits the card-exchange situation.',
     },
     {
       kind: 'choice',
@@ -303,6 +307,8 @@ export const scene: KaiwaScene = {
       answerIndex: 0,
       explanation:
         '「伺う」是「行く・訪ねる」的謙讓語，拜訪客戶說明來意時用「〜に伺いました」（我為此前來拜訪）。「参られる」把謙讓語「参る」硬接尊敬助動詞，屬錯誤混用；「いらっしゃいました」是尊敬語，不能用在自己的動作上；「お聞きしました」是「請教了」，與「ご提案に」語意不合。',
+      explanationEn:
+        '「伺う」 is the humble form of 「行く・訪ねる」, so stating the purpose of your visit is 「〜に伺いました」 (I have come to …). 「参られ」 wrongly attaches an honorific auxiliary to the humble 「参る」— a broken mixture; 「いらっしゃい」 is honorific and cannot describe your own movement; 「お聞きし」 means "I asked/heard," which does not fit with 「ご提案に」 (for a proposal).',
     },
     {
       kind: 'choice',
@@ -312,6 +318,8 @@ export const scene: KaiwaScene = {
       answerIndex: 0,
       explanation:
         '「ご連絡いたします」是「ご＋漢語名詞＋いたす」的謙讓句型，表示「由我方主動聯絡您」，接在「社內討論後」語意通順。「ご覧」「お越し」「お見え」都是尊敬語成分，只能用於對方的動作（如ご覧になる、お越しになる），接在謙讓的「いたす」後面是錯誤搭配。',
+      explanationEn:
+        '「ご連絡いたします」 follows the humble pattern ご + Sino-Japanese noun + いたす, meaning "we will contact you," which flows naturally after "once we discuss it internally." 「ご覧」, 「お越し」, and 「お見え」 are all honorific elements reserved for the other person\'s actions (as in ご覧になる, お越しになる), so pairing them with the humble 「いたす」 is an invalid combination.',
     },
     {
       kind: 'order',
@@ -322,6 +330,8 @@ export const scene: KaiwaScene = {
       starIndex: 2,
       explanation:
         '正解語序是「本日は お忙しい ところ お時間を いただき 誠にありがとうございます」。「お忙しいところ」（您百忙之中）是固定接續，後面才接「お時間をいただき」說明感謝的內容；若把「お時間を」移到「お忙しい」前面，形容詞「お忙しい」便失去被修飾語，句子不通。★ 位於第三格「お時間を」。',
+      explanationEn:
+        'The correct order is 「本日は お忙しい ところ お時間を いただき 誠にありがとうございます」 (thank you very much for taking the time despite being busy). 「お忙しいところ」 is a fixed sequence — the adjective must lead into 「ところ」— and only then comes 「お時間をいただき」, the thing being thanked for. If 「お時間を」 moved before 「お忙しい」, the adjective would lose the noun it modifies and the sentence would collapse. The starred third slot is 「お時間を」.',
     },
     {
       kind: 'order',
@@ -332,6 +342,8 @@ export const scene: KaiwaScene = {
       starIndex: 1,
       explanation:
         '正解語序是「そろそろ 本題に 入らせて いただいても よろしい でしょうか」。「〜（さ）せていただく」是請求許可的謙讓句型，動詞「入らせて」必須緊接在補語「本題に」之後，再以「いただいても＋よろしいでしょうか」徵求對方同意；「よろしい」若不放在「でしょうか」之前，句子無法收尾。★ 位於第二格「入らせて」。',
+      explanationEn:
+        'The correct order is 「そろそろ 本題に 入らせて いただいても よろしい でしょうか」 (may I move on to the main topic now?). 「〜（さ）せていただく」 is the humble permission-seeking pattern: the causative 「入らせて」 must directly follow its complement 「本題に」, and 「いただいても」 plus 「よろしいでしょうか」 then asks for consent; 「よろしい」 has to sit right before 「でしょうか」 or the sentence cannot close. The starred second slot is 「入らせて」.',
     },
   ],
 }

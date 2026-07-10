@@ -288,6 +288,8 @@ export const scene: KaiwaScene = {
       answerIndex: 0,
       explanation:
         '表達症狀或無生命事物的存在用「あります」，「熱があります」即「發燒」。「います」只用於人或動物等有生命的對象；「なります」要接「に」表變化，直接接「が」不通；「あるです」是辭書形硬加「です」的錯誤形。',
+      explanationEn:
+        'Symptoms and other inanimate things "exist" with 「あります」, so 「熱があります」 means "I have a fever." 「います」 is reserved for animate beings like people and animals; 「なります」 expresses change and needs 「に」 before it, so it cannot follow 「が」 directly; 「あるです」 is an incorrect form that jams 「です」 onto the dictionary form.',
     },
     {
       id: 'tour-emergency-002',
@@ -297,6 +299,8 @@ export const scene: KaiwaScene = {
       answerIndex: 0,
       explanation:
         '「〜ので」表示原因理由：因為有過敏，所以不能吃這種藥，前後因果通順。「〜のに」是逆接，與句意矛盾；「〜ように」表目的或樣態，接在這裡不通；「〜かどうか」是「是否」的名詞子句，後面不能直接接主句。',
+      explanationEn:
+        '「〜ので」 gives a reason: because I have an allergy, I cannot take this medicine — the cause-and-effect flows naturally. 「〜のに」 marks contrast ("even though"), which contradicts the sentence\'s logic; 「〜ように」 expresses purpose or manner and does not connect here; 「〜かどうか」 forms a "whether or not" clause and cannot lead directly into the main clause.',
     },
     {
       id: 'tour-emergency-003',
@@ -306,6 +310,8 @@ export const scene: KaiwaScene = {
       answerIndex: 0,
       explanation:
         '「行く」的て形是特殊促音便「行って」，搭配「〜てください」表示請求對方做某事，是就醫建議的常用句。「行きて」是誤把連用形直接加て；「行かて」「行くて」都不是日語存在的活用形，一看即錯。',
+      explanationEn:
+        'The te-form of 「行く」 is the irregular sound change 「行って」, which combines with 「〜てください」 to make a request — a standard way to advise someone to see a doctor. 「行きて」 wrongly adds て straight to the masu-stem; 「行かて」 and 「行くて」 are forms that simply do not exist in Japanese.',
     },
     {
       id: 'tour-emergency-004',
@@ -315,6 +321,8 @@ export const scene: KaiwaScene = {
       answerIndex: 0,
       explanation:
         'い形容詞接「〜んです」時直接用辭書形：「悪いんです」，用來說明自身狀況、開啟求助對話。「悪いだ」錯在い形容詞不能加「だ」；「悪く」是連用形，不能直接接「ん」；「悪ければ」是條件形，放在這裡文法不通。',
+      explanationEn:
+        'An i-adjective connects to 「〜んです」 in its plain form: 「悪いんです」, used here to explain your condition and open a request for help. 「悪いだ」 is wrong because i-adjectives never take 「だ」; 「悪く」 is the adverbial form and cannot attach directly to 「ん」; 「悪ければ」 is the conditional and is ungrammatical in this slot.',
     },
     {
       id: 'tour-emergency-005',
@@ -325,6 +333,8 @@ export const scene: KaiwaScene = {
       starIndex: 1,
       explanation:
         '正解語序是「財布が 見つかったら 連絡して もらえます」。「〜たら」表條件（找到錢包的話），「〜てもらえますか」是請對方為自己做事的客氣請求。「財布が」是「見つかったら」的主語必須在前；若把「連絡して」移到「見つかったら」之前，條件與請求順序顛倒、語意不通。★在第二格「見つかったら」。',
+      explanationEn:
+        'The correct order is 「財布が 見つかったら 連絡して もらえます（か）」. 「〜たら」 states the condition (if the wallet is found), and 「〜てもらえますか」 politely asks the other person to do something for you. 「財布が」 is the subject of 「見つかったら」 and must come first; placing 「連絡して」 before 「見つかったら」 would reverse condition and request, making the sentence incoherent. The starred second slot is 「見つかったら」.',
     },
     {
       id: 'tour-emergency-006',
@@ -335,6 +345,8 @@ export const scene: KaiwaScene = {
       starIndex: 2,
       explanation:
         '正解語序是「近くの 病院に 行った ほうがいい」。「〜たほうがいい」是給建議的句型：燒不退的話去附近的醫院比較好。「近くの」是連體修飾，必須直接接名詞「病院」，不能放在別處；「行った」也必須緊接在「ほうがいい」之前，其他排列都不成句。★在第三格「行った」。',
+      explanationEn:
+        'The correct order is 「近くの 病院に 行った ほうがいい」. 「〜たほうがいい」 is the advice pattern: if the fever does not go down, you had better go to a nearby hospital. 「近くの」 is a noun modifier that must attach directly to 「病院」, and 「行った」 must sit immediately before 「ほうがいい」 — no other arrangement forms a sentence. The starred third slot is 「行った」.',
     },
   ],
 }

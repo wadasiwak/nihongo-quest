@@ -16,6 +16,8 @@ export const questions: JlptQuestion[] = [
         answerIndex: 0,
         explanation:
           '前句先讓步承認「不能說不是合理的選擇」，後句隨即翻轉質疑「這樣算讀過書嗎」，讓步後轉折要用「とはいえ」（話雖如此）。「それゆえ」表因果順接、「ようするに」用於歸納總結、「あるいは」表選擇並列，皆無法承接「言えなくもない」之後的逆轉語勢。',
+        explanationEn:
+          'The previous sentence concedes that summaries 「言えなくもない」 (could arguably be called a rational choice), and the next sentence immediately reverses course, questioning whether that counts as having read the book — a concession followed by a turn calls for 「とはいえ」 (that said). 「それゆえ」 marks straightforward cause and effect, 「ようするに」 sums up, and 「あるいは」 lists alternatives; none can carry the reversal after the concession.',
       },
       {
         id: 'n1-grammar-bunsho-001-q2',
@@ -24,6 +26,8 @@ export const questions: JlptQuestion[] = [
         answerIndex: 0,
         explanation:
           '「〜にあるのではない。むしろ〜にこそあるのだ」是先否定再提出更貼切主張的典型論理標識，中文語感是「與其說…不如說…」。「なぜなら」必須與句尾「〜からだ」呼應，此處句尾是「のだ」，搭配不成立；「したがって」表結論、「ちなみに」是補充題外話，都不合否定後改述的脈絡。',
+        explanationEn:
+          'The pattern 「〜にあるのではない。むしろ〜にこそあるのだ」 — first denying one claim, then asserting a truer one — is a classic logical marker, roughly not so much X as rather Y. 「なぜなら」 must be answered by a sentence-final 「〜からだ」, but this sentence ends in 「のだ」, so the pairing fails; 「したがって」 draws a conclusion and 「ちなみに」 adds an aside, neither fitting the deny-then-restate flow.',
       },
       {
         id: 'n1-grammar-bunsho-001-q3',
@@ -32,6 +36,8 @@ export const questions: JlptQuestion[] = [
         answerIndex: 0,
         explanation:
           '此處承接前文提過的「以要約打發的讀書方式」，文章中指涉前述內容要用「そ」系指示詞，「そうした読み方」＝那種讀法。「ああした」的「あ」系指說寫雙方共知的遙遠事物，不能回指文章前文；「どのような」是疑問詞，本句並非疑問；「なんらかの」（某種）語意含糊，與後文斷定「こそが読書のすべて」矛盾。',
+        explanationEn:
+          'The blank refers back to the reading style already described — getting by on summaries — and within a text, referring back to prior content takes a そ-series demonstrative: 「そうした読み方」 means that kind of reading. The あ-series 「ああした」 points to something distant that writer and reader know from shared experience, not to earlier text; 「どのような」 is interrogative, but this is not a question; and the vague 「なんらかの」 (some kind of) contradicts the definitive 「こそが読書のすべて」 that follows.',
       },
       {
         id: 'n1-grammar-bunsho-001-q4',
@@ -40,6 +46,8 @@ export const questions: JlptQuestion[] = [
         answerIndex: 0,
         explanation:
           '「〜てはじめて」表示「唯有做了…之後才第一次…」：認真面對一本書之後，才會察覺自己真正追求的東西，與本句的一般論述吻合。「ばかりに」（就因為…才落得）須接た形「向き合ったばかりに」且帶負面結果；「以来」「からというもの」都要求接在實際發生過的特定事件之後、描述其後持續的狀態，用在此種通則性敘述皆不成立。',
+        explanationEn:
+          '「〜てはじめて」 means only after doing ... does one for the first time ...: only after truly engaging with a book do you notice what you were really seeking, which fits this general statement. 「ばかりに」 (precisely because ..., with a bad result) would require the ta-form 「向き合ったばかりに」 and a negative outcome; 「以来」 and 「からというもの」 must follow a specific event that actually occurred and describe the state continuing since, so neither works in a generalizing claim like this.',
       },
     ],
   },
@@ -58,6 +66,8 @@ export const questions: JlptQuestion[] = [
         answerIndex: 0,
         explanation:
           '前句說過去專家的權威在於腦中累積的龐大知識，後句說如今任何人都能瞬間取得等量資訊，情勢發生出乎意料的翻轉，用逆接的「ところが」最貼切。「したがって」表因果、「そのうえ」表累加，前後並非因果或並列關係；「ようするに」用於把前文歸納成一句話，此處後句是新的對立事實而非總結。',
+        explanationEn:
+          'The preceding sentence says experts\' authority once lay in the sheer knowledge stored in their heads; the next says that now anyone can obtain the same information instantly — an unexpected reversal of the situation, best marked by the adversative 「ところが」. 「したがって」 signals cause and effect and 「そのうえ」 signals accumulation, but the two sentences are neither; 「ようするに」 condenses what came before into a summary, whereas what follows is a new opposing fact, not a recap.',
       },
       {
         id: 'n1-grammar-bunsho-002-q2',
@@ -66,6 +76,8 @@ export const questions: JlptQuestion[] = [
         answerIndex: 0,
         explanation:
           '前句拋出「求められる役割が変わる」的抽象命題，後句以「從給答案的人轉為立問題的人」加以換言具體化，這種同義改述要用「すなわち」（也就是說）。「とはいえ」是讓步後逆接、「むしろ」須先否定一方再提出另一方，前文並無否定；「ならびに」是書面語的並列連詞，用來連接名詞，不能引導改述句。',
+        explanationEn:
+          'The previous sentence poses the abstract claim 「求められる役割が変わる」, and the next restates it concretely — from one who gives answers to one who poses questions worth asking. Such rephrasing takes 「すなわち」 (that is to say). 「とはいえ」 is a concessive turn; 「むしろ」 requires first denying one side before offering the other, and no denial precedes; and 「ならびに」 is a formal conjunction that joins nouns, so it cannot introduce a restating clause.',
       },
       {
         id: 'n1-grammar-bunsho-002-q3',
@@ -74,6 +86,8 @@ export const questions: JlptQuestion[] = [
         answerIndex: 0,
         explanation:
           '前句剛具體描寫了「敢於懷疑無人質疑的前提、照亮常識背面」的提問方式，緊接著以「こうした問いの立て方」統括收束，是文章中「こ」系指示詞承接前述內容的標準用法。「ああした」的「あ」系不能回指文章前文；「どういった」是疑問詞；「いわゆる」（所謂的）須接一個世人慣用的既有名稱，此處並無此類固定稱呼。',
+        explanationEn:
+          'The previous sentence has just concretely described a way of questioning — daring to doubt unquestioned premises and shining light on the underside of common sense — and the passage now gathers it up with 「こうした問いの立て方」, the standard use of a こ-series demonstrative to receive what was just stated. The あ-series 「ああした」 cannot point back into the text; 「どういった」 is interrogative; and 「いわゆる」 (so-called) must precede an established, commonly used label, which does not exist here.',
       },
       {
         id: 'n1-grammar-bunsho-002-q4',
@@ -82,6 +96,8 @@ export const questions: JlptQuestion[] = [
         answerIndex: 0,
         explanation:
           '「どれほど〜（よ）うと」＝「無論變得多麼…」，逆接假定的書面表現，「道具がどれほど賢くなろうと」與後句「決めるのは人間だ」呼應，語意通順。「〜まいと」是否定意向「無論不…」，與程度副詞「どれほど」無法搭配；「〜たとたん」表「一…就…」的瞬間先後，「〜かたわら」表「一邊…同時兼做…」，皆與「どれほど」的讓步語境不合。',
+        explanationEn:
+          '「どれほど〜（よ）うと」 means no matter how ... something may become, a literary concessive, so 「道具がどれほど賢くなろうと」 flows into the conclusion that humans still decide what to use the tool for. 「〜まいと」 is the negative volitional (no matter if ... does not), incompatible with the degree adverb 「どれほど」; 「〜たとたん」 expresses the instant one thing happened, another followed, and 「〜かたわら」 means while also doing ... on the side — neither suits the concessive context set up by 「どれほど」.',
       },
     ],
   },
@@ -100,6 +116,8 @@ export const questions: JlptQuestion[] = [
         answerIndex: 0,
         explanation:
           '前句先讓步承認「統一為共通語或許是好事」，後句隨即提出「均質化帶來的損失恐怕不止於語彙減少」的反面疑慮，讓步後轉折用逆接的「しかし」。「したがって」表因果順接、「そのうえ」表累加，都無法承接語勢的翻轉；「たとえば」用來舉例，後句是新的主張而非前句的例子。',
+        explanationEn:
+          'The preceding sentence concedes that unification into the standard language may be desirable for communication; the next raises the opposing worry that homogenized language costs more than mere vocabulary. A turn after a concession takes the adversative 「しかし」. 「したがって」 marks cause and effect and 「そのうえ」 adds information, so neither can carry the reversal; 「たとえば」 introduces an example, but what follows is a new claim, not an illustration of the previous sentence.',
       },
       {
         id: 'n1-grammar-bunsho-003-q2',
@@ -108,6 +126,8 @@ export const questions: JlptQuestion[] = [
         answerIndex: 0,
         explanation:
           '此處承接前句剛舉出的「雪國細分雪況的詞、漁村描述潮汐的說法」，文章中回指前述內容用「そ」系指示詞，「そうした言葉」＝那類詞語。「ああした」的「あ」系指說寫雙方共知的遠處事物，不能回指文章前文；「いかなる」（無論何種）多與「〜ても」等呼應，此處是斷定句；「いわゆる」須接世人慣用的既有稱呼，前文並無此類固定名稱。',
+        explanationEn:
+          'The blank picks up the examples just given — snow-country words that finely distinguish snow conditions, fishing-town phrases for the changing tides — and referring back within a text takes a そ-series demonstrative: 「そうした言葉」 means words like those. The あ-series 「ああした」 points to distant things both parties know firsthand, not to earlier text; 「いかなる」 (no matter what kind) normally pairs with 「〜ても」, but this is a declarative sentence; and 「いわゆる」 requires an established common label, which the preceding text does not supply.',
       },
       {
         id: 'n1-grammar-bunsho-003-q3',
@@ -116,6 +136,8 @@ export const questions: JlptQuestion[] = [
         answerIndex: 0,
         explanation:
           '「〜たところで」表示「即使做了…也（沒用）」，與後句「說話者消失的話方言只能淪為標本」的消極結論呼應：就算編出再好的記錄集也無濟於事。「〜にあたって」用於鄭重場合的「值此…之際」，語意不合；「〜やいなや」是「一…就…」的瞬間相繼；「〜かたわら」表「一邊…同時兼做…」，皆無法帶出讓步後的否定結果。',
+        explanationEn:
+          '「〜たところで」 means even if one did ..., it would be no use, matching the bleak conclusion that once the speakers themselves are gone, the dialect can only become a museum specimen: however fine a compilation the researchers produce, it will not help. 「〜にあたって」 is the ceremonial on the occasion of ..., the wrong meaning; 「〜やいなや」 is the instantaneous no sooner ... than ...; and 「〜かたわら」 means while also doing ... — none can introduce the negative outcome after a concession.',
       },
       {
         id: 'n1-grammar-bunsho-003-q4',
@@ -124,6 +146,8 @@ export const questions: JlptQuestion[] = [
         answerIndex: 0,
         explanation:
           '「〜てこそ」表示「唯有…才…」：方言唯有天天被使用才是活的語言，強調前項是後項成立的必要條件，正呼應前文「不被日常使用就無法存活」的論旨。「さえ」「すら」是「連…都…」的極端例提示，接在て形後表條件的用法（〜てさえいれば）此處形式不合且語意不通；「やら」表列舉或不確定，完全不合語境。',
+        explanationEn:
+          '「〜てこそ」 means only by ... does something truly ..., stressing the preceding clause as the necessary condition: a dialect is a living language only when used daily, echoing the earlier point that words cannot survive unused. 「さえ」 and 「すら」 present extreme examples (even ...), and their conditional use after the te-form requires the shape 「〜てさえいれば」, which does not fit here in form or sense; 「やら」 marks listing or uncertainty and is entirely out of place.',
       },
     ],
   },
@@ -142,6 +166,8 @@ export const questions: JlptQuestion[] = [
         answerIndex: 0,
         explanation:
           '前句先聲明「無意反對節省浪費本身」，後句補上保留條件「但余白消失的影響應更審慎考量」，這種「大方向認同、唯獨附加但書」的語勢用「ただ」（只是、不過）最貼切。「ゆえに」是書面語的因果順接；「および」是連接名詞的並列連詞，不能引導句子；「いわば」（可以說是）用於打比方，皆不合此處的轉折但書。',
+        explanationEn:
+          'The writer first declares no intention of opposing the elimination of waste itself, then attaches the reservation that the loss of urban margins deserves more careful thought. This stance — broad agreement with one caveat — is exactly what 「ただ」 (only, it\'s just that) conveys. 「ゆえに」 is literary cause and effect; 「および」 is a conjunction that joins nouns and cannot introduce a sentence; and 「いわば」 (so to speak) introduces a metaphor — none fits the qualifying turn here.',
       },
       {
         id: 'n1-grammar-bunsho-004-q2',
@@ -150,6 +176,8 @@ export const questions: JlptQuestion[] = [
         answerIndex: 0,
         explanation:
           '「だからこそ」＝「正因為如此才…」，強調「正因為是什麼都能做的地方，遊戲才得以自由誕生」的因果強調，是論說文常見的論理標識。「まで」表範圍或程度的極端、「ばかり」表限定或「盡是」，接在「だから」之後皆不成句；「どころ」用於「〜どころか」「〜どころではない」等否定強調句型，此處形式與語意皆不合。',
+        explanationEn:
+          '「だからこそ」 means precisely because of that, an emphatic causal marker common in essays: precisely because it was a place where anything was allowed, play arose freely. 「まで」 marks extremes of range or degree and 「ばかり」 marks limitation or nothing but, and neither forms a sentence after 「だから」; 「どころ」 appears in negative-emphasis patterns like 「〜どころか」 and 「〜どころではない」, so both its form and meaning are wrong here.',
       },
       {
         id: 'n1-grammar-bunsho-004-q3',
@@ -158,6 +186,8 @@ export const questions: JlptQuestion[] = [
         answerIndex: 0,
         explanation:
           '前段剛具體描寫了「空地讓孩子自由玩耍」的例子，此處以「このような余白の効用」統括收束並推展到大人的世界，是文章中「こ」系指示詞承接前述內容的標準用法。「あのような」的「あ」系不能回指文章前文；「どのような」是疑問詞，本句是直述句；「なんらの」（任何的）須與否定呼應（なんらの効用もない），與本句肯定的展開矛盾。',
+        explanationEn:
+          'The previous paragraph has just given the concrete example of empty lots letting children play freely, and the passage now sums it up with 「このような余白の効用」 before extending the point to adults — the standard use of a こ-series demonstrative to receive the preceding content. The あ-series 「あのような」 cannot refer back into the text; 「どのような」 is interrogative while this is a declarative sentence; and 「なんらの」 (any ... at all) must pair with a negative, as in 「なんらの効用もない」, contradicting the affirmative development here.',
       },
       {
         id: 'n1-grammar-bunsho-004-q4',
@@ -166,6 +196,8 @@ export const questions: JlptQuestion[] = [
         answerIndex: 0,
         explanation:
           '「〜でありながら」表示「雖然…卻…」的逆接：城市雖然便利卻可能令人窒息，「便利」與「息苦しい」的矛盾並存正需要此逆接。「〜しだい」是「一…就馬上…」，須接動作性語詞；「〜にひきかえ」是「與…相反」，用於對比兩個不同事物，不能連接同一主語的兩種性質；「〜てからというもの」表「自從…以來一直…」，須接實際發生的事件，皆不合。',
+        explanationEn:
+          '「〜でありながら」 expresses the concessive although ... it is ...: the city could become convenient and yet suffocating, and the coexistence of the contradictory 「便利」 and 「息苦しい」 demands exactly this. 「〜しだい」 means as soon as ... and must follow an action word; 「〜にひきかえ」 (in contrast to ...) contrasts two different things and cannot join two qualities of the same subject; and 「〜てからというもの」 (ever since ...) must follow an actual event — none fits.',
       },
     ],
   },

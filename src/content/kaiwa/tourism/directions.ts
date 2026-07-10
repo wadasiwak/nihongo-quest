@@ -287,6 +287,8 @@ export const scene: KaiwaScene = {
       answerIndex: 0,
       explanation:
         '「〜てください」前面要接動詞て形。「行く」是五段動詞的例外音便，て形是「行って」。「行きて」是把ます形「行きます」去掉ます直接加て的常見錯誤；「行いて」套用了「書く→書いて」的イ音便規則，但「行く」是例外，不適用。',
+      explanationEn:
+        '「〜てください」 requires the te-form of the verb. 「行く」 is an exceptional godan verb whose te-form is 「行って」 with a small tsu. 「行きて」 is the common mistake of dropping ます from 「行きます」 and adding て directly; 「行いて」 applies the i-sound-change rule of 「書く→書いて」, but 「行く」 is the one exception to that rule, so it does not apply.',
     },
     {
       id: 'tour-directions-002',
@@ -296,6 +298,8 @@ export const scene: KaiwaScene = {
       answerIndex: 0,
       explanation:
         '「橋を渡る」（過橋）是固定搭配，指從一端走到另一端，過馬路也說「道を渡る」。「登る」是往上爬（山、樓梯），用在過橋的語境語意不通；「止まる」是自動詞，不能接「橋を」；「消す」是關掉、擦掉，完全不合語境。',
+      explanationEn:
+        '「橋を渡る」 (to cross a bridge) is the set collocation for going from one side to the other; crossing a street is likewise 「道を渡る」. 「登る」 means to climb up (a mountain or stairs) and makes no sense for a bridge crossing; 「止まる」 is intransitive and cannot take 「橋を」 as its object; 「消す」 means to turn off or erase — completely out of place here.',
     },
     {
       id: 'tour-directions-003',
@@ -305,6 +309,8 @@ export const scene: KaiwaScene = {
       answerIndex: 0,
       explanation:
         '問「花多少時間」用「なんぷん（何分）＋かかりますか」。「なんじ（何時）」問的是幾點鐘這個時刻，不能和表示花費時間的「かかります」搭配；「なんにん（何人）」問人數、「なんばん（何番）」問號碼，都和句意不合。',
+      explanationEn:
+        'To ask how long something takes, use 「なんぷん」 (何分, how many minutes) with 「かかりますか」. 「なんじ」 (何時) asks for a clock time — a point in time — so it cannot pair with 「かかります」, which expresses duration; 「なんにん」 (何人) asks how many people and 「なんばん」 (何番) asks for a number, neither of which fits the sentence.',
     },
     {
       id: 'tour-directions-004',
@@ -314,6 +320,8 @@ export const scene: KaiwaScene = {
       answerIndex: 0,
       explanation:
         '表示東西存在的場所，用「場所＋に＋あります」，所以「駅の前にあります」正確。「で」表示動作發生的場所（如「駅で買います」），不能和存在動詞「あります」搭配；「を」接他動詞的受詞、「へ」表示移動方向，在這裡都不對。',
+      explanationEn:
+        'The location where something exists is marked with place + 「に」 + 「あります」, so 「駅の前にあります」 is correct. 「で」 marks where an action takes place (as in 「駅で買います」) and does not go with the existence verb 「あります」; 「を」 marks the object of a transitive verb and 「へ」 marks direction of movement, so both are wrong here.',
     },
     {
       id: 'tour-directions-005',
@@ -324,6 +332,8 @@ export const scene: KaiwaScene = {
       starIndex: 2,
       explanation:
         '正解語序是「この道を まっすぐ 行って、あの橋を 渡って ください」：先直走、再過橋，用て形依動作順序連接。「この道を」後面若直接接「あの橋を」，會出現兩個「を」相連、文法不通，所以「まっすぐ行って、」必須放在前面。★處是「あの橋を」。',
+      explanationEn:
+        'The correct order is 「この道を まっすぐ 行って、あの橋を 渡って ください」: go straight first, then cross the bridge, with te-forms linking the actions in sequence. If 「あの橋を」 came right after 「この道を」, two 「を」 phrases would collide ungrammatically, so 「まっすぐ行って、」 must come first. The starred slot is 「あの橋を」.',
     },
     {
       id: 'tour-directions-006',
@@ -334,6 +344,8 @@ export const scene: KaiwaScene = {
       starIndex: 1,
       explanation:
         '正解語序是「一番 近い コンビニは どこに ありますか」（最近的便利商店在哪裡）。「一番」是副詞，必須放在形容詞「近い」前面構成最高級「一番近い」，再一起修飾名詞「コンビニ」；「どこに」要緊接在「ありますか」前面詢問存在的地點，放到其他位置都不自然。★處是「近い」。',
+      explanationEn:
+        'The correct order is 「一番 近い コンビニは どこに ありますか」 (where is the nearest convenience store?). 「一番」 is an adverb that must precede the adjective 「近い」 to form the superlative 「一番近い」, which then modifies 「コンビニ」; 「どこに」 must sit directly before 「ありますか」 to ask about location, and any other placement sounds unnatural. The starred slot is 「近い」.',
     },
   ],
 }

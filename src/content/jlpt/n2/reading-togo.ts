@@ -20,6 +20,8 @@ export const questions: JlptQuestion[] = [
         answerIndex: 0,
         explanation:
           'Ａ說「画面越しのやり取りでは相手の表情が読み取りにくい」，Ｂ說「画面越しの会議では…雑談が生まれにくい」，兩篇都承認隔著螢幕溝通有不便之處。家人共進晚餐只出現在Ａ；雜談產生新發想只出現在Ｂ；「会社の力が弱まりかねない」是Ｂ的擔憂且語氣是「可能」，不是「必ず」，皆非兩篇共通內容。',
+        explanationEn:
+          'A says 「画面越しのやり取りでは相手の表情が読み取りにくく」 and B says that in on-screen meetings casual small talk rarely arises — both texts acknowledge that communicating through a screen has its inconveniences. Dinner with family appears only in A; new ideas born from small talk appears only in B; the company weakening is B\'s worry alone, and it is phrased as a possibility with 「かねない」, not as something that "necessarily" happens — so none of those are common to both texts.',
       },
       {
         id: 'n2-reading-togo-001-q2',
@@ -33,6 +35,8 @@ export const questions: JlptQuestion[] = [
         answerIndex: 0,
         explanation:
           'Ａ的結論是溝通課題「連絡の仕方を工夫すれば十分に補える」，主張繼續在宅勤務；Ｂ雖承認在宅的優點，仍主張「週に数日は出社して顔を合わせるべきだ」。選項2 說反了：Ａ認為問題可以解決，Ｂ也只反對「在宅勤務一色」而非全面廢止；選項4 中Ｂ舉新進員工只是例子之一，並未說只有新人要出社。',
+        explanationEn:
+          'A concludes that the communication problem 「連絡の仕方を工夫すれば十分に補える」 and argues for continuing to work from home; B, while granting the advantages, insists that people 「週に数日は出社して顔を合わせるべきだ」. Option 2 reverses both positions: A believes the problem can be solved, and B opposes only going fully remote (「在宅勤務一色」), not remote work as such; in option 4, B mentions new employees merely as one example and never says that only they should come to the office.',
       },
     ],
   },
@@ -55,6 +59,8 @@ export const questions: JlptQuestion[] = [
         answerIndex: 0,
         explanation:
           'Ａ承認電子書籍「充電が切れれば読めなくなる」「人に貸せないのは不便」，Ｂ承認紙本「置き場所に頭を悩ませている」——兩人都坦承自己選的方式有缺點。內容容易留在記憶只出現在Ｂ；想讀馬上能買只出現在Ａ；「賣給古書店」是Ｂ舉的紙本優點之一，並非兩篇共通的主張。',
+        explanationEn:
+          'A admits e-books have drawbacks — unreadable once 「充電が切れれば」 and impossible to lend to others — while B admits paper books pile up, 「置き場所に頭を悩ませている」: both writers concede that the reading style they chose has inconveniences. Content staying in memory appears only in B; buying and reading a book the moment one wants appears only in A; selling to a used bookstore is one advantage B cites for paper, not a claim shared by both texts.',
       },
       {
         id: 'n2-reading-togo-002-q2',
@@ -68,6 +74,8 @@ export const questions: JlptQuestion[] = [
         answerIndex: 0,
         explanation:
           'Ａ看重「持ち運びの手軽さ」等於「身軽さ」而選電子書籍；Ｂ看重「手元に本という『物』が残る安心感」而選紙本。選項4 把兩人立場對調：可變字級是電子書籍的特點、Ａ才是電子派。選項2 語氣過強——Ａ也承認紙本可外借的好處，Ｂ也說「電子書籍の便利さは理解している」，兩人都沒有全盤否定對方。',
+        explanationEn:
+          'A chooses e-books for their lightness — 「持ち運びの手軽さ」, carrying a whole bookshelf in one thin device; B chooses paper for the reassurance that a physical object, 「本という『物』」, remains at hand. Option 4 swaps their positions: adjustable font size is an e-book feature and A is the e-book reader. Option 2 overstates both views: A still concedes paper\'s merits such as lending, and B says 「電子書籍の便利さは理解している」 — neither dismisses the other side entirely.',
       },
     ],
   },
@@ -90,6 +98,8 @@ export const questions: JlptQuestion[] = [
         answerIndex: 0,
         explanation:
           'Ａ在第二點明說「いつ何にいくら使ったかが自動的に記録されるので、家計の管理が格段に楽になった」。選項2 是Ａ用「〜ものの」讓步後反駁的世間說法，不是Ａ的主張；選項3 說反了——「使い道の分からない出費」是現金時代的事，「今はそれがない」；選項4 與Ａ「むしろ現金より無駄遣いは減る」的結論相反。',
+        explanationEn:
+          'A states in the second point that because 「いつ何にいくら使ったかが自動的に記録される」, 「家計の管理が格段に楽になった」. Option 2 is the common claim that A concedes with 「〜ものの」 and then rebuts, not A\'s own view; option 3 reverses the text — expenses of unknown purpose belonged to the cash days, and 「今はそれがない」; option 4 contradicts A\'s conclusion that with the habit of checking the records every night, waste actually decreases compared with cash.',
       },
       {
         id: 'n2-reading-togo-003-q2',
@@ -103,6 +113,8 @@ export const questions: JlptQuestion[] = [
         answerIndex: 0,
         explanation:
           'Ａ整篇列舉快速結帳、自動記帳等優點，後悔沒有更早改用；Ｂ開頭即說「便利であることは否定しない」，但主張「現金でも支払えるという当たり前の選択肢まで失ってはならない」。選項2 把立場弄反：擔心災害斷電的是Ｂ，且Ｂ承認其便利性；選項3 中Ｂ反而擔心高齡者被拋下；選項4 兩句都與原文相反。',
+        explanationEn:
+          'A spends the whole passage praising cashless payment — instant checkout, automatic records — and regrets not switching sooner; B opens by conceding its convenience but insists society must not lose 「現金でも支払えるという当たり前の選択肢」. Option 2 swaps the two: the worry about disasters and outages belongs to B, and B does acknowledge the convenience; in option 3, B actually fears the elderly will be left behind, the opposite of urging them to switch; both halves of option 4 contradict the passages.',
       },
     ],
   },

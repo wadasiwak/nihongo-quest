@@ -16,6 +16,8 @@ export const questions: JlptQuestion[] = [
         answerIndex: 0,
         explanation:
           '研究論文掲載料30,000日圓，筆頭著者是學生會員可減半成15,000日圓；彩色圖版每張10,000日圓、2張共20,000日圓，且規程明示此費用「不適用學生折扣」，合計35,000日圓。選25,000是把彩圖費也打了對折；選50,000是漏掉學生半價；選15,000是漏算彩圖費。又筆頭著者是會員即可投稿，指導教員非會員無妨。',
+        explanationEn:
+          'The publication fee for a research paper is 30,000 yen, halved to 15,000 yen because the first author is a student member; color figures cost 10,000 yen each, so two come to 20,000 yen, and the rules state 「この費用には学生割引を適用しない」 — the student discount does not apply to that part. The total is therefore 35,000 yen. Choosing 25,000 halves the color-figure fee as well; 50,000 misses the student half-price; 15,000 forgets the color figures. Note also that only the first author needs to be a member, so the non-member advisor poses no problem.',
       },
       {
         id: 'n1-reading-joho-001-q2',
@@ -29,6 +31,8 @@ export const questions: JlptQuestion[] = [
         answerIndex: 0,
         explanation:
           '要交叉核對三個條件：內容是重視速報性的研究成果，種別應為研究ノート；研究ノート上限10,000字，11,000字超標必須刪減；12月號的截稿日是「当年6月末日」。三者兼顧的只有第一個選項。「12月末日」是隔年6月號的截稿日，趕不上12月號；實踐報告限教育・調査現場的取組報告，研究速報不符該種別定義。',
+        explanationEn:
+          'Three conditions must be cross-checked: the content is a research result prioritizing timeliness, so the category should be a research note (研究ノート); research notes are capped at 10,000 characters, so the 11,000-character manuscript must be trimmed; and the deadline for the December issue is 「当年6月末日」 — the end of June of the same year. Only the first option satisfies all three. 「12月末日」 is the deadline for the following June issue and would miss the December issue, and practice reports are limited to accounts of hands-on work in education or fieldwork, so a rapid research report does not fit that category.',
       },
     ],
   },
@@ -52,6 +56,8 @@ export const questions: JlptQuestion[] = [
         answerIndex: 0,
         explanation:
           '應募資格要同時滿足在學身分、成績、仕送り、他獎學金四項。金同學：學部4年生、係數2.8高於2.5、仕送り85,000低於90,000，雖然領貸與型獎學金，但要項明示貸與型可併用，全部過關。王同學領的是給付型，違反第（4）項本文；莎莉同學曾受本財團獎學金，依「なお」的例外條款不得再應募；梅同學是博士課程，明文排除在對象外。',
+        explanationEn:
+          'Eligibility requires meeting all four conditions: enrollment status, grades, monthly allowance, and other scholarships. Kim is a fourth-year undergraduate, her GPA coefficient of 2.8 exceeds 2.5, her allowance of 85,000 yen is under 90,000, and although she receives a loan-type scholarship, the guidelines explicitly permit combining with loan-type aid — she passes on every point. Wang receives a grant-type scholarship, violating clause (4); Sari once received this foundation\'s scholarship and is barred by the 「なお」 proviso; and Mei is a doctoral student, explicitly excluded from eligibility.',
       },
       {
         id: 'n1-reading-joho-002-q2',
@@ -65,6 +71,8 @@ export const questions: JlptQuestion[] = [
         answerIndex: 0,
         explanation:
           '提出書類第（3）項規定推薦狀原則上由指導教員出具，但括號附了例外：「学部生は学部長の推薦状でも可」。拉瑪同學是學部生，適用此例外，第一個選項正確。其餘皆與要項相反：申請只收郵寄，明文不接受親送與電子郵件；面接明文不以線上方式實施；書類不備者根本不予受理，沒有事後補正的餘地。',
+        explanationEn:
+          'Document clause (3) requires a letter of recommendation from the academic advisor in principle, but the parenthesis adds an exception: 「学部生は学部長の推薦状でも可」. Lama is an undergraduate, so the exception applies and the first option is correct. The rest contradict the guidelines: applications are accepted by post only, with hand delivery and email explicitly refused; interviews are explicitly not held online; and applications with incomplete documents are simply not accepted, leaving no room for fixing them afterward.',
       },
     ],
   },
@@ -88,6 +96,8 @@ export const questions: JlptQuestion[] = [
         answerIndex: 0,
         explanation:
           'Ｄ的應募條件是「実務経験2年以上」或「大学院で統計学を専攻し修了」二擇一，阮同學符合後者，沒有實務經驗也能應募。但Ｄ的勤務形態雖以在宅為原則，後面跟著例外條款：每週須進東京本社2天，所以不可能完全在宅。說「一つもない」是漏看了Ｄ的替代條件（Ｃ也不問經驗）；Ｂ要求法人營業經驗2年以上且明文在宅不可，英語分數夠也不行。',
+        explanationEn:
+          'Position D\'s requirement is either 「実務経験2年以上」 or 「大学院で統計学を専攻し修了」 — one of the two suffices, and Nguyen meets the latter, so he can apply despite having no work experience. However, although D\'s work style is remote in principle, the proviso that follows requires two days per week at the Tokyo head office, so fully remote work is impossible. The option saying there is nothing he can apply for overlooks D\'s alternative condition (C also asks for no experience); B requires two or more years of corporate sales experience and explicitly bans remote work, so a good English score does not help.',
       },
     ],
   },
@@ -106,6 +116,8 @@ export const questions: JlptQuestion[] = [
         answerIndex: 0,
         explanation:
           '先看定員：12人超過小會議室的定員8名，規約明示不得超員使用，可用的最小房間是中會議室（定員20名）。中會議室每小時1,500日圓、3小時共4,500日圓；讀書會是市內登錄團體、不收參加費屬非營利，適用半價成2,250日圓。選4,500是漏掉登錄團體折扣；選1,200是硬用定員不足的小會議室再打折；選9,000是誤套營利加倍條款。',
+        explanationEn:
+          'Check capacity first: twelve people exceed the small room\'s capacity of eight, and the rules explicitly forbid exceeding capacity, so the smallest usable room is the medium room (capacity twenty). The medium room costs 1,500 yen per hour, or 4,500 yen for three hours; the reading club is a registered local group that collects no fees, hence non-profit, so the half-price discount brings it to 2,250 yen. Choosing 4,500 misses the registered-group discount; 1,200 forces the undersized small room and then discounts it; 9,000 wrongly applies the for-profit doubling clause.',
       },
     ],
   },
@@ -124,6 +136,8 @@ export const questions: JlptQuestion[] = [
         answerIndex: 0,
         explanation:
           '先篩對象經費：人件費明列為對象外，對象經費是改裝費60萬＋設備費30萬＝90萬日圓。林先生開業8個月，屬「新規開業者」，補助率適用3分之2即60萬日圓，恰好等於新規開業者的上限60萬。選70萬是把人件費也算進去乘3分之2；選45萬是誤用一般事業者的2分之1補助率；選40萬是誤套一般上限，漏看了新規開業者的例外條款。',
+        explanationEn:
+          'Filter the eligible expenses first: personnel costs are explicitly excluded, so the eligible amount is the 600,000 yen renovation plus the 300,000 yen equipment, i.e. 900,000 yen. Having been open for eight months, Lin qualifies as a 「新規開業者」, so the two-thirds subsidy rate applies, giving 600,000 yen — exactly the 600,000 yen cap for new businesses. Choosing 700,000 includes the personnel costs before multiplying by two-thirds; 450,000 wrongly uses the general one-half rate; 400,000 wrongly applies the general cap and overlooks the new-business exception clause.',
       },
       {
         id: 'n1-reading-joho-005-q2',
@@ -137,6 +151,8 @@ export const questions: JlptQuestion[] = [
         answerIndex: 0,
         explanation:
           '第4項的「なお」但書明定：交付決定通知前支出的經費不列入補助對象，第一個選項與此一致。其餘皆與要領相反：申請方式明文只收電子申請，不受理郵寄與親送；曾受領本補助金者依第2項的但書排除，不得再申請；實績報告書須在事業完成後30日內提出，否則可能被取消交付決定，並非隔年度交件即可。',
+        explanationEn:
+          'The 「なお」 proviso in section 4 states that expenses paid before receiving the grant-decision notice are not eligible for the subsidy, which matches the first option. The rest contradict the guidelines: applications are accepted electronically only, with postal and in-person submission refused; past recipients of this subsidy are excluded by the proviso in section 2 and may not apply again; and the results report must be submitted within 30 days of completing the project — otherwise the grant decision may be revoked — not merely by the end of the following fiscal year.',
       },
     ],
   },
@@ -155,6 +171,8 @@ export const questions: JlptQuestion[] = [
         answerIndex: 0,
         explanation:
           '發表者不分一般・學生，都必須在早期登錄期間內完成登錄，否則發表會被取消，所以朴同學適用學生早期費12,000日圓；懇親會費6,000日圓不含在登錄費內須另繳，合計18,000日圓。選21,000是誤用通常期的學生費15,000，但發表者不能拖到通常期；選12,000是漏算懇親會費；選31,000是誤用一般早期費，朴同學提交學生證影本即可適用學生費。',
+        explanationEn:
+          'Presenters, whether general or student, must complete registration within the early-registration period or their presentation is cancelled, so Park pays the early student fee of 12,000 yen; the banquet fee of 6,000 yen is not included in the registration fee and must be paid separately, giving a total of 18,000 yen. Choosing 21,000 wrongly uses the regular-period student fee of 15,000, but a presenter cannot wait until the regular period; 12,000 forgets the banquet fee; 31,000 wrongly uses the general early fee — by submitting a copy of his student ID, Park qualifies for the student rate.',
       },
       {
         id: 'n1-reading-joho-006-q2',
@@ -168,6 +186,8 @@ export const questions: JlptQuestion[] = [
         answerIndex: 0,
         explanation:
           '第4項雖明文「オンラインでの発表は認めない」，但緊接著的「ただし」設了例外：限海報發表、有不得已事由且經大會委員會認可時，可用事前錄影的方式發表，第一個選項正確。要旨在截止後不論理由一律不得抽換；懇親會費6,000日圓須於登錄時另外申請，不含在登錄費內；發表者必須在早期登錄期間（9月30日前）完成登錄，11月10日只是通常登錄的截止日。',
+        explanationEn:
+          'Section 4 states 「オンラインでの発表は認めない」, but the 「ただし」 that follows carves out an exception: for poster presentations only, when the committee recognizes unavoidable circumstances, a presentation by pre-recorded video may be allowed — so the first option is correct. Abstracts may not be replaced after the deadline for any reason; the 6,000 yen banquet fee is not included in the registration fee and must be requested separately at registration; and presenters must complete registration within the early period (by September 30) — November 10 is merely the regular registration deadline.',
       },
     ],
   },
@@ -191,6 +211,8 @@ export const questions: JlptQuestion[] = [
         answerIndex: 0,
         explanation:
           '規定分三層：原則上著作物只能複印一半；雜誌最新號則連一半都不能印；但「ただし」的例外指出下一號發行後，最新號裡的個別論文即可全篇複印。黃同學想要論文全篇，等下一號發行是唯一合規的做法。說最新號可印一半，是被原則規定誤導、漏看最新號的禁止條款；自行用手機拍攝明文禁止；郵寄複印限持有利用者卡的人，且最新號本來就不能複印。',
+        explanationEn:
+          'The rules have three layers: in principle only half of a copyrighted work may be copied; the latest issue of a magazine may not be copied at all, not even half; but the 「ただし」 exception says that once the next issue is published, individual articles in the former latest issue may be copied in full. Since Hoang wants the whole article, waiting for the next issue is the only compliant route. Saying half of the latest issue can be copied is misled by the general rule and misses the latest-issue ban; photographing with one\'s own phone is explicitly forbidden; and mail-order copying is limited to holders of a user card — besides, the latest issue cannot be copied in the first place.',
       },
     ],
   },
@@ -214,6 +236,8 @@ export const questions: JlptQuestion[] = [
         answerIndex: 0,
         explanation:
           '利用期間原則上最長2年，但第3項附了例外條款：期滿後若新應募者人數未達區畫數量，可以繼續利用，所以用滿2年的人在應募者不足時能種第3年，第一個選項正確。販賣收成違反第1項「不得以營利為目的栽培」；藍莓是果樹，屬於跨年生長的植物，明文不得種植；年度中途退出時，利用料明文不予退還。',
+        explanationEn:
+          'The usage period is at most two years in principle, but section 3 adds an exception: if, after the term expires, the number of new applicants falls short of the number of plots, continued use is allowed — so someone who has used a plot for two full years can farm a third year when applicants are scarce, making the first option correct. Selling the harvest violates section 1\'s ban on cultivation for profit; blueberries are fruit trees, plants grown over multiple years, which are explicitly prohibited; and the fee is explicitly non-refundable if one quits partway through the year.',
       },
     ],
   },

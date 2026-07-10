@@ -21,6 +21,8 @@ export const questions: JlptQuestion[] = [
         answerIndex: 0,
         explanation:
           '要同時核對三個條件：平日晚上、總額18,000日圓以內、資格符合。②在週四晚上，會員折扣後受講料20,000×0.8＝16,000日圓，加教材費2,000日圓（不打折）合計剛好18,000日圓，全部符合。①雖然更便宜，但對象限「社會人經驗未滿3年」，5年資歷的林小姐資格不符；③④都在週六，不是平日晚上，④還限管理職。',
+        explanationEn:
+          'Three conditions must be checked together: weekday evenings, a total of at most 18,000 yen, and eligibility. Course ② meets on Thursday evenings; with the member discount the fee is 20,000 × 0.8 = 16,000 yen, plus the non-discountable 2,000 yen materials fee — exactly 18,000 yen, so everything fits. Course ① is cheaper but limited to people with under three years of work experience, so Lin, in her fifth year, does not qualify; ③ and ④ are held on Saturdays, not weekday evenings, and ④ is additionally restricted to managers.',
       },
       {
         id: 'n2-reading-joho-001-q2',
@@ -34,6 +36,8 @@ export const questions: JlptQuestion[] = [
         answerIndex: 0,
         explanation:
           '④的報名方式依簡章是「窗口或郵寄」，且會員企業員工受講料打八折：30,000×0.8＝24,000日圓（④教材費已含在內，無另計）。第二個選項的金額對，但④不能從網站報名（網站限①②）；第三個選項忘了會員折扣；第四個選項錯在「電話での申し込みはできません」，任何講座都不受理電話報名。',
+        explanationEn:
+          'According to the flyer, course ④ must be applied for at the counter or by mail, and member-company employees get 20% off the fee: 30,000 × 0.8 = 24,000 yen (④\'s materials fee is already included, so nothing is added). The second option has the right amount, but ④ cannot be applied for on the website — that route is only for ① and ②; the third option forgets the member discount; the fourth fails because 「電話での申し込みはできません」 — no course accepts telephone applications.',
       },
     ],
   },
@@ -52,6 +56,8 @@ export const questions: JlptQuestion[] = [
         answerIndex: 0,
         explanation:
           '三個條件：可兩人入住、可養小型犬、每月支出85,000日圓以內。Ｂ號室兩人可住、可養一隻小型犬，養狗加5,000日圓後家賃80,000日圓，加管理費5,000日圓正好85,000日圓，全部符合。Ａ號室限單身且禁寵物；Ｃ號室雖適合家庭但「ペット不可」；Ｄ號室也是禁養寵物，即使月支出66,000日圓最便宜也不能選。',
+        explanationEn:
+          'Three conditions: two occupants allowed, a small dog allowed, and monthly rent plus management fee within 85,000 yen. Room B allows couples and one small dog; with the 5,000 yen pet surcharge the rent becomes 80,000 yen, plus the 5,000 yen management fee — exactly 85,000 yen, so it fits. Room A is limited to single tenants and bans pets; Room C suits families but says 「ペット不可」; Room D also bans pets, so even though its 66,000 yen a month is the cheapest, it cannot be chosen.',
       },
       {
         id: 'n2-reading-joho-002-q2',
@@ -65,6 +71,8 @@ export const questions: JlptQuestion[] = [
         answerIndex: 0,
         explanation:
           '「敷金・礼金皆免」的只有Ｄ號室，且Ｄ可單身入住。程序上，內見須前一天以前電話預約、報名要在內見後於店頭填申込書，而朴同學是學生，依規定必須找保證人。第二個選項錯在網站不受理報名，且保證會社只開放給社會人；第三個選項錯在Ａ號室要敷金1個月，且當日不能預約內見；Ｂ號室敷金禮金各1個月，並非全免。',
+        explanationEn:
+          'Only Room D charges neither deposit nor key money, and it accepts single tenants. As for the procedure, a viewing must be booked by phone by the day before, the application form is filled out at the shop after the viewing, and since Park is a student he must provide a guarantor. The second option fails because applications via the website are not accepted and the guarantor-company option is open only to working adults; the third fails because Room A requires one month\'s deposit and same-day viewing bookings are refused; Room B charges one month each of deposit and key money, so it is not free of either.',
       },
     ],
   },
@@ -88,6 +96,8 @@ export const questions: JlptQuestion[] = [
         answerIndex: 0,
         explanation:
           '王先生要對照身分、場次、期限、攜帶物四項：IT企業只在第1回，模擬面試只在第2回，所以兩場都得去；他是社會人，兩場都必須在3天前上網預約，且模擬面試要自備履歷書一份。第二個選項的「免預約＋學生證」是學生的規則，不適用社會人；第三個選項錯在模擬面試設在第2回會場；第四個選項則漏了IT企業場次，且社會人不能當天報到入場。',
+        explanationEn:
+          'Four things must be cross-checked: status, sessions, deadlines, and what to bring. IT companies appear only at the first session and the mock interviews only at the second, so Ou must attend both; as a working adult he must reserve on the website at least three days before each session, and the mock interview requires bringing one resume. The second option applies the students\' rule (no reservation, show a student ID) to a working adult; the third wrongly places the mock interviews at the first session\'s venue; the fourth drops the IT session, and working adults cannot enter through same-day registration anyway.',
       },
     ],
   },
@@ -111,6 +121,8 @@ export const questions: JlptQuestion[] = [
         answerIndex: 0,
         explanation:
           '林先生符合三項資格（市內設籍、無欠稅、首次申請），且在市內店鋪購買並回收舊機，符合補助條件。金額是購入額三分之一：150,000÷3＝50,000日圓，但冰箱上限40,000日圓，故只能領40,000日圓。申請方式限窗口提出或郵寄。第二個選項忘了套用上限；第三個選項錯在「メールでの申請は受け付けていません」；第四個選項錯在補助金是審查後匯入帳戶，不能當場領現。',
+        explanationEn:
+          'Hayashi meets all three eligibility rules (registered resident, no tax arrears, first-time applicant), bought at a shop in the city, and recycled the old unit, so he qualifies. The subsidy is one third of the price: 150,000 ÷ 3 = 50,000 yen, but refrigerators are capped at 40,000 yen, so he receives 40,000 yen, applying at the counter or by mail. The second option forgets to apply the cap; the third fails because 「メールでの申請は受け付けていません」; the fourth is wrong because the money is transferred to a bank account after review — it is never handed over in cash on the spot.',
       },
     ],
   },

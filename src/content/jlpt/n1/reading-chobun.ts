@@ -21,6 +21,8 @@ export const questions: JlptQuestion[] = [
         answerIndex: 0,
         explanation:
           '第一段寫「正直に言えば気が重かった」，理由緊接著交代：工作忙（仕事は立て込んでいた）、加上物置塞滿父親的工具木材，收拾起來必然費力。「思い出がつらい」是常見的誤導方向，但文中沉重的原因是勞務負擔，不是觸景傷情；「待ち遠しかった」「うれしくて」都與「気が重い」相反。',
+        explanationEn:
+          'The first paragraph states plainly 「正直に言えば気が重かった」, and the reasons follow at once: work was piling up (「仕事は立て込んでいた」) and the narrator knew the shed was crammed with the father\'s tools and lumber, so the cleanup was bound to be a major chore. The idea that touching the mementos would be too painful is a classic decoy, but the heaviness comes from the burden of labor, not from grief; 「待ち遠しかった」 and 「うれしくて」 both contradict 「気が重い」.',
       },
       {
         id: 'n1-reading-chobun-001-q2',
@@ -34,6 +36,8 @@ export const questions: JlptQuestion[] = [
         answerIndex: 0,
         explanation:
           '前一句是關鍵：原以為雜亂的物置「実のところ父なりの秩序に隅々まで貫かれていた」。發現這份秩序後，帶來準備丟東西的垃圾袋就顯得「無遠慮」（冒失無禮），所以遲遲打不開袋口。「袋が小さい」文中未提；母親後來只是笑著說破，並無責備之意；「匂いで気分が悪い」是挪用文中字眼的錯誤選項。',
+        explanationEn:
+          'The preceding sentence is the key: the shed the narrator had assumed was a mess was 「実のところ父なりの秩序に隅々まで貫かれていた」. Once that order came into view, the garbage bags brought for disposal suddenly felt 「無遠慮」 — rude and intrusive — which is why the narrator could not bring himself to open them. Nothing says the bag was too small; the mother later only laughs knowingly, with no hint of scolding; the option about feeling sick from the smell merely recycles words lifted from the passage.',
       },
       {
         id: 'n1-reading-chobun-001-q3',
@@ -47,6 +51,8 @@ export const questions: JlptQuestion[] = [
         answerIndex: 0,
         explanation:
           '第四段寫得很清楚：包工具時發現「重かったはずの気持ちがいつのまにか凪いでいる」，並體會到父親的時間「形を変えて私の手元に残った」。注意文中明言「悲しみが消えたわけではない」，所以「すっかり消えて」是錯的；「情けなくなり持ち帰るのをやめた」與實際把工具搬上車的行動矛盾；「焦る」在文中毫無根據。',
+        explanationEn:
+          'The fourth paragraph spells it out: while wrapping the tools the narrator notices 「重かったはずの気持ちがいつのまにか凪いでいる」 and comes to feel that the father\'s time 「形を変えて私の手元に残った」. Note the text says 「悲しみが消えたわけではない」, so claiming the sorrow completely vanished is wrong; deciding not to take the tools home contradicts the fact that the narrator actually loads them into the car; feeling rushed (「焦る」) has no basis anywhere in the text.',
       },
       {
         id: 'n1-reading-chobun-001-q4',
@@ -60,6 +66,8 @@ export const questions: JlptQuestion[] = [
         answerIndex: 0,
         explanation:
           '結尾「そうやって少しずつ物置に通ううちに、私は父ともう一度、ゆっくり話をすることになるのかもしれない」點出整篇的落點：收拾物置從苦差事轉為與亡父對話的過程。「義務のまま」只符合開頭、忽略了心境的推移；帶回刨刀是出於對父親的眷戀，「趣味の道具集め」曲解動機；文中母子關係本就融洽，「修復」無從談起。',
+        explanationEn:
+          'The closing line gives the whole piece its landing point: 「そうやって少しずつ物置に通ううちに、私は父ともう一度、ゆっくり話をすることになるのかもしれない」 — the cleanup has turned from a dreaded chore into an ongoing, unhurried conversation with the late father. Saying it remained a mere burdensome duty fits only the opening and ignores the shift in feeling; the plane and chisels were taken home out of attachment to the father, so reading it as gathering tools for a new hobby distorts the motive; the mother-son relationship was warm all along, so there was nothing to repair.',
       },
     ],
   },
@@ -83,6 +91,8 @@ export const questions: JlptQuestion[] = [
         answerIndex: 0,
         explanation:
           '第一段明言「わかりやすさが一種の親切であることは間違いない」，並肯定淺白說明勝過拋下聽者的艱澀說明，所以起筆是正面評價。「怠慢」在文中指的是「必要もなく難しい言葉を振り回す説明」，方向剛好相反；「聞き手を置き去りにする」形容的是難解的說明而非わかりやすさ；「中学生にもわかる説明」只是舉例，並非限定用途。',
+        explanationEn:
+          'The first paragraph states outright 「わかりやすさが一種の親切であることは間違いない」 and affirms that a plain, digestible explanation beats one that leaves the listener behind, so the opening assessment is positive. In this essay 「怠慢」 refers to explanations that brandish needlessly difficult language — the opposite direction; 「聞き手を置き去りにする」 describes hard-to-follow explanations, not clarity itself; 「中学生にもわかる説明」 is merely an example, not a claim that clarity belongs only in education.',
       },
       {
         id: 'n1-reading-chobun-002-q2',
@@ -96,6 +106,8 @@ export const questions: JlptQuestion[] = [
         answerIndex: 0,
         explanation:
           '第二段的脈絡：把事情變得易懂往往就是單純化——「例外を切り捨て、前提となる条件を省き、結論だけを取り出す」，讓「場合による」的問題變成「要するにこうだ」的斷言。「模型」正是比喻這種被削去複雜性的資訊。「立体的に再現した教材」把比喻當實物解；「難解な専門用語の体系」與單純化背道而馳；「独自の理解」文中並未提及。',
+        explanationEn:
+          'Follow the second paragraph\'s logic: making things easy to grasp usually means simplifying — 「例外を切り捨て、前提となる条件を省き、結論だけを取り出す」 — so that questions which should be answered 「場合による」 turn into assertions of 「要するにこうだ」. The 「模型」 is a metaphor for precisely this kind of information stripped of real-world complexity. The teaching-material option takes the metaphor literally; a system of arcane jargon runs counter to simplification; a reader\'s self-built personal understanding is never mentioned.',
       },
       {
         id: 'n1-reading-chobun-002-q3',
@@ -109,6 +121,8 @@ export const questions: JlptQuestion[] = [
         answerIndex: 0,
         explanation:
           '「本末転倒」緊接在第三段末尾的假設之後：專家謹慎地說「一概には言えない」反被嫌不可靠，而反覆做出可疑斷言的人卻贏得信賴——該被信任的與實際被信任的顛倒了。「専門書が読まれない」文中沒有這樣的對比；第三段說的是發信方「単純化を迫られ」而非拒絕單純化；「忍耐力をつけすぎる」與文中「忍耐力を削る」正好相反。',
+        explanationEn:
+          '「本末転倒」 follows directly from the hypothetical at the end of the third paragraph: experts who carefully say 「一概には言えない」 are dismissed as unreliable, while people who keep repeating poorly grounded assertions attract all the trust — who deserves trust and who actually receives it have been inverted. The text draws no contrast about specialist books going unread; the third paragraph says senders are 「一層の単純化を迫られ」, not that they refuse to simplify; audiences building up too much patience is the exact opposite of the stated 「忍耐力を削る」.',
       },
       {
         id: 'n1-reading-chobun-002-q4',
@@ -122,6 +136,8 @@ export const questions: JlptQuestion[] = [
         answerIndex: 0,
         explanation:
           '末兩段收束全文：入門書與要約作為「地図」大有用處，但不能「地図を眺めただけで土地を歩いた気に」，接受方要「わかったつもりの先へもう一歩踏み込」、撿回被捨去的例外與條件——即以易懂為入口而非終點。筆者明言「難解であることそのものに価値があると言いたいのではない」，第二個選項恰好踩中這個否定；要求專家「更加單純化」會加深文中的惡性循環；全盤否定入門書則與「地図としてなら大いに役立つ」矛盾。',
+        explanationEn:
+          'The final two paragraphs gather the argument: primers and summaries are genuinely useful as a 「地図」, but you must not feel you have walked the land just by studying the map — the reader should 「わかったつもりの先へもう一歩踏み込」 and pick back up the exceptions and conditions that were cut away. In short, treat clarity as an entrance, not an endpoint. The author explicitly says 「難解であることそのものに価値があると言いたいのではない」, which is exactly what the second option violates; demanding that experts simplify even further would deepen the vicious circle described; rejecting primers outright contradicts 「地図としてなら大いに役立つ」.',
       },
     ],
   },
@@ -145,6 +161,8 @@ export const questions: JlptQuestion[] = [
         answerIndex: 0,
         explanation:
           '第一段寫「私は舞い上がった」，並說想到這是比任何同期都早的提拔，「通勤電車の中でさえ企画のことばかり考えていた」，可見是興奮投入。「荷が重い」與雀躍的描寫相反；課長「軽い調子」只是說話方式，文中沒有因此不安的描述；「同期に知られたくない」更是無中生有。',
+        explanationEn:
+          'The first paragraph says 「私は舞い上がった」, and thinking this was a promotion earlier than any peer\'s, the narrator 「通勤電車の中でさえ企画のことばかり考えていた」 — clearly proud, thrilled, and fully absorbed. Feeling the job was too much to handle contradicts this elation; the section chief\'s 「軽い調子」 is simply his manner of speaking, and no anxiety about being underestimated is described; not wanting coworkers to know is pure invention.',
       },
       {
         id: 'n1-reading-chobun-003-q2',
@@ -158,6 +176,8 @@ export const questions: JlptQuestion[] = [
         answerIndex: 0,
         explanation:
           '文中順序是關鍵：「恥ずかしさよりも先に、あれだけ準備したのに、という理不尽さへの怒り」——熬夜準備卻換來「継続検討」的擱置，付出沒有得到相應對待才是怒氣來源。部長只問「誰が買うの」，並未指摘數字有誤；對島田的不滿是「それからの数日」才出現的遷怒；文中沒有同期在場的描寫。',
+        explanationEn:
+          'The stated order matters: 「恥ずかしさよりも先に、あれだけ準備したのに、という理不尽さへの怒り」 — after all those late nights of preparation, the proposal was shelved as 「継続検討」 without a real hearing, and that mismatch between effort and treatment is what fuels the anger. The department head only asked 「で、これは誰が買うの」 and never faulted the figures; resentment toward Shimada surfaces only 「それからの数日」, as displaced frustration; no coworkers from the narrator\'s cohort are described as present.',
       },
       {
         id: 'n1-reading-chobun-003-q3',
@@ -171,6 +191,8 @@ export const questions: JlptQuestion[] = [
         answerIndex: 0,
         explanation:
           '第四段明寫：鬱積數日的怒氣「静かに形を変え」，成為「次は届く形で出したいという、前向きな飢えのようなもの」。注意文中說「悔しさは消えていない」，所以「すっかり消えて」是錯的；紅字大半是「ここは面白い」等肯定，並非細數錯誤，「自信を失い」不成立；讀後隔週便低頭請求重做，可見對島田的遷怒已化解而非加深。',
+        explanationEn:
+          'The fourth paragraph states it plainly: the anger that had smoldered for days 「静かに形を変え」, becoming 「次は届く形で出したいという、前向きな飢えのようなもの」. Note that 「悔しさは消えていない」, so claiming the frustration completely disappeared is wrong; the red notes were mostly encouragement such as 「ここは面白い」, not an itemized list of errors, so losing confidence does not hold; and the narrator bows and asks to rework the proposal the following Monday, showing the resentment toward Shimada dissolved rather than deepened.',
       },
       {
         id: 'n1-reading-chobun-003-q4',
@@ -184,6 +206,8 @@ export const questions: JlptQuestion[] = [
         answerIndex: 0,
         explanation:
           '結尾點明全文落點：若沒有那一行紅字，「私はあの失敗を『運が悪かった話』として片付け、同じ場所で立ち止まり続けていた」——失敗因此成為重新出發的契機。「大きな仕事を避ける」與主動請求練り直し的行動相反；文章的領悟是「惜しいのは中身ではなく、届け方」，把教訓歸結為數字裏付け正好弄反；島田最後「少し笑っていた」，兩人關係並無裂痕。',
+        explanationEn:
+          'The ending pins down the point of the whole piece: without that single line in red pencil, 「私はあの失敗を『運が悪かった話』として片付け、同じ場所で立ち止まり続けていた」 — the failure instead became a spur to re-ask who the proposal should reach and to move forward. Avoiding big assignments afterward contradicts the narrator volunteering to rework the plan; the essay\'s insight is 「惜しいのは中身ではなく、届け方」, so concluding that numerical backing is what matters gets it exactly backwards; Shimada 「少し笑っていた」 at the end, so no rift remains between them.',
       },
     ],
   },
@@ -207,6 +231,8 @@ export const questions: JlptQuestion[] = [
         answerIndex: 0,
         explanation:
           '第一段的定義句：「はっきりした原因が見つからないまま発生し、いつのまにか消えていく渋滞は『自然渋滞』と呼ばれ」。事故處理拖長正是「有明確原因」的塞車，方向相反；上坡與隧道口只是「波の発生地点になりやすい」場所，並非只在該處發生，也不是地形直接造成；「休日にだけ」文中完全沒有提及。',
+        explanationEn:
+          'The defining sentence in the first paragraph reads: 「はっきりした原因が見つからないまま発生し、いつのまにか消えていく渋滞は『自然渋滞』と呼ばれ」. A jam that drags on because of accident cleanup is precisely one with a clear cause — the opposite case; uphill approaches and tunnel entrances are only spots that 「波の発生地点になりやすい」, not the sole places jams occur, nor is terrain named as the direct cause; jams occurring only on holidays is never mentioned.',
       },
       {
         id: 'n1-reading-chobun-004-q2',
@@ -220,6 +246,8 @@ export const questions: JlptQuestion[] = [
         answerIndex: 0,
         explanation:
           '第二段的連鎖：車間縮短後，前車稍一減速，後車只能踩得更重，「一台一台の減速はごく小さくても、それが後方へ伝わるたびに増幅され、数十台後ろでは完全な停止に至る」。文中明言渋滞「先頭の誰かが引き起こした『事件』ではなく」，第二個選項恰好踩中這個否定；「いっせいに」不符合逐台傳遞放大的描述；波是減速由前往後傳，「加速が前方へ」方向與內容都錯。',
+        explanationEn:
+          'The chain in the second paragraph: once following distances shrink, a slight slowdown by the car in front forces the next car to brake a little harder, and 「一台一台の減速はごく小さくても、それが後方へ伝わるたびに増幅され、数十台後ろでは完全な停止に至る」. The text explicitly denies that a jam is 「先頭の誰かが引き起こした『事件』」, which is exactly the claim of the second option; 「いっせいに」 contradicts the car-by-car transmission and amplification; and the wave is deceleration traveling backward, so acceleration moving forward is wrong in both direction and substance.',
       },
       {
         id: 'n1-reading-chobun-004-q3',
@@ -233,6 +261,8 @@ export const questions: JlptQuestion[] = [
         answerIndex: 0,
         explanation:
           '第三段：減速の波「車の流れとは逆向きに、つまり後方へ向かって時速二十キロほどで移動していく」，所以塞車不是釘在一個地點，而是像波一樣在路上逆行——「特定の場所に発生して居座るものではなく」。駕駛「通り抜けているように感じられる」並非錯覺說車子沒動，車列確實在前進；「同じ向きに先頭へ」把方向弄反；最後一個選項是文中沒有的情節。',
+        explanationEn:
+          'The third paragraph says the deceleration wave moves 「車の流れとは逆向きに、つまり後方へ向かって時速二十キロほどで移動していく」, so a jam is not something that settles at one spot — 「特定の場所に発生して居座るものではなく」 — but travels back up the line of cars as a wave. Drivers only feel they are passing through it; the cars really are inching forward, so claiming they do not move at all is wrong; saying the wave heads forward in the same direction reverses it; the final option describes a scenario nowhere in the passage.',
       },
       {
         id: 'n1-reading-chobun-004-q4',
@@ -246,6 +276,8 @@ export const questions: JlptQuestion[] = [
         answerIndex: 0,
         explanation:
           '第四、五段收束全文：足夠的車間是吸收減速波的「緩衝材」，少數車保持車距就能抑制塞車，最後歸結為「一歩引く『ゆとり』が全体を速くする」的逆說。增加車道文中隻字未提；割り込み只是說明許多人「覺得吃虧」的心理，並非塞車主因；「車間を詰めて走行すべき」正是文中要打破的直覺，與主旨完全相反。',
+        explanationEn:
+          'The last two paragraphs tie it together: an ample following distance acts as a 「緩衝材」 that absorbs the deceleration wave, even a small number of cars keeping their distance can suppress jams, and the essay closes with the paradox that 「一歩引く『ゆとり』が全体を速くする」. Adding lanes is never raised; cutting in appears only to explain why many drivers feel that leaving space is a losing move, not as the main cause of congestion; and urging cars to close up tight is precisely the intuition the essay sets out to overturn.',
       },
     ],
   },

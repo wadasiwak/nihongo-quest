@@ -21,6 +21,8 @@ export const questions: JlptQuestion[] = [
         answerIndex: 0,
         explanation:
           '三個條件要同時成立：平日晚上或週末、每月總花費5,000日圓以內、年齡符合。③在週三晚上7點到8點半、月費4,500日圓且無教材費，全部符合。②雖然在週六，但月費6,000日圓超出預算；①在週二上午，上班族無法參加；④只收小學生，年齡不符。',
+        explanationEn:
+          'Three conditions must hold at once: weekday evenings or weekends, a total monthly cost within 5,000 yen, and meeting the age requirement. Course ③ runs Wednesday evenings from 7:00 to 8:30, costs 4,500 yen per month with no materials fee, and satisfies everything. Course ② is on Saturdays but its 6,000 yen monthly fee exceeds the budget; ① meets on Tuesday mornings, impossible for an office worker; ④ accepts only elementary school children, so the age does not match.',
       },
       {
         id: 'n3-reading-joho-001-q2',
@@ -29,6 +31,8 @@ export const questions: JlptQuestion[] = [
         answerIndex: 0,
         explanation:
           '林同學是學生，依簡章「学生と60歳以上の方は半額」，入會金1,000日圓減半成500日圓；再加第一個月的受講料3,500日圓與教材費500日圓，合計4,500日圓。選5,000日圓是忘了學生入會金減半；選4,000日圓是漏算教材費；選3,500日圓則只算了月費。',
+        explanationEn:
+          'Lin is a student, and the notice says 「学生と60歳以上の方は半額」, so the 1,000 yen enrollment fee is halved to 500 yen; adding the first month\'s tuition of 3,500 yen and the 500 yen materials fee gives a total of 4,500 yen. Choosing 5,000 yen means forgetting the student discount on the enrollment fee; 4,000 yen omits the materials fee; 3,500 yen counts only the monthly tuition.',
       },
     ],
   },
@@ -47,6 +51,8 @@ export const questions: JlptQuestion[] = [
         answerIndex: 0,
         explanation:
           '要同時滿足早上時段、每週2天、時薪1,200日圓以上三個條件。Ｂ在早上6點到9點、時薪1,250日圓、每週2天起，且20歲符合年齡，全部吻合。Ｄ雖然也在清晨，但時薪只有1,000日圓而且要每週5天；Ａ在白天與上課衝突且時薪不足；Ｃ是傍晚時段，不合「朝の時間」。',
+        explanationEn:
+          'Three conditions must be met at once: morning hours, two days a week, and an hourly wage of at least 1,200 yen. Job Ｂ runs 6 to 9 a.m., pays 1,250 yen per hour, accepts from two days a week, and Yang at 20 satisfies the age requirement — everything fits. Ｄ is also early morning but pays only 1,000 yen and demands five days a week; Ａ is during the daytime, clashing with classes, and pays too little; Ｃ is an evening shift, not the morning hours he wants.',
       },
       {
         id: 'n3-reading-joho-002-q2',
@@ -55,6 +61,8 @@ export const questions: JlptQuestion[] = [
         answerIndex: 0,
         explanation:
           '森同學17歲、是高中生，要同時看年齡、身分與時段。Ｃ寫明16歲以上、高中生可（做到晚上8點）、每週2天起，時段在下午5點以後，全部符合。Ａ雖然年齡寫18歲以上還特別註明高校生不可；Ｂ和Ｄ都在清晨，不符合放學後的時段條件，Ｄ還要求每週5天。',
+        explanationEn:
+          'Mori is 17 and a high school student, so age, student status, and time slot must all be checked. Job Ｃ explicitly allows ages 16 and up, welcomes high school students (working until 8 p.m.), starts from two days a week, and runs after 5 p.m. — everything matches. Ａ requires age 18 or older and even states that high school students are not accepted; Ｂ and Ｄ are both early-morning shifts that fail the after-school condition, and Ｄ additionally demands five days a week.',
       },
     ],
   },
@@ -73,6 +81,8 @@ export const questions: JlptQuestion[] = [
         answerIndex: 0,
         explanation:
           '先分年齡：高中生以上算大人，所以父、母加上高一的姊姊共3位大人；10歲的弟弟算兒童；3歲的妹妹免費。再套預售優惠：大人1,200－200＝1,000日圓、兒童500－100＝400日圓，合計3×1,000＋400＝3,400日圓。選2,800是把姊姊誤算成兒童；選4,100是忘了預售折扣照當日價計算。',
+        explanationEn:
+          'First sort by age: high school students and older count as adults, so the father, mother, and first-year high school sister make three adults; the 10-year-old brother is a child; the 3-year-old sister enters free. Then apply the advance-ticket discount: adults 1,200 - 200 = 1,000 yen, children 500 - 100 = 400 yen, so the total is 3 x 1,000 + 400 = 3,400 yen. Choosing 2,800 yen miscounts the sister as a child; 4,100 yen ignores the advance discount and uses same-day prices.',
       },
     ],
   },
@@ -91,6 +101,8 @@ export const questions: JlptQuestion[] = [
         answerIndex: 0,
         explanation:
           '王同學16歲，Ｃ半程馬拉松限18歲以上所以不能報名，他能參加的最長距離是Ｂ的5公里組（限國中生以上），參加費1,500日圓；而且他住在鄰市，不符合「市內居民減300日圓」的條件，不能打折。選1,200日圓是誤用了市民折扣；選3,000日圓是忽略了Ｃ的年齡限制。',
+        explanationEn:
+          'Ou is 16, so course Ｃ, the half marathon restricted to ages 18 and over, is closed to him; the longest course he can enter is Ｂ, the 5 km course (junior high students and older), with a 1,500 yen entry fee. Living in the neighboring city, he does not qualify for the 300 yen discount for city residents, so no reduction applies. Choosing 1,200 yen wrongly applies the resident discount; choosing 3,000 yen overlooks the age limit on course Ｃ.',
       },
     ],
   },

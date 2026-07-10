@@ -53,6 +53,11 @@ interface QuestionBase {
    * 文法題須點名文型（如「〜ばかりか」）並給中文語感；單字題附該詞中文詞義。
    */
   explanation: string
+  /**
+   * 英文詳解（選填）：explanation 的英文版，語意等值、面向英文學習者，
+   * 日文文型/詞彙保留日文並加引號（如 「〜んばかり」）。英文介面顯示用，缺漏時 fallback 繁中。
+   */
+  explanationEn?: string
 }
 
 /**
@@ -122,6 +127,8 @@ export interface SubQuestion {
   answerIndex: number
   /** 繁中詳解 40~200 字（同 QuestionBase.explanation 規格） */
   explanation: string
+  /** 英文詳解（選填，同 QuestionBase.explanationEn 規格） */
+  explanationEn?: string
 }
 
 /**

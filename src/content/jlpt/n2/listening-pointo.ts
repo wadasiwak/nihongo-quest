@@ -24,6 +24,8 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '課長明說「最終の品質検査で、モーターに不具合が見つかって」，這才是延期主因。競爭對手雖被提到，但他判斷「競争の面では問題ない」，是被排除的次要因素；設計「とっくに確定している」（早已定案）；「信用を失いかねない」是假設性的後果，不是已發生的事實。',
+    explanationEn:
+      'The section chief states plainly that 「最終の品質検査で、モーターに不具合が見つかって」, so a defect found in the final quality inspection is the real reason for the delay. The rival company\'s product was considered but dismissed with the judgment that 「競争の面では問題ない」; the design 「とっくに確定している」, meaning it was settled long ago; and losing the company\'s credibility is only a hypothetical consequence expressed with 「信用を失いかねない」, not something that has happened.',
   },
   {
     id: 'n2-listening-pointo-002',
@@ -47,6 +49,8 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '男學生明確說想在「第一人者と言われる先生のもとで研究したい」，並自己標明「一番の理由」。就職難被「内定は一つもらっていた」直接否定；父母「最初、反対していた」，可見不是父母建議；獎學金他說「お金のためというより」，是被降級的次要好處。',
+    explanationEn:
+      'The student explicitly says he wants to study under a professor called 「第一人者と言われる先生」 at his university\'s graduate school, and he himself labels this 「一番の理由」. The tough job market is ruled out because he had actually received a job offer (「内定は一つもらっていた」); his parents 「最初、反対していた」, so it was not their suggestion; and the scholarship is downgraded with 「お金のためというより」, making it only a secondary benefit.',
   },
   {
     id: 'n2-listening-pointo-003',
@@ -70,6 +74,8 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '女の人指出核心問題是「内容が理論ばかりで、実際の業務とかけ離れていた」，最後又強調「長さより中身の問題」。會場狹窄她說「我慢できる程度」，是被降級的小缺點；講師「話し上手で、説明そのものは丁寧」被直接否定；時間過長也被「長さより中身」排除。',
+    explanationEn:
+      'The woman identifies the core problem as 「内容が理論ばかりで、実際の業務とかけ離れていた」 — the training was all theory and disconnected from actual work — and she reinforces it at the end with 「長さより中身の問題」. The cramped venue is downgraded to a tolerable annoyance with 「我慢できる程度」, the instructor is directly praised as 「話し上手で、説明そのものは丁寧」, and the complaint about length is likewise dismissed by her closing remark.',
   },
   {
     id: 'n2-listening-pointo-004',
@@ -94,6 +100,8 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '男の人轉述貼出的公告：「主演の俳優さんが昨日の稽古で足を骨折した」，這是中止的直接原因。颱風「今朝のうちに逸れた」（已轉向），天氣沒有問題；票房「発売初日に完売するほどの人気」，與事實相反；「稽古」只是受傷發生的場合，並非排練來不及。',
+    explanationEn:
+      'The man relays the posted notice: 「主演の俳優さんが昨日の稽古で足を骨折した」, so the lead actor\'s injury is the direct cause of the cancellation. The typhoon 「今朝のうちに逸れた」 (had already veered away), so weather was not an issue; ticket sales were the opposite of poor, since they were popular enough that 「発売初日に完売するほどの人気」; and the rehearsal is merely where the injury happened, not a case of rehearsals failing to finish in time.',
   },
   {
     id: 'n2-listening-pointo-005',
@@ -117,6 +125,8 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '店長自己點名「決め手は品質」，新業者「一年を通して品質が安定している」才是換約主因。價格「むしろ少し高くなる」，與選項相反；配達遲到雖然發生過，但「営業に支障が出るほどではなかった」，是被降級排除的次要理由；距離也是「むしろ遠くなる」。',
+    explanationEn:
+      'The manager himself names the deciding factor with 「決め手は品質なんだ」: the new supplier buys directly from contract farmers, so 「一年を通して品質が安定している」. Price actually works against the change, since it will 「むしろ少し高くなる」; the current supplier\'s late deliveries did happen but 「営業に支障が出るほどではなかった」, so they are downgraded and excluded; and the new supplier is in fact farther away (「むしろ遠くなる」), the opposite of that option.',
   },
   {
     id: 'n2-listening-pointo-006',
@@ -140,6 +150,8 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '女の人說「操作が複雑すぎて」、連資深社員都「使いこなせない」，抱怨聲不斷，這是暫緩導入的主因。費用「見積もりの範囲内に収まって」被否定；資安「審査に合格しています」也被排除；「業務が滞りかねない」是勉強導入時可能發生的後果，並非既成事實。',
+    explanationEn:
+      'The woman explains that 「操作が複雑すぎて」 and that even veteran accounting staff kept saying 「使いこなせない」, so the system being too complex for employees to master is why the rollout was postponed. Cost is denied because the fees stayed within the original estimate; security passed an external review, so that concern is eliminated; and work grinding to a halt is only a feared outcome of forcing the rollout, expressed as 「業務が滞りかねません」, not something that has already occurred.',
   },
   {
     id: 'n2-listening-pointo-007',
@@ -163,6 +175,8 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '女學生說出關鍵經歷：高中時老家遭水災、受過志工幫助，「今度は自分が恩返しをする番」才是初衷。就活加分被「そのために始めたわけじゃない」否定；學長雖然邀她，但「断ろうと思えば断れた」，是被降級的契機而非主因；學分「別の授業の話」，完全無關。',
+    explanationEn:
+      'The student reveals the key experience: in high school her hometown was hit by flooding and volunteers from all over the country helped her, so she feels 「今度は自分が恩返しをする番だ」 — it is her turn to repay the kindness. Job-hunting benefits are denied with 「そのために始めたわけじゃない」; the senior\'s invitation is downgraded to a mere trigger since 「断ろうと思えば断れた」; and course credit is dismissed as 「別の授業の話」, completely unrelated.',
   },
   {
     id: 'n2-listening-pointo-008',
@@ -186,6 +200,8 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '会長明說「深刻なのは後継者不足です」：店主高齡化、無人接班，只好歇業，空店鋪因此增加。大型購物中心的影響被「売り上げ自体はそれほど落ちていない」降級排除；停車場問題「解決のめどが立ちました」（已有解決眉目）；房租只是正在研議的補助制度話題，並非他指的癥結。',
+    explanationEn:
+      'The association head states directly 「深刻なのは後継者不足です」: shop owners are aging, no young people are taking over, and stores are forced to close, which is why vacancies keep increasing. The shopping center\'s impact is downgraded because 「売り上げ自体はそれほど落ちていない」; the parking shortage already has a solution in sight (「解決のめどが立ちました」); and rent only comes up as part of a subsidy program under consideration, not as the problem he is pointing to.',
   },
   {
     id: 'n2-listening-pointo-009',
@@ -209,6 +225,8 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '男の人親口說「決め手は交通の便」：現址距車站要搭二十分鐘公車，客戶來訪不便，新址步行三分鐘。房租「かえって高くなる」，與選項相反；空間不足雖是「理由の一つ」，但「フロアを一つ借り足せば済む」，被降級排除；業績下滑對話中從未提及，只說搬遷後行動會更靈活。',
+    explanationEn:
+      'The man says outright 「決め手は交通の便だよ」: the current office is a twenty-minute bus ride from the station, which inconveniences visiting clients, while the new location is a three-minute walk. Rent will actually be higher (「かえって高くなる」), the opposite of that option; lack of space is acknowledged as 「理由の一つ」 but downgraded because 「フロアを一つ借り足せば済む」; and falling sales are never mentioned — he only says the sales team will be able to move around more easily after the move.',
   },
   {
     id: 'n2-listening-pointo-010',
@@ -232,5 +250,7 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '女の人說重點在工作內容：能「企画の段階から任せてもらえる」，是在日本得不到的歷練，所以「どうしても挑戦したい」。語言能力被「それが目的というわけじゃない」降級排除；津貼「生活費でほとんど消える」，不是誘因；丈夫贊成只是沒有阻力，並非她申請的理由。',
+    explanationEn:
+      'The woman says the appeal is the work itself: she would be entrusted with launching her current product in the local market 「企画の段階から任せてもらえる」, an experience impossible in Japan, which is why 「どうしても挑戦したくて」. Language skills are set aside with 「それが目的というわけじゃない」; the allowance is no incentive because 「生活費でほとんど消える」; and her husband\'s approval merely means there is no obstacle at home, not that his wishes are her reason for applying.',
   },
 ]

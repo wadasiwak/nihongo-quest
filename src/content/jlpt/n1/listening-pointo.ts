@@ -25,6 +25,8 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '決め手是「実はあの町の方言なんです」，他想把當地獨特語感（あの土地ならでは）化為主角的聲音。童年回憶被「懐かしさだけで書けるほど甘くない」降級；取材方便被「決め手というほどのものではありません」明確排除；他最後說「景色より先に言葉があった」，愛上的是「聲音」不是景色。',
+    explanationEn:
+      'The deciding factor is stated as 「実はあの町の方言なんです」: he wanted to give the protagonist the town\'s distinctive way of speaking, a quality 「あの土地ならでは」. Childhood memories are downgraded by 「懐かしさだけで書けるほど甘くない」; convenience for research is explicitly ruled out with 「決め手というほどのものではありません」; and his closing line 「景色より先に言葉があった」 shows what he fell for was the voice, not the scenery.',
   },
   {
     id: 'n1-listening-pointo-002',
@@ -50,6 +52,8 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '男方明言「実は海外の安全規格の認証が下りるのが大幅に遅れていまして」，且「認証なしで出すわけにはいかない」，這是唯一無法迴避的延期主因。零件調度雖「綱渡り」但「目処は立っています」（有眉目了）被降級；廣告被「発売自体には響きません」排除；對經銷商的說明是延期後的善後工作，不是原因。',
+    explanationEn:
+      'The man states plainly 「実は海外の安全規格の認証が下りるのが大幅に遅れていまして」 and 「認証なしで出すわけにはいかない」 — the certification delay is the one unavoidable cause of the postponement. Parts procurement, though 「綱渡り」, is downgraded because 「目処は立っています」; advertising is dismissed with 「発売自体には響きません」; and briefing the retailers is cleanup work that follows the delay, not its cause.',
   },
   {
     id: 'n1-listening-pointo-003',
@@ -75,6 +79,8 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '原點是親眼看到祖父老家被拆時「柱の一本一本に職人の技が残っている」，覺得毀掉是罪過。環保理由被他自己說是「大義名分」「後付けの理由」（事後補上的理由），是被語氣降級的干擾項；採算方面他說「儲からないのは事実」，正好相反；全國委託是成名後的結果，不是契機。',
+    explanationEn:
+      'The origin was witnessing his grandfather\'s house being demolished and seeing that 「柱の一本一本に職人の技が残っている」 — he felt returning that to the earth would be a sin. The environmental rationale is discounted by his own words 「大義名分」 and 「後付けの理由」 (a justification added later); on profitability he says 「儲からないのは事実」, the very opposite of the distractor; and nationwide commissions are the result of his later fame, not the trigger.',
   },
   {
     id: 'n1-listening-pointo-004',
@@ -100,6 +106,8 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '教授說共同研究的資料「まだ検証しきれていない」，不能拿「生煮えの結果」（半生不熟的結果）上台，這是辭退主因。忙碌被「忙しいには忙しいが、その程度のことで断るようじゃ…」降級排除；主題他說「願ってもないもの」（求之不得），與專業不合是反向干擾；「來年」是他自己提出改期的打算，不是受邀在先。',
+    explanationEn:
+      'The professor says the joint research data 「まだ検証しきれていない」 and that he cannot present 「生煮えの結果」 (half-baked results) on that stage — that is the real reason for declining. Busyness is dismissed with 「忙しいには忙しいが、その程度のことで断るようじゃ…」; the theme was 「願ってもないもの」 (more than he could ask for), so a mismatch with his specialty is a reversed distractor; and "next year" is his own proposal to return in full form, not a prior invitation.',
   },
   {
     id: 'n1-listening-pointo-005',
@@ -125,6 +133,8 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '館長明說「転機になったのは、地元の高校生に展示解説を任せた企画」，靠口碑吸引了原本覺得美術館門檻高的客層。改裝效果被「ゼロではないでしょうが、改装直後はさほど伸びなかった」降級；夜間開館被「新規のお客様を呼ぶ力は限られて」排除；解說者是高中生而非專家，「専門用語に頼らない」才是賣點，選項四正好說反。',
+    explanationEn:
+      'The director says outright 「転機になったのは、地元の高校生に展示解説を任せた企画」: word of mouth about the students\' commentary drew in people who had felt museums were intimidating. The renovation effect is downgraded — 「ゼロではないでしょうが」, attendance 「改装直後はさほど伸びなかった」; evening hours are ruled out by 「新規のお客様を呼ぶ力は限られて」; and the guides are high schoolers, not experts — 「専門用語に頼らない」 is exactly the selling point, so option four says the reverse.',
   },
   {
     id: 'n1-listening-pointo-006',
@@ -150,6 +160,8 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '契機是親眼看著「畑の土が農薬で年々痩せていく」，擔心沒有田可以傳給下一代。高價賣點被「手間を考えれば差し引きとんとん」（扣掉工夫打平）降級，還說「それが目当てならとっくに音を上げています」；安全志向被「きっかけは別にあるんです」撇開；收量他自承「まだ以前には及びません」，選項四與事實相反。',
+    explanationEn:
+      'The trigger was watching 「畑の土が農薬で年々痩せていく」 with his own eyes and fearing there would be no field left to pass to his children. The higher selling price is downgraded — 「手間を考えれば差し引きとんとん」 (it breaks even once you count the labor), and 「それが目当てならとっくに音を上げています」; consumer safety consciousness is brushed aside with 「きっかけは別にあるんです」; and on yield he admits 「まだ以前には及びません」, so option four contradicts the facts.',
   },
   {
     id: 'n1-listening-pointo-007',
@@ -175,6 +187,8 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '轉述中明說「決め手はお母様の介護」，母親病況危急、正處於是否入住機構的關頭，無人可替代。小孩考高中雖「頭をよぎったにはよぎった」（確實閃過念頭）但被「受験なら単身赴任という手もある」降級；語學一項被本人笑著否認（每天早上都在上線上英語會話）；公司並未反對，只是「無理には勧められなかった」。',
+    explanationEn:
+      'As relayed, 「決め手はお母様の介護」: his mother\'s condition is critical and she is on the verge of entering a care facility — something no one else can take over. The child\'s entrance exam did cross his mind (「頭をよぎったにはよぎった」) but is downgraded by 「受験なら単身赴任という手もある」; the language worry is laughed off by the man himself, who takes online English conversation every morning; and the company did not object — it merely 「無理には勧められなかった」.',
   },
   {
     id: 'n1-listening-pointo-008',
@@ -200,6 +214,8 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '女將明言「私が何より譲れなかったのは、廊下や梁に創業当時の木材を残すこと」，甚至不惜工期延長近一倍。露天風呂雖受好評，卻被「設計士さんの提案に乗っただけ」降級為別人的主意；料理是歷代主廚一直守下來的，「特に変えたわけではない」；工期反而是被犧牲的項目，選項四與內容相反。',
+    explanationEn:
+      'The proprietress declares 「私が何より譲れなかったのは、廊下や梁に創業当時の木材を残すこと」, even letting the construction period nearly double for it. The open-air baths, though popular, are downgraded as merely 「設計士さんの提案に乗っただけ」 — someone else\'s idea; the cuisine has been guarded by successive head chefs and 「特に変えたわけではない」; and the schedule was the thing sacrificed, so shortening it (option four) contradicts the content.',
   },
   {
     id: 'n1-listening-pointo-009',
@@ -225,6 +241,8 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '負責人明說「うちが何より重視したのは、商店街の先輩方が新規の店主に商売のいろはを教える仕組み」，因為倒店主因是經驗不足而非資金。房租補助被「あくまで呼び水」（只是引子）降級，金額還輸別的市；立地被「胸を張れるほどではありません」自貶排除；「開業資金の貸し付け」對話中根本沒提，且他強調「資金より経験の不足」。',
+    explanationEn:
+      'The official says clearly 「うちが何より重視したのは、商店街の先輩方が新規の店主に商売のいろはを教える仕組み」, because shops fail mainly from lack of experience, not funds. The rent subsidy is downgraded as 「あくまで呼び水」 (just a lure), and other cities offer more anyway; the location is self-deprecated with 「胸を張れるほどではありません」; and startup loans are never mentioned in the conversation — he even stresses 「資金より経験の不足」.',
   },
   {
     id: 'n1-listening-pointo-010',
@@ -250,6 +268,8 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '選手說決め手是衝線瞬間「悔しさより先に安堵が来てしまった」——求勝的飢渴消失了，「体より先に、心が競技を離れた」。膝傷被「手術後の経過は良好で、走ること自体に支障はない」明確否定；年輕選手的競爭反而讓他覺得「張り合いがあった」（有勁）；他是怕對支持者失禮，並非支持者變少，選項四無中生有。',
+    explanationEn:
+      'The runner says the decisive moment was crossing last year\'s finish line and feeling 「悔しさより先に安堵が来てしまった」 — the hunger to win was gone, and 「体より先に、心が競技を離れた」. The knee is explicitly ruled out by 「手術後の経過は良好で、走ること自体に支障はない」; the rise of younger runners actually gave him 「張り合い」 (motivation); and he worried about being disrespectful to his supporters, not about their numbers shrinking — option four is invented.',
   },
   {
     id: 'n1-listening-pointo-011',
@@ -275,6 +295,8 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '店主明說「うちのパンはレシピにできない」——水量與發酵時間每天隨氣溫濕度調整，「数字にした途端、別物になってしまう」，展店會守不住味道。資金被「先方が全部持つ破格の条件」明確排除；忙碌被「人を増やせば済む話」降級；條件其實是「破格」的好條件，選項四與內容相反。',
+    explanationEn:
+      'The owner says outright 「うちのパンはレシピにできない」 — she adjusts water and fermentation time every morning by temperature and humidity, and 「数字にした途端、別物になってしまう」, so expanding to dozens of stores would destroy the taste. Funding is expressly eliminated: the chain offered 「破格の条件」 covering everything; busyness is downgraded with 「人を増やせば済む話」; and the terms were exceptionally generous, so option four contradicts the content.',
   },
   {
     id: 'n1-listening-pointo-012',
@@ -300,6 +322,8 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '館長說最害怕的是災害：親眼見過水災讓江戶時代文書「一晩で泥に沈む」，原本是孤本，「せめて中身だけでも複製を残したい」。空出書庫被「あくまで副産物」降級，且原本仍全數保管；省人力被「かえって手間は増えています」反向否定；方便遠地研究者只是「ありがたいおまけ」（附帶的好處）。',
+    explanationEn:
+      'The director says what they fear above all is disaster: she watched Edo-period documents in a neighboring prefecture 「一晩で泥に沈む」 in a flood, and since originals are one of a kind, 「せめて中身だけでも複製を残したい」. Freeing shelf space is downgraded as 「あくまで副産物」 — the originals are all kept anyway, so the stacks barely empty; saving staff labor is refuted head-on by 「かえって手間は増えています」; and convenience for distant researchers is just 「ありがたいおまけ」, a welcome bonus.',
   },
   {
     id: 'n1-listening-pointo-013',
@@ -325,6 +349,8 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '編輯說「頭を抱えたのは、新語の線引き」——收了會被罵輕率、不收會被罵過時，取捨讓他「最後まで胃が痛みました」。改寫語釋雖然量大，但被「慣れた作業」降級；造例句被「むしろ楽しみの部類」排除；「批判」只是他預想中兩難的後果，對話裡並沒有處理投書這回事，選項四無中生有。',
+    explanationEn:
+      'The editor says 「頭を抱えたのは、新語の線引き」: include a word and be called rash, omit it and be called out of date — the winnowing left him with 「最後まで胃が痛みました」. Rewriting definitions, though vast in volume, is downgraded as 「慣れた作業」 after thirty years; composing example sentences is ruled out as 「むしろ楽しみの部類」; and criticism is only the anticipated consequence of his dilemma — handling reader complaints never comes up, so option four is invented.',
   },
   {
     id: 'n1-listening-pointo-014',
@@ -350,6 +376,8 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '監督明說「私が買っているのは、失敗を恐れない姿勢」——被搶九次第十一次照樣毫不猶豫地挑戰，這種選手才能突破高牆。速度被「速いだけの選手ならごろごろいます」降級；得分被「数字だけ見れば正直まだ物足りません」否定；認真被「プロなら当たり前のこと、褒めるところではありません」明確排除。',
+    explanationEn:
+      'The coach says outright 「私が買っているのは、失敗を恐れない姿勢」: robbed nine times out of ten attempts, the player still challenges without hesitation on the eleventh — only such players break through the wall. Speed is downgraded with 「速いだけの選手ならごろごろいます」; scoring is dismissed by 「数字だけ見れば正直まだ物足りません」; and diligence is explicitly excluded — 「プロなら当たり前のことでね、褒めるところではありません」.',
   },
   {
     id: 'n1-listening-pointo-015',
@@ -375,6 +403,8 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '主宰說真正的理由是「客席との距離」——連最後一排觀眾的氣息都能傳到舞台，演員靠這些反應「その晩の芝居を作り変えていく」，戲是和觀眾一起養大的。費用被「一席あたりではむしろ割高」反向否定；報答故鄉被「ないとは言いません。でも本当の理由は…」降級；大劇場其實有邀約（声がかかっても動かない），選項四與內容相反。',
+    explanationEn:
+      'The director says the real reason is 「客席との距離」: in that small hall even the breathing of the back row reaches the stage, and the actors soak up those reactions and 「その晩の芝居を作り変えていく」 — theater is raised together with the audience. Cost is refuted head-on: per seat, small theaters are 「むしろ割高」; repaying her hometown is downgraded with 「ないとは言いません。でも本当の理由は…」; and large theaters have in fact courted her (she stays even when 「声がかかって」), so option four contradicts the content.',
   },
   {
     id: 'n1-listening-pointo-016',
@@ -400,6 +430,8 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '社長說下定決心（腹を決めた）是因為不想讓師傅的技術斷絕——研磨技術「機械にも図面にも落とせません」，只能靠年輕人天天在旁邊看十年才學得會，移到海外「鎖が切れてしまう」。日圓貶值被「いつひっくり返るか分からない、当てにできない」降級；補助金被「あくまで背中を押された程度」降級；海外人事費對話中完全沒提，無中生有。',
+    explanationEn:
+      'The president says he made up his mind (「腹を決めた」) because he refused to let his artisans\' craft die out: the polishing technique 「機械にも図面にも落とせません」 and can only be absorbed by young workers watching a veteran\'s hands daily for ten years — moving abroad would mean 「鎖が切れてしまう」. The weak yen is downgraded — exchange rates 「いつひっくり返るか分からない」 and cannot be counted on; the subsidy was 「あくまで背中を押された程度」; and overseas labor costs are never mentioned at all — a fabricated option.',
   },
   {
     id: 'n1-listening-pointo-017',
@@ -425,6 +457,8 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '導遊說減少人數「一番のわけは高山植物」——隊伍太長時，後面的客人離開登山道拍照她照顧不到，花田被踩過要花數十年才能復原，十人是她能盯住所有人腳下的極限。山屋被「二十人でも問題なく受けてくれます」排除；安全被「大前提ですが、副ガイドを付ければ十分対応できる」降級；收入她自承「正直痛い」（反而減少），選項四相反。',
+    explanationEn:
+      'The guide says the number-one reason (「一番のわけ」) is the alpine flora: with a long line, she cannot see customers at the rear stepping off the trail for photos, and a flower field once trampled takes decades to recover — ten people is the most whose feet she can watch. The mountain hut is eliminated by 「二十人でも問題なく受けてくれます」; safety is downgraded — a premise, but 「副ガイドを付ければ十分対応できる」 even with twenty; and income actually falls (「正直痛い」), so option four is the reverse.',
   },
   {
     id: 'n1-listening-pointo-018',
@@ -450,6 +484,8 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '校長明說狙い是「生徒に毎朝一つ、自分で決めさせること」——每天自己判斷穿著是否合乎場合並承擔結果，小決斷的累積畢業後才見效。跟進他校被「よそはほとんど気にしていません」否定；學生要求被「賛否がちょうど半々、要望に押されたわけではない」排除；治裝費是記者提出的疑慮，校長只回應配套（制服仍可穿），並非目的。',
+    explanationEn:
+      'The principal states his aim plainly: 「生徒に毎朝一つ、自分で決めさせること」 — judging every morning whether an outfit suits the occasion and owning the result, an accumulation of small decisions that pays off after graduation. Following neighboring schools is denied by 「よそはほとんど気にしていません」; student demand is ruled out because the survey split exactly half and half — 「要望に押されたわけではない」; and the clothing-cost concern is raised by the interviewer, to which he only offers the accommodation that uniforms may still be worn — it is not his purpose.',
   },
   {
     id: 'n1-listening-pointo-019',
@@ -475,6 +511,8 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '研究者說最擔心的是「生き物同士の時間のずれ」——花提早開但昆蟲甦醒沒跟著提早，花開了沒蟲授粉就不結果，連鳥都受影響，錯位會像鎖鏈一樣連鎖擴散。賞花與觀光被「日程は人間の側でずらせるから、さほど心配していない」降級；櫻花不開花被「大半の地域ではまだ先の話」排除；預測失準與研究信譽對話中沒有提到，無中生有。',
+    explanationEn:
+      'The researcher says her greatest worry is 「生き物同士の時間のずれ」: blossoms respond quickly to warmth and open earlier, but the pollinating insects\' awakening does not shift as much — flowers with no insects set no fruit, which then hits the birds that eat it, one mismatch cascading down the chain. Blossom-viewing and tourism are downgraded because festival dates 「人間の側でずらせる」, so she is 「さほど心配していない」; cherry trees failing to bloom is 「大半の地域ではまだ先の話」; and forecast misses harming research credibility never comes up — a fabricated option.',
   },
   {
     id: 'n1-listening-pointo-020',
@@ -500,5 +538,7 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '女方說決め手是面試時同席的員工「自分の失敗談をそれは楽しそうに話す」——她驚覺這群人是真心覺得工作有趣，對照自己在前公司只剩抱怨。薪水被「前より一割下がってる」反向否定；通勤「それも逆」，多轉一次車還遠了二十分鐘；「名の通った大手」是她離開的前公司的形容，不是現在這家，選項四張冠李戴。',
+    explanationEn:
+      'The woman says the deciding factor was the interview, where the three employees present told their own failure stories 「それは楽しそうに話す」 — she realized these people genuinely enjoyed their work, a jolt compared with herself, who had come to do nothing but complain at her old job. Salary is refuted outright: here it is 「前より一割下がってる」; the commute is 「それも逆」 — one more transfer and twenty minutes farther; and 「名の通った大手」 describes the company she left, not the current one, so option four pins the label on the wrong firm.',
   },
 ]

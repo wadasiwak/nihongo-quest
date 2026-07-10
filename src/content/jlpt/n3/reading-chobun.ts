@@ -21,6 +21,8 @@ export const questions: JlptQuestion[] = [
         answerIndex: 0,
         explanation:
           '第一段末尾寫「入力は速いし、検索も簡単で、確かに便利だと感じた」，可見筆者一開始的感想是「方便」。「使いにくい」與此相反；「よく覚えられる」更是顛倒了後文「ほとんど覚えていない」的事實；「恥ずかしい」文中沒有提到，後輩只是感到驚訝而已。',
+        explanationEn:
+          'The first paragraph ends with 「入力は速いし、検索も簡単で、確かに便利だと感じた」, so the writer\'s initial impression was that the smartphone was convenient. "Harder to use than a paper notebook" says the opposite; "could remember the content better" inverts the later admission that he remembered almost nothing; feeling embarrassed is never mentioned — the junior colleague was merely surprised.',
       },
       {
         id: 'n3-reading-chobun-001-q2',
@@ -34,6 +36,8 @@ export const questions: JlptQuestion[] = [
         answerIndex: 0,
         explanation:
           '「気がついた」的內容緊接在後：「画面に打ち込んだ内容を、私はほとんど覚えていないのだ」，也就是打進手機的內容記不住。相反地，紙本時代連「書いた場所やページの汚れ」都能幫助回想，所以「紙に書いた内容を忘れた」正好說反；「検索できない」與前文「検索も簡単」矛盾；「ノートが読めない」是把文中字眼胡亂拼湊，文章並無此事。',
+        explanationEn:
+          'What the writer noticed follows immediately: 「画面に打ち込んだ内容を、私はほとんど覚えていないのだ」 — he barely remembers anything he typed into the phone. By contrast, in the paper-notebook days even 「書いた場所やページの汚れ」 helped him recall the content, so "forgot what he wrote on paper" says the reverse; "cannot search records on a smartphone" contradicts the earlier remark that searching is easy; "the notebook became unreadable" is a jumble of words from the text describing something that never happens.',
       },
       {
         id: 'n3-reading-chobun-001-q3',
@@ -47,6 +51,8 @@ export const questions: JlptQuestion[] = [
         answerIndex: 0,
         explanation:
           '第三段說明理由：手寫「時間がかかる分、何を残すか選ばなければならない」，並且「書きながら内容を整理している」，所以麻煩本身讓頭腦運轉。「場所や汚れを覚える」是回想時的線索，不是動腦的原因；手寫明明比輸入慢，「入力より速く書こうとする」不合文意；「心が鍛えられる」（磨練心志）文中完全沒有提及。',
+        explanationEn:
+          'Paragraph three gives the reason: because handwriting 「時間がかかる分、何を残すか選ばなければならない」, and the writer organizes the content while writing — the very inconvenience is what makes the brain work. Remembering the place and the smudges on the page is a cue for recall, not the reason the mind engages; handwriting is slower than typing, so "trying to write faster than typing" contradicts the text; "training one\'s spirit" through tedious work is never mentioned at all.',
       },
       {
         id: 'n3-reading-chobun-001-q4',
@@ -60,6 +66,8 @@ export const questions: JlptQuestion[] = [
         answerIndex: 0,
         explanation:
           '結論在最後一段：「目的によって道具を使い分けることこそ、本当の意味で道具を使いこなすということではないだろうか」，即依目的區分使用紙本與手機。筆者明言「スマートフォンをやめるつもりはない」，所以「紙に戻るべきだ」過頭了；「速いほど優れている」被「速ければ速いほどいいというものではない」直接否定；「データで残すべきだ」只是文中描述的現象，並非主張。',
+        explanationEn:
+          'The conclusion is in the last paragraph: 「目的によって道具を使い分けることこそ、本当の意味で道具を使いこなすということではないだろうか」 — using paper and smartphone according to purpose is truly mastering one\'s tools. The writer explicitly says 「スマートフォンをやめるつもりはない」, so "should go back to paper" overshoots; "the faster the tool, the better" is directly denied by 「速ければ速いほどいいというものではない」; "should keep records as data" is only a phenomenon the passage describes, not the writer\'s claim.',
       },
     ],
   },
@@ -83,6 +91,8 @@ export const questions: JlptQuestion[] = [
         answerIndex: 0,
         explanation:
           '第一段指出，多數人以為食品浪費來自店家，「実は全体の半分近くは家庭から出ている」，接著用「つまり」導出「與我們的生活深切相關」，因果關係明確。「ほとんどは店から出ている」與文意相反；「売れ残った弁当を買う」文中只是舉例大家的印象，不是理由；「毎日必ず捨てている」文中並沒有這種說法。',
+        explanationEn:
+          'The first paragraph notes that most people picture stores as the source of food waste, but 「実は全体の半分近くは家庭から出ている」, and 「つまり」 then draws the conclusion that the problem is deeply tied to our daily lives — the reasoning is explicit. "Most of it comes from stores" reverses the text; "many people buy unsold boxed lunches" is only the common image given as an example, not the reason; "Japanese people throw away food every single day" is stated nowhere.',
       },
       {
         id: 'n3-reading-chobun-002-q2',
@@ -96,6 +106,8 @@ export const questions: JlptQuestion[] = [
         answerIndex: 0,
         explanation:
           '第二段明確定義：賞味期限是「おいしく食べられる期限」，而且「過ぎたからといって、すぐに食べられなくなるわけではない」。「安全に食べられる期限」是消費期限的定義，正是文章要澄清的混淆點；「必ず捨てなければならない」把「有人過一天就丟」的錯誤行為當成規定；文章通篇在講兩者的差異，「同じ意味」顯然不對。',
+        explanationEn:
+          'Paragraph two defines it clearly: 「賞味期限」 is the deadline for eating food at its best, and 「過ぎたからといって、すぐに食べられなくなるわけではない」 — passing it does not make food immediately inedible. "The deadline for eating safely" is the definition of 「消費期限」, exactly the confusion the passage sets out to clear up; "must be thrown away within a day" turns the mistaken behavior of some people into a rule; and since the whole passage explains the difference between the two labels, "they mean the same thing" is plainly wrong.',
       },
       {
         id: 'n3-reading-chobun-002-q3',
@@ -109,6 +121,8 @@ export const questions: JlptQuestion[] = [
         answerIndex: 0,
         explanation:
           '第三段寫道「買い物に行く前に冷蔵庫の中を確認し、必要な分だけ買うことが大切だ」，即出門購物前先確認冰箱、只買需要的量。「安売りの日にまとめて買う」正是文中造成浪費的行為本身，不是對策；「賞味期限の長い食品だけ選ぶ」和「外食を増やす」文中都沒有提到，屬於無中生有的選項。',
+        explanationEn:
+          'Paragraph three states 「買い物に行く前に冷蔵庫の中を確認し、必要な分だけ買うことが大切だ」 — check the refrigerator before shopping and buy only what you need. Stocking up on bargain days is precisely the wasteful behavior the passage describes, not the remedy; choosing only foods with long best-before dates and eating out more often appear nowhere in the text — they are fabricated options.',
       },
       {
         id: 'n3-reading-chobun-002-q4',
@@ -122,6 +136,8 @@ export const questions: JlptQuestion[] = [
         answerIndex: 0,
         explanation:
           '結論段寫「一人一人の小さな心がけこそが、この大きな問題を解決する第一歩になるのではないだろうか」，強調個人的小小用心。筆者說國家與企業的努力「も必要」，但重點是家庭部分「私たちの行動しだいで今日からでも減らせる」，所以「任せるべきだ」與「ほぼ不可能」都不對；「すぐに捨てるべきだ」更是與澄清賞味期限誤解的整段內容背道而馳。',
+        explanationEn:
+          'The closing paragraph says 「一人一人の小さな心がけこそが、この大きな問題を解決する第一歩になるのではないだろうか」, stressing each individual\'s small everyday care. The writer grants that government and corporate efforts are also needed, but the point is that household waste 「私たちの行動しだいで今日からでも減らせる」, so both "should be left to the government and companies" and "nearly impossible" are wrong; "should throw expired food away immediately" runs against the entire paragraph clearing up the best-before-date misunderstanding.',
       },
     ],
   },

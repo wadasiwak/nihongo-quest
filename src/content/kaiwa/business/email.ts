@@ -278,6 +278,8 @@ export const scene: KaiwaScene = {
       answerIndex: 0,
       explanation:
         '「お世話になっております」是商務 email 開頭的定型句，字面意思是「一直承蒙您照顧」，主語是自己這一方，所以用「なる」的て形「なって」。「いたして」是「する」的謙讓語，接在「お世話に」之後不成句；「されて」是被動形，語意顛倒成「被照顧」；「くださって」用於描述對方為自己做某事的句型，都不合這個定型句。',
+      explanationEn:
+        '「お世話になっております」 is the fixed opener of business emails — literally "we are always in your care." The subject is your own side, so the verb is the te-form of 「なる」, i.e. 「なって」. 「いたして」 is the humble form of 「する」 and cannot follow 「お世話に」; 「されて」 is passive and flips the meaning; 「くださって」 describes the other person doing something for you — none of them fits this set phrase.',
     },
     {
       kind: 'choice',
@@ -287,6 +289,8 @@ export const scene: KaiwaScene = {
       answerIndex: 0,
       explanation:
         'email 加掛檔案用「添付（てんぷ）」，「添付いたします」是寄附件時的定型句。「同封」是紙本郵件把文件裝進同一個信封時用的詞，email 情境不能用，是最容易誤選的干擾項；「添加」指添加成分或功能，不用於附件；「記入」是在欄位裡填寫，語意完全不合。',
+      explanationEn:
+        'Attaching a file to an email is 「添付」 (てんぷ), and 「添付いたします」 is the set phrase for sending attachments. 「同封」 means enclosing documents in the same physical envelope, so it cannot be used for email — the most tempting distractor; 「添加」 means adding an ingredient or feature, not attaching a file; 「記入」 means filling in a form field, which does not fit at all.',
     },
     {
       kind: 'choice',
@@ -296,6 +300,8 @@ export const scene: KaiwaScene = {
       answerIndex: 0,
       explanation:
         '「〜のほどよろしくお願いいたします」是結尾定型句，「ほど」讓語氣變得委婉，避免直接命令對方「確認しろ」的生硬感。「まま」表示維持原狀、「ため」表示目的、「つもり」表示自己的打算，接在「ご確認の」後面都不構成定型句，語意也不通。',
+      explanationEn:
+        '「〜のほどよろしくお願いいたします」 is a standard email closing; 「ほど」 softens the request so it does not sound like a blunt order to check something. 「まま」 means keeping things as they are, 「ため」 expresses purpose, and 「つもり」 expresses one\'s own intention — none of them forms this set phrase after 「ご確認の」, and none makes sense here.',
     },
     {
       kind: 'choice',
@@ -305,6 +311,8 @@ export const scene: KaiwaScene = {
       answerIndex: 0,
       explanation:
         '「まずは取り急ぎご連絡まで」表示「匆忙中先簡短通知」，用於先報告要點、細節之後再補的場合。「折り返し」指「收到後立刻回覆」，是請對方回信回電時用的詞；「引き続き」是「繼續」；「あらかじめ」是「事先」，常見於「あらかじめご了承ください」，三者都不能構成這個定型句。',
+      explanationEn:
+        '「まずは取り急ぎご連絡まで」 means "just a quick note for now" — used to report the essentials first and fill in details later. 「折り返し」 means replying immediately upon receipt and is used when asking the other party to call or write back; 「引き続き」 means "continuing on"; 「あらかじめ」 means "in advance," as in 「あらかじめご了承ください」— none of the three can build this set phrase.',
     },
     {
       kind: 'order',
@@ -315,6 +323,8 @@ export const scene: KaiwaScene = {
       starIndex: 2,
       explanation:
         '正解語序是「ご不明な点がございましたら、お気軽にお問い合わせください」。「ございましたら」是「あったら」的鄭重語，必須直接接在主語「ご不明な点が」之後；「お問い合わせください」是「お＋動詞連用形＋ください」的敬語請求形，「ください」不能離開「お問い合わせ」單獨移動；副詞「お気軽に」修飾後面的請求動作。★在第三格，答案是「お問い合わせ」。',
+      explanationEn:
+        'The correct order is 「ご不明な点がございましたら、お気軽にお問い合わせください」 (if anything is unclear, please feel free to contact us). 「ございましたら」 is the formal equivalent of 「あったら」 and must directly follow the subject 「ご不明な点が」; 「お問い合わせください」 is the honorific request form お + verb stem + ください, so 「ください」 cannot be separated from 「お問い合わせ」; the adverbial 「お気軽に」 modifies the request that follows. The starred third slot is 「お問い合わせ」.',
     },
     {
       kind: 'order',
@@ -325,6 +335,8 @@ export const scene: KaiwaScene = {
       starIndex: 1,
       explanation:
         '正解語序是「今後とも変わらぬご愛顧を賜りますようお願い申し上げます」，是信末請對方繼續惠顧的定型句。連體詞「変わらぬ」（＝変わらない）只能修飾名詞「ご愛顧」；「賜る」是「もらう」的謙讓語，受詞「ご愛顧を」必須在它前面；「〜ますよう」後面固定接「お願い申し上げます」，所以「お願い」要緊鄰句尾。★在第二格，答案是「ご愛顧を」。',
+      explanationEn:
+        'The correct order is 「今後とも変わらぬご愛顧を賜りますようお願い申し上げます」, the set closing that asks for the reader\'s continued patronage. The prenominal 「変わらぬ」 (= 変わらない) can only modify the noun 「ご愛顧」; 「賜る」 is the humble verb for receiving, so its object 「ご愛顧を」 must precede it; and 「〜ますよう」 is always followed by 「お願い申し上げます」, so 「お願い」 sits right before the sentence end. The starred second slot is 「ご愛顧を」.',
     },
   ],
 }

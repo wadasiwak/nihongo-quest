@@ -9,7 +9,7 @@ import type { SessionItem } from '../../lib/session'
 import type { ItemRecord } from '../quiz/QuizSession'
 import { CIRCLED } from '../quiz/ChoiceInteraction'
 import { chosenAnswerText, correctAnswerText, stemText } from '../quiz/SessionResult'
-import { useT } from '../../lib/i18n'
+import { pickExplanation, useT } from '../../lib/i18n'
 
 export interface MockResultProps {
   level: Level
@@ -110,7 +110,7 @@ export function MockResult({ level, summary, items, records, onRetry, onExit }: 
                       </p>
                     </>
                   )}
-                  {q.explanation && <p className="qz-explain-text">{q.explanation}</p>}
+                  {q.explanation && <p className="qz-explain-text">{pickExplanation(q)}</p>}
                 </div>
               </details>
             </li>

@@ -15,6 +15,8 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '「るす」（留守）指「人不在家」，等於「家に いませんでした」。「寝て いました」是在家睡覺，人其實在家；「家に いました」方向完全相反；「家は 遠かったです」講的是距離遠，和在不在家無關，皆不等值。',
+    explanationEn:
+      '「るす」 (留守) means being away from home, so it equals 「家に いませんでした」 (he wasn\'t home). 「寝て いました」 means he was asleep at home — he was actually there; 「家に いました」 says the exact opposite; 「家は 遠かったです」 is about distance and says nothing about whether he was in.',
   },
   {
     kind: 'choice',
@@ -30,6 +32,8 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '「したく」（支度）＝「じゅんび」（準備），指做飯前的準備工作。「食べて います」是已經在吃，不是準備；「かたづけ」是飯後收拾，時間方向相反；「買いに 行きました」只是去買東西，和在家做準備不同，皆不等值。',
+    explanationEn:
+      '「したく」 (支度) means the same as 「じゅんび」 — preparations, here getting breakfast ready. 「食べて います」 means she is already eating, not preparing; 「かたづけ」 is the cleaning up done after the meal — the opposite end of it; 「買いに 行きました」 is just going out shopping, not preparing at home.',
   },
   {
     kind: 'choice',
@@ -45,6 +49,8 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '「おどろく」（驚訝）＝口語的「びっくりする」，意思最接近。「よろこびました」是高興、「かなしく なりました」是難過，都是具體的喜怒哀樂而非驚訝；「つかれました」是疲累，和聽到消息的反應無關，皆不等值。',
+    explanationEn:
+      '「おどろく」 (to be surprised) matches the more colloquial 「びっくりする」, the closest in meaning. 「よろこびました」 means being glad and 「かなしく なりました」 means becoming sad — specific emotions, not surprise; 「つかれました」 (got tired) is unrelated to reacting to news.',
   },
   {
     kind: 'choice',
@@ -60,6 +66,8 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '「きゅうに」（急に，突然）＝「とつぜん」。「すこしずつ」是一點一點慢慢地，變化速度和「突然」正好相反；「やっと」是「終於」，帶有等了很久的語感；「また」是「又、再次」，講次數而非突然性，皆不等值。',
+    explanationEn:
+      '「きゅうに」 (急に, suddenly) is equivalent to 「とつぜん」. 「すこしずつ」 means little by little — the opposite pace of change; 「やっと」 means "finally" and implies a long wait; 「また」 means "again", which is about repetition rather than suddenness.',
   },
   {
     kind: 'choice',
@@ -75,6 +83,8 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '「きけん」（危険）＝「あぶない」（危險）。「あんぜんです」是「安全」，方向完全相反；「むずかしいです」是難度高、「たいへんです」是辛苦費力，都只講困難程度，沒有「有生命危險」的意思，皆不等值。',
+    explanationEn:
+      '「きけん」 (危険) means the same as 「あぶない」 (dangerous). 「あんぜんです」 means "safe" — the exact opposite; 「むずかしいです」 (difficult) and 「たいへんです」 (tough, demanding) only describe difficulty and carry no sense of danger to life.',
   },
   {
     kind: 'choice',
@@ -90,6 +100,8 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '「だんだん」（漸漸地）＝「すこしずつ」，表示慢慢變化。「きゅうに」是突然一下子變冷，變化速度不同；「あつく なって きました」是變熱，方向相反；「ずっと さむい ままです」是一直維持寒冷、沒有變化，皆不等值。',
+    explanationEn:
+      '「だんだん」 (gradually) equals 「すこしずつ」, describing slow change. 「きゅうに」 would mean it turned cold all at once — a different pace; 「あつく なって きました」 means getting hotter, the opposite direction; 「ずっと さむい ままです」 means it has stayed cold with no change at all.',
   },
   {
     kind: 'choice',
@@ -105,6 +117,8 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '「ひじょうに」（非常に）＝「とても」，表示程度很高。「すこし」只有一點點難，程度不等值；「ぜんぜん むずかしくなかった」是完全不難、「いつもより かんたんでした」是比平常簡單，兩者方向都相反。',
+    explanationEn:
+      '「ひじょうに」 (非常に) equals 「とても」, marking a very high degree. 「すこし」 means only a little difficult — a much weaker degree; 「ぜんぜん むずかしくなかったです」 (not difficult at all) and 「いつもより かんたんでした」 (easier than usual) both reverse the meaning entirely.',
   },
   {
     kind: 'choice',
@@ -120,6 +134,8 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '「あやまる」（謝る，道歉）＝說「ごめんなさい」。「ありがとう」是道謝（あやまる和「ありがとう」常被混淆，但道歉是「謝罪」不是「感謝」）；「おめでとう」是祝賀；「さようなら」是道別，皆不是道歉。',
+    explanationEn:
+      '「あやまる」 (謝る, to apologize) means saying 「ごめんなさい」. 「ありがとう」 is thanking — learners often mix up apologizing and thanking, but あやまる is apology, not gratitude; 「おめでとう」 is congratulating; 「さようなら」 is saying goodbye. None of them are an apology.',
   },
   {
     kind: 'choice',
@@ -135,6 +151,8 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '「けんぶつ」（見物）＝去參觀、遊覽，等於「見に 行きました」。「そうじしました」是打掃、「とまりました」是住宿，都不是參觀；「話を 聞きました」只是聽別人說，並沒有親自去看，皆不等值。',
+    explanationEn:
+      '「けんぶつ」 (見物) means going to see the sights, so it equals 「見に 行きました」 (went to see it). 「そうじしました」 is cleaning and 「とまりました」 is staying overnight — neither is sightseeing; 「話を 聞きました」 means only hearing about the temple without actually going to see it.',
   },
   {
     kind: 'choice',
@@ -150,6 +168,8 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '「さいきん」（最近）＝「このごろ」，指離現在很近的這段期間。「むかしは」是很久以前，時間方向相反；「きのうだけ」只限昨天一天，範圍不等值；「これからは」講的是未來的打算，不是最近的狀態。',
+    explanationEn:
+      '「さいきん」 (recently) equals 「このごろ」 (these days), the period leading up to now. 「むかしは」 points to the distant past — the wrong time frame; 「きのうだけ」 limits it to just yesterday, far too narrow; 「これからは」 talks about future plans, not the recent state of things.',
   },
   {
     kind: 'choice',
@@ -165,6 +185,8 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '「すいて いる」（空いている）指車廂空、人少，等於「人が すくなかった」。「人が おおかった」是「こんで いた」（擁擠），方向完全相反；「はやく 来ました」講班次時間；「止まって いました」是停駛，皆與人多人少無關。',
+    explanationEn:
+      '「すいて いる」 (空いている) means the train was uncrowded, so it equals 「人が すくなかったです」 (there were few people). 「人が おおかったです」 describes a crowded train (こんで いた) — the exact opposite; 「はやく 来ました」 is about arrival time and 「止まって いました」 means the train had stopped — neither relates to how crowded it was.',
   },
   {
     kind: 'choice',
@@ -180,6 +202,8 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '「しょくじを する」（食事をする）＝「ごはんを 食べる」（吃飯）。「話だけ しました」是只聊天沒吃東西；「買い物を しました」是購物；「りょうりを 作りました」是做菜，做菜不等於用餐，皆不等值。',
+    explanationEn:
+      '「しょくじを する」 (食事をする) means the same as 「ごはんを 食べる」 — to have a meal. 「話だけ しました」 means only talking without eating; 「買い物を しました」 is shopping; 「りょうりを 作りました」 is cooking, and cooking is not the same as eating a meal.',
   },
   {
     kind: 'choice',
@@ -195,6 +219,8 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '「〜ても かまいません」＝「〜ても いいです」，表示許可（做了也沒關係）。「〜ては いけません」和「〜ないで ください」都是禁止，方向相反；「〜なければ なりません」是義務（非用不可），把「可以用」變成「必須用」，語意過強不等值。',
+    explanationEn:
+      '「〜ても かまいません」 equals 「〜ても いいです」, granting permission — it\'s fine to do it. 「〜ては いけません」 and 「〜ないで ください」 are both prohibitions, the opposite direction; 「〜なければ なりません」 expresses obligation, turning "you may use it" into "you must use it", which is far too strong.',
   },
   {
     kind: 'choice',
@@ -210,6 +236,8 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '「やさしい」（易しい，簡單）＝「かんたん」（簡単）。「むずかしかった」是難，方向相反；「すくなかった」講的是量少，量少不代表簡單；「おもしろかった」是有趣，和難易度是不同層面，皆不等值。',
+    explanationEn:
+      '「やさしい」 (易しい, easy) equals 「かんたん」 (簡単, simple). 「むずかしかったです」 means difficult — the opposite; 「すくなかったです」 is about the amount of homework, and a small amount isn\'t necessarily easy; 「おもしろかったです」 means interesting, a completely different dimension from difficulty.',
   },
   {
     kind: 'choice',
@@ -225,6 +253,8 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '「うつくしい」（美しい，美麗）＝「きれい」。「めずらしかった」是罕見稀奇，稀奇不等於美；「よく 見えませんでした」是看不清楚，根本沒欣賞到景色；「こわかった」是可怕，方向相反，皆不等值。',
+    explanationEn:
+      '「うつくしい」 (美しい, beautiful) equals 「きれい」. 「めずらしかったです」 means rare or unusual, which is not the same as beautiful; 「よく 見えませんでした」 means the view couldn\'t be seen properly at all; 「こわかったです」 means scary — the opposite kind of impression.',
   },
   {
     kind: 'choice',
@@ -240,6 +270,8 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '「ほめる」（褒める，稱讚）＝說「寫得很好」這類肯定的話。「まちがって いますよ」是指出錯誤，接近「注意する」；「もう いちど 書いて ください」是要求重寫，表示不滿意；「あした 出して ください」只是交件指示，皆不是稱讚。',
+    explanationEn:
+      '「ほめる」 (褒める, to praise) means saying something approving like 「じょうずに 書けましたね」 (you wrote it well). Pointing out 「ここが まちがって いますよ」 is correcting, closer to a warning; 「もう いちど 書いて ください」 asks for a rewrite, implying dissatisfaction; 「あした 出して ください」 is just a submission instruction, not praise.',
   },
   {
     kind: 'choice',
@@ -255,6 +287,8 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '「ちっとも〜ない」＝「ぜんぜん〜ない」，是全面否定（一點也不）。「あまり〜ない」只是「不太」，是部分否定，程度不等值；「すこし おもしろかった」承認有一點有趣，和全面否定矛盾；「とても おもしろかった」方向完全相反。',
+    explanationEn:
+      '「ちっとも〜ない」 equals 「ぜんぜん〜ない」 — a total negation, "not at all". 「あまり〜ない」 is only "not very", a partial negation of weaker degree; 「すこし おもしろかったです」 admits it was a bit interesting, contradicting the total negation; 「とても おもしろかったです」 is the complete opposite.',
   },
   {
     kind: 'choice',
@@ -270,6 +304,8 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '「しらせる」（知らせる，通知）＝「教える」（告訴我）。「しらべる」（調べる）是「調查」，只是字形相近意思完全不同；「書いて おいて ください」是先寫下來，沒有傳達給我；「はやく 決めて ください」是催促決定，不是要求通知。',
+    explanationEn:
+      '「しらせる」 (知らせる, to notify) equals 「教える」 here — let me know. 「しらべる」 (調べる) means "to look into/investigate" — it looks similar but means something completely different; 「書いて おいて ください」 is writing it down without telling me; 「はやく 決めて ください」 urges a decision rather than asking to be informed.',
   },
   {
     kind: 'choice',
@@ -285,6 +321,8 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '「ねっしんに」（熱心に，認真投入地）＝「いっしょうけんめい」（一生懸命，拚命努力地）。「ときどき」講頻率不講態度，且和「まいにち」矛盾；「あそびながら」是邊玩邊讀，態度相反；「すこしだけ」是只讀一點點，程度不等值。',
+    explanationEn:
+      '「ねっしんに」 (熱心に, earnestly) equals 「いっしょうけんめい」 (一生懸命, with all one\'s effort). 「ときどき」 (sometimes) is about frequency, not attitude, and contradicts 「まいにち」; 「あそびながら」 (while playing) is the opposite attitude; 「すこしだけ」 (only a little) is a much weaker degree.',
   },
   {
     kind: 'choice',
@@ -300,5 +338,7 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '「もどる」（戻る，返回原處）＝「また ここに 来る」（再回到這裡）。「もう 来ません」是不再回來，方向完全相反且與「請等我」矛盾；「ゆっくり 行きます」講的是離開的速度；「はじめて 来ます」是第一次來，沒有「回來」的意思。',
+    explanationEn:
+      '「もどる」 (戻る, to return to where one was) equals 「また ここに 来る」 (to come back here). 「もう 来ません」 means never coming back — the exact opposite, contradicting "please wait here"; 「ゆっくり 行きます」 is about how slowly one leaves; 「はじめて 来ます」 means coming for the first time, with no sense of returning.',
   },
 ]

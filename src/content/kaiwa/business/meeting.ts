@@ -252,6 +252,8 @@ export const scene: KaiwaScene = {
       answerIndex: 0,
       explanation:
         '「〜させていただきます」是謙讓句型，表示「請容我做～」，會議開場的固定說法是「始めさせていただきます」。「始められて」是被動或尊敬形，不能用在自己的動作上；「始まって」是自動詞，無法表達「由我來開始」的意思。',
+      explanationEn:
+        '「〜させていただきます」 is the humble pattern "allow me to do …," and the set phrase for opening a meeting is 「始めさせていただきます」. 「始められて」 is passive or honorific, neither of which can describe your own action; 「始まって」 is the intransitive verb, so it cannot express "I will start it."',
     },
     {
       kind: 'choice',
@@ -261,6 +263,8 @@ export const scene: KaiwaScene = {
       answerIndex: 0,
       explanation:
         '「お時間をいただけませんか」用「いただく」的可能形「いただける」加「ませんか」，是委婉請求對方給時間的謙讓說法。「いただか」「いただこう」接「ませんか」都是不成立的活用；「いただいてませんか」意思變成「還沒收到嗎」，不符合請求的語境。',
+      explanationEn:
+        '「お時間をいただけませんか」 uses 「いただける」, the potential form of the humble 「いただく」, plus 「ませんか」— a soft, humble way of asking for more of the other person\'s time. 「いただか」 and 「いただこう」 cannot combine with 「ませんか」 at all; 「いただいてませんか」 would mean "haven\'t you received it?", which does not fit a request.',
     },
     {
       kind: 'choice',
@@ -270,6 +274,8 @@ export const scene: KaiwaScene = {
       answerIndex: 0,
       explanation:
         '「持ち帰って検討します」是商務場合不當場下結論時的固定說法，意思是「帶回去研究再回覆」。「遠慮」是客氣推辭、「拝見」是「看」的謙讓語、「出席」是參加會議，接在「持ち帰って」後面語意都不通。',
+      explanationEn:
+        '「持ち帰って検討します」 is the standard business phrase for not deciding on the spot — take the matter back to the office, study it, and reply later. 「遠慮」 means politely declining, 「拝見」 is the humble verb for "to look at," and 「出席」 means attending a meeting — none of them makes sense after 「持ち帰って」.',
     },
     {
       kind: 'choice',
@@ -279,6 +285,8 @@ export const scene: KaiwaScene = {
       answerIndex: 0,
       explanation:
         '「おっしゃる」是「言う」的尊敬語，引用對方的話表示同意要說「おっしゃるとおりです」。「申し上げる」是謙讓語，只能用於自己說的話；「伺う」「承る」也都是謙讓語，套在對方的動作上是敬語誤用。',
+      explanationEn:
+        '「おっしゃる」 is the respectful (honorific) form of 「言う」, so agreeing with what the other person said is 「おっしゃるとおりです」— "it is exactly as you say." 「申し上げる」 is humble and can only describe your own speech; 「伺う」 and 「承る」 are likewise humble verbs, so applying any of them to the other person\'s action is a keigo misuse.',
     },
     {
       kind: 'order',
@@ -289,6 +297,8 @@ export const scene: KaiwaScene = {
       starIndex: 2,
       explanation:
         '正解語序為「品質を 考えると 無理な スケジュールは 避けたい と思います」。「品質を」後面只能接他動詞「考えると」構成條件句；「無理な」是な形容詞連體形，必須直接修飾名詞「スケジュール」；「避けたい」接句尾「と思います」表達委婉的主張。★ 在第三格「スケジュールは」。',
+      explanationEn:
+        'The correct order is 「品質を 考えると 無理な スケジュールは 避けたい と思います」 (considering quality, I would like to avoid an unreasonable schedule). 「品質を」 can only be followed by the transitive 「考えると」, forming the conditional clause; 「無理な」 is a na-adjective in prenominal form and must directly modify 「スケジュール」; 「避けたい」 connects to the final 「と思います」 to soften the claim. The starred third slot is 「スケジュールは」.',
     },
     {
       kind: 'order',
@@ -299,6 +309,8 @@ export const scene: KaiwaScene = {
       starIndex: 1,
       explanation:
         '正解語序為「この件は、一度 持ち帰って 検討させて いただいても よろしい でしょうか」。動作順序上要先「持ち帰って」才能「検討する」；「いただいても」必須緊接使役て形「検討させて」構成「〜させていただいても」的請求許可句型；「よろしい」固定接「でしょうか」。★ 在第二格「検討させて」。',
+      explanationEn:
+        'The correct order is 「この件は、一度 持ち帰って 検討させて いただいても よろしい でしょうか」. Logically you must first 「持ち帰って」 (take it back) before you can 「検討する」 (consider it); 「いただいても」 must directly follow the causative te-form 「検討させて」 to build the permission-seeking pattern 「〜させていただいても」; and 「よろしい」 is always followed by 「でしょうか」. The starred second slot is 「検討させて」.',
     },
   ],
 }

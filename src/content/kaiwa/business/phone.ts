@@ -296,6 +296,8 @@ export const scene: KaiwaScene = {
       answerIndex: 0,
       explanation:
         '商務電話的開場固定寒暄是「いつもお世話になっております」（一直承蒙關照），對往來公司幾乎必說。「お邪魔しております」是人已登門拜訪、身在對方場所時用的；「お疲れ様」是對公司內部同事的慰勞語，對客戶說會失禮；「ご馳走様」是受招待用餐後的道謝，完全不合語境。',
+      explanationEn:
+        'The standard opening greeting on a business call is 「いつもお世話になっております」 (thank you for your continued support), practically obligatory with client companies. 「お邪魔しております」 is said when you are physically visiting someone\'s premises; 「お疲れ様」 is a phrase of appreciation for colleagues inside your own company and sounds rude to a client; 「ご馳走様」 is thanks after being treated to a meal — completely out of place.',
     },
     {
       kind: 'choice',
@@ -310,6 +312,8 @@ export const scene: KaiwaScene = {
       answerIndex: 0,
       explanation:
         '對公司外部的人提到自家同事時，要用謙讓語「〜ております」壓低己方，所以「席を外しております」正確。「〜ていらっしゃいます」和「お〜になっています」都是尊敬語，等於在客戶面前抬高自己人，是商務電話的大忌；「外しでいます」則是「て形」接續錯誤，文法不通。',
+      explanationEn:
+        'When speaking to someone outside the company about your own colleague, you humble your side with 「〜ております」, so 「席を外しております」 (he is away from his desk) is correct. 「〜ていらっしゃいます」 and 「お〜になっています」 are honorific forms that would elevate your own colleague in front of a client — a cardinal sin on business calls; 「外しでいます」 misforms the te-form connection and is ungrammatical.',
     },
     {
       kind: 'choice',
@@ -319,6 +323,8 @@ export const scene: KaiwaScene = {
       answerIndex: 0,
       explanation:
         '「折り返し」在電話用語中指「收到來電後立刻回電」，「折り返しお電話します」是留言應對的固定說法。「繰り返し」是反覆做好幾次，「引き返し」是半路折返原地，「裏返し」是把東西翻面，三者都與回電無關，放進句中語意不通。',
+      explanationEn:
+        'In telephone Japanese, 「折り返し」 means returning a call promptly, and 「折り返しお電話します」 is the set phrase used when taking a message. 「繰り返し」 means doing something repeatedly, 「引き返し」 means turning back partway along a route, and 「裏返し」 means turning something inside out — none of them has anything to do with calling back, so they make no sense in the sentence.',
     },
     {
       kind: 'choice',
@@ -328,6 +334,8 @@ export const scene: KaiwaScene = {
       answerIndex: 0,
       explanation:
         '聽不清楚時的委婉固定說法是「お電話が遠いようです」，把原因歸給電話收訊而不是對方，避免直說「你聲音太小」造成失禮。「重い」「暗い」「狭い」都不能用來形容電話的聲音狀態，搭配「お電話が」語意不通，一聽就是錯的。',
+      explanationEn:
+        'The tactful set phrase when you cannot hear the other party is 「お電話が遠いようです」— literally "the line seems far away," blaming the connection rather than the person to avoid the rudeness of saying "your voice is too quiet." 「重い」 (heavy), 「暗い」 (dark), and 「狭い」 (narrow) cannot describe the sound of a phone line, so paired with 「お電話が」 they are immediately recognizable as wrong.',
     },
     {
       kind: 'order',
@@ -338,6 +346,8 @@ export const scene: KaiwaScene = {
       starIndex: 2,
       explanation:
         '正解語序是「来週、新製品のご紹介でお伺いしたいのですが、ご都合はいかがでしょうか」。「新製品の」的「の」後面必須直接接名詞「ご紹介」，「のですが、」是緩衝語氣，只能接在「お伺いしたい」之後，因此只有一種自然排列。★處是「お伺いしたい」。',
+      explanationEn:
+        'The correct order is 「来週、新製品のご紹介でお伺いしたいのですが、ご都合はいかがでしょうか」 (I would like to visit next week to introduce our new product — would that suit you?). The 「の」 in 「新製品の」 must attach directly to the noun 「ご紹介」, and the softening 「のですが、」 can only follow 「お伺いしたい」, leaving exactly one natural arrangement. The starred slot is 「お伺いしたい」.',
     },
     {
       kind: 'order',
@@ -348,6 +358,8 @@ export const scene: KaiwaScene = {
       starIndex: 1,
       explanation:
         '正解語序是「担当の者におつなぎしますので、少々お待ちください」。「おつなぎします」承接前面的「担当の者に」，必須放最前面；副詞「少々」修飾等待的時間，只能放在「お待ちください」之前，若排成「少々おつなぎします」則語意不通。★處是「少々」。',
+      explanationEn:
+        'The correct order is 「担当の者におつなぎしますので、少々お待ちください」 (I will connect you to the person in charge, so please hold a moment). 「おつなぎしますので」 continues from 「担当の者に」 and must come first; the adverb 「少々」 qualifies the waiting time and can only precede 「お待ちください」— an order like 「少々おつなぎします」 would be nonsense. The starred slot is 「少々」.',
     },
   ],
 }

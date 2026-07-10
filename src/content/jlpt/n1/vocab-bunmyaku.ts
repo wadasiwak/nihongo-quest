@@ -10,6 +10,8 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '「示唆」（暗示、啟發）指間接透露的提示，「示唆を含む／示唆に富む」是固定搭配，表示話語中蘊含許多啟發。「合図」是動作或聲音上的信號，如揮手示意；「申告」是向機關申報；「催促」是催促對方行動，都無法被一句無心之言「含んでいた」。',
+    explanationEn:
+      '「示唆」 (suggestion, hint) refers to an indirect clue or insight; 「示唆を含む」 and 「示唆に富む」 are set collocations for a remark rich in hints. 「合図」 is a physical signal such as a wave of the hand; 「申告」 is a formal declaration to the authorities; 「催促」 is pressing someone to act — none of these can be "contained" in a casual remark.',
   },
   {
     kind: 'choice',
@@ -19,6 +21,8 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '「逸脱」（偏離）指偏離常軌、正題或規範，「議題から逸脱する」是常見搭配。「離脱」是脫離組織、隊伍或某種狀態（如「戦線離脱」）；「脱退」是退出團體；「脱落」是掉隊、脫落，主語通常是人或物，三者都不能形容話題偏離正題。',
+    explanationEn:
+      '「逸脱」 (deviation) means straying from the proper track, topic, or norms; 「議題から逸脱する」 is a standard collocation. 「離脱」 is withdrawing from a group, formation, or state (as in 「戦線離脱」); 「脱退」 is quitting an organization; 「脱落」 is dropping out or falling off — none of the three describes talk drifting from the agenda.',
   },
   {
     kind: 'choice',
@@ -28,6 +32,8 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '「一律」（一律、統一）指不分對象全部相同，「一律で五千円」表示所有人統一收五千日圓。「画一」多以「画一的」的形式形容缺乏個性的整齊劃一，不用於費用；「均等」是平均分配（如「機会均等」）；「互角」是實力不相上下，語境完全不合。',
+    explanationEn:
+      '「一律」 (uniform, across the board) means the same for everyone regardless of category, so 「一律で五千円」 means a flat fee of 5,000 yen for all. 「画一」 appears mostly as 「画一的」 criticizing bland uniformity and is not used for fees; 「均等」 means equal distribution (as in 「機会均等」); 「互角」 means evenly matched in strength, which does not fit at all.',
   },
   {
     kind: 'choice',
@@ -37,6 +43,8 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '「懸念」（憂慮、掛心）指對未來可能發生的壞事放心不下，「懸念の声が上がる」是新聞報導常見說法。「未練」是對過去的事依依不捨；「錯覚」是錯覺、誤認；「油断」是大意疏忽，三者都無法搭配「〜の声が上がる」表達對新制度的擔憂。',
+    explanationEn:
+      '「懸念」 (concern, apprehension) is unease about something bad that may happen; 「懸念の声が上がる」 is a stock phrase in news reports. 「未練」 is lingering attachment to something past; 「錯覚」 is an illusion or misperception; 「油断」 is carelessness — none of them combines with 「〜の声が上がる」 to voice worry about the new system.',
   },
   {
     kind: 'choice',
@@ -46,6 +54,8 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '「打開」（打開僵局）指突破停滯不前的困境，「事態を打開する／事態の打開」是固定搭配。「解除」用於解除警報、契約等既有的限制；「脱出」是從危險場所逃出；「返上」是返還、取消（如「汚名返上」），都不能表示化解談判僵局。',
+    explanationEn:
+      '「打開」 (breakthrough) means breaking out of a deadlock; 「事態を打開する／事態の打開」 is a set collocation. 「解除」 is lifting an existing restriction such as an alert or a contract; 「脱出」 is escaping from a dangerous place; 「返上」 is handing something back or forgoing it (as in 「汚名返上」) — none expresses resolving stalled negotiations.',
   },
   {
     kind: 'choice',
@@ -55,6 +65,8 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '「措置」（措施）指針對問題採取的處理辦法，「措置を講じる」（採取措施）是書面語的固定搭配。「処罰」是對違規者的處罰，對象應是人；「手際」是處理事情的手法、俐落程度；「始末」是收拾殘局或事情原委，都不能與「講じる」搭配表示政策手段。',
+    explanationEn:
+      '「措置」 (measure, step) is an action taken to deal with a problem; 「措置を講じる」 (to take measures) is a fixed formal collocation. 「処罰」 is punishment and takes a person as its object; 「手際」 is one\'s deftness in handling matters; 「始末」 is cleaning up an aftermath or the particulars of an affair — none pairs with 「講じる」 to denote policy measures.',
   },
   // ===== 動詞 5 題（007~011）=====
   {
@@ -65,6 +77,8 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '「賄う」（支應、打點）指用某筆錢支付所需開銷，「生活費を賄う」是典型搭配，後接「〜きれない」表示無法完全支應。「償う」是賠償罪過或損失；「凌ぐ」是熬過困境（如「寒さを凌ぐ」），不以生活費作受詞；「蓄える」是儲存，與「不夠支付」的語境相反。',
+    explanationEn:
+      '「賄う」 means to cover necessary expenses with a given sum; 「生活費を賄う」 is the typical collocation, and 「〜きれない」 adds that the costs cannot be fully covered. 「償う」 is to atone or compensate for a wrong; 「凌ぐ」 is to weather hardship (as in 「寒さを凌ぐ」) and does not take living costs as its object; 「蓄える」 (to save up) contradicts the context of money running short.',
   },
   {
     kind: 'choice',
@@ -74,6 +88,8 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '「滞る」（停滯、延宕）指進度或支付卡住不順，「工事が滞る」是常見用法。「怠る」（怠忽）是他動詞，需要受詞（如「確認を怠る」）且主語應是人；「こじれる」用於關係、交涉惡化變複雜；「かさむ」是費用、數量越積越多，主語不能是工程進度。',
+    explanationEn:
+      '「滞る」 (to stall, be delayed) describes progress or payments getting stuck; 「工事が滞る」 is common usage. 「怠る」 (to neglect) is transitive, needs an object as in 「確認を怠る」, and takes a human subject; 「こじれる」 is used for relationships or negotiations turning sour and tangled; 「かさむ」 means costs piling up — its subject cannot be construction progress.',
   },
   {
     kind: 'choice',
@@ -83,6 +99,8 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '「損なう」（損害）指傷害健康、信譽、心情等抽象事物，「健康を損なう」是固定搭配。「滅ぼす」是使滅亡，用於國家或慣用句「身を滅ぼす」；「砕く」是打碎硬物或粉碎野心；「絶やす」是使斷絕（如「火を絶やさない」），都不能以健康作受詞。',
+    explanationEn:
+      '「損なう」 (to harm, impair) takes abstract objects such as health, reputation, or mood; 「健康を損なう」 is a set collocation. 「滅ぼす」 means to destroy, used for nations or in the idiom 「身を滅ぼす」; 「砕く」 is to smash something hard or crush an ambition; 「絶やす」 is to let something die out (as in 「火を絶やさない」) — none can take health as its object.',
   },
   {
     kind: 'choice',
@@ -92,6 +110,8 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '「見合わせる」（暫停、暫緩）指暫時停止實施，「運転を見合わせる」是電車停駛公告的固定說法。「見落とす」是看漏、沒注意到；「見計らう」是斟酌合適的時機（如「頃合いを見計らう」）；「見渡す」是放眼眺望，三者雖同為「見〜」複合動詞，語意都與暫停行駛無關。',
+    explanationEn:
+      '「見合わせる」 (to suspend, hold off) means to refrain from carrying something out for the time being; 「運転を見合わせる」 is the fixed wording of train-suspension announcements. 「見落とす」 is to overlook; 「見計らう」 is to judge the right moment (as in 「頃合いを見計らう」); 「見渡す」 is to look out over a scene — despite the shared 「見〜」 shape, none means halting service.',
   },
   {
     kind: 'choice',
@@ -101,6 +121,8 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '「募る」作自動詞時指思念、不安等情緒愈發強烈，「不安が募る」是典型搭配，配合「〜一方だ」表示不斷加劇。「茂る」是草木茂盛；「栄える」是繁榮興盛；「潤う」是濕潤或經濟變寬裕，主語都應是植物、城市、生活等，不能形容情緒高漲。',
+    explanationEn:
+      '「募る」 used intransitively means emotions such as anxiety growing ever stronger; 「不安が募る」 is the typical collocation, and 「〜一方だ」 underlines the relentless intensification. 「茂る」 is plants growing thick; 「栄える」 is to flourish; 「潤う」 is to become moist or financially comfortable — their subjects should be plants, cities, or livelihoods, never a swelling emotion.',
   },
   // ===== 形容詞 4 題（012~015，015 為オノマトペ形容動詞）=====
   {
@@ -111,6 +133,8 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '「画期的」（劃時代的）形容開創新紀元、前所未有的突破，與「業界の常識を覆す成果」語境相符。「画一的」是千篇一律、缺乏變化，帶負面語感；「断片的」是零碎不完整；「流動的」是情勢不確定、仍會變動，都不能用來讚許突破性成果。',
+    explanationEn:
+      '「画期的」 (groundbreaking, epoch-making) praises an unprecedented breakthrough, matching 「業界の常識を覆す」 in the sentence. 「画一的」 means monotonously uniform and carries a negative tone; 「断片的」 means fragmentary; 「流動的」 means fluid and still liable to change — none can be used to laud a pioneering achievement.',
   },
   {
     kind: 'choice',
@@ -120,6 +144,8 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '「目覚ましい」（顯著驚人的）用於稱讚進步、發展、活躍等正面成就，「目覚ましい発展を遂げる」是固定搭配。「甚だしい」雖也表程度嚴重，但多接負面內容（如「誤解も甚だしい」）；「慌ただしい」是匆忙不安定；「騒々しい」是吵鬧嘈雜，皆不合語境。',
+    explanationEn:
+      '「目覚ましい」 (remarkable, spectacular) praises positive accomplishments such as progress or growth; 「目覚ましい発展を遂げる」 is a set collocation. 「甚だしい」 also marks extreme degree but usually with negative content (as in 「誤解も甚だしい」); 「慌ただしい」 means hectic and unsettled; 「騒々しい」 means noisy — none fits the context.',
   },
   {
     kind: 'choice',
@@ -129,6 +155,8 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '「煩わしい」（繁瑣麻煩的）形容手續、人際關係等令人嫌煩，「手続きが煩わしい」是典型用法，與「中途放棄」呼應。「紛らわしい」是相似而容易混淆、認錯；「よそよそしい」是態度冷淡見外；「みすぼらしい」是外表寒酸，都不能說明手續令人卻步。',
+    explanationEn:
+      '「煩わしい」 (tiresome, burdensome) describes procedures or social obligations that feel like a wearisome chore; 「手続きが煩わしい」 is typical usage and explains why people give up midway. 「紛らわしい」 means confusingly similar; 「よそよそしい」 means cold and distant in manner; 「みすぼらしい」 means shabby in appearance — none accounts for applicants abandoning the process.',
   },
   {
     kind: 'choice',
@@ -138,6 +166,8 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '「しどろもどろ」形容慌了手腳、語無倫次的樣子，突然被追問而「答弁がしどろもどろになる」是典型情境。「うずうず」是躍躍欲試、按捺不住；「つやつや」是有光澤；「だぶだぶ」是衣服過大鬆垮，三者雖同為擬態語，都無法形容混亂失措的答詢。',
+    explanationEn:
+      '「しどろもどろ」 depicts flustered, incoherent speech; a minister\'s replies turning 「しどろもどろ」 under unexpected questioning is the classic scene. 「うずうず」 is itching to do something; 「つやつや」 is glossy and lustrous; 「だぶだぶ」 is clothes hanging loose — though all four are mimetic words, only the first depicts a disordered, panicked answer.',
   },
   // ===== 副詞・オノマトペ 5 題（016~020，020 為オノマトペ）=====
   {
@@ -148,6 +178,8 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '「軒並み」原指成排的屋簷，引申為「家家戶戶、無一例外地全都」，「軒並み値上げ」是新聞常用表現。「めっきり」表示變化顯著（如「めっきり寒くなった」），須接表變化的敘述；「ひとえに」是全然歸因於（多用於致謝）；「うすうす」是隱約（察覺），皆不合語境。',
+    explanationEn:
+      '「軒並み」 literally means a row of eaves and by extension "every single one, across the board"; 「軒並み値上げ」 is a common news expression. 「めっきり」 marks a conspicuous change (as in 「めっきり寒くなった」) and needs a change-of-state predicate; 「ひとえに」 means "entirely (owing to)" and appears mainly in acknowledgments; 「うすうす」 means vaguely (sensing) — none fits.',
   },
   {
     kind: 'choice',
@@ -157,6 +189,8 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '「かろうじて」（好不容易、勉強地）表示差一點就失敗、驚險過關，「かろうじて間に合う」是典型搭配。「まんまと」是（計謀）得逞地，多用於欺騙成功的場面；「いたって」是極其（形容平穩的狀態，如「いたって元気」）；「あくまで」是堅持到底，都不能表達驚險趕上。',
+    explanationEn:
+      '「かろうじて」 (barely, by a hair) marks a narrow escape from failure; 「かろうじて間に合う」 is the typical collocation. 「まんまと」 means successfully pulling off a scheme, usually of trickery; 「いたって」 means extremely, describing a settled state (as in 「いたって元気」); 「あくまで」 means insistently, to the last — none conveys just barely catching the last train.',
   },
   {
     kind: 'choice',
@@ -166,6 +200,8 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '「ひとまず」（暫且、姑且）表示雖未徹底完成，先告一段落再說，與前句「細かい修正は残っているが」的讓步語氣呼應。「いまだに」是至今仍然（沒有改變）；「とっくに」是早就已經；「かねがね」是老早就、一直以來（有所耳聞），三者都與「先視為完成」的語感不符。',
+    explanationEn:
+      '「ひとまず」 (for now, for the time being) means declaring something settled for the moment even though it is not fully finished, echoing the concession 「細かい修正は残っているが」. 「いまだに」 means "even now, still (unchanged)"; 「とっくに」 means "long since"; 「かねがね」 means "for quite a while (having heard)" — none matches the nuance of provisionally calling the proposal complete.',
   },
   {
     kind: 'choice',
@@ -175,6 +211,8 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '「おのずと」（自然而然地）表示不需刻意、事情自然發展出某結果，「おのずと身につく」是典型用法。「わざと」是故意地，帶有刻意為之甚至惡意的語感；「あえて」是明知困難或沒必要仍特意去做；「ろくに」是「沒好好地〜」，必須與否定形呼應，皆不合語境。',
+    explanationEn:
+      '「おのずと」 (naturally, of its own accord) means a result emerges without deliberate effort; 「おのずと身につく」 is typical usage. 「わざと」 means on purpose, often with a hint of malice; 「あえて」 means daring to do something despite difficulty or needlessness; 「ろくに」 means "not properly" and must pair with a negative — none fits the sentence.',
   },
   {
     kind: 'choice',
@@ -184,6 +222,8 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '「ひしひし」（深切地）形容某種感受強烈地逼近心頭，「ひしひしと感じる」是固定搭配。「めきめき」是進步顯著（如「めきめき上達する」）；「すくすく」是孩子健康茁壯地成長；「はらはら」是替人捏一把冷汗，三者雖都是擬態語，都不能搭配「感じる」表達深切體會。',
+    explanationEn:
+      '「ひしひし」 depicts a feeling pressing keenly and vividly upon the heart; 「ひしひしと感じる」 is a set collocation. 「めきめき」 marks rapid, visible improvement (as in 「めきめき上達する」); 「すくすく」 is a child growing up soundly; 「はらはら」 is watching with bated breath — though all are mimetic words, none pairs with 「感じる」 to express keenly felt gratitude.',
   },
   // ===== 名詞 6 題（021~026）=====
   {
@@ -194,6 +234,8 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '「軌道に乗る」是固定慣用語，指事業、計畫步入正軌、開始順利運作。「軌跡」是移動留下的痕跡或過往歷程（如「人生の軌跡」），不與「乗る」搭配；「岐路」是分岔路口，慣用「岐路に立つ」；「沿線」是鐵路沿線地帶，語境完全不合。',
+    explanationEn:
+      '「軌道に乗る」 is a fixed idiom meaning a venture finally gets on track and starts running smoothly. 「軌跡」 is the trail or course something has traced (as in 「人生の軌跡」) and does not pair with 「乗る」; 「岐路」 is a fork in the road, used as 「岐路に立つ」; 「沿線」 means the area along a rail line — the context excludes all three.',
   },
   {
     kind: 'choice',
@@ -203,6 +245,8 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '「拍車をかける」（加速、推波助瀾）源自馬刺，指使既有趨勢更加劇烈，「物価の上昇に拍車をかける」是新聞常見表現。「歯止めをかける」雖也是固定搭配，但意思是「遏止」，與日圓貶值推升物價的因果方向相反；「拍子」是節拍，慣用「拍子を取る」；「磨きをかける」用於精進技藝（如「腕に磨きをかける」），不能以物價上漲為對象。',
+    explanationEn:
+      '「拍車をかける」 (to spur on) derives from a rider\'s spurs and means accelerating an existing trend; 「物価の上昇に拍車をかける」 is common in news writing. 「歯止めをかける」 is also a set phrase but means to put the brakes on — the causal direction is reversed, since a weak yen pushes prices up; 「拍子」 is a musical beat, used in 「拍子を取る」; 「磨きをかける」 means polishing up a skill (as in 「腕に磨きをかける」) and cannot take rising prices as its object.',
   },
   {
     kind: 'choice',
@@ -212,6 +256,8 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '「風潮」指社會上一時蔓延的風氣、傾向，多含批判語感，「〜という風潮が広がる」是典型用法。「風習」是特定地區代代相傳的習俗，不用來描述新蔓延的價值觀；「名残」是事物消逝後殘留的餘韻；「意地」是固執、志氣（如「意地を張る」），皆無法形容業界瀰漫的風氣。',
+    explanationEn:
+      '「風潮」 is a social current or climate spreading at a given time, often mentioned with a critical tone; 「〜という風潮が広がる」 is typical usage. 「風習」 is a custom handed down in a particular region, not a newly spreading attitude; 「名残」 is the lingering trace of something gone; 「意地」 is stubbornness or pride (as in 「意地を張る」) — none can describe a mindset pervading an industry.',
   },
   {
     kind: 'choice',
@@ -221,6 +267,8 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '「趣旨」（宗旨、主旨）指活動或制度設立的目的與用意，「趣旨は〜にある」「趣旨に賛同する」是常見搭配。「内訳」是金額或數量的明細；「由緒」是悠久的來歷（如「由緒ある神社」）；「愛想」是待人的親切態度，三者都不能表達基金成立的目的。',
+    explanationEn:
+      '「趣旨」 (purpose, aim) is the intent behind establishing an activity or institution; 「趣旨は〜にある」 and 「趣旨に賛同する」 are common patterns. 「内訳」 is an itemized breakdown of sums or quantities; 「由緒」 is a distinguished history (as in 「由緒ある神社」); 「愛想」 is affability toward people — none expresses what the fund was set up to do.',
   },
   {
     kind: 'choice',
@@ -230,6 +278,8 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '「還元」指把獲得的利益回饋給原本的來源，「利益を社会に還元する」是固定搭配。「返還」是把借來或占有的東西歸還原主（如「土地の返還」），利益並非向社會借來之物；「回収」是收回發出去的東西；「復旧」是使受損的設施恢復原狀，皆不合語境。',
+    explanationEn:
+      '「還元」 means returning earned profits to the source they came from; 「利益を社会に還元する」 is a set collocation. 「返還」 is giving back something borrowed or occupied (as in 「土地の返還」), but profits are not something borrowed from society; 「回収」 is collecting back what was distributed; 「復旧」 is restoring damaged facilities — none fits the context.',
   },
   {
     kind: 'choice',
@@ -239,6 +289,8 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '「兆し」（徵兆、苗頭）指事情即將發生的跡象，「回復の兆しが見える」是景氣報導的固定說法。「名残」是事物結束後殘留的餘韻，方向恰好相反；「発端」是事件的開端、起因，多用於糾紛；「矢先」用於「〜（よう）とした矢先に」表示正要做某事的當口，不能與「見え始めた」搭配。',
+    explanationEn:
+      '「兆し」 (sign, harbinger) is an indication that something is about to happen; 「回復の兆しが見える」 is standard phrasing in economic reporting. 「名残」 is what lingers after something has ended — the opposite direction in time; 「発端」 is the origin of an incident, typically a dispute; 「矢先」 is used in 「〜（よう）とした矢先に」 (just as one was about to) and cannot pair with 「見え始めた」.',
   },
   // ===== 動詞 5 題（027~031）=====
   {
@@ -249,6 +301,8 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '「捗る」（進展順利）指工作、學習的進度良好，「仕事が捗る」是典型搭配。「賑わう」是場所人潮熱絡，主語應是商店街等地點；「遂げる」（達成）與「費やす」（花費）都是他動詞，需要受詞，放入本句文法不通，語意也與進度順利無關。',
+    explanationEn:
+      '「捗る」 (to make good progress) describes work or study advancing briskly; 「仕事が捗る」 is the typical collocation. 「賑わう」 means a place bustling with people, so its subject should be a shopping street or the like; 「遂げる」 (to accomplish) and 「費やす」 (to expend) are transitive verbs that require objects, so they are ungrammatical here as well as wrong in meaning.',
   },
   {
     kind: 'choice',
@@ -258,6 +312,8 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '「顧みる」（回頭關照、顧及）指把心思放在家庭、安危等事物上，「家庭を顧みる余裕がない」是描述埋首工作者的典型說法。「遮る」是遮蔽、打斷（如「話を遮る」）；「唱える」是高喊主張或誦念；「貫く」是貫徹信念（如「初志を貫く」），三者都不能以家庭作受詞表達照顧之意。',
+    explanationEn:
+      '「顧みる」 (to look after, spare thought for) means giving attention to one\'s family, safety, and so on; 「家庭を顧みる余裕がない」 is the classic description of someone buried in work. 「遮る」 is to block or interrupt (as in 「話を遮る」); 「唱える」 is to advocate or recite; 「貫く」 is to carry a conviction through (as in 「初志を貫く」) — none takes family as its object in the sense of caring for it.',
   },
   {
     kind: 'choice',
@@ -267,6 +323,8 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '「もたらす」（帶來）指造成某種結果或影響，「被害をもたらす」是災害報導的固定搭配。「促す」是催促、促使，受詞應是人的行動或「注意」等；「妨げる」是妨礙、阻擋，若要表達「防止災害」日語慣用「防ぐ」；「見逃す」是看漏、放過，與「各地に」的句型不合，語意也不通。',
+    explanationEn:
+      '「もたらす」 (to bring about) means causing a result or effect; 「被害をもたらす」 is the fixed collocation of disaster reporting. 「促す」 is to urge, taking people\'s actions or 「注意」 as its object; 「妨げる」 is to obstruct — for "preventing damage" Japanese idiomatically uses 「防ぐ」; 「見逃す」 is to overlook, which fits neither the pattern with 「各地に」 nor the sense.',
   },
   {
     kind: 'choice',
@@ -276,6 +334,8 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '「察する」（體察、體諒）指從情況推想他人的心情，「心中を察する」是固定搭配，與「不再多問」的體貼舉動呼應。「徹する」是貫徹到底（如「裏方に徹する」）；「制する」是控制、壓制（如「先手を制する」）；「博する」慣用「好評を博する」（博得好評），三者都不能以「心中」作受詞。',
+    explanationEn:
+      '「察する」 (to sense, surmise) means inferring another person\'s feelings from the circumstances; 「心中を察する」 is a set collocation and matches the tactful choice not to ask anything more. 「徹する」 is to devote oneself fully to a role (as in 「裏方に徹する」); 「制する」 is to control or check (as in 「先手を制する」); 「博する」 appears in 「好評を博する」 (to win acclaim) — none can take 「心中」 as its object.',
   },
   {
     kind: 'choice',
@@ -285,6 +345,8 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '「食い違う」（相互矛盾、有出入）指說法、意見兜不攏，「証言が食い違う」是新聞常見表現。「入れ違う」是兩人錯身而過、正好錯開；「出くわす」是偶然撞見，需要「〜に」表對象；「途切れる」是中斷，不能與「大きく」搭配，皆無法表達證詞互相矛盾。',
+    explanationEn:
+      '「食い違う」 (to conflict, diverge) means accounts or opinions failing to line up; 「証言が食い違う」 is common in news reports. 「入れ違う」 is two people just missing each other in passing; 「出くわす」 is to run into someone by chance and requires a 「〜に」 complement; 「途切れる」 is to break off and cannot combine with 「大きく」 — none expresses mutually contradictory testimony.',
   },
   // ===== 形容詞 4 題（032~035）=====
   {
@@ -295,6 +357,8 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '「おびただしい」（數量龐大驚人的）幾乎只用於形容數量極多，「おびただしい数の〜」是固定搭配。「華々しい」是華麗轟動的（如「華々しいデビュー」）；「頼もしい」是可靠的；「待ち遠しい」是迫不及待的，三者都不能修飾「数」表達人數眾多。',
+    explanationEn:
+      '「おびただしい」 (vast, immense in number) is used almost exclusively for overwhelming quantities; 「おびただしい数の〜」 is a set collocation. 「華々しい」 means dazzling and sensational (as in 「華々しいデビュー」); 「頼もしい」 means reliable; 「待ち遠しい」 means eagerly awaited — none of them can modify 「数」 to convey a huge crowd of onlookers.',
   },
   {
     kind: 'choice',
@@ -304,6 +368,8 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '「無謀」（魯莽、有勇無謀）形容不衡量風險與自身能力的輕率行動，與「毫無裝備挑戰冬季雪山」的語境相符。「無念」是懊悔不甘；「無邪気」是天真無邪；「無造作」是隨手、不經意地做（如「無造作に置く」），三者雖同為「無〜」形容動詞，都無法批評危險的登山計畫。',
+    explanationEn:
+      '「無謀」 (reckless, foolhardy) condemns rash action taken without weighing the risks or one\'s own ability — challenging a snowbound peak alone in midwinter with no gear is a textbook case. 「無念」 is bitter regret; 「無邪気」 is innocent and guileless; 「無造作」 is doing something offhandedly (as in 「無造作に置く」) — though all share the 「無〜」 shape, none criticizes a dangerous plan.',
   },
   {
     kind: 'choice',
@@ -313,6 +379,8 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '「速やかに」（迅速地、從速）是公文與規章常用的書面語，「速やかに報告すること」是典型的指示句。「健やか」是身心健康地成長；「緩やか」是坡度平緩或規定寬鬆；「鮮やか」是色彩鮮豔或手法漂亮俐落，三者雖同為「〜やか」形容動詞，都不能用於要求立即通報。',
+    explanationEn:
+      '「速やかに」 (promptly, without delay) is formal written style typical of rules and directives; 「速やかに報告すること」 is a standard instruction. 「健やか」 describes growing up healthy; 「緩やか」 describes a gentle slope or lax rules; 「鮮やか」 describes vivid color or brilliant technique — despite the shared 「〜やか」 shape, none can order immediate reporting.',
   },
   {
     kind: 'choice',
@@ -322,6 +390,8 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '「厚かましい」（厚臉皮的）形容不知分寸、不顧他人觀感的言行，向初次見面的人開口借錢正是典型例子，「〜にもほどがある」加強譴責語氣。「勇ましい」是英勇雄壯的；「微笑ましい」是令人會心一笑的；「痛ましい」是令人心痛的（如「痛ましい事故」），皆不合語境。',
+    explanationEn:
+      '「厚かましい」 (brazen, shameless) describes behavior that ignores all sense of propriety — asking someone you have just met for a loan is the textbook example, and 「〜にもほどがある」 sharpens the rebuke. 「勇ましい」 means gallant; 「微笑ましい」 means heartwarming; 「痛ましい」 means heartrending (as in 「痛ましい事故」) — none fits the context.',
   },
   // ===== 副詞・オノマトペ 5 題（036~040，039・040 為オノマトペ）=====
   {
@@ -332,6 +402,8 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '「案の定」（果不其然）表示事情正如事前的預想（多為壞預感）發生，與前句「嫌な予感はしていたが」直接呼應。「心なしか」是「或許是心理作用」，用於不確定的細微感受，不能修飾明確的事實；「まして」是「更何況」，需要前後對比；「さぞ」須與「〜だろう」呼應表推測，皆不合文脈。',
+    explanationEn:
+      '「案の定」 (sure enough, just as feared) marks an outcome matching a prior premonition, usually a bad one, and directly echoes 「嫌な予感はしていたが」. 「心なしか」 means "perhaps it\'s just my imagination" and cannot modify a clear-cut fact; 「まして」 means "still more so" and needs a comparison; 「さぞ」 must pair with 「〜だろう」 to mark conjecture — none fits this context.',
   },
   {
     kind: 'choice',
@@ -341,6 +413,8 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '「いっそ」（乾脆、索性）表示與其勉強維持現狀，不如下決心採取更徹底的做法，「いっそ買い替えたほうがいい」正是此語感。「てっきり」是「原以為〜」，須與「と思っていた」等誤認表現呼應；「かねて」是「早先、老早」（如「かねてから」）；「まさか」須搭配否定或驚訝語氣（如「まさか〜とは」），皆不合語境。',
+    explanationEn:
+      '「いっそ」 (might as well, would sooner) proposes decisively switching to a more drastic option instead of struggling on — exactly the feel of 「いっそ買い替えたほうがいい」. 「てっきり」 means "I was convinced that..." and needs a mistaken-belief pattern such as 「と思っていた」; 「かねて」 means "previously, for some time" (as in 「かねてから」); 「まさか」 requires negation or surprise (as in 「まさか〜とは」) — none works here.',
   },
   {
     kind: 'choice',
@@ -350,6 +424,8 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '「一概に」（一概地、籠統地）幾乎固定與否定形呼應，「一概に〜とは言えない」表示不能一概而論。「一途に」是專心一意地（如「一途に思い続ける」）；「一挙に」是一舉、一口氣地完成；「一心に」是聚精會神地，三者雖同為「一〜」副詞，都不與「言えず」搭配表達保留的態度。',
+    explanationEn:
+      '「一概に」 (sweepingly, as a blanket statement) almost always pairs with a negative; 「一概に〜とは言えない」 means one cannot generalize. 「一途に」 means single-mindedly (as in 「一途に思い続ける」); 「一挙に」 means at a single stroke; 「一心に」 means with wholehearted concentration — though all begin with 「一」, none pairs with 「言えず」 to express a reserved judgment.',
   },
   {
     kind: 'choice',
@@ -359,6 +435,8 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '「ぎっしり」形容東西塞得滿滿、毫無空隙的樣子，「予定がぎっしり詰まっている」是固定搭配。「がっくり」是失望氣餒或體力驟降的樣子（如「がっくり肩を落とす」）；「うっとり」是陶醉出神；「こっそり」是偷偷地行動，三者雖同為擬態語，都不能形容行程排滿。',
+    explanationEn:
+      '「ぎっしり」 depicts something packed solid with no gaps; 「予定がぎっしり詰まっている」 is a set collocation. 「がっくり」 depicts slumping in dejection or a sudden loss of strength (as in 「がっくり肩を落とす」); 「うっとり」 is being spellbound; 「こっそり」 is doing something on the sly — though all are mimetic words, none describes a jam-packed schedule.',
   },
   {
     kind: 'choice',
@@ -368,5 +446,7 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '「くよくよ」形容對已成定局的事耿耿於懷、想不開的樣子，「くよくよ悩む／くよくよする」是典型用法。「いそいそ」是滿心期待、興沖沖地行動；「ほくほく」是因好事而暗自竊喜；「のびのび」是無拘無束、自在舒展，三者的正面語感都與「悩む」矛盾。',
+    explanationEn:
+      '「くよくよ」 depicts fretting endlessly over what is already done and cannot be undone; 「くよくよ悩む／くよくよする」 is typical usage. 「いそいそ」 is bustling about in happy anticipation; 「ほくほく」 is quietly gleeful over good fortune; 「のびのび」 is feeling free and unconstrained — the upbeat tone of all three clashes with 「悩んでいても」.',
   },
 ]

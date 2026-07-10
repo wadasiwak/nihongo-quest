@@ -301,6 +301,8 @@ export const scene: KaiwaScene = {
       answerIndex: 0,
       explanation:
         '「名詞＋をお願いします」是點餐、劃位等場合請對方提供某物的固定句型，助詞用「を」。「に」表示對象或方向、「で」表示地點或手段，放在這裡都不合文法；「が」是主格助詞，和「お願いします」搭配不起來。',
+      explanationEn:
+        '「名詞＋をお願いします」 is the set pattern for requesting something — ordering food, choosing a seat, and so on — and the particle it takes is 「を」. 「に」 marks a target or direction and 「で」 marks a place or means, so neither fits grammatically here; 「が」 is the subject marker and simply does not combine with 「お願いします」.',
     },
     {
       kind: 'choice',
@@ -310,6 +312,8 @@ export const scene: KaiwaScene = {
       answerIndex: 0,
       explanation:
         '「〜たいです」要接在ます形語幹後面：「預けます」去掉「ます」變成「預け」，所以是「預けたいです」（我想託運）。「預ける」是辭書形，不能直接接「たい」；「預かる／預かり」是「替別人保管」，主詞方向相反，旅客託運行李不能用。',
+      explanationEn:
+        '「〜たいです」 attaches to the masu-stem: drop 「ます」 from 「預けます」 to get 「預け」, giving 「預けたいです」 (I want to check my luggage). 「預ける」 is the dictionary form and cannot take 「たい」 directly; 「預かる／預かり」 mean "to keep something for someone else" — the roles are reversed, so a passenger checking in luggage cannot use them.',
     },
     {
       kind: 'choice',
@@ -319,6 +323,8 @@ export const scene: KaiwaScene = {
       answerIndex: 0,
       explanation:
         '「〜はどこですか」是詢問地點的基本句型，用主題助詞「は」提示要問的東西。「を」用來標示他動詞的受詞，這句沒有他動詞；「へ」表示移動方向，後面要接「行きます」等移動動詞；「と」是並列助詞，放在這裡語意不通。',
+      explanationEn:
+        '「〜はどこですか」 is the basic pattern for asking where something is, with the topic particle 「は」 marking the thing you are asking about. 「を」 marks the object of a transitive verb, and there is no transitive verb in this sentence; 「へ」 indicates direction of movement and needs a motion verb like 「行きます」 after it; 「と」 is the linking particle "and," which makes no sense here.',
     },
     {
       kind: 'choice',
@@ -328,6 +334,8 @@ export const scene: KaiwaScene = {
       answerIndex: 0,
       explanation:
         '「〜てください」表示請求，前面要接動詞て形。「捨てます」是二類動詞，て形直接把「る」換成「て」，變成「捨てて」。「捨って」是誤把它當成一類動詞做促音便的錯誤形；「捨てる」是辭書形、「捨て」是ます形語幹，都不能直接接「ください」。',
+      explanationEn:
+        '「〜てください」 expresses a request and must follow the te-form of the verb. 「捨てる」 is a group 2 (ichidan) verb, so its te-form simply replaces 「る」 with 「て」, giving 「捨てて」. 「捨って」 is a mistaken form created by treating it as a group 1 verb with a double-consonant sound change; 「捨てる」 is the dictionary form and 「捨て」 is the masu-stem — neither can attach directly to 「ください」.',
     },
     {
       kind: 'order',
@@ -338,6 +346,8 @@ export const scene: KaiwaScene = {
       starIndex: 2,
       explanation:
         '正解語序是「この紙にホテルの名前を書いてください」。「ホテルの」是修飾「名前」的連體修飾語，必須緊接在「名前を」前面；「書いてください」是「て形＋ください」的請求句型，「書いて」後面只能接「ください」，所以整句只有一種自然語序，★處是「書いて」。',
+      explanationEn:
+        'The correct order is 「この紙にホテルの名前を書いてください」. 「ホテルの」 modifies 「名前」 and must come immediately before 「名前を」; 「書いてください」 is the te-form plus 「ください」 request pattern, so 「書いて」 can only be followed by 「ください」. That leaves exactly one natural word order, and the starred slot is 「書いて」.',
     },
     {
       kind: 'order',
@@ -348,6 +358,8 @@ export const scene: KaiwaScene = {
       starIndex: 1,
       explanation:
         '正解語序是「搭乗口まで歩いて五分ぐらいですよ」。「歩いて」表示移動手段，要放在所需的花費之前；「ぐらい」表示大約，必須緊接在數量「五分」後面，句尾再接「です」。若把「歩いて」移到「五分ぐらい」之後就不成句了。★處是「五分」。',
+      explanationEn:
+        'The correct order is 「搭乗口まで歩いて五分ぐらいですよ」. 「歩いて」 expresses the means of movement (on foot) and comes before the time it takes; 「ぐらい」 means "about" and must directly follow the quantity 「五分」, with 「です」 closing the sentence. Moving 「歩いて」 after 「五分ぐらい」 would break the sentence. The starred slot is 「五分」.',
     },
   ],
 }

@@ -278,6 +278,8 @@ export const scene: KaiwaScene = {
       answerIndex: 0,
       explanation:
         '回答人數時，一人、兩人要用特殊唸法「ひとり」「ふたり」。「ふたつ」是數一般物品的量詞，不能拿來數人；「にまい」是數紙張等薄平物的「〜枚」；「にほん」是數細長物的「〜本」，用在人身上都不對。',
+      explanationEn:
+        'When answering how many people are in your party, one and two people take the irregular readings 「ひとり」 and 「ふたり」. 「ふたつ」 is the general counter for things, not people; 「にまい」 uses the counter 〜枚 for flat objects like sheets of paper; 「にほん」 uses 〜本 for long thin objects — none of them can count people.',
     },
     {
       kind: 'choice',
@@ -287,6 +289,8 @@ export const scene: KaiwaScene = {
       answerIndex: 0,
       explanation:
         '「食べられません」是「食べる」的可能形否定，表示「不能吃」，最合過敏的語境。「たべりません」是不存在的錯誤活用；「たべらせません」是使役形否定，意思變成「不讓別人吃」，語意不合；「たべくません」也不是任何正確的活用形。',
+      explanationEn:
+        '「食べられません」 is the negative potential form of 「食べる」, meaning "I cannot eat (it)" — the right choice for explaining a food allergy. 「たべりません」 is a nonexistent conjugation; 「たべらせません」 is the negative causative, which would mean "I won\'t let someone eat," the wrong meaning here; and 「たべくません」 is not a valid form of any verb.',
     },
     {
       kind: 'choice',
@@ -296,6 +300,8 @@ export const scene: KaiwaScene = {
       answerIndex: 0,
       explanation:
         '請求某樣東西時用「（名詞）をお願いします」，助詞「を」標示請求的對象，所以正解是「を」。「が」是主格助詞，放在這裡語意不通；「に」表示對象或方向；「で」表示手段或場所，接在「お願いします」前面都不成立。',
+      explanationEn:
+        'To request something you use the pattern noun + 「をお願いします」, where 「を」 marks what you are asking for — so 「を」 is correct. 「が」 is the subject particle and makes no sense here; 「に」 marks a target or direction and 「で」 marks a means or place, and neither can sit before 「お願いします」 in this sentence.',
     },
     {
       kind: 'choice',
@@ -305,6 +311,8 @@ export const scene: KaiwaScene = {
       answerIndex: 0,
       explanation:
         '店員問「こちらで召し上がりますか」是在確認內用或外帶，外帶要說「持ち帰り」（もちかえり）。「持ち上げ」是「舉起」、「持ち物」是「隨身物品」、「引き換え」是「兌換」，語意都不合餐廳外帶的情境。',
+      explanationEn:
+        'The clerk\'s 「こちらで召し上がりますか」 asks whether you are eating in or taking out; for takeout you say 「持ち帰り」 (もちかえり). 「持ち上げ」 means "lifting up," 「持ち物」 means "personal belongings," and 「引き換え」 means "exchange/redemption" — none of them fit the takeout situation at a restaurant.',
     },
     {
       kind: 'order',
@@ -315,6 +323,8 @@ export const scene: KaiwaScene = {
       starIndex: 2,
       explanation:
         '正解語序是「わたしは たまごの 入った 料理に アレルギーが あります」。「たまごの入った」是修飾「料理」的連體修飾節，必須緊接在「りょうりに」前面；「〜にアレルギーがあります」表示對某物過敏，所以「りょうりに」要放在「アレルギー」之前。★ 是第三格的「りょうりに」。',
+      explanationEn:
+        'The correct order is 「わたしは たまごの 入った 料理に アレルギーが あります」. 「たまごの入った」 is a relative clause modifying 「料理」, so it must come directly before 「りょうりに」; the pattern 「〜にアレルギーがあります」 (to be allergic to something) requires 「りょうりに」 to precede 「アレルギー」. The starred third slot is 「りょうりに」.',
     },
     {
       kind: 'order',
@@ -325,6 +335,8 @@ export const scene: KaiwaScene = {
       starIndex: 1,
       explanation:
         '正解語序是「すみません、お会計は 別々に して ください」。先用「すみません」喚起店員注意，再以「〜は」提出話題；「別々にする」是「弄成分開的」，加上「〜てください」變成請求句，所以「べつべつに」之後接「して」。★ 是第二格的「おかいけいは」。',
+      explanationEn:
+        'The correct order is 「すみません、お会計は 別々に して ください」. You first catch the server\'s attention with 「すみません」, then present the topic with 「〜は」; 「別々にする」 means "to make it separate," and adding 「〜てください」 turns it into a request, so 「べつべつに」 must be followed by 「して」. The starred second slot is 「おかいけいは」.',
     },
   ],
 }

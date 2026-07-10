@@ -25,6 +25,8 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '部長雖稱讚設計「申し分ない」，卻指出切入點偏離客戶需求，並以「見た目でどうにかなる話じゃない」「骨組みから考え直したほうが」委婉否定只改視覺的提案，男の人也回答「コンセプトの部分から練り直します」。更換照片與色調是被否決的方案；估價被延到「構成が固まってから」；聯絡客戶由部長負責，都不是他現在該做的事。',
+    explanationEn:
+      'The department head praises the design as 「申し分ない」 but says the whole angle misses the client\'s brief, and she gently rejects a visual-only fix with 「見た目でどうにかなる話じゃない」 and 「骨組みから考え直したほうが」. The man then answers 「コンセプトの部分から練り直します」, so reworking the concept is his first task. Swapping photos and adjusting colors is the proposal she shot down; the cost estimate is postponed until 「構成が固まってから」; and contacting the client is something she says she will handle herself.',
   },
   {
     id: 'n1-listening-kadai-002',
@@ -50,6 +52,8 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '第三章統計出處不明，編輯長認為「そこが片付かないことには先へ進めない」，指示「今日中に連絡を取ってくれ」，她也回答「まず先生に当たります」，故第一件事是向作者查證出處。裝幀案被明言「催促しなくても今週中には来る」不必催；書腰文案「校了間際でも間に合う」不急；校閱早已提出疑義，無須再向校閱確認。',
+    explanationEn:
+      'The sourcing of the statistics in chapter three is unclear, and the editor-in-chief says 「そこが片付かないことには先へ進めない」 and orders 「今日中に連絡を取ってくれ」; she replies 「まず先生に当たります」, so her first task is to ask the author about the source. The cover design needs no chasing — it is due this week anyway (「催促しなくても今週中には来る」); the obi copy 「校了間際でも間に合う」, so it is not urgent; and the proofreaders have already raised their query, so there is nothing to confirm with them.',
   },
   {
     id: 'n1-listening-kadai-003',
@@ -75,6 +79,8 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '付款條件可能牴觸社內規定，課長以「自己判断で先方に回答して、後でひっくり返すのが一番まずい」暗示不能自行答覆，男の人於是說「法務部に条項の確認を依頼します」，這就是他的下一步。向對方要求修改得等法務見解出來，順序在後；日文翻譯已外包，只需等成品；簽約流程被「そのあとゆっくり詰めましょう」排到最後。',
+    explanationEn:
+      'The payment terms may violate internal rules, and the section chief hints he must not reply on his own judgment: 「自己判断で先方に回答して、後でひっくり返すのが一番まずい」. He therefore says 「法務部に条項の確認を依頼します」 — asking the legal department to review the clause is his next step. Requesting a revision from the other party must wait for legal\'s opinion, so it comes later; the Japanese translation is already outsourced and only needs waiting for; and the signing arrangements are pushed to the very end by 「そのあとゆっくり詰めましょう」.',
   },
   {
     id: 'n1-listening-kadai-004',
@@ -100,6 +106,8 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '部長判斷不良品集中在同一批次「穏やかじゃない」，明言「まず工場の検査記録を取り寄せて…のが先決」，所以她要先調出出廠檢驗紀錄。道歉文被「原因の見当がついてからでいい」延後；回收與否「データを見てからだ」尚未決定，貿然安排反而會讓「現場が混乱しかねない」；與公關協調是進到文案階段才需要的事。',
+    explanationEn:
+      'Seeing the defects clustered in one lot, the manager calls it 「穏やかじゃない」 and states plainly 「まず工場の検査記録を取り寄せて…のが先決」, so her first task is to obtain the factory\'s inspection records and check the shipment figures. The apology notice is deferred by 「案内文は原因の見当がついてからでいい」; whether to recall is 「データを見てからだ」 — undecided, and jumping ahead could leave the field 「混乱しかねない」; and coordinating with PR only becomes necessary once they reach the notice-drafting stage.',
   },
   {
     id: 'n1-listening-kadai-005',
@@ -125,6 +133,8 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '男の人提議逐一致電道歉，被リーダー以「個別の対応は営業に任せたほうがいい」婉拒，並指出「全体像が見えないと動きようがない」，他因而接下「影響を受けた顧客の一覧にまとめます」的工作，這是他的首要課題。致電客戶已改由業務負責；復原作業是基礎架構團隊在處理；是否對外發表由公關看過清單後判斷，皆非他現在該做的事。',
+    explanationEn:
+      'The man offers to phone every major customer with apologies, but the leader deflects it with 「個別の対応は営業に任せたほうがいい」 and points out 「全体像が見えないと動きようがない」. He then takes on the task himself: 「影響を受けた顧客の一覧にまとめます」 — compiling the list of affected customers is his first job. Apology calls have been reassigned to the sales team; the recovery work is being handled by the infrastructure team; and whether to make a public announcement is for PR to judge after seeing the list, so none of those are his immediate task.',
   },
   {
     id: 'n1-listening-kadai-006',
@@ -150,6 +160,8 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '男の人原想先詢問應徵者的時段，課長以「二度手間になるだけよ」點出順序不對——最終面試需要董事在場，得先向秘書室確認並鎖定董事的空檔，最後更強調「とにかく枠が先よ」。詢問候補者被明確排到之後（それからでも遅くない）；會議室已交代給助理田村處理；評分表「前日に刷れば十分」並不急。',
+    explanationEn:
+      'The man wanted to ask the candidates for their preferred dates first, but the section chief points out the order is wrong with 「二度手間になるだけよ」: the final interview requires executives to attend, so he must first check their availability with the secretariat and lock in slots — she even stresses 「とにかく枠が先よ」. Contacting the candidates is explicitly moved to afterward (「それからでも遅くない」); the meeting room is already entrusted to the assistant Tamura; and the evaluation sheets 「前日に刷れば十分」, so they are not urgent.',
   },
   {
     id: 'n1-listening-kadai-007',
@@ -175,6 +187,8 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '許可核發需時兩週，所長說「書類が今日明日のうちに警察署に出せないと工程全体がずれ込みかねない」，最後直接指示「君はまず申請だ」，她也回答下午就去送件，所以第一件事是提出道路使用許可申請。搬入日期要「許可が出てから」再與業者敲定；訪鄰打招呼由所長同行、排在下週；圖面修改已退回設計部門，輪不到她做。',
+    explanationEn:
+      'The permit takes two weeks, and the site manager warns 「書類が今日明日のうちに警察署に出せないと工程全体がずれ込みかねない」, then instructs her directly with 「君はまず申請だ」; she answers that she will submit the papers this afternoon, so filing the road-use permit application is her first task. The material delivery date is to be settled with the contractor 「許可が出てから」; the courtesy visits to neighbors are scheduled for next week with the manager along; and the drawing revisions have already been sent back to the design team, so they are not hers to do.',
   },
   {
     id: 'n1-listening-kadai-008',
@@ -200,6 +214,8 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       'プロデューサー以「口約束だけで…まずいんじゃない」「撮影自体が飛びかねない」暗示只有口頭允諾風險太大，男の人領會後說「承諾書の書式を今日お送りして」，故第一件事是把同意書格式寄給商店街組合。機材已「手配済み」；藝人檔期正由經紀人協調中，不是他親自處理；劇本修改被指示等許可「固まってから」再做。',
+    explanationEn:
+      'The producer signals that a verbal OK is too risky with 「口約束だけで…まずいんじゃない」 and 「撮影自体が飛びかねない」; the man takes the hint and says 「承諾書の書式を今日お送りして」, so sending the consent form to the shopping street association is his first task. The equipment is already 「手配済み」; the performers\' schedules are being coordinated by their manager, not by him personally; and the script revisions are told to wait until the permission is 「固まってから」.',
   },
   {
     id: 'n1-listening-kadai-009',
@@ -225,6 +241,8 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '她提議直接動筆寫草稿，律師以「いきなり書き始めるより…判例を当たって…もらえると助かる」委婉調整順序，要她先查類似案件的高等法院判決並整理論點，她最後也說「まず判例の調査から始めます」。草稿因此排在調查之後；向委託人回報由律師親自打電話；回覆對造代理人被「控えたほうがいい」擋下，現階段不能做。',
+    explanationEn:
+      'She proposes starting on the draft brief, but the lawyer gently reorders things with 「いきなり書き始めるより…判例を当たって…もらえると助かる」, asking her first to research how high courts ruled in similar cases and organize the points of contention; she closes with 「まず判例の調査から始めます」. The draft therefore comes after the research; the progress report to the client is a phone call the lawyer will make himself; and replying to the opposing counsel is blocked for now by 「控えたほうがいい」 until the strategy is set.',
   },
   {
     id: 'n1-listening-kadai-010',
@@ -250,6 +268,8 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '係長認可文案「ほぼいい」，卻對照片授權提出疑問，再以「用途が変われば話は別」「後から揉めるのが一番困る」暗示不能沿用舊授權，男の人於是說要向攝影者重新確認使用許諾，這是他的首要工作。發給記者俱樂部要等「課長の決裁が下りてから」；社群告知是佐藤的職掌；文案本身已獲肯定，不需重寫。',
+    explanationEn:
+      'The chief approves the text as 「ほぼいい」 but questions the photo\'s usage permission, hinting the old clearance cannot be reused: 「用途が変われば話は別」 and 「後から揉めるのが一番困る」. The man then says he will confirm the permission with the photographer again — that is his first task. Delivering the release to the press club must wait until 「課長の決裁が下りてから」; the social media announcement is Sato\'s responsibility; and the text itself has already been approved, so no rewrite is needed.',
   },
   {
     id: 'n1-listening-kadai-011',
@@ -275,6 +295,8 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '主任指出誤出貨集中在同一張揀貨單，強調同批貨「出てしまってからでは手の打ちようがない」，最後說「とにかく午後の便が先だ」，所以她要先在裝車前核對下午出貨的內容物。印表機檢修被「機械のせいなら品番が軒並みずれるはず」委婉否定；補寄替代品是業務部門的既定職責；盤點庫存被延到「週末の定例」，都不是她現在的首要工作。',
+    explanationEn:
+      'The supervisor notes the mis-shipments trace to one picking list, stresses that once the same batch goes out 「出てしまってからでは手の打ちようがない」, and finishes with 「とにかく午後の便が先だ」 — so her first task is to verify the contents of the afternoon shipment before loading. The printer inspection is gently dismissed with 「機械のせいなら品番が軒並みずれるはず」; sending replacement goods is by rule the sales team\'s job, handled together with the apology; and the stock recount is pushed to the regular weekend stocktake, so none of those come first.',
   },
   {
     id: 'n1-listening-kadai-012',
@@ -300,6 +322,8 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '教授肯定投影片架構，卻點出關鍵圖表只有一次測量資料，並以「文献でいくら固めても…立ち往生よ」委婉否定用先行研究補強的提案，要他「同じ条件でもう一度測って」，他也答應本週內重測，故第一件事是重做實驗補數據。增加文獻引用是被婉拒的方案；完成投影片被延到「データが出そろってから」；聯絡學會事務局由教授親自處理。',
+    explanationEn:
+      'The professor approves the slide structure but flags that the key graph rests on a single measurement, and she gently rejects shoring it up with prior studies — 「文献でいくら固めても…立ち往生よ」 — telling him to 「同じ条件でもう一度測って」. He agrees to re-measure within the week, so redoing the experiment to gather data is his first task. Adding citations is the proposal she turned down; finishing the slides is deferred until 「データが出そろってから」; and contacting the conference secretariat is something the professor will do herself.',
   },
   {
     id: 'n1-listening-kadai-013',
@@ -325,6 +349,8 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '男の人提議逐一致電向患者道歉，被事務長以「何件あるかも分からないうちに動くと、かえって混乱を招く」婉拒，並指示「まず請求データを洗い出して…一覧を作るのが筋」，他也回答要比對上月資料做成清單，這就是首要工作。致電道歉是被擋下的提案；退費安排要等「一覧ができてから」再與會計課討論；向系統公司查原因由事務長那邊負責。',
+    explanationEn:
+      'The man proposes phoning every affected patient with apologies, but the administrator stops him with 「何件あるかも分からないうちに動くと、かえって混乱を招く」 and directs 「まず請求データを洗い出して…一覧を作るのが筋」; he agrees to cross-check last month\'s data and build the list, which is his first task. The apology calls are the rejected proposal; the refund arrangements will be worked out with the accounting section only 「一覧ができてから」; and querying the system vendor about the cause is being handled from the administrator\'s side.',
   },
   {
     id: 'n1-listening-kadai-014',
@@ -350,6 +376,8 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '她提議先答應幹事再改座位表，部長以「安請け合いして…取り返しがつかない」婉拒，點出「一番きついのは厨房」，她於是說要去向主廚確認能否加二十份餐，部長也肯定「まずそこだ」。回覆幹事是被擋下的輕率承諾；調整桌位配置要等「厨房の返事を聞いてから」；追加飲料交由負責的吉田處理，皆非她現在該做的事。',
+    explanationEn:
+      'She suggests accepting the extra guests first and redoing the seating chart, but the manager rejects the hasty promise with 「安請け合いして…取り返しがつかない」 and pinpoints that 「一番きついのは厨房」. She then says she will check with the head chef whether twenty extra meals are possible, and the manager confirms 「まずそこだ」. Replying yes to the organizer is the rash commitment he blocked; rethinking the table layout waits until 「厨房の返事を聞いてから」; and the extra drinks are left to Yoshida, the person in charge — none of these are her immediate task.',
   },
   {
     id: 'n1-listening-kadai-015',
@@ -375,6 +403,8 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '男の人提議先訂機票，局長以「チケットが先というのはどうかしら」「全部無駄になりかねない」委婉否定，指出簽證申請必須有主辦方的邀請函，「うちがそれを出さないことには、先方は身動きが取れない」，他於是說今天就把邀請函寄給講者，這是首要工作。訂機票是被婉拒的提案；住宿已交給合作旅行社；手冊履歷「今やることじゃない」，時程在下個月。',
+    explanationEn:
+      'The man proposes booking the flight first, but the director demurs with 「チケットが先というのはどうかしら」 and 「全部無駄になりかねない」: the visa application requires an invitation letter from the host — 「うちがそれを出さないことには、先方は身動きが取れない」. He then says he will send the invitation letter to the speaker today, which is his first task. Booking flights is the proposal she waved off; the hotel has already been passed to the partner travel agency; and the program-booklet biography 「今やることじゃない」, since the deadline is early next month.',
   },
   {
     id: 'n1-listening-kadai-016',
@@ -400,6 +430,8 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '課長認為短少多半是「入力と現物の食い違い」，指示「今日の伝票を一枚ずつ端末の記録と突き合わせるのが定石」，她也回答要清查今天全部傳票，故第一件事是逐張核對傳票與終端機紀錄。報警被「届けを出すような話かどうか、まだ分からない」委婉否定；向總行通報被延到「原因の見当がついてから」；ATM 清點由承辦的森さん負責中。',
+    explanationEn:
+      'The section chief judges the shortfall is most likely 「入力と現物の食い違い」 and instructs that 「今日の伝票を一枚ずつ端末の記録と突き合わせるのが定石」; she answers that she will go through all of today\'s slips, so matching each slip against the terminal records is her first task. Going to the police is gently dismissed with 「届けを出すような話かどうか、まだ分からない」; reporting to head office is postponed until 「原因の見当がついてから」; and the ATM audit is already being done by Mori, the person in charge.',
   },
   {
     id: 'n1-listening-kadai-017',
@@ -425,6 +457,8 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '男の人想先改圖面給業主看，所長以「構造が成り立たない案をお見せしてぬか喜びさせるほうが、よほど罪じゃない？」委婉否定，他領會後說要先請結構事務所做耐震檢討、確認方案是否成立，所長也肯定「まずそこから」。重畫圖面是被擋下的提案；重算概估報價被延到「案が固まってから」；答覆業主由所長在下次會議上親自進行。',
+    explanationEn:
+      'The man wants to redraw the plans and show the client, but the director rebuffs it with 「構造が成り立たない案をお見せしてぬか喜びさせるほうが、よほど罪じゃない？」. Taking the hint, he says he will first ask the structural engineering office for a seismic review to confirm the atrium is feasible, and she endorses it with 「まずそこから」. Redrawing the plans is the blocked proposal; revising the rough estimate is deferred until 「案が固まってから」; and answering the client will be done by the director herself at the next meeting.',
   },
   {
     id: 'n1-listening-kadai-018',
@@ -450,6 +484,8 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '她提議請劇場延期，演出家以「かえって傷口を広げるだけ」「最後の手段に取っておこう」委婉否定；接著她提出去問候補代角村井，演出家表示「彼の都合がつくかどうかで打つ手が全部変わってくる」並要求「今日中に返事をもらってくれ」，所以第一件事是聯絡代角確認能否演出。延期是被擋下的方案；對觀眾的告知要等「配役が決まってから」；傷者的治療交由本人與經紀人處理。',
+    explanationEn:
+      'Her idea of asking the theater to postpone is rejected with 「かえって傷口を広げるだけ」 and 「最後の手段に取っておこう」. She then suggests approaching Murai, the long-floated understudy, and the director says 「彼の都合がつくかどうかで打つ手が全部変わってくる」 and orders 「今日中に返事をもらってくれ」 — so contacting the understudy to confirm his availability is her first task. Postponement is the option shelved as a last resort; notifying the audience waits until 「配役が決まってから」; and the injured actor\'s treatment is left to him and his manager.',
   },
   {
     id: 'n1-listening-kadai-019',
@@ -475,6 +511,8 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '男の人想透過報關士向海關說情放行，被課長以「お願いでどうにかなる筋のものじゃない」「正しい証明書がない限り、一歩も動かない」委婉否定，他於是說今天就請出口商重發證明書，課長也肯定「それが先決」。向海關說情是被擋下的提案；倉租減免交涉被延到「荷物が出る目処が立ってから」；通知客戶延遲由業務窗口出面，他只需彙整狀況。',
+    explanationEn:
+      'The man hopes to have the customs broker plead their case, but the section chief rejects it: 「お願いでどうにかなる筋のものじゃない」 and 「正しい証明書がない限り、一歩も動かない」. He then says he will ask the exporter today to reissue the certificate of origin, and she confirms 「それが先決」 — so requesting the reissue is his first task. Explaining things to customs is the proposal she shot down; negotiating a warehouse-fee reduction is deferred until 「荷物が出る目処が立ってから」; and informing the customer of the delay is properly the sales desk\'s job — he only needs to hand over a summary of the situation.',
   },
   {
     id: 'n1-listening-kadai-020',
@@ -500,5 +538,7 @@ export const questions: JlptQuestion[] = [
     answerIndex: 0,
     explanation:
       '她提議寄民間公寓清單讓留學生自己找，課長以「現実には難しい」「放り出すようなものだ」委婉否定，她改口說要向宿舍管理處確認有無因辭退空出的床位，課長也肯定「まずそれだ」，故第一件事是向宿舍管理處確認空房。寄公寓清單是被擋下的提案；洽詢合作學生會館是宿舍沒空位時才由課長出面；說明會資料被延到「来日の日程が固まってから」。',
+    explanationEn:
+      'Her plan to send a list of private apartments is rejected by the section chief as 「現実には難しい」 — signing privately from abroad means guarantors and move-in fees — and 「放り出すようなものだ」. She revises course: check with the dormitory office whether any spots opened up through withdrawals, and he confirms 「まずそれだ」, so that is her first task. Sending the apartment list is the blocked proposal; approaching the affiliated student hall is a fallback the chief himself will pursue only if no dorm space exists; and the orientation materials are deferred until 「来日の日程が固まってから」.',
   },
 ]
