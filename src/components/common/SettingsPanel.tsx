@@ -4,6 +4,7 @@
  */
 import { useRef, useState } from 'react'
 import { exportData, useProgress } from '../../store/progress'
+import { useLang, useT } from '../../lib/i18n'
 import '../review/review.css'
 
 const RATE_MIN = 0.5
@@ -16,6 +17,9 @@ export function SettingsPanel() {
   const importData = useProgress((s) => s.importData)
   const fileRef = useRef<HTMLInputElement>(null)
   const [msg, setMsg] = useState<{ ok: boolean; text: string } | null>(null)
+  const T = useT()
+  const lang = useLang((s) => s.lang)
+  const setLang = useLang((s) => s.setLang)
 
   const handleExport = () => {
     const blob = new Blob([exportData()], { type: 'application/json' })
@@ -25,7 +29,7 @@ export function SettingsPanel() {
     a.download = 'nihongo-quest-backup.json'
     a.click()
     URL.revokeObjectURL(url)
-    setMsg({ ok: true, text: '已匯出備份檔 nihongo-quest-backup.json。' })
+    setMsg({ ok: true, text: T.exportedMsg })
   }
 
   const handleImportFile = async (file: File | undefined) => {
@@ -34,10 +38,10 @@ export function SettingsPanel() {
       const text = await file.text()
       const ok = importData(text)
       setMsg(ok
-        ? { ok: true, text: '匯入成功！學習進度已還原。' }
-        : { ok: false, text: '匯入失敗：檔案格式不對（要選 nihongo-quest 匯出的備份檔）。' })
+        ? { ok: true, text: T.importOk }
+        : { ok: false, text: T.importBadFormat })
     } catch {
-      setMsg({ ok: false, text: '匯入失敗：讀不到這個檔案。' })
+      setMsg({ ok: false, text: T.importReadFail })
     }
     if (fileRef.current) fileRef.current.value = ''
   }
@@ -46,15 +50,35 @@ export function SettingsPanel() {
     <div className="sp-panel">
       <div className="sp-row">
         <div className="sp-label-line">
-          <span className="sp-label">朗讀語速</span>
+          <span className="sp-label">{T.languageLabel}</span>
+          <span className="sp-actions">
+            <button
+              className={`sp-btn-sm${lang === 'zh' ? ' sp-btn-sm--on' : ''}`}
+              onClick={() => setLang('zh')}
+            >
+              中文
+            </button>
+            <button
+              className={`sp-btn-sm${lang === 'en' ? ' sp-btn-sm--on' : ''}`}
+              onClick={() => setLang('en')}
+            >
+              English
+            </button>
+          </span>
+        </div>
+      </div>
+
+      <div className="sp-row">
+        <div className="sp-label-line">
+          <span className="sp-label">{T.ttsRateLabel}</span>
           <span className="sp-value">
             {settings.ttsRate === null
-              ? '自動（依級別）'
+              ? T.autoByLevel
               : `${settings.ttsRate.toFixed(2)}×`}
           </span>
           {settings.ttsRate !== null && (
             <button className="sp-btn-sm" onClick={() => updateSettings({ ttsRate: null })}>
-              重設為自動
+              {T.resetAuto}
             </button>
           )}
         </div>
@@ -66,7 +90,7 @@ export function SettingsPanel() {
           step={RATE_STEP}
           value={settings.ttsRate ?? 0.9}
           onChange={(e) => updateSettings({ ttsRate: Number(e.target.value) })}
-          aria-label="朗讀語速"
+          aria-label={T.ttsRateLabel}
         />
       </div>
 
@@ -76,7 +100,7 @@ export function SettingsPanel() {
           checked={settings.showFurigana}
           onChange={(e) => updateSettings({ showFurigana: e.target.checked })}
         />
-        顯示假名注音（振り仮名）
+        {T.showFuriganaLabel}
       </label>
 
       <label className="sp-toggle">
@@ -85,15 +109,15 @@ export function SettingsPanel() {
           checked={settings.showTranslation}
           onChange={(e) => updateSettings({ showTranslation: e.target.checked })}
         />
-        顯示中文翻譯
+        {T.showTranslationLabel}
       </label>
 
       <div className="sp-row">
-        <span className="sp-label">資料備份</span>
+        <span className="sp-label">{T.backupLabel}</span>
         <div className="sp-actions">
-          <button className="rv-btn-ghost" onClick={handleExport}>匯出備份</button>
+          <button className="rv-btn-ghost" onClick={handleExport}>{T.exportBtn}</button>
           <button className="rv-btn-ghost" onClick={() => fileRef.current?.click()}>
-            匯入備份
+            {T.importBtn}
           </button>
           <input
             ref={fileRef}
@@ -109,8 +133,7 @@ export function SettingsPanel() {
       </div>
 
       <p className="sp-note">
-        學習進度只存在這台裝置的瀏覽器（localStorage），不會上傳到任何伺服器。
-        換裝置或清瀏覽器資料前，記得先「匯出備份」，再到新環境「匯入備份」還原。
+        {T.storageNote}
       </p>
     </div>
   )

@@ -6,15 +6,17 @@ import { scenes } from '../../content/kaiwa'
 import { LEVEL_LABEL } from '../../content/registry'
 import type { KaiwaScene } from '../../content/types'
 import { useView } from '../../state'
+import { sceneTitle, useT } from '../../lib/i18n'
 import './kaiwa.css'
 
-const CATEGORIES: Array<{ key: KaiwaScene['category']; label: string }> = [
-  { key: 'tourism', label: '觀光日語' },
-  { key: 'business', label: '商務・專業' },
+const CATEGORIES: Array<{ key: KaiwaScene['category']; labelKey: 'catTourism' | 'catBusiness' }> = [
+  { key: 'tourism', labelKey: 'catTourism' },
+  { key: 'business', labelKey: 'catBusiness' },
 ]
 
 function SceneCard({ scene }: { scene: KaiwaScene }) {
   const setView = useView((s) => s.setView)
+  const T = useT()
   return (
     <button
       type="button"
@@ -23,11 +25,11 @@ function SceneCard({ scene }: { scene: KaiwaScene }) {
     >
       <span className="kaiwa-card-icon" aria-hidden="true">{scene.icon}</span>
       <span className="kaiwa-card-body">
-        <span className="kaiwa-card-title">{scene.title}</span>
+        <span className="kaiwa-card-title">{sceneTitle(scene.title, scene.titleJa)}</span>
         <span className="kaiwa-card-title-ja">{scene.titleJa}</span>
         <span className="kaiwa-card-meta">
-          <span className="kaiwa-badge">建議 {LEVEL_LABEL[scene.suggestedLevel]}</span>
-          <span>{scene.dialogues.length} 段對話・{scene.phrases.length} 常用句</span>
+          <span className="kaiwa-badge">{T.suggested(LEVEL_LABEL[scene.suggestedLevel])}</span>
+          <span>{T.sceneMeta(scene.dialogues.length, scene.phrases.length)}</span>
         </span>
       </span>
     </button>
@@ -35,22 +37,23 @@ function SceneCard({ scene }: { scene: KaiwaScene }) {
 }
 
 export function KaiwaHome() {
+  const T = useT()
   if (scenes.length === 0) {
     return (
       <div className="kaiwa-home">
-        <div className="kaiwa-empty">情境會話內容建置中，敬請期待。</div>
+        <div className="kaiwa-empty">{T.kaiwaEmpty}</div>
       </div>
     )
   }
   return (
     <div className="kaiwa-home">
-      {CATEGORIES.map(({ key, label }) => {
+      {CATEGORIES.map(({ key, labelKey }) => {
         const group = scenes.filter((s) => s.category === key)
         return (
           <section key={key}>
-            <h2 className="kaiwa-section-title">{label}</h2>
+            <h2 className="kaiwa-section-title">{T[labelKey]}</h2>
             {group.length === 0 ? (
-              <div className="kaiwa-empty">內容建置中</div>
+              <div className="kaiwa-empty">{T.building}</div>
             ) : (
               <div className="kaiwa-grid">
                 {group.map((scene) => (

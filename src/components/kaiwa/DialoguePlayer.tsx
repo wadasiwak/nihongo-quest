@@ -8,8 +8,8 @@ import { useEffect, useRef, useState } from 'react'
 import type { Dialogue } from '../../content/types'
 import { PITCH, speak, stopSpeaking, ttsInit } from '../../lib/tts'
 import { useProgress } from '../../store/progress'
+import { useT } from '../../lib/i18n'
 
-const NO_VOICE_TIP = '此裝置沒有日文語音，無法播放'
 
 interface Props {
   dialogues: Dialogue[]
@@ -20,6 +20,8 @@ interface Props {
 
 export function DialoguePlayer({ dialogues, rate, canPlay }: Props) {
   const settings = useProgress((s) => s.settings)
+  const T = useT()
+  const NO_VOICE_TIP = T.noVoiceTip
   const updateSettings = useProgress((s) => s.updateSettings)
   /** 目前高亮：{ 段 id, 行 index }；null = 沒在播 */
   const [playing, setPlaying] = useState<{ dialogueId: string; line: number } | null>(null)
@@ -64,14 +66,14 @@ export function DialoguePlayer({ dialogues, rate, canPlay }: Props) {
           className={`kaiwa-toggle${settings.showFurigana ? ' on' : ''}`}
           onClick={() => updateSettings({ showFurigana: !settings.showFurigana })}
         >
-          假名 {settings.showFurigana ? 'ON' : 'OFF'}
+          {T.furiganaToggle(settings.showFurigana)}
         </button>
         <button
           type="button"
           className={`kaiwa-toggle${settings.showTranslation ? ' on' : ''}`}
           onClick={() => updateSettings({ showTranslation: !settings.showTranslation })}
         >
-          {settings.showTranslation ? '中文 ON' : '隱藏中文（練聽力）'}
+          {settings.showTranslation ? T.translationOn : T.translationOff}
         </button>
       </div>
 
@@ -89,11 +91,11 @@ export function DialoguePlayer({ dialogues, rate, canPlay }: Props) {
                   title={canPlay ? undefined : NO_VOICE_TIP}
                   onClick={() => void playAll(d)}
                 >
-                  ▶ 整段連播
+                  {T.playAllDialogue}
                 </button>
                 {isPlayingThis && (
                   <button type="button" className="kaiwa-play-btn" onClick={stop}>
-                    ■ 停止
+                    {T.stopBtn}
                   </button>
                 )}
               </div>
@@ -115,8 +117,8 @@ export function DialoguePlayer({ dialogues, rate, canPlay }: Props) {
                           type="button"
                           className="kaiwa-line-play"
                           disabled={!canPlay}
-                          title={canPlay ? '唸這一行' : NO_VOICE_TIP}
-                          aria-label="唸這一行"
+                          title={canPlay ? T.playThisLine : NO_VOICE_TIP}
+                          aria-label={T.playThisLine}
                           onClick={() => void playLine(d, i)}
                         >
                           ▶

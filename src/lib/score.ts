@@ -4,6 +4,7 @@
  * 合格線（總分/單科下限）照官方公開值；本站題數是縮編版，估分按答對率
  * 線性換算——僅供參考，UI 必須標注。
  */
+import { t } from './i18n'
 import type { JlptQuestion, Level, Section, UnitSlug } from '../content/types'
 import { units } from '../content/registry'
 import type { SessionItem, SessionPlan } from './session'
@@ -61,7 +62,7 @@ export function mockPlan(level: Level, questionsByUnit: Record<string, JlptQuest
     timeLimitSec += picked.length * SEC_PER_ITEM[unit.section]
   }
   if (items.length === 0) return null
-  return { mode: 'mock', title: `${level.toUpperCase()} 迷你模擬考`, items, timeLimitSec }
+  return { mode: 'mock', title: t().mockPlanTitle(level.toUpperCase()), items, timeLimitSec }
 }
 
 export interface MockSection {

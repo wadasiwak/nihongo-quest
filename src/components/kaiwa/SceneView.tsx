@@ -9,6 +9,7 @@ import { LEVEL_LABEL } from '../../content/registry'
 import { rateForLevel, stopSpeaking, ttsInit } from '../../lib/tts'
 import { useProgress } from '../../store/progress'
 import { useView } from '../../state'
+import { sceneTitle, useT } from '../../lib/i18n'
 import { DialoguePlayer } from './DialoguePlayer'
 import { PhraseList } from './PhraseList'
 import { SceneDrill } from './SceneDrill'
@@ -16,16 +17,17 @@ import './kaiwa.css'
 
 type Tab = 'dialogue' | 'phrases' | 'drill'
 
-const TABS: Array<{ key: Tab; label: string }> = [
-  { key: 'dialogue', label: '對話' },
-  { key: 'phrases', label: '常用句' },
-  { key: 'drill', label: '練習' },
+const TABS: Array<{ key: Tab; labelKey: 'tabDialogue' | 'tabPhrases' | 'tabDrill' }> = [
+  { key: 'dialogue', labelKey: 'tabDialogue' },
+  { key: 'phrases', labelKey: 'tabPhrases' },
+  { key: 'drill', labelKey: 'tabDrill' },
 ]
 
 export function SceneView({ sceneId }: { sceneId: string }) {
   const setView = useView((s) => s.setView)
   const ttsRate = useProgress((s) => s.settings.ttsRate)
   const [tab, setTab] = useState<Tab>('dialogue')
+  const T = useT()
   /** null = 檢查中；false = 確定無日文 voice（播放鈕降級） */
   const [voiceOk, setVoiceOk] = useState<boolean | null>(null)
 
@@ -46,10 +48,10 @@ export function SceneView({ sceneId }: { sceneId: string }) {
       <div className="scene-view">
         <div className="scene-head">
           <button type="button" className="scene-back" onClick={() => setView({ name: 'kaiwa' })}>
-            ← 返回
+            {T.back}
           </button>
         </div>
-        <div className="kaiwa-empty">找不到這個場景，內容可能還在建置中。</div>
+        <div className="kaiwa-empty">{T.sceneNotFound}</div>
       </div>
     )
   }
@@ -61,13 +63,13 @@ export function SceneView({ sceneId }: { sceneId: string }) {
     <div className="scene-view">
       <div className="scene-head">
         <button type="button" className="scene-back" onClick={() => setView({ name: 'kaiwa' })}>
-          ← 返回
+          {T.back}
         </button>
         <div className="scene-head-titles">
           <div className="scene-head-title">
             <span aria-hidden="true">{scene.icon}</span>
-            <span>{scene.title}</span>
-            <span className="kaiwa-badge">建議 {LEVEL_LABEL[scene.suggestedLevel]}</span>
+            <span>{sceneTitle(scene.title, scene.titleJa)}</span>
+            <span className="kaiwa-badge">{T.suggested(LEVEL_LABEL[scene.suggestedLevel])}</span>
           </div>
           <div className="scene-head-title-ja">{scene.titleJa}</div>
         </div>
@@ -75,12 +77,12 @@ export function SceneView({ sceneId }: { sceneId: string }) {
 
       {voiceOk === false && (
         <div className="scene-tts-note">
-          此裝置沒有日文語音，播放功能停用——文字內容仍可正常閱讀。
+          {T.sceneTtsNote}
         </div>
       )}
 
       <div className="scene-tabs" role="tablist">
-        {TABS.map(({ key, label }) => (
+        {TABS.map(({ key, labelKey }) => (
           <button
             key={key}
             type="button"
@@ -92,14 +94,14 @@ export function SceneView({ sceneId }: { sceneId: string }) {
               setTab(key)
             }}
           >
-            {label}
+            {T[labelKey]}
           </button>
         ))}
       </div>
 
       {tab === 'dialogue' &&
         (scene.dialogues.length === 0 ? (
-          <div className="kaiwa-empty">對話內容建置中</div>
+          <div className="kaiwa-empty">{T.dialogueEmpty}</div>
         ) : (
           <DialoguePlayer dialogues={scene.dialogues} rate={rate} canPlay={canPlay} />
         ))}

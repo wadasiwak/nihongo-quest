@@ -6,6 +6,7 @@
 import { useState } from 'react'
 import type { ScriptLine } from '../../content/types'
 import { speak, speakLines, stopSpeaking, ttsInit } from '../../lib/tts'
+import { useT } from '../../lib/i18n'
 
 export interface TTSButtonProps {
   /** 按鈕文字，預設「▶ 播放」 */
@@ -27,7 +28,7 @@ export interface TTSButtonProps {
 }
 
 export function TTSButton({
-  label = '▶ 播放',
+  label,
   text,
   lines,
   rate = 1,
@@ -39,6 +40,8 @@ export function TTSButton({
   onNoVoice,
 }: TTSButtonProps) {
   const [playing, setPlaying] = useState(false)
+  const T = useT()
+  const btnLabel = label ?? T.playDefault
 
   const handleClick = async () => {
     if (disabled) return
@@ -65,7 +68,7 @@ export function TTSButton({
   return (
     <span className="qz-tts-wrap" title={disabled ? disabledTooltip : undefined}>
       <button type="button" className={cls} disabled={disabled} onClick={() => void handleClick()}>
-        {playing ? '⏸ 停止' : label}
+        {playing ? T.stopPlaying : btnLabel}
       </button>
     </span>
   )

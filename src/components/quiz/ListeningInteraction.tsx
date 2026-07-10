@@ -8,6 +8,7 @@ import { jaVoiceAvailable, stopSpeaking, ttsInit, ttsSupported } from '../../lib
 import TTSButton from '../common/TTSButton'
 import SpeedControl from '../common/SpeedControl'
 import { CIRCLED, makeOrder, type AnswerDetail } from './ChoiceInteraction'
+import { useT } from '../../lib/i18n'
 
 export const MOCK_PLAY_LIMIT = 2
 
@@ -34,6 +35,7 @@ export function ListeningInteraction({
   // eslint-disable-next-line react-hooks/exhaustive-deps
   const order = useMemo(() => makeOrder(question.options.length), [question.id])
   const correctDisplay = order.indexOf(question.answerIndex)
+  const T = useT()
   const [degraded, setDegraded] = useState(() => !ttsSupported())
   const [plays, setPlays] = useState(0)
 
@@ -53,26 +55,26 @@ export function ListeningInteraction({
 
   const playsLeft = Math.max(0, MOCK_PLAY_LIMIT - plays)
   const playDisabled = degraded || (mock && playsLeft <= 0)
-  const noVoiceTip = '此瀏覽器無日文語音'
+  const noVoiceTip = T.noVoiceShort
   const spoken = question.spokenOptions === true
 
   return (
     <div className="qz-interaction">
-      {degraded && <div className="qz-banner">此瀏覽器無日文語音，聽解改為閱讀腳本練習</div>}
+      {degraded && <div className="qz-banner">{T.degradedBanner}</div>}
       <div className="qz-listen-bar">
         <TTSButton
-          label={mock && !degraded ? `▶ 播放（剩 ${playsLeft} 次）` : '▶ 播放'}
+          label={mock && !degraded ? T.playLeft(playsLeft) : T.play}
           lines={question.script}
           rate={rate}
           disabled={playDisabled}
-          disabledTooltip={degraded ? noVoiceTip : '播放次數已用完'}
+          disabledTooltip={degraded ? noVoiceTip : T.playsUsedUp}
           onPlay={() => setPlays((p) => p + 1)}
           onNoVoice={() => setDegraded(true)}
         />
         {question.question !== '' && (
           <TTSButton
             small
-            label="🔈 唸問題"
+            label={T.readQuestion}
             text={question.question}
             rate={rate}
             disabled={degraded}

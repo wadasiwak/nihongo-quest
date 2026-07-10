@@ -10,23 +10,24 @@ import { LEVEL_LABEL, unitById } from '../../content/registry'
 import type { WrongEntry } from '../../store/progress'
 import { dueWrongIds, useProgress } from '../../store/progress'
 import { useView } from '../../state'
+import { t, unitTitle, useT } from '../../lib/i18n'
 import { QuizSession } from '../quiz/QuizSession'
 import './review.css'
 
 function previewText(item: SessionItem | undefined): string {
-  if (!item) return '（題目已下架，找不到內容）'
+  if (!item) return t().itemGone
   const q = item.question
   let text: string
   if (q.kind === 'choice') text = q.stem
   else if (q.kind === 'order') text = `${q.before}＿＿＿★＿＿＿${q.after}`
-  else text = q.question || q.script[0]?.text || '（聽解題）'
+  else text = q.question || q.script[0]?.text || t().listeningItem
   return text.length > 44 ? `${text.slice(0, 44)}…` : text
 }
 
 function unitLabel(item: SessionItem | undefined): string | null {
   if (!item) return null
   const u = unitById[item.unitId]
-  return u ? `${LEVEL_LABEL[u.level]}・${u.title}` : item.unitId
+  return u ? `${LEVEL_LABEL[u.level]}・${unitTitle(u)}` : item.unitId
 }
 
 function WrongRow({ id, entry, item, due }: {
@@ -36,17 +37,18 @@ function WrongRow({ id, entry, item, due }: {
   due?: boolean
 }) {
   const label = unitLabel(item)
+  const T = useT()
   return (
     <li className="rv-item" key={id}>
       <div className="rv-item-stem">{previewText(item)}</div>
       <div className="rv-item-meta">
         {label && <span className="rv-badge">{label}</span>}
-        {due && <span className="rv-badge rv-badge-due">今日到期</span>}
-        <span>錯 {entry.count} 次</span>
+        {due && <span className="rv-badge rv-badge-due">{T.dueBadge}</span>}
+        <span>{T.wrongTimes(entry.count)}</span>
         {entry.cleared
-          ? <span>已克服 ✓</span>
-          : <span>連對進度 {entry.streak}/2</span>}
-        <span>下次複習 {entry.nextDue}</span>
+          ? <span>{T.clearedMark}</span>
+          : <span>{T.streakProgress(entry.streak)}</span>}
+        <span>{T.nextReview(entry.nextDue)}</span>
       </div>
     </li>
   )
@@ -55,6 +57,7 @@ function WrongRow({ id, entry, item, due }: {
 export function WrongBook() {
   const wrong = useProgress((s) => s.wrong)
   const setView = useView((s) => s.setView)
+  const T = useT()
   const [plan, setPlan] = useState<SessionPlan | null>(null)
 
   const index = useMemo(() => itemIndex(questionsByUnit), [])
@@ -83,11 +86,11 @@ export function WrongBook() {
   if (Object.keys(wrong).length === 0) {
     return (
       <div className="rv-view">
-        <h2 className="rv-title">錯題本</h2>
+        <h2 className="rv-title">{T.wrongTitle}</h2>
         <div className="rv-empty">
-          <p>還沒有錯題，去做題吧！</p>
-          <p>做題時答錯的題目會自動收進來，隔 1／3／7 天提醒你重刷。</p>
-          <button className="rv-btn" onClick={() => setView({ name: 'home' })}>去做題</button>
+          <p>{T.wrongEmpty1}</p>
+          <p>{T.wrongEmpty2}</p>
+          <button className="rv-btn" onClick={() => setView({ name: 'home' })}>{T.goPractice}</button>
         </div>
       </div>
     )
@@ -101,16 +104,16 @@ export function WrongBook() {
   return (
     <div className="rv-view">
       <div className="rv-head">
-        <h2 className="rv-title">錯題本</h2>
+        <h2 className="rv-title">{T.wrongTitle}</h2>
         <button className="rv-btn" onClick={startReview} disabled={dueIds.length === 0}>
-          重刷到期錯題（{dueIds.length}）
+          {T.redoDue(dueIds.length)}
         </button>
       </div>
-      <p className="rv-sub">答錯後隔 1／3／7 天到期重現；連續答對 2 次即視為克服。</p>
+      <p className="rv-sub">{T.wrongSub}</p>
 
-      <h3 className="rv-section-h">今日到期（{dueIds.length}）</h3>
+      <h3 className="rv-section-h">{T.dueSection(dueIds.length)}</h3>
       {dueIds.length === 0
-        ? <div className="rv-empty">今天沒有到期的錯題，太棒了！</div>
+        ? <div className="rv-empty">{T.noDueToday}</div>
         : (
           <ul className="rv-list">
             {dueIds.map((id) => (
@@ -119,9 +122,9 @@ export function WrongBook() {
           </ul>
         )}
 
-      <h3 className="rv-section-h">全部未克服（{uncleared.length}）</h3>
+      <h3 className="rv-section-h">{T.unclearedSection(uncleared.length)}</h3>
       {uncleared.length === 0
-        ? <div className="rv-empty">所有錯題都克服了！</div>
+        ? <div className="rv-empty">{T.allCleared}</div>
         : (
           <ul className="rv-list">
             {uncleared.map(([id, entry]) => (
@@ -132,7 +135,7 @@ export function WrongBook() {
 
       {cleared.length > 0 && (
         <details className="rv-details">
-          <summary>已克服（{cleared.length}）</summary>
+          <summary>{T.clearedSection(cleared.length)}</summary>
           <ul className="rv-list">
             {cleared.map(([id, entry]) => (
               <WrongRow key={id} id={id} entry={entry} item={index.get(id)} />

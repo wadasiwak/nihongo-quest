@@ -5,8 +5,8 @@
 import { useEffect, useRef, useState } from 'react'
 import type { Phrase } from '../../content/types'
 import { speak, stopSpeaking, ttsInit } from '../../lib/tts'
+import { useT } from '../../lib/i18n'
 
-const NO_VOICE_TIP = '此裝置沒有日文語音，無法播放'
 
 interface Props {
   phrases: Phrase[]
@@ -15,6 +15,8 @@ interface Props {
 }
 
 export function PhraseList({ phrases, rate, canPlay }: Props) {
+  const T = useT()
+  const NO_VOICE_TIP = T.noVoiceTip
   const [playingIdx, setPlayingIdx] = useState<number | null>(null)
   const [playingAll, setPlayingAll] = useState(false)
   const playSeq = useRef(0)
@@ -55,7 +57,7 @@ export function PhraseList({ phrases, rate, canPlay }: Props) {
   }
 
   if (phrases.length === 0) {
-    return <div className="kaiwa-empty">常用句內容建置中</div>
+    return <div className="kaiwa-empty">{T.phrasesEmpty}</div>
   }
 
   return (
@@ -68,11 +70,11 @@ export function PhraseList({ phrases, rate, canPlay }: Props) {
           title={canPlay ? undefined : NO_VOICE_TIP}
           onClick={() => void playAll()}
         >
-          ▶ 全部連播
+          {T.playAllPhrases}
         </button>
         {(playingAll || playingIdx !== null) && (
           <button type="button" className="kaiwa-play-btn" onClick={stop}>
-            ■ 停止
+            {T.stopBtn}
           </button>
         )}
       </div>
@@ -83,8 +85,8 @@ export function PhraseList({ phrases, rate, canPlay }: Props) {
               type="button"
               className="kaiwa-line-play"
               disabled={!canPlay}
-              title={canPlay ? '唸這一句' : NO_VOICE_TIP}
-              aria-label="唸這一句"
+              title={canPlay ? T.playThisPhrase : NO_VOICE_TIP}
+              aria-label={T.playThisPhrase}
               onClick={() => void playOne(i)}
             >
               ▶

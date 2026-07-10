@@ -10,6 +10,7 @@ import type { SessionItem, SessionPlan } from '../../lib/session'
 import { scoreMock, type MockResultSummary } from '../../lib/score'
 import { rateForLevel, stopSpeaking } from '../../lib/tts'
 import { todayKey } from '../../lib/rng'
+import { useT } from '../../lib/i18n'
 import { useProgress } from '../../store/progress'
 import { ChoiceInteraction, type AnswerDetail } from './ChoiceInteraction'
 import { OrderInteraction } from './OrderInteraction'
@@ -65,6 +66,7 @@ export function QuizSession({ plan, level, onExit }: QuizSessionProps) {
   const recordMock = useProgress((s) => s.recordMock)
   const recordDaily = useProgress((s) => s.recordDaily)
   const settings = useProgress((s) => s.settings)
+  const T = useT()
 
   const [idx, setIdx] = useState(0)
   const [phase, setPhase] = useState<'answer' | 'feedback' | 'done'>('answer')
@@ -115,9 +117,9 @@ export function QuizSession({ plan, level, onExit }: QuizSessionProps) {
   if (items.length === 0) {
     return (
       <div className="qz">
-        <p className="qz-empty">本次練習沒有題目。</p>
+        <p className="qz-empty">{T.noItems}</p>
         <div className="qz-actions">
-          <button type="button" className="qz-btn qz-btn--primary" onClick={onExit}>返回</button>
+          <button type="button" className="qz-btn qz-btn--primary" onClick={onExit}>{T.ret}</button>
         </div>
       </div>
     )
@@ -156,7 +158,7 @@ export function QuizSession({ plan, level, onExit }: QuizSessionProps) {
 
   const confirmSubmit = () => {
     const un = records.filter((r) => r === null).length
-    const msg = un > 0 ? `還有 ${un} 題未作答，確定要交卷嗎？` : '確定要交卷嗎？'
+    const msg = un > 0 ? T.submitConfirmLeft(un) : T.submitConfirm
     if (window.confirm(msg)) finalizeMock()
   }
 
@@ -177,7 +179,7 @@ export function QuizSession({ plan, level, onExit }: QuizSessionProps) {
   }
 
   const handleExit = () => {
-    if (isMock && phase !== 'done' && !window.confirm('確定要離開嗎？本次作答不會計分。')) return
+    if (isMock && phase !== 'done' && !window.confirm(T.leaveConfirm)) return
     stopSpeaking()
     onExit()
   }
@@ -204,17 +206,17 @@ export function QuizSession({ plan, level, onExit }: QuizSessionProps) {
   return (
     <div className="qz">
       <header className="qz-head">
-        <button type="button" className="qz-btn qz-btn--ghost" onClick={handleExit}>← 離開</button>
+        <button type="button" className="qz-btn qz-btn--ghost" onClick={handleExit}>{T.leave}</button>
         <span className="qz-title">{plan.title}</span>
         {isMock && plan.timeLimitSec ? <Timer secondsLeft={secondsLeft} /> : null}
         {isMock && (
-          <button type="button" className="qz-btn qz-btn--warn" onClick={confirmSubmit}>交卷</button>
+          <button type="button" className="qz-btn qz-btn--warn" onClick={confirmSubmit}>{T.submit}</button>
         )}
       </header>
       <div className="qz-progressbar">
         <div className="qz-progressbar-fill" style={{ width: `${((idx + 1) / items.length) * 100}%` }} />
       </div>
-      <div className="qz-counter">第 {idx + 1} / {items.length} 題</div>
+      <div className="qz-counter">{T.counter(idx + 1, items.length)}</div>
       {item.passage && run && (
         <PassagePanel key={item.passage.id} passage={item.passage} index={run.x} total={run.y} />
       )}
@@ -250,11 +252,11 @@ export function QuizSession({ plan, level, onExit }: QuizSessionProps) {
       <div className="qz-actions">
         {isMock ? (
           <button type="button" className="qz-btn qz-btn--primary" onClick={mockNext}>
-            {idx + 1 < items.length ? (rec ? '下一題 →' : '略過 →') : '交卷'}
+            {idx + 1 < items.length ? (rec ? T.next : T.skip) : T.submit}
           </button>
         ) : revealed ? (
           <button type="button" className="qz-btn qz-btn--primary" onClick={goNext}>
-            {idx + 1 < items.length ? '下一題 →' : '完成'}
+            {idx + 1 < items.length ? T.next : T.finish}
           </button>
         ) : null}
       </div>

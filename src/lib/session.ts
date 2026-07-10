@@ -4,6 +4,7 @@
  */
 import type { ChoiceQuestion, JlptQuestion, ListeningQuestion, OrderQuestion } from '../content/types'
 import { unitById } from '../content/registry'
+import { t, unitTitle } from './i18n'
 import { seededShuffle } from './rng'
 
 export type LeafQuestion = ChoiceQuestion | OrderQuestion | ListeningQuestion
@@ -79,7 +80,7 @@ export function drillPlan(unitId: string, questionsByUnit: Record<string, JlptQu
   if (!unit || !questions?.length) return null
   return {
     mode: 'drill',
-    title: `${unit.level.toUpperCase()}・${unit.title}`,
+    title: `${unit.level.toUpperCase()}・${unitTitle(unit)}`,
     items: flattenUnit(unitId, questions),
   }
 }
@@ -92,7 +93,7 @@ export function dailyPlan(questionsByUnit: Record<string, JlptQuestion[]>, dateK
   if (pool.length === 0) return null
   pool.sort((a, b) => a.question.id.localeCompare(b.question.id))
   const items = seededShuffle(pool, `daily-${dateKey}`).slice(0, DAILY_SIZE)
-  return { mode: 'daily', title: `每日一練 ${dateKey}`, items }
+  return { mode: 'daily', title: t().dailyPlanTitle(dateKey), items }
 }
 
 /** 錯題本重刷：由到期錯題 id 組卷（上限 20 題） */
@@ -100,5 +101,5 @@ export function reviewPlan(dueIds: string[], questionsByUnit: Record<string, Jlp
   const index = itemIndex(questionsByUnit)
   const items = dueIds.map((id) => index.get(id)).filter((x): x is SessionItem => Boolean(x)).slice(0, 20)
   if (items.length === 0) return null
-  return { mode: 'review', title: `錯題重刷（${items.length} 題）`, items }
+  return { mode: 'review', title: t().reviewPlanTitle(items.length), items }
 }

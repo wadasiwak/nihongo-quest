@@ -7,6 +7,7 @@ import type { Level, Section } from '../../content/types'
 import { LEVELS, LEVEL_LABEL, SECTION_LABEL, unitById, units } from '../../content/registry'
 import { dailyStreak, dueWrongIds, useProgress } from '../../store/progress'
 import { useView } from '../../state'
+import { sectionLabel, unitTitle, useLang, useT } from '../../lib/i18n'
 import './review.css'
 
 const SECTIONS: Section[] = ['vocab', 'grammar', 'reading', 'listening']
@@ -29,6 +30,8 @@ export function StatsView() {
   const dailyDone = useProgress((s) => s.dailyDone)
   const mockBest = useProgress((s) => s.mockBest)
   const setView = useView((s) => s.setView)
+  const T = useT()
+  const lang = useLang((s) => s.lang)
 
   const { agg, unitRows } = useMemo(() => {
     const agg: Partial<Record<Level, Partial<Record<Section, { a: number; c: number }>>>> = {}
@@ -42,14 +45,14 @@ export function StatsView() {
       cell.c += s.correct
       rows.push({
         unitId: u.unitId,
-        label: `${LEVEL_LABEL[u.level]}・${u.title}`,
+        label: `${LEVEL_LABEL[u.level]}・${unitTitle(u)}`,
         attempted: s.attempted,
         correct: s.correct,
         acc: pct(s.correct, s.attempted),
       })
     }
     return { agg, unitRows: rows }
-  }, [unitStats])
+  }, [unitStats, lang])
 
   const weakest = useMemo(
     () => unitRows
@@ -73,11 +76,11 @@ export function StatsView() {
   if (unitRows.length === 0) {
     return (
       <div className="rv-view">
-        <h2 className="rv-title">學習統計</h2>
+        <h2 className="rv-title">{T.statsTitle}</h2>
         <div className="rv-empty">
-          <p>還沒有作答紀錄，先去做幾題吧！</p>
-          <p>做題後這裡會顯示各級別、各科目的正確率與弱點分析。</p>
-          <button className="rv-btn" onClick={() => setView({ name: 'home' })}>去做題</button>
+          <p>{T.statsEmpty1}</p>
+          <p>{T.statsEmpty2}</p>
+          <button className="rv-btn" onClick={() => setView({ name: 'home' })}>{T.goPractice}</button>
         </div>
       </div>
     )
@@ -85,11 +88,11 @@ export function StatsView() {
 
   return (
     <div className="rv-view">
-      <h2 className="rv-title">學習統計</h2>
+      <h2 className="rv-title">{T.statsTitle}</h2>
 
       {weakest.length > 0 && (
         <div className="st-weak">
-          <h3>最弱 3 單元（作答 ≥{MIN_ATTEMPTED_FOR_WEAK} 題）——點一下去補強</h3>
+          <h3>{T.weakTitle(MIN_ATTEMPTED_FOR_WEAK)}</h3>
           {weakest.map((r) => (
             <button key={r.unitId} className="st-unit-row" onClick={() => gotoDrill(r.unitId)}>
               <span className="st-unit-name">{r.label}</span>
@@ -101,13 +104,13 @@ export function StatsView() {
         </div>
       )}
 
-      <h3 className="rv-section-h">級別 × 科目正確率</h3>
+      <h3 className="rv-section-h">{T.accTable}</h3>
       <div className="st-table-wrap">
         <table className="st-table">
           <thead>
             <tr>
-              <th>級別</th>
-              {SECTIONS.map((sec) => <th key={sec}>{SECTION_LABEL[sec]}</th>)}
+              <th>{T.levelCol}</th>
+              {SECTIONS.map((sec) => <th key={sec}>{sectionLabel(sec, SECTION_LABEL[sec])}</th>)}
             </tr>
           </thead>
           <tbody>
@@ -131,34 +134,34 @@ export function StatsView() {
         </table>
       </div>
 
-      <h3 className="rv-section-h">總覽</h3>
+      <h3 className="rv-section-h">{T.overview}</h3>
       <div className="st-tiles">
         <div className="st-tile">
-          <div className="st-tile-label">每日一練連續打卡</div>
-          <div className="st-tile-value">{streak}<small>天</small></div>
+          <div className="st-tile-label">{T.streakTile}</div>
+          <div className="st-tile-value">{streak}<small>{T.daysUnit}</small></div>
         </div>
         <div className="st-tile">
-          <div className="st-tile-label">錯題本・未克服</div>
-          <div className="st-tile-value">{unclearedCount}<small>題（今日到期 {dueCount}）</small></div>
+          <div className="st-tile-label">{T.wrongUnclearedTile}</div>
+          <div className="st-tile-value">{unclearedCount}<small>{T.qUnit}{T.wrongUnclearedVal(dueCount)}</small></div>
         </div>
         <div className="st-tile">
-          <div className="st-tile-label">錯題本・已克服</div>
-          <div className="st-tile-value">{clearedCount}<small>題</small></div>
+          <div className="st-tile-label">{T.wrongClearedTile}</div>
+          <div className="st-tile-value">{clearedCount}<small>{T.qUnit}</small></div>
         </div>
         {mockLevels.map((l) => (
           <div className="st-tile" key={l}>
-            <div className="st-tile-label">{LEVEL_LABEL[l]} 模考最佳</div>
+            <div className="st-tile-label">{T.mockBestTile(LEVEL_LABEL[l])}</div>
             <div className="st-tile-value">
-              {mockBest[l]!.score}<small>分・{mockBest[l]!.date}</small>
+              {mockBest[l]!.score}<small>{T.mockBestVal(mockBest[l]!.date)}</small>
             </div>
           </div>
         ))}
       </div>
       <p className="rv-sub">
-        <button className="rv-btn-ghost" onClick={() => setView({ name: 'wrong' })}>前往錯題本</button>
+        <button className="rv-btn-ghost" onClick={() => setView({ name: 'wrong' })}>{T.goWrong}</button>
       </p>
 
-      <h3 className="rv-section-h">各單元明細（點一下可去練習）</h3>
+      <h3 className="rv-section-h">{T.unitDetail}</h3>
       <div>
         {unitRows.map((r) => (
           <button key={r.unitId} className="st-unit-row" onClick={() => gotoDrill(r.unitId)}>

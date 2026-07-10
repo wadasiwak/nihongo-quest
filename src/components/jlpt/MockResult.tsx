@@ -9,6 +9,7 @@ import type { SessionItem } from '../../lib/session'
 import type { ItemRecord } from '../quiz/QuizSession'
 import { CIRCLED } from '../quiz/ChoiceInteraction'
 import { chosenAnswerText, correctAnswerText, stemText } from '../quiz/SessionResult'
+import { useT } from '../../lib/i18n'
 
 export interface MockResultProps {
   level: Level
@@ -20,14 +21,15 @@ export interface MockResultProps {
 }
 
 export function MockResult({ level, summary, items, records, onRetry, onExit }: MockResultProps) {
+  const T = useT()
   return (
     <div className="qz qz-result">
-      <h2>{LEVEL_LABEL[level]} 迷你模擬考結果</h2>
+      <h2>{T.mockResultTitle(LEVEL_LABEL[level])}</h2>
       <div className={`qz-verdict ${summary.pass ? 'qz-verdict--pass' : 'qz-verdict--fail'}`}>
-        {summary.pass ? '合格（估）🎉' : '未達合格線（估）'}
+        {summary.pass ? T.passEst : T.failEst}
       </div>
       <div className="qz-total">
-        總分（估）<b>{summary.total}</b> / {summary.totalMax}　合格線 {summary.passLineTotal}
+        {T.totalEst}<b>{summary.total}</b> / {summary.totalMax}　{T.passLineLabel(summary.passLineTotal)}
       </div>
       <div className="qz-sections">
         {summary.sections.map((s) => (
@@ -35,7 +37,7 @@ export function MockResult({ level, summary, items, records, onRetry, onExit }: 
             <div className="qz-section-label">
               <span>{s.label}</span>
               <span className="qz-section-nums">
-                {s.score} / {s.max}（答對 {s.correct}/{s.total}，單科線 {s.passLine}）
+                {T.sectionNums(s.score, s.max, s.correct, s.total, s.passLine)}
               </span>
             </div>
             <div className="qz-bar">
@@ -49,9 +51,9 @@ export function MockResult({ level, summary, items, records, onRetry, onExit }: 
         ))}
       </div>
       <p className="qz-disclaimer">
-        ⚠️ 本站為縮編模擬、估分僅供參考：題數為官方縮編版，估分依答對率線性換算，與正式 JLPT 成績無直接對應。
+        {T.mockResultDisclaimer}
       </p>
-      <h3>逐題回顧</h3>
+      <h3>{T.reviewHeader}</h3>
       <ul className="qz-review-list">
         {items.map((item, i) => {
           const rec = records[i]
@@ -67,7 +69,7 @@ export function MockResult({ level, summary, items, records, onRetry, onExit }: 
                   <span className="qz-review-stem" lang="ja">
                     {i + 1}. {stemText(q)}
                   </span>
-                  {!rec && <span className="qz-tag">未作答</span>}
+                  {!rec && <span className="qz-tag">{T.unanswered}</span>}
                 </summary>
                 <div className="qz-review-body">
                   {q.kind === 'listening' && (
@@ -92,8 +94,8 @@ export function MockResult({ level, summary, items, records, onRetry, onExit }: 
                           <div key={disp} className={cls}>
                             <span className="qz-opt-num">{CIRCLED[disp] ?? disp + 1}</span>
                             <span lang="ja">{q.options[orig]}</span>
-                            {isCorrect && <span className="qz-tag qz-tag--ok">正解</span>}
-                            {isChosen && <span className="qz-tag">你的選擇</span>}
+                            {isCorrect && <span className="qz-tag qz-tag--ok">{T.correctTag}</span>}
+                            {isChosen && <span className="qz-tag">{T.yourChoiceTag}</span>}
                           </div>
                         )
                       })}
@@ -101,10 +103,10 @@ export function MockResult({ level, summary, items, records, onRetry, onExit }: 
                   ) : (
                     <>
                       <p>
-                        你的答案：<span lang="ja">{chosenAnswerText(q, rec)}</span>
+                        {T.yourAnswerLabel}<span lang="ja">{chosenAnswerText(q, rec)}</span>
                       </p>
                       <p>
-                        正解：<span lang="ja">{correctAnswerText(q)}</span>
+                        {T.correctAnswerLabel}<span lang="ja">{correctAnswerText(q)}</span>
                       </p>
                     </>
                   )}
@@ -116,8 +118,8 @@ export function MockResult({ level, summary, items, records, onRetry, onExit }: 
         })}
       </ul>
       <div className="qz-actions">
-        <button type="button" className="qz-btn qz-btn--primary" onClick={onRetry}>再考一次</button>
-        <button type="button" className="qz-btn" onClick={onExit}>離開</button>
+        <button type="button" className="qz-btn qz-btn--primary" onClick={onRetry}>{T.retryExam}</button>
+        <button type="button" className="qz-btn" onClick={onExit}>{T.exit}</button>
       </div>
     </div>
   )

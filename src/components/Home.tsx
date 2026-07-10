@@ -7,6 +7,7 @@ import { cardsByLevel } from '../content/cards'
 import { useProgress, dailyStreak, dueWrongIds } from '../store/progress'
 import { useView } from '../state'
 import { todayKey } from '../lib/rng'
+import { useLang, useT } from '../lib/i18n'
 import { SettingsPanel } from './common/SettingsPanel'
 import './home.css'
 
@@ -14,6 +15,9 @@ export function Home() {
   const setView = useView((s) => s.setView)
   const { dailyDone, wrong } = useProgress()
   const [showSettings, setShowSettings] = useState(false)
+  const T = useT()
+  const lang = useLang((s) => s.lang)
+  const setLang = useLang((s) => s.setLang)
 
   const today = todayKey()
   const doneToday = dailyDone[today]
@@ -25,24 +29,30 @@ export function Home() {
   return (
     <div className="home">
       <header className="home-header">
-        <h1>日語道場</h1>
-        <p className="home-sub">JLPT N5～N1 原創練習題・觀光與商務情境會話</p>
+        <button
+          type="button"
+          className="lang-btn"
+          aria-label={lang === 'en' ? '切換為中文介面' : 'Switch to English'}
+          onClick={() => setLang(lang === 'en' ? 'zh' : 'en')}
+        >
+          {lang === 'en' ? '中文' : 'EN'}
+        </button>
+        <h1>{T.appTitle}</h1>
+        <p className="home-sub">{T.appSub}</p>
       </header>
 
       {hasAnyContent && (
         <button className="daily-banner" onClick={() => setView({ name: 'daily' })}>
           <span className="daily-icon">📅</span>
           <span className="daily-text">
-            {doneToday
-              ? `今日一練完成 ${doneToday.score}/${doneToday.total}`
-              : '每日一練——全球同一天、同一組題'}
+            {doneToday ? T.dailyDoneBanner(doneToday.score, doneToday.total) : T.dailyPrompt}
           </span>
-          {streak > 0 && <span className="daily-streak">🔥 {streak} 天</span>}
+          {streak > 0 && <span className="daily-streak">{T.streakDays(streak)}</span>}
         </button>
       )}
 
       <section>
-        <h2>JLPT 級別練習</h2>
+        <h2>{T.jlptSection}</h2>
         <div className="level-grid">
           {LEVELS.map((level) => {
             const levelUnits = units.filter((u) => u.level === level)
@@ -61,7 +71,7 @@ export function Home() {
               >
                 <span className="level-name">{LEVEL_LABEL[level]}</span>
                 <span className="level-meta">
-                  {empty ? '內容準備中' : `${count} 題・${filled.length}/${levelUnits.length} 題型`}
+                  {empty ? T.contentPreparing : T.levelMeta(count, filled.length, levelUnits.length)}
                 </span>
               </button>
             )
@@ -71,14 +81,18 @@ export function Home() {
 
       {scenes.length > 0 && (
         <section>
-          <h2>情境會話</h2>
+          <h2>{T.kaiwaSection}</h2>
           <div className="entry-grid">
             <button className="entry-card" onClick={() => setView({ name: 'kaiwa' })}>
               <span className="entry-icon">🗾</span>
-              <span className="entry-title">觀光・商務會話</span>
+              <span className="entry-title">{T.kaiwaEntry}</span>
               <span className="entry-meta">
-                {scenes.filter((s) => s.category === 'tourism').length}/{KAIWA_SCENE_IDS.tourism.length} 觀光・
-                {scenes.filter((s) => s.category === 'business').length}/{KAIWA_SCENE_IDS.business.length} 商務
+                {T.kaiwaEntryMeta(
+                  scenes.filter((s) => s.category === 'tourism').length,
+                  KAIWA_SCENE_IDS.tourism.length,
+                  scenes.filter((s) => s.category === 'business').length,
+                  KAIWA_SCENE_IDS.business.length,
+                )}
               </span>
             </button>
           </div>
@@ -87,24 +101,26 @@ export function Home() {
 
       {(cardLevels.length > 0 || hasAnyContent) && (
         <section>
-          <h2>複習工具</h2>
+          <h2>{T.reviewSection}</h2>
           <div className="entry-grid">
             {cardLevels.length > 0 && (
               <button className="entry-card" onClick={() => setView({ name: 'cards', level: cardLevels[0] })}>
                 <span className="entry-icon">🃏</span>
-                <span className="entry-title">單字卡</span>
-                <span className="entry-meta">間隔複習 {cardLevels.map((l) => LEVEL_LABEL[l]).join('・')}</span>
+                <span className="entry-title">{T.cardsEntry}</span>
+                <span className="entry-meta">
+                  {T.cardsEntryMeta(cardLevels.map((l) => LEVEL_LABEL[l]).join('・'))}
+                </span>
               </button>
             )}
             <button className="entry-card" onClick={() => setView({ name: 'wrong' })}>
               <span className="entry-icon">📕</span>
-              <span className="entry-title">錯題本</span>
-              <span className="entry-meta">{dueWrong > 0 ? `今日到期 ${dueWrong} 題` : '答錯自動收錄'}</span>
+              <span className="entry-title">{T.wrongEntry}</span>
+              <span className="entry-meta">{dueWrong > 0 ? T.wrongEntryDue(dueWrong) : T.wrongEntryEmpty}</span>
             </button>
             <button className="entry-card" onClick={() => setView({ name: 'stats' })}>
               <span className="entry-icon">📊</span>
-              <span className="entry-title">弱點統計</span>
-              <span className="entry-meta">找出最需要加強的題型</span>
+              <span className="entry-title">{T.statsEntry}</span>
+              <span className="entry-meta">{T.statsEntryMeta}</span>
             </button>
           </div>
         </section>
@@ -112,12 +128,11 @@ export function Home() {
 
       <footer className="home-footer">
         <button className="link-btn" onClick={() => setShowSettings((v) => !v)}>
-          ⚙ 設定{showSettings ? '（收合）' : ''}
+          {T.settingsBtn}
+          {showSettings ? T.settingsCollapse : ''}
         </button>
         {showSettings && <SettingsPanel />}
-        <p className="fine-print">
-          本站為個人學習輔助工具，與 JLPT 主辦單位無關；題目皆為原創、模擬考估分僅供參考。
-        </p>
+        <p className="fine-print">{T.finePrint}</p>
         <p className="fine-print">© 2026 wadasiwak. All rights reserved.</p>
       </footer>
     </div>

@@ -8,11 +8,13 @@ import { cardsByLevel } from '../../content/cards'
 import { LEVELS, LEVEL_LABEL } from '../../content/registry'
 import { todayKey } from '../../lib/rng'
 import { useProgress } from '../../store/progress'
+import { useT } from '../../lib/i18n'
 import { FlashcardSession } from './FlashcardSession'
 import './cards.css'
 
 export function DeckHome({ level }: { level?: Level }) {
   const srs = useProgress((s) => s.srs)
+  const T = useT()
   const [active, setActive] = useState<Level | null>(
     level && cardsByLevel[level]?.length ? level : null,
   )
@@ -27,10 +29,10 @@ export function DeckHome({ level }: { level?: Level }) {
   if (available.length === 0) {
     return (
       <div className="dk-view">
-        <h2 className="dk-title">單字卡</h2>
+        <h2 className="dk-title">{T.cardsTitle}</h2>
         <div className="dk-empty">
-          <p>單字卡建置中，敬請期待！</p>
-          <p>之後會有 N5～N1 各級單字卡，用間隔複習幫你記牢。</p>
+          <p>{T.cardsEmpty1}</p>
+          <p>{T.cardsEmpty2}</p>
         </div>
       </div>
     )
@@ -38,8 +40,8 @@ export function DeckHome({ level }: { level?: Level }) {
 
   return (
     <div className="dk-view">
-      <h2 className="dk-title">單字卡</h2>
-      <p className="dk-sub">間隔複習（SRS）：到期的卡優先，每次最多帶 10 張新卡。</p>
+      <h2 className="dk-title">{T.cardsTitle}</h2>
+      <p className="dk-sub">{T.srsNote}</p>
       <div className="dk-grid">
         {available.map((l) => {
           const cards = cardsByLevel[l] ?? []
@@ -49,12 +51,12 @@ export function DeckHome({ level }: { level?: Level }) {
             <div className="dk-card" key={l}>
               <div className="dk-level">{LEVEL_LABEL[l]}</div>
               <div className="dk-stats">
-                <span>共 <strong>{cards.length}</strong>張</span>
-                <span className="dk-due">今日到期 <strong>{due}</strong>張</span>
-                <span>新卡 <strong>{fresh}</strong>張</span>
+                <span>{T.totalCards(cards.length)}</span>
+                <span className="dk-due">{T.dueCards(due)}</span>
+                <span>{T.newCards(fresh)}</span>
               </div>
               <button className="fc-flip-btn" onClick={() => setActive(l)}>
-                開始複習
+                {T.startReview}
               </button>
             </div>
           )

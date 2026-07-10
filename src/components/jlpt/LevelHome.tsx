@@ -4,6 +4,7 @@ import { LEVEL_LABEL, SECTION_LABEL, units } from '../../content/registry'
 import { questionsByUnit } from '../../content/jlpt'
 import { useProgress } from '../../store/progress'
 import { useView } from '../../state'
+import { sectionLabel, unitGoal, unitTitle, useT } from '../../lib/i18n'
 import './levelhome.css'
 
 const SECTIONS: Section[] = ['vocab', 'grammar', 'reading', 'listening']
@@ -11,6 +12,7 @@ const SECTIONS: Section[] = ['vocab', 'grammar', 'reading', 'listening']
 export function LevelHome({ level }: { level: Level }) {
   const setView = useView((s) => s.setView)
   const { unitStats, mockBest } = useProgress()
+  const T = useT()
 
   const levelUnits = units.filter((u) => u.level === level)
   const filled = levelUnits.filter((u) => questionsByUnit[u.unitId]?.length)
@@ -20,18 +22,18 @@ export function LevelHome({ level }: { level: Level }) {
   return (
     <div className="level-home">
       <header className="page-header">
-        <button className="back-btn" onClick={() => setView({ name: 'home' })}>← 首頁</button>
-        <h1>{LEVEL_LABEL[level]} 練習</h1>
+        <button className="back-btn" onClick={() => setView({ name: 'home' })}>{T.backHome}</button>
+        <h1>{T.levelPractice(LEVEL_LABEL[level])}</h1>
       </header>
 
-      {filled.length === 0 && <p className="empty-note">此級內容準備中，敬請期待。</p>}
+      {filled.length === 0 && <p className="empty-note">{T.levelEmpty}</p>}
 
       {SECTIONS.map((section) => {
         const sectionUnits = filled.filter((u) => u.section === section)
         if (sectionUnits.length === 0) return null
         return (
           <section key={section}>
-            <h2>{SECTION_LABEL[section]}</h2>
+            <h2>{sectionLabel(section, SECTION_LABEL[section])}</h2>
             <div className="unit-list">
               {sectionUnits.map((u) => {
                 const qs = questionsByUnit[u.unitId]
@@ -40,10 +42,11 @@ export function LevelHome({ level }: { level: Level }) {
                 const acc = stat && stat.attempted > 0 ? Math.round((stat.correct / stat.attempted) * 100) : null
                 return (
                   <button key={u.unitId} className="unit-row" onClick={() => setView({ name: 'drill', unitId: u.unitId })}>
-                    <span className="unit-title">{u.title}</span>
-                    <span className="unit-goal">{u.goal}</span>
+                    <span className="unit-title">{unitTitle(u)}</span>
+                    <span className="unit-goal">{unitGoal(u)}</span>
                     <span className="unit-meta">
-                      {count} 題{acc !== null && `・正確率 ${acc}%`}
+                      {T.unitMetaCount(count)}
+                      {acc !== null && T.unitMetaAcc(acc)}
                     </span>
                   </button>
                 )
@@ -54,16 +57,17 @@ export function LevelHome({ level }: { level: Level }) {
       })}
 
       <section>
-        <h2>模擬考</h2>
+        <h2>{T.mockSection}</h2>
         {mockReady ? (
           <button className="mock-entry" onClick={() => setView({ name: 'mock', level })}>
-            <span className="unit-title">🎯 {LEVEL_LABEL[level]} 迷你模擬考</span>
+            <span className="unit-title">🎯 {T.mockTitle(LEVEL_LABEL[level])}</span>
             <span className="unit-meta">
-              照官方配分縮編・計時作答・估分僅供參考{best && `｜最佳 ${best.score}/180`}
+              {T.mockEntryMeta}
+              {best && T.mockBestSuffix(best.score)}
             </span>
           </button>
         ) : (
-          <p className="empty-note">四科內容齊全後開放模擬考。</p>
+          <p className="empty-note">{T.mockLocked}</p>
         )}
       </section>
     </div>

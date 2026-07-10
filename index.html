@@ -2,6 +2,12 @@
 <html lang="zh-Hant-TW">
   <head>
     <meta charset="UTF-8" />
+    <script>
+      // 介面語言（nq-lang）先於 widget/app 套用到 <html lang>，頁尾導流 widget 據此切語言
+      try {
+        if (localStorage.getItem('nq-lang') === 'en') document.documentElement.lang = 'en'
+      } catch (e) {}
+    </script>
     <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
     <link rel="apple-touch-icon" href="./apple-touch-icon.png" />
     <link rel="manifest" href="./manifest.webmanifest" />

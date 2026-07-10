@@ -9,6 +9,7 @@ import { questionsByUnit } from '../../content/jlpt'
 import { todayKey } from '../../lib/rng'
 import { dailyStreak, useProgress } from '../../store/progress'
 import { useView } from '../../state'
+import { useT } from '../../lib/i18n'
 import { QuizSession } from '../quiz/QuizSession'
 import './review.css'
 
@@ -17,12 +18,13 @@ type Phase = 'quiz' | 'result' | 'replay'
 export function DailyChallenge() {
   const dailyDone = useProgress((s) => s.dailyDone)
   const setView = useView((s) => s.setView)
+  const T = useT()
 
   const today = todayKey()
   const plan = useMemo(() => dailyPlan(questionsByUnit, today), [today])
   const replayPlan = useMemo<SessionPlan | null>(
-    () => (plan ? { ...plan, mode: 'drill', title: `每日一練 ${today}（重玩・不計分）` } : null),
-    [plan, today],
+    () => (plan ? { ...plan, mode: 'drill', title: T.replayPlanTitle(today) } : null),
+    [plan, today, T],
   )
 
   const [phase, setPhase] = useState<Phase>(() =>
@@ -32,10 +34,10 @@ export function DailyChallenge() {
   if (!plan) {
     return (
       <div className="rv-view">
-        <h2 className="rv-title">每日一練</h2>
+        <h2 className="rv-title">{T.dailyTitle}</h2>
         <div className="rv-empty">
-          <p>題庫建置中，過幾天再來吧！</p>
-          <button className="rv-btn" onClick={() => setView({ name: 'home' })}>回首頁</button>
+          <p>{T.dailyEmpty}</p>
+          <button className="rv-btn" onClick={() => setView({ name: 'home' })}>{T.goHome}</button>
         </div>
       </div>
     )
@@ -63,19 +65,19 @@ export function DailyChallenge() {
 
   return (
     <div className="rv-view">
-      <h2 className="rv-title">每日一練 {today}</h2>
+      <h2 className="rv-title">{T.dailyTitleDate(today)}</h2>
       <div className="dl-result">
-        <p>今日已完成！</p>
+        <p>{T.doneToday}</p>
         <div className="dl-score">
           {done?.score ?? 0}<small> / {done?.total ?? plan.items.length}</small>
         </div>
-        <p className="dl-streak">連續打卡 {streak} 天 🔥</p>
-        <p className="dl-hint">每天一組新題目，明天再來保持手感！</p>
+        <p className="dl-streak">{T.streakLine(streak)}</p>
+        <p className="dl-hint">{T.dailyHint}</p>
         <div className="dl-actions">
           <button className="rv-btn-ghost" onClick={() => setPhase('replay')}>
-            再玩一次（不計分）
+            {T.replayBtn}
           </button>
-          <button className="rv-btn" onClick={() => setView({ name: 'home' })}>回首頁</button>
+          <button className="rv-btn" onClick={() => setView({ name: 'home' })}>{T.goHome}</button>
         </div>
       </div>
     </div>

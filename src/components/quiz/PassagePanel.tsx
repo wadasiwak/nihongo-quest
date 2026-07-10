@@ -4,6 +4,7 @@
  */
 import { memo, useState } from 'react'
 import type { PassageRef } from '../../lib/session'
+import { useT } from '../../lib/i18n'
 
 export interface PassagePanelProps {
   passage: PassageRef
@@ -23,6 +24,7 @@ const PassageText = memo(function PassageText({ text }: { text: string }) {
 
 export function PassagePanel({ passage, index, total }: PassagePanelProps) {
   const [collapsed, setCollapsed] = useState(false)
+  const T = useT()
   return (
     <section className="qz-passage">
       <button
@@ -31,9 +33,9 @@ export function PassagePanel({ passage, index, total }: PassagePanelProps) {
         onClick={() => setCollapsed((c) => !c)}
         aria-expanded={!collapsed}
       >
-        <span className="qz-passage-title" lang="ja">{passage.title || '本文'}</span>
-        <span className="qz-passage-count">第 {index} / {total} 題</span>
-        <span className="qz-passage-toggle">{collapsed ? '展開 ▾' : '收合 ▴'}</span>
+        <span className="qz-passage-title" lang="ja">{passage.title || T.passageDefaultTitle}</span>
+        <span className="qz-passage-count">{T.passageCount(index, total)}</span>
+        <span className="qz-passage-toggle">{collapsed ? T.expand : T.collapse}</span>
       </button>
       {!collapsed && <PassageText text={passage.text} />}
     </section>

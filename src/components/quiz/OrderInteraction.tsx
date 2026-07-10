@@ -6,6 +6,7 @@
 import { useMemo, useState } from 'react'
 import type { OrderQuestion } from '../../content/types'
 import { makeOrder, type AnswerDetail } from './ChoiceInteraction'
+import { useT } from '../../lib/i18n'
 
 export interface OrderInteractionProps {
   question: OrderQuestion
@@ -16,6 +17,7 @@ export interface OrderInteractionProps {
 }
 
 export function OrderInteraction({ question, revealed, disabled, onAnswer }: OrderInteractionProps) {
+  const T = useT()
   // 片段按鈕的顯示順序（顯示時才 shuffle）
   // eslint-disable-next-line react-hooks/exhaustive-deps
   const display = useMemo(() => makeOrder(question.segments.length), [question.id])
@@ -55,7 +57,7 @@ export function OrderInteraction({ question, revealed, disabled, onAnswer }: Ord
               className={cls}
               disabled={!filled || locked}
               onClick={() => unplace(slot)}
-              aria-label={slot === question.starIndex ? `★ 位置（第 ${slot + 1} 格）` : `第 ${slot + 1} 格`}
+              aria-label={slot === question.starIndex ? T.slotLabelStar(slot + 1) : T.slotLabel(slot + 1)}
             >
               {filled ? question.segments[orig] : slot === question.starIndex ? '★' : '＿＿'}
             </button>
@@ -63,7 +65,7 @@ export function OrderInteraction({ question, revealed, disabled, onAnswer }: Ord
         })}
         {question.after && <span className="qz-order-fixed">{question.after}</span>}
       </div>
-      <p className="qz-hint">點下方片段依序排入句子，點已排入的片段可取消；★ 為作答重點位置。</p>
+      <p className="qz-hint">{T.orderHint}</p>
       <div className="qz-segments">
         {display.map((orig) => (
           <button

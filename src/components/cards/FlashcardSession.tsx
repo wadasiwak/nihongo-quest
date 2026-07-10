@@ -10,13 +10,11 @@ import { todayKey } from '../../lib/rng'
 import type { Rating } from '../../lib/srs'
 import { rateForLevel, speak, stopSpeaking } from '../../lib/tts'
 import { useProgress } from '../../store/progress'
+import { useT } from '../../lib/i18n'
 import './cards.css'
 
 const NEW_CARD_LIMIT = 10
 const RATINGS: Rating[] = ['again', 'hard', 'good', 'easy']
-const RATING_LABEL: Record<Rating, string> = {
-  again: '再來一次', hard: '困難', good: '良好', easy: '簡單',
-}
 
 interface QueueInit {
   queue: VocabCard[]
@@ -36,6 +34,10 @@ function buildQueue(level: Level): QueueInit {
 
 export function FlashcardSession({ level, onExit }: { level: Level; onExit: () => void }) {
   const rateCard = useProgress((s) => s.rateCard)
+  const T = useT()
+  const RATING_LABEL: Record<Rating, string> = {
+    again: T.rateAgain, hard: T.rateHard, good: T.rateGood, easy: T.rateEasy,
+  }
   const ttsRate = useProgress((s) => s.settings.ttsRate)
   const rate = ttsRate ?? rateForLevel[level]
 
@@ -88,8 +90,8 @@ export function FlashcardSession({ level, onExit }: { level: Level; onExit: () =
     return (
       <div className="fc-view">
         <div className="fc-done">
-          <p>今天沒有到期或新的卡片，明天再來吧！</p>
-          <button className="fc-flip-btn" onClick={onExit}>返回</button>
+          <p>{T.noCardsToday}</p>
+          <button className="fc-flip-btn" onClick={onExit}>{T.ret}</button>
         </div>
       </div>
     )
@@ -99,12 +101,12 @@ export function FlashcardSession({ level, onExit }: { level: Level; onExit: () =
     return (
       <div className="fc-view">
         <div className="fc-done">
-          <p>本次複習完成 🎉</p>
+          <p>{T.sessionDone}</p>
           <div className="fc-done-num">
-            {doneCount.review}<small> 張複習</small>　{doneCount.fresh}<small> 張新學</small>
+            {doneCount.review}<small>{T.reviewedUnit}</small>　{doneCount.fresh}<small>{T.learnedUnit}</small>
           </div>
-          <p>評「再來一次」的卡已排回今天，之後還會出現。</p>
-          <button className="fc-flip-btn" onClick={onExit}>返回</button>
+          <p>{T.againNote}</p>
+          <button className="fc-flip-btn" onClick={onExit}>{T.ret}</button>
         </div>
       </div>
     )
@@ -122,8 +124,8 @@ export function FlashcardSession({ level, onExit }: { level: Level; onExit: () =
   return (
     <div className="fc-view">
       <div className="fc-top">
-        <button className="fc-tts" onClick={onExit}>← 離開</button>
-        <span>{LEVEL_LABEL[level]} 單字卡・剩 {queue.length} 張</span>
+        <button className="fc-tts" onClick={onExit}>{T.leave}</button>
+        <span>{T.deckStatus(LEVEL_LABEL[level], queue.length)}</span>
       </div>
 
       <div className="fc-stage">
@@ -131,12 +133,12 @@ export function FlashcardSession({ level, onExit }: { level: Level; onExit: () =
           className={`fc-card${flipped ? ' fc-flipped' : ''}`}
           onClick={() => setFlipped((f) => !f)}
           role="button"
-          aria-label={flipped ? '翻回正面' : '翻到背面'}
+          aria-label={flipped ? T.flipToFront : T.flipToBack}
         >
           <div className="fc-face fc-front">
             <div className="fc-term" lang="ja">{card.term}</div>
-            <button className="fc-tts" onClick={speakTerm}>🔊 發音</button>
-            <div className="fc-flip-hint">點卡片翻面（空白鍵）</div>
+            <button className="fc-tts" onClick={speakTerm}>{T.pronounce}</button>
+            <div className="fc-flip-hint">{T.flipHint}</div>
           </div>
           <div className="fc-face fc-back">
             <div className="fc-reading" lang="ja">{card.reading}</div>
@@ -144,7 +146,7 @@ export function FlashcardSession({ level, onExit }: { level: Level; onExit: () =
             <div className="fc-zh">{card.zh}</div>
             <div className="fc-example" lang="ja">{card.example}</div>
             <div className="fc-example-zh">{card.exampleZh}</div>
-            <button className="fc-tts" onClick={speakExample}>🔊 唸例句</button>
+            <button className="fc-tts" onClick={speakExample}>{T.sayExample}</button>
           </div>
         </div>
       </div>
@@ -166,7 +168,7 @@ export function FlashcardSession({ level, onExit }: { level: Level; onExit: () =
         )
         : (
           <button className="fc-flip-btn" onClick={() => setFlipped(true)}>
-            翻面看答案
+            {T.flipToAnswer}
           </button>
         )}
     </div>

@@ -1,5 +1,6 @@
 import { useMemo, type ReactNode } from 'react'
 import { useView } from './state'
+import { useT } from './lib/i18n'
 import { unitById } from './content/registry'
 import { questionsByUnit } from './content/jlpt'
 import { dailyPlan, drillPlan } from './lib/session'
@@ -36,6 +37,7 @@ function Drill({ unitId }: { unitId: string }) {
 /** 沒有自帶返回鈕的頁面，統一加一條「← 首頁」列 */
 function WithHomeBar({ children }: { children: ReactNode }) {
   const setView = useView((s) => s.setView)
+  const T = useT()
   return (
     <div>
       <button
@@ -43,7 +45,7 @@ function WithHomeBar({ children }: { children: ReactNode }) {
         style={{ marginBottom: 12 }}
         onClick={() => setView({ name: 'home' })}
       >
-        ← 首頁
+        {T.backHome}
       </button>
       {children}
     </div>

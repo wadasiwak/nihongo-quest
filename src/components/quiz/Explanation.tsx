@@ -1,6 +1,7 @@
 /**
  * 即時回饋詳解框——對錯標示＋正解＋繁中詳解。
  */
+import { useT } from '../../lib/i18n'
 export interface ExplanationProps {
   correct: boolean
   explanation: string
@@ -9,12 +10,13 @@ export interface ExplanationProps {
 }
 
 export function Explanation({ correct, explanation, correctAnswer }: ExplanationProps) {
+  const T = useT()
   return (
     <div className={`qz-explain ${correct ? 'qz-explain--ok' : 'qz-explain--bad'}`}>
-      <p className="qz-explain-verdict">{correct ? '〇 答對了！' : '✕ 答錯了'}</p>
+      <p className="qz-explain-verdict">{correct ? T.correctVerdict : T.wrongVerdict}</p>
       {correctAnswer && (
         <p className="qz-explain-answer">
-          正解：<span lang="ja">{correctAnswer}</span>
+          {T.correctAnswerLabel}<span lang="ja">{correctAnswer}</span>
         </p>
       )}
       {explanation && <p className="qz-explain-text">{explanation}</p>}
