@@ -114,6 +114,23 @@ const PASSAGE_CHARS: Partial<Record<UnitSlug, Partial<Record<Level, [number, num
   bunsho: { n1: [350, 700], n2: [350, 700], n3: [250, 550], n4: [200, 450], n5: [150, 400] },
 }
 
+/**
+ * 各單元 expectedCount 覆寫——N1（用戶備考）與 N5（入門引流）已擴充加倍，
+ * 鎖定新門檻防止內容回退（check：1 ≤ 實際 < expected ⇒ ERROR）。
+ */
+const EXPECTED_OVERRIDE: Record<string, number> = {
+  'n5-vocab-kanji': 40, 'n5-vocab-hyoki': 40, 'n5-vocab-bunmyaku': 40, 'n5-vocab-iikae': 40,
+  'n5-grammar-keishiki': 40, 'n5-grammar-narabekae': 40, 'n5-grammar-bunsho': 16,
+  'n5-reading-tanbun': 16, 'n5-reading-chubun': 16, 'n5-reading-joho': 12,
+  'n5-listening-kadai': 20, 'n5-listening-pointo': 20, 'n5-listening-hatsuwa': 20, 'n5-listening-sokuji': 24,
+  'n1-vocab-kanji': 40, 'n1-vocab-bunmyaku': 40, 'n1-vocab-iikae': 40, 'n1-vocab-yoho': 40,
+  'n1-grammar-keishiki': 40, 'n1-grammar-narabekae': 40, 'n1-grammar-bunsho': 16,
+  'n1-reading-tanbun': 16, 'n1-reading-chubun': 16, 'n1-reading-chobun': 16,
+  'n1-reading-togo': 12, 'n1-reading-shucho': 12, 'n1-reading-joho': 12,
+  'n1-listening-kadai': 20, 'n1-listening-pointo': 20, 'n1-listening-gaiyo': 20,
+  'n1-listening-sokuji': 24, 'n1-listening-togo': 12,
+}
+
 function buildUnits(): UnitMeta[] {
   const units: UnitMeta[] = []
   for (const level of ['n5', 'n4', 'n3', 'n2', 'n1'] as Level[]) {
@@ -122,15 +139,17 @@ function buildUnits(): UnitMeta[] {
       for (const slug of matrix[section]) {
         const isListeningTogo = section === 'listening' && slug === 'togo'
         const def = SLUG_DEF[slug]
+        const unitId = `${level}-${section}-${slug}`
         units.push({
-          unitId: `${level}-${section}-${slug}`,
+          unitId,
           level,
           section,
           slug,
           kind: isListeningTogo ? LISTENING_TOGO.kind : def.kind,
           title: isListeningTogo ? LISTENING_TOGO.title : def.title,
           goal: isListeningTogo ? LISTENING_TOGO.goal : def.goal,
-          expectedCount: isListeningTogo ? LISTENING_TOGO.expectedCount : def.expectedCount,
+          expectedCount:
+            EXPECTED_OVERRIDE[unitId] ?? (isListeningTogo ? LISTENING_TOGO.expectedCount : def.expectedCount),
           optionCount: isListeningTogo ? LISTENING_TOGO.optionCount : def.optionCount,
           passageChars: PASSAGE_CHARS[slug]?.[level],
           perSet: isListeningTogo ? undefined : def.perSet,
