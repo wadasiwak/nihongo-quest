@@ -4,7 +4,7 @@
  */
 import { useMemo } from 'react'
 import type { KaiwaScene } from '../../content/types'
-import type { SessionPlan } from '../../lib/session'
+import { shuffleArray, type SessionPlan } from '../../lib/session'
 import { QuizSession } from '../quiz/QuizSession'
 import { sceneTitle, useT } from '../../lib/i18n'
 
@@ -19,7 +19,7 @@ export function SceneDrill({ scene, onExit }: Props) {
     () => ({
       mode: 'kaiwa',
       title: T.sceneDrillTitle(sceneTitle(scene.title, scene.titleJa)),
-      items: scene.drills.map((q) => ({ unitId: scene.id, question: q })),
+      items: shuffleArray(scene.drills).map((q) => ({ unitId: scene.id, question: q })),
     }),
     [scene, T],
   )

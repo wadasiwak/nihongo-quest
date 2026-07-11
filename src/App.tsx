@@ -1,4 +1,4 @@
-import { useMemo, type ReactNode } from 'react'
+import { useMemo, useState, type ReactNode } from 'react'
 import { useView } from './state'
 import { useT } from './lib/i18n'
 import { unitById } from './content/registry'
@@ -22,14 +22,19 @@ import { DeckHome } from './components/cards/DeckHome'
 
 function Drill({ unitId }: { unitId: string }) {
   const setView = useView((s) => s.setView)
-  const plan = useMemo(() => drillPlan(unitId, questionsByUnit), [unitId])
+  /** +1 重產 plan（drillPlan 每次洗牌）並以 key 重掛 session */
+  const [shuffleSeed, setShuffleSeed] = useState(0)
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  const plan = useMemo(() => drillPlan(unitId, questionsByUnit), [unitId, shuffleSeed])
   const unit = unitById[unitId]
   if (!plan || !unit) return <Home />
   return (
     <QuizSession
+      key={shuffleSeed}
       plan={plan}
       level={unit.level}
       onExit={() => setView({ name: 'level', level: unit.level })}
+      onReshuffle={() => setShuffleSeed((n) => n + 1)}
     />
   )
 }

@@ -26,6 +26,8 @@ export interface QuizSessionProps {
   plan: SessionPlan
   level?: Level
   onExit: () => void
+  /** drill 提供：重洗題序（父層重產 plan＋key 重掛）；mock 不顯示 */
+  onReshuffle?: () => void
 }
 
 /** 每題作答紀錄（含顯示 permutation，回顧高亮用） */
@@ -58,7 +60,7 @@ function passageRun(items: SessionItem[], idx: number): { x: number; y: number }
   return { x: idx - start + 1, y: end - start + 1 }
 }
 
-export function QuizSession({ plan, level, onExit }: QuizSessionProps) {
+export function QuizSession({ plan, level, onExit, onReshuffle }: QuizSessionProps) {
   const items = plan.items
   const isMock = plan.mode === 'mock'
 
@@ -208,6 +210,22 @@ export function QuizSession({ plan, level, onExit }: QuizSessionProps) {
       <header className="qz-head">
         <button type="button" className="qz-btn qz-btn--ghost" onClick={handleExit}>{T.leave}</button>
         <span className="qz-title">{plan.title}</span>
+        {onReshuffle && !isMock && (
+          <button
+            type="button"
+            className="qz-btn qz-btn--ghost"
+            title={T.reshuffleTitle}
+            aria-label={T.reshuffleTitle}
+            onClick={() => {
+              if (window.confirm(T.reshuffleConfirm)) {
+                stopSpeaking()
+                onReshuffle()
+              }
+            }}
+          >
+            🔀
+          </button>
+        )}
         {isMock && plan.timeLimitSec ? <Timer secondsLeft={secondsLeft} /> : null}
         {isMock && (
           <button type="button" className="qz-btn qz-btn--warn" onClick={confirmSubmit}>{T.submit}</button>
@@ -220,7 +238,7 @@ export function QuizSession({ plan, level, onExit }: QuizSessionProps) {
       {item.passage && run && (
         <PassagePanel key={item.passage.id} passage={item.passage} index={run.x} total={run.y} />
       )}
-      <div key={`${sessionKey}-${q.id}`}>
+      <div key={`${sessionKey}-${q.id}`} data-qid={q.id}>
         {q.kind === 'choice' && (
           <ChoiceInteraction
             question={q}

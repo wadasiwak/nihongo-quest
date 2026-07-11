@@ -33,6 +33,16 @@ export interface SessionPlan {
   timeLimitSec?: number
 }
 
+/** Fisher–Yates（非 seed 版）：drill/kaiwa 每次進入洗一次題序 */
+export function shuffleArray<T>(arr: readonly T[]): T[] {
+  const a = [...arr]
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1))
+    ;[a[i], a[j]] = [a[j], a[i]]
+  }
+  return a
+}
+
 /** 題組攤平：小題轉成 choice leaf、掛 passage 引用 */
 export function flattenUnit(unitId: string, questions: JlptQuestion[]): SessionItem[] {
   const items: SessionItem[] = []
@@ -50,6 +60,7 @@ export function flattenUnit(unitId: string, questions: JlptQuestion[]): SessionI
             options: sub.options,
             answerIndex: sub.answerIndex,
             explanation: sub.explanation,
+            explanationEn: sub.explanationEn,
           },
         })
       }
@@ -81,7 +92,8 @@ export function drillPlan(unitId: string, questionsByUnit: Record<string, JlptQu
   return {
     mode: 'drill',
     title: `${unit.level.toUpperCase()}・${unitTitle(unit)}`,
-    items: flattenUnit(unitId, questions),
+    // 每次進入洗一次頂層題序（題組整塊移動、小題順序不變），回應「每次題目都一樣」
+    items: flattenUnit(unitId, shuffleArray(questions)),
   }
 }
 

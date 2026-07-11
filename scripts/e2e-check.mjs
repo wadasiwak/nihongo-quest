@@ -47,16 +47,24 @@ try {
   }
 
   // ---- 2. drill：選項恰 4 個、答錯寫入錯題本（localStorage）----
+  // drill 題序每次進入隨機（設計），改用 data-qid 讀當前題、查內容檔點必錯選項
   {
     const page = await browser.newPage()
     await page.goto(`${BASE_URL}#n5/vocab-kanji`)
-    await page.waitForSelector('text=学校') // 第一題題幹（drill 照內容順序）
-    // かっこう 是 q001 的干擾項——點它必錯
-    await page.click('button:has-text("かっこう")')
-    await page.waitForSelector('text=促音') // 詳解出現（explanation 含「促音」）
+    await page.waitForSelector('[data-qid]')
+    const qid = await page.getAttribute('[data-qid]', 'data-qid')
+    const { questions } = await import(new URL('../src/content/jlpt/n5/vocab-kanji.ts', import.meta.url).href)
+    const q = questions.find((x) => x.id === qid)
+    check(Boolean(q), `data-qid 能對回內容檔（${qid}）`)
+    const optCount = await page.locator('.qz-opt').count()
+    check(optCount === 4, `drill 選項恰 4 個（實得 ${optCount}）`)
+    // 點正解以外的選項必錯（顯示 shuffle 不影響文字比對；引號語法＝精確匹配）
+    const wrongText = q.options[(q.answerIndex + 1) % q.options.length]
+    await page.click(`text="${wrongText}"`)
+    await page.waitForSelector('.qz-explain')
     const save = await page.evaluate(() => JSON.parse(localStorage.getItem('nihongo-quest-save-v1') ?? '{}'))
     const wrong = save?.state?.wrong ?? save?.wrong ?? {}
-    check(Boolean(wrong['n5-vocab-kanji-001']), '答錯後錯題本出現 n5-vocab-kanji-001')
+    check(Boolean(wrong[qid]), `答錯後錯題本出現 ${qid}`)
     const stats = save?.state?.unitStats ?? save?.unitStats ?? {}
     check(stats['n5-vocab-kanji']?.attempted >= 1, 'unitStats 有作答紀錄')
     await page.screenshot({ path: `${shotDir}explanation.png`, fullPage: true })
@@ -104,7 +112,11 @@ try {
     await page.waitForTimeout(800)
     const body = await page.evaluate(() => document.body.innerText)
     check(body.includes('無日文語音'), 'TTS 降級 banner 顯示')
-    check(body.includes('デパートで女の人と店員'), '降級時 script 全文可讀')
+    // drill 題序隨機：用 data-qid 對回內容檔，驗當前題 script 首行全文可見
+    const listenQid = await page.getAttribute('[data-qid]', 'data-qid')
+    const { questions: listenQs } = await import(new URL('../src/content/jlpt/n5/listening-kadai.ts', import.meta.url).href)
+    const listenQ = listenQs.find((x) => x.id === listenQid)
+    check(Boolean(listenQ) && body.includes(listenQ.script[0].text), `降級時 script 全文可讀（${listenQid}）`)
     await page.screenshot({ path: `${shotDir}tts-fallback.png`, fullPage: true })
     await page.close()
   }
