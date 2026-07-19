@@ -221,4 +221,114 @@ export const questions: JlptQuestion[] = [
       },
     ],
   },
+  {
+    kind: 'passage',
+    id: 'n1-reading-shucho-005',
+    passageTitle: '「自分らしさ」という呪縛',
+    passage:
+      '「自分らしく生きよう」。広告や自己啓発書、卒業式の祝辞に至るまで、この言葉は現代の合言葉のように反復されている。他人の期待や世間の型に縛られず、ありのままの自分を大切にせよという呼びかけ自体に、異を唱えるつもりはない。画一的な生き方を押しつけられてきた時代を思えば、それは確かに解放の言葉であった。だが私は、この言葉が今日、当初とは逆の働き、すなわち人を縛る新しい呪縛として機能し始めているのではないかと疑っている。\nまず、「自分らしさ」という言葉は、どこかに「本当の自分」という完成品が隠されており、それを探し当てさえすれば迷いが消える、という発想を前提にしている。就職や転職の場面で「自分に合った仕事」を探し続け、見つからないのは探し方が足りないからだと自分を責める若者は少なくない。だが、掘り出されるのを待つ宝物のような自己が、本当に存在するのだろうか。探しても見つからないのは、努力が足りないからではなく、そもそも探すべきものが最初から「ない」からではないか。\n私の考えでは、自己とは発見されるものではなく、形成されるものである。人は他者との関わりの中で、期待に応えたり反発したり、役割を引き受けたり降りたりしながら、少しずつ「自分」と呼べる輪郭を作り上げていく。つまり自分らしさとは出発点ではなく、関係の積み重ねの後に振り返って初めて見えてくる軌跡なのだ。それを出発点に置き換えてしまうと、奇妙な転倒が起こる。まだ形成の途上にある者が、先に「本当の自分」を確定せよと迫られ、確定できない自分を欠陥品のように感じてしまうのである。他人の影響を受けることは自分を見失うことだとされ、助言に従うことにさえ後ろめたさを覚える。解放のための言葉が、こうして新しい強迫観念へと姿を変える。\nだから私は、「自分探し」に疲れた人には、むしろこう言いたい。自分の内側を覗き込むのをいったんやめて、目の前の他者や仕事に応答してみてはどうか、と。自分らしさとは、内面を掘って取り出す鉱石ではなく、応答の積み重ねが残す足跡である。足跡は、歩いた後にしかできない。ならば、まだ自分が見つからないということは欠陥ではなく、これから歩くための余白なのだと考えるべきではないだろうか。',
+    explanation: '',
+    questions: [
+      {
+        id: 'n1-reading-shucho-005-q1',
+        stem: '筆者の言う「奇妙な転倒」とはどのようなことか。',
+        options: [
+          '関係の積み重ねの後に初めて見えてくるはずの自分らしさを出発点に置き換え、形成の途上にある者に先に「本当の自分」を確定するよう迫ること',
+          '自分らしさを求めて生きてきた若者が、結局は世間の型どおりの画一的な生き方を選んでしまうこと',
+          '他人の助言に素直に従い続けた結果、本当の自分を完全に見失ってしまうこと',
+          '解放の言葉だったはずの「自分らしさ」が、広告や祝辞の中で商業的に利用されるようになったこと',
+        ],
+        answerIndex: 0,
+        explanation:
+          '第三段說明：自分らしさ本是「関係の積み重ねの後に振り返って初めて見えてくる軌跡」，「それを出発点に置き換えてしまうと、奇妙な転倒が起こる」——尚在形成途中的人被迫先確定「本当の自分」，確定不了就自覺像瑕疵品。「世間の型どおりの生き方を選ぶ」文中沒有這種結局；「本当の自分を完全に見失う」誤用了「後ろめたさを覚える」一句，筆者本就否定有待發現的真我；「商業的に利用される」只是挪用首段的字眼，並非「転倒」的內容。',
+        explanationEn:
+          'Paragraph three explains it: one\'s individuality is 「関係の積み重ねの後に振り返って初めて見えてくる軌跡」, and 「それを出発点に置き換えてしまうと、奇妙な転倒が起こる」 — those still in formation are pressed to fix their 「本当の自分」 first, and feel defective when they cannot. The text never depicts youths ending up choosing conformist lives; completely losing one\'s true self by following advice misreads the line about feeling 「後ろめたさ」, since the author denies a true self waiting to be found; and commercial exploitation merely recycles wording from the opening paragraph and is not what 「転倒」 refers to.',
+      },
+      {
+        id: 'n1-reading-shucho-005-q2',
+        stem: '筆者は、自己についてどのように考えているか。',
+        options: [
+          '自己は発見されるのを待つ完成品として存在するのではなく、他者との関わりの中で少しずつ形成されていくものである。',
+          '本当の自分は心の奥深くに隠されているので、根気よく探し続ければ必ず見つけることができる。',
+          '自己は他者の期待に応え続けることによってのみ作られるので、期待に反発してはならない。',
+          '自分という輪郭は生まれつき定まっており、他人の影響を受けても変わることはない。',
+        ],
+        answerIndex: 0,
+        explanation:
+          '第三段開頭即是筆者的定義：「自己とは発見されるものではなく、形成されるものである」，人在與他者的關係中「期待に応えたり反発したり」，逐步做出「自分」的輪廓。「探し続ければ必ず見つかる」正是筆者質疑的尋寶式前提，第二段反問「探すべきものが最初から『ない』からではないか」；「応え続けることによってのみ」漏掉了「反発したり」一半，與原文不符；「生まれつき定まっており変わらない」與形成論完全相反。',
+        explanationEn:
+          'The opening of paragraph three gives the author\'s definition: 「自己とは発見されるものではなく、形成されるものである」 — through relations with others, 「期待に応えたり反発したり」, one gradually shapes an outline called the self. The idea that persistent searching will surely find the true self is exactly the treasure-hunt premise the author doubts, asking in paragraph two whether 「探すべきものが最初から『ない』からではないか」; the claim that the self is built only by meeting others\' expectations drops the 「反発したり」 half of the sentence; and an inborn, unchangeable self is the complete opposite of the formation view.',
+      },
+      {
+        id: 'n1-reading-shucho-005-q3',
+        stem: 'この文章で筆者が最も言いたいことは何か。',
+        options: [
+          '自分らしさは内面を掘って取り出すものではなく他者への応答の積み重ねが残す足跡なのだから、自分がまだ見つからないことを欠陥と考える必要はない。',
+          '「自分らしく生きよう」という呼びかけは人を縛る呪縛でしかないので、この言葉を社会から追放すべきである。',
+          '自分に合った仕事が見つからないのは探し方が足りないからであり、若者はもっと粘り強く自分探しを続けるべきである。',
+          '他人の期待や助言は自分を見失わせるものにすぎないのだから、内面の声だけに従って生きるべきである。',
+        ],
+        answerIndex: 0,
+        explanation:
+          '末段是全文主張：與其窺視內心，不如「目の前の他者や仕事に応答してみてはどうか」，因為自分らしさ是「応答の積み重ねが残す足跡」，足跡走過之後才會出現，找不到自己「欠陥ではなく、これから歩くための余白」。「社会から追放すべき」過度極端，筆者明言對呼籲本身「異を唱えるつもりはない」；「もっと粘り強く自分探しを続けるべき」正是筆者批判的自責邏輯；「内面の声だけに従う」與筆者「向外應答」的主張方向相反。',
+        explanationEn:
+          'The final paragraph carries the thesis: rather than peering inward, 「目の前の他者や仕事に応答してみてはどうか」 — individuality is 「応答の積み重ねが残す足跡」, footprints that appear only after walking, so not having found oneself is 「欠陥ではなく、これから歩くための余白」. Banishing the slogan from society is far too extreme, as the author states 「異を唱えるつもりはない」 toward the call itself; urging youths to keep hunting for themselves more persistently is precisely the self-blaming logic criticized in paragraph two; and following only one\'s inner voice points the opposite way from the author\'s outward-response proposal.',
+      },
+    ],
+  },
+  {
+    kind: 'passage',
+    id: 'n1-reading-shucho-006',
+    passageTitle: '災害の記憶をどう継承するか',
+    passage:
+      '大きな災害の後には、「この経験を風化させてはならない」という言葉が必ず語られる。実際、被災の体験を語り継ぐ語り部の活動、壊れた建物をあえて取り壊さずに残す遺構の保存、学校での防災教育など、記憶を継承するための営みは各地で続けられてきた。その意義を疑う人は少ないだろう。だが、体験者が年を重ね、直接の記憶を持つ世代が確実に減っていく今、「忘れるな」と唱えるだけでは記憶は残らないという冷厳な事実に、我々は向き合わなければならない時期に来ている。\nそもそも、体験していない者が災害を「記憶する」とは、どういうことなのか。体験者の記憶をそのまま受け取ることは、原理的に不可能である。聞き手の中に残るのは、体験そのものではなく、語りを通して想像された災害の像にすぎない。この限界を直視せずに、体験の完全な伝達を継承の目標に掲げるなら、体験者の死とともに継承は必ず失敗する。むしろ問うべきは、不完全にしか伝わらないことを前提としたうえで、それでも何を、何のために伝えるのかである。\nここで手がかりになるのは、継承の目的を「過去の再現」から「未来への備え」へずらして考えることだ。遺構の前に立つ者は、往時の恐怖を体験者と同じ濃度で感じることはできない。しかし、日常の風景の中に破壊の痕跡が突然現れるとき、人は「ここまで水が来たのか」「自分の町でも起こりうる」という想像を強いられる。語り部の話に含まれる、あの日どの道を通って逃げたか、何を持ち出せずに後悔したかといった具体的な細部は、聞き手が自分の生活に引きつけて考えるための足場になる。つまり継承とは、過去の体験を缶詰のように保存することではなく、聞き手一人一人の中に「次の災害を生き延びるための想像力」を育てる営みなのだ。\nそう考えれば、体験者がいなくなることは、継承の終わりを意味しない。体験を持たない世代は、体験の迫力では語り部にかなわないが、同じく体験を持たない聞き手が何をどう受け取るのかを知っているという点で、むしろ橋渡しに適してさえいる。いま求められているのは、記憶の風化をただ嘆くことでも、体験を神聖化して手を触れさせないことでもなく、伝わらなさを引き受けたうえで伝え方を工夫し続ける、地道な知恵である。記憶の継承とは、過去を守る営みである以上に、未来の命を守る営みなのだから。',
+    explanation: '',
+    questions: [
+      {
+        id: 'n1-reading-shucho-006-q1',
+        stem: '筆者が「この限界」と言っているのはどのようなことか。',
+        options: [
+          '体験していない聞き手の中に残るのは語りを通して想像された災害の像であり、体験者の記憶をそのまま受け取ることは原理的に不可能だということ',
+          '語り部の高齢化が進み、体験を直接語れる人の数が年々減っていくということ',
+          '遺構の保存には多額の費用がかかるため、すべての被災地で実施することはできないということ',
+          '学校の防災教育に使える時間は限られており、災害の全体像までは教えられないということ',
+        ],
+        answerIndex: 0,
+        explanation:
+          '「この限界」指的是同段前文：「体験者の記憶をそのまま受け取ることは、原理的に不可能である。聞き手の中に残るのは……語りを通して想像された災害の像にすぎない」——即傳達在原理上必然不完全。「語れる人が減っていく」是首段提出的背景，並非第二段指示語所指的內容；「保存の費用」與「教育の時間」文中皆未提及，是無中生有的干擾項。',
+        explanationEn:
+          '「この限界」 points back to the same paragraph: 「体験者の記憶をそのまま受け取ることは、原理的に不可能である」, and what remains in the listener is only 「語りを通して想像された災害の像」 — transmission is inherently incomplete in principle. The dwindling number of people who can speak from experience is background given in the opening paragraph, not what this demonstrative in paragraph two refers to; the cost of preserving ruins and the limited hours for disaster education appear nowhere in the text and are fabricated distractors.',
+      },
+      {
+        id: 'n1-reading-shucho-006-q2',
+        stem: '継承の目的を「未来への備え」へずらして考えるとは、どのようなことか。',
+        options: [
+          '過去の体験をそのまま保存し再現することではなく、聞き手の中に次の災害を生き延びるための想像力を育てることを継承の目的とすること',
+          '遺構の保存や語り部といった従来の方法をやめて、避難訓練など実践的な備えだけに力を注ぐこと',
+          '過去の災害の記録を正確に整理し、将来の研究者がいつでも利用できるようにしておくこと',
+          '往時の恐怖を体験者と同じ濃度で感じられるような、迫力のある展示技術を開発すること',
+        ],
+        answerIndex: 0,
+        explanation:
+          '第三段結論：「継承とは、過去の体験を缶詰のように保存することではなく、聞き手一人一人の中に『次の災害を生き延びるための想像力』を育てる営みなのだ」——遺構與語り部的細節正是培養這種想像力的踏腳石。「従来の方法をやめる」相反，筆者是替遺構、語り部賦予新的定位而非廢除；「研究者向けの記録整理」文中未提；「同じ濃度で感じられる展示」與「同じ濃度で感じることはできない」的前提直接矛盾。',
+        explanationEn:
+          'Paragraph three concludes: 「継承とは、過去の体験を缶詰のように保存することではなく、聞き手一人一人の中に『次の災害を生き延びるための想像力』を育てる営みなのだ」 — the concrete details of ruins and storytellers are footholds for cultivating that imagination. Abandoning the traditional methods is backwards: the author repositions ruins and storytellers rather than scrapping them; organizing records for future researchers is never mentioned; and developing exhibits that convey the fear 「同じ濃度で」 directly contradicts the stated premise that such intensity 「感じることはできない」.',
+      },
+      {
+        id: 'n1-reading-shucho-006-q3',
+        stem: 'この文章で筆者が最も言いたいことは何か。',
+        options: [
+          '記憶の継承は、完全には伝わらないことを引き受けたうえで伝え方を工夫し続ける営みであり、体験者がいなくなっても未来の命を守るために続けられる。',
+          '体験者の記憶はそのまま伝えることができない以上、体験者の死とともに継承の営みは終わりを迎えるほかない。',
+          '災害の記憶を確実に残すためには、体験を神聖なものとして扱い、一言一句変えずに語り継いでいくべきだ。',
+          '体験を持たない世代は語り部の迫力にかなわないのだから、継承の担い手は体験者に限るべきだ。',
+        ],
+        answerIndex: 0,
+        explanation:
+          '末段收束全文主張：「体験者がいなくなることは、継承の終わりを意味しない」，需要的是「伝わらなさを引き受けたうえで伝え方を工夫し続ける、地道な知恵」，因為記憶的傳承「未来の命を守る営み」。「継承は終わりを迎えるほかない」只取第二段的前提卻推翻了筆者的結論；「一言一句変えずに」正是筆者否定的「体験を神聖化して手を触れさせない」態度；「担い手は体験者に限る」與「むしろ橋渡しに適してさえいる」的評價相反。',
+        explanationEn:
+          'The final paragraph delivers the thesis: 「体験者がいなくなることは、継承の終わりを意味しない」 — what is needed is 「伝わらなさを引き受けたうえで伝え方を工夫し続ける、地道な知恵」, because handing down memory is above all 「未来の命を守る営み」. Saying transmission must end with the survivors\' deaths takes paragraph two\'s premise but overturns the author\'s conclusion; passing stories on word-for-word is exactly the sanctifying attitude the author rejects as 「体験を神聖化して手を触れさせない」こと; and limiting the role to survivors contradicts the judgment that the non-experiencing generation is 「むしろ橋渡しに適してさえいる」.',
+      },
+    ],
+  },
 ]

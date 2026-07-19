@@ -441,4 +441,224 @@ export const questions: JlptQuestion[] = [
     explanationEn:
       '「〜かたわら」 follows 「名詞の」 or the dictionary form and means while pursuing ... as one\'s main occupation, also engaging in ... long-term, so 「会社勤めのかたわら小説を書く」 is the textbook use. 「がてら」 expresses a one-off while I am at it, not sustained parallel activity, and cannot follow 「の」; 「あまり」 means out of an excess of ... and needs an emotion noun; and 「いたり」 survives only in set phrases like 「若気の至り」 — none fits.',
   },
+  {
+    kind: 'choice',
+    id: 'n1-grammar-keishiki-041',
+    stem: '未曾有の経済危機（　）、各企業は生き残りをかけた改革を迫られている。',
+    options: ['にあって', 'にかけては', 'はおろか', 'もさることながら'],
+    answerIndex: 0,
+    explanation:
+      '「〜にあって」接時代、狀況、立場等名詞，書面語表「身處…（特殊）情況之中」，「経済危機にあって」即「處於經濟危機之下」。「にかけては」表「論…（的本領）無人能及」，只用於稱讚能力；「はおろか」須與「さえ／まで」呼應構成「別說…連…」；「もさることながら」後面須再接同方向遞進的一項，皆不合。',
+    explanationEn:
+      '「〜にあって」 attaches to nouns of era, situation, or position and, in formal writing, means being in the midst of (exceptional) circumstances, so 「経済危機にあって」 means amid the economic crisis. 「にかけては」 means when it comes to (a skill), one is second to none, used only for praising ability; 「はおろか」 must pair with 「さえ／まで」 in the let alone construction; and 「もさることながら」 requires a further same-direction item after it — none fits.',
+  },
+  {
+    kind: 'choice',
+    id: 'n1-grammar-keishiki-042',
+    stem: '神様（　）、人の心の中まで全部分かるはずがないだろう。',
+    options: ['ではあるまいし', 'にひきかえ', 'をものともせず', 'もそこそこに'],
+    answerIndex: 0,
+    explanation:
+      '「〜ではあるまいし」表「又不是…，（所以理所當然…）」，帶責備或勸說的口吻，「神様ではあるまいし」即「又不是神明，怎麼可能全懂人心」。「にひきかえ」表兩者鮮明對照，後句須出現可對比的另一方；「をものともせず」是「不畏…」；「もそこそこに」是「草草結束…就…」，接續與語意皆不合。',
+    explanationEn:
+      '「〜ではあるまいし」 means it is not as if one were ... (so naturally ...), with a reproachful or persuasive tone, so 「神様ではあるまいし」 means you are no god, so you cannot possibly see into everyone\'s heart. 「にひきかえ」 marks a sharp contrast and needs a comparable counterpart in the main clause; 「をものともせず」 means undaunted by ...; and 「もそこそこに」 means hastily cutting ... short — all wrong here.',
+  },
+  {
+    kind: 'choice',
+    id: 'n1-grammar-keishiki-043',
+    stem: '実現できるかどうか（　）、まずは自由にアイデアを出し合ってみよう。',
+    options: ['はさておき', 'はおろか', 'にもまして', 'であれ'],
+    answerIndex: 0,
+    explanation:
+      '「〜はさておき」表「…暫且不論、先擱一邊」，用於把次要問題延後、先處理眼前優先的事，「実現できるかどうかはさておき」即「能否實現先不管」。「はおろか」是「別說…連…」，須與「さえ／まで」呼應；「にもまして」是「比…更加」；「であれ」須與「たとえ／どんな」呼應表讓步，皆與句意不合。',
+    explanationEn:
+      '「〜はさておき」 means setting ... aside for now, postponing a secondary issue to deal with what matters first, so 「実現できるかどうかはさておき」 means feasibility aside, let\'s brainstorm freely. 「はおろか」 (let alone) must pair with 「さえ／まで」; 「にもまして」 means even more than ...; and 「であれ」 needs 「たとえ／どんな」 to express concession — none matches the sentence.',
+  },
+  {
+    kind: 'choice',
+    id: 'n1-grammar-keishiki-044',
+    stem: 'うちの息子（　）、休みの日は昼過ぎまで寝てばかりいる。',
+    options: ['ときたら', 'とすれば', 'ともなれば', 'にかけては'],
+    answerIndex: 0,
+    explanation:
+      '「〜ときたら」提起身邊熟悉的人事物當話題，後接不滿、抱怨的評價，「うちの息子ときたら」即「說到我家兒子（真拿他沒辦法）」。「とすれば」是「假設是…的話」的推論；「ともなれば」表「一旦到了…的地位時節（情況隨之改變）」；「にかけては」用於稱讚某方面的本領，皆不合抱怨的語境。',
+    explanationEn:
+      '「〜ときたら」 raises a familiar person or thing as the topic and follows it with a complaint or criticism, so 「うちの息子ときたら」 means as for my son (he is hopeless). 「とすれば」 is a hypothetical inference (supposing it is ...); 「ともなれば」 means once one reaches the status or season of ... (things change accordingly); and 「にかけては」 is for praising a skill — none fits a grumbling context.',
+  },
+  {
+    kind: 'choice',
+    id: 'n1-grammar-keishiki-045',
+    stem: '初めて一人で海外に行ったときの心細さ（　）。言葉も通じず、何度も帰りたくなった。',
+    options: ['といったらなかった', 'というほどでもなかった', 'といったところだった', 'というものでもなかった'],
+    answerIndex: 0,
+    explanation:
+      '「〜といったらない」接名詞或形容詞，表「…的程度非言語所能形容」，敘述過去用「といったらなかった」，與後句「好幾次都想回家」的極端描寫正合。「というほどでもない」是「還不到…的程度」，「といったところだ」是「頂多也就是…」，兩者都在淡化程度，與後文明顯矛盾。',
+    explanationEn:
+      '「〜といったらない」 attaches to a noun or adjective and means indescribably ..., beyond words; for past events it becomes 「といったらなかった」, matching the extreme description of wanting to go home again and again. 「というほどでもない」 means not to the extent of ..., and 「といったところだ」 means at most about ... — both downplay the degree and contradict the following sentence.',
+  },
+  {
+    kind: 'choice',
+    id: 'n1-grammar-keishiki-046',
+    stem: '被災地の一日も早い復興を、心から願って（　）。',
+    options: ['やまない', 'たまらない', 'ならない', 'かなわない'],
+    answerIndex: 0,
+    explanation:
+      '「〜てやまない」接「願う」「祈る」「愛する」等情感動詞的て形，書面語表「衷心…不已」，「願ってやまない」是致詞、書信的鄭重慣用。「てたまらない」「てならない」表自發的感覺、情緒強烈得受不了（会いたくてたまらない、気がしてならない），不接意志性的「願う」；「てかなわない」是「…得吃不消」，語意皆不合。',
+    explanationEn:
+      '「〜てやまない」 attaches to the te-form of emotion verbs like 「願う」, 「祈る」, and 「愛する」 and, in formal writing, means to ... from the bottom of one\'s heart, so 「願ってやまない」 is a solemn set phrase for speeches and letters. 「てたまらない」 and 「てならない」 describe spontaneous feelings too strong to bear (as in 「会いたくてたまらない」「気がしてならない」) and do not take the volitional 「願う」; 「てかなわない」 means unbearably ... — none fits.',
+  },
+  {
+    kind: 'choice',
+    id: 'n1-grammar-keishiki-047',
+    stem: 'せっかく北海道まで行ったのに、時間が足りず、流氷は見（　）だった。',
+    options: ['ずじまい', 'ないじまい', 'まいじまい', 'ずおわり'],
+    answerIndex: 0,
+    explanation:
+      '「〜ずじまい」接動詞ない形去ない加「ず」（する→せず），表「（原本想做卻）到最後也沒做成」，帶遺憾的語感，「見ずじまいだった」即「終究沒能看到」。「ないじまい」「まいじまい」「ずおわり」都是不存在的形態——這個文型固定用「ず＋じまい」，且多以「〜ずじまいだった」收尾。',
+    explanationEn:
+      '「〜ずじまい」 attaches to the nai-stem plus 「ず」 (with する→せず) and means ended up never doing what one had hoped to, with a tinge of regret, so 「見ずじまいだった」 means I never got to see the drift ice after all. 「ないじまい」, 「まいじまい」, and 「ずおわり」 are all nonexistent forms — the pattern is fixed as 「ず＋じまい」, usually closing as 「〜ずじまいだった」.',
+  },
+  {
+    kind: 'choice',
+    id: 'n1-grammar-keishiki-048',
+    stem: '今から走っ（　）、開演時間にはとても間に合うまい。',
+    options: ['たところで', 'たとたんに', 'たついでに', 'たかと思うと'],
+    answerIndex: 0,
+    explanation:
+      '「〜たところで」接動詞た形，常與「今さら／どんなに」等呼應，表「即使…也（不會有好結果）」，後接否定推量「間に合うまい」正合。「たとたんに」是「一…的瞬間就…」，後面須接實際發生的事；「たついでに」是「順便…」；「たかと思うと」表緊接著發生意外的變化，皆與後句的否定推測不合。',
+    explanationEn:
+      '「〜たところで」 attaches to the ta-form, often with 「今さら／どんなに」, and means even if one does ..., (no good will come of it), pairing naturally with the negative conjecture 「間に合うまい」. 「たとたんに」 means the instant ... happened and must be followed by an actual event; 「たついでに」 means while one is at it; and 「たかと思うと」 marks an unexpected change right after — none suits the negative conjecture.',
+  },
+  {
+    kind: 'choice',
+    id: 'n1-grammar-keishiki-049',
+    stem: '彼がパーティーに（　）、私には関係のないことだ。',
+    options: ['行こうが行くまいが', '行こうが行かまいが', '行くが行くまいが', '行こうが行けまいが'],
+    answerIndex: 0,
+    explanation:
+      '「〜ようが〜まいが」以「意向形＋が＋辞書形＋まい＋が」表「不管做不做…（都無關緊要）」，「行こうが行くまいが」正確。「行かまいが」接續錯誤——五段動詞的「まい」須接辞書形，不能接ない形；「行くが」第一項須用意向形；「行けまいが」混入可能形，皆為接法錯誤。此文型另有「〜ようと〜まいと」的說法。',
+    explanationEn:
+      '「〜ようが〜まいが」 takes the shape volitional + 「が」 + dictionary form + 「まい」 + 「が」 and means whether one does ... or not (it makes no difference), so 「行こうが行くまいが」 is correct. 「行かまいが」 is an attachment error — for godan verbs 「まい」 follows the dictionary form, never the nai-stem; 「行くが」 fails because the first half must be volitional; and 「行けまいが」 wrongly mixes in the potential form. The pattern also appears as 「〜ようと〜まいと」.',
+  },
+  {
+    kind: 'choice',
+    id: 'n1-grammar-keishiki-050',
+    stem: '何も知らぬ子どものした（　）、どうかお許しください。',
+    options: ['こととて', 'ことすら', 'ことだに', 'こととばかりに'],
+    answerIndex: 0,
+    explanation:
+      '「〜こととて」是古風書面語的原因表達，多用於道歉、請求原諒的鄭重場面，「子どものしたこととて」即「因為是（不懂事的）孩子做的事，還請包涵」。「すら」「だに」都是「連…都」的極端舉例，無法表原因，與請求原諒的因果語意不合；「とばかりに」是「彷彿在說…似地」，語意不通。',
+    explanationEn:
+      '「〜こととて」 is an archaic, literary way of stating a reason, reserved for formal apologies and pleas for forgiveness, so 「子どものしたこととて」 means as it was something done by an innocent child, please forgive it. 「すら」 and 「だに」 both mean even ..., citing an extreme example, and cannot express cause; 「とばかりに」 means as if to say ..., which makes no sense here.',
+  },
+  {
+    kind: 'choice',
+    id: 'n1-grammar-keishiki-051',
+    stem: '世界の頂点に立つ彼の技術に、駆け出しの私が及ぶ（　）。',
+    options: ['べくもない', 'べからず', 'べくして', 'べきではない'],
+    answerIndex: 0,
+    explanation:
+      '「〜べくもない」接動詞辭書形，書面語表「（因條件懸殊）根本不可能…」，「及ぶべくもない」即「望塵莫及」。「べからず」表禁止，只能放句尾且多見於告示；「べくして」用於「〜べくして〜た」表必然的結果；「べきではない」是「不應該…」的規範判斷，與「能力上不可能」的句意不合。',
+    explanationEn:
+      '「〜べくもない」 attaches to the dictionary form and, in formal writing, means there is no way one could possibly ... (the gap is too great), so 「及ぶべくもない」 means I cannot hope to match him. 「べからず」 expresses prohibition, stands only sentence-finally, and belongs on signs; 「べくして」 is for the inevitable-outcome pattern 「〜べくして〜た」; and 「べきではない」 is the normative should not ..., which mismatches a statement of impossibility.',
+  },
+  {
+    kind: 'choice',
+    id: 'n1-grammar-keishiki-052',
+    stem: '防災計画は、地域の実情（　）具体的に定める必要がある。',
+    options: ['に即して', 'に乗じて', 'に先立って', 'に反して'],
+    answerIndex: 0,
+    explanation:
+      '「〜に即して」接「実情」「事実」「規則」等名詞，表「依照、切合…（來行動處理）」，「実情に即して定める」即「按當地實際狀況來制定」。「に乗じて」是「趁著…（的機會）」，多用於負面行為；「に先立って」是「在…之前先…」；「に反して」是「與…相反」，皆與「依實情制定」的句意不合。',
+    explanationEn:
+      '「〜に即して」 attaches to nouns like 「実情」, 「事実」, and 「規則」 and means in line with ..., adapting one\'s actions to it, so 「実情に即して定める」 means drawing up the plan according to local realities. 「に乗じて」 means taking advantage of ..., usually for opportunistic acts; 「に先立って」 means prior to ...; and 「に反して」 means contrary to ... — none fits the sense of following actual conditions.',
+  },
+  {
+    kind: 'choice',
+    id: 'n1-grammar-keishiki-053',
+    stem: '彼の行為が処罰に当たるかどうかは、過去の判例（　）判断される。',
+    options: ['に照らして', 'にかこつけて', 'にかまけて', 'にひきかえ'],
+    answerIndex: 0,
+    explanation:
+      '「〜に照らして」表「對照法律、判例、基準等來（判斷、檢驗）」，「判例に照らして判断される」即「比照過去判例來判斷」。「にかこつけて」是「拿…當藉口」；「にかまけて」是「只顧著…而疏忽其他」；「にひきかえ」表兩者鮮明對比，皆不合。近義的「に即して」偏重「依照…去做」，本句強調對照基準作檢驗，「に照らして」最貼切。',
+    explanationEn:
+      '「〜に照らして」 means checking or judging against a law, precedent, or standard, so 「判例に照らして判断される」 means the act is judged in light of past precedents. 「にかこつけて」 means using ... as a pretext; 「にかまけて」 means being so absorbed in ... as to neglect other things; and 「にひきかえ」 marks a sharp contrast — none fits. The near-synonym 「に即して」 stresses acting according to something, whereas judging against a standard calls for 「に照らして」.',
+  },
+  {
+    kind: 'choice',
+    id: 'n1-grammar-keishiki-054',
+    stem: '今年こそ優勝できる（　）、初戦であっさり敗退してしまった。',
+    options: ['かと思いきや', 'かと思えばこそ', 'かと思うだに', 'かと思うそばから'],
+    answerIndex: 0,
+    explanation:
+      '「〜（か）と思いきや」表「本以為…，沒想到（結果出乎意料）」，前句的期待與後句「初戦で敗退」的落差正合。「と思えばこそ」是「正因為想著…才特意…」，強調積極的理由；「と思うだに」是「光是想就…」；「と思うそばから」表「才剛想…馬上又…」的反覆，皆無法表達預期落空的轉折。',
+    explanationEn:
+      '「〜（か）と思いきや」 means I thought ... but, surprisingly, ..., and the gap between the hoped-for championship and the first-round exit fits it exactly. 「と思えばこそ」 means precisely because one thinks ... one deliberately ..., stating a positive reason; 「と思うだに」 means the mere thought of ...; and 「と思うそばから」 marks repetition (no sooner think ... than ...) — none conveys the defeated expectation.',
+  },
+  {
+    kind: 'choice',
+    id: 'n1-grammar-keishiki-055',
+    stem: '慌てて資料を探す同僚たち（　）、彼は涼しい顔で定時に帰っていった。',
+    options: ['を尻目に', 'に尻目を', 'で尻目に', 'の尻目に'],
+    answerIndex: 0,
+    explanation:
+      '「〜を尻目に」表「對…瞥上一眼便不予理會，自顧自地行動」，多帶旁若無人的語感，「同僚たちを尻目に定時に帰る」（把慌張的同事拋在一旁準時下班）是典型用法。「に尻目を」「で尻目に」「の尻目に」都是不存在的接法——這個文型固定作「名詞＋を尻目に」，助詞只能用「を」。',
+    explanationEn:
+      '「〜を尻目に」 means glancing at ... out of the corner of one\'s eye and carrying on regardless, often with a self-assured air, so 「同僚たちを尻目に定時に帰る」 (leaving on the dot while colleagues scramble) is the textbook use. 「に尻目を」, 「で尻目に」, and 「の尻目に」 are all nonexistent attachments — the pattern is fixed as noun + 「を尻目に」, and only 「を」 is allowed.',
+  },
+  {
+    kind: 'choice',
+    id: 'n1-grammar-keishiki-056',
+    stem: '彼は店のショーウインドーの前を行き（　）、なかなか中に入ろうとしなかった。',
+    options: ['つ戻りつして', 'たり戻ったりして', 'つつ戻りつつ', 'つ戻るつして'],
+    answerIndex: 0,
+    explanation:
+      '「〜つ〜つ」接動詞ます形語幹並成對使用，書面語表兩個動作交替反覆，「行きつ戻りつ」（走來走去、徘徊）是固定搭配，另有「浮きつ沈みつ」「追いつ追われつ」等慣用。「たり戻ったりして」接續錯誤——「たり」須接た形（行ったり戻ったり），不能接ます形語幹；「つつ戻りつつ」「つ戻るつして」皆非正確形態。',
+    explanationEn:
+      '「〜つ〜つ」 attaches to two masu-stems in a pair and, in literary style, describes two actions alternating repeatedly; 「行きつ戻りつ」 (pacing back and forth) is a set collocation, alongside 「浮きつ沈みつ」 and 「追いつ追われつ」. 「たり戻ったりして」 is an attachment error — 「たり」 requires the ta-form (「行ったり戻ったり」), not the masu-stem; and 「つつ戻りつつ」 and 「つ戻るつして」 are not valid forms.',
+  },
+  {
+    kind: 'choice',
+    id: 'n1-grammar-keishiki-057',
+    stem: '今まさに水平線に沈ま（　）太陽が、空を茜色に染めている。',
+    options: ['んとする', 'うとする', 'ずとする', 'まいとする'],
+    answerIndex: 0,
+    explanation:
+      '「〜んとする」是文語的將然表達，接動詞ない形去ない（する→せん），與「今まさに」呼應表「正要…」，「沈まんとする太陽」即「即將西沉的太陽」，是「沈もうとする」的書面語。「うとする」接續錯誤——口語形須接意向形「沈も」，不能接「沈ま」；「ずとする」「まいとする」接在此處的形態語意皆不成立。',
+    explanationEn:
+      '「〜んとする」 is a literary form for being on the verge of ..., attaching to the nai-stem (with する→せん) and echoing 「今まさに」, so 「沈まんとする太陽」 means the sun about to sink, the written equivalent of 「沈もうとする」. 「うとする」 is an attachment error — the colloquial form requires the volitional stem 「沈も」, not 「沈ま」; and 「ずとする」 and 「まいとする」 are invalid here in both form and meaning.',
+  },
+  {
+    kind: 'choice',
+    id: 'n1-grammar-keishiki-058',
+    stem: '一度や二度（　）、毎回のように締め切りに遅れるのは許されない。',
+    options: ['ならまだしも', 'に至るまで', 'もかまわず', 'をものともせず'],
+    answerIndex: 0,
+    explanation:
+      '「〜ならまだしも」表「若只是…倒還說得過去，但（實際情況更糟）」，「一度や二度ならまだしも」即「一兩次也就罷了，每次都拖稿就不可原諒」，前後形成讓步與責難的對比。「に至るまで」表範圍擴及「連…都」；「もかまわず」是「不顧…」（人目もかまわず）；「をものともせず」是「不畏…」，皆不合。',
+    explanationEn:
+      '「〜ならまだしも」 means if it were only ..., that might be excusable, but (the reality is worse), so 「一度や二度ならまだしも」 means once or twice would be one thing, but missing nearly every deadline is inexcusable — a concession followed by censure. 「に至るまで」 marks extent (even down to ...); 「もかまわず」 means heedless of ... (as in 「人目もかまわず」); and 「をものともせず」 means undaunted by ... — none fits.',
+  },
+  {
+    kind: 'choice',
+    id: 'n1-grammar-keishiki-059',
+    stem: 'この渋滞をなんとか解消でき（　）と、市は対策を検討している。',
+    options: ['ないものか', 'ないことか', 'ないものの', 'ないままか'],
+    answerIndex: 0,
+    explanation:
+      '「〜ないものか」與「なんとか／どうにか」呼應，表「難道不能設法…嗎」的強烈願望，「解消できないものか」即「盼能想辦法解決」。「ないことか」用於「何と〜ないことか」的感嘆句型；「ないものの」是逆接的「雖然沒…」；「ないままか」並非慣用文型，皆無法表達說話者的期盼。',
+    explanationEn:
+      '「〜ないものか」 pairs with 「なんとか／どうにか」 to voice a strong wish — can it not somehow be done? — so 「解消できないものか」 means the city hopes the congestion can somehow be relieved. 「ないことか」 belongs to the exclamatory pattern 「何と〜ないことか」; 「ないものの」 is the concessive although ... not; and 「ないままか」 is not an established pattern — none expresses this longing.',
+  },
+  {
+    kind: 'choice',
+    id: 'n1-grammar-keishiki-060',
+    stem: 'いくら莫大な財産を築いても、死んでしまえ（　）。',
+    options: ['ばそれまでだ', 'ばそれまでもない', 'ばそれほどだ', 'ばそれのみだ'],
+    answerIndex: 0,
+    explanation:
+      '「〜ばそれまでだ」表「一旦…就一切結束、再多努力也化為烏有」，常與「いくら／どんなに〜ても」呼應，「死んでしまえばそれまでだ」即「人一死，萬貫家財也成空」。「それまでもない」混淆了「〜までもない」（用不著…）的用法；「それほどだ」「それのみだ」皆非慣用形態，語意不通。',
+    explanationEn:
+      '「〜ばそれまでだ」 means once ... happens, it is all over — everything comes to nothing, often paired with 「いくら／どんなに〜ても」, so 「死んでしまえばそれまでだ」 means however vast a fortune you build, death ends it all. 「それまでもない」 confuses the pattern with 「〜までもない」 (no need to ...); and 「それほどだ」 and 「それのみだ」 are not established forms — neither makes sense.',
+  },
 ]

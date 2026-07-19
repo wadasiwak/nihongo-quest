@@ -641,4 +641,324 @@ export const questions: JlptQuestion[] = [
     explanationEn:
       '「根回し」, originally a gardening term for trimming a tree\'s roots before transplanting, now means laying the groundwork by privately winning over the people concerned before a formal decision, and 「根回しをする／済ませる」 is standard business usage, so clearing it with the relevant departments beforehand is correct. The base of a tooth is 「歯の根元」; the source of a rumor is its 「出所」; and pre-race limbering up is 「準備運動／ストレッチ」 — all noun misuses.',
   },
+  {
+    kind: 'choice',
+    id: 'n1-vocab-yoho-041',
+    stem: '携わる',
+    options: [
+      '彼は大学を卒業して以来、三十年にわたって医療の現場に携わってきた。',
+      '海外旅行には、常備薬を必ず携わって行くようにしている。',
+      '劇場内では、携わっている電話の電源をお切りください。',
+      '老夫婦は手を携わって、夕暮れの海岸をゆっくり歩いていた。',
+    ],
+    answerIndex: 0,
+    explanation:
+      '「携わる」（從事、參與）是自動詞，以「〜に携わる」表示長期投身某項工作或領域，如「教育に携わる」「医療に携わる」。隨身帶藥應說「携えて／持って」；隨身電話用「携帯している」；手牽手是慣用語「手を携えて」。三個干擾項都把它誤當成他動詞「攜帶」使用。',
+    explanationEn:
+      '「携わる」 (to be engaged in) is an intransitive verb used as 「〜に携わる」 for long-term involvement in a field, as in 「教育に携わる」 or 「医療に携わる」, so thirty years spent in medical practice is correct. Carrying medicine along is 「携えて／持って」; a phone you carry is expressed with 「携帯している」; and walking hand in hand is the idiom 「手を携えて」 — all three distractors force the verb into a transitive "carry" sense it does not have.',
+  },
+  {
+    kind: 'choice',
+    id: 'n1-vocab-yoho-042',
+    stem: '余地',
+    options: [
+      'この計画にはまだ改善の余地が十分に残されている。',
+      '家の裏の余地を耕して、小さな野菜畑を作った。',
+      '今月は出費が多くて、旅行に行く余地がまったくない。',
+      '料理を作りすぎて余地が出たので、冷凍して保存した。',
+    ],
+    answerIndex: 0,
+    explanation:
+      '「余地」（餘地）指還能再做某事的空間或可能性，「改善の余地がある」「疑いの余地がない」是固定搭配，對象必須是抽象的可能性。空著的土地應說「空き地」；金錢或時間上的寬裕是「余裕」；吃剩的飯菜是「余り／残り」。三個干擾項都把抽象名詞誤套在具體事物上。',
+    explanationEn:
+      '「余地」 means room or margin — the remaining possibility for something more — with fixed collocations like 「改善の余地がある」 and 「疑いの余地がない」 whose object must be an abstract possibility, so the plan still leaving plenty of room for improvement is correct. A vacant plot of land is 「空き地」; spare money or time is 「余裕」; and leftover food is 「余り／残り」 — the distractors all pin the abstract noun onto concrete things.',
+  },
+  {
+    kind: 'choice',
+    id: 'n1-vocab-yoho-043',
+    stem: '台頭',
+    options: [
+      '若手選手の台頭によって、チーム内の競争がいっそう激しくなった。',
+      '水平線から朝日がゆっくりと台頭するのを、浜辺で眺めた。',
+      '受賞者は名前を呼ばれて、拍手の中を台頭に上がった。',
+      '野菜の価格がこのところ台頭していて、家計に響いている。',
+    ],
+    answerIndex: 0,
+    explanation:
+      '「台頭」（抬頭、崛起）指新勢力或新人嶄露頭角、影響力日增，「新興国の台頭」「若手の台頭」是典型搭配。太陽升起應說「昇る」；領獎登上的是「壇上」；物價上漲是「高騰／上昇」。三個干擾項都只取「抬起、升高」的字面聯想，對象皆不能用「台頭」。',
+    explanationEn:
+      '「台頭」 means the rise of a new force or new talent gaining influence, as in 「新興国の台頭」 or 「若手の台頭」, so the young players\' rise intensifying competition within the team is correct. The sun coming up is 「昇る」; the stage a prizewinner steps onto is the 「壇上」; and vegetable prices climbing is 「高騰／上昇」 — the distractors only borrow the literal image of something lifting or rising.',
+  },
+  {
+    kind: 'choice',
+    id: 'n1-vocab-yoho-044',
+    stem: '干渉',
+    options: [
+      '親といえども、成人した子どもの生活にむやみに干渉すべきではない。',
+      '休日は美術館で絵画をゆっくり干渉するのが何よりの楽しみだ。',
+      '組合は賃上げをめぐって、会社側と粘り強く干渉を重ねている。',
+      '国境地帯には、両軍の衝突を防ぐための干渉地帯が設けられている。',
+    ],
+    answerIndex: 0,
+    explanation:
+      '「干渉」（干涉、干預）指介入與自己無關的事、對他人的事指手畫腳，「内政干渉」「生活に干渉する」是典型用法。欣賞繪畫應說「鑑賞」；勞資談判是「交渉」；防止衝突的地帶是「緩衝地帯」。三個干擾項都是讀音或字形相近詞語的混淆，語意完全不同。',
+    explanationEn:
+      '「干渉」 means to interfere — meddling in matters that are not your own, as in 「内政干渉」 or 「生活に干渉する」, so parents not meddling needlessly in their grown child\'s life is correct. Appreciating paintings is 「鑑賞」; wage negotiations are 「交渉」; and a zone that prevents clashes is a 「緩衝地帯」 — the distractors confuse words of similar sound or shape with entirely different meanings.',
+  },
+  {
+    kind: 'choice',
+    id: 'n1-vocab-yoho-045',
+    stem: '垣間見る',
+    options: [
+      'ふだん厳しい部長の意外な一面を、社員旅行で垣間見ることができた。',
+      '展望台に上ると、街全体を垣間見ることができて爽快だ。',
+      '知らない単語が出てきたので、辞書を垣間見て意味を確かめた。',
+      '彼は初対面の相手の顔を、遠慮なくじろじろと垣間見た。',
+    ],
+    answerIndex: 0,
+    explanation:
+      '「垣間見る」（窺見一斑）原指從籬笆縫隙偷看，引申為偶然瞥見平時看不到的一面，「素顔を垣間見る」是典型用法。登高一覽全景是「見渡す」，視野範圍正好相反；查辭典是「辞書を引く」；「じろじろ」是明目張膽地盯著看，與偷偷瞥見的語感自相矛盾。',
+    explanationEn:
+      '「垣間見る」, literally to peek through a gap in a fence, means to catch a fleeting glimpse of a side normally hidden, as in 「素顔を垣間見る」, so glimpsing the strict manager\'s unexpected side on the company trip is correct. Taking in a whole cityscape is 「見渡す」, the opposite of a narrow glimpse; consulting a dictionary is 「辞書を引く」; and 「じろじろ」 means staring openly, which contradicts the stealthy nuance.',
+  },
+  {
+    kind: 'choice',
+    id: 'n1-vocab-yoho-046',
+    stem: '踏まえる',
+    options: [
+      '前回の反省点を踏まえて、今回の企画書は構成を大幅に見直した。',
+      '満員電車で隣の人の足を踏まえてしまい、慌てて謝った。',
+      '飛び出してきた猫に驚いて、車のブレーキを強く踏まえた。',
+      '「芝生を踏まえないでください」という看板が公園に立っていた。',
+    ],
+    answerIndex: 0,
+    explanation:
+      '「踏まえる」（依據、以…為前提）指以事實、結果、經驗為基礎來判斷或行動，「結果を踏まえて」「現状を踏まえた対策」是典型搭配。踩到別人的腳、踩煞車、踩草皮都是物理動作的「踏む」；三個干擾項都把抽象的「依據」誤用回具體的「踩踏」，搭配不成立。',
+    explanationEn:
+      '「踏まえる」 means to base a judgment or action on facts, results, or experience, as in 「結果を踏まえて」 or 「現状を踏まえた対策」, so revising the proposal in light of the previous lessons is correct. Stepping on someone\'s foot, hitting the brakes, and treading on the lawn all use the physical verb 「踏む」 — the three distractors drag the abstract "building on" sense back down to literal stepping, which the word cannot express.',
+  },
+  {
+    kind: 'choice',
+    id: 'n1-vocab-yoho-047',
+    stem: '値する',
+    options: [
+      '困難な状況でも最後まで諦めなかった彼の姿勢は、称賛に値する。',
+      'このコートは思ったより値して、持ち合わせでは足りなかった。',
+      '台風の影響で野菜が値して、今週は買うのを控えている。',
+      'あの古本屋は、持ち込んだ本を一冊ずつ丁寧に値してくれる。',
+    ],
+    answerIndex: 0,
+    explanation:
+      '「値する」（值得）以「〜に値する」表示配得上某種評價，如「称賛に値する」「一読に値する」「検討に値する」。價格昂貴應說「値が張る／高い」；漲價是「値上がりする」；替舊書估價是「値をつける／査定する」。三個干擾項都把它誤當成表示價格高低的一般動詞。',
+    explanationEn:
+      '「値する」 is used as 「〜に値する」 to mean deserving of some evaluation, as in 「称賛に値する」, 「一読に値する」, or 「検討に値する」, so his never giving up being worthy of praise is correct. A coat that costs more than expected is 「値が張る／高い」; prices going up is 「値上がりする」; and appraising secondhand books is 「値をつける／査定する」 — the distractors mistake it for an ordinary verb about prices.',
+  },
+  {
+    kind: 'choice',
+    id: 'n1-vocab-yoho-048',
+    stem: '秀でる',
+    options: [
+      '彼女は幼いころから語学に秀でていて、五か国語を自在に操る。',
+      '猛勉強の末、彼の成績は一学期で見違えるほど秀でた。',
+      '彼は背が高いので、人混みの中でもすぐ秀でて見つけられる。',
+      '雨上がりの空に、大きな虹がくっきりと秀でていた。',
+    ],
+    answerIndex: 0,
+    explanation:
+      '「秀でる」（擅長、出眾）以「〜に秀でる」表示在某方面才能特別突出，如「語学に秀でる」「一芸に秀でる」。成績進步應說「伸びる／上がる」；個子高顯眼是「目立つ」；彩虹高掛是「虹がかかる」。「秀でる」的主語是人、對象是才能領域，三個干擾項的搭配皆不成立。',
+    explanationEn:
+      '「秀でる」 means to excel, used as 「〜に秀でる」 for standing out in a field of talent, as in 「語学に秀でる」 or 「一芸に秀でる」, so her being gifted in languages since childhood is correct. Grades improving is 「伸びる／上がる」; a tall person standing out in a crowd is 「目立つ」; and a rainbow arching across the sky is 「虹がかかる」 — the subject must be a person and the target a field of ability, so none of the distractors hold.',
+  },
+  {
+    kind: 'choice',
+    id: 'n1-vocab-yoho-049',
+    stem: '司る',
+    options: [
+      '小脳は、体の平衡感覚を司る重要な器官である。',
+      '友人の結婚式で司ることになり、進行表を何度も読み込んだ。',
+      '裁判長は法廷で、被告人に無罪の判決を司った。',
+      '彼は十人の部下を厳しく司って、小さなミスも見逃さない。',
+    ],
+    answerIndex: 0,
+    explanation:
+      '「司る」（掌管、司理）指器官或機構掌管某種機能、職務，「消化を司る」「行政を司る」是典型用法，受詞必須是抽象的機能或事務。婚禮主持應說「司会を務める」；宣判是「判決を言い渡す」；帶部下是「管理する／束ねる」。三個干擾項都不是「司る」能接的對象。',
+    explanationEn:
+      '「司る」 means to govern or preside over a function or duty, with organs and institutions as subjects, as in 「消化を司る」 or 「行政を司る」, so the cerebellum governing the sense of balance is correct. Emceeing a wedding is 「司会を務める」; handing down a verdict is 「判決を言い渡す」; and supervising subordinates is 「管理する／束ねる」 — the object of 「司る」 must be an abstract function, which none of the distractors provide.',
+  },
+  {
+    kind: 'choice',
+    id: 'n1-vocab-yoho-050',
+    stem: '目論む',
+    options: [
+      'その投資家は会社の乗っ取りを目論んで、ひそかに株を買い集めていた。',
+      '家具を買う前に、部屋に置けるかどうか寸法を目論んでおいた。',
+      '会議の前に配られた資料にざっと目論んで、要点を頭に入れた。',
+      '彼は的の中心を目論んで、慎重に矢を放った。',
+    ],
+    answerIndex: 0,
+    explanation:
+      '「目論む」（謀劃、企圖）指在心中暗自盤算某項計謀，多帶負面色彩，「乗っ取りを目論む」「一儲けを目論む」是典型搭配。量尺寸應說「測る」；瀏覽資料是「目を通す」；瞄準目標是「狙う」。三個干擾項都只取「目」的字面聯想，並非「目論む」的用法。',
+    explanationEn:
+      '「目論む」 means to scheme — quietly plotting something, usually with a shady nuance, as in 「乗っ取りを目論む」 or 「一儲けを目論む」, so the investor plotting a takeover while secretly buying up shares is correct. Measuring dimensions is 「測る」; skimming handouts is 「目を通す」; and aiming at a target is 「狙う」 — the distractors merely borrow the character 「目」 and are not uses of this verb.',
+  },
+  {
+    kind: 'choice',
+    id: 'n1-vocab-yoho-051',
+    stem: '費やす',
+    options: [
+      '彼はこの辞書の編纂に、二十年もの歳月を費やした。',
+      '貯金が少しずつ費やして、通帳の残高が心細くなってきた。',
+      '電気を費やしたまま寝てしまい、朝まで部屋が明るかった。',
+      'ろうそくがすっかり費やして、部屋が真っ暗になった。',
+    ],
+    answerIndex: 0,
+    explanation:
+      '「費やす」（耗費）是他動詞，指把大量時間、金錢、勞力投注於某事，「歳月を費やす」「労力を費やす」是典型搭配。存款減少是自動詞「減る」，「貯金が費やして」文法不通；燈沒關是「つけたまま」；蠟燭燒完是「燃え尽きる」。干擾項都是自他動詞或搭配的誤用。',
+    explanationEn:
+      '「費やす」 (to expend) is a transitive verb for pouring large amounts of time, money, or labor into something, as in 「歳月を費やす」 or 「労力を費やす」, so devoting twenty years to compiling the dictionary is correct. Savings dwindling takes the intransitive 「減る」 — 「貯金が費やして」 is ungrammatical; leaving the light on is 「つけたまま」; and a candle burning out is 「燃え尽きる」 — all transitivity or collocation errors.',
+  },
+  {
+    kind: 'choice',
+    id: 'n1-vocab-yoho-052',
+    stem: 'みなす',
+    options: [
+      '開始時刻を三十分過ぎても連絡がない場合は、欠席とみなします。',
+      '道端で財布をみなしたので、すぐ近くの交番に届けた。',
+      '続きが気になって、ドラマを最終回まで一気にみなした。',
+      '寝坊したので、今朝はニュースをみなさずに家を飛び出した。',
+    ],
+    answerIndex: 0,
+    explanation:
+      '「みなす」（視為、當作）以「〜とみなす」表示在規則或判斷上把某情況當成另一種情況處理，「欠席とみなす」「同意したものとみなす」是典型用法。撿到錢包應說「見つけた」；一口氣看完是「見た」；沒看新聞出門是「見ずに」。三個干擾項都把它誤當成單純「看」的動詞。',
+    explanationEn:
+      '「みなす」 means to deem or regard as, used with 「〜とみなす」 when rules or judgment treat one situation as another, as in 「欠席とみなす」 or 「同意したものとみなす」, so treating no contact after thirty minutes as an absence is correct. Finding a wallet is 「見つけた」; binge-watching to the finale is 「見た」; and leaving without watching the news is 「見ずに」 — the distractors mistake it for the plain verb of seeing.',
+  },
+  {
+    kind: 'choice',
+    id: 'n1-vocab-yoho-053',
+    stem: '志す',
+    options: [
+      '幼いころ大病を患った経験から、彼は医師を志すようになった。',
+      'この小包は九州の祖母に志して送ったものだ。',
+      '目覚まし時計を六時に志してから、電気を消して眠った。',
+      '横断歩道では、車が来ないことを志してから渡りましょう。',
+    ],
+    answerIndex: 0,
+    explanation:
+      '「志す」（立志）指下定決心以某職業、目標作為人生方向，「医師を志す」「政治家を志す」是典型用法。包裹寄給某人應說「宛てて」；設定鬧鐘是「セットする／合わせる」；確認沒有來車是「確かめる」。三個干擾項的動作都與「立定志向」無關，搭配完全不成立。',
+    explanationEn:
+      '「志す」 means to aspire to — resolving to make a profession or goal one\'s life direction, as in 「医師を志す」 or 「政治家を志す」, so his childhood illness leading him to aspire to be a doctor is correct. Addressing a parcel to someone is 「宛てて」; setting an alarm clock is 「セットする／合わせる」; and checking that no cars are coming is 「確かめる」 — none of the distractor actions involve setting an aspiration.',
+  },
+  {
+    kind: 'choice',
+    id: 'n1-vocab-yoho-054',
+    stem: '頑な',
+    options: [
+      '彼は周囲がいくら説得しても、頑なに引退を拒み続けた。',
+      'このせんべいは頑なで、年配の人には少し食べにくい。',
+      'この本棚は頑なな作りだから、多少重い物を載せても大丈夫だ。',
+      '祖父は九十歳を過ぎても頑なで、毎朝畑仕事に精を出している。',
+    ],
+    answerIndex: 0,
+    explanation:
+      '「頑な」（固執、頑固）形容態度僵硬、不肯聽勸改變，「頑なに拒む」「頑なな態度」是典型搭配。煎餅硬應說「硬い」；家具堅固是「頑丈」；老人家身體硬朗是「達者／元気」。三個干擾項都從「頑・硬」的字面聯想誤用，但「頑な」只能形容人的態度。',
+    explanationEn:
+      '「頑な」 means obstinate — an attitude so rigid it refuses all persuasion — with typical collocations 「頑なに拒む」 and 「頑なな態度」, so his stubbornly refusing to retire is correct. A hard rice cracker is 「硬い」; sturdily built furniture is 「頑丈」; and a grandfather still hale at ninety is 「達者／元気」 — the distractors play on the literal image of hardness, but 「頑な」 can only describe a person\'s attitude.',
+  },
+  {
+    kind: 'choice',
+    id: 'n1-vocab-yoho-055',
+    stem: '誇張',
+    options: [
+      '彼の武勇伝には誇張が多いので、話半分に聞いておいたほうがいい。',
+      '駅前の道路を誇張する工事で、この先はしばらく片側通行だ。',
+      '彼女は看護師という仕事に誇張を持って働いている。',
+      '父は入賞した息子のことを、会う人ごとに誇張していた。',
+    ],
+    answerIndex: 0,
+    explanation:
+      '「誇張」（誇大）指把事情說得比實際更大、更嚴重，「誇張して話す」「誇張表現」是典型用法。拓寬道路應說「拡張」；對工作抱持的自豪感是「誇り」；向人炫耀是「自慢」。三個干擾項都是形近或同字根詞語的混淆，語意皆不等於「誇大其詞」。',
+    explanationEn:
+      '「誇張」 means exaggeration — describing things as bigger or more dramatic than they are, as in 「誇張して話す」 or 「誇張表現」, so taking his much-embellished war stories with a grain of salt is correct. Widening a road is 「拡張」; the pride she takes in nursing is 「誇り」; and showing off a prizewinning son to everyone is 「自慢」 — all confusions of similar-looking words sharing a character.',
+  },
+  {
+    kind: 'choice',
+    id: 'n1-vocab-yoho-056',
+    stem: '順応',
+    options: [
+      '転校を繰り返したおかげか、彼は新しい環境にすぐ順応できる。',
+      '手術後の経過は順応で、予定より早く退院できそうだ。',
+      '窓口が混んでいたので、順応が来るまで待合室で本を読んでいた。',
+      'この犬はとても順応な性格で、飼い主の指示によく従う。',
+    ],
+    answerIndex: 0,
+    explanation:
+      '「順応」（適應）指人或生物配合環境、狀況的變化調整自己，「環境に順応する」是典型搭配。術後恢復良好應說「順調」；排隊輪到自己是「順番」；性格溫馴聽話是「従順」。三個干擾項都是「順」字開頭形近詞的混淆，語意各異、不能互換。',
+    explanationEn:
+      '「順応」 means adaptation — a person or organism adjusting itself to changes in its surroundings, with 「環境に順応する」 as the typical collocation, so his quickly adapting to new environments after repeated school transfers is correct. A smooth post-operative recovery is 「順調」; your turn in a queue is 「順番」; and a docile, obedient dog is 「従順」 — three look-alike 「順」 words with distinct meanings.',
+  },
+  {
+    kind: 'choice',
+    id: 'n1-vocab-yoho-057',
+    stem: '格段',
+    options: [
+      '新しい機種は旧型に比べて、処理速度が格段に向上している。',
+      'このエレベーターは格段に止まるので、上の階へもすぐ行ける。',
+      'あの料亭は格段が高くて、一見の客はなかなか入れない。',
+      '夜の階段では、格段に足元をよく確かめて上ってください。',
+    ],
+    answerIndex: 0,
+    explanation:
+      '「格段」（顯著、格外）表示程度差距非常大，多以「格段に」修飾進步、提升等變化，「格段に向上する」「格段の差」是典型用法。電梯每層都停應說「各階」；老店門檻高是「格式が高い」；一階一階確認腳步是「一段ずつ」。三個干擾項都是形近詞或字面聯想的誤用。',
+    explanationEn:
+      '「格段」 means markedly — a difference of a whole order — usually as 「格段に」 modifying improvement or change, as in 「格段に向上する」 or 「格段の差」, so the new model\'s dramatically faster processing is correct. An elevator stopping at every floor is 「各階」; an exclusive restaurant\'s prestige is 「格式が高い」; and checking your footing step by step is 「一段ずつ」 — all look-alike or literal-reading errors.',
+  },
+  {
+    kind: 'choice',
+    id: 'n1-vocab-yoho-058',
+    stem: '無造作',
+    options: [
+      '彼女は長い髪を無造作に束ねただけなのに、不思議と様になっている。',
+      '食事中に大きな音を立てるのは無造作だと、母に厳しく注意された。',
+      '何度注意しても遅刻が直らないので、言うだけ無造作な気がしてきた。',
+      '彼は服装に無造作で、季節を問わず同じ上着ばかり着ている。',
+    ],
+    answerIndex: 0,
+    explanation:
+      '「無造作」（隨意、不刻意）形容不費心思、隨手為之的動作，「無造作に置く」「無造作に束ねる」是典型搭配。用餐禮儀差應說「無作法」；白費力氣是「無駄」；不講究穿著是「無頓着」。三個干擾項都是「無〜」開頭形近詞的混淆，語意各不相同。',
+    explanationEn:
+      '「無造作」 means casually, without fuss or deliberate effort, as in 「無造作に置く」 or 「無造作に束ねる」, so her hair looking good despite being tied up carelessly is correct. Bad table manners are 「無作法」; effort that seems futile is 「無駄」; and being indifferent to what one wears is 「無頓着」 — three 「無〜」 look-alikes, each with a different meaning.',
+  },
+  {
+    kind: 'choice',
+    id: 'n1-vocab-yoho-059',
+    stem: '一途',
+    options: [
+      '彼は学生時代に出会った彼女を、十年間一途に思い続けてきた。',
+      'この村へ通じる道は一途しかなく、大雪の日は孤立してしまう。',
+      '出発前に、旅行の一途を細かく手帳に書き込んだ。',
+      '集めた資料を一途にまとめて、一冊の報告書に仕上げた。',
+    ],
+    answerIndex: 0,
+    explanation:
+      '「一途」（いちず，專一、一心一意）形容心思只朝著一件事、毫不動搖，「一途に思う」「仕事一途」是典型用法。只有一條路應說「一本道」；旅行的行程是「旅程／日程」；把資料整合為一是「一つに」。三個干擾項都把它誤當成「一條、一個」的數量詞使用。',
+    explanationEn:
+      '「一途」 (いちず) means single-minded — a heart set unswervingly on one thing — as in 「一途に思う」 or 「仕事一途」, so his devotedly loving her for ten years is correct. A village reachable by only one road uses 「一本道」; a trip\'s itinerary is its 「旅程／日程」; and gathering materials into one is 「一つに」 — the distractors all mistake it for a counter meaning "one road" or "one unit".',
+  },
+  {
+    kind: 'choice',
+    id: 'n1-vocab-yoho-060',
+    stem: '練る',
+    options: [
+      '新商品の販売戦略を、チーム全員で時間をかけて練った。',
+      '昨夜は十一時に布団に入り、朝まで八時間ぐっすり練った。',
+      '蛇口を練っても水が一滴も出ないので、管理会社に連絡した。',
+      '祖母は毛糸を練って、孫のために冬用の手袋を作った。',
+    ],
+    answerIndex: 0,
+    explanation:
+      '「練る」（推敲、琢磨）指反覆思考使計畫、文章更完善，「計画を練る」「構想を練る」「文章を練る」是典型搭配。睡覺是同音的「寝る」；轉水龍頭是「ひねる」；織毛線是「編む」。三個干擾項或是同音詞混淆，或是不相干的手部動作，皆非「練る」的用法。',
+    explanationEn:
+      '「練る」 means to polish or work out — thinking something over repeatedly to refine a plan or text, as in 「計画を練る」, 「構想を練る」, or 「文章を練る」, so the team taking its time to hammer out the sales strategy is correct. Sleeping soundly is the homophone 「寝る」; turning a faucet is 「ひねる」; and knitting yarn is 「編む」 — the distractors are either homophone confusions or unrelated manual actions.',
+  },
 ]

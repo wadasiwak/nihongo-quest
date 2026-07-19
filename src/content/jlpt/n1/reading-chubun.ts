@@ -295,4 +295,112 @@ export const questions: JlptQuestion[] = [
       },
     ],
   },
+  {
+    id: 'n1-reading-chubun-007',
+    kind: 'passage',
+    passage:
+      '「創業以来変わらぬ味」を掲げる老舗は多い。だが、百年以上続く店の主人に話を聞くと、意外な答えが返ってくることがある。「うちは変わり続けてきたから残ったのです」と。看板の言葉と実際の歩みとの間には、しばしば大きな隔たりがあるのだ。\n　考えてみれば当然のことで、百年の間には、客の好みも、手に入る材料も、暮らしの形も大きく変わる。砂糖の質が変われば配合を見直し、客が甘さを控えるようになれば味を調整する。昔のままの製法を頑固に守っていたら、味はむしろ「昔と同じ」ではなくなってしまう。同じ体験を客に届けるためにこそ、作り方は変え続けなければならないのである。つまり、老舗が守ってきたのは個々の製法ではなく、その店が何のために存在するのかという核であり、それ以外の部分は時代に合わせて絶えず手直しされてきた。伝統とは、完成した形の保存ではなく、小さな革新の連続の別名なのだ。\n　もっとも、変えると言っても、流行を追って何もかも入れ替えるのとは違う。核まで手放した店は、一時の話題にはなっても長くは続かない。何を変えてよく、何を変えてはならないか。その線引きを世代ごとに問い直し続ける営みこそが、店を次の百年へ生かすのだと思う。',
+    explanation: '',
+    questions: [
+      {
+        id: 'n1-reading-chubun-007-q1',
+        stem: '昔のままの製法を頑固に守っていたら、味はむしろ「昔と同じ」ではなくなってしまうのはなぜか。',
+        options: [
+          '客の好みや材料などが変わる以上、同じ体験を届けるためには作り方のほうを変え続ける必要があるから',
+          '昔の製法は正確な記録が残っておらず、そのまま再現することがそもそもできないから',
+          '砂糖をはじめとする昔と同じ材料は、現在ではまったく手に入らなくなってしまったから',
+          '客は常に新しい味を求めるので、同じ味を出し続ければ必ず飽きられてしまうから',
+        ],
+        answerIndex: 0,
+        explanation:
+          '第二段說明百年之間「客の好みも、手に入る材料も、暮らしの形も大きく変わる」，因此「同じ体験を客に届けるためにこそ、作り方は変え続けなければならない」——固守舊製法反而做不出與昔日相同的體驗。「材料完全買不到」是過度推論，文中只說砂糖的品質會改變；「客人喜新厭舊、必被吃膩」偷換了論旨——筆者談的是傳遞相同體驗，不是迎合新奇。',
+        explanationEn:
+          'The second paragraph explains that over a century 「客の好みも、手に入る材料も、暮らしの形も大きく変わる」, and therefore 「同じ体験を客に届けるためにこそ、作り方は変え続けなければならない」 — stubbornly keeping the old recipe would actually fail to deliver the same experience as before. Saying the old ingredients can no longer be obtained at all is an over-inference; the text only says the quality of sugar changes. And "customers always crave novelty and will tire of the same taste" swaps the point — the author is talking about delivering the same experience, not catering to newness.',
+      },
+      {
+        id: 'n1-reading-chubun-007-q2',
+        stem: '筆者によると、老舗が守ってきたものは何か。',
+        options: [
+          'その店が何のために存在するのかという核',
+          '創業以来一度も変えられたことのない個々の製法',
+          '看板に掲げられた「変わらぬ味」という言葉どおりの味',
+          '昔から受け継がれてきた材料の配合の割合',
+        ],
+        answerIndex: 0,
+        explanation:
+          '第二段明言「老舗が守ってきたのは個々の製法ではなく、その店が何のために存在するのかという核であり」。「個々の製法」正是被「〜ではなく」否定的對象；「看板の言葉どおりの味」在首段已被指出與實際歩み「大きな隔たりがある」；「配合の割合」也與「砂糖の質が変われば配合を見直し」的敘述相反。',
+        explanationEn:
+          'The second paragraph states it directly: 「老舗が守ってきたのは個々の製法ではなく、その店が何のために存在するのかという核であり」. 「個々の製法」 is precisely what is negated by 「〜ではなく」; a taste true to the slogan on the signboard is what the opening says has 「大きな隔たりがある」 from the shop\'s actual history; and preserving the old blend ratio contradicts the statement 「砂糖の質が変われば配合を見直し」.',
+      },
+      {
+        id: 'n1-reading-chubun-007-q3',
+        stem: '筆者の考えに合うものはどれか。',
+        options: [
+          '何を変えてよく何を変えてはならないかを世代ごとに問い直し続けることが、店を長く存続させる',
+          '流行に合わせて店のあり方を何もかも入れ替えていくことが、老舗が生き残る唯一の道である',
+          '伝統は先人が完成させた形なので、手を加えずにそのまま保存することにこそ価値がある',
+          '百年続いた店は客の信頼を得ているので、今後は特に何もしなくても存続していける',
+        ],
+        answerIndex: 0,
+        explanation:
+          '末段結論「何を変えてよく、何を変えてはならないか。その線引きを世代ごとに問い直し続ける営みこそが、店を次の百年へ生かす」，正解即此。「什麼都跟著流行換掉」被「核まで手放した店は…長くは続かない」明確否定；「傳統應原封不動保存」與第二段「伝統とは、完成した形の保存ではなく、小さな革新の連続の別名」直接矛盾；「靠信賴不必再做什麼」是文中沒有的過度推論。',
+        explanationEn:
+          'The final paragraph concludes: 「何を変えてよく、何を変えてはならないか。その線引きを世代ごとに問い直し続ける営みこそが、店を次の百年へ生かす」, which the correct option restates. Replacing everything to chase trends is explicitly rejected by 「核まで手放した店は…長くは続かない」; preserving tradition untouched directly contradicts 「伝統とは、完成した形の保存ではなく、小さな革新の連続の別名」 in the second paragraph; and surviving on trust without doing anything is an over-inference found nowhere in the text.',
+      },
+    ],
+  },
+  {
+    id: 'n1-reading-chubun-008',
+    kind: 'passage',
+    passage:
+      '公園から箱型ブランコや回転遊具が姿を消して久しい。事故が起きるたびに遊具は撤去され、禁止事項を並べた看板が増えていく。子どもを傷つけたくないという思いは当然のものであり、責任を問われる管理者だけを責めるのは酷だろう。だが、危険らしきものを片端から取り除いていくやり方は、本当に子どもを守っていることになるのだろうか。\n　子どもは、小さな危険に触れる経験を通して、危険との付き合い方を身につけていく。木登りで足場を確かめ、高すぎる枝の手前で引き返す。転んでひざをすりむき、次はどこで速度を落とすべきかを覚える。つまり、擦り傷程度の小さな失敗は、大けがを避けるための練習なのである。その機会をあらかじめ奪ってしまえば、子どもは危険を見積もる物差しを持たないまま大きくなるほかない。遊び場から危険を消すことは、目の前の事故を減らす代わりに、危険を自分で判断する力が育つ機会まで消してしまうのだ。\n　求められているのは、危険をゼロにすることではなく、危険を選び分けることだろう。命に関わるような欠陥は徹底して取り除く一方で、子どもが挑戦して学べる程度の危険は、見守りながら残しておく。その区別を面倒がらずに考え続けることこそが、大人の側の責任ではないだろうか。',
+    explanation: '',
+    questions: [
+      {
+        id: 'n1-reading-chubun-008-q1',
+        stem: '「擦り傷程度の小さな失敗は、大けがを避けるための練習なのである」とは、どういうことか。',
+        options: [
+          '小さな危険に触れて失敗する経験を通して、子どもは危険を見積もり、危険と付き合う力を身につけていくということ',
+          '擦り傷を何度も経験するうちに体が鍛えられて、大きなけがをしにくくなるということ',
+          '小さなけがをした子どもは、恐怖心から危険な遊びには二度と近づかなくなるということ',
+          '遊具で遊ぶ練習を重ねれば、どんな遊具でも安全に使いこなせるようになるということ',
+        ],
+        answerIndex: 0,
+        explanation:
+          '此句總結前文木登り、すりむく等例——孩子是「小さな危険に触れる経験を通して、危険との付き合い方を身につけていく」，小失敗正是學會估量危險、避開大傷害的練習。「身體被鍛鍊得不易受傷」把學習判斷偷換成體質問題；「因恐懼而不再接近危險」方向相反，文中孩子學到的是「次はどこで速度を落とすべきか」，是調整而非逃避；「任何遊具都能安全使用」是文中沒有的過度推論。',
+        explanationEn:
+          'The sentence sums up the preceding examples of tree-climbing and scraped knees: children 「小さな危険に触れる経験を通して、危険との付き合い方を身につけていく」 — small failures are practice in gauging danger and avoiding serious injury. "The body gets toughened so injuries become less likely" swaps learning to judge for physical conditioning; "fear keeps them away from risky play forever" runs in the opposite direction, since what the child learns is 「次はどこで速度を落とすべきか」 — adjustment, not avoidance; and mastering every piece of equipment safely is an over-inference absent from the text.',
+      },
+      {
+        id: 'n1-reading-chubun-008-q2',
+        stem: '遊び場から危険を消すことについて、筆者はどのように考えているか。',
+        options: [
+          '目の前の事故を減らす一方で、子どもが危険を自分で判断する力を育てる機会まで奪ってしまう',
+          '事故を確実に防ぐことができるのだから、遊具の撤去は今後も徹底して進めるべきだ',
+          '禁止事項の看板を増やしさえすれば、遊具を撤去しなくても子どもの安全は守られる',
+          '子どもが遊びへの興味を失い、公園から足が遠のく最大の原因になっている',
+        ],
+        answerIndex: 0,
+        explanation:
+          '第二段末明言「遊び場から危険を消すことは、目の前の事故を減らす代わりに、危険を自分で判断する力が育つ機会まで消してしまうのだ」，正解即此。「應徹底推進撤去」與筆者的質疑「本当に子どもを守っていることになるのだろうか」方向相反；「多立禁止看板就能保安全」——看板一詞雖在首段出現，卻是被列為問題現象的一環，並非筆者的主張；「孩子因此不去公園」是文中沒有的內容。',
+        explanationEn:
+          'The end of the second paragraph states it plainly: 「遊び場から危険を消すことは、目の前の事故を減らす代わりに、危険を自分で判断する力が育つ機会まで消してしまうのだ」, which the correct option restates. Pushing removal even further runs against the author\'s doubt 「本当に子どもを守っていることになるのだろうか」; as for adding more warning signs, 「看板」 does appear in the opening, but as part of the problem being described, not as the author\'s proposal; and children losing interest in the park is content the text never mentions.',
+      },
+      {
+        id: 'n1-reading-chubun-008-q3',
+        stem: 'この文章で筆者が最も言いたいことは何か。',
+        options: [
+          '取り除くべき危険と学びのために残す危険とを選び分け、その区別を考え続けることが大人の責任だ',
+          '子どもの自主性を尊重して、遊び場の管理はすべて子ども自身に任せるべきだ',
+          '子どもの挑戦の機会を守るためには、命に関わる欠陥であっても残しておくべきだ',
+          '事故が起きた遊具をすぐに撤去することこそ、子どもを守る最も確実な方法だ',
+        ],
+        answerIndex: 0,
+        explanation:
+          '末段主張「危険をゼロにすることではなく、危険を選び分けること」：攸關性命的缺陷要「徹底して取り除く」、可供挑戰學習的危險則看守著保留，並說「その区別を面倒がらずに考え続けることこそが、大人の側の責任」。「全部交給孩子自己管理」是文中沒有的過度推論；「連攸關性命的缺陷也保留」與「徹底して取り除く」直接矛盾；「出事就立刻撤去」正是筆者全文質疑的做法。',
+        explanationEn:
+          'The final paragraph argues for 「危険をゼロにすることではなく、危険を選び分けること」: defects that are life-threatening must be 「徹底して取り除く」, while dangers of a size children can challenge and learn from are kept under watch, and 「その区別を面倒がらずに考え続けることこそが、大人の側の責任」. Leaving playground management entirely to the children is an over-inference nowhere in the text; keeping even life-threatening defects directly contradicts 「徹底して取り除く」; and removing equipment immediately after an accident is exactly the practice the essay calls into question.',
+      },
+    ],
+  },
 ]

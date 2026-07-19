@@ -201,4 +201,104 @@ export const questions: JlptQuestion[] = [
       },
     ],
   },
+  {
+    id: 'n1-grammar-bunsho-005',
+    kind: 'passage',
+    passageTitle: '介護現場のロボットと「人の手」',
+    passage:
+      '介護の現場で、ロボットの導入が進んでいる。入居者を抱え上げる装置、転倒を知らせる見守りセンサー、話し相手になる機械まで、その種類は年々増えるばかりだ。人手不足が深刻化するなか、機械に任せられる仕事は任せるべきだという主張は、一見もっともに聞こえる。【１】、介護は効率化になじまない営みだという反発も根強い。「人の手のぬくもり」こそが介護の本質であり、機械に置き換えれば介護は冷たいものになる、というのである。\nだが、現場を訪ねてみると、この対立の図式がいかに粗いものかに気づかされる。ある施設では、抱え上げの装置を導入したところ、職員の腰痛が減っただけでなく、夜勤の負担が軽くなり、日中に利用者とゆっくり向き合う余裕が生まれたという。【２】現場の声が示すのは、機械が人の手を奪ったのではなく、体を壊すほどの力仕事を機械が引き受けた結果、人にしかできない仕事に人の手が戻ってきた、ということである。\n【３】、導入しさえすれば万事うまくいくというわけでもない。操作に慣れるまでかえって手間が増えたという施設もあれば、高価な機器が倉庫で眠っているという話も聞く。問われているのは機器の性能そのものよりも、どの仕事を機械に任せ、どの仕事を人が担い続けるのかという線引きなのだ。\nぬくもりとは、手が触れることそのものではなく、相手に向き合う時間と注意から生まれるものだろう。その時間を取り戻す手段として機械を使うのなら、ロボットの導入は介護を冷たくする【４】、むしろ人間らしくするための選択でありうるのではないか。',
+    explanation: '',
+    questions: [
+      {
+        id: 'n1-grammar-bunsho-005-q1',
+        stem: '【１】に入るのはどれか。',
+        options: ['一方', 'それゆえ', 'すなわち', 'ちなみに'],
+        answerIndex: 0,
+        explanation:
+          '前句陳述贊成導入的主張「機械に任せられる仕事は任せるべきだ」，後句列出「介護は効率化になじまない」的反彈，兩種立場並陳對比要用「一方」（另一方面），且與句尾「反発も根強い」的「も」相呼應。「それゆえ」表因果順接，前後並非因果；「すなわち」用於同義改述，反彈並不是前句主張的換句話說；「ちなみに」是補充題外話，無法引出分庭抗禮的對立意見。',
+        explanationEn:
+          'The first sentence presents the pro-adoption claim 「機械に任せられる仕事は任せるべきだ」, and the next lays out the opposing backlash that care work resists efficiency — juxtaposing two contrasting positions calls for 「一方」 (on the other hand), echoing the 「も」 in 「反発も根強い」. 「それゆえ」 marks cause and effect, which these sentences are not; 「すなわち」 restates in other words, but the backlash is no paraphrase of the claim; and 「ちなみに」 adds an aside, unable to introduce an opposing camp.',
+      },
+      {
+        id: 'n1-grammar-bunsho-005-q2',
+        stem: '【２】に入るのはどれか。',
+        options: ['こうした', 'ああした', 'どういった', 'なんらかの'],
+        answerIndex: 0,
+        explanation:
+          '前句剛具體引述某機構導入裝置後「腰痛減少、夜勤負擔變輕、白天有餘裕陪伴利用者」的實例，緊接著以「こうした現場の声」統括收束，是文章中「こ」系指示詞承接剛敘述內容的標準用法。「ああした」的「あ」系指說寫雙方共知的遙遠事物，不能回指文章前文；「どういった」是疑問詞，本句為直述句；「なんらかの」（某種）語意含糊，與後文明確歸納的斷定語氣不合。',
+        explanationEn:
+          'The previous sentence has just quoted a concrete example — after introducing the lifting device, back pain decreased, night shifts got lighter, and staff gained time to sit with residents — and the passage gathers it up as 「こうした現場の声」, the standard use of a こ-series demonstrative to receive what was just stated. The あ-series 「ああした」 points to distant things both parties know firsthand and cannot refer back into the text; 「どういった」 is interrogative while this sentence is declarative; and the vague 「なんらかの」 (some kind of) clashes with the definite summing-up that follows.',
+      },
+      {
+        id: 'n1-grammar-bunsho-005-q3',
+        stem: '【３】に入るのはどれか。',
+        options: ['もっとも', 'なぜなら', 'それゆえ', 'おまけに'],
+        answerIndex: 0,
+        explanation:
+          '第二段整段肯定導入帶來的正面效果，本句補上但書「並非導入就萬事順利」，這種「先大致肯定、再附加保留」的語勢用「もっとも」（話說回來、不過）最貼切。「なぜなら」必須與句尾「〜からだ」呼應，此處句尾是「わけでもない」，搭配不成立；「それゆえ」表因果順接，無法引出限制前文的但書；「おまけに」表累加，與翻轉語勢正好相反。',
+        explanationEn:
+          'The second paragraph wholly affirms the benefits of adoption, and this sentence adds the caveat that merely introducing robots does not make everything go well — the stance of broadly affirming and then qualifying is exactly what 「もっとも」 (that said, mind you) conveys. 「なぜなら」 must pair with a sentence-final 「〜からだ」, but this sentence ends in 「わけでもない」, so the pairing fails; 「それゆえ」 is a causal connective that cannot introduce a reservation; and 「おまけに」 piles on more of the same, the opposite of a qualifying turn.',
+      },
+      {
+        id: 'n1-grammar-bunsho-005-q4',
+        stem: '【４】に入るのはどれか。',
+        options: ['どころか', 'ばかりか', 'のみならず', 'ばかりに'],
+        answerIndex: 0,
+        explanation:
+          '「〜どころか、むしろ〜」表示「非但不是…反而是…」：導入非但不會讓照護變冷漠，反而可能使它更有人味，與後文的「むしろ」正好呼應。「ばかりか」「のみならず」都是「不僅…而且…」的累加，會變成「既變冷漠又變得有人味」的矛盾並立；「ばかりに」（就因為…才落得）須接た形且帶負面結果，形式與語意皆不合。',
+        explanationEn:
+          '「〜どころか、むしろ〜」 means far from being X, it is rather Y: far from making care cold, adopting robots can instead make it more humane, dovetailing with the following 「むしろ」. Both 「ばかりか」 and 「のみならず」 mean not only ... but also, which would absurdly stack making care cold and making it humane together; 「ばかりに」 (precisely because ..., with a bad result) requires the ta-form and a negative outcome, failing in both form and sense.',
+      },
+    ],
+  },
+  {
+    id: 'n1-grammar-bunsho-006',
+    kind: 'passage',
+    passageTitle: '食品ロスは誰の問題か',
+    passage:
+      'まだ食べられる食品が、日本では年間数百万トンも捨てられているという。この食品ロスを減らそうと、期限の近い商品の値引きや、余った食品を必要な人に届ける活動が各地で広がりつつある。「もったいない」という感覚は日本人の美徳だとしばしば語られ、削減の呼びかけも多くはこの心情に訴えるものだ。【１】、美徳に訴えるだけで問題が片づくかといえば、事はそれほど単純ではない。\nというのも、食品ロスの少なからぬ部分は、個人の不注意ではなく、仕組みそのものから生まれているからである。小売店は欠品を恐れて多めに仕入れ、賞味期限まで十分な余裕のある商品しか納品させないという商慣行が、まだ食べられる食品を店に並ぶ前に廃棄へと追いやる。この流れの川上に手をつけないかぎり、一人ひとりが家庭での買い方を【２】、社会全体のロスが大きく減ることはないだろう。\nでは、個人にできることは何もないのだろうか。そうではあるまい。消費者が値引き商品を進んで選び、外食では食べきれる量だけを注文するようになれば、企業の側も過剰な仕入れを見直さざるを得なくなる。個人の行動は、それ自体でロスを消し去る力は持たない【３】、構造に圧力をかける一票にはなりうるのだ。\n「もったいない」という言葉には、食べ物の背後にある手間への敬意が込められている。その敬意を個人の心がけの中に閉じ込めず、商慣行や制度を見直す動きへとつなげていくこと。商慣行も制度も人間が作ったものである以上、人間の手で【４】。必要なのは嘆きではなく、仕組みを設計し直す意志なのである。',
+    explanation: '',
+    questions: [
+      {
+        id: 'n1-grammar-bunsho-006-q1',
+        stem: '【１】に入るのはどれか。',
+        options: ['しかしながら', 'それゆえ', 'いわば', 'および'],
+        answerIndex: 0,
+        explanation:
+          '前句說削減的呼籲多半訴諸「もったいない」的美德心情，後句隨即質疑「光靠訴諸美德就能解決嗎，事情沒那麼單純」，語勢翻轉要用書面語的逆接「しかしながら」。「それゆえ」表因果順接，前後並非因果；「いわば」（可以說是）用於打比方，後句不是比喻；「および」是連接名詞的並列連詞，不能放在句首引導句子。',
+        explanationEn:
+          'The previous sentence notes that most appeals for reduction invoke the sentiment of 「もったいない」 as a Japanese virtue, and the next immediately questions whether appealing to virtue alone can settle the problem — a reversal that takes the literary adversative 「しかしながら」. 「それゆえ」 marks straightforward causation, which the sentences are not; 「いわば」 (so to speak) introduces a metaphor, but what follows is no analogy; and 「および」 is a conjunction that joins nouns and cannot stand at the head of a sentence.',
+      },
+      {
+        id: 'n1-grammar-bunsho-006-q2',
+        stem: '【２】に入るのはどれか。',
+        options: ['見直したくらいでは', '見直したとたん', '見直すついでに', '見直すべく'],
+        answerIndex: 0,
+        explanation:
+          '「〜たくらいでは〜ない」表示「光是做到…的程度是不會…的」：只靠個人在家檢討買法，不足以大幅減少整體食品ロス，與句尾「減ることはないだろう」的否定呼應，也扣合「不動上游就沒用」的段旨。「見直したとたん」是「一…就…」的瞬間相繼，後句並非緊接發生的事件；「見直すついでに」（順便）語意不合；「見直すべく」（為了…）表目的，無法連接否定的結論。',
+        explanationEn:
+          '「〜たくらいでは〜ない」 means merely doing ... to that extent will not ...: individuals rethinking household shopping alone is not enough to shrink society-wide food loss, matching the negative ending 「減ることはないだろう」 and the paragraph\'s point that nothing changes without touching the upstream. 「見直したとたん」 (the instant one did ...) requires an immediately ensuing event, which the clause is not; 「見直すついでに」 (while at it) is the wrong meaning; and the purposive 「見直すべく」 (in order to) cannot lead into a negative conclusion.',
+      },
+      {
+        id: 'n1-grammar-bunsho-006-q3',
+        stem: '【３】に入るのはどれか。',
+        options: ['までも', 'かぎり', 'ばかりに', 'どころか'],
+        answerIndex: 0,
+        explanation:
+          '「〜ないまでも」表示「即使達不到…的程度，至少也…」：個人行動雖沒有靠自身消滅食品ロス的力量，退一步說仍能成為對結構施壓的一票，先讓步再保住較低限度的主張。「かぎり」會變成「只要沒有力量就能成為一票」，邏輯不通；「ばかりに」須帶負面結果，後句卻是正面評價；「どころか」用於全盤翻轉前項，與「退而求其次」的語勢不合。',
+        explanationEn:
+          '「〜ないまでも」 means even if it does not go as far as ..., at least ...: individual action lacks the power to wipe out food loss by itself, yet can still serve as a vote pressuring the structure — conceding first, then securing the lesser claim. 「かぎり」 would absurdly mean as long as it lacks power, it can be a vote; 「ばかりに」 demands a negative outcome, but what follows is a positive appraisal; and 「どころか」 flatly overturns the preceding clause, not matching the settle-for-less tone.',
+      },
+      {
+        id: 'n1-grammar-bunsho-006-q4',
+        stem: '【４】に入るのはどれか。',
+        options: ['変えられないはずはない', '変えられるはずがない', '変えるまでもない', '変えかねない'],
+        answerIndex: 0,
+        explanation:
+          '「〜ないはずはない」是雙重否定的強烈肯定：「商慣行も制度も人間が作ったものである以上」（既然都是人造之物），推得「不可能改不了」，與後句「需要的是重新設計制度的意志」的積極語氣呼應。「変えられるはずがない」語意正好相反，與「以上」的推論及後文矛盾；「変えるまでもない」（用不著改）否定改變的必要，同樣牴觸文章主旨。',
+        explanationEn:
+          '「〜ないはずはない」 is a double negative amounting to strong affirmation: given 「商慣行も制度も人間が作ったものである以上」 (since both business practices and institutions were made by humans), it cannot be impossible to change them, matching the resolve in the next sentence that what is needed is the will to redesign the system. 「変えられるはずがない」 says the exact opposite, contradicting the inference from 「以上」 and what follows; 「変えるまでもない」 (no need to change) denies the very necessity of change, likewise clashing with the passage\'s point.',
+      },
+    ],
+  },
 ]

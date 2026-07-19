@@ -235,4 +235,112 @@ export const questions: JlptQuestion[] = [
       },
     ],
   },
+  {
+    kind: 'passage',
+    id: 'n1-reading-togo-007',
+    passage:
+      'Ａ\n週休三日制の導入をためらう企業は多いが、私はこの制度に大きな可能性を見ている。労働時間が減れば生産が落ちると懸念されがちだが、限られた時間で成果を出そうとする意識が、会議の削減や仕事の手順の見直しを促し、かえって生産性を高めた例は少なくない。十分な休息は心身の健康を保ち、離職の防止にもつながる。さらに、柔軟な働き方を求める人材にとって週休三日は強い魅力であり、採用競争で優位に立てるという利点も見逃せない。人手不足が深刻化するこれからの時代、優秀な人材を引きつけ、その力を存分に発揮させる仕組みとして、週休三日制は検討に値する選択肢だと私は考える。\nＢ\n週休三日制が働き手にとって魅力的な制度であることは、私も否定しない。しかし、導入を急ぐ議論には慎重でありたい。まず、労働時間の短縮に給与の引き下げが伴うなら、生活のために副業を掛け持ちし、かえって疲弊する人が出かねない。また、この制度の恩恵を受けやすいのは時間の融通がきく事務系の仕事であり、医療や介護、小売のように現場に人がいなければ回らない業種では、休みを増やした分の人手を新たに確保しなければならない。導入できる職場とできない職場の間に、新たな不公平が生まれるおそれもある。給与の水準や業種ごとの事情にどう手当てするのか。その議論を欠いたままの導入は、かえって働き手を苦しめることになるだろう。',
+    explanation: '',
+    questions: [
+      {
+        id: 'n1-reading-togo-007-q1',
+        stem: 'ＡとＢで共通して述べられていることは何か。',
+        options: [
+          '週休三日制は、働き手にとって魅力のある制度である',
+          '労働時間を減らしても、どの業種でも生産性は必ず高まる',
+          '給与を引き下げなければ、週休三日制を導入することはできない',
+          '週休三日制は、事務系の仕事に限って導入すべきである',
+        ],
+        answerIndex: 0,
+        explanation:
+          'Ａ說週休三日對追求彈性工作方式的人材是「強い魅力」，Ｂ開頭也承認這是「働き手にとって魅力的な制度」——制度對工作者有吸引力是兩篇明文重疊之處。選項2 把Ａ「かえって生産性を高めた例は少なくない」誇大成「どの業種でも必ず」，Ｂ更指出業種間有落差；選項3 減薪只是Ｂ擔憂可能伴隨的情況，並非導入的必要條件，Ａ全未提及；選項4 Ｂ指出的是事務系較易受惠的不公平，並未主張只限事務系導入。',
+        explanationEn:
+          'A calls the four-day week a 「強い魅力」 for people seeking flexible work, and B opens by conceding it is 「働き手にとって魅力的な制度」 — its appeal to workers is the recognition the two passages explicitly share. Option 2 inflates A\'s 「かえって生産性を高めた例は少なくない」 into "always, in every industry", while B points out gaps between industries; option 3 fails because pay cuts are only something B fears may accompany the system, not a precondition, and A never mentions them; option 4 distorts B, who notes the unfairness that office jobs benefit more easily but never argues for limiting adoption to them.',
+      },
+      {
+        id: 'n1-reading-togo-007-q2',
+        stem: '週休三日制の導入について、ＡとＢの立場はどのようなものか。',
+        options: [
+          'Ａは生産性の向上や人材の確保につながるとして前向きだが、Ｂは給与や業種間の格差への手当てを欠いたままの導入に慎重である',
+          'Ａは労働時間を減らせば生産も必ず落ちると認めており、Ｂは現場に人が必要な業種ほど導入しやすいと述べている',
+          'ＡもＢも、給与を引き下げることを条件に、直ちに導入すべきだと主張している',
+          'Ａは離職を防ぐ効果はないと述べ、Ｂは副業を掛け持ちする働き方を勧めている',
+        ],
+        answerIndex: 0,
+        explanation:
+          'Ａ以「かえって生産性を高めた例は少なくない」「採用競争で優位に立てる」肯定週休三日制，態度正面；Ｂ開頭即說「導入を急ぐ議論には慎重でありたい」，理由是減薪與業種落差尚無配套。選項2 兩邊都說反了：Ａ認為生產未必下降，Ｂ正指出現場型業種難以導入；選項3 兩篇都沒有「直ちに導入」的主張，減薪更是Ｂ的憂慮而非條件；選項4 與Ａ「離職の防止にもつながる」相反，Ｂ是擔心被迫兼職而非推薦。',
+        explanationEn:
+          'A is favorable, citing 「かえって生産性を高めた例は少なくない」 and the edge it gives in 「採用競争」; B says from the start 「導入を急ぐ議論には慎重でありたい」 because pay cuts and gaps between industries still lack remedies. Option 2 gets both sides backwards: A argues output need not fall, and B says on-site industries are precisely the hard cases; option 3 fails since neither writer urges immediate adoption, and the pay cut is B\'s worry rather than a condition; option 4 contradicts A\'s claim that rest 「離職の防止にもつながる」, and B fears forced side jobs rather than recommending them.',
+      },
+      {
+        id: 'n1-reading-togo-007-q3',
+        stem: 'ＡとＢは、それぞれ何に注目して週休三日制を論じているか。',
+        options: [
+          'Ａは生産性や採用といった企業にとっての利点に、Ｂは給与の減少や業種間の格差といった働き手や職場への影響に注目している',
+          'Ａは業種ごとの人手の確保に、Ｂは会議の削減による効率化に注目している',
+          'ＡもＢも、制度の導入によって離職が増えることを最大の問題と見ている',
+          'Ａは副業による働き手の疲弊に、Ｂは採用競争での優位に注目している',
+        ],
+        answerIndex: 0,
+        explanation:
+          'Ａ通篇圍繞企業面的利點：生產性提高、留住人材、招募上的優勢；Ｂ則聚焦制度對工作者與職場的衝擊：減薪導致兼職疲弊、事務系與現場系業種之間的落差。選項2 把兩篇關注點互換，「会議の削減」是Ａ舉的例子、增聘人手是Ｂ的顧慮；選項3 與Ａ「離職の防止にもつながる」相反，Ｂ也未談離職；選項4 同樣對調了兩篇，副業疲弊是Ｂ的憂慮、採用競爭是Ａ的論點。',
+        explanationEn:
+          'A argues throughout from the company\'s side — higher productivity, keeping staff, and an advantage in hiring — while B focuses on the impact on workers and workplaces: exhaustion from side jobs after pay cuts, and the gap between office work and on-site industries. Option 2 swaps the two: 「会議の削減」 is A\'s example and securing extra staff is B\'s concern; option 3 contradicts A\'s point that rest 「離職の防止にもつながる」, and B never discusses turnover; option 4 likewise trades sides — side-job fatigue is B\'s worry and the hiring race is A\'s argument.',
+      },
+    ],
+  },
+  {
+    kind: 'passage',
+    id: 'n1-reading-togo-008',
+    passage:
+      'Ａ\n観光客の急増により、名の知れた観光地では交通の混雑やごみの散乱、住民の生活への支障が深刻になっている。この状況を放置すれば、観光資源そのものが損なわれ、訪れる人の満足度も下がる一方だろう。私は、入域する人数の制限や、来訪者への課金をためらうべきではないと考える。徴収した料金を清掃や設備の維持に充てれば、環境を守るための財源にもなる。無料で誰でも際限なく受け入れることが、公平なのではない。適切な負担を求めることで訪問の価値はむしろ高まり、地域と観光客の双方にとって持続可能な観光が実現するのである。\nＢ\n一部の観光地に人が集中しすぎているという問題意識は、私も共有している。ただ、入域の制限や課金といった手段を先に立てる議論には違和感を覚える。料金を払える人だけが訪れられる場所にしてしまえば、観光の楽しみが所得によって左右されることになりかねない。まず取り組むべきは、訪問の時期や時間帯、行き先を分散させる工夫である。まだ知られていない地域の魅力を掘り起こし、朝夕や平日への誘導を進めれば、混雑は相当に和らぐはずだ。そして何より、観光のあり方を決める過程に、地元住民の声を反映させることが欠かせない。生活者の合意を欠いた対策は、たとえ効果があっても長続きしないからである。',
+    explanation: '',
+    questions: [
+      {
+        id: 'n1-reading-togo-008-q1',
+        stem: 'ＡとＢの筆者に共通する認識はどれか。',
+        options: [
+          '一部の観光地に観光客が集中し、問題が生じている現状は放置できない',
+          '来訪者への課金は、環境を守る財源として最も公平な手段である',
+          '訪問の時期や行き先を分散させれば、観光客の数を制限する必要はまったくない',
+          '地元住民の合意さえ得られれば、どのような対策でも長続きする',
+        ],
+        answerIndex: 0,
+        explanation:
+          'Ａ說觀光地的混雜與對居民生活的妨礙「深刻になっている」且不能放置，Ｂ也明言「問題意識は、私も共有している」——觀光客過度集中已成問題、必須著手處理，是兩篇共通的認識。選項2 課金是Ａ單方的主張，Ｂ反而擔心觀光樂趣被所得左右；選項3 Ｂ只說分散可讓混雜「相当に和らぐ」，並未斷言完全不需限制，Ａ更主張直接限制人數；選項4 把Ｂ「合意を欠いた対策は長続きしない」誇大成只要有合意什麼對策都能長久。',
+        explanationEn:
+          'A says congestion and the disruption to residents\' lives 「深刻になっている」 and must not be left alone, and B states 「問題意識は、私も共有している」 — that the over-concentration of tourists is a problem demanding action is the shared recognition. Option 2 fails because charging fees is A\'s claim alone, while B worries the enjoyment of travel would hinge on income; option 3 overreads B, who only says dispersal would ease crowding 「相当に和らぐ」 without ruling out limits, and A wants outright caps on numbers; option 4 inflates B\'s point that measures lacking consensus will not last into "any measure lasts if there is consensus".',
+      },
+      {
+        id: 'n1-reading-togo-008-q2',
+        stem: '来訪者への課金について、ＡとＢはそれぞれどのように述べているか。',
+        options: [
+          'Ａは環境を守る財源になり訪問の価値も高めるとして支持し、Ｂは観光の楽しみが所得に左右されかねないとして疑問を示している',
+          'Ａは所得による不公平を理由に反対し、Ｂは清掃の財源として真っ先に導入すべきだと述べている',
+          'ＡもＢも、課金には効果がないので、観光客の受け入れを全面的に停止するしかないと考えている',
+          'Ａは料金の徴収は住民の反発を必ず招くと述べ、Ｂは無料で際限なく受け入れることこそ公平だと述べている',
+        ],
+        answerIndex: 0,
+        explanation:
+          'Ａ主張把徵收的費用用於清掃與設備維護，「環境を守るための財源にもなる」，且要求適度負擔反而提高造訪的價值；Ｂ則質疑「料金を払える人だけが訪れられる場所」會讓觀光樂趣被所得左右。選項2 把兩篇立場整個互換；選項3 兩篇都沒有全面停止接納觀光客的主張；選項4 住民反應是Ｂ重視合意的脈絡而非Ａ的說法，Ｂ也從未主張無償無限制接納才是公平。',
+        explanationEn:
+          'A argues that the collected fees, spent on cleaning and upkeep, 「環境を守るための財源にもなる」, and that asking a fair share even raises the value of a visit; B questions the fee, warning that a place where 「料金を払える人だけが訪れられる」 would make the enjoyment of travel depend on income. Option 2 swaps the two stances entirely; option 3 fails because neither writer proposes halting tourism altogether; option 4 misattributes both — resident pushback belongs to B\'s call for consensus, not A, and B never claims unlimited free entry is what fairness means.',
+      },
+      {
+        id: 'n1-reading-togo-008-q3',
+        stem: 'オーバーツーリズムへの対策について、ＡとＢの主張はどのように異なるか。',
+        options: [
+          'Ａは人数の制限や課金によって来訪者に負担を求めるべきだとし、Ｂは時期や行き先の分散への誘導と住民の合意の形成を優先すべきだとしている',
+          'Ａは平日や朝夕への誘導を先に進めるべきだとし、Ｂは人数の制限をためらうべきではないとしている',
+          'Ａは観光地の新たな魅力を掘り起こす必要はないと述べ、Ｂは徴収した料金の使い道を最優先に論じている',
+          'ＡもＢも、対策は国が一律に定めるべきで、地域ごとに工夫する余地はないと考えている',
+        ],
+        answerIndex: 0,
+        explanation:
+          'Ａ的對策是直接管理需求：限制入域人數、向來訪者課金，並以「ためらうべきではない」表達積極態度；Ｂ則主張先做時期、時段與目的地的分散誘導，並強調決定觀光方針的過程須有在地居民的合意。選項2 把兩篇主張互換，「朝夕や平日への誘導」是Ｂ的提案；選項3 料金的使途是Ａ的論點而非Ｂ的優先事項，挖掘新魅力反而是Ｂ的主張；選項4 兩篇都未主張由國家一律規定，Ｂ更重視在地生活者的聲音。',
+        explanationEn:
+          'A manages demand head-on — capping the number of visitors and charging fees, saying such steps are ones we 「ためらうべきではない」; B would first steer visits across seasons, times of day, and destinations, and stresses building consensus with local residents when deciding how tourism should be run. Option 2 swaps the two positions, since guiding visitors 「朝夕や平日への誘導」 is B\'s proposal; option 3 is doubly wrong — how the fees are spent is A\'s argument, not B\'s priority, and unearthing new attractions is B\'s idea; option 4 fails as neither writer wants uniform national rules, and B in fact centers the voices of local residents.',
+      },
+    ],
+  },
 ]

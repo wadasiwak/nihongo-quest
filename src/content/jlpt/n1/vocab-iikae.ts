@@ -466,4 +466,254 @@ export const questions: JlptQuestion[] = [
     explanationEn:
       '「未然に」 is literary for "before it happens"; 「未然に防ぐ」 means to nip something in the bud, equaling 「起こる前に」. 「起きた直後に」 (right after it occurs) reverses the timing; 「完全に」 (completely) is about how thoroughly it is prevented, not when; 「偶然に」 (by coincidence) clashes with deliberate, planned prevention.',
   },
+  {
+    kind: 'choice',
+    id: 'n1-vocab-iikae-041',
+    stem: '引っ越しの荷造りは【あらかた】終わり、あとは細かいものを詰めるだけだ。',
+    options: ['ほとんど', '半分ほど', 'ようやく', '一気に'],
+    answerIndex: 0,
+    explanation:
+      '「あらかた」是「大部分、差不多都」，指接近全部但還留有少許零頭，等於「ほとんど」。「半分ほど」（約一半）完成度差太多，程度不等值；「ようやく」（好不容易才）講的是費盡辛苦的語感；「一気に」（一口氣地）講速度，都與「幾乎全部」的語意不同。',
+    explanationEn:
+      '「あらかた」 means "for the most part, nearly all", with only odds and ends remaining, equaling 「ほとんど」. 「半分ほど」 (about half) is far off in degree; 「ようやく」 (finally, after much effort) conveys hard-won relief; 「一気に」 (in one go) describes speed — neither means "almost all".',
+  },
+  {
+    kind: 'choice',
+    id: 'n1-vocab-iikae-042',
+    stem: '調査団は現地に入り、被害の実態を【つぶさに】記録した。',
+    options: ['細かい点まで詳しく', 'おおまかに', '急いでその場で', '人づてに聞いて'],
+    answerIndex: 0,
+    explanation:
+      '「つぶさに」是書面語的「詳細地、鉅細靡遺地」，強調連細節都不放過，等於「細かい点まで詳しく」。「おおまかに」（粗略地）詳細程度正好相反；「急いでその場で」（當場趕忙）講的是速度與場合；「人づてに聞いて」（輾轉聽來）是消息來源間接，與詳盡與否無關。',
+    explanationEn:
+      '「つぶさに」 is literary for "in minute detail", leaving no particular unexamined, equaling 「細かい点まで詳しく」. 「おおまかに」 (roughly) is the exact opposite in thoroughness; 「急いでその場で」 (hastily on the spot) concerns speed and setting; 「人づてに聞いて」 (heard secondhand) is about an indirect source, unrelated to detail.',
+  },
+  {
+    kind: 'choice',
+    id: 'n1-vocab-iikae-043',
+    stem: '十年ぶりに再会した友人と、【ひとしきり】昔話に花を咲かせた。',
+    options: ['しばらくの間さかんに', '一晩中休みなく', 'ぽつりぽつりと', '別れ際に少しだけ'],
+    answerIndex: 0,
+    explanation:
+      '「ひとしきり」指某動作熱烈地持續一陣子後告一段落，等於「しばらくの間さかんに」。「一晩中休みなく」（整晚不停）時間過長，也沒有「告一段落」的語感；「ぽつりぽつりと」（零零星星地）與「熱烈」正好相反；「別れ際に少しだけ」（臨別才聊一下）時點和分量都不合。',
+    explanationEn:
+      '「ひとしきり」 means an activity goes on briskly for a while and then subsides, equaling 「しばらくの間さかんに」. 「一晩中休みなく」 (all night without pause) lasts too long and lacks the sense of tapering off; 「ぽつりぽつりと」 (in fits and starts) contradicts the liveliness; 「別れ際に少しだけ」 (only briefly at parting) gets both timing and amount wrong.',
+  },
+  {
+    kind: 'choice',
+    id: 'n1-vocab-iikae-044',
+    stem: '登山の経験もない彼一人に案内を任せるのは、いかにも【心もとない】。',
+    options: ['頼りなくて不安だ', '恐ろしくてたまらない', '気の毒でならない', 'もったいない'],
+    answerIndex: 0,
+    explanation:
+      '「心もとない」形容因對象靠不住而放心不下，等於「頼りなくて不安だ」。「恐ろしくてたまらない」（怕得不得了）是強烈的恐懼，程度與性質都不同於隱隱的不安；「気の毒でならない」（十分同情）是憐憫對方；「もったいない」（可惜）講浪費，皆偏離語意。',
+    explanationEn:
+      '「心もとない」 describes feeling uneasy because something seems unreliable, equaling 「頼りなくて不安だ」. 「恐ろしくてたまらない」 (unbearably terrifying) is intense fear, different in kind and degree from vague unease; 「気の毒でならない」 (deeply sorry for him) is pity; 「もったいない」 (a waste) is about squandering — all miss the meaning.',
+  },
+  {
+    kind: 'choice',
+    id: 'n1-vocab-iikae-045',
+    stem: '返事もせずに黙って立ち去るとは、【はなはだ】失礼な態度だ。',
+    options: ['非常に', '少しばかり', 'ある意味では', '相変わらず'],
+    answerIndex: 0,
+    explanation:
+      '「はなはだ」是書面語的「甚、非常」，多修飾負面評價，等於「非常に」。「少しばかり」（稍微）程度正好相反；「ある意味では」（就某方面而言）是保留式的限定說法，削弱了斷定語氣；「相変わらず」（一如往常）講狀態沒變，與程度高低無關。',
+    explanationEn:
+      '「はなはだ」 is literary for "exceedingly, gravely", often modifying negative judgments, equaling 「非常に」. 「少しばかり」 (slightly) reverses the degree; 「ある意味では」 (in a sense) hedges and weakens the assertion; 「相変わらず」 (as ever) says the state is unchanged, unrelated to intensity.',
+  },
+  {
+    kind: 'choice',
+    id: 'n1-vocab-iikae-046',
+    stem: '彼が会社を辞めるつもりだということには、【うすうす】気づいていた。',
+    options: ['なんとなく', 'はっきりと', '人づてに', 'ずっと前から'],
+    answerIndex: 0,
+    explanation:
+      '「うすうす」指隱隱約約、模模糊糊地察覺到，等於「なんとなく」。「はっきりと」（清楚地）確信程度正好相反，是最典型的陷阱；「人づてに」（透過別人輾轉）講的是消息來源而非察覺的清晰度；「ずっと前から」（老早就）講時間起點，與「隱約」無關。',
+    explanationEn:
+      '「うすうす」 means sensing something dimly and vaguely, equaling 「なんとなく」. 「はっきりと」 (clearly) reverses the level of certainty and is the classic trap; 「人づてに」 (through the grapevine) concerns the source of the information, not how faint the awareness was; 「ずっと前から」 (since long ago) is about timing, not vagueness.',
+  },
+  {
+    kind: 'choice',
+    id: 'n1-vocab-iikae-047',
+    stem: '陰口を言っていた本人がすぐ後ろに立っていて、なんとも【ばつが悪かった】。',
+    options: ['きまりが悪かった', '腹立たしかった', '恐ろしかった', '悔しかった'],
+    answerIndex: 0,
+    explanation:
+      '「ばつが悪い」是慣用語，指場面尷尬、無地自容，等於「きまりが悪い」。「腹立たしかった」（惱火）是對他人的憤怒，情緒方向不同；「恐ろしかった」（害怕）講恐懼；「悔しかった」（不甘心）是懊惱輸了或吃虧，都不是「難為情」的語意。',
+    explanationEn:
+      '「ばつが悪い」 is an idiom for feeling awkward and wishing the ground would swallow you, equaling 「きまりが悪かった」 (embarrassed). 「腹立たしかった」 (infuriated) is anger at someone else, a different emotion; 「恐ろしかった」 (frightened) is fear; 「悔しかった」 (mortified at losing out) is frustrated regret — none means embarrassment.',
+  },
+  {
+    kind: 'choice',
+    id: 'n1-vocab-iikae-048',
+    stem: '彼とは入社当初から【反りが合わず】、必要最低限の話しかしない。',
+    options: ['気が合わず', '実力に差があり', '勤務時間が重ならず', '面識がなく'],
+    answerIndex: 0,
+    explanation:
+      '「反りが合わない」源自刀身的弧度與刀鞘不合，比喻性情合不來，等於「気が合わない」。「実力に差があり」（實力有落差）講能力高低，不是投不投緣；「勤務時間が重ならず」（班表錯開）是客觀條件；「面識がなく」（素未謀面）與「共事已久卻不合」矛盾。',
+    explanationEn:
+      '「反りが合わない」 comes from a blade whose curve does not fit its scabbard, meaning two people\'s temperaments clash — equal to 「気が合わず」. 「実力に差があり」 (a gap in ability) is about skill, not chemistry; 「勤務時間が重ならず」 (shifts never overlapping) is a logistical matter; 「面識がなく」 (never having met) contradicts working together since joining.',
+  },
+  {
+    kind: 'choice',
+    id: 'n1-vocab-iikae-049',
+    stem: '店長になって一年、彼の客あしらいもすっかり【板についてきた】。',
+    options: [
+      '経験を積んで様になってきた',
+      'マニュアルどおりで機械的になってきた',
+      '徐々におろそかになってきた',
+      '客の間で評判になってきた',
+    ],
+    answerIndex: 0,
+    explanation:
+      '「板につく」源自演員站上舞台（板）演技逐漸熟練，比喻態度或做法因歷練而變得得心應手、有模有樣，等於「経験を積んで様になる」。「マニュアルどおりで機械的」（照本宣科）是生硬呆板，方向相反；「おろそかになってきた」（愈來愈馬虎）是退步；「評判になってきた」講的是名聲而非熟練度。',
+    explanationEn:
+      '「板につく」 comes from an actor growing at home on the stage boards; it means one\'s manner has become polished and natural through experience, equaling 「経験を積んで様になってきた」. 「マニュアルどおりで機械的になってきた」 (turning mechanical and by-the-book) is stiffness, the opposite; 「徐々におろそかになってきた」 (getting sloppy) is decline; 「客の間で評判になってきた」 (becoming talked about) concerns reputation, not skill.',
+  },
+  {
+    kind: 'choice',
+    id: 'n1-vocab-iikae-050',
+    stem: '入ったばかりの新人なのだから、多少のミスは【大目に見て】やってほしい。',
+    options: [
+      'とがめずに許して',
+      '細かく指摘して',
+      '見なかったことにして隠して',
+      '高く評価して',
+    ],
+    answerIndex: 0,
+    explanation:
+      '「大目に見る」是慣用語，指寬容看待、不加苛責，等於「とがめずに許す」。「細かく指摘して」（一一指正）嚴格程度正好相反；「見なかったことにして隠して」（裝沒看見替他遮掩）多了包庇隱瞞之意，與「知情但寬待」不等值；「高く評価して」（給予好評）是稱讚，並非原諒過錯。',
+    explanationEn:
+      '「大目に見る」 is an idiom for treating a fault leniently without reproach, equaling 「とがめずに許して」. 「細かく指摘して」 (pointing out every detail) reverses the strictness; 「見なかったことにして隠して」 (pretending not to see and covering it up) adds concealment, unlike openly forgiving; 「高く評価して」 (rating highly) is praise, not pardon.',
+  },
+  {
+    kind: 'choice',
+    id: 'n1-vocab-iikae-051',
+    stem: '次世代電池の開発をめぐって、国内外のメーカーが【しのぎを削って】いる。',
+    options: ['激しく競い合って', '協力し合って', '互いに様子をうかがって', '次々と撤退して'],
+    answerIndex: 0,
+    explanation:
+      '「しのぎを削る」源自刀劍相擊、連刀背隆起的「鎬」都削到，比喻競爭白熱化，等於「激しく競い合う」。「協力し合って」（相互合作）方向完全相反；「互いに様子をうかがって」（互相觀望）是按兵不動，缺少正面交鋒的激烈感；「次々と撤退して」（紛紛退出）更是放棄競爭。',
+    explanationEn:
+      '「しのぎを削る」 pictures sword fights so fierce that the 「鎬」 (blade ridge) gets shaved down — cut-throat competition, equaling 「激しく競い合って」. 「協力し合って」 (cooperating) is the exact opposite; 「互いに様子をうかがって」 (warily sizing each other up) means holding back, without the head-on clash; 「次々と撤退して」 (withdrawing one after another) is quitting the race altogether.',
+  },
+  {
+    kind: 'choice',
+    id: 'n1-vocab-iikae-052',
+    stem: 'テレビで紹介されて以来、この店の売り上げは【うなぎのぼり】だ。',
+    options: [
+      '急上昇する一方',
+      '上がったり下がったり',
+      '緩やかに減る一方',
+      '高止まりしたまま',
+    ],
+    answerIndex: 0,
+    explanation:
+      '「うなぎのぼり」比喻像鰻魚往上竄一般，數值一路直線上升，等於「急上昇する一方」。「上がったり下がったり」（忽上忽下）缺少「只升不降」的方向性；「緩やかに減る一方」（緩緩下滑）方向相反；「高止まりしたまま」（維持在高檔）是停滯不動，沒有持續攀升的語感。',
+    explanationEn:
+      '「うなぎのぼり」 likens figures to an eel wriggling straight upward — climbing steeply without pause, equaling 「急上昇する一方」. 「上がったり下がったり」 (up and down) lacks the one-way rise; 「緩やかに減る一方」 (slowly declining) reverses the direction; 「高止まりしたまま」 (plateauing at a high level) means standing still, not soaring.',
+  },
+  {
+    kind: 'choice',
+    id: 'n1-vocab-iikae-053',
+    stem: '十年余りに及んだ相続争いに、ようやく【けりがついた】。',
+    options: ['決着がついた', '新たな火種が生まれた', 'ひとまず中断された', '世間の注目が集まった'],
+    answerIndex: 0,
+    explanation:
+      '「けりがつく」源自古典和歌、物語多以助動詞「けり」收尾，引申為事情有了了結，等於「決着がつく」。「ひとまず中断された」（暫且中斷）只是擱置，之後仍可能再起，與「了結」不等值；「新たな火種が生まれた」（生出新爭端）方向相反；「注目が集まった」講的是受矚目。',
+    explanationEn:
+      '「けりがつく」 derives from classical poems and tales ending with the auxiliary 「けり」, hence "to be brought to a close", equaling 「決着がついた」. 「ひとまず中断された」 (suspended for now) is only a pause that may flare up again, not a settlement; 「新たな火種が生まれた」 (a new source of conflict arose) points the opposite way; 「世間の注目が集まった」 is about public attention.',
+  },
+  {
+    kind: 'choice',
+    id: 'n1-vocab-iikae-054',
+    stem: '父も頑固だが、祖父は【輪をかけて】頑固だ。',
+    options: ['父以上に', '父と同じくらい', '父ほどではないが', '年を取るにつれて'],
+    answerIndex: 0,
+    explanation:
+      '「輪をかける」比喻在原有程度上再加一圈，「輪をかけて」即「更甚一層、有過之而無不及」，等於「父以上に」。「父と同じくらい」（跟父親差不多）沒有「更勝一籌」的比較級語感；「父ほどではないが」（雖不及父親）方向正好相反；「年を取るにつれて」（隨著年紀增長）講變化過程，非程度比較。',
+    explanationEn:
+      '「輪をかける」 pictures adding another ring on top of what is already there; 「輪をかけて」 means "even more so", equaling 「父以上に」 (more than Father). 「父と同じくらい」 (about as much as Father) loses the escalation; 「父ほどではないが」 (though not as much as Father) reverses the comparison; 「年を取るにつれて」 (as he ages) describes a process, not a degree.',
+  },
+  {
+    kind: 'choice',
+    id: 'n1-vocab-iikae-055',
+    stem: '喫茶店で、私たちは【他愛もない】雑談を交わしながら時間を過ごした。',
+    options: [
+      'とりとめのない気楽な',
+      '込み入った深刻な',
+      '皮肉のこもった',
+      '仕事に関わる重要な',
+    ],
+    answerIndex: 0,
+    explanation:
+      '「他愛もない」形容內容沒什麼大不了、輕鬆瑣碎，等於「とりとめのない気楽な」。「込み入った深刻な」（複雜沉重的）分量正好相反；「皮肉のこもった」（帶著挖苦的）加入了原句沒有的惡意；「仕事に関わる重要な」（攸關工作的重要）更是與「無關緊要」背道而馳。',
+    explanationEn:
+      '「他愛もない」 describes talk that is trivial and lighthearted, nothing of consequence, equaling 「とりとめのない気楽な」. 「込み入った深刻な」 (tangled and grave) reverses the weight; 「皮肉のこもった」 (laced with sarcasm) injects a malice the original lacks; 「仕事に関わる重要な」 (important and work-related) is the very opposite of idle chatter.',
+  },
+  {
+    kind: 'choice',
+    id: 'n1-vocab-iikae-056',
+    stem: '何度もメッセージを送ったのに、返ってきたのは【そっけない】一言だけだった。',
+    options: ['愛想のない冷淡な', '遠回しで曖昧な', '冗談めかした', '思いのほか丁寧な'],
+    answerIndex: 0,
+    explanation:
+      '「そっけない」形容態度冷淡、不帶感情也不留情面，等於「愛想のない冷淡な」。「遠回しで曖昧な」（拐彎抹角含糊其詞）重點在說得不明確，而「そっけない」往往是直接卻冰冷；「冗談めかした」（半開玩笑的）語氣輕鬆，方向不同；「思いのほか丁寧な」（意外地客氣）正好相反。',
+    explanationEn:
+      '「そっけない」 describes a curt, chilly manner with no warmth, equaling 「愛想のない冷淡な」. 「遠回しで曖昧な」 (roundabout and vague) is about being unclear, whereas 「そっけない」 replies are typically blunt but cold; 「冗談めかした」 (jokey) has a light tone, the wrong direction; 「思いのほか丁寧な」 (unexpectedly courteous) is the exact opposite.',
+  },
+  {
+    kind: 'choice',
+    id: 'n1-vocab-iikae-057',
+    stem: '警察は聞き込みを重ね、すでに犯人の【目星をつけて】いるらしい。',
+    options: [
+      'だいたいの見当をつけて',
+      '身柄を拘束して',
+      '捜索を打ち切って',
+      '人相書きを公開して',
+    ],
+    answerIndex: 0,
+    explanation:
+      '「目星をつける」的「目星」是大致的目標，整句指心中鎖定了大概的對象、有了眉目，等於「だいたいの見当をつける」。「身柄を拘束して」（已拘捕到案）是逮捕的具體行動，程度遠超過「有眉目」；「捜索を打ち切って」（中止搜查）方向相反；「人相書きを公開して」是公開協尋的手段。',
+    explanationEn:
+      '「目星をつける」 uses 「目星」 (a rough mark) to mean having formed a good idea of who the culprit is, equaling 「だいたいの見当をつけて」. 「身柄を拘束して」 (having taken him into custody) is an actual arrest, far beyond a hunch; 「捜索を打ち切って」 (calling off the search) points the opposite way; 「人相書きを公開して」 (releasing a facial sketch) is a public-appeal tactic.',
+  },
+  {
+    kind: 'choice',
+    id: 'n1-vocab-iikae-058',
+    stem: '相手の剣幕に一瞬【たじろいだ】が、彼は落ち着いて反論を続けた。',
+    options: ['ひるんだ', 'かっとなった', '感心した', '目をそらした'],
+    answerIndex: 0,
+    explanation:
+      '「たじろぐ」指被對方的氣勢壓住而畏縮、往後退了一步，等於「ひるむ」。「かっとなった」（勃然大怒）是被激怒而情緒上衝，方向不同；「感心した」（佩服）是正面評價；「目をそらした」（移開視線）只是具體動作，未必代表心裡畏縮，語意不等值。',
+    explanationEn:
+      '「たじろぐ」 means to flinch and fall back momentarily under the other party\'s force, equaling 「ひるんだ」. 「かっとなった」 (flared up in anger) is an emotional surge in a different direction; 「感心した」 (was impressed) is positive appraisal; 「目をそらした」 (looked away) is a mere physical act that does not necessarily imply shrinking back.',
+  },
+  {
+    kind: 'choice',
+    id: 'n1-vocab-iikae-059',
+    stem: '弟は慌てていたらしく、靴を左右【あべこべ】に履いたまま出かけてしまった。',
+    options: ['反対', '裏返し', '別々の種類', 'サイズ違い'],
+    answerIndex: 0,
+    explanation:
+      '「あべこべ」指位置或順序顛倒、正好相反，「左右あべこべ」即左右穿反，等於「反対」。「裏返し」（裡外翻面）是內外顛倒而非左右對調，是最容易混淆的陷阱；「別々の種類」（兩隻不同款）講的是搭配錯亂；「サイズ違い」（尺寸不合）與方向顛倒無關。',
+    explanationEn:
+      '「あべこべ」 means positions or order being inverted; wearing shoes 「左右あべこべ」 is putting them on the wrong feet, equaling 「反対」. 「裏返し」 (inside out) swaps inner and outer surfaces, not left and right — the most tempting trap; 「別々の種類」 (two mismatched shoes) is a pairing error; 「サイズ違い」 (wrong size) has nothing to do with reversal.',
+  },
+  {
+    kind: 'choice',
+    id: 'n1-vocab-iikae-060',
+    stem: '苦情への【おざなりな】対応を続けていては、客の信頼を失いかねない。',
+    options: [
+      'その場しのぎのいい加減な',
+      '心のこもった丁寧な',
+      '時間をかけすぎる慎重な',
+      '責任を認めない強気な',
+    ],
+    answerIndex: 0,
+    explanation:
+      '「おざなり」指敷衍了事、只求應付當下場面，等於「その場しのぎのいい加減な」（注意與「置之不理」的「なおざり」不同，「おざなり」有做但做得草率）。「心のこもった丁寧な」（誠懇周到的）正好是反義；「時間をかけすぎる慎重な」（過度謹慎費時）是認真過頭；「責任を認めない強気な」（強硬不認錯）講態度強硬，皆不等值。',
+    explanationEn:
+      '「おざなり」 means doing something perfunctorily just to get through the moment, equaling 「その場しのぎのいい加減な」 (unlike 「なおざり」, which is neglecting to act at all — 「おざなり」 acts, but sloppily). 「心のこもった丁寧な」 (sincere and attentive) is a direct antonym; 「時間をかけすぎる慎重な」 (overly cautious and slow) is excess diligence; 「責任を認めない強気な」 (defiant, admitting no fault) is about hardline attitude — none is equivalent.',
+  },
 ]

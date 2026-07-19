@@ -241,4 +241,74 @@ export const questions: JlptQuestion[] = [
       },
     ],
   },
+  {
+    id: 'n1-reading-joho-009',
+    kind: 'passage',
+    passageTitle: 'みなと市民マラソン大会　参加要項',
+    passage:
+      'みなと市民マラソン大会　参加要項\n\n１．種目と参加資格\n・フルマラソン：大会当日に18歳以上で、5時間30分以内に完走できる方\n・ハーフマラソン：大会当日に16歳以上の方\n・10km：中学生以上の方\n・ファンラン（3km）：どなたでも参加できます。ただし、小学生以下は保護者との同伴参加に限ります。\nなお、複数の種目に申し込むことはできません。\n\n２．申込期間と抽選\n申し込みは6月1日から7月31日まで、大会公式サイトでのみ受け付けます（郵送・電話は不可）。フルマラソンは、申し込みが定員8,000人を超えた場合は抽選とし、結果は8月20日までにメールで通知します。ハーフマラソン・10km・ファンランは先着順とし、定員に達し次第締め切ります。\n\n３．参加費\n・フルマラソン：8,000円\n・ハーフマラソン：6,000円\n・10km：4,000円\n・ファンラン：2,000円\n市内在住または市内在勤・在学の方は、種目を問わず参加費が1,000円引きになります。また、高校生以下は参加費が半額になります。ただし、二つの割引を同時に受けることはできず、割引額の大きい方のみを適用します。入金後の参加費は、理由を問わず返金しません。\n\n４．当日の受付\nスタートの90分前までに、会場の受付で本人確認書類を提示してください。代理人による受付および出走は認めません。受付をしないまま出走することはできません。\n\n５．荒天時の対応\n雨天でも大会は実施します。ただし、気象警報の発表や災害などにより、大会を中止することがあります。中止の場合でも参加費は返金しませんが、参加賞を後日郵送します。',
+    explanation: '',
+    questions: [
+      {
+        id: 'n1-reading-joho-009-q1',
+        stem: '市内の高校に在学する17歳のコウさんは、ハーフマラソンに申し込みたい。参加要項に従う場合、コウさんが支払う参加費はいくらか。',
+        options: ['3,000円', '5,000円', '2,000円', '6,000円'],
+        answerIndex: 0,
+        explanation:
+          'ハーフ的參加資格是大會當日16歲以上，17歲的コウ同學可以報名。原價6,000日圓；他同時符合市內在學減1,000日圓與高校生以下半額兩種折扣，但要項明定兩種折扣不得併用、只適用折扣額較大者，所以付半額3,000日圓。選5,000是套用了折扣額較小的市內折扣；選2,000是把兩種折扣疊加；選6,000是漏看折扣規定。',
+        explanationEn:
+          'The half marathon requires runners to be at least 16 on race day, so 17-year-old Kou may enter. The base fee is 6,000 yen; he qualifies for both the 1,000-yen discount for those living, working, or studying in the city and the half-price rate for high school students and younger, but the rules state the two discounts cannot be combined and only the larger one applies — 「割引額の大きい方のみを適用します」 — so he pays the half price of 3,000 yen. Choosing 5,000 applies the smaller in-city discount; 2,000 stacks both discounts; 6,000 overlooks the discount rules entirely.',
+      },
+      {
+        id: 'n1-reading-joho-009-q2',
+        stem: 'この参加要項の内容と合っているものはどれか。',
+        options: [
+          '大会が中止になった場合、参加費は返金されないが、参加賞は後で送られてくる。',
+          '雨が降った場合、大会は中止になる。',
+          'フルマラソンの申し込みは、先着順で受け付けられる。',
+          '本人が受付に行けない場合は、家族が代わりに受付をすることができる。',
+        ],
+        answerIndex: 0,
+        explanation:
+          '第5項明定：大會中止時參加費不退還，但參加賞會後日郵寄，第一個選項與此一致。其餘皆與要項相反：雨天照常舉行，只有氣象警報或災害等才可能中止；フルマラソン在申込超過定員8,000人時採抽選，先着順的是ハーフ、10km與ファンラン；代理受付與代理出走都明文不被承認。',
+        explanationEn:
+          'Section 5 states that even if the event is cancelled, the entry fee is not refunded but the participation prize is mailed afterward, matching the first option. The event is held even in rain — 「雨天でも大会は実施します」 — and may be cancelled only for weather warnings or disasters; the full marathon goes to a lottery when applications exceed the 8,000-runner capacity, while first-come-first-served applies to the half, 10km, and fun run; and registration or running by a proxy is explicitly not allowed.',
+      },
+    ],
+  },
+  {
+    id: 'n1-reading-joho-010',
+    kind: 'passage',
+    passageTitle: 'シェアサイクル「みんなのちゃり」利用案内',
+    passage:
+      'シェアサイクル「みんなのちゃり」利用案内\n\n１．利用登録\nご利用には、専用アプリからの会員登録が必要です。登録できるのは16歳以上の方で、16歳・17歳の方は保護者の同意書の提出が必要です。支払いはクレジットカードまたは指定の電子マネーに限り、現金はご利用いただけません。\n\n２．料金プラン\n・都度プラン（基本料金なし）：最初の30分165円、以降15分ごとに110円\n・月額プラン（月2,200円）：1回30分以内の利用が何度でも無料。30分を超えた分は、15分ごとに110円かかります。\n・1日パス（1,650円）：購入した当日に限り有効。1回60分以内の利用が何度でも無料。60分を超えた分は、15分ごとに110円かかります。\n\n３．電動アシスト車\n一部のポートでは電動アシスト車を貸し出しています。プランの種類を問わず、1回の利用につき110円の追加料金がかかります。\n\n４．返却\n自転車は、借りたポート以外を含め、市内のどのポートにも返却できます。ポートに空きがない場合は、アプリで近くの別のポートを確認し、そちらへ返却してください。ポート以外の場所に放置した場合は、回収手数料として3,300円を申し受けます。\n返却の際は、鍵をかけたうえで、必ずアプリの返却ボタンを押してください。返却の操作が完了するまで、利用料金は発生し続けますのでご注意ください。\n\n５．故障・事故\n故障している自転車を見つけた場合は、アプリからご連絡ください。利用中に故障が起きた場合は、報告を受けた時点で利用を終了したものとして扱います。事故を起こした場合は、必ず警察と当社のサポートセンターに連絡してください。',
+    explanation: '',
+    questions: [
+      {
+        id: 'n1-reading-joho-010-q1',
+        stem: '月額プランの会員のリンさんは、電動アシスト車を1回50分利用した。この利用について、リンさんが月額料金のほかに支払う金額はいくらか。',
+        options: ['330円', '220円', '110円', '550円'],
+        answerIndex: 0,
+        explanation:
+          '月額プラン每次利用30分以內免費，超過的部分每15分110日圓；騎50分超過了20分，跨兩個計費單位共220日圓。另外電動アシスト車不分方案、每次利用加收110日圓，合計330日圓。選220是漏算電動車的追加料金；選110是誤以為50分全在免費範圍內、只付電動車費；選550是沒套用月額プラン的免費30分、從頭計費再加電動車費。',
+        explanationEn:
+          'On the monthly plan, each ride is free for the first 30 minutes and the excess is charged at 110 yen per 15 minutes; a 50-minute ride runs 20 minutes over, spanning two billing units for 220 yen. Electric-assist bikes also cost an extra 110 yen per ride regardless of plan — 「プランの種類を問わず、1回の利用につき110円の追加料金」 — so the total is 330 yen. Choosing 220 forgets the electric-assist surcharge; 110 wrongly assumes the whole 50 minutes is free and pays only the surcharge; 550 ignores the free 30 minutes, bills from the start, and adds the surcharge.',
+      },
+      {
+        id: 'n1-reading-joho-010-q2',
+        stem: 'この利用案内の内容と合っているものはどれか。',
+        options: [
+          '17歳の人が会員登録をするには、保護者の同意書を提出する必要がある。',
+          '利用料金は、現金で支払うこともできる。',
+          '自転車は、借りたポートと同じポートに返却しなければならない。',
+          '鍵をかければ、アプリを操作しなくても返却は完了する。',
+        ],
+        answerIndex: 0,
+        explanation:
+          '第1項明定16歲、17歲的人登錄時必須提出保護者的同意書，第一個選項正確。其餘皆與案內相反：支付方式限信用卡或指定的電子錢包，明文不能用現金；第4項明示可以歸還到市內任何一個ポート，不限借車的那一個；歸還時必須按下アプリ的返却ボタン，操作完成之前利用料金會持續產生。',
+        explanationEn:
+          'Section 1 states that riders aged 16 or 17 must submit a parental consent form — 「16歳・17歳の方は保護者の同意書の提出が必要です」 — so the first option is correct. The rest contradict the guide: payment is limited to credit cards or designated e-money, with cash explicitly not accepted; section 4 says bikes may be returned to any port in the city, not only the one they were borrowed from; and returning is not complete until the return button in the app is pressed, with charges continuing until then.',
+      },
+    ],
+  },
 ]

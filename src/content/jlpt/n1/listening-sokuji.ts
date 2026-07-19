@@ -457,4 +457,232 @@ export const questions: JlptQuestion[] = [
     explanationEn:
       '「話に花が咲く」 is an idiom describing conversation that blossoms — one topic leading happily to the next for hours. The speaker reunited with an old friend and talked late into the night, so replying that she must have had a delightful time is the correct affirmation. Asking what flowers she grows takes the idiom literally as gardening, and concluding the conversation fell flat hears a lively evening as an awkward one — the polarity is reversed; both miss the idiom.',
   },
+  {
+    id: 'n1-listening-sokuji-025',
+    kind: 'listening',
+    script: [
+      { speaker: '男', text: '明日の役員会でうちの案が通るかどうかはもう運次第だ。こうなったら腹をくくって結果を待つしかないな。' },
+    ],
+    question: '',
+    options: [
+      'そうですね、ここまで来たら覚悟を決めて待ちましょう。',
+      'お腹をひもでくくったりしたら、苦しくて動けませんよ。',
+      'では、腹ごしらえに何か食べに行きましょうか。',
+    ],
+    answerIndex: 0,
+    spokenOptions: true,
+    explanation:
+      '「腹をくくる」是慣用句「下定決心、做好心理準備接受結果」。對方說事已至此只能沉住氣等結果，附和「覚悟を決めて待ちましょう」最貼切。「ひもでくくる」把慣用句按字面理解成用繩子綁肚子；「腹ごしらえ」只抓到「腹」字就扯到先吃飽再說，兩者都答非所問。',
+    explanationEn:
+      '「腹をくくる」 is an idiom meaning to brace oneself and resolve to accept whatever comes. The speaker says the outcome is now up to fate and all they can do is steel themselves and wait, so agreeing to make up their minds and wait is the fitting reply. Tying one\'s belly with a cord takes 「くくる」 literally as binding, and suggesting a meal (「腹ごしらえ」) merely latches onto the word 「腹」 — both miss the point.',
+  },
+  {
+    id: 'n1-listening-sokuji-026',
+    kind: 'listening',
+    script: [
+      { speaker: '女', text: '来月から予算が三割も削られるそうでね、部長もすっかり頭を抱えていらっしゃるのよ。' },
+    ],
+    question: '',
+    options: [
+      'それは深刻ですね。皆で何か打開策を考えませんと。',
+      '頭が痛いんでしたら、お薬を差し上げましょうか。',
+      'お荷物を抱えていらっしゃるなら、私がお持ちします。',
+    ],
+    answerIndex: 0,
+    spokenOptions: true,
+    explanation:
+      '「頭を抱える」是慣用句「一籌莫展、傷透腦筋」。部長為預算被砍三成而發愁，回以「深刻ですね、打開策を考えませんと」表示一起想辦法最切題。「薬を差し上げる」把慣用句按字面理解成真的頭痛；「荷物を抱える」按字面理解成抱著行李，跟煩惱毫無關係。',
+    explanationEn:
+      '「頭を抱える」 is an idiom meaning to be at one\'s wits\' end over a problem. The department head is agonizing over a thirty-percent budget cut, so calling it serious and proposing to think of countermeasures together is the right response. Offering medicine reads the idiom literally as a headache, and offering to carry the luggage takes 「抱える」 literally as holding baggage — neither relates to the worry.',
+  },
+  {
+    id: 'n1-listening-sokuji-027',
+    kind: 'listening',
+    script: [
+      { speaker: '男', text: '先方とどうしても条件が折り合わなくてね、今回の提携の話は一旦白紙に戻すことになったよ。' },
+    ],
+    question: '',
+    options: [
+      'そうですか。残念ですが、また一からやり直しですね。',
+      'その白い紙でしたら、元の棚に戻しておきますよ。',
+      '契約がまとまったんですね。おめでとうございます。',
+    ],
+    answerIndex: 0,
+    spokenOptions: true,
+    explanation:
+      '「白紙に戻す」是慣用句「讓事情回到原點、當作沒談過重新來過」。合作案因條件談不攏而歸零，回答「残念ですが、一からやり直し」才聽懂了發話。「白い紙を棚に戻す」把慣用句按字面理解成歸還紙張；「契約がまとまった」把破局聽成談成，意思正好相反。',
+    explanationEn:
+      '「白紙に戻す」 is an idiom meaning to take things back to a blank slate, as if the talks never happened. The partnership deal fell through over terms, so lamenting it and noting they must start over from scratch shows correct understanding. Offering to put the white paper back on the shelf takes the idiom literally as returning stationery, and congratulating them on closing the contract hears a collapse as a success — the exact opposite.',
+  },
+  {
+    id: 'n1-listening-sokuji-028',
+    kind: 'listening',
+    script: [
+      { speaker: '女', text: '彼ったら、自分の遅刻は棚に上げて、人の時間の使い方にばかり文句を言うのよ。' },
+    ],
+    question: '',
+    options: [
+      '本当に、まずご自分の行いを反省してほしいものですね。',
+      '棚の上のお荷物でしたら、脚立を使って下ろしましょうか。',
+      'それほど時間に厳しい方なら、皆も見習うべきですね。',
+    ],
+    answerIndex: 0,
+    spokenOptions: true,
+    explanation:
+      '「棚に上げる」是慣用句「把自己的過錯擱著不提、只顧指責別人」。對方抱怨他自己遲到卻愛挑剔別人，附和「先反省自己的行為吧」才是聽懂抱怨的回應。「棚の上の荷物」把慣用句按字面理解成置物架上的東西；「見習うべき」把批評聽成稱讚他守時，完全沒聽出言外的不滿。',
+    explanationEn:
+      '「棚に上げる」 is an idiom meaning to shelve one\'s own faults while criticizing others. The speaker complains that he ignores his own tardiness yet nitpicks everyone\'s time management, so agreeing that he should reflect on his own conduct first is the right response. Offering to fetch luggage off the shelf with a stepladder takes the idiom literally, and praising him as strict about time to be emulated turns the complaint into a compliment — the implied criticism is completely missed.',
+  },
+  {
+    id: 'n1-listening-sokuji-029',
+    kind: 'listening',
+    script: [
+      { speaker: '男', text: 'この件は場数を踏んできた私に任せて、大船に乗ったつもりでいてくれていいよ。' },
+    ],
+    question: '',
+    options: [
+      '心強い限りです。では、安心してお任せいたします。',
+      '船に乗るなら、酔い止めを用意したほうがいいですよ。',
+      'そんなに頼りないのでしたら、別の方にお願いしますね。',
+    ],
+    answerIndex: 0,
+    spokenOptions: true,
+    explanation:
+      '「大船に乗ったつもりで」是慣用句「像搭上大船一樣儘管放心」，對方拍胸脯保證交給他就好，回答「心強い限りです、安心してお任せします」最貼切。「酔い止め」把慣用句按字面理解成真的要搭船；「頼りない」把要人放心的保證聽成靠不住，肯否正好顛倒。',
+    explanationEn:
+      '「大船に乗ったつもりで」 is an idiom meaning "rest easy, as if aboard a great ship" — the seasoned speaker is vouching that everything can be left to him. Replying that this is reassuring and entrusting it to him with peace of mind fits perfectly. Recommending seasickness medicine takes the idiom literally as an actual voyage, and calling him unreliable and asking someone else flips the reassurance into distrust — the polarity is reversed.',
+  },
+  {
+    id: 'n1-listening-sokuji-030',
+    kind: 'listening',
+    script: [
+      { speaker: '女', text: '息子が初めて一人で海外に行っているんだけどね、もう三日も連絡がないから気が気でないのよ。' },
+    ],
+    question: '',
+    options: [
+      'それはご心配ですね。無事だといいのですが。',
+      'そんなに平気でいられるなんて、肝が据わっていらっしゃいますね。',
+      '気の合うお友達とご一緒なら、心配いりませんね。',
+    ],
+    answerIndex: 0,
+    spokenOptions: true,
+    explanation:
+      '「気が気でない」是慣用句「坐立難安、擔心得不得了」。兒子隻身出國三天沒消息令她焦慮，回以「ご心配ですね、無事だといいのですが」的體諒最恰當。「平気でいられる」把焦慮聽成處變不驚，意思正好相反；「気の合う友達」只抓到「気」字扯到朋友投緣，答非所問。',
+    explanationEn:
+      '「気が気でない」 is an idiom meaning to be so anxious one cannot settle down. Her son is abroad alone for the first time and has not been in touch for three days, so sympathizing with her worry and hoping he is safe is the appropriate reply. Admiring how calm and steel-nerved she is hears her anxiety as composure — the exact opposite — and mentioning congenial friends (「気の合う」) merely latches onto the word 「気」 and misses the point.',
+  },
+  {
+    id: 'n1-listening-sokuji-031',
+    kind: 'listening',
+    script: [
+      { speaker: '男', text: '今夜は結婚記念日だからね、腕によりをかけて妻の好物をこしらえるつもりなんだ。' },
+    ],
+    question: '',
+    options: [
+      'それは奥様もお喜びになるでしょうね。',
+      '腕を痛めていらっしゃるなら、お料理は無理なさらないほうがいいですよ。',
+      'よりを戻されたんですか。それはおめでとうございます。',
+    ],
+    answerIndex: 0,
+    spokenOptions: true,
+    explanation:
+      '「腕によりをかける」是慣用句「拿出全副本領、大顯身手」，常用於做菜。他要為結婚紀念日親手做妻子愛吃的菜，回答「奥様も喜ぶでしょう」是自然的附和。「腕を痛めている」把慣用句按字面理解成手臂受傷；「よりを戻す」是「重修舊好」的另一個慣用句，只抓到「より」的字面就扯到復合，牛頭不對馬嘴。',
+    explanationEn:
+      '「腕によりをかける」 is an idiom meaning to put all one\'s skill into something, often cooking. He plans to cook his wife\'s favorite dishes for their anniversary, so replying that she will surely be delighted is the natural response. Warning him not to cook with an injured arm takes 「腕」 literally as a physical injury, and congratulating him on getting back together mistakes it for the separate idiom 「よりを戻す」 (to reconcile) — grabbing the word 「より」 and missing entirely.',
+  },
+  {
+    id: 'n1-listening-sokuji-032',
+    kind: 'listening',
+    script: [
+      { speaker: '女', text: '引っ越しの手伝いを探していたところにあなたが来てくれるなんて、まさに渡りに船だわ。' },
+    ],
+    question: '',
+    options: [
+      'お役に立てそうで何よりです。何でもお申し付けください。',
+      '船で川を渡るんですか。車のほうが早いと思いますよ。',
+      'お邪魔なようでしたら、日を改めて伺いますね。',
+    ],
+    answerIndex: 0,
+    spokenOptions: true,
+    explanation:
+      '「渡りに船」是慣用句「正愁沒辦法時，及時出現的好機會」。她正在找人幫忙搬家時對方剛好來訪，等於雪中送炭，回答「お役に立てそうで何より」順勢答應幫忙最正確。「船で川を渡る」把慣用句按字面理解成真的要坐船渡河；「お邪魔でしたら」把對方的歡迎聽成嫌棄，方向完全相反。',
+    explanationEn:
+      '「渡りに船」 is an idiom for a godsend — just the right help arriving exactly when needed, like a boat appearing at a river crossing. She was looking for moving help when you showed up, so saying you are glad to be of use and inviting her to ask anything is correct. Discussing an actual boat trip across the river takes the idiom literally, and offering to come back another day hears her welcome as annoyance — the direction is completely reversed.',
+  },
+  {
+    id: 'n1-listening-sokuji-033',
+    kind: 'listening',
+    script: [
+      { speaker: '男', text: '会議で一時間も揉めていたのにね、社長の鶴の一声であっさり方針が決まったよ。' },
+    ],
+    question: '',
+    options: [
+      'やはりトップの一言は重みが違いますね。',
+      'へえ、社長は鶴を飼っていらっしゃるんですか。',
+      'それで、結論はまた持ち越しになったんですね。',
+    ],
+    answerIndex: 0,
+    spokenOptions: true,
+    explanation:
+      '「鶴の一声」是慣用句「有權威者一句話讓眾人的爭論瞬間定案」。吵了一小時後社長一句話拍板，回答「トップの一言は重みが違う」是聽懂後的自然感想。「鶴を飼っている」把慣用句按字面理解成真的養鶴；「持ち越し」把已經定案聽成懸而未決，與發話內容相反。',
+    explanationEn:
+      '「鶴の一声」 is an idiom for the single authoritative word that instantly settles a long dispute — "the voice of the crane". After an hour of wrangling, one word from the president decided the policy, so remarking that a word from the top carries different weight is the natural reaction. Asking whether the president keeps cranes takes the idiom literally as pet birds, and concluding the decision was postponed again hears a settled matter as unresolved — contrary to what was said.',
+  },
+  {
+    id: 'n1-listening-sokuji-034',
+    kind: 'listening',
+    script: [
+      { speaker: '女', text: '来週はね、子どもたちを実家に預けて、久しぶりに温泉で羽を伸ばしてくるつもりなの。' },
+    ],
+    question: '',
+    options: [
+      'いいですね。たまには思い切り息抜きなさってください。',
+      'お布団から羽が出ているなら、縫っておきましょうか。',
+      'ご実家のお手伝いだなんて、休む暇もありませんね。',
+    ],
+    answerIndex: 0,
+    spokenOptions: true,
+    explanation:
+      '「羽を伸ばす」是慣用句「擺脫平日的拘束、盡情放鬆」。她要把孩子託給娘家、久違地去溫泉透透氣，回答「思い切り息抜きなさってください」是自然的祝福。「布団の羽」把慣用句按字面理解成棉被跑出羽毛；「実家の手伝い」把去放鬆聽成回娘家幹活，完全弄反了發話的重點。',
+    explanationEn:
+      '「羽を伸ばす」 is an idiom meaning to spread one\'s wings — to relax freely, released from daily constraints. She is leaving the kids with her parents and heading to a hot spring for a long-awaited break, so encouraging her to unwind to her heart\'s content is the natural reply. Offering to sew up feathers poking out of the futon takes 「羽」 literally as bedding stuffing, and pitying her for "helping out at her parents\' home" mistakes her getaway for chores — the point of the utterance is inverted.',
+  },
+  {
+    id: 'n1-listening-sokuji-035',
+    kind: 'listening',
+    script: [
+      { speaker: '男', text: '例の統合の件を部長に尋ねてみたんだがね、はっきり答えずにお茶を濁されてしまったよ。' },
+    ],
+    question: '',
+    options: [
+      'まだ公にできない事情でもあるんでしょうかね。',
+      '濁ったお茶なんて、淹れ直してもらえばよかったのに。',
+      'そこまで詳しく説明していただけたなら、安心ですね。',
+    ],
+    answerIndex: 0,
+    spokenOptions: true,
+    explanation:
+      '「お茶を濁す」是慣用句「含糊其辭、敷衍搪塞」。部長對整併一事避而不答，推測「大概還有不能公開的隱情吧」才是聽懂後的自然回應。「淹れ直してもらえば」把慣用句按字面理解成茶真的混濁了；「詳しく説明していただけた」把敷衍搪塞聽成詳盡說明，意思正好相反。',
+    explanationEn:
+      '「お茶を濁す」 is an idiom meaning to give an evasive, noncommittal answer — to muddy the waters. The department head dodged the question about the merger, so speculating that there must be circumstances not yet public shows correct understanding. Suggesting he should have had the cloudy tea rebrewed takes the idiom literally as bad tea, and feeling reassured by such a "thorough explanation" hears evasion as full disclosure — the exact opposite.',
+  },
+  {
+    id: 'n1-listening-sokuji-036',
+    kind: 'listening',
+    script: [
+      { speaker: '女', text: '現場は納期を延ばせと言うし、お客様は早くしろとおっしゃるし、私はすっかり板挟みなのよ。' },
+    ],
+    question: '',
+    options: [
+      'どちらの言い分も分かるだけに、おつらいお立場ですね。',
+      '板に挟まれたんですか。おけがはありませんでしたか。',
+      'どちらからも頼りにされて、うらやましい限りですわ。',
+    ],
+    answerIndex: 0,
+    spokenOptions: true,
+    explanation:
+      '「板挟み」是慣用語「夾在對立的兩方之間左右為難」。她被現場和客戶兩頭夾攻、進退不得，回以「おつらいお立場ですね」的體諒最正確。「おけがはありませんでしたか」把慣用語按字面理解成被木板夾傷；「うらやましい」把左右為難聽成兩邊都器重的好事，完全沒聽懂她的苦處。',
+    explanationEn:
+      '「板挟み」 is an expression for being caught between two opposing sides — squeezed like something wedged between boards. The site crew demands a deadline extension while the client demands speed, so sympathizing that hers is a painful position, precisely because both sides have a point, is the right reply. Asking whether she was injured takes the idiom literally as being pinched by actual boards, and envying her for being relied on by both sides mistakes her predicament for popularity — her distress goes unheard.',
+  },
 ]

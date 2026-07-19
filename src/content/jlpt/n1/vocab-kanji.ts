@@ -441,4 +441,224 @@ export const questions: JlptQuestion[] = [
     explanationEn:
       '「名残」 (lingering traces, vestiges) has the exceptional customary reading 「なごり」. 「なのこり」, which reads 「残」 with its plain kun-reading 「のこり」, is the most common mistake; 「めいざん」 forces on-readings onto both characters; 「なごろ」 garbles the final syllable.',
   },
+  {
+    kind: 'choice',
+    id: 'n1-vocab-kanji-041',
+    stem: '私たちは科学技術の進歩がもたらす恩恵を【享受】している。',
+    options: ['きょうじゅ', 'きょうしゅ', 'こうじゅ', 'きょうじゅう'],
+    answerIndex: 0,
+    explanation:
+      '「享受」（享受、享有）讀「きょうじゅ」，「受」在此唸濁音「じゅ」。「きょうしゅ」誤作清音，變成「教主」的讀音；「こうじゅ」是把「享」誤認成形近字「亨（こう）」的誤讀；「きょうじゅう」字尾誤加長音，皆不正確。',
+    explanationEn:
+      '「享受」 (to enjoy, benefit from) is read 「きょうじゅ」, with the voiced 「じゅ」 for 「受」. 「きょうしゅ」 wrongly uses the unvoiced 「しゅ」 and becomes the reading of 「教主」 (sect leader); 「こうじゅ」 mistakes 「享」 for the look-alike character 「亨」 (こう); 「きょうじゅう」 adds an unwarranted long vowel at the end.',
+  },
+  {
+    kind: 'choice',
+    id: 'n1-vocab-kanji-042',
+    stem: '中央銀行は当面、金融【緩和】の方針を維持すると発表した。',
+    options: ['かんわ', 'だんわ', 'ゆるわ', 'かんか'],
+    answerIndex: 0,
+    explanation:
+      '「緩和」（緩和、放寬）讀「かんわ」。「だんわ」是把「緩」誤認成形近字「暖（だん）」，變成「談話」的讀音；「ゆるわ」誤用「緩」的訓讀「ゆる」，是音訓混淆；「かんか」把「和」誤讀成「か」，皆為錯誤讀法。',
+    explanationEn:
+      '「緩和」 (easing, relaxation) is read 「かんわ」. 「だんわ」 mistakes 「緩」 for the look-alike character 「暖」 (だん) and becomes the reading of 「談話」 (talk); 「ゆるわ」 wrongly mixes in the kun-reading 「ゆる」 of 「緩」; 「かんか」 misreads 「和」 as 「か」 — all are incorrect.',
+  },
+  {
+    kind: 'choice',
+    id: 'n1-vocab-kanji-043',
+    stem: '記録的な大雪で、首都圏の交通機能が【麻痺】した。',
+    options: ['まひ', 'まび', 'まっぴ', 'あさひ'],
+    answerIndex: 0,
+    explanation:
+      '「麻痺」（麻痺、癱瘓）讀「まひ」，「痺」是清音短音「ひ」。「まび」誤加濁音；「まっぴ」誤加促音；「あさひ」誤用「麻」的訓讀「あさ」，是音訓混淆，皆為錯誤讀法。',
+    explanationEn:
+      '「麻痺」 (paralysis) is read 「まひ」, with the short unvoiced 「ひ」 for 「痺」. 「まび」 wrongly voices it; 「まっぴ」 inserts an unwarranted geminate; 「あさひ」 wrongly mixes in the kun-reading 「あさ」 of 「麻」 — all are incorrect.',
+  },
+  {
+    kind: 'choice',
+    id: 'n1-vocab-kanji-044',
+    stem: '卒業後の進路について、まだ【漠然】としか考えていない。',
+    options: ['ばくぜん', 'はくぜん', 'ぼうぜん', 'ばくねん'],
+    answerIndex: 0,
+    explanation:
+      '「漠然」（模糊、籠統）讀「ばくぜん」，開頭是濁音「ば」。「はくぜん」誤作清音；「ぼうぜん」是把「漠」誤認成形近字「茫」，變成「茫然」（發呆）的讀音；「ばくねん」把「然」誤讀成「ねん」，皆不正確。',
+    explanationEn:
+      '「漠然」 (vague, hazy) is read 「ばくぜん」, beginning with the voiced 「ば」. 「はくぜん」 wrongly uses an unvoiced initial; 「ぼうぜん」 mistakes 「漠」 for the look-alike character 「茫」 and becomes the reading of 「茫然」 (dumbfounded); 「ばくねん」 misreads 「然」 as 「ねん」.',
+  },
+  {
+    kind: 'choice',
+    id: 'n1-vocab-kanji-045',
+    stem: '図書館の端末で、過去の新聞記事を【閲覧】することができる。',
+    options: ['えつらん', 'えいらん', 'けんらん', 'えつけん'],
+    answerIndex: 0,
+    explanation:
+      '「閲覧」（閱覽、查閱）讀「えつらん」。「えいらん」把「閲」誤讀成「えい」；「けんらん」是把「閲」誤認成形近字「検」的誤讀，恰為「絢爛」的讀音；「えつけん」把「覧」誤讀，變成「謁見」（謁見）的讀音，皆不正確。',
+    explanationEn:
+      '「閲覧」 (browsing, inspection of documents) is read 「えつらん」. 「えいらん」 misreads 「閲」 as 「えい」; 「けんらん」 mistakes 「閲」 for the look-alike character 「検」 and happens to be the reading of 「絢爛」 (gorgeous); 「えつけん」 misreads 「覧」 and becomes the reading of 「謁見」 (audience with a dignitary).',
+  },
+  {
+    kind: 'choice',
+    id: 'n1-vocab-kanji-046',
+    stem: '価格をめぐる交渉で、双方が一歩ずつ【譲歩】した。',
+    options: ['じょうほ', 'じょほ', 'しょうほ', 'じょうぶ'],
+    answerIndex: 0,
+    explanation:
+      '「譲歩」（讓步）讀「じょうほ」，「譲」是長音「じょう」。「じょほ」漏掉長音；「しょうほ」開頭誤作清音；「じょうぶ」把「歩」誤加濁音，變成「丈夫」（堅固）的讀音，皆不正確。',
+    explanationEn:
+      '「譲歩」 (concession, giving ground) is read 「じょうほ」, with the long 「じょう」 for 「譲」. 「じょほ」 drops the long vowel; 「しょうほ」 wrongly uses an unvoiced initial; 「じょうぶ」 wrongly voices 「歩」 and becomes the reading of 「丈夫」 (sturdy) — all are incorrect.',
+  },
+  {
+    kind: 'choice',
+    id: 'n1-vocab-kanji-047',
+    stem: '祖母は破れた着物の裾を、丁寧に【繕って】いた。',
+    options: ['つくろって', 'つぐなって', 'よそおって', 'ぜんって'],
+    answerIndex: 0,
+    explanation:
+      '「繕う」（修補、縫補）訓讀「つくろう」，故為「つくろって」。「つぐなって」是「償う」（賠償）的讀音；「よそおって」是「装う」（裝扮）的讀音；「ぜんって」是把「繕」的音讀「ぜん」（如「修繕」）硬套進訓讀的音訓混淆，皆不正確。',
+    explanationEn:
+      '「繕う」 (to mend, patch up) is read 「つくろう」, so the correct form is 「つくろって」. 「つぐなって」 is the reading of 「償う」 (to compensate); 「よそおって」 is 「装う」 (to dress up, feign); 「ぜんって」 wrongly forces the on-reading 「ぜん」 (as in 「修繕」) onto a kun-reading verb.',
+  },
+  {
+    kind: 'choice',
+    id: 'n1-vocab-kanji-048',
+    stem: '彼は周囲の説得を受け、直前になって前言を【翻した】。',
+    options: ['ひるがえした', 'ひるかえした', 'くつがえした', 'ほんした'],
+    answerIndex: 0,
+    explanation:
+      '「翻す」（翻轉、收回前言）訓讀「ひるがえす」，第三拍是濁音「が」。「ひるかえした」誤作清音；「くつがえした」是「覆す」（推翻）的讀音，形義相近最易混淆；「ほんした」是把「翻」的音讀「ほん」（如「翻訳」）硬套進訓讀的音訓混淆，皆不正確。',
+    explanationEn:
+      '「翻す」 (to flip over; to retract a statement) is read 「ひるがえす」, with the voiced 「が」 as the third mora. 「ひるかえした」 wrongly uses the unvoiced 「か」; 「くつがえした」 is the reading of 「覆す」 (to overturn), the most easily confused near-synonym; 「ほんした」 wrongly forces the on-reading 「ほん」 (as in 「翻訳」) onto a kun-reading verb.',
+  },
+  {
+    kind: 'choice',
+    id: 'n1-vocab-kanji-049',
+    stem: '特に理由もなく、【惰性】で同じ番組を見続けている。',
+    options: ['だせい', 'たせい', 'だしょう', 'ずいせい'],
+    answerIndex: 0,
+    explanation:
+      '「惰性」（慣性、憑習慣）讀「だせい」，開頭是濁音「だ」。「たせい」誤作清音；「だしょう」把「性」誤讀成「しょう」（如「根性」的讀法）套用在本詞；「ずいせい」是把「惰」誤認成形近字「随（ずい）」的誤讀，皆不正確。',
+    explanationEn:
+      '「惰性」 (inertia, force of habit) is read 「だせい」, beginning with the voiced 「だ」. 「たせい」 wrongly uses an unvoiced initial; 「だしょう」 misapplies the reading 「しょう」 of 「性」 (as in 「根性」) to this word; 「ずいせい」 mistakes 「惰」 for the look-alike character 「随」 (ずい).',
+  },
+  {
+    kind: 'choice',
+    id: 'n1-vocab-kanji-050',
+    stem: '専門家は、感染の再拡大を強く【憂慮】している。',
+    options: ['ゆうりょ', 'ゆうりょう', 'ようりょ', 'ゆうろ'],
+    answerIndex: 0,
+    explanation:
+      '「憂慮」（憂慮、擔心）讀「ゆうりょ」，字尾是短音「りょ」。「ゆうりょう」誤加長音，變成「優良・有料」的讀音；「ようりょ」把「憂」誤讀成「よう」；「ゆうろ」把「慮」誤讀成「ろ」，皆不正確。',
+    explanationEn:
+      '「憂慮」 (grave concern, apprehension) is read 「ゆうりょ」, ending in the short 「りょ」. 「ゆうりょう」 adds an unwarranted long vowel and becomes the reading of 「優良・有料」; 「ようりょ」 misreads 「憂」 as 「よう」; 「ゆうろ」 misreads 「慮」 as 「ろ」 — all are incorrect.',
+  },
+  {
+    kind: 'choice',
+    id: 'n1-vocab-kanji-051',
+    stem: 'この計画は、データに基づく【緻密】な分析の上に成り立っている。',
+    options: ['ちみつ', 'ちめつ', 'しみつ', 'きみつ'],
+    answerIndex: 0,
+    explanation:
+      '「緻密」（縝密、精細）讀「ちみつ」。「ちめつ」是把「密」誤認成形近字「滅（めつ）」的誤讀；「しみつ」把「緻」誤讀成「し」；「きみつ」是「機密」（機密）的讀音，屬形近詞混淆，皆非「緻密」的讀法。',
+    explanationEn:
+      '「緻密」 (precise, finely detailed) is read 「ちみつ」. 「ちめつ」 mistakes 「密」 for the look-alike character 「滅」 (めつ); 「しみつ」 misreads 「緻」 as 「し」; 「きみつ」 is the reading of the similar-looking word 「機密」 (classified secret) — none is the reading of 「緻密」.',
+  },
+  {
+    kind: 'choice',
+    id: 'n1-vocab-kanji-052',
+    stem: '押収された偽札は、本物と【酷似】していた。',
+    options: ['こくじ', 'こくし', 'ごくじ', 'こうじ'],
+    answerIndex: 0,
+    explanation:
+      '「酷似」（酷似、極為相似）讀「こくじ」，「似」在此唸濁音「じ」。「こくし」誤作清音，變成「酷使」（過度使喚）的讀音；「ごくじ」是把「酷」誤認成形近字「獄（ごく）」的誤讀；「こうじ」把「酷」誤讀成「こう」，皆不正確。',
+    explanationEn:
+      '「酷似」 (striking resemblance) is read 「こくじ」, with the voiced 「じ」 for 「似」. 「こくし」 wrongly uses the unvoiced 「し」 and becomes the reading of 「酷使」 (overworking someone); 「ごくじ」 mistakes 「酷」 for the look-alike character 「獄」 (ごく); 「こうじ」 misreads 「酷」 as 「こう」.',
+  },
+  {
+    kind: 'choice',
+    id: 'n1-vocab-kanji-053',
+    stem: '特定の業者に【便宜】を図った疑いで、職員が処分された。',
+    options: ['べんぎ', 'びんぎ', 'べんき', 'べんせん'],
+    answerIndex: 0,
+    explanation:
+      '「便宜」（方便、通融）讀「べんぎ」，「宜」是濁音「ぎ」。「びんぎ」把「便」誤讀成「びん」（如「郵便」的讀法）套用在本詞；「べんき」把「宜」誤作清音；「べんせん」是把「宜」誤認成形近字「宣（せん）」的誤讀，皆不正確。',
+    explanationEn:
+      '「便宜」 (convenience, special favor) is read 「べんぎ」, with the voiced 「ぎ」 for 「宜」. 「びんぎ」 misapplies the reading 「びん」 of 「便」 (as in 「郵便」) to this word; 「べんき」 wrongly uses the unvoiced 「き」; 「べんせん」 mistakes 「宜」 for the look-alike character 「宣」 (せん).',
+  },
+  {
+    kind: 'choice',
+    id: 'n1-vocab-kanji-054',
+    stem: '若手ながら、彼の演技には主役の【貫禄】が漂っていた。',
+    options: ['かんろく', 'がんろく', 'かんろ', 'かんりょく'],
+    answerIndex: 0,
+    explanation:
+      '「貫禄」（威嚴、氣派）讀「かんろく」。「がんろく」開頭誤加濁音；「かんろ」漏掉字尾的「く」，變成「甘露」的讀音；「かんりょく」是把「禄」誤認成形近字「緑（りょく）」的誤讀，皆為錯誤讀法。',
+    explanationEn:
+      '「貫禄」 (commanding presence, dignity) is read 「かんろく」. 「がんろく」 wrongly voices the initial; 「かんろ」 drops the final 「く」 and becomes the reading of 「甘露」 (nectar); 「かんりょく」 mistakes 「禄」 for the look-alike character 「緑」 (りょく) — all are incorrect.',
+  },
+  {
+    kind: 'choice',
+    id: 'n1-vocab-kanji-055',
+    stem: '調査の報告書は、希望者に無料で【頒布】されている。',
+    options: ['はんぷ', 'はんふ', 'はんぶ', 'ぶんぷ'],
+    answerIndex: 0,
+    explanation:
+      '「頒布」（頒發、散發）讀「はんぷ」，「布」接在撥音「ん」後半濁音化唸「ぷ」。「はんふ」未半濁音化；「はんぶ」誤作濁音；「ぶんぷ」是把「頒」誤認成形近字「分」，變成「分布」的讀音，皆不正確。',
+    explanationEn:
+      '「頒布」 (distribution, circulation) is read 「はんぷ」; after the moraic nasal 「ん」, 「布」 takes the semi-voiced 「ぷ」. 「はんふ」 fails to apply this sound change; 「はんぶ」 wrongly uses the fully voiced 「ぶ」; 「ぶんぷ」 mistakes 「頒」 for the look-alike character 「分」 and becomes the reading of 「分布」 (distribution over an area).',
+  },
+  {
+    kind: 'choice',
+    id: 'n1-vocab-kanji-056',
+    stem: '元社員が、会社の不正経理を週刊誌に【暴露】した。',
+    options: ['ばくろ', 'ぼうろ', 'はくろ', 'ばくろう'],
+    answerIndex: 0,
+    explanation:
+      '「暴露」（揭露、曝光）讀「ばくろ」，「暴」在此取音讀「ばく」。「ぼうろ」把「暴」照常見音讀唸成「ぼう」（如「暴力」），是最典型的誤讀；「はくろ」開頭誤作清音；「ばくろう」字尾誤加長音，皆不正確。',
+    explanationEn:
+      '「暴露」 (exposure, disclosure) is read 「ばくろ」; here 「暴」 takes the on-reading 「ばく」. 「ぼうろ」, using the common reading 「ぼう」 (as in 「暴力」), is the classic mistake; 「はくろ」 wrongly uses an unvoiced initial; 「ばくろう」 adds an unwarranted long vowel at the end.',
+  },
+  {
+    kind: 'choice',
+    id: 'n1-vocab-kanji-057',
+    stem: '大統領は、汚職に関与した閣僚の【罷免】を決定した。',
+    options: ['ひめん', 'びめん', 'ひべん', 'のうめん'],
+    answerIndex: 0,
+    explanation:
+      '「罷免」（罷免、免職）讀「ひめん」。「びめん」開頭誤加濁音；「ひべん」是把「免」誤認成形近字「勉（べん）」的誤讀；「のうめん」是把「罷」誤認成形近字「能」，變成「能面」（能劇面具）的讀音，皆不正確。',
+    explanationEn:
+      '「罷免」 (dismissal from office) is read 「ひめん」. 「びめん」 wrongly voices the initial; 「ひべん」 mistakes 「免」 for the look-alike character 「勉」 (べん); 「のうめん」 mistakes 「罷」 for the look-alike 「能」 and becomes the reading of 「能面」 (Noh mask) — all are incorrect.',
+  },
+  {
+    kind: 'choice',
+    id: 'n1-vocab-kanji-058',
+    stem: '神主は祭壇の前で、【恭しく】頭を下げた。',
+    options: ['うやうやしく', 'いやいやしく', 'ものものしく', 'きょうしく'],
+    answerIndex: 0,
+    explanation:
+      '「恭しい」（恭敬、畢恭畢敬）訓讀「うやうやしい」，故為「うやうやしく」。「いやいやしく」是受「嫌々（いやいや）」影響的錯誤形；「ものものしく」是「物々しい」（戒備森嚴）的讀音；「きょうしく」是把「恭」的音讀「きょう」（如「恭賀」）硬套進訓讀的音訓混淆，皆不正確。',
+    explanationEn:
+      '「恭しい」 (reverent, deferential) is read 「うやうやしい」, so the adverbial form is 「うやうやしく」. 「いやいやしく」 is a malformed coinage influenced by 「嫌々（いやいや）」; 「ものものしく」 is the reading of 「物々しい」 (heavily guarded, imposing); 「きょうしく」 wrongly forces the on-reading 「きょう」 (as in 「恭賀」) onto a kun-reading adjective.',
+  },
+  {
+    kind: 'choice',
+    id: 'n1-vocab-kanji-059',
+    stem: '大の大人が慌てふためく様子は、どこか【滑稽】だった。',
+    options: ['こっけい', 'こつけい', 'かっけい', 'こっき'],
+    answerIndex: 0,
+    explanation:
+      '「滑稽」（滑稽、可笑）讀「こっけい」，「滑」在此取音讀「こつ」並促音化唸「こっ」。「こつけい」促音脫落；「かっけい」把「滑」誤讀成「かつ」（如「円滑」的讀法）套用在本詞；「こっき」把「稽」誤讀成「き」，變成「国旗」的讀音，皆不正確。',
+    explanationEn:
+      '「滑稽」 (comical, ludicrous) is read 「こっけい」; here 「滑」 takes the on-reading 「こつ」, geminating to 「こっ」. 「こつけい」 drops the gemination; 「かっけい」 misapplies the reading 「かつ」 of 「滑」 (as in 「円滑」) to this word; 「こっき」 misreads 「稽」 as 「き」 and becomes the reading of 「国旗」 (national flag).',
+  },
+  {
+    kind: 'choice',
+    id: 'n1-vocab-kanji-060',
+    stem: '交渉の経過は、本社に【逐一】報告してください。',
+    options: ['ちくいち', 'ついいち', 'ちくいつ', 'じくいち'],
+    answerIndex: 0,
+    explanation:
+      '「逐一」（逐一、一項一項詳細地）讀「ちくいち」。「ついいち」是把「逐」誤認成形近字「遂」、受「遂に（ついに）」影響的誤讀；「ちくいつ」把「一」誤讀成「いつ」（如「同一」的讀法）套用在本詞；「じくいち」是把「逐」誤認成形近字「軸（じく）」，皆不正確。',
+    explanationEn:
+      '「逐一」 (one by one, in full detail) is read 「ちくいち」. 「ついいち」 mistakes 「逐」 for the look-alike character 「遂」 under the influence of 「遂に（ついに）」; 「ちくいつ」 misapplies the reading 「いつ」 of 「一」 (as in 「同一」) to this word; 「じくいち」 mistakes 「逐」 for the look-alike 「軸」 (じく).',
+  },
 ]

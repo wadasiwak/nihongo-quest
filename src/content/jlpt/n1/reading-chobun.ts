@@ -281,4 +281,144 @@ export const questions: JlptQuestion[] = [
       },
     ],
   },
+  {
+    kind: 'passage',
+    id: 'n1-reading-chobun-005',
+    passageTitle: '下手でいられる場所',
+    passage:
+      '五十歳の誕生日を過ぎた頃、私はピアノを習い始めた。きっかけは大したものではない。娘が使わなくなった電子ピアノが部屋の隅で埃をかぶっているのを見て、ふと鍵盤に触れてみたくなった、それだけのことである。会社では部下に教える立場になって久しく、「わからない」と口にする機会など、もう何年もなかった。\n体験レッスンの日、私は自分の指がここまで言うことを聞かないものかと愕然とした。右手と左手を別々に動かすという、子どもなら数週間で越えるらしい壁の前で、五十男の指は面白いほどもつれた。先生は二十代の女性で、「大丈夫ですよ、皆さん最初はそうです」と笑ったが、その「皆さん」の中に自分より年下の小学生が大勢含まれているのだと思うと、帰り道は少しばかり惨めだった。\n正直に言えば、始めて半年ほどは、やめる口実ばかり探していた。仕事が忙しい、指が痛い、そもそも今さら上達したところで何になる——。発表会で、私の前に弾いた小学生が難しい曲を軽々と仕上げたときには、順番を待つ舞台袖で本気で帰りたくなった。人前で堂々と下手でいることが、これほど体力の要ることだとは知らなかった。\n潮目が変わったのは、二年目の冬である。仕事で大きな失敗をして、数日間、何も手につかなかった週があった。その週のある夜、気がつくと私はピアノの前に座っていた。うまく弾こうという気持ちはどこにもなく、ただ同じ小節を何度も繰り返していた。弾けない箇所を弾けないまま、何度もなぞる。その単純な繰り返しの中で、会社での自分の肩書きも失敗も、しばらくのあいだ、どこかへ消えていた。\nそのとき、ようやく気がついたのである。私がこの歳でピアノに向かう理由は、上達ではなかった。評価も比較もされずに、堂々と下手でいられる場所。間違えても誰の迷惑にもならず、間違えた分だけ明日やることがはっきりする場所。大人になってからの私は、そういう場所をひとつも持っていなかったのだ。\nいまも私の腕前は、お世辞にも人に聴かせられるようなものではない。それでも週に一度のレッスンは、もう三年続いている。先日、先生に「最近、音が変わりましたね」と言われた。技術のことではないだろう。たぶん、鍵盤の前での私の座り方が変わったのだと思う。うまくなるためではなく、下手な自分と付き合うために弾く。五十の手習いが私に教えてくれたのは、皮肉なことに、ピアノそのものよりずっと大きなことだった。',
+    explanation: '',
+    questions: [
+      {
+        id: 'n1-reading-chobun-005-q1',
+        stem: '体験レッスンの帰り道、「私」が「少しばかり惨め」だったのはなぜか。',
+        options: [
+          '先生の言う「皆さん」には自分より年下の小学生も大勢含まれていると思うと、指がもつれる自分が情けなく感じられたから。',
+          '若い先生に子ども扱いされて、ばかにされたように感じたから。',
+          '指が痛くなり、レッスンを続けるのは無理だと分かったから。',
+          '娘の電子ピアノを勝手に使ったことを、あとから後悔したから。',
+        ],
+        answerIndex: 0,
+        explanation:
+          '第二段的脈絡：五十歲的手指在孩子幾週就能跨過的關卡前「面白いほどもつれた」，先生安慰說「皆さん最初はそうです」，但一想到那些「皆さん」多是比自己年幼的小學生，便覺得難堪。先生只是笑著鼓勵，「子ども扱いされた」是過度推論；「指が痛い」是後文找藉口時才出現的字眼，並非此時的事實；後悔用女兒的琴更是文中沒有的內容。',
+        explanationEn:
+          'Follow the second paragraph: before a hurdle children reportedly clear in a few weeks, the fifty-year-old\'s fingers 「面白いほどもつれた」, and though the teacher reassured him with 「大丈夫ですよ、皆さん最初はそうです」, realizing that those 「皆さん」 largely meant elementary schoolers younger than himself made the walk home feel miserable. The teacher only smiled encouragingly, so being treated like a child is an over-reading; sore fingers appear later only as one of his excuses, not as a fact here; regretting using his daughter\'s piano is nowhere in the text.',
+      },
+      {
+        id: 'n1-reading-chobun-005-q2',
+        stem: '習い始めて半年ほどの「私」は、どのような様子だったか。',
+        options: [
+          '思うように上達せず、仕事の忙しさなどを挙げては、やめるための口実ばかり探していた。',
+          '発表会で難しい曲を弾き切り、少しずつ自信をつけ始めていた。',
+          '小学生に負けまいと、練習時間を大幅に増やしていた。',
+          '仕事が忙しくなり、実際にレッスンを何度も休んでいた。',
+        ],
+        answerIndex: 0,
+        explanation:
+          '第三段開頭直言「始めて半年ほどは、やめる口実ばかり探していた」，並列舉「仕事が忙しい、指が痛い、今さら上達したところで何になる」等藉口。發表會上輕鬆彈完難曲的是排在前面的小學生，不是「私」，第二個選項挪用了文中字眼；「練習時間を増やした」「レッスンを休んだ」文中都沒有寫，忙碌只是藉口而非實際缺課。',
+        explanationEn:
+          'The third paragraph opens bluntly: 「始めて半年ほどは、やめる口実ばかり探していた」, listing excuses such as 「仕事が忙しい、指が痛い、そもそも今さら上達したところで何になる」. It was the elementary schooler performing before him — not the narrator — who breezed through a difficult piece at the recital, so the second option merely recycles words from the passage; increasing practice time and actually skipping lessons are both unmentioned, as busyness was an excuse, not real absence.',
+      },
+      {
+        id: 'n1-reading-chobun-005-q3',
+        stem: '二年目の冬、ピアノの前に座っていた時間は、「私」にとってどのようなものだったか。',
+        options: [
+          'うまく弾こうとせず同じ小節を繰り返すうちに、会社での肩書きや失敗をしばらく忘れられる時間だった。',
+          '弾けなかった箇所がついに弾けるようになり、上達の手応えを得た時間だった。',
+          '仕事の失敗を取り返そうと、発表会に向けて猛練習をした時間だった。',
+          '先生に「音が変わった」と褒められて、練習が急に楽しくなった時間だった。',
+        ],
+        answerIndex: 0,
+        explanation:
+          '第四段寫得很清楚：「うまく弾こうという気持ちはどこにもなく」，只是反覆彈同一小節，在單純的重複中「会社での自分の肩書きも失敗も、しばらくのあいだ、どこかへ消えていた」。文中明言「弾けない箇所を弾けないまま」，所以「ついに弾けるようになった」是錯的；此時毫無為發表會苦練的描寫；「音が変わりましたね」是三年後最近的事，時間點對不上。',
+        explanationEn:
+          'The fourth paragraph is explicit: 「うまく弾こうという気持ちはどこにもなく」, he simply repeated the same bars, and within that plain repetition 「会社での自分の肩書きも失敗も、しばらくのあいだ、どこかへ消えていた」. Since the text says 「弾けない箇所を弾けないまま」, claiming he finally mastered the passage is wrong; there is no description of cramming for a recital here; and the teacher\'s remark 「最近、音が変わりましたね」 comes three years later, so the timing does not fit.',
+      },
+      {
+        id: 'n1-reading-chobun-005-q4',
+        stem: 'この文章全体から見て、「私」がピアノを続けている理由として最も合っているものはどれか。',
+        options: [
+          '上達のためではなく、評価も比較もされずに堂々と下手でいられる場所を持つためである。',
+          '三年続けた成果が現れ、人に聴かせられる腕前になってきたからである。',
+          '先生の期待に応えて、いつか難しい曲を仕上げたいからである。',
+          '娘が使わなくなった電子ピアノを、無駄にしたくないからである。',
+        ],
+        answerIndex: 0,
+        explanation:
+          '第五段點出全文核心：「私がこの歳でピアノに向かう理由は、上達ではなかった」，要的是「評価も比較もされずに、堂々と下手でいられる場所」，結尾也呼應「うまくなるためではなく、下手な自分と付き合うために弾く」。文中明言琴藝「お世辞にも人に聴かせられるようなものではない」，第二個選項與此矛盾；「先生の期待」文中沒有著墨；電子琴只是起頭的契機，不是持續三年的理由。',
+        explanationEn:
+          'The fifth paragraph names the heart of the essay: 「私がこの歳でピアノに向かう理由は、上達ではなかった」 — what he wanted was a place where he could be 「評価も比較もされずに、堂々と下手でいられる」, echoed by the closing line 「うまくなるためではなく、下手な自分と付き合うために弾く」. The text plainly says his playing is 「お世辞にも人に聴かせられるようなものではない」, contradicting the second option; the teacher\'s expectations are never dwelt on; and the idle electric piano was merely the initial trigger, not the reason he has continued for three years.',
+      },
+    ],
+  },
+  {
+    kind: 'passage',
+    id: 'n1-reading-chobun-006',
+    passageTitle: '大人の一年はなぜ速いのか',
+    passage:
+      '「ついこの間、年が明けたと思ったら、もう年末だ」。ある年齢を過ぎた人が集まると、決まってこんな話になる。子どもの頃の一年はあれほど長かったのに、大人の一年はなぜこうも速く過ぎるのか。昔からよく知られた説明に、年齢が上がるほど一年が人生全体に占める割合が小さくなるから、というものがある。五歳の子どもにとっての一年は人生の五分の一だが、五十歳にとっては五十分の一にすぎない、というわけだ。一見もっともらしいが、この説明には弱点がある。私たちは一年を人生全体と見比べながら生きているわけではないし、同じ大人でも、旅行や転職のあった年は長く感じられるという事実をうまく説明できないのである。\nそこで手がかりになるのが、時間の感じ方には二種類あるという区別だ。一つは、いままさに過ごしている最中の感覚である。退屈な会議は長く、夢中で遊ぶ休日は短い。もう一つは、あとから振り返ったときの感覚である。こちらは奇妙なことに、しばしば前者と逆転する。あっという間に過ぎたはずの充実した旅行が、振り返ると長い時間だったように思え、だらだらと長かったはずの平凡な一週間が、記憶の中ではほとんど厚みを持たないのだ。\nなぜ逆転が起こるのか。振り返ったときの時間の長さは、時計が刻んだ長さではなく、その期間に残った記憶の量、いわば記憶の密度によって見積もられるからだと考えられている。初めての経験は細部まで記憶に刻まれるが、繰り返しの日々は「いつもどおり」として一括りにされ、ほとんど痕跡を残さない。子どもの毎日は初めてだらけであり、一年分の記憶は膨大になる。一方、大人の生活は通い慣れた道と決まった手順で組み立てられており、一年たっても取り出せる記憶が乏しい。振り返るたびに「何もないうちに過ぎた」と感じられ、それが「一年が速い」という実感になるのである。\nこの見方に立てば、大人の一年が速いのは、加齢そのものというより、生活から新しさが減っていくことの結果だということになる。だとすれば、打つ手はある。時間の流れ自体は変えられなくても、記憶の密度なら増やせるからだ。通勤の道順を変えてみる、行ったことのない土地を歩く、慣れない分野を学んでみる。大げさな冒険でなくてよい。「初めて」を意識的に生活へ混ぜ込むことが、振り返ったときの一年に厚みを与えるのである。\n念のために言えば、予定を詰め込んで忙しくすることと、記憶の密度を上げることとは別物である。どれほど忙しくても、それが同じ作業の繰り返しであるなら、記憶にはほとんど残らない。年月の速さを嘆く暇があったら、来週ひとつ、やったことのないことを試してみる。一年の長さを決めるのは、案外そんな小さな選択の積み重ねなのかもしれない。',
+    explanation: '',
+    questions: [
+      {
+        id: 'n1-reading-chobun-006-q1',
+        stem: '一年が人生全体に占める割合で説明する説について、筆者はどう考えているか。',
+        options: [
+          '一見もっともらしいが、経験の中身によって同じ大人でも一年の感じ方が変わる事実を説明できないという弱点がある。',
+          '昔からよく知られているだけあって、最も説得力のある説明である。',
+          '子どもの時間感覚は説明できるが、大人にはまったく当てはまらない。',
+          '割合の計算そのものが誤っているため、成り立たない説である。',
+        ],
+        answerIndex: 0,
+        explanation:
+          '第一段先介紹比例說，隨即評為「一見もっともらしいが、この説明には弱点がある」：人不會邊活邊拿一年跟一生比，而且「旅行や転職のあった年は長く感じられるという事実をうまく説明できない」。筆者並未推崇它最有說服力，第二個選項方向相反；文中的弱點是對經驗差異無力，不是只對大人不適用；「五分の一」「五十分の一」的計算本身沒有被說是錯的。',
+        explanationEn:
+          'The first paragraph introduces the proportion theory and immediately judges it: 「一見もっともらしいが、この説明には弱点がある」 — we do not live while comparing each year to our whole life, and it 「旅行や転職のあった年は長く感じられるという事実をうまく説明できない」. The author never calls it the most persuasive account, so the second option points the wrong way; the stated weakness is its inability to handle differences in experience, not that it fails only for adults; and the arithmetic of 「五分の一」 and 「五十分の一」 is never said to be mistaken.',
+      },
+      {
+        id: 'n1-reading-chobun-006-q2',
+        stem: '第二段落の「逆転」とは、どのようなことか。',
+        options: [
+          '過ごしている最中には短く感じた充実した時間が振り返ると長く思え、長く感じた平凡な時間が記憶の中では厚みを持たないこと',
+          '退屈だった会議が、終わってみると楽しい思い出に変わること',
+          '子どもの一年と大人の一年の実際の長さが、入れ替わってしまうこと',
+          '時計の進み方そのものが、年齢によって速くなったり遅くなったりすること',
+        ],
+        answerIndex: 0,
+        explanation:
+          '第二段區分「過ごしている最中の感覚」與「振り返ったときの感覚」，並說後者「しばしば前者と逆転する」：轉眼即逝的充實旅行回頭看反而顯得長，「だらだらと長かったはずの平凡な一週間」在記憶中卻「ほとんど厚みを持たない」。無聊會議變成快樂回憶是文中沒有的說法；一年的「実際の長さ」與時鐘走速都沒有改變，文章談的始終是感覺，後兩個選項把主觀感受誤讀成客觀事實。',
+        explanationEn:
+          'The second paragraph distinguishes the feel of time while it passes from the feel in retrospect, noting the latter 「しばしば前者と逆転する」: a fulfilling trip that flew by seems long when looked back on, while 「だらだらと長かったはずの平凡な一週間」 ends up with 「ほとんど厚みを持たない」 in memory. A boring meeting turning into a fond memory appears nowhere; and neither the actual length of a year nor the clock\'s pace ever changes — the essay is about perception throughout, so the last two options mistake subjective feeling for objective fact.',
+      },
+      {
+        id: 'n1-reading-chobun-006-q3',
+        stem: '筆者によると、大人の一年が「速い」と感じられるのはなぜか。',
+        options: [
+          '繰り返しの日々は「いつもどおり」として一括りにされ、振り返ったときに取り出せる記憶が乏しいから。',
+          '加齢によって脳の働きが衰え、時間を測る力そのものが落ちるから。',
+          '大人は子どもより予定が多く、常に忙しさに追われているから。',
+          '通い慣れた道を使うことで、実際の移動時間が短くなるから。',
+        ],
+        answerIndex: 0,
+        explanation:
+          '第三段給出機制：回顧時的時間長度取決於「記憶の密度」，重複的日子被當作「いつもどおり」打包、「ほとんど痕跡を残さない」，於是大人「一年たっても取り出せる記憶が乏しい」，才有一年飛快之感。第四段明言原因「加齢そのものというより、生活から新しさが減っていくこと」，排除腦力衰退說；末段又強調忙碌與記憶密度是「別物」；「実際の移動時間が短くなる」混淆了客觀時間與主觀感受。',
+        explanationEn:
+          'The third paragraph supplies the mechanism: retrospective length is estimated by 「記憶の密度」, and repetitive days get bundled up as 「いつもどおり」, leaving 「ほとんど痕跡を残さない」, so an adult finds 「一年たっても取り出せる記憶が乏しい」 — hence the year feels fast. The fourth paragraph states the cause is 「加齢そのものというより、生活から新しさが減っていくこと」, ruling out cognitive decline; the final paragraph stresses that busyness and memory density are 「別物」; and shorter actual travel time confuses objective time with subjective feeling.',
+      },
+      {
+        id: 'n1-reading-chobun-006-q4',
+        stem: 'この文章で筆者が最も言いたいことは何か。',
+        options: [
+          '「初めて」の経験を意識的に生活へ混ぜ込んで記憶の密度を増やせば、振り返ったときの一年に厚みを取り戻せる。',
+          '一年を長く感じるためには、予定をできるだけ詰め込んで忙しく過ごすべきだ。',
+          '時間が速く感じられるのは加齢のせいなので、嘆かずに受け入れるしかない。',
+          '時間の感覚を変えるには、大げさな冒険に出かけることが欠かせない。',
+        ],
+        answerIndex: 0,
+        explanation:
+          '第四段轉入對策：時間流速改不了，但「記憶の密度なら増やせる」——換通勤路線、走陌生土地、學不熟悉的領域，把「初めて」有意識地摻進生活，就能給回顧中的一年「厚みを与える」。末段明言塞滿行程的忙碌與提高記憶密度是「別物」，第二個選項正踩中這個否定；文中說原因「加齢そのものというより」新鮮感減少，且「打つ手はある」，並非只能認命；「大げさな冒険でなくてよい」直接否定了第四個選項。',
+        explanationEn:
+          'The fourth paragraph turns to remedies: the flow of time cannot be changed, but 「記憶の密度なら増やせる」 — vary the commute, walk unfamiliar places, study an unfamiliar field; deliberately mixing 「初めて」 into daily life gives the remembered year 「厚み」. The last paragraph declares that cramming one\'s schedule and raising memory density are 「別物」, which is exactly what the second option violates; the cause is 「加齢そのものというより」 a loss of novelty and the author insists 「打つ手はある」, so resignation is not the message; and 「大げさな冒険でなくてよい」 directly rules out the fourth option.',
+      },
+    ],
+  },
 ]

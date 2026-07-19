@@ -353,4 +353,131 @@ export const questions: JlptQuestion[] = [
       },
     ],
   },
+  {
+    kind: 'passage',
+    id: 'n1-reading-tanbun-013',
+    passage:
+      '「ほめて伸ばす」ことが推奨されて久しい。だが、ほめ言葉は常に無害だとは限らない。賞賛とは本来、評価の一形態だからである。「君は発想が豊かだね」と言われ続けた人は、豊かな発想を示せそうにない仕事を、いつしか避けるようになるかもしれない。ほめ言葉が周囲の期待として固定されるとき、それは相手を励ますどころか、失敗できない縛りとして働き始めるのだ。とはいえ、ほめることを控えよと言いたいのではない。相手を型にはめる評価としてではなく、行為の過程に目を向けた言葉を選ぶ工夫が要る、ということである。',
+    explanation: '',
+    questions: [
+      {
+        id: 'n1-reading-tanbun-013-q1',
+        stem: '「失敗できない縛り」とあるが、どういうことか。',
+        options: [
+          'ほめ言葉が期待として固定され、それを裏切る失敗が許されない重圧になるということ。',
+          'ほめられた人が自信を失い、どんな仕事にも挑戦できなくなるということ。',
+          'ほめた側が、相手を評価し続けなければならなくなるということ。',
+          'ほめ言葉が本心からのものではないと、相手に見抜かれてしまうということ。',
+        ],
+        answerIndex: 0,
+        explanation:
+          '前句說「ほめ言葉が周囲の期待として固定されるとき」，讚美就從鼓勵變質為束縛，如文中被誇「発想が豊かだね」的人會迴避展現不出豐富發想的工作，故正解是讚美固定成期待、化為不容失敗的重壓。「自信を失い、どんな仕事にも挑戦できなくなる」把「避ける」的可能性誇大成全面喪失自信；「ほめた側が評価し続けなければならない」偷換了受束縛的主體；「本心ではないと見抜かれる」則是文中沒有的內容。',
+        explanationEn:
+          'The preceding sentence says 「ほめ言葉が周囲の期待として固定されるとき」 praise turns from encouragement into a bind — like the person repeatedly told 「発想が豊かだね」 who comes to avoid work where rich ideas cannot be shown. So the answer is that praise hardens into expectation and becomes pressure under which failure that betrays it is not allowed. Losing confidence and becoming unable to attempt any work inflates the possibility of 「避ける」 into total loss of confidence; the option about the praiser having to keep evaluating swaps who is bound; and being seen through as insincere appears nowhere in the text.',
+      },
+      {
+        id: 'n1-reading-tanbun-013-q2',
+        stem: '筆者の考えに合うものはどれか。',
+        options: [
+          '相手を型にはめる評価ではなく、行為の過程に目を向けた言葉でほめる工夫が必要だ。',
+          '賞賛は相手を縛るものである以上、ほめること自体を控えるべきだ。',
+          'ほめて伸ばすより、厳しく指導するほうが人は伸びるものだ。',
+          '発想の豊かさをほめられた人は、例外なく難しい仕事を避けるようになる。',
+        ],
+        answerIndex: 0,
+        explanation:
+          '結尾明言「ほめることを控えよと言いたいのではない」，並主張需要「行為の過程に目を向けた言葉を選ぶ工夫」，正解即此。「ほめること自体を控えるべきだ」正是被筆者親口否定的立場；「厳しく指導するほうが伸びる」是文中完全沒有的主張；「例外なく難しい仕事を避けるようになる」則把文中帶保留的「かもしれない」誇大成必然，屬過度推論。',
+        explanationEn:
+          'The ending states 「ほめることを控えよと言いたいのではない」 and calls for 「行為の過程に目を向けた言葉を選ぶ工夫」, which the correct option restates. Refraining from praise altogether is the very position the author explicitly denies; the claim that strict instruction makes people grow better appears nowhere in the text; and saying praised people avoid difficult work 「例外なく」 inflates the hedged 「かもしれない」 into a certainty — an over-inference.',
+      },
+    ],
+  },
+  {
+    kind: 'passage',
+    id: 'n1-reading-tanbun-014',
+    passage:
+      '会議で沈黙が続くと、司会者は慌てて口を開き、誰かが急いで場をつなぐ。沈黙は議論の停滞の印だと見なされているからだ。しかし発言が途切れた時間は、必ずしも空白ではない。人は問いを受け取ってから考えを組み立てるまでに時間を要するものであり、即座に出てくる意見は、往々にして手持ちの考えの繰り返しにすぎない。沈黙を埋めることを急ぐ会議は、実は考える時間を全員から奪っているのである。実りある議論に必要なのは、途切れなく続く発言ではなく、沈黙を気まずさではなく思考の時間として遇する余裕であろう。',
+    explanation: '',
+    questions: [
+      {
+        id: 'n1-reading-tanbun-014-q1',
+        stem: '筆者によると、発言が途切れた時間はどのような時間か。',
+        options: [
+          '参加者が問いを受け止め、自分の考えを組み立てるのに必要な時間。',
+          '議論が停滞し、司会者が急いで埋めなければならない空白の時間。',
+          '参加者が手持ちの考えを繰り返し確認するための時間。',
+          '発言する意欲のない参加者が、気まずさに耐えている時間。',
+        ],
+        answerIndex: 0,
+        explanation:
+          '筆者說「人は問いを受け取ってから考えを組み立てるまでに時間を要する」，因此發言中斷的時間「必ずしも空白ではない」，而是組織想法所需的時間，正解與此相符。「急いで埋めなければならない空白」正是文中被質疑的通俗看法；「手持ちの考えを繰り返し確認する」誤用了文中字眼——「手持ちの考えの繰り返し」是形容倉促意見的貧乏，不是沉默的功能；「気まずさに耐えている」也不是筆者對沉默的定位。',
+        explanationEn:
+          'The author says 「人は問いを受け取ってから考えを組み立てるまでに時間を要する」, so a pause in speech is 「必ずしも空白ではない」 — it is the time needed to build one\'s thoughts, which the correct option matches. A blank that the chair must hurry to fill is precisely the conventional view the text questions; the option about reviewing existing ideas misuses the text\'s words, since 「手持ちの考えの繰り返し」 describes the poverty of instant opinions, not the function of silence; and enduring awkwardness is not how the author characterizes silence either.',
+      },
+      {
+        id: 'n1-reading-tanbun-014-q2',
+        stem: '筆者の考えに合うものはどれか。',
+        options: [
+          '実りある議論には、沈黙を思考の時間として受け止める余裕が必要だ。',
+          '即座に意見が出てくる会議ほど、参加者は深く考えているといえる。',
+          '沈黙が生じたら、司会者はすぐに話題を変えて場をつなぐべきだ。',
+          '発言の回数を減らして沈黙を長くするほど、会議の質は高まる。',
+        ],
+        answerIndex: 0,
+        explanation:
+          '結尾點明「実りある議論に必要なのは…沈黙を気まずさではなく思考の時間として遇する余裕」，正解即其換句話說。「即座に意見が出てくる会議ほど深く考えている」與「即座に出てくる意見は…繰り返しにすぎない」正面牴觸；「すぐに話題を変えて場をつなぐべきだ」正是開頭司会者慌忙填補沉默的被批判行為；「沈黙を長くするほど質が高まる」則把珍惜沉默曲解成機械式的反向操作，是過度推論。',
+        explanationEn:
+          'The conclusion states 「実りある議論に必要なのは…沈黙を気まずさではなく思考の時間として遇する余裕」, which the correct option paraphrases. Claiming that meetings where opinions come out instantly show deeper thinking collides head-on with 「即座に出てくる意見は…繰り返しにすぎない」; a chair quickly changing the topic to fill the gap is exactly the behavior criticized at the opening; and saying meeting quality rises the longer you stretch the silence twists valuing silence into a mechanical reversal — an over-inference.',
+      },
+    ],
+  },
+  {
+    kind: 'passage',
+    id: 'n1-reading-tanbun-015',
+    passage:
+      '朝早く出社する社員は勤勉で、始業ぎりぎりに現れる社員はやる気に欠ける——そうした見方は今なお根強い。だが、頭が最もよく働く時間帯には、生まれつきの個人差があることが知られている。朝に冴える人もいれば、夕方以降に本領を発揮する人もいるのだ。それにもかかわらず全員に一律の早朝出社を課すのは、夜型の人にとって不利な土俵の上で勤勉さを測るようなものだろう。問われるべきは出社の早さではなく、各自が最も力を出せる時間帯を、仕事の中でどう生かすかなのである。',
+    explanation: '',
+    questions: [
+      {
+        id: 'n1-reading-tanbun-015-q1',
+        stem: '筆者の考えに合うものはどれか。',
+        options: [
+          '重視すべきは出社時刻の早さではなく、各自が力を発揮できる時間帯の生かし方だ。',
+          '朝早く出社する社員は、それだけで勤勉だと評価してよい。',
+          '夜型の人も、努力しだいで朝型に変われるのだから、早朝出社に慣れるべきだ。',
+          '全員の始業時刻を夕方以降に移せば、どの社員も本領を発揮できる。',
+        ],
+        answerIndex: 0,
+        explanation:
+          '結尾明言「問われるべきは出社の早さではなく、各自が最も力を出せる時間帯を、仕事の中でどう生かすか」，正解即此。「朝早く出社する社員は勤勉」正是開頭被質疑的根深柢固之見；「努力しだいで朝型に変われる」與「生まれつきの個人差」的前提矛盾；「始業を夕方以降に移せばよい」則是借用文中「夕方以降に本領を発揮する人もいる」的字眼，把個人差異曲解成對全員一律的另一種安排，屬過度推論。',
+        explanationEn:
+          'The ending says plainly 「問われるべきは出社の早さではなく、各自が最も力を出せる時間帯を、仕事の中でどう生かすか」, which the correct option restates. Judging early arrivers as diligent on that basis alone is the entrenched view questioned at the opening; saying night owls can become morning people with effort contradicts the premise of 「生まれつきの個人差」; and moving everyone\'s start time to the evening borrows the phrase 「夕方以降に本領を発揮する人もいる」 but turns individual differences into another uniform arrangement for all — an over-inference.',
+      },
+    ],
+  },
+  {
+    kind: 'passage',
+    id: 'n1-reading-tanbun-016',
+    passageTitle: '電気ケトル自主回収のお知らせ',
+    passage:
+      'お客様各位\n弊社が本年四月から六月に販売いたしました電気ケトルＫ－２０のうち、製造番号がＡ２４で始まる製品において、まれに取っ手の付け根が破損し、湯がこぼれるおそれのあることが判明いたしました。つきましては、該当製品の自主回収を実施いたします。製品底面の製造番号をご確認のうえ、該当する場合は直ちに使用を中止し、フリーダイヤルまでご連絡ください。製品は着払いにてお送りいただき、弊社にて確認後、購入代金を返金いたします。なお、製造番号がＡ２４以外の製品は、安心してご使用いただけます。',
+    explanation: '',
+    questions: [
+      {
+        id: 'n1-reading-tanbun-016-q1',
+        stem: 'このお知らせの内容と合っているものはどれか。',
+        options: [
+          '該当する製品は、使用をやめて連絡し、送料を負担せずに送れば代金が返金される。',
+          '製造番号にかかわらず、四月から六月に販売されたＫ－２０はすべて回収の対象となる。',
+          '該当する製品は、店舗に持ち込めばその場で新品と交換してもらえる。',
+          '該当する製品でも、取っ手が破損していなければそのまま使い続けてよい。',
+        ],
+        answerIndex: 0,
+        explanation:
+          '通知指示該当者「直ちに使用を中止し、フリーダイヤルまでご連絡ください」，並說明「着払いにてお送りいただき…購入代金を返金いたします」，着払い即運費由廠商負擔，故正解為停用、聯絡、免付運費寄回後退款。「すべて回収の対象」錯在對象僅限「製造番号がＡ２４で始まる製品」；「その場で新品と交換」文中沒有，處理方式是寄回退款；「使い続けてよい」則與「使用を中止し」的指示牴觸。',
+        explanationEn:
+          'The notice instructs affected customers 「直ちに使用を中止し、フリーダイヤルまでご連絡ください」 and explains 「着払いにてお送りいただき…購入代金を返金いたします」 — 着払い means the maker bears the shipping cost, so the correct option (stop using it, call, send it back without paying postage, and get refunded) matches. Saying all K-20 units are recalled is wrong because only 「製造番号がＡ２４で始まる製品」 are covered; an on-the-spot exchange for a new unit appears nowhere — the remedy is return and refund; and continuing to use an undamaged unit contradicts the instruction 「使用を中止し」.',
+      },
+    ],
+  },
 ]

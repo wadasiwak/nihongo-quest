@@ -482,4 +482,244 @@ export const questions: JlptQuestion[] = [
     explanationEn:
       'The psychologist distinguishes unwanted isolation from solitude chosen for oneself, explaining that the latter helps organize thoughts and settle emotions and is 「心の健康に欠かせません」. She concludes that what matters is 「その時間を自分で選んでいるかどうか」 — chosen solitude is in fact necessary for mental health, which is the main point. Reducing time alone is the very over-anxiety she criticizes; unwanted isolation being unhealthy is acknowledged in the talk but only as a premise-level detail; and constant connection bringing stability is refuted by 「よほど心をすり減らします」.',
   },
+  {
+    id: 'n1-listening-gaiyo-021',
+    kind: 'listening',
+    script: [
+      { speaker: '旁白', text: 'ラジオで経済学者が話しています。' },
+      { speaker: '男', text: 'キャッシュレス決済の普及が、ここ数年で一気に進みました。レジの待ち時間が減り、店側も現金を数える手間から解放される。利点は確かに多いんです。' },
+      { speaker: '男', text: '政府も普及率の目標を掲げ、決済会社はポイント還元を競っています。' },
+      { speaker: '男', text: 'しかし、私が本当の課題だと考えているのは、技術でも普及率でもありません。現金でしか暮らせない人たちが、静かに取り残されていくことです。' },
+      { speaker: '男', text: 'スマートフォンを持たない高齢者もいれば、停電すれば決済端末は動かなくなります。現金にしかない強みは、いまも厳然としてあるんです。' },
+      { speaker: '男', text: 'キャッシュレス化の成否は、普及率の数字ではなく、移行の過程で誰一人置き去りにしない設計ができるかどうかで測られるべきだと思います。' },
+    ],
+    question: '経済学者が一番言いたいことは何ですか。',
+    options: [
+      'キャッシュレス化では、誰も取り残さない移行の設計こそが問われている',
+      'キャッシュレス決済には、レジの効率化など多くの利点がある',
+      '普及率の目標を達成すれば、キャッシュレス化は成功と言える',
+      '現金の使用を早くやめて、決済をキャッシュレスに統一すべきだ',
+    ],
+    answerIndex: 0,
+    explanation:
+      '經濟學者先承認無現金支付「利点は確かに多い」，再以「しかし」轉折，指出真正的課題不在技術或普及率，而是「現金でしか暮らせない人たちが取り残されていく」，結尾明言成敗應以「誰一人置き去りにしない設計」來衡量，此即主旨。「利点が多い」只是讓步段的鋪陳細節；「普及率の目標を達成すれば成功」被「普及率の数字ではなく」直接否定；「統一すべきだ」文中從未主張，他反而強調現金仍有不可取代的強項。',
+    explanationEn:
+      'The economist first concedes that cashless payment has many merits — 「利点は確かに多い」 — then pivots with 「しかし」: the real issue is neither technology nor adoption rates, but that people who can only live on cash are quietly left behind, 「現金でしか暮らせない人たちが取り残されていく」. He closes by saying success should be measured by whether the transition is designed 「誰一人置き去りにしない」, which is the main point. The many merits belong to the concession; judging success by adoption-rate targets is denied by 「普及率の数字ではなく」; and unifying everything into cashless payment is never claimed — he stresses that cash still has irreplaceable strengths.',
+  },
+  {
+    id: 'n1-listening-gaiyo-022',
+    kind: 'listening',
+    script: [
+      { speaker: '旁白', text: '講演会で歴史学者が話しています。' },
+      { speaker: '女', text: '歴史と聞くと、多くの方は有名な武将や大きな戦を思い浮かべるでしょう。教科書もドラマも、そうした英雄たちを中心に描いてきました。' },
+      { speaker: '女', text: 'たしかに、英雄の物語は華やかで、人の心を引きつけます。' },
+      { speaker: '女', text: 'しかし、当時の人口の大部分を占めていたのは、名前も残らない庶民です。彼らがどう暮らしていたかを抜きにして、その時代を理解したとは言えません。' },
+      { speaker: '女', text: '幸い、商家の帳簿や村の記録、何気ない手紙といった古文書には、庶民の暮らしぶりが驚くほど生々しく残っています。米の値段への嘆き、子の成長を喜ぶ言葉。そこにあるのは、私たちと変わらない人間の姿です。' },
+      { speaker: '女', text: '歴史の主役は一握りの英雄だけではない。無名の人々が残した記録にこそ、時代の実像を知る手がかりがある。私はそうお伝えしたいんです。' },
+    ],
+    question: '歴史学者が一番言いたいことは何ですか。',
+    options: [
+      '無名の庶民が残した記録にこそ、時代の実像を知る手がかりがある',
+      '英雄の物語は華やかで、人の心を引きつけるものだ',
+      '古文書には、米の値段や子どもの成長のことが書かれている',
+      '教科書は今後、英雄について教えるのをやめるべきだ',
+    ],
+    answerIndex: 0,
+    explanation:
+      '歷史學者先承認英雄故事華麗動人，再以「しかし」轉折，指出佔當時人口大多數的是無名庶民，不了解他們的生活就談不上理解時代，結尾明言「無名の人々が残した記録にこそ、時代の実像を知る手がかりがある」，此即主旨。「英雄の物語は華やか」只是讓步段的內容；「米の値段や子の成長が書かれている」是支撐主旨的古文書內容細節，不是結論；「英雄について教えるのをやめるべきだ」則屬過度解讀，講者只說主角「不只」是英雄，並未否定英雄史。',
+    explanationEn:
+      'The historian first grants that tales of heroes are dazzling and captivating, then pivots with 「しかし」: the vast majority of the population were nameless commoners, and without knowing how they lived one cannot claim to understand the era. She states her point plainly at the end: 「無名の人々が残した記録にこそ、時代の実像を知る手がかりがある」. The appeal of hero stories belongs to the concession; laments about rice prices and joy over children growing up are the supporting details of what old documents contain, not the conclusion; and abolishing heroes from textbooks over-reads her — she says heroes are not the 「only」 protagonists, never that hero history should go.',
+  },
+  {
+    id: 'n1-listening-gaiyo-023',
+    kind: 'listening',
+    script: [
+      { speaker: '旁白', text: 'テレビで脳科学者が話しています。' },
+      { speaker: '男', text: '試験の前の晩、眠る時間を惜しんで徹夜で覚え込む。学生時代、そんな経験をお持ちの方は多いのではないでしょうか。' },
+      { speaker: '男', text: '一分でも長く机に向かったほうが得だ、という気持ちはよくわかります。' },
+      { speaker: '男', text: 'ですが、研究が進んだ今では、眠っている間の脳は決して休んでいるわけではないことがわかっています。日中に取り込んだ情報を整理し、必要なものを長期の記憶として定着させる。その作業は、主に眠っている間に行われるんです。' },
+      { speaker: '男', text: '実験でも、覚えたあとにきちんと眠った人のほうが、徹夜した人より成績がよいという結果が繰り返し報告されています。' },
+      { speaker: '男', text: '睡眠は学習を中断する時間ではなく、学習を仕上げる時間です。覚えたければ、まず眠る。発想をそう切り替えていただきたいと思います。' },
+    ],
+    question: '脳科学者が一番言いたいことは何ですか。',
+    options: [
+      '睡眠は学習を仕上げる時間であり、記憶の定着には眠ることが欠かせない',
+      '試験の前の晩は、眠る時間を惜しんで覚え込んだほうがいい',
+      '覚えたあとに眠った人のほうが成績がよいという実験結果がある',
+      '眠っている間の脳は、活動を止めて完全に休んでいる',
+    ],
+    answerIndex: 0,
+    explanation:
+      '腦科學者先體諒「多讀一分鐘也划算」的心情，再以「ですが」轉折，說明大腦在睡眠中整理資訊、把必要內容固定為長期記憶，結尾明言「睡眠は学習を中断する時間ではなく、学習を仕上げる時間」，主旨是想記住就先睡覺、把睡眠視為學習的一部分。「徹夜で覚え込んだほうがいい」正是被推翻的舊做法；「眠った人のほうが成績がよい」只是支撐主旨的實驗細節；「脳は完全に休んでいる」與「決して休んでいるわけではない」直接矛盾。',
+    explanationEn:
+      'The neuroscientist first sympathizes with the feeling that every extra minute at the desk pays off, then pivots with 「ですが」: during sleep the brain sorts the day\'s information and consolidates what matters into long-term memory. He concludes 「睡眠は学習を中断する時間ではなく、学習を仕上げる時間」 — if you want to remember, sleep first; treat sleep as part of learning. Cramming all night is the old habit he overturns; sleepers outscoring all-nighters is merely the supporting experimental detail; and the brain resting completely during sleep directly contradicts 「決して休んでいるわけではない」.',
+  },
+  {
+    id: 'n1-listening-gaiyo-024',
+    kind: 'listening',
+    script: [
+      { speaker: '旁白', text: 'ラジオで栄養学の専門家が話しています。' },
+      { speaker: '女', text: 'テレビである食品が体にいいと紹介されると、翌日にはスーパーの棚からその食品が消える。そんな光景が、これまで何度も繰り返されてきました。' },
+      { speaker: '女', text: '健康によいものを取り入れたい。その意欲自体は、とても大切なものです。' },
+      { speaker: '女', text: 'ただ、忘れてはならないのは、どんなに優れた食品でも、それ一つで健康になれるものは存在しない、ということです。' },
+      { speaker: '女', text: '紹介される研究の多くはまだ条件の限られた段階のものですし、同じ物ばかり毎日大量に食べれば、かえって栄養が偏ってしまいます。' },
+      { speaker: '女', text: '一つの食品に期待を集中させるのではなく、日々の食事全体のバランスを整える。地味に聞こえますが、それこそが栄養学の変わらない結論なんです。' },
+    ],
+    question: '専門家が一番言いたいことは何ですか。',
+    options: [
+      '特定の食品に頼らず、食事全体のバランスを整えることが大切だ',
+      '健康によいものを取り入れようとする意欲は大切なものだ',
+      '体にいいと紹介された食品は、毎日多めに食べるといい',
+      'テレビで紹介される食品の効果は、すべて証明されている',
+    ],
+    answerIndex: 0,
+    explanation:
+      '專家先肯定想攝取健康食物的心意，再以「ただ」轉折指出「それ一つで健康になれるものは存在しない」，同一種食物吃太多反而造成營養偏差，結尾點明與其把期待集中在單一食品，不如「日々の食事全体のバランスを整える」，這才是營養學不變的結論，即本題主旨。「意欲は大切」只是讓步段的鋪陳；「毎日多めに食べるといい」與「栄養が偏ってしまいます」的警告相反；「効果はすべて証明されている」也被「条件の限られた段階のもの」否定。',
+    explanationEn:
+      'The nutrition expert first affirms the desire to eat healthily, then pivots with 「ただ」: 「それ一つで健康になれるものは存在しない」 — no single food can make you healthy, and eating large amounts of the same thing daily actually unbalances your nutrition. She concludes that rather than pinning hopes on one food, 「日々の食事全体のバランスを整える」 is the unchanging conclusion of nutrition science — the main point. The value of health-minded enthusiasm belongs to the concession; eating a featured food in large daily amounts contradicts her warning that 「栄養が偏ってしまいます」; and all televised claims being proven is denied by 「条件の限られた段階のもの」.',
+  },
+  {
+    id: 'n1-listening-gaiyo-025',
+    kind: 'listening',
+    script: [
+      { speaker: '旁白', text: 'ラジオで旅行作家が話しています。' },
+      { speaker: '男', text: '今は便利な時代で、出発前に名所も店も調べ尽くし、分刻みの計画を立てて旅に出る方が増えました。' },
+      { speaker: '男', text: '限られた休みを無駄にしたくない。その気持ちは、私にもよくわかります。' },
+      { speaker: '男', text: 'ただ、計画どおりの旅というのは、言ってみれば、答え合わせなんですね。事前に見た写真と同じ景色を確認して、帰ってくる。' },
+      { speaker: '男', text: '私が長年の旅で心に残っているのは、道に迷って入り込んだ路地や、雨宿りで居合わせた人との会話。つまり、予定になかった時間ばかりなんです。' },
+      { speaker: '男', text: '旅程をすべて埋めてしまわずに、何も決めない半日を残しておく。その余白こそが、旅を旅にしてくれるのだと思います。' },
+    ],
+    question: '旅行作家が一番言いたいことは何ですか。',
+    options: [
+      '旅程を予定で埋め尽くさず、偶然と出会うための余白を残すべきだ',
+      '限られた休みを無駄にしたくないという気持ちはよくわかる',
+      '事前によく調べて計画を立てれば、旅で失敗することはない',
+      '道に迷わないように、旅先では地図をこまめに確認すべきだ',
+    ],
+    answerIndex: 0,
+    explanation:
+      '旅行作家先體諒不想浪費假期的心情，再以「ただ」轉折，把照計畫走的旅行比喻為「答え合わせ」——只是去確認看過的照片，並舉出自己難忘的都是「予定になかった時間」，結尾明言留下什麼都不安排的半天，「その余白こそが、旅を旅にしてくれる」，此即主旨。「気持ちはよくわかる」只是讓步段的鋪陳；「計画を立てれば失敗しない」是被「答え合わせ」比喻質疑的態度；「地図をこまめに確認すべきだ」方向相反，他珍惜的正是迷路帶來的偶遇。',
+    explanationEn:
+      'The travel writer first sympathizes with not wanting to waste precious holidays, then pivots with 「ただ」, likening a trip that goes exactly to plan to 「答え合わせ」 — merely confirming photos you have already seen. What stayed with him over years of travel was always 「予定になかった時間」: alleys entered by getting lost, conversations while sheltering from rain. He concludes that leaving an unplanned half day is essential — 「その余白こそが、旅を旅にしてくれる」, the main point. Understanding the desire not to waste time off is only the concession; thorough planning preventing failure is the attitude his 「答え合わせ」 metaphor questions; and checking maps constantly to avoid getting lost points the opposite way, since getting lost is exactly what he treasures.',
+  },
+  {
+    id: 'n1-listening-gaiyo-026',
+    kind: 'listening',
+    script: [
+      { speaker: '旁白', text: '講演会で音楽評論家が話しています。' },
+      { speaker: '女', text: '今や、世界中の名演奏が、スマートフォン一つでいつでも聴ける時代になりました。' },
+      { speaker: '女', text: '録音の技術も進歩して、音質だけを取れば、客席で聴くより鮮明なことさえあります。それでも私は、機会を見つけては演奏会に足を運びます。' },
+      { speaker: '女', text: '録音というのは、何度も録り直した末に完成された、いわば整えられた音です。一方、生の演奏は一度きりで、やり直しがきかない。その緊張感が、音に宿るんです。' },
+      { speaker: '女', text: '演奏家の息づかい、客席の静けさ、音が消えたあとの余韻。あの場の空気だけは、どんなに優れた再生機器でも運べません。' },
+      { speaker: '女', text: '音楽の核心は、演奏家と同じ時間を分かち合う一回きりの体験にある。何でも手元で聴ける便利な時代だからこそ、それを申し上げたいんです。' },
+    ],
+    question: '評論家が一番言いたいことは何ですか。',
+    options: [
+      '音楽の核心は、演奏家と時間を分かち合う一回きりの体験にある',
+      '録音の音質は、客席で聴くより鮮明なことさえある',
+      '優れた再生機器があれば、演奏会に行く必要はない',
+      '録音された音楽には、聴く価値がほとんどない',
+    ],
+    answerIndex: 0,
+    explanation:
+      '評論家先承認錄音音質甚至可能比現場清晰，再指出錄音是反覆重錄後「整えられた音」，而現場演奏一次定勝負的緊張感、演奏家的呼吸與餘韻是任何播放器材都無法搬運的，結尾明言「音楽の核心は〜一回きりの体験にある」，此即主旨。「音質は鮮明なことさえある」只是讓步段的細節；「演奏会に行く必要はない」與她「機会を見つけては足を運ぶ」的態度相反；「聴く価値がほとんどない」則屬過度解讀，她並未否定錄音本身的價值。',
+    explanationEn:
+      'The critic first concedes that recordings can sound even clearer than a concert seat, then explains that a recording is 「整えられた音」 perfected through retakes, whereas a live performance happens once with no second chance — that tension lives in the sound, and the air of the hall 「どんなに優れた再生機器でも運べません」. She concludes that 「音楽の核心は〜一回きりの体験にある」 — sharing time with the performers — which is the main point. Recordings sometimes sounding clearer is a concession detail; not needing to attend concerts contradicts her own habit of going whenever she can; and recorded music having almost no value over-reads her, as she never denies recordings their worth.',
+  },
+  {
+    id: 'n1-listening-gaiyo-027',
+    kind: 'listening',
+    script: [
+      { speaker: '旁白', text: 'テレビで農業経済の研究者が話しています。' },
+      { speaker: '男', text: '農家の高齢化で、耕す人のいなくなった農地、いわゆる耕作放棄地が全国で増え続けています。' },
+      { speaker: '男', text: '荒れた農地は景観を損ない、害虫や獣の住みかにもなる。厄介な負の遺産だ、というのが一般的な見方でしょう。' },
+      { speaker: '男', text: 'たしかに、放置すれば問題は深刻です。しかし、私は耕作放棄地を、使い道の決まっていない土地、つまり地域に残された数少ない資源だと捉えています。' },
+      { speaker: '男', text: '実際、放棄地に羊を放して観光の呼び物にした村もあれば、市民農園として都市の住民に開放し、交流を生み出した町もあります。' },
+      { speaker: '男', text: '元の田畑に戻すことだけが解決ではありません。その土地に合った新しい使い道を地域ぐるみで考えること。それが放棄地問題の出発点だと思うんです。' },
+    ],
+    question: '研究者が一番言いたいことは何ですか。',
+    options: [
+      '耕作放棄地は、農地に戻す以外の活用も含めて使い道を考えるべき資源だ',
+      '荒れた農地は景観を損ない、害虫や獣の住みかにもなる',
+      '耕作放棄地は、すべて元の田畑に戻していくべきだ',
+      '農家の高齢化は、今後しだいに解消へ向かっていく',
+    ],
+    answerIndex: 0,
+    explanation:
+      '研究者先交代「厄介な負の遺産」這個一般看法，再以「しかし」轉折，主張耕作放棄地是「地域に残された数少ない資源」，並舉放牧觀光、市民農園等實例，結尾明言「元の田畑に戻すことだけが解決ではありません」，要因地制宜想出新用途，此即主旨。「景観を損ない、住みかにもなる」只是鋪陳一般看法的細節；「すべて元の田畑に戻すべきだ」正是被結尾否定的想法；「高齢化は解消へ向かう」文中完全沒有提到，開頭反而說放棄地持續增加。',
+    explanationEn:
+      'The researcher first presents the common view of abandoned farmland as 「厄介な負の遺産」, then pivots with 「しかし」: he sees it as land whose use is simply undecided — 「地域に残された数少ない資源」 — citing villages that graze sheep as a tourist draw and towns that opened community gardens. He concludes 「元の田畑に戻すことだけが解決ではありません」: communities should devise new uses suited to each plot, which is the main point. Ruined fields harming scenery and harboring pests is a detail of the common view he sets up; returning all land to cultivation is exactly what his conclusion denies; and rural aging easing off is never mentioned — the talk opens by saying abandonment keeps increasing.',
+  },
+  {
+    id: 'n1-listening-gaiyo-028',
+    kind: 'listening',
+    script: [
+      { speaker: '旁白', text: '講演会で都市計画家が話しています。' },
+      { speaker: '女', text: 'これまでの街路づくりは、いかに車をスムーズに通すか、という発想が中心でした。道は広く、まっすぐに。それが近代的な都市の姿だとされてきたんです。' },
+      { speaker: '女', text: 'もちろん、物流や暮らしを支えるうえで、車の通りやすさは無視できません。' },
+      { speaker: '女', text: 'ですが、歩く人の目線に立つと、景色はまったく違って見えます。広くて単調な道は、同じ距離でも、歩くと長く退屈に感じられるんです。' },
+      { speaker: '女', text: '逆に、店先の飾りや街路樹、ちょっと腰かけられるベンチ。そうした小さな変化が連なる道では、人は自然と歩きたくなり、立ち止まり、店に入る。まちのにぎわいは、そこから生まれます。' },
+      { speaker: '女', text: '街路は車を通すための管ではなく、人が歩いて楽しむための舞台です。これからの設計は、歩く人の目線から始めるべきだと考えています。' },
+    ],
+    question: '都市計画家が一番言いたいことは何ですか。',
+    options: [
+      'これからの街路は、車中心ではなく歩く人の目線から設計すべきだ',
+      '物流や暮らしを支えるうえで、車の通りやすさは無視できない',
+      '道は広くまっすぐであるほど、歩いていて楽しく感じられる',
+      '街路樹やベンチは、車の通行の妨げになるので減らすべきだ',
+    ],
+    answerIndex: 0,
+    explanation:
+      '都市計畫家先承認車輛通行對物流與生活不可忽視，再以「ですが」轉折，指出從行人視角看，寬而單調的路走起來又長又無聊，反而是店面擺飾、行道樹、長椅這些小變化會讓人想走、想停留，帶來街區的熱鬧，結尾明言「街路は車を通すための管ではなく〜舞台」「歩く人の目線から始めるべき」，此即主旨。「車の通りやすさは無視できない」只是讓步段的內容；「広くまっすぐなほど楽しい」與「長く退屈に感じられる」直接矛盾；「減らすべきだ」則與她讚許這些元素的立場相反。',
+    explanationEn:
+      'The urban planner first concedes that ease of car traffic cannot be ignored for logistics and daily life, then pivots with 「ですが」: from a pedestrian\'s eye level, wide monotonous roads feel long and boring, while streets lined with small variations — shopfront displays, street trees, benches to rest on — make people want to walk, stop, and enter shops, which is where a town\'s liveliness is born. She concludes that a street is 「車を通すための管ではなく」 a stage for walking, and design 「歩く人の目線から始めるべき」 — the main point. Car accessibility mattering is the concession; wide straight roads being enjoyable contradicts 「長く退屈に感じられる」; and removing trees and benches opposes the very elements she praises.',
+  },
+  {
+    id: 'n1-listening-gaiyo-029',
+    kind: 'listening',
+    script: [
+      { speaker: '旁白', text: 'ラジオで児童文学作家が話しています。' },
+      { speaker: '男', text: '子ども向けの本を書いていると、この言葉は難しすぎませんか、と指摘されることがよくあります。' },
+      { speaker: '男', text: 'たしかに、知らない言葉だらけでは、子どもは本を閉じてしまうでしょう。わかりやすさへの配慮は欠かせません。' },
+      { speaker: '男', text: 'それでも私は、物語のいちばん大事な場面では、あえて子どもがまだ知らないだろう言葉を使うことにしています。' },
+      { speaker: '男', text: '子どもは、前後の場面から意味を懸命に想像します。その背伸びの瞬間にこそ、言葉は体温を持って心に残るんです。' },
+      { speaker: '男', text: '知っている言葉だけで書かれた本は、子どもをいまいる場所にとどめてしまう。まだ知らない言葉との出会いこそ、読書が子どもに贈れる最良のものだと、私は信じています。' },
+    ],
+    question: '作家が一番言いたいことは何ですか。',
+    options: [
+      '未知の言葉との出会いが子どもを成長させるので、あえて難しい言葉も使う',
+      '知らない言葉だらけの本では、子どもは読むのをやめてしまう',
+      '子ども向けの本は、子どもが知っている言葉だけで書くべきだ',
+      '難しい言葉には、必ず注をつけて意味を説明すべきだ',
+    ],
+    answerIndex: 0,
+    explanation:
+      '作家先承認滿是生詞會讓孩子闔上書、易讀性的顧慮不可少，再以「それでも」轉折，說明自己在故事最關鍵處刻意使用孩子還不認識的詞，因為孩子從前後文拚命想像意義的「背伸びの瞬間」才能讓語言留在心裡，結尾明言「まだ知らない言葉との出会いこそ、読書が子どもに贈れる最良のもの」，此即主旨。「読むのをやめてしまう」只是讓步段的鋪陳；「知っている言葉だけで書くべきだ」正是被「いまいる場所にとどめてしまう」否定的做法；「必ず注をつけるべきだ」文中從未提及。',
+    explanationEn:
+      'The author first concedes that a book full of unknown words would make a child close it — readability matters — then pivots with 「それでも」: at the most important moments of a story he deliberately uses words the child likely does not know yet, because in the 「背伸びの瞬間」 of straining to guess meaning from context, words take on warmth and stay in the heart. He concludes that 「まだ知らない言葉との出会いこそ、読書が子どもに贈れる最良のもの」, which is the main point. Children abandoning books full of unknown words is the concession; writing only with words children already know is the approach refuted by 「いまいる場所にとどめてしまう」; and always adding explanatory notes is never mentioned.',
+  },
+  {
+    id: 'n1-listening-gaiyo-030',
+    kind: 'listening',
+    script: [
+      { speaker: '旁白', text: '講演会で天文学者が話しています。' },
+      { speaker: '女', text: '日本の夜空から、星が急速に消えています。街の明かりが夜空を照らしてしまう、いわゆる光害のためです。都市部では、天の川を一度も見たことがない子どもも珍しくありません。' },
+      { speaker: '女', text: '夜道の明るさが人々の安全を支えていることは、もちろん否定しません。' },
+      { speaker: '女', text: 'ですが、必要なのは闇をなくすことではなく、光の向きと量を整えることなんです。実際、照明を下向きに変えるだけで、足元の明るさを保ったまま、夜空は驚くほど暗さを取り戻します。' },
+      { speaker: '女', text: '満天の星を村の宝として売り出し、多くの旅行者を集めている地域もあります。' },
+      { speaker: '女', text: '星空は、特別な人のものではなく、誰もが頭上に持っている財産です。照明を工夫して夜の暗さを守ることは、安全と十分に両立できる。そのことを知っていただきたいんです。' },
+    ],
+    question: '天文学者が一番言いたいことは何ですか。',
+    options: [
+      '照明を工夫すれば、安全を保ちながら星空という財産を守ることができる',
+      '夜道の明るさが人々の安全を支えていることは否定できない',
+      '安全のためには、夜の街をできるだけ明るくしておくべきだ',
+      '星空を楽しみたければ、都市を離れて暮らすしかない',
+    ],
+    answerIndex: 0,
+    explanation:
+      '天文學者先承認夜間照明支撐著人們的安全，再以「ですが」轉折，指出需要的不是消滅黑暗，而是「光の向きと量を整えること」——光是把照明改為向下，就能保住腳邊亮度又讓夜空恢復黑暗，結尾明言星空是人人頭上共有的財產，「夜の暗さを守ることは、安全と十分に両立できる」，此即主旨。「安全を支えていることは否定できない」只是讓步段的內容；「できるだけ明るくすべきだ」與「闇をなくすことではなく」的主張相反；「都市を離れるしかない」文中並無此意，她強調的正是靠照明設計在原地找回星空。',
+    explanationEn:
+      'The astronomer first concedes that streetlight brightness supports people\'s safety, then pivots with 「ですが」: what is needed is not eliminating darkness but 「光の向きと量を整えること」 — simply pointing lights downward keeps the ground lit while the night sky regains its darkness remarkably. She closes by calling the starry sky a shared asset above everyone\'s head and stating that protecting the darkness of night 「安全と十分に両立できる」, which is the main point. Lighting supporting safety is the concession; making the night as bright as possible contradicts 「闇をなくすことではなく」; and having to move away from cities to enjoy stars appears nowhere — her whole argument is that lighting design can bring the stars back where people live.',
+  },
 ]

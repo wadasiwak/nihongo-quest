@@ -449,4 +449,227 @@ export const questions: JlptQuestion[] = [
     explanationEn:
       '「くよくよ」 depicts fretting endlessly over what is already done and cannot be undone; 「くよくよ悩む／くよくよする」 is typical usage. 「いそいそ」 is bustling about in happy anticipation; 「ほくほく」 is quietly gleeful over good fortune; 「のびのび」 is feeling free and unconstrained — the upbeat tone of all three clashes with 「悩んでいても」.',
   },
+  // ===== 名詞 11 題（041~051）=====
+  {
+    kind: 'choice',
+    id: 'n1-vocab-bunmyaku-041',
+    stem: '都市と地方の医療格差を（　）するため、政府は新たな支援策を打ち出した。',
+    options: ['是正', '訂正', '修繕', '改心'],
+    answerIndex: 0,
+    explanation:
+      '「是正」（矯正、導正）指糾正制度或狀態上的不公與偏差，「格差を是正する」是政策報導的固定搭配。「訂正」是更正文章、發言中的錯誤；「修繕」是修理建築物等實體；「改心」是人洗心革面，三者都不能以「格差」作受詞。',
+    explanationEn:
+      '「是正」 (rectification) means correcting an unfair or distorted system or state of affairs; 「格差を是正する」 is a fixed collocation in policy reporting. 「訂正」 is correcting errors in text or statements; 「修繕」 is repairing physical structures; 「改心」 is a person mending their ways — none of the three can take 「格差」 as its object.',
+  },
+  {
+    kind: 'choice',
+    id: 'n1-vocab-bunmyaku-042',
+    stem: '順調に進んでいた再開発プロジェクトは、資金難によりあえなく（　）してしまった。',
+    options: ['頓挫', '脱線', '転落', '失脚'],
+    answerIndex: 0,
+    explanation:
+      '「頓挫」（受挫停擺）指原本順利進行的計畫、事業中途受阻而停頓，「計画が頓挫する」是典型搭配。「脱線」是列車出軌或話題岔開（如「話が脱線する」）；「転落」是摔落或社會地位一落千丈；「失脚」是掌權者垮台下台，主語應是人，皆不合語境。',
+    explanationEn:
+      '「頓挫」 (collapse, breakdown) means a project or venture that had been going smoothly grinding to a halt midway; 「計画が頓挫する」 is the typical collocation. 「脱線」 is a train derailing or talk digressing (as in 「話が脱線する」); 「転落」 is falling physically or plunging in social standing; 「失脚」 is a powerful figure losing their position and takes a person as its subject — none fits.',
+  },
+  {
+    kind: 'choice',
+    id: 'n1-vocab-bunmyaku-043',
+    stem: '震災直後の混乱に（　）した悪質な商法が相次ぎ、消費者庁が注意を呼びかけた。',
+    options: ['便乗', '同乗', '迎合', '執着'],
+    answerIndex: 0,
+    explanation:
+      '「便乗」（趁機搭便車）指趁著某種事態撈取好處，「混乱に便乗する」「便乗値上げ」是典型用法，最合趁災行騙的語境。「同乗」是同搭一輛交通工具；「迎合」是一味討好他人的喜好或意見（如「世論に迎合する」）；「執着」是執著不放，皆不能表達趁亂牟利。',
+    explanationEn:
+      '「便乗」 (piggybacking, taking advantage) means exploiting a situation for one\'s own gain; 「混乱に便乗する」 and 「便乗値上げ」 are typical usages, fitting scams that prey on post-quake confusion. 「同乗」 is riding in the same vehicle; 「迎合」 is currying favor with others\' tastes or opinions (as in 「世論に迎合する」); 「執着」 is clinging obsessively — none expresses profiteering from chaos.',
+  },
+  {
+    kind: 'choice',
+    id: 'n1-vocab-bunmyaku-044',
+    stem: '記録的な猛暑で冷房の使用が急増し、電力の需給が（　）している。',
+    options: ['逼迫', '切迫', '緊迫', '圧迫'],
+    answerIndex: 0,
+    explanation:
+      '「逼迫」（吃緊）指資金、物資、供需等變得極為緊繃匱乏，「需給が逼迫する」是電力新聞的固定說法。「切迫」用於期限、危險迫近（如「事態が切迫する」）；「緊迫」形容局勢緊張（如「緊迫した情勢」）；「圧迫」是他動詞用法為主（如「家計を圧迫する」），都不與「需給」搭配。',
+    explanationEn:
+      '「逼迫」 (strained, tight) means funds, supplies, or supply-demand balance becoming critically stretched; 「需給が逼迫する」 is the fixed phrasing in power-supply news. 「切迫」 is a deadline or danger closing in (as in 「事態が切迫する」); 「緊迫」 describes a tense situation (as in 「緊迫した情勢」); 「圧迫」 is mainly transitive (as in 「家計を圧迫する」) — none collocates with 「需給」.',
+  },
+  {
+    kind: 'choice',
+    id: 'n1-vocab-bunmyaku-045',
+    stem: 'SNS上では、医学的な根拠のない健康情報が（　）している。',
+    options: ['蔓延', '普及', '繁殖', '伝染'],
+    answerIndex: 0,
+    explanation:
+      '「蔓延」（蔓延、氾濫）指疾病或不良的事物四處擴散，帶負面語感，「デマが蔓延する」是典型用法，最合「毫無根據的健康資訊」的語境。「普及」指技術、制度廣為大眾採用，語感中性偏正面；「繁殖」是生物繁衍；「伝染」是疾病或哈欠等傳染，主語不能是資訊。',
+    explanationEn:
+      '「蔓延」 (rampant spread) means diseases or undesirable things proliferating everywhere, with a negative tone; 「デマが蔓延する」 is typical usage, matching groundless health information. 「普及」 is technology or systems coming into wide adoption, with a neutral-to-positive tone; 「繁殖」 is organisms breeding; 「伝染」 is contagion of diseases or yawns — its subject cannot be information.',
+  },
+  {
+    kind: 'choice',
+    id: 'n1-vocab-bunmyaku-046',
+    stem: '新社長は就任会見で、前任者の経営方針を基本的に（　）する考えを示した。',
+    options: ['踏襲', '世襲', '踏破', '襲撃'],
+    answerIndex: 0,
+    explanation:
+      '「踏襲」（沿襲）指原封不動地繼承前人的方針、做法，「方針を踏襲する」是固定搭配。「世襲」是地位、家業由血緣代代相傳（如「世襲議員」）；「踏破」是徒步走完艱難路程；「襲撃」是襲擊攻擊，三者雖共用「踏」「襲」二字，語意都與繼承方針無關。',
+    explanationEn:
+      '「踏襲」 (carrying on) means adopting a predecessor\'s policies or methods as they are; 「方針を踏襲する」 is a set collocation. 「世襲」 is a position or family business passed down by blood (as in 「世襲議員」); 「踏破」 is trekking an arduous route to the end; 「襲撃」 is an armed attack — though they share the characters 「踏」 and 「襲」, none means continuing a policy.',
+  },
+  {
+    kind: 'choice',
+    id: 'n1-vocab-bunmyaku-047',
+    stem: '世界的な不作の影響で小麦の価格が（　）し、パンや麺類が相次いで値上げされた。',
+    options: ['高騰', '沸騰', '暴落', '膨張'],
+    answerIndex: 0,
+    explanation:
+      '「高騰」（飆漲）指價格急遽上漲，「価格が高騰する」「原油の高騰」是經濟新聞的固定說法，與後句「相繼漲價」呼應。「沸騰」是液體沸騰或輿論激昂（如「議論が沸騰する」）；「暴落」是價格暴跌，方向恰好相反；「膨張」是體積、規模膨脹（如「予算が膨張する」），皆不合語境。',
+    explanationEn:
+      '「高騰」 (soaring) means prices shooting up; 「価格が高騰する」 and 「原油の高騰」 are fixed phrases in economic news, echoing the successive price hikes that follow. 「沸騰」 is liquid boiling or debate reaching fever pitch (as in 「議論が沸騰する」); 「暴落」 is prices crashing — the opposite direction; 「膨張」 is volume or scale swelling (as in 「予算が膨張する」) — none fits.',
+  },
+  {
+    kind: 'choice',
+    id: 'n1-vocab-bunmyaku-048',
+    stem: '社長の突然の辞任をめぐって、社内では様々な（　）が飛び交っている。',
+    options: ['憶測', '推理', '目算', '錯覚'],
+    answerIndex: 0,
+    explanation:
+      '「憶測」（臆測）指缺乏根據的胡亂猜想，「憶測が飛び交う」「憶測を呼ぶ」是新聞常見搭配。「推理」是依據證據線索的邏輯推論，用於偵探辦案等，不與「飛び交う」搭配；「目算」是心中的盤算、估計（如「目算が外れる」）；「錯覚」是錯覺、誤認，皆無法形容謠言滿天飛。',
+    explanationEn:
+      '「憶測」 (wild speculation) is guesswork without solid grounds; 「憶測が飛び交う」 and 「憶測を呼ぶ」 are common news collocations. 「推理」 is logical deduction from evidence, as in detective work, and does not pair with 「飛び交う」; 「目算」 is a private estimate or calculation (as in 「目算が外れる」); 「錯覚」 is an illusion or misperception — none depicts rumors flying about.',
+  },
+  {
+    kind: 'choice',
+    id: 'n1-vocab-bunmyaku-049',
+    stem: '今回の小規模な提携は、将来の全面的な業務統合に向けた（　）だと見られている。',
+    options: ['布石', '伏線', '目安', '口実'],
+    answerIndex: 0,
+    explanation:
+      '「布石」原是圍棋開局的佈子，引申為著眼將來而預先安排的準備，「〜に向けた布石を打つ」是商業報導的典型說法。「伏線」是故事中預先埋下、之後才揭曉的鋪陳，用於情節安排；「目安」是大致的基準；「口実」是藉口，三者都不能表達為日後統合預作佈局。',
+    explanationEn:
+      '「布石」 originally means the opening stone placements in go, and by extension a preparatory move made with the future in mind; 「〜に向けた布石を打つ」 is typical in business reporting. 「伏線」 is foreshadowing planted in a story to pay off later; 「目安」 is a rough benchmark; 「口実」 is a pretext — none expresses laying groundwork for a future merger.',
+  },
+  {
+    kind: 'choice',
+    id: 'n1-vocab-bunmyaku-050',
+    stem: '国際会議の裏では、自国の利益をめぐる各国の激しい（　）が繰り広げられていた。',
+    options: ['駆け引き', '値引き', '取り締まり', '受け答え'],
+    answerIndex: 0,
+    explanation:
+      '「駆け引き」（討價還價、攻防角力）指談判中互探底線、進退拉鋸的手腕，「激しい駆け引きが繰り広げられる」是外交報導的典型表現。「値引き」是降價打折，與國家利益的攻防無關；「取り締まり」是取締違規；「受け答え」是應答對話，皆不能形容檯面下的談判攻防。',
+    explanationEn:
+      '「駆け引き」 (tactical maneuvering, bargaining) is the give-and-take of probing an opponent\'s bottom line in negotiations; 「激しい駆け引きが繰り広げられる」 is typical of diplomatic reporting. 「値引き」 is a price discount, irrelevant to contests over national interests; 「取り締まり」 is a regulatory crackdown; 「受け答え」 is giving answers in conversation — none depicts behind-the-scenes jockeying.',
+  },
+  {
+    kind: 'choice',
+    id: 'n1-vocab-bunmyaku-051',
+    stem: '関係者それぞれの（　）が複雑に絡み合い、交渉は一向に進展しなかった。',
+    options: ['思惑', '心構え', '追憶', '決意'],
+    answerIndex: 0,
+    explanation:
+      '「思惑」（盤算、各自的打算）指各方心中暗自的期待與算計，「思惑が絡む／思惑が交錯する」是固定搭配，最能說明談判膠著的原因。「心構え」是事前的心理準備；「追憶」是追憶往事；「決意」是下定的決心，三者都不會「複雑に絡み合い」而阻礙交涉。',
+    explanationEn:
+      '「思惑」 (ulterior motives, private calculations) refers to each party\'s hidden expectations and agendas; 「思惑が絡む」 and 「思惑が交錯する」 are set collocations that explain why the talks stalled. 「心構え」 is mental preparedness; 「追憶」 is reminiscence of the past; 「決意」 is firm resolve — none of the three can "complexly entangle" and bog down negotiations.',
+  },
+  // ===== 形容詞・形容動詞 4 題（052~055）=====
+  {
+    kind: 'choice',
+    id: 'n1-vocab-bunmyaku-052',
+    stem: '小手先の対応を繰り返すのではなく、制度そのものの（　）な見直しが必要だ。',
+    options: ['抜本的', '表面的', '間接的', '感覚的'],
+    answerIndex: 0,
+    explanation:
+      '「抜本的」（根本性的）指從根源上徹底處理，「抜本的な見直し／改革」是政策議論的固定搭配，與前句「並非治標的應付」呼應。「表面的」是流於表面，正與「小手先」同義而矛盾；「間接的」是間接的；「感覚的」是憑感覺的，都無法表達徹底改革之意。',
+    explanationEn:
+      '「抜本的」 (fundamental, drastic) means dealing with something at its very root; 「抜本的な見直し／改革」 is a fixed phrase in policy debate, echoing the rejection of stopgap fixes. 「表面的」 means superficial — synonymous with 「小手先」 and thus contradictory; 「間接的」 means indirect; 「感覚的」 means intuitive — none conveys a root-and-branch overhaul.',
+  },
+  {
+    kind: 'choice',
+    id: 'n1-vocab-bunmyaku-053',
+    stem: '度重なる怪我にも挫けず練習を続ける彼の（　）な姿勢に、誰もが心を打たれた。',
+    options: ['ひたむき', '気まぐれ', 'なげやり', 'おおらか'],
+    answerIndex: 0,
+    explanation:
+      '「ひたむき」（專注執著的）形容心無旁騖、一心一意投入的態度，「ひたむきな姿勢／努力」是典型搭配，與帶傷仍堅持練習的語境相符。「気まぐれ」是反覆無常、隨興所至；「なげやり」是敷衍了事、自暴自棄；「おおらか」是豁達不拘小節，皆與令人動容的堅持相悖。',
+    explanationEn:
+      '「ひたむき」 (single-minded, earnest) describes devoting oneself wholeheartedly without distraction; 「ひたむきな姿勢／努力」 is the typical collocation, matching someone who keeps training through repeated injuries. 「気まぐれ」 is capricious; 「なげやり」 is careless and half-hearted; 「おおらか」 is easygoing and generous — none matches a perseverance that moves everyone.',
+  },
+  {
+    kind: 'choice',
+    id: 'n1-vocab-bunmyaku-054',
+    stem: '静かで緑も多いこの町は、子育てには（　）の環境だと言えるだろう。',
+    options: ['うってつけ', '付け焼き刃', 'なりゆき', 'でたらめ'],
+    answerIndex: 0,
+    explanation:
+      '「うってつけ」（再合適不過）指條件與目的完全吻合，「〜にはうってつけの環境／人材」是固定搭配，安靜又綠意盎然正適合育兒。「付け焼き刃」是臨時抱佛腳學來的皮毛；「なりゆき」是事情自然的發展（如「なりゆきに任せる」）；「でたらめ」是胡來、荒唐，皆不能修飾理想的環境。',
+    explanationEn:
+      '「うってつけ」 (perfectly suited) means conditions matching a purpose exactly; 「〜にはうってつけの環境／人材」 is a set collocation, and a quiet, leafy town is ideal for raising children. 「付け焼き刃」 is hastily acquired, superficial knowledge; 「なりゆき」 is the natural course of events (as in 「なりゆきに任せる」); 「でたらめ」 is nonsense or recklessness — none can describe an ideal environment.',
+  },
+  {
+    kind: 'choice',
+    id: 'n1-vocab-bunmyaku-055',
+    stem: '基礎を（　）にしたまま応用問題ばかり解いても、実力はなかなか伸びない。',
+    options: ['なおざり', 'なけなし', '月並み', 'ちりぢり'],
+    answerIndex: 0,
+    explanation:
+      '「なおざり」（置之不理）指該做的事敷衍放著不認真處理，「基礎をなおざりにする」是典型用法。「なけなし」是僅有的一點點，只作「なけなしの金」等連體用法；「月並み」是平庸老套（如「月並みな表現」）；「ちりぢり」是四散分離（如「ちりぢりになる」），皆不能表達怠忽基礎。',
+    explanationEn:
+      '「なおざり」 (neglect) means leaving something that should be done unattended and half-hearted; 「基礎をなおざりにする」 is typical usage. 「なけなし」 means the meager little one has, used only prenominally as in 「なけなしの金」; 「月並み」 is trite and commonplace (as in 「月並みな表現」); 「ちりぢり」 is scattering apart (as in 「ちりぢりになる」) — none expresses slighting the basics.',
+  },
+  // ===== 副詞・オノマトペ 5 題（056~060，060 為オノマトペ）=====
+  {
+    kind: 'choice',
+    id: 'n1-vocab-bunmyaku-056',
+    stem: '今回のアンケート結果は、若者の活字離れの深刻さを（　）物語っている。',
+    options: ['如実に', '厳密に', '無性に', '安易に'],
+    answerIndex: 0,
+    explanation:
+      '「如実に」（如實地、真切地）指毫無掩飾地反映實際狀況，「如実に物語る／如実に表れる」是固定搭配。「厳密に」是嚴謹精確地，用於定義、檢驗（如「厳密に言えば」）；「無性に」是莫名地強烈（如「無性に腹が立つ」）；「安易に」是輕率隨便地，皆不能修飾「物語る」表達真實反映。',
+    explanationEn:
+      '「如実に」 (vividly, faithfully) means reflecting reality without any gloss; 「如実に物語る」 and 「如実に表れる」 are set collocations. 「厳密に」 means rigorously, used for definitions and verification (as in 「厳密に言えば」); 「無性に」 means uncontrollably (as in 「無性に腹が立つ」); 「安易に」 means carelessly — none modifies 「物語る」 to mean telling the true state of affairs.',
+  },
+  {
+    kind: 'choice',
+    id: 'n1-vocab-bunmyaku-057',
+    stem: 'この店の料理には、地元で採れた新鮮な野菜が（　）使われている。',
+    options: ['ふんだんに', 'めったに', 'かたくなに', 'おろそかに'],
+    answerIndex: 0,
+    explanation:
+      '「ふんだんに」（大量地、毫不吝惜地）指材料、資源用得十分充裕，「ふんだんに使う／盛り込む」是典型搭配。「めったに」須與否定形呼應（如「めったに見られない」），放入本句文法不通；「かたくなに」是固執地（拒絕）；「おろそかに」是馬虎怠慢地（如「おろそかにする」），皆不合語境。',
+    explanationEn:
+      '「ふんだんに」 (abundantly, lavishly) means using materials or resources in generous quantity; 「ふんだんに使う」 is the typical collocation. 「めったに」 must pair with a negative (as in 「めったに見られない」), so it is ungrammatical here; 「かたくなに」 means stubbornly (refusing); 「おろそかに」 means negligently (as in 「おろそかにする」) — neither fits the context.',
+  },
+  {
+    kind: 'choice',
+    id: 'n1-vocab-bunmyaku-058',
+    stem: '発表の際は専門用語を（　）避け、誰にでも分かる言葉で説明してください。',
+    options: ['極力', 'さも', '一向に', 'まんざら'],
+    answerIndex: 0,
+    explanation:
+      '「極力」（盡可能、竭力）表示在能力範圍內盡最大努力去做，「極力避ける／極力控える」是固定搭配。「さも」是「彷彿真的〜」，須與「〜そうに」等樣態表現呼應；「一向に」與「まんざら」都必須搭配否定形（如「一向に進まない」「まんざらでもない」），放入本句文法不通。',
+    explanationEn:
+      '「極力」 (to the utmost, as much as possible) means doing one\'s very best within one\'s power; 「極力避ける／極力控える」 are set collocations. 「さも」 means "as if truly so" and needs an appearance expression such as 「〜そうに」; 「一向に」 and 「まんざら」 both require negatives (as in 「一向に進まない」 and 「まんざらでもない」), so they are ungrammatical here.',
+  },
+  {
+    kind: 'choice',
+    id: 'n1-vocab-bunmyaku-059',
+    stem: '事故の原因については（　）調査中であり、詳細は分かり次第公表いたします。',
+    options: ['目下', 'いずれ', 'かつて', 'とうに'],
+    answerIndex: 0,
+    explanation:
+      '「目下」（もっか，目前、現在）是書面語，表示「當下正在」，「目下調査中」是官方聲明的固定說法。「いずれ」是「早晚、改天」，指向未來，與「調査中」的進行語感矛盾；「かつて」是「曾經」，指向過去；「とうに」是「早就（完成）」，三者的時間方向都與現在進行不合。',
+    explanationEn:
+      '「目下」 (read もっか, "at present") is formal written style meaning "currently"; 「目下調査中」 is the fixed wording of official statements. 「いずれ」 means "sooner or later," pointing to the future and clashing with the ongoing sense of 「調査中」; 「かつて」 means "once, formerly," pointing to the past; 「とうに」 means "long since (done)" — all three point the wrong way in time.',
+  },
+  {
+    kind: 'choice',
+    id: 'n1-vocab-bunmyaku-060',
+    stem: '専属コーチの指導を受け始めてから、彼女の演技は（　）上達した。',
+    options: ['めきめき', 'つくづく', 'ひそひそ', 'ふらふら'],
+    answerIndex: 0,
+    explanation:
+      '「めきめき」形容實力、技藝進步神速而有目共睹的樣子，「めきめき上達する／めきめき頭角を現す」是典型搭配。「つくづく」是深切地（感受），須接「思う」「感じる」等；「ひそひそ」是竊竊私語的樣子；「ふらふら」是搖搖晃晃、不穩定，三者雖同為擬態語，都不能修飾「上達した」。',
+    explanationEn:
+      '「めきめき」 depicts skill improving rapidly and visibly; 「めきめき上達する」 and 「めきめき頭角を現す」 are typical collocations. 「つくづく」 means feeling something keenly and pairs with verbs like 「思う」 or 「感じる」; 「ひそひそ」 depicts whispering; 「ふらふら」 depicts swaying unsteadily — though all are mimetic words, none can modify 「上達した」.',
+  },
 ]
