@@ -97,6 +97,25 @@ const zh = {
   mockBestSuffix: (score: number) => `｜最佳 ${score}/180`,
   mockLocked: '四科內容齊全後開放模擬考。',
 
+  /* 考前衝刺 */
+  sprintSection: '考前衝刺',
+  sprintTitle: (level: string) => `${level} 考前衝刺`,
+  sprintEntryMeta: (wrongN: number, weakN: number, size: number) =>
+    `根據你的 ${wrongN} 個錯題與 ${weakN} 個弱點單元組卷・${size} 題`,
+  sprintEntryCold: (size: number) => `還沒有作答紀錄，先隨機 ${size} 題暖身；做題越多，組卷越精準`,
+  sprintLastSuffix: (score: number, total: number) => `｜上次 ${score}/${total}`,
+  sprintIntroCount: (n: number) => `📝 本卷 ${n} 題`,
+  sprintIntroWrong: (n: number) => `🔁 錯題本優先 ${n} 題（到期／高頻錯題）`,
+  sprintIntroWeak: (n: number, units: string) => `🎯 弱點單元 ${n} 題（${units}）`,
+  sprintIntroFresh: (n: number) => `🌱 全單元隨機保鮮 ${n} 題`,
+  sprintColdNotice:
+    '⚠️ 還沒有錯題與弱點資料，本卷為隨機組成。建議先去各單元刷題、累積錯題本與統計，衝刺組卷會更精準。',
+  startSprint: '開始衝刺',
+  resumeSprintTitle: '繼續上次的衝刺？',
+  sprintCompareTitle: '弱點單元即時回饋',
+  sprintCompareNote: '歷史答對率 → 本次衝刺',
+  sprintCompareCount: (n: number) => `本卷 ${n} 題`,
+
   /* MockExam */
   mockNotReady: '此級內容尚未齊全，模擬考暫未開放。等各科題庫補齊後就能開考！',
   mockMetaCount: (n: number) => `📝 題數：${n} 題`,
@@ -305,6 +324,7 @@ const zh = {
   replayPlanTitle: (date: string) => `每日一練 ${date}（重玩・不計分）`,
   reviewPlanTitle: (n: number) => `錯題重刷（${n} 題）`,
   mockPlanTitle: (level: string) => `${level} 迷你模擬考`,
+  sprintPlanTitle: (level: string) => `${level} 考前衝刺`,
 }
 
 type Strings = typeof zh
@@ -351,6 +371,24 @@ const en: Strings = {
   mockEntryMeta: 'Scaled-down official format · timed · estimated score for reference only',
   mockBestSuffix: (score) => ` | best ${score}/180`,
   mockLocked: 'The mock exam opens once all four sections have content.',
+
+  sprintSection: 'Exam sprint',
+  sprintTitle: (level) => `${level} Exam Sprint`,
+  sprintEntryMeta: (wrongN, weakN, size) =>
+    `${size} questions built from your ${wrongN} mistakes and ${weakN} weak units`,
+  sprintEntryCold: (size) => `No records yet — a random ${size}-question warm-up; the more you practice, the smarter this gets`,
+  sprintLastSuffix: (score, total) => ` | last ${score}/${total}`,
+  sprintIntroCount: (n) => `📝 ${n} questions in this set`,
+  sprintIntroWrong: (n) => `🔁 ${n} from your mistake notebook (due / frequently missed first)`,
+  sprintIntroWeak: (n, units) => `🎯 ${n} from weak units (${units})`,
+  sprintIntroFresh: (n) => `🌱 ${n} random across all units for freshness`,
+  sprintColdNotice:
+    '⚠️ No mistakes or stats yet, so this set is fully random. Practice some units first and the sprint will target your weak spots.',
+  startSprint: 'Start sprint',
+  resumeSprintTitle: 'Resume your sprint?',
+  sprintCompareTitle: 'Weak-unit instant feedback',
+  sprintCompareNote: 'past accuracy → this sprint',
+  sprintCompareCount: (n) => `${n} in this set`,
 
   mockNotReady:
     'This level is not complete yet, so the mock exam is unavailable. It opens once every section has questions!',
@@ -546,6 +584,7 @@ const en: Strings = {
   replayPlanTitle: (date) => `Daily Challenge ${date} (replay · unscored)`,
   reviewPlanTitle: (n) => `Mistake redo (${n} questions)`,
   mockPlanTitle: (level) => `${level} Mini Mock Exam`,
+  sprintPlanTitle: (level) => `${level} Exam Sprint`,
 }
 
 const STR: Record<UiLang, Strings> = { zh, en }

@@ -23,7 +23,7 @@ export interface SessionItem {
   passage?: PassageRef
 }
 
-export type SessionMode = 'drill' | 'mock' | 'review' | 'daily' | 'kaiwa'
+export type SessionMode = 'drill' | 'mock' | 'review' | 'daily' | 'kaiwa' | 'sprint'
 
 export interface SessionPlan {
   mode: SessionMode
@@ -50,10 +50,12 @@ export interface ItemRecord {
  * （不存 seed：抽題/洗牌邏輯改版也不會壞掉舊快照）。
  */
 export interface PendingSession {
-  kind: 'mock' | 'drill'
+  kind: 'mock' | 'drill' | 'sprint'
   level: Level
   /** drill 快照的來源單元 */
   unitId?: string
+  /** sprint：開卷當下弱點單元的歷史基準（結果頁「歷史 → 本次」對比用） */
+  sprintWeak?: { unitId: string; attempted: number; correct: number }[]
   /** 卷面題目 id（順序＝卷面順序） */
   questionIds: string[]
   records: (ItemRecord | null)[]
@@ -84,6 +86,9 @@ export function rebuildPendingPlan(
   }
   if (snap.kind === 'mock') {
     return { mode: 'mock', title: t().mockPlanTitle(snap.level.toUpperCase()), items, timeLimitSec: snap.timeLimitSec }
+  }
+  if (snap.kind === 'sprint') {
+    return { mode: 'sprint', title: t().sprintPlanTitle(snap.level.toUpperCase()), items }
   }
   const unit = snap.unitId ? unitById[snap.unitId] : undefined
   if (!unit) return null
@@ -163,6 +168,120 @@ export function dailyPlan(questionsByUnit: Record<string, JlptQuestion[]>, dateK
   pool.sort((a, b) => a.question.id.localeCompare(b.question.id))
   const items = seededShuffle(pool, `daily-${dateKey}`).slice(0, DAILY_SIZE)
   return { mode: 'daily', title: t().dailyPlanTitle(dateKey), items }
+}
+
+/* ==================== 考前衝刺（sprint） ==================== */
+
+export const SPRINT_SIZE = 30
+/** 錯題／弱點單元各佔 ~40%，其餘全單元隨機保鮮 ~20% */
+export const SPRINT_WRONG_TARGET = Math.round(SPRINT_SIZE * 0.4)
+export const SPRINT_WEAK_TARGET = Math.round(SPRINT_SIZE * 0.4)
+/** 弱點單元門檻：作答 ≥3 題才有統計意義；取答對率最低的至多 5 個單元 */
+export const SPRINT_WEAK_MIN_ATTEMPTED = 3
+export const SPRINT_WEAK_UNITS_MAX = 5
+
+/** progress.WrongEntry 的結構子集（避免 lib → store 的反向依賴） */
+export interface SprintWrongInfo {
+  count: number
+  nextDue: string
+  cleared: boolean
+}
+
+export interface SprintMakeup {
+  /** 各來源實際題數（遞補後） */
+  fromWrong: number
+  fromWeak: number
+  fromFresh: number
+  /** 本卷鎖定的弱點單元（答對率最低的 3~5 個） */
+  weakUnitIds: string[]
+  /** 全無錯題與弱點資料 → 整卷隨機（入口/卷首要提示） */
+  coldStart: boolean
+}
+
+/** 該級的弱點單元 id（LevelHome 入口卡與 sprintPlan 共用同一套判定） */
+export function sprintWeakUnitIds(
+  level: Level,
+  unitStats: Record<string, { attempted: number; correct: number }>,
+  questionsByUnit: Record<string, JlptQuestion[]>,
+): string[] {
+  const acc = (uid: string) => unitStats[uid].correct / unitStats[uid].attempted
+  return Object.keys(unitStats)
+    .filter(
+      (uid) =>
+        uid.startsWith(`${level}-`) &&
+        Boolean(questionsByUnit[uid]?.length) &&
+        unitStats[uid].attempted >= SPRINT_WEAK_MIN_ATTEMPTED,
+    )
+    .sort((a, b) => acc(a) - acc(b) || unitStats[b].attempted - unitStats[a].attempted || a.localeCompare(b))
+    .slice(0, SPRINT_WEAK_UNITS_MAX)
+}
+
+/**
+ * 考前衝刺組卷（30 題）：
+ *   A. 錯題本 ~40%——到期優先，其次錯次數多者（確定性排序，不用 rng）
+ *   B. 弱點單元 ~40%——答對率最低的 3~5 個單元抽「沒做錯過的新題」，不足再遞補做過的
+ *   C. 全單元隨機保鮮 ~20%——並吸收 A/B 的缺額，補滿 30（題庫不足就全上）
+ * 抽選與最終題序都走 seeded rng：同 seed 同卷（測試釘確定性）。
+ */
+export function sprintPlan(
+  level: Level,
+  questionsByUnit: Record<string, JlptQuestion[]>,
+  wrong: Record<string, SprintWrongInfo>,
+  unitStats: Record<string, { attempted: number; correct: number }>,
+  seed: string,
+  today: string,
+): { plan: SessionPlan; makeup: SprintMakeup } | null {
+  const pool = allItems(questionsByUnit).filter((it) => it.unitId.startsWith(`${level}-`))
+  if (pool.length === 0) return null
+  const byId = new Map(pool.map((it) => [it.question.id, it]))
+  const picked = new Map<string, SessionItem>()
+
+  // A. 錯題：到期在前 → 錯次多在前 → 到期日近在前 → id（穩定 tie-break）
+  const wrongIds = Object.keys(wrong)
+    .filter((id) => byId.has(id) && !wrong[id].cleared)
+    .sort((a, b) => {
+      const ea = wrong[a]
+      const eb = wrong[b]
+      const dueA = ea.nextDue <= today ? 0 : 1
+      const dueB = eb.nextDue <= today ? 0 : 1
+      return dueA - dueB || eb.count - ea.count || ea.nextDue.localeCompare(eb.nextDue) || a.localeCompare(b)
+    })
+  for (const id of wrongIds.slice(0, SPRINT_WRONG_TARGET)) picked.set(id, byId.get(id)!)
+  const fromWrong = picked.size
+
+  // B. 弱點單元：新題（沒進過錯題本）優先，不足再遞補該單元做過的題
+  const weakUnitIds = sprintWeakUnitIds(level, unitStats, questionsByUnit)
+  const weakSet = new Set(weakUnitIds)
+  const weakFresh: SessionItem[] = []
+  const weakSeen: SessionItem[] = []
+  for (const it of pool) {
+    if (!weakSet.has(it.unitId) || picked.has(it.question.id)) continue
+    ;(wrong[it.question.id] ? weakSeen : weakFresh).push(it)
+  }
+  let fromWeak = 0
+  for (const it of [...seededShuffle(weakFresh, `${seed}-weak`), ...seededShuffle(weakSeen, `${seed}-weak2`)]) {
+    if (fromWeak >= SPRINT_WEAK_TARGET) break
+    picked.set(it.question.id, it)
+    fromWeak++
+  }
+
+  // C. 隨機保鮮＋吸收 A/B 缺額，補滿 30
+  let fromFresh = 0
+  for (const it of seededShuffle(pool.filter((x) => !picked.has(x.question.id)), `${seed}-fresh`)) {
+    if (picked.size >= SPRINT_SIZE) break
+    picked.set(it.question.id, it)
+    fromFresh++
+  }
+
+  const items = seededShuffle([...picked.values()], `${seed}-order`)
+  const makeup: SprintMakeup = {
+    fromWrong,
+    fromWeak,
+    fromFresh,
+    weakUnitIds,
+    coldStart: fromWrong === 0 && fromWeak === 0,
+  }
+  return { plan: { mode: 'sprint', title: t().sprintPlanTitle(level.toUpperCase()), items }, makeup }
 }
 
 /** 錯題本重刷：由到期錯題 id 組卷（上限 20 題） */

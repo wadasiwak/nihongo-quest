@@ -1,6 +1,6 @@
 /**
  * View state + URL hash 同步（qianshi 模式）。
- * hash 格式：#n3 / #n3/vocab-kanji / #n3/mock / #kaiwa / #kaiwa/tour-airport /
+ * hash 格式：#n3 / #n3/vocab-kanji / #n3/mock / #n3/sprint / #kaiwa / #kaiwa/tour-airport /
  *           #cards/n5 / #wrong / #stats / #daily
  * hashToView 嚴格驗證：level 枚舉、unitId 查 registry、sceneId 查內容索引，不合法一律回 home。
  */
@@ -14,6 +14,7 @@ export type View =
   | { name: 'level'; level: Level }
   | { name: 'drill'; unitId: string }
   | { name: 'mock'; level: Level }
+  | { name: 'sprint'; level: Level }
   | { name: 'kaiwa' }
   | { name: 'scene'; sceneId: string }
   | { name: 'cards'; level: Level }
@@ -30,6 +31,7 @@ export function viewToHash(v: View): string {
       return u ? `#${u.level}/${u.section}-${u.slug}` : ''
     }
     case 'mock': return `#${v.level}/mock`
+    case 'sprint': return `#${v.level}/sprint`
     case 'kaiwa': return '#kaiwa'
     case 'scene': return `#kaiwa/${v.sceneId}`
     case 'cards': return `#cards/${v.level}`
@@ -57,6 +59,7 @@ export function hashToView(hash: string): View {
     if (a === 'kaiwa' && sceneById[b]) return { name: 'scene', sceneId: b }
     if (a === 'cards' && isLevel(b)) return { name: 'cards', level: b }
     if (isLevel(a) && b === 'mock') return { name: 'mock', level: a }
+    if (isLevel(a) && b === 'sprint') return { name: 'sprint', level: a }
     if (isLevel(a) && unitById[`${a}-${b}`]) return { name: 'drill', unitId: `${a}-${b}` }
   }
   return { name: 'home' }

@@ -4,7 +4,7 @@
  * - mock：不回饋、線性作答、倒數計時、交卷（時間到自動交卷），結束渲染 MockResult。
  * 每題的顯示 permutation 存進 ItemRecord，mock 交卷回顧才對得上高亮。
  */
-import { useEffect, useRef, useState } from 'react'
+import { useEffect, useRef, useState, type ReactNode } from 'react'
 import type { Level } from '../../content/types'
 import type { ItemRecord, SessionItem, SessionPlan } from '../../lib/session'
 import { scoreMock, type MockResultSummary } from '../../lib/score'
@@ -52,6 +52,8 @@ export interface QuizSessionProps {
   onSnapshot?: (s: SnapshotState) => void
   /** 完成（交卷/做完）時清掉快照 */
   onClearSnapshot?: () => void
+  /** 非 mock 模式的自訂結束畫面（sprint 用）——不傳走預設 SessionResult */
+  renderResult?: (records: (ItemRecord | null)[]) => ReactNode
 }
 
 /** 從 unitId 前 2 字推題目所屬級別；推不出用 fallback ?? 'n3' */
@@ -72,7 +74,7 @@ function passageRun(items: SessionItem[], idx: number): { x: number; y: number }
   return { x: idx - start + 1, y: end - start + 1 }
 }
 
-export function QuizSession({ plan, level, onExit, onReshuffle, resume, onSnapshot, onClearSnapshot }: QuizSessionProps) {
+export function QuizSession({ plan, level, onExit, onReshuffle, resume, onSnapshot, onClearSnapshot, renderResult }: QuizSessionProps) {
   const items = plan.items
   const isMock = plan.mode === 'mock'
 
@@ -268,6 +270,7 @@ export function QuizSession({ plan, level, onExit, onReshuffle, resume, onSnapsh
         />
       )
     }
+    if (renderResult) return <>{renderResult(records)}</>
     return <SessionResult plan={plan} records={records} onExit={onExit} />
   }
 

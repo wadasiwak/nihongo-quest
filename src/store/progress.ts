@@ -37,15 +37,22 @@ interface ProgressState {
   /** 中斷續做快照：模擬考每級一格、單元練習共一格（v2 新增） */
   pendingMocks: Partial<Record<Level, PendingSession>>
   pendingDrill: PendingSession | null
+  /** 考前衝刺快照：自己一格（不佔 drill 槽，衝刺與單元練習可同時掛著）（v3 新增） */
+  pendingSprint: PendingSession | null
+  /** 各級最近一次衝刺成績（LevelHome 入口卡顯示）（v3 新增） */
+  sprintLast: Partial<Record<Level, { score: number; total: number; date: string }>>
 
   recordAnswer: (unitId: string, questionId: string, correct: boolean) => void
   recordMock: (level: Level, score: number) => void
   recordDaily: (dateKey: string, score: number, total: number) => void
+  recordSprint: (level: Level, score: number, total: number) => void
   rateCard: (cardId: string, rating: Rating) => void
   savePendingMock: (level: Level, snap: PendingSession) => void
   clearPendingMock: (level: Level) => void
   savePendingDrill: (snap: PendingSession) => void
   clearPendingDrill: () => void
+  savePendingSprint: (snap: PendingSession) => void
+  clearPendingSprint: () => void
   updateSettings: (patch: Partial<Settings>) => void
   importData: (json: string) => boolean
 }
@@ -63,6 +70,8 @@ export const useProgress = create<ProgressState>()(
       settings: { ttsRate: null, showFurigana: true, showTranslation: true },
       pendingMocks: {},
       pendingDrill: null,
+      pendingSprint: null,
+      sprintLast: {},
 
       recordAnswer: (unitId, questionId, correct) => {
         const today = todayKey()
@@ -116,6 +125,10 @@ export const useProgress = create<ProgressState>()(
         }
       },
 
+      /** 衝刺結果一律覆寫成「最近一次」（非最佳——衝刺看的是當下狀態） */
+      recordSprint: (level, score, total) =>
+        set({ sprintLast: { ...get().sprintLast, [level]: { score, total, date: todayKey() } } }),
+
       rateCard: (cardId, rating) => {
         const today = todayKey()
         const { srs } = get()
@@ -136,6 +149,10 @@ export const useProgress = create<ProgressState>()(
 
       clearPendingDrill: () => set({ pendingDrill: null }),
 
+      savePendingSprint: (snap) => set({ pendingSprint: snap }),
+
+      clearPendingSprint: () => set({ pendingSprint: null }),
+
       updateSettings: (patch) => set({ settings: { ...get().settings, ...patch } }),
 
       importData: (json) => {
@@ -151,6 +168,8 @@ export const useProgress = create<ProgressState>()(
             settings: { ...get().settings, ...(data.settings ?? {}) },
             pendingMocks: data.pendingMocks ?? {},
             pendingDrill: data.pendingDrill ?? null,
+            pendingSprint: data.pendingSprint ?? null,
+            sprintLast: data.sprintLast ?? {},
           })
           return true
         } catch {
@@ -160,7 +179,7 @@ export const useProgress = create<ProgressState>()(
     }),
     {
       name: 'nihongo-quest-save-v1',
-      version: 2,
+      version: 3,
       partialize: (s) => ({
         wrong: s.wrong,
         unitStats: s.unitStats,
@@ -170,11 +189,14 @@ export const useProgress = create<ProgressState>()(
         settings: s.settings,
         pendingMocks: s.pendingMocks,
         pendingDrill: s.pendingDrill,
+        pendingSprint: s.pendingSprint,
+        sprintLast: s.sprintLast,
       }),
-      /** v1 → v2：補上中斷續做快照欄位（既有進度原樣保留） */
+      /** v1 → v2 補中斷續做快照欄位；v2 → v3 補考前衝刺欄位（既有進度原樣保留） */
       migrate: (persisted, version) => {
         const s = persisted as Record<string, unknown>
-        if (version < 2) return { ...s, pendingMocks: {}, pendingDrill: null } as ProgressState
+        if (version < 2) Object.assign(s, { pendingMocks: {}, pendingDrill: null })
+        if (version < 3) Object.assign(s, { pendingSprint: null, sprintLast: {} })
         return s as unknown as ProgressState
       },
     },
@@ -196,6 +218,8 @@ export function exportData(): string {
       settings: s.settings,
       pendingMocks: s.pendingMocks,
       pendingDrill: s.pendingDrill,
+      pendingSprint: s.pendingSprint,
+      sprintLast: s.sprintLast,
     },
     null,
     2,

@@ -3,12 +3,14 @@ import { useView } from './state'
 import { useT } from './lib/i18n'
 import { unitById } from './content/registry'
 import { questionsByUnit } from './content/jlpt'
-import { dailyPlan, drillPlan, rebuildPendingPlan } from './lib/session'
+import { dailyPlan, drillPlan, rebuildPendingPlan, sprintPlan } from './lib/session'
+import type { Level } from './content/types'
 import { todayKey } from './lib/rng'
 import { useProgress } from './store/progress'
 import { Home } from './components/Home'
 import { LevelHome } from './components/jlpt/LevelHome'
 import { MockExam } from './components/jlpt/MockExam'
+import { SprintView } from './components/jlpt/SprintView'
 import { QuizSession } from './components/quiz/QuizSession'
 import { KaiwaHome } from './components/kaiwa/KaiwaHome'
 import { SceneView } from './components/kaiwa/SceneView'
@@ -20,6 +22,15 @@ import { DeckHome } from './components/cards/DeckHome'
 // e2e hook：驗每日一練 seed 確定性（題目 id 序列，與選項顯示 shuffle 無關）
 ;(window as unknown as { __nqDailyIds?: () => string[] }).__nqDailyIds = () =>
   dailyPlan(questionsByUnit, todayKey())?.items.map((i) => i.question.id) ?? []
+
+// e2e hook：驗考前衝刺組卷（同 seed 同卷、來源比例）——讀當前 persist 的錯題/單元統計
+;(window as unknown as {
+  __nqSprintIds?: (level: Level, seed: string) => { ids: string[]; makeup: unknown } | null
+}).__nqSprintIds = (level, seed) => {
+  const { wrong, unitStats } = useProgress.getState()
+  const built = sprintPlan(level, questionsByUnit, wrong, unitStats, seed, todayKey())
+  return built ? { ids: built.plan.items.map((i) => i.question.id), makeup: built.makeup } : null
+}
 
 function Drill({ unitId }: { unitId: string }) {
   const setView = useView((s) => s.setView)
@@ -95,6 +106,7 @@ export default function App() {
       {view.name === 'level' && <LevelHome level={view.level} />}
       {view.name === 'drill' && <Drill key={view.unitId} unitId={view.unitId} />}
       {view.name === 'mock' && <MockExam key={view.level} level={view.level} />}
+      {view.name === 'sprint' && <SprintView key={view.level} level={view.level} />}
       {view.name === 'kaiwa' && <WithHomeBar><KaiwaHome /></WithHomeBar>}
       {view.name === 'scene' && <SceneView sceneId={view.sceneId} />}
       {view.name === 'cards' && <WithHomeBar><DeckHome /></WithHomeBar>}

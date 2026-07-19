@@ -414,6 +414,31 @@
   line-height: 1.6;
 }
 
+/* ---- 考前衝刺結果：弱點單元「歷史 → 本次」對比 ---- */
+.sprint-compare {
+  padding: 14px 16px 16px;
+  margin-bottom: 4px;
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+}
+.sprint-compare h3 { margin: 0 0 2px; font-size: 15px; }
+.sprint-compare-note { margin: 0 0 10px; color: var(--text-dim); font-size: 12px; }
+.sprint-cmp-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 12px;
+  padding: 7px 0;
+  border-top: 1px solid var(--border);
+  font-size: 14px;
+}
+.sprint-cmp-name { min-width: 0; }
+.sprint-cmp-nums { flex: none; white-space: nowrap; }
+.sprint-cmp-nums small { color: var(--text-dim); }
+.sprint-cmp-up { color: var(--qz-ok); }
+.sprint-cmp-down { color: var(--qz-bad); }
+
 /* ---- 桌機微調（手機優先）---- */
 @media (min-width: 640px) {
   .qz { padding-top: 8px; }

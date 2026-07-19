@@ -21,8 +21,10 @@ interface Row {
 export function ResumeBanner({ level }: { level?: Level }) {
   const pendingMocks = useProgress((s) => s.pendingMocks)
   const pendingDrill = useProgress((s) => s.pendingDrill)
+  const pendingSprint = useProgress((s) => s.pendingSprint)
   const clearPendingMock = useProgress((s) => s.clearPendingMock)
   const clearPendingDrill = useProgress((s) => s.clearPendingDrill)
+  const clearPendingSprint = useProgress((s) => s.clearPendingSprint)
   const setView = useView((s) => s.setView)
   const T = useT()
 
@@ -53,6 +55,16 @@ export function ResumeBanner({ level }: { level?: Level }) {
       )}`,
       go: () => setView({ name: 'drill', unitId: pendingDrill.unitId! }),
       discard: clearPendingDrill,
+    })
+  }
+  if (pendingSprint && (!level || pendingSprint.level === level)) {
+    const l = pendingSprint.level
+    rows.push({
+      key: 'sprint',
+      title: T.resumeSprintTitle,
+      meta: `${LEVEL_LABEL[l]}・${T.resumeMeta(pendingSprint.idx + 1, pendingSprint.questionIds.length)}`,
+      go: () => setView({ name: 'sprint', level: l }),
+      discard: clearPendingSprint,
     })
   }
 

@@ -1,7 +1,9 @@
-/** 級別頁——列出該級已有內容的單元（空單元隱藏），與迷你模擬考入口。 */
+/** 級別頁——列出該級已有內容的單元（空單元隱藏），與考前衝刺、迷你模擬考入口。 */
+import { useMemo } from 'react'
 import type { Level, Section } from '../../content/types'
 import { LEVEL_LABEL, SECTION_LABEL, units } from '../../content/registry'
 import { questionsByUnit } from '../../content/jlpt'
+import { allItems, sprintWeakUnitIds, SPRINT_SIZE } from '../../lib/session'
 import { useProgress } from '../../store/progress'
 import { useView } from '../../state'
 import { sectionLabel, unitGoal, unitTitle, useT } from '../../lib/i18n'
@@ -12,13 +14,29 @@ const SECTIONS: Section[] = ['vocab', 'grammar', 'reading', 'listening']
 
 export function LevelHome({ level }: { level: Level }) {
   const setView = useView((s) => s.setView)
-  const { unitStats, mockBest } = useProgress()
+  const { unitStats, mockBest, wrong, sprintLast } = useProgress()
   const T = useT()
 
   const levelUnits = units.filter((u) => u.level === level)
   const filled = levelUnits.filter((u) => questionsByUnit[u.unitId]?.length)
   const mockReady = SECTIONS.every((s) => filled.some((u) => u.section === s))
   const best = mockBest[level]
+
+  // 衝刺入口卡素材：本級未克服錯題數＋弱點單元數（與 sprintPlan 同一套判定）
+  const levelQuestionIds = useMemo(
+    () =>
+      new Set(
+        allItems(questionsByUnit)
+          .filter((it) => it.unitId.startsWith(`${level}-`))
+          .map((it) => it.question.id),
+      ),
+    [level],
+  )
+  const sprintWrongCount = Object.entries(wrong).filter(
+    ([id, e]) => !e.cleared && levelQuestionIds.has(id),
+  ).length
+  const sprintWeakCount = sprintWeakUnitIds(level, unitStats, questionsByUnit).length
+  const lastSprint = sprintLast[level]
 
   return (
     <div className="level-home">
@@ -30,6 +48,21 @@ export function LevelHome({ level }: { level: Level }) {
       <ResumeBanner level={level} />
 
       {filled.length === 0 && <p className="empty-note">{T.levelEmpty}</p>}
+
+      {filled.length > 0 && (
+        <section>
+          <h2>{T.sprintSection}</h2>
+          <button className="mock-entry sprint-entry" onClick={() => setView({ name: 'sprint', level })}>
+            <span className="unit-title">🔥 {T.sprintTitle(LEVEL_LABEL[level])}</span>
+            <span className="unit-meta">
+              {sprintWrongCount > 0 || sprintWeakCount > 0
+                ? T.sprintEntryMeta(sprintWrongCount, sprintWeakCount, SPRINT_SIZE)
+                : T.sprintEntryCold(SPRINT_SIZE)}
+              {lastSprint && T.sprintLastSuffix(lastSprint.score, lastSprint.total)}
+            </span>
+          </button>
+        </section>
+      )}
 
       {SECTIONS.map((section) => {
         const sectionUnits = filled.filter((u) => u.section === section)

@@ -18,3 +18,8 @@
 .unit-goal { font-size: 12px; color: var(--text-dim); }
 .unit-meta { font-size: 12px; color: var(--accent); }
 .empty-note { color: var(--text-dim); font-size: 14px; }
+
+/* 考前衝刺入口卡：暖色框強調（色值對齊 quiz.css 的 --qz-warn） */
+.sprint-entry { border-color: rgba(234, 181, 78, 0.5); }
+.sprint-entry:hover { border-color: #eab54e; }
+.sprint-entry .unit-meta { color: #eab54e; }

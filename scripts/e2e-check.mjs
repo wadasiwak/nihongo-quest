@@ -209,6 +209,111 @@ try {
     check(body.includes('對話'), '場景頁已載入（有「對話」分頁）')
     await page.close()
   }
+  // ---- 9. 考前衝刺：種假錯題＋弱點 unitStats → 組卷含錯題、比例確定、走完看結果頁 ----
+  {
+    const page = await browser.newPage()
+    await page.addInitScript(() => { window.__ttsForceNoVoice = true })
+    // 種子資料：15 題 n5 漢字錯題（全部到期）＋ 兩弱一強的單元統計（存 v2 順便驗 migrate v3）
+    const { questions: kanjiQs } = await import(new URL('../src/content/jlpt/n5/vocab-kanji.ts', import.meta.url).href)
+    const wrongSeedIds = kanjiQs.slice(0, 15).map((q) => q.id)
+    const seededSave = {
+      state: {
+        wrong: Object.fromEntries(wrongSeedIds.map((id, i) => [
+          id,
+          { count: 3 - (i % 3), lastWrongAt: '2026-07-01', nextDue: '2026-07-02', streak: 0, cleared: false },
+        ])),
+        unitStats: {
+          'n5-vocab-kanji': { attempted: 20, correct: 6 },
+          'n5-grammar-keishiki': { attempted: 10, correct: 3 },
+          'n5-vocab-hyoki': { attempted: 12, correct: 11 },
+        },
+      },
+      version: 2,
+    }
+    // 只種一次（用 marker 防 reload 重跑 init script 蓋掉後續寫入的 sprintLast）
+    await page.addInitScript((s) => {
+      if (!localStorage.getItem('nq-e2e-sprint-seeded')) {
+        localStorage.setItem('nihongo-quest-save-v1', JSON.stringify(s))
+        localStorage.setItem('nq-e2e-sprint-seeded', '1')
+      }
+    }, seededSave)
+
+    // 9a. LevelHome 入口卡：顯示錯題數／弱點單元數
+    await page.goto(`${BASE_URL}#n5`)
+    await page.waitForTimeout(500)
+    let body = await page.evaluate(() => document.body.innerText)
+    check(body.includes('考前衝刺'), 'LevelHome 出現「考前衝刺」入口卡')
+    check(body.includes('15 個錯題') && body.includes('3 個弱點單元'), `入口卡顯示錯題/弱點統計（實得含「${body.match(/根據你的[^\n]*/)?.[0] ?? '無'}」）`)
+    await page.screenshot({ path: `${shotDir}sprint-entry.png`, fullPage: true })
+
+    // 9b. 組卷確定性＋比例（同 seed 同卷；錯題 12、含弱點單元、共 30 不重複）
+    const [s1, s2] = await page.evaluate(([seed]) => [
+      window.__nqSprintIds?.('n5', seed) ?? null,
+      window.__nqSprintIds?.('n5', seed) ?? null,
+    ], ['e2e-sprint-seed'])
+    check(Boolean(s1) && JSON.stringify(s1.ids) === JSON.stringify(s2.ids), '同 seed 兩次組卷題目序列相同（確定性）')
+    check(s1.ids.length === 30 && new Set(s1.ids).size === 30, `衝刺卷 30 題且不重複（實得 ${s1.ids.length}）`)
+    const wrongSet = new Set(wrongSeedIds)
+    const overlap = s1.ids.filter((id) => wrongSet.has(id)).length
+    check(s1.makeup.fromWrong === 12 && overlap >= 12, `錯題佔額 12（fromWrong=${s1.makeup.fromWrong}、卷內含種子錯題 ${overlap}）`)
+    check(
+      s1.makeup.weakUnitIds.includes('n5-vocab-kanji') && s1.makeup.weakUnitIds.includes('n5-grammar-keishiki'),
+      `弱點單元鎖定低答對率單元（實得 ${s1.makeup.weakUnitIds.join(',')}）`,
+    )
+    check(s1.makeup.fromWeak === 12 && s1.makeup.fromFresh === 6, `比例 12/12/6（實得 ${s1.makeup.fromWrong}/${s1.makeup.fromWeak}/${s1.makeup.fromFresh}）`)
+
+    // 9c. 走真實 UI：入口卡 → 卷首說明 → 作答 30 題到結果頁
+    await page.click('.sprint-entry')
+    await page.waitForTimeout(400)
+    body = await page.evaluate(() => document.body.innerText)
+    check(body.includes('錯題本優先') && body.includes('弱點單元'), '衝刺卷首顯示組卷來源明細')
+    await page.screenshot({ path: `${shotDir}sprint-intro.png`, fullPage: true })
+    await page.click('button:has-text("開始衝刺")')
+    await page.waitForSelector('[data-qid]')
+    await page.screenshot({ path: `${shotDir}sprint-session.png`, fullPage: true })
+    for (let i = 0; i < 30; i++) {
+      await page.waitForSelector('[data-qid]')
+      // 依題型作答：choice/listening 點第一個選項；order 依顯示序排滿片段
+      if (await page.locator('.qz-opt').count()) {
+        await page.locator('.qz-opt').first().click()
+      } else {
+        while (await page.locator('.qz-seg:not(:disabled)').count()) {
+          await page.locator('.qz-seg:not(:disabled)').first().click()
+        }
+      }
+      await page.waitForSelector('.qz-explain')
+      if (i === 0) {
+        // 第 1 題答完：sprint 快照寫入自己的槽（kind=sprint、卷面含種子錯題）
+        const snap = await page.evaluate(() => {
+          const s = JSON.parse(localStorage.getItem('nihongo-quest-save-v1') ?? '{}')
+          return s?.state?.pendingSprint ?? null
+        })
+        check(
+          Boolean(snap) && snap.kind === 'sprint' && snap.questionIds.filter((id) => wrongSet.has(id)).length >= 12,
+          'sprint 進行中快照寫入 pendingSprint（kind=sprint、卷面含 ≥12 題種子錯題）',
+        )
+      }
+      await page.click(`button:has-text("${i < 29 ? '下一題' : '完成'}")`)
+      await page.waitForTimeout(60)
+    }
+    // 9d. 結果頁：弱點單元「歷史 → 本次」對比＋完成後快照清除、sprintLast 記錄
+    await page.waitForTimeout(400)
+    body = await page.evaluate(() => document.body.innerText)
+    check(body.includes('弱點單元即時回饋') && /\d+% →/.test(body), '結果頁顯示弱點單元「歷史% → 本次%」對比')
+    await page.screenshot({ path: `${shotDir}sprint-result.png`, fullPage: true })
+    const after = await page.evaluate(() => {
+      const s = JSON.parse(localStorage.getItem('nihongo-quest-save-v1') ?? '{}')
+      return { pending: s?.state?.pendingSprint ?? null, last: s?.state?.sprintLast?.n5 ?? null }
+    })
+    check(after.pending === null, '衝刺完成後 pendingSprint 快照已清除')
+    check(Boolean(after.last) && after.last.total === 30, `sprintLast 記錄本次成績（實得 ${JSON.stringify(after.last)}）`)
+    // 9e. 回 LevelHome：入口卡顯示上次衝刺成績
+    await page.goto(`${BASE_URL}#n5`)
+    await page.waitForTimeout(400)
+    body = await page.evaluate(() => document.body.innerText)
+    check(body.includes(`上次 ${after.last.score}/30`), 'LevelHome 入口卡顯示上次衝刺成績')
+    await page.close()
+  }
 } catch (e) {
   fails.push(`未捕捉錯誤：${e.message}`)
 } finally {
