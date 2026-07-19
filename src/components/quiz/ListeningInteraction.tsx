@@ -19,6 +19,8 @@ export interface ListeningInteractionProps {
   mock: boolean
   revealed: boolean
   chosenDisplay: number | null
+  /** 中斷續做：已作答題的 permutation 從紀錄帶回，確保選取高亮對得上 */
+  savedOrder?: number[]
   disabled?: boolean
   onAnswer: (ans: AnswerDetail) => void
 }
@@ -29,11 +31,15 @@ export function ListeningInteraction({
   mock,
   revealed,
   chosenDisplay,
+  savedOrder,
   disabled,
   onAnswer,
 }: ListeningInteractionProps) {
   // eslint-disable-next-line react-hooks/exhaustive-deps
-  const order = useMemo(() => makeOrder(question.options.length), [question.id])
+  const order = useMemo(
+    () => (savedOrder && savedOrder.length === question.options.length ? savedOrder : makeOrder(question.options.length)),
+    [question.id],
+  )
   const correctDisplay = order.indexOf(question.answerIndex)
   const T = useT()
   const [degraded, setDegraded] = useState(() => !ttsSupported())

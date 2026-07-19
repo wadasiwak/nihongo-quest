@@ -36,6 +36,17 @@
 .entry-title { font-size: 15px; font-weight: 600; }
 .entry-meta { font-size: 12px; color: var(--text-dim); }
 
+/* 會話場景直達 chip */
+.kaiwa-chip-groups { display: flex; flex-direction: column; gap: 8px; margin-top: 10px; }
+.kaiwa-chip-group { display: flex; align-items: baseline; gap: 10px; }
+.kaiwa-chip-label { font-size: 12px; color: var(--text-dim); flex-shrink: 0; min-width: 4.5em; }
+.kaiwa-chips { display: flex; flex-wrap: wrap; gap: 6px; }
+.kaiwa-chip {
+  background: var(--cell); border: 1px solid var(--border); border-radius: 99px;
+  color: var(--text); font-size: 13px; padding: 5px 12px; cursor: pointer;
+}
+.kaiwa-chip:hover { background: var(--cell-hover); border-color: var(--accent-dim); }
+
 .home-footer { margin-top: 16px; border-top: 1px solid var(--border); padding-top: 14px; }
 .link-btn { background: none; border: none; color: var(--accent); cursor: pointer; font-size: 14px; padding: 0; }
 .fine-print { color: var(--text-dim); font-size: 12px; margin: 8px 0 0; }

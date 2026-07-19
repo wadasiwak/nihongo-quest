@@ -5,6 +5,7 @@ import { questionsByUnit } from '../../content/jlpt'
 import { useProgress } from '../../store/progress'
 import { useView } from '../../state'
 import { sectionLabel, unitGoal, unitTitle, useT } from '../../lib/i18n'
+import { ResumeBanner } from '../common/ResumeBanner'
 import './levelhome.css'
 
 const SECTIONS: Section[] = ['vocab', 'grammar', 'reading', 'listening']
@@ -25,6 +26,8 @@ export function LevelHome({ level }: { level: Level }) {
         <button className="back-btn" onClick={() => setView({ name: 'home' })}>{T.backHome}</button>
         <h1>{T.levelPractice(LEVEL_LABEL[level])}</h1>
       </header>
+
+      <ResumeBanner level={level} />
 
       {filled.length === 0 && <p className="empty-note">{T.levelEmpty}</p>}
 

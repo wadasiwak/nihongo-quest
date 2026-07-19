@@ -2,7 +2,7 @@
  * SessionPlan 組卷——drill / review / daily / kaiwa 共用（mock 在 score.ts）。
  * 題組（PassageSet）攤平成連續小題、共享 passage 引用；引擎只看 SessionItem。
  */
-import type { ChoiceQuestion, JlptQuestion, ListeningQuestion, OrderQuestion } from '../content/types'
+import type { ChoiceQuestion, JlptQuestion, Level, ListeningQuestion, OrderQuestion } from '../content/types'
 import { unitById } from '../content/registry'
 import { t, unitTitle } from './i18n'
 import { seededShuffle } from './rng'
@@ -31,6 +31,63 @@ export interface SessionPlan {
   items: SessionItem[]
   /** mock 才有 */
   timeLimitSec?: number
+}
+
+/** 每題作答紀錄（含顯示 permutation——回顧高亮與中斷續做還原都靠它） */
+export interface ItemRecord {
+  questionId: string
+  correct: boolean
+  /** choice/listening：顯示 permutation（display 位置 → 原始選項 index） */
+  order?: number[]
+  /** choice/listening：使用者選的顯示位置 */
+  chosenDisplay?: number
+  /** order 題：使用者排入的片段原始 index 序列 */
+  arranged?: number[]
+}
+
+/**
+ * 中斷續做快照——存「題目 id 列表」精確重建卷面
+ * （不存 seed：抽題/洗牌邏輯改版也不會壞掉舊快照）。
+ */
+export interface PendingSession {
+  kind: 'mock' | 'drill'
+  level: Level
+  /** drill 快照的來源單元 */
+  unitId?: string
+  /** 卷面題目 id（順序＝卷面順序） */
+  questionIds: string[]
+  records: (ItemRecord | null)[]
+  idx: number
+  timeLimitSec?: number
+  /** mock：快照當下的剩餘秒數（續做時從這裡凍結繼續） */
+  secondsLeft?: number
+  /** 快照時刻（ISO） */
+  savedAt: string
+}
+
+/** 由快照重建 SessionPlan；題目已下架或紀錄對不上 → null（快照作廢） */
+export function rebuildPendingPlan(
+  snap: PendingSession,
+  questionsByUnit: Record<string, JlptQuestion[]>,
+): SessionPlan | null {
+  if (!Array.isArray(snap.questionIds) || snap.questionIds.length === 0) return null
+  if (!Array.isArray(snap.records) || snap.records.length !== snap.questionIds.length) return null
+  if (!Number.isInteger(snap.idx) || snap.idx < 0 || snap.idx >= snap.questionIds.length) return null
+  const index = itemIndex(questionsByUnit)
+  const items: SessionItem[] = []
+  for (let i = 0; i < snap.questionIds.length; i++) {
+    const item = index.get(snap.questionIds[i])
+    if (!item) return null
+    const rec = snap.records[i]
+    if (rec && rec.questionId !== snap.questionIds[i]) return null
+    items.push(item)
+  }
+  if (snap.kind === 'mock') {
+    return { mode: 'mock', title: t().mockPlanTitle(snap.level.toUpperCase()), items, timeLimitSec: snap.timeLimitSec }
+  }
+  const unit = snap.unitId ? unitById[snap.unitId] : undefined
+  if (!unit) return null
+  return { mode: 'drill', title: `${unit.level.toUpperCase()}・${unitTitle(unit)}`, items }
 }
 
 /** Fisher–Yates（非 seed 版）：drill/kaiwa 每次進入洗一次題序 */

@@ -7,8 +7,9 @@ import { cardsByLevel } from '../content/cards'
 import { useProgress, dailyStreak, dueWrongIds } from '../store/progress'
 import { useView } from '../state'
 import { todayKey } from '../lib/rng'
-import { useLang, useT } from '../lib/i18n'
+import { sceneTitle, useLang, useT } from '../lib/i18n'
 import { SettingsPanel } from './common/SettingsPanel'
+import { ResumeBanner } from './common/ResumeBanner'
 import './home.css'
 
 export function Home() {
@@ -40,6 +41,8 @@ export function Home() {
         <h1>{T.appTitle}</h1>
         <p className="home-sub">{T.appSub}</p>
       </header>
+
+      <ResumeBanner />
 
       {hasAnyContent && (
         <button className="daily-banner" onClick={() => setView({ name: 'daily' })}>
@@ -95,6 +98,32 @@ export function Home() {
                 )}
               </span>
             </button>
+          </div>
+          {/* 場景直達 chip——觀光/商務兩組，點了直接進場景（#kaiwa/<scene>） */}
+          <div className="kaiwa-chip-groups">
+            {(['tourism', 'business'] as const).map((cat) => {
+              const group = scenes.filter((s) => s.category === cat)
+              if (group.length === 0) return null
+              return (
+                <div key={cat} className="kaiwa-chip-group">
+                  <span className="kaiwa-chip-label">
+                    {cat === 'tourism' ? T.catTourism : T.catBusiness}
+                  </span>
+                  <div className="kaiwa-chips">
+                    {group.map((s) => (
+                      <button
+                        key={s.id}
+                        type="button"
+                        className="kaiwa-chip"
+                        onClick={() => setView({ name: 'scene', sceneId: s.id })}
+                      >
+                        <span aria-hidden="true">{s.icon}</span> {sceneTitle(s.title, s.titleJa)}
+                      </button>
+                    ))}
+                  </div>
+                </div>
+              )
+            })}
           </div>
         </section>
       )}

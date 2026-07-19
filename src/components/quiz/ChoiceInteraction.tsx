@@ -35,6 +35,8 @@ export interface ChoiceInteractionProps {
   revealed: boolean
   /** 目前選取的顯示位置（引擎從紀錄帶回；未選為 null） */
   chosenDisplay: number | null
+  /** 中斷續做：已作答題的 permutation 從紀錄帶回，確保選取高亮對得上 */
+  savedOrder?: number[]
   disabled?: boolean
   onAnswer: (ans: AnswerDetail) => void
 }
@@ -44,12 +46,16 @@ export function ChoiceInteraction({
   showFurigana,
   revealed,
   chosenDisplay,
+  savedOrder,
   disabled,
   onAnswer,
 }: ChoiceInteractionProps) {
-  // 顯示時才 shuffle：per 題固定的 permutation
+  // 顯示時才 shuffle：per 題固定的 permutation（續做時用紀錄裡存的）
   // eslint-disable-next-line react-hooks/exhaustive-deps
-  const order = useMemo(() => makeOrder(question.options.length), [question.id])
+  const order = useMemo(
+    () => (savedOrder && savedOrder.length === question.options.length ? savedOrder : makeOrder(question.options.length)),
+    [question.id],
+  )
   const correctDisplay = order.indexOf(question.answerIndex)
 
   return (

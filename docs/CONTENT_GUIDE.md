@@ -57,5 +57,5 @@ cd ~/nihongo-quest && node scripts/check-content.mjs src/content/jlpt/<level>/<s
   id 必須用 registry `KAIWA_SCENE_IDS` 宣告的；對話 2~4 段×6~12 行、常用句 8~15、drills 5~10（id `${sceneId}-001` 起）。
   對話自然口語、有來有往；zh 翻譯自然繁中；含漢字的 ja 行要給 reading（全假名）。
 - 卡片檔：`src/content/cards/<level>.ts`、`export const cards: VocabCard[]`；
-  id `${level}-card-NNN`；例句原創且含該詞；zh ≤20 字；每批交付以 registry `CARDS_EXPECTED`（80）為完成線。
+  id `${level}-card-NNN`；例句原創且含該詞；zh ≤20 字；每批交付以 registry `CARDS_EXPECTED`（100，五級皆已達標並鎖定）為完成線。
 - 自驗同樣用單檔 check。

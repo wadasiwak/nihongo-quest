@@ -116,6 +116,19 @@ const zh = {
     `${score} / ${max}（答對 ${correct}/${total}，單科線 ${passLine}）`,
   mockResultDisclaimer:
     '⚠️ 本站為縮編模擬、估分僅供參考：題數為官方縮編版，估分依答對率線性換算，與正式 JLPT 成績無直接對應。',
+
+  /* 中斷續做 */
+  resumeMockTitle: '繼續上次的模擬考？',
+  resumeDrillTitle: '繼續上次的練習？',
+  resumeMeta: (i: number, n: number) => `第 ${i}/${n} 題`,
+  resumeTimeLeft: (m: number) => `剩 ${m} 分`,
+  resumeGo: '繼續',
+  resumeDiscard: '放棄',
+  resumeDiscardConfirm: '確定放棄這次未完成的進度嗎？放棄後無法復原。',
+  mockResumeNotice: (i: number, n: number) => `偵測到未完成的作答（做到第 ${i}/${n} 題），中途進度已自動保存。`,
+  continueExam: '繼續上次的作答',
+  restartExam: '重新開始（放棄上次進度）',
+  leavePauseConfirm: '要離開模擬考嗎？目前進度已保存，之後可從首頁或級別頁繼續。',
   reviewHeader: '逐題回顧',
   unanswered: '未作答',
   correctTag: '正解',
@@ -357,6 +370,18 @@ const en: Strings = {
     `${score} / ${max} (${correct}/${total} correct, section line ${passLine})`,
   mockResultDisclaimer:
     '⚠️ Scaled-down mock, estimates only: question counts are reduced from the official format and scores are converted linearly from accuracy, with no direct mapping to official JLPT results.',
+
+  resumeMockTitle: 'Resume your mock exam?',
+  resumeDrillTitle: 'Resume your practice?',
+  resumeMeta: (i, n) => `Q ${i}/${n}`,
+  resumeTimeLeft: (m) => `${m} min left`,
+  resumeGo: 'Resume',
+  resumeDiscard: 'Discard',
+  resumeDiscardConfirm: 'Discard this unfinished session? This cannot be undone.',
+  mockResumeNotice: (i, n) => `Unfinished attempt detected (at Q ${i}/${n}) — your progress was saved automatically.`,
+  continueExam: 'Resume where you left off',
+  restartExam: 'Start over (discard saved progress)',
+  leavePauseConfirm: 'Leave the mock exam? Your progress is saved — resume later from the home or level page.',
   reviewHeader: 'Question review',
   unanswered: 'Unanswered',
   correctTag: 'Correct',

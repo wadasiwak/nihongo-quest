@@ -330,6 +330,11 @@
 .qz-bar-line { position: absolute; top: 0; bottom: 0; width: 2px; background: var(--text); opacity: 0.7; }
 
 .qz-disclaimer { color: var(--qz-warn); font-size: 13px; line-height: 1.7; margin: 16px 0; }
+.qz-resume-note {
+  background: rgba(255, 193, 94, 0.12); border: 1px solid rgba(255, 193, 94, 0.4);
+  border-radius: var(--radius); color: var(--text); font-size: 14px;
+  padding: 10px 14px; margin: 12px 0;
+}
 
 /* ---- 逐題回顧 ---- */
 .qz-review-list {

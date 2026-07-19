@@ -180,8 +180,8 @@ export const KAIWA_SCENE_IDS: { tourism: string[]; business: string[] } = {
   business: ['biz-meeting', 'biz-interview', 'biz-phone', 'biz-email', 'biz-keigo', 'biz-visit'],
 }
 
-/** 單字卡每級最低完成張數（0=未收錄跳過；1~79=半吊子 ERROR） */
-export const CARDS_EXPECTED = 80
+/** 單字卡每級最低完成張數（0=未收錄跳過；1~99=半吊子 ERROR）——五級已達 100，鎖定門檻防回退 */
+export const CARDS_EXPECTED = 100
 
 export const LEVELS: Level[] = ['n5', 'n4', 'n3', 'n2', 'n1']
 

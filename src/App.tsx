@@ -3,8 +3,9 @@ import { useView } from './state'
 import { useT } from './lib/i18n'
 import { unitById } from './content/registry'
 import { questionsByUnit } from './content/jlpt'
-import { dailyPlan, drillPlan } from './lib/session'
+import { dailyPlan, drillPlan, rebuildPendingPlan } from './lib/session'
 import { todayKey } from './lib/rng'
+import { useProgress } from './store/progress'
 import { Home } from './components/Home'
 import { LevelHome } from './components/jlpt/LevelHome'
 import { MockExam } from './components/jlpt/MockExam'
@@ -22,10 +23,22 @@ import { DeckHome } from './components/cards/DeckHome'
 
 function Drill({ unitId }: { unitId: string }) {
   const setView = useView((s) => s.setView)
+  const savePendingDrill = useProgress((s) => s.savePendingDrill)
+  const clearPendingDrill = useProgress((s) => s.clearPendingDrill)
   /** +1 重產 plan（drillPlan 每次洗牌）並以 key 重掛 session */
   const [shuffleSeed, setShuffleSeed] = useState(0)
+  // 本單元的中斷續做快照——掛載時讀一次；重建失敗（內容改版）就當沒有
+  const [resumeInit] = useState(() => {
+    const snap = useProgress.getState().pendingDrill
+    if (!snap || snap.unitId !== unitId) return null
+    const rebuilt = rebuildPendingPlan(snap, questionsByUnit)
+    return rebuilt ? { snap, plan: rebuilt } : null
+  })
   // eslint-disable-next-line react-hooks/exhaustive-deps
-  const plan = useMemo(() => drillPlan(unitId, questionsByUnit), [unitId, shuffleSeed])
+  const plan = useMemo(
+    () => (shuffleSeed === 0 && resumeInit ? resumeInit.plan : drillPlan(unitId, questionsByUnit)),
+    [unitId, shuffleSeed],
+  )
   const unit = unitById[unitId]
   if (!plan || !unit) return <Home />
   return (
@@ -35,6 +48,23 @@ function Drill({ unitId }: { unitId: string }) {
       level={unit.level}
       onExit={() => setView({ name: 'level', level: unit.level })}
       onReshuffle={() => setShuffleSeed((n) => n + 1)}
+      resume={
+        shuffleSeed === 0 && resumeInit
+          ? { idx: resumeInit.snap.idx, records: resumeInit.snap.records }
+          : undefined
+      }
+      onSnapshot={(s) =>
+        savePendingDrill({
+          kind: 'drill',
+          level: unit.level,
+          unitId,
+          questionIds: plan.items.map((i) => i.question.id),
+          records: s.records,
+          idx: s.idx,
+          savedAt: new Date().toISOString(),
+        })
+      }
+      onClearSnapshot={clearPendingDrill}
     />
   )
 }
@@ -63,8 +93,8 @@ export default function App() {
     <div className="app">
       {view.name === 'home' && <Home />}
       {view.name === 'level' && <LevelHome level={view.level} />}
-      {view.name === 'drill' && <Drill unitId={view.unitId} />}
-      {view.name === 'mock' && <MockExam level={view.level} />}
+      {view.name === 'drill' && <Drill key={view.unitId} unitId={view.unitId} />}
+      {view.name === 'mock' && <MockExam key={view.level} level={view.level} />}
       {view.name === 'kaiwa' && <WithHomeBar><KaiwaHome /></WithHomeBar>}
       {view.name === 'scene' && <SceneView sceneId={view.sceneId} />}
       {view.name === 'cards' && <WithHomeBar><DeckHome /></WithHomeBar>}

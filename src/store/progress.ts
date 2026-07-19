@@ -5,6 +5,7 @@
 import { create } from 'zustand'
 import { persist } from 'zustand/middleware'
 import type { Level } from '../content/types'
+import type { PendingSession } from '../lib/session'
 import type { Rating, SrsEntry } from '../lib/srs'
 import { addDays, newEntry, review } from '../lib/srs'
 import { todayKey } from '../lib/rng'
@@ -33,11 +34,18 @@ interface ProgressState {
   dailyDone: Record<string, { score: number; total: number }>
   srs: Record<string, SrsEntry>
   settings: Settings
+  /** 中斷續做快照：模擬考每級一格、單元練習共一格（v2 新增） */
+  pendingMocks: Partial<Record<Level, PendingSession>>
+  pendingDrill: PendingSession | null
 
   recordAnswer: (unitId: string, questionId: string, correct: boolean) => void
   recordMock: (level: Level, score: number) => void
   recordDaily: (dateKey: string, score: number, total: number) => void
   rateCard: (cardId: string, rating: Rating) => void
+  savePendingMock: (level: Level, snap: PendingSession) => void
+  clearPendingMock: (level: Level) => void
+  savePendingDrill: (snap: PendingSession) => void
+  clearPendingDrill: () => void
   updateSettings: (patch: Partial<Settings>) => void
   importData: (json: string) => boolean
 }
@@ -53,6 +61,8 @@ export const useProgress = create<ProgressState>()(
       dailyDone: {},
       srs: {},
       settings: { ttsRate: null, showFurigana: true, showTranslation: true },
+      pendingMocks: {},
+      pendingDrill: null,
 
       recordAnswer: (unitId, questionId, correct) => {
         const today = todayKey()
@@ -113,6 +123,19 @@ export const useProgress = create<ProgressState>()(
         set({ srs: { ...srs, [cardId]: review(entry, rating, today) } })
       },
 
+      savePendingMock: (level, snap) =>
+        set({ pendingMocks: { ...get().pendingMocks, [level]: snap } }),
+
+      clearPendingMock: (level) => {
+        const next = { ...get().pendingMocks }
+        delete next[level]
+        set({ pendingMocks: next })
+      },
+
+      savePendingDrill: (snap) => set({ pendingDrill: snap }),
+
+      clearPendingDrill: () => set({ pendingDrill: null }),
+
       updateSettings: (patch) => set({ settings: { ...get().settings, ...patch } }),
 
       importData: (json) => {
@@ -126,6 +149,8 @@ export const useProgress = create<ProgressState>()(
             dailyDone: data.dailyDone ?? {},
             srs: data.srs ?? {},
             settings: { ...get().settings, ...(data.settings ?? {}) },
+            pendingMocks: data.pendingMocks ?? {},
+            pendingDrill: data.pendingDrill ?? null,
           })
           return true
         } catch {
@@ -135,7 +160,7 @@ export const useProgress = create<ProgressState>()(
     }),
     {
       name: 'nihongo-quest-save-v1',
-      version: 1,
+      version: 2,
       partialize: (s) => ({
         wrong: s.wrong,
         unitStats: s.unitStats,
@@ -143,7 +168,15 @@ export const useProgress = create<ProgressState>()(
         dailyDone: s.dailyDone,
         srs: s.srs,
         settings: s.settings,
+        pendingMocks: s.pendingMocks,
+        pendingDrill: s.pendingDrill,
       }),
+      /** v1 → v2：補上中斷續做快照欄位（既有進度原樣保留） */
+      migrate: (persisted, version) => {
+        const s = persisted as Record<string, unknown>
+        if (version < 2) return { ...s, pendingMocks: {}, pendingDrill: null } as ProgressState
+        return s as unknown as ProgressState
+      },
     },
   ),
 )
@@ -161,6 +194,8 @@ export function exportData(): string {
       dailyDone: s.dailyDone,
       srs: s.srs,
       settings: s.settings,
+      pendingMocks: s.pendingMocks,
+      pendingDrill: s.pendingDrill,
     },
     null,
     2,

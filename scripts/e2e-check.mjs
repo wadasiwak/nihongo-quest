@@ -1,4 +1,4 @@
-// e2e：起 preview → 驗六個關鍵設計斷言 → 截圖。需先 npm run build。
+// e2e：起 preview → 驗關鍵設計斷言（含模擬考中斷續做、場景直達 chip）→ 截圖。需先 npm run build。
 // port 5241（避開 dev 5240）；截圖 /tmp/nihongo-quest-e2e/；失敗集中最後回報。
 import { spawn } from 'node:child_process'
 import { mkdirSync } from 'node:fs'
@@ -145,6 +145,68 @@ try {
     const body = await page.evaluate(() => document.body.innerText)
     check(body.includes('JLPT 級別練習'), '非法 hash 回首頁')
     await page.screenshot({ path: `${shotDir}home.png`, fullPage: true })
+    await page.close()
+  }
+
+  // ---- 7. 中斷續做：mock 作答中 reload → 快照還原、可繼續、可放棄 ----
+  {
+    const page = await browser.newPage()
+    await page.goto(`${BASE_URL}#n5/mock`)
+    await page.waitForTimeout(400)
+    await page.click('button:has-text("開始作答")')
+    await page.waitForSelector('[data-qid]')
+    // 答第 1 題（點第一個選項；mock 暫存作答）→ 下一題
+    await page.locator('.qz-opt').first().click()
+    await page.click('button:has-text("下一題")')
+    await page.waitForTimeout(400)
+    const snap = await page.evaluate(() => {
+      const s = JSON.parse(localStorage.getItem('nihongo-quest-save-v1') ?? '{}')
+      return s?.state?.pendingMocks?.n5 ?? null
+    })
+    check(
+      Boolean(snap) && snap.idx === 1 && Array.isArray(snap.questionIds) &&
+        snap.records[0]?.questionId === snap.questionIds[0],
+      'mock 進行中快照已寫入 persist（idx=1、紀錄對齊題目 id）',
+    )
+    await page.reload()
+    await page.waitForTimeout(500)
+    let body = await page.evaluate(() => document.body.innerText)
+    check(body.includes('繼續上次的作答'), 'reload 後確認頁出現「繼續上次的作答」')
+    await page.click('button:has-text("繼續上次的作答")')
+    await page.waitForTimeout(400)
+    body = await page.evaluate(() => document.body.innerText)
+    check(/第 2 \/ \d+ 題/.test(body), '續做回到第 2 題')
+    check(/\d{1,3}:\d{2}/.test(body), '續做後計時器照常顯示')
+    await page.screenshot({ path: `${shotDir}mock-resume.png`, fullPage: true })
+    // 回首頁 → 續做橫幅；放棄（confirm）→ 快照清除
+    await page.goto(BASE_URL)
+    await page.waitForTimeout(400)
+    body = await page.evaluate(() => document.body.innerText)
+    check(body.includes('繼續上次的模擬考'), '首頁顯示續做橫幅')
+    page.once('dialog', (d) => d.accept())
+    await page.click('button:has-text("放棄")')
+    await page.waitForTimeout(300)
+    const cleared = await page.evaluate(() => {
+      const s = JSON.parse(localStorage.getItem('nihongo-quest-save-v1') ?? '{}')
+      return !s?.state?.pendingMocks?.n5
+    })
+    check(cleared, '放棄（confirm）後快照已清除、橫幅消失')
+    await page.close()
+  }
+
+  // ---- 8. 首頁會話場景 chip 直達 ----
+  {
+    const page = await browser.newPage()
+    await page.goto(BASE_URL)
+    await page.waitForTimeout(400)
+    const chipCount = await page.locator('.kaiwa-chip').count()
+    check(chipCount === 13, `首頁場景 chip 共 13 個（實得 ${chipCount}）`)
+    await page.locator('.kaiwa-chip').first().click()
+    await page.waitForTimeout(400)
+    const hash = await page.evaluate(() => window.location.hash)
+    check(hash === '#kaiwa/tour-airport', `chip 直達場景（hash=${hash}）`)
+    const body = await page.evaluate(() => document.body.innerText)
+    check(body.includes('對話'), '場景頁已載入（有「對話」分頁）')
     await page.close()
   }
 } catch (e) {

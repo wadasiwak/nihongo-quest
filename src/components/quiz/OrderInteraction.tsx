@@ -12,17 +12,21 @@ export interface OrderInteractionProps {
   question: OrderQuestion
   revealed: boolean
   disabled?: boolean
+  /** 中斷續做：已作答題的排列從紀錄帶回 */
+  initialArranged?: number[]
   /** 排滿時回報作答；取消片段（未滿）回報 null（mock 撤銷暫答用） */
   onAnswer: (ans: AnswerDetail | null) => void
 }
 
-export function OrderInteraction({ question, revealed, disabled, onAnswer }: OrderInteractionProps) {
+export function OrderInteraction({ question, revealed, disabled, initialArranged, onAnswer }: OrderInteractionProps) {
   const T = useT()
   // 片段按鈕的顯示順序（顯示時才 shuffle）
   // eslint-disable-next-line react-hooks/exhaustive-deps
   const display = useMemo(() => makeOrder(question.segments.length), [question.id])
-  /** 已排入答案列的片段（原始 index，依排入順序） */
-  const [placed, setPlaced] = useState<number[]>([])
+  /** 已排入答案列的片段（原始 index，依排入順序）；續做時從紀錄還原 */
+  const [placed, setPlaced] = useState<number[]>(() =>
+    initialArranged && initialArranged.length === question.segments.length ? initialArranged : [],
+  )
   const locked = Boolean(disabled) || revealed
 
   const place = (orig: number) => {
