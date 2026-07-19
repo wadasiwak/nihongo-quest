@@ -118,4 +118,43 @@ export const questions: JlptQuestion[] = [
       },
     ],
   },
+  {
+    kind: 'passage',
+    id: 'n2-reading-togo-004',
+    passage:
+      'Ａ\n私の勤める会社では、昨年から社員の副業が認められるようになった。私はこの制度を歓迎している。収入が増えるという直接の利点はもちろんだが、それ以上に大きいのは、本業では得られない経験が積めることだ。私自身、休日に地域の店のホームページ作りを手伝うようになってから、客の立場で物事を考える習慣がつき、本業の企画の仕事にも良い影響が出ている。働きすぎになるのではという心配の声もあるが、労働時間を自分で管理するのは社会人として当然のことであり、副業を禁止する理由にはならないと思う。\n\nＢ\n社員の副業を認める会社が増えている。視野が広がる、収入の助けになるといった利点があることは、私も認めている。ただ、会社が制度として認める以上、働く人の健康を守る仕組みを先に整えるべきではないだろうか。本業のあとに深夜まで別の仕事をすれば、疲れがたまり、本業に支障が出かねない。しかも、本業と副業を合わせた労働時間は、本人にしか分からないのが実情だ。だからこそ、届け出を義務づけて全体の労働時間を会社が把握できるようにするなど、制度の整備が欠かせない。それができないまま、ただ「認める」だけでは、かえって社員のためにならないと思う。',
+    explanation: '',
+    questions: [
+      {
+        id: 'n2-reading-togo-004-q1',
+        stem: 'ＡとＢのどちらの文章にも述べられていることは何か。',
+        options: [
+          '副業には、収入の面での利点があるということ',
+          '労働時間を自分で管理するのは、社会人として当然だということ',
+          '副業をすれば、本業に必ず支障が出るということ',
+          '会社は届け出によって、社員全体の労働時間を把握すべきだということ',
+        ],
+        answerIndex: 0,
+        explanation:
+          'Ａ說副業「収入が増えるという直接の利点」，Ｂ也承認「収入の助けになるといった利点がある」，收入面的好處是兩篇共通內容。「労働時間を自分で管理するのは当然」只是Ａ的主張，Ｂ反而認為個人時間外人無從掌握；「届け出を義務づけて把握すべき」只出現在Ｂ；Ｂ說的是「支障が出かねない」（有可能），不是「必ず」，且Ａ並未提及。',
+        explanationEn:
+          'A cites 「収入が増えるという直接の利点」 and B likewise concedes 「収入の助けになるといった利点がある」 — the financial benefit is stated in both texts. That workers should manage their own hours is A\'s claim alone; B argues the opposite, that total hours are known only to the worker. Requiring notification so the company can track hours appears only in B. And B says trouble for the main job 「出かねない」 — merely possible, not "necessarily" — and A never mentions it.',
+      },
+      {
+        id: 'n2-reading-togo-004-q2',
+        stem: '社員の副業について、ＡとＢはどのように考えているか。',
+        options: [
+          'Ａは本業にも良い影響があるとして歓迎し、Ｂは健康を守る仕組みを整えたうえで認めるべきだと考えている。',
+          'Ａは収入を増やすためだけの制度だと考え、Ｂは副業を禁止すべきだと考えている。',
+          'ＡもＢも、労働時間の管理は会社に任せるべきだと考えている。',
+          'Ａは働きすぎによる健康被害を心配し、Ｂは社員の自主性に任せればよいと考えている。',
+        ],
+        answerIndex: 0,
+        explanation:
+          'Ａ舉自身經驗說副業讓「本業の企画の仕事にも良い影響が出ている」而歡迎制度；Ｂ承認利點，但主張「働く人の健康を守る仕組みを先に整えるべき」，是有條件的贊成。選項2 錯在Ａ明說收入之外「それ以上に大きいのは経験」，Ｂ也沒有主張禁止；選項4 立場對調——擔心健康的是Ｂ，主張自我管理即可的是Ａ；選項3 與Ａ「自分で管理するのは当然」相反。',
+        explanationEn:
+          'A welcomes the scheme, citing his own experience that a side job has had 「本業の企画の仕事にも良い影響」; B concedes the benefits but argues the company should first build 「働く人の健康を守る仕組み」 — conditional approval. Option 2 fails because A explicitly values the experience gained even more than the income (「それ以上に大きいのは」), and B never calls for a ban. Option 4 swaps the two: it is B who worries about health, and A who trusts self-management. Option 3 contradicts A\'s view that managing one\'s own hours is a matter of course.',
+      },
+    ],
+  },
 ]

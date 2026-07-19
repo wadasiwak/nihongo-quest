@@ -341,4 +341,208 @@ export const questions: JlptQuestion[] = [
     explanationEn:
       '「もどる」 (戻る, to return to where one was) equals 「また ここに 来る」 (to come back here). 「もう 来ません」 means never coming back — the exact opposite, contradicting "please wait here"; 「ゆっくり 行きます」 is about how slowly one leaves; 「はじめて 来ます」 means coming for the first time, with no sense of returning.',
   },
+  {
+    kind: 'choice',
+    id: 'n4-vocab-iikae-021',
+    stem: '日曜日は 【たいてい】 家に います。',
+    stemReading: 'にちようびはたいていいえにいます',
+    options: [
+      '日曜日は ほとんど いつも 家に います。',
+      '日曜日は ときどき 家に います。',
+      '日曜日は ぜんぜん 家に いません。',
+      '日曜日だけ 家に いません。',
+    ],
+    answerIndex: 0,
+    explanation:
+      '「たいてい」（大抵）＝大多數時候、幾乎總是，等於「ほとんど いつも」。「ときどき」（有時）頻率低得多，程度不等值；「ぜんぜん〜いません」是完全不在家，方向相反；「日曜日だけ〜いません」變成只有星期日不在，語意完全不同。',
+    explanationEn:
+      '「たいてい」 means most of the time, equal to 「ほとんど いつも」 (almost always). 「ときどき」 (sometimes) is a much lower frequency; 「ぜんぜん〜いません」 means never being home — the opposite; 「日曜日だけ〜いません」 changes it to being out only on Sundays.',
+  },
+  {
+    kind: 'choice',
+    id: 'n4-vocab-iikae-022',
+    stem: 'しゅくだいは 【ぜんぶ】 おわりました。',
+    stemReading: 'しゅくだいはぜんぶおわりました',
+    options: [
+      'しゅくだいは みんな おわりました。',
+      'しゅくだいは はんぶん おわりました。',
+      'しゅくだいは まだ おわって いません。',
+      'しゅくだいは すこしだけ おわりました。',
+    ],
+    answerIndex: 0,
+    explanation:
+      '「ぜんぶ」（全部）＝全都，等於口語的「みんな」，表示作業一項不剩全寫完了。「はんぶん」（一半）只完成一半，數量不等值；「まだ おわって いません」是還沒做完，方向相反；「すこしだけ」是只做了一點點，差距更大，皆不等值。',
+    explanationEn:
+      '「ぜんぶ」 (all) equals the colloquial 「みんな」 here — every last bit of the homework is done. 「はんぶん」 (half) means only half finished; 「まだ おわって いません」 means it is not done yet — the opposite; 「すこしだけ」 (just a little) is an even smaller amount.',
+  },
+  {
+    kind: 'choice',
+    id: 'n4-vocab-iikae-023',
+    stem: '母の 元気な 声を 聞いて、【あんしんしました】。',
+    stemReading: 'ははのげんきなこえをきいてあんしんしました',
+    options: [
+      '母の 元気な 声を 聞いて、もう しんぱいしなく なりました。',
+      '母の 元気な 声を 聞いて、もっと しんぱいに なりました。',
+      '母の 元気な 声を 聞いて、びっくりしました。',
+      '母の 元気な 声を 聞いて、かなしく なりました。',
+    ],
+    answerIndex: 0,
+    explanation:
+      '「あんしんする」（安心する）＝放下心來，等於「もう しんぱいしなく なりました」（不再擔心了）。「もっと しんぱいに なりました」是變得更擔心，方向正好相反；「びっくりしました」是嚇一跳、「かなしく なりました」是變難過，都不是「放心」。',
+    explanationEn:
+      '「あんしんする」 (安心する, to be relieved) equals 「もう しんぱいしなく なりました」 — no longer worried. 「もっと しんぱいに なりました」 means becoming even more worried, the exact opposite; 「びっくりしました」 is being startled and 「かなしく なりました」 is becoming sad — neither is relief.',
+  },
+  {
+    kind: 'choice',
+    id: 'n4-vocab-iikae-024',
+    stem: 'じゅぎょうは 【もうすぐ】 おわります。',
+    stemReading: 'じゅぎょうはもうすぐおわります',
+    options: [
+      'じゅぎょうは あと すこしで おわります。',
+      'じゅぎょうは たった いま おわりました。',
+      'じゅぎょうは ずっと あとで おわります。',
+      'じゅぎょうは もう おわって います。',
+    ],
+    answerIndex: 0,
+    explanation:
+      '「もうすぐ」＝馬上、再過不久，等於「あと すこしで」，表示課還沒結束但快了。「たった いま おわりました」和「もう おわって います」都是已經結束，時態不合；「ずっと あとで」是還要很久才結束，時間感相反，皆不等值。',
+    explanationEn:
+      '「もうすぐ」 (very soon) equals 「あと すこしで」 — class has not ended yet but will shortly. 「たった いま おわりました」 and 「もう おわって います」 both say it has already ended — the wrong tense; 「ずっと あとで」 means it will end much later, the opposite sense of timing.',
+  },
+  {
+    kind: 'choice',
+    id: 'n4-vocab-iikae-025',
+    stem: '【このあいだ】、駅で 田中さんに 会いました。',
+    stemReading: 'このあいだえきでたなかさんにあいました',
+    options: [
+      'すこし まえに、駅で 田中さんに 会いました。',
+      'ずっと むかしに、駅で 田中さんに 会いました。',
+      'きょう、駅で 田中さんに 会いました。',
+      'まいにち、駅で 田中さんに 会って います。',
+    ],
+    answerIndex: 0,
+    explanation:
+      '「このあいだ」（この間）＝前幾天、不久前，等於「すこし まえに」。「ずっと むかしに」是很久以前，時間距離不等值；「きょう」是今天，又太近；「まいにち〜会って います」變成每天都見面，講的是頻率而非最近的某一次，皆不正確。',
+    explanationEn:
+      '「このあいだ」 (この間) means the other day, equal to 「すこし まえに」 (a little while ago). 「ずっと むかしに」 (long ago) is far too distant; 「きょう」 (today) is too recent; 「まいにち〜会って います」 turns it into meeting every day — frequency instead of one recent occasion.',
+  },
+  {
+    kind: 'choice',
+    id: 'n4-vocab-iikae-026',
+    stem: 'みんな 【だまって】、先生の 話を 聞いて いました。',
+    stemReading: 'みんなだまってせんせいのはなしをきいていました',
+    options: [
+      'みんな なにも 話さないで、先生の 話を 聞いて いました。',
+      'みんな 大きな 声で 話しながら、先生の 話を 聞いて いました。',
+      'みんな わらいながら、先生の 話を 聞いて いました。',
+      'みんな ねながら、先生の 話を 聞いて いました。',
+    ],
+    answerIndex: 0,
+    explanation:
+      '「だまる」（黙る）＝閉口不說話。「だまって 聞いて いました」等於「なにも 話さないで 聞いて いました」。「大きな 声で 話しながら」是邊大聲講話邊聽，方向正好相反；「わらいながら」是邊笑、「ねながら」是邊睡，都不是「安靜不出聲」。',
+    explanationEn:
+      '「だまる」 (黙る) means to stay silent, so 「だまって 聞いて いました」 equals listening 「なにも 話さないで」 — without saying anything. 「大きな 声で 話しながら」 (talking loudly) is the exact opposite; 「わらいながら」 (while laughing) and 「ねながら」 (while sleeping) are different states, not silence.',
+  },
+  {
+    kind: 'choice',
+    id: 'n4-vocab-iikae-027',
+    stem: 'かれは いつも 【まじめに】 はたらいて います。',
+    stemReading: 'かれはいつもまじめにはたらいています',
+    options: [
+      'かれは いつも いっしょうけんめい はたらいて います。',
+      'かれは いつも すこしだけ はたらいて います。',
+      'かれは いつも あそびながら はたらいて います。',
+      'かれは ぜんぜん はたらいて いません。',
+    ],
+    answerIndex: 0,
+    explanation:
+      '「まじめに」（真面目に）＝認真踏實地，等於「いっしょうけんめい」（一生懸命，拚命努力地）。「すこしだけ」是只做一點點，程度不等值；「あそびながら」是邊玩邊做，態度相反；「ぜんぜん はたらいて いません」是完全不工作，方向完全相反。',
+    explanationEn:
+      '「まじめに」 (真面目に, earnestly) equals 「いっしょうけんめい」 (一生懸命, with all one\'s effort). 「すこしだけ」 (only a little) is a much weaker degree; 「あそびながら」 (while playing around) is the opposite attitude; 「ぜんぜん はたらいて いません」 means not working at all — the complete opposite.',
+  },
+  {
+    kind: 'choice',
+    id: 'n4-vocab-iikae-028',
+    stem: 'これは 【たいせつな】 しゃしんですから、なくさないで ください。',
+    stemReading: 'これはたいせつなしゃしんですからなくさないでください',
+    options: [
+      'これは だいじな しゃしんですから、なくさないで ください。',
+      'これは ふるい しゃしんですから、なくさないで ください。',
+      'これは めずらしい しゃしんですから、なくさないで ください。',
+      'これは やすい しゃしんですから、なくさないで ください。',
+    ],
+    answerIndex: 0,
+    explanation:
+      '「たいせつ」（大切）＝重要、珍貴，等於「だいじ」（大事）。「ふるい」（舊的）和「めずらしい」（罕見的）講的是照片的年代和稀有度，不等於「珍貴」；「やすい」（便宜的）更沒有珍惜的意思，皆不等值。',
+    explanationEn:
+      '「たいせつ」 (大切, precious) equals 「だいじ」 (大事). 「ふるい」 (old) and 「めずらしい」 (rare) describe the photo\'s age and rarity, which is not the same as being treasured; 「やすい」 (cheap) carries no sense of value at all.',
+  },
+  {
+    kind: 'choice',
+    id: 'n4-vocab-iikae-029',
+    stem: 'けんこうの ために、まいあさ 【うんどうして】 います。',
+    stemReading: 'けんこうのためにまいあさうんどうしています',
+    options: [
+      'けんこうの ために、まいあさ からだを うごかして います。',
+      'けんこうの ために、まいあさ くすりを のんで います。',
+      'けんこうの ために、まいばん はやく ねて います。',
+      'けんこうの ために、まいあさ ほんを よんで います。',
+    ],
+    answerIndex: 0,
+    explanation:
+      '「うんどうする」（運動する）＝活動身體、做運動，等於「からだを うごかす」。「くすりを のんで います」是吃藥、「はやく ねて います」是早睡、「ほんを よんで います」是看書，雖然都可以是為了健康做的事，但都不是「運動」，皆不等值。',
+    explanationEn:
+      '「うんどうする」 (運動する, to exercise) equals 「からだを うごかす」 — moving your body. Taking medicine (「くすりを のんで います」), going to bed early, and reading books may all be done for health, but none of them is exercise.',
+  },
+  {
+    kind: 'choice',
+    id: 'n4-vocab-iikae-030',
+    stem: 'そふは からだが 【つよくて】、ほとんど びょうきを しません。',
+    stemReading: 'そふはからだがつよくてほとんどびょうきをしません',
+    options: [
+      'そふは からだが じょうぶで、ほとんど びょうきを しません。',
+      'そふは からだが よわくて、よく びょうきを します。',
+      'そふは ちからが なくて、おもい ものが もてません。',
+      'そふは せが たかくて、とても 大きいです。',
+    ],
+    answerIndex: 0,
+    explanation:
+      '「からだが つよい」＝身體強健，等於「じょうぶ」（丈夫，結實硬朗），所以幾乎不生病。「よわくて、よく びょうきを します」方向完全相反；「ちからが なくて」講的是力氣小，不等於健康不好；「せが たかくて」講身高，和體質無關。',
+    explanationEn:
+      '「からだが つよい」 (having a strong constitution) equals 「じょうぶ」 (丈夫, robust), which is why he hardly ever gets sick. 「よわくて、よく びょうきを します」 is the exact opposite; 「ちからが なくて」 is about muscle strength, not health; 「せが たかくて」 is about height.',
+  },
+  {
+    kind: 'choice',
+    id: 'n4-vocab-iikae-031',
+    stem: 'きょねん、【はじめて】 ひこうきに のりました。',
+    stemReading: 'きょねんはじめてひこうきにのりました',
+    options: [
+      'きょねんまで、いちども ひこうきに のった ことが ありませんでした。',
+      'きょねんも、なんかいも ひこうきに のりました。',
+      'きょねんは、ひこうきに のりませんでした。',
+      'むかしから、よく ひこうきに のって いました。',
+    ],
+    answerIndex: 0,
+    explanation:
+      '「はじめて」（初めて）＝第一次，表示去年之前一次也沒搭過飛機，等於「きょねんまで、いちども のった ことが ありませんでした」。「なんかいも」是搭過很多次、「よく のって いました」是以前常搭，都和第一次矛盾；「のりませんでした」是去年沒搭，方向相反。',
+    explanationEn:
+      '「はじめて」 (for the first time) means you had never been on a plane before last year, equal to 「きょねんまで、いちども のった ことが ありませんでした」. 「なんかいも」 (many times) and 「よく のって いました」 (used to fly often) contradict a first time; 「のりませんでした」 says you did not fly last year at all.',
+  },
+  {
+    kind: 'choice',
+    id: 'n4-vocab-iikae-032',
+    stem: 'あしたの かいぎには 【かならず】 来て ください。',
+    stemReading: 'あしたのかいぎにはかならずきてください',
+    options: [
+      'あしたの かいぎには ぜったいに 来て ください。',
+      'あしたの かいぎには できれば 来て ください。',
+      'あしたの かいぎには 来なくても いいです。',
+      'あしたの かいぎには すこし はやく 来て ください。',
+    ],
+    answerIndex: 0,
+    explanation:
+      '「かならず」（必ず）＝一定、無論如何都要，等於「ぜったいに」。「できれば」（可以的話）把語氣弱化成有空再來，程度不等值；「来なくても いいです」是不來也行，方向相反；「すこし はやく 来て ください」講的是提早到，不是必須出席。',
+    explanationEn:
+      '「かならず」 (必ず, without fail) equals 「ぜったいに」 (absolutely). 「できれば」 (if possible) weakens it to "come if you can"; 「来なくても いいです」 says attendance is optional — the opposite; 「すこし はやく 来て ください」 is about coming early, not about having to come.',
+  },
 ]

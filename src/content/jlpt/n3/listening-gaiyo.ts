@@ -232,4 +232,96 @@ export const questions: JlptQuestion[] = [
     explanationEn:
       'The speaker argues that reducing garbage does not require anything big — bringing your own shopping bag, buying only what you can eat — and concludes with 「一人一人が、今日からできる小さなことを続けていきましょう」, so her main point is that each person keeping up small habits is what matters. The 900-gram figure is merely a statistic used to show how small efforts add up; she never says more people are carrying their own bags; and leaving it to the town government contradicts her call for individual action.',
   },
+  {
+    id: 'n3-listening-gaiyo-011',
+    kind: 'listening',
+    script: [
+      { speaker: '旁白', text: '会社の研修で、女の人が新入社員に話しています。' },
+      { speaker: '女', text: '仕事を早く覚えるために、一番大切なことは何だと思いますか。私は、メモを取ることだと思っています。' },
+      { speaker: '女', text: '説明を聞いたときは、誰でも分かったつもりになります。でも、人は聞いたことの多くを、次の日には忘れてしまうものなんです。' },
+      { speaker: '女', text: 'メモがあれば、忘れても自分で確認できます。同じ質問を何度もしなくてすみますから、教える人の時間も大切にできます。' },
+      { speaker: '女', text: '小さいノートを一冊、いつもポケットに入れておいてください。今日の午後の説明から、さっそく始めましょう。' },
+    ],
+    question: '女の人が一番言いたいことは何ですか。',
+    options: [
+      'メモを取りながら仕事を覚えたほうがいい',
+      '人は聞いたことをすぐに忘れてしまう',
+      '分からないことは何度も質問したほうがいい',
+      '大きいノートを一冊買ったほうがいい',
+    ],
+    answerIndex: 0,
+    explanation:
+      '講者開頭就點明「一番大切なのはメモを取ること」，接著說明理由：人隔天就會忘、有筆記能自己確認、也不佔用教的人的時間，最後要大家帶小筆記本從今天下午開始實行，主旨是邊做筆記邊學會工作。「人はすぐ忘れる」只是支持主張的理由，屬於細節；「何度も質問したほうがいい」與「同じ質問を何度もしなくてすむ」的說法相反；她說的是「小さいノート」，不是大筆記本。',
+    explanationEn:
+      'The speaker states at the outset that the most important thing is taking notes, then gives her reasons — people forget most of what they hear by the next day, notes let you check things yourself, and you avoid repeating the same questions, which respects the teacher\'s time — and ends by telling everyone to keep a small notebook in their pocket starting this afternoon. That people forget quickly is just a supporting reason; asking the same question repeatedly is the opposite of her point about 「同じ質問を何度もしなくてすむ」; and she recommends a small notebook, not a big one.',
+  },
+  {
+    id: 'n3-listening-gaiyo-012',
+    kind: 'listening',
+    script: [
+      { speaker: '旁白', text: 'テレビで薬剤師が話しています。' },
+      { speaker: '男', text: '薬局で薬をお渡しするとき、「よくなったら、途中で飲むのをやめてもいいですか」とよく聞かれます。' },
+      { speaker: '男', text: '実は、これが一番危ないんです。熱が下がって元気になっても、体の中には病気のもとが残っていることが多いからです。' },
+      { speaker: '男', text: '途中でやめてしまうと、また悪くなったり、次からその薬が効きにくくなったりすることがあります。' },
+      { speaker: '男', text: '出された薬は、自分で判断しないで、最後まで飲み切ってください。心配なことがあるときは、やめる前に、医者か薬剤師に相談してほしいと思います。' },
+    ],
+    question: '薬剤師が一番言いたいことは何ですか。',
+    options: [
+      'もらった薬は自分の判断でやめず、最後まで飲んだほうがいい',
+      '熱が下がったら、薬を飲むのをやめてもいい',
+      '薬は飲みすぎると効きにくくなる',
+      '薬をもらう前に、薬剤師に相談したほうがいい',
+    ],
+    answerIndex: 0,
+    explanation:
+      '藥師指出自行中途停藥「これが一番危ない」，因為退燒後病根常常還在，中途停藥會復發、還可能讓藥變得難見效，結論是「自分で判断しないで、最後まで飲み切ってください」，主旨是把開的藥吃完。「熱が下がったらやめてもいい」正是被他否定的想法；藥變得難見效的原因是「中途停藥」而不是吃太多；他說的是「停藥之前」找醫師或藥師商量，不是拿藥之前。',
+    explanationEn:
+      'The pharmacist warns that stopping medicine on your own judgment is the most dangerous thing (「これが一番危ない」): even after the fever drops, the cause of the illness often remains, and quitting midway can bring the illness back or make the medicine less effective next time. His conclusion is 「自分で判断しないで、最後まで飲み切ってください」 — finish the prescribed course. Stopping once the fever is gone is exactly the idea he rejects; reduced effectiveness comes from quitting midway, not from taking too much; and he says to consult a doctor or pharmacist before stopping, not before receiving the medicine.',
+  },
+  {
+    id: 'n3-listening-gaiyo-013',
+    kind: 'listening',
+    script: [
+      { speaker: '旁白', text: '留守番電話のメッセージを聞いています。' },
+      { speaker: '女', text: 'もしもし、みどりマンション管理室の佐藤です。水道の点検工事のご連絡です。' },
+      { speaker: '女', text: 'あさって木曜日の午前十時から十二時まで、建物全体で水が止まります。その間は、トイレも使えませんので、ご注意ください。' },
+      { speaker: '女', text: '飲み水が必要な方は、前の日までに、ペットボトルなどに水を入れて用意しておいてください。' },
+      { speaker: '女', text: '工事の時間が変わるときは、もう一度お電話します。ご質問があれば、管理室までお願いいたします。' },
+    ],
+    question: 'このメッセージで一番伝えたいことは何ですか。',
+    options: [
+      '木曜日の午前中は建物の水が使えなくなる',
+      '工事の時間が変わることになった',
+      'ペットボトルの水を買いに行ってほしい',
+      '質問があるので管理室に電話してほしい',
+    ],
+    answerIndex: 0,
+    explanation:
+      '留言的核心是通知「あさって木曜日の午前十時から十二時まで、建物全体で水が止まります」，也就是週四上午停水、連廁所都不能用，提醒住戶注意。「工事の時間が変わる」只是「若有變更會再來電」的假設，還沒有發生；飲用水是請住戶「裝水備用」，不是叫大家去買瓶裝水；打電話到管理室是「有問題時」才做的事，都不是這通留言的主旨。',
+    explanationEn:
+      'The heart of the message is the notice 「あさって木曜日の午前十時から十二時まで、建物全体で水が止まります」 — the whole building loses water Thursday morning, and even the toilets will be unusable, so residents should take note. A change in the construction time is only hypothetical (「変わるときは、もう一度お電話します」) and has not happened; residents are asked to fill bottles with water in advance, not to go buy bottled water; and calling the management office applies only if they have questions — none of these is the main point.',
+  },
+  {
+    id: 'n3-listening-gaiyo-014',
+    kind: 'listening',
+    script: [
+      { speaker: '旁白', text: '町内会の集まりで、男の人が話しています。' },
+      { speaker: '男', text: '駅前の公園の花壇を育てるボランティアについて、お知らせします。' },
+      { speaker: '男', text: 'ボランティアと聞くと、大変そうだと思う方が多いかもしれません。でも、活動は月に二回、土曜日の朝の一時間だけです。' },
+      { speaker: '男', text: '道具はこちらで全部用意しますし、花の育て方は、経験のある会員が丁寧に教えますから、初めての方でも心配いりません。' },
+      { speaker: '男', text: '花が好きだという気持ちがあれば、それで十分です。どうぞ気軽に参加してください。' },
+    ],
+    question: '男の人が一番言いたいことは何ですか。',
+    options: [
+      '花壇のボランティアに気軽に参加してほしい',
+      'ボランティアの活動はとても大変だ',
+      '道具は自分で用意しなければならない',
+      '花の育て方を教えられる人を探している',
+    ],
+    answerIndex: 0,
+    explanation:
+      '講者逐一化解大家的疑慮：活動只有每月兩次、每次一小時，工具全由會方準備，種花方式有經驗的會員會教，最後以「どうぞ気軽に参加してください」收尾，主旨是邀請大家輕鬆地參加花圃志工。「大変そう」是他要推翻的既有印象，與主旨相反；「道具は自分で用意」與「こちらで全部用意します」相反；他徵求的是參加者，教種花的人已經有了。',
+    explanationEn:
+      'The speaker removes each worry in turn — the activity is only twice a month for one hour on Saturday mornings, all tools are provided, and experienced members will kindly teach how to grow the flowers — then closes with 「どうぞ気軽に参加してください」, so his main point is inviting everyone to join the flower-bed volunteer group casually. The idea that volunteering is demanding is the very impression he sets out to overturn; providing your own tools contradicts 「こちらで全部用意します」; and he is recruiting participants, not instructors, since experienced members already teach.',
+  },
 ]

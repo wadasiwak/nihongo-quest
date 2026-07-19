@@ -221,4 +221,136 @@ export const questions: JlptQuestion[] = [
     explanationEn:
       '「別れる」 (to part, to say goodbye) is read わかれる, so 「別れて」 is わかれて. 「べつれて」 forces the on-reading べつ (as in 「特別」) onto a kun-reading verb; 「わがれて」 wrongly voices the second syllable; 「はなれて」 is the reading of 「離れて」 (to move away) — similar in meaning but a different word.',
   },
+  {
+    kind: 'choice',
+    id: 'n4-vocab-kanji-021',
+    stem: 'わたしは 三人 【兄弟】の いちばん 上です。',
+    options: ['きょうだい', 'きょだい', 'けいだい', 'あにおとうと'],
+    answerIndex: 0,
+    explanation:
+      '「兄弟」（兄弟姊妹）讀「きょうだい」。「きょだい」漏了長音「う」，變成「巨大」的讀音；「けいだい」誤用「兄」的另一個音讀「けい」（如「父兄」），此詞不適用；「あにおとうと」誤把兩字拆成各自的訓讀，複合詞「兄弟」不這樣唸。',
+    explanationEn:
+      '「兄弟」 (siblings) is read きょうだい. 「きょだい」 drops the long vowel and becomes the reading of 「巨大」 (huge); 「けいだい」 misuses the other on-reading けい of 「兄」 (as in 「父兄」); 「あにおとうと」 wrongly splits the compound into two kun-readings.',
+  },
+  {
+    kind: 'choice',
+    id: 'n4-vocab-kanji-022',
+    stem: 'もう すこし 大きい 【声】で 話して ください。',
+    options: ['こえ', 'せい', 'ごえ', 'おと'],
+    answerIndex: 0,
+    explanation:
+      '「声」（聲音、嗓音）單獨當名詞時取訓讀「こえ」。「せい」是音讀，用於「音声」等複合詞，單獨使用不這樣唸；「ごえ」是連濁後的形（如「歌声」），單獨一詞開頭不加濁音；「おと」是「音」（物體的聲響）的讀法，是另一個詞。',
+    explanationEn:
+      '「声」 (voice) as a standalone noun takes the kun-reading こえ. 「せい」 is the on-reading used in compounds like 「音声」; 「ごえ」 is the voiced form that appears only inside compounds like 「歌声」, never at the start of the word; 「おと」 is the reading of 「音」 (sound), a different word.',
+  },
+  {
+    kind: 'choice',
+    id: 'n4-vocab-kanji-023',
+    stem: 'あの みせは やすくて いい 【品物】を うって います。',
+    options: ['しなもの', 'ひんもの', 'しなぶつ', 'しなもん'],
+    answerIndex: 0,
+    explanation:
+      '「品物」（商品、物品）讀「しなもの」，兩字皆取訓讀。「ひんもの」前音後訓、訓音混雜（「ひん」是「品」的音讀，如「作品」）；「しなぶつ」前訓後音（「ぶつ」是「物」的音讀，如「動物」）；「しなもん」字尾假名錯誤，皆非正解。',
+    explanationEn:
+      '「品物」 (goods, article) is read しなもの, with kun-readings for both kanji. 「ひんもの」 mixes the on-reading ひん (as in 「作品」) with a kun-reading; 「しなぶつ」 mixes a kun-reading with the on-reading ぶつ (as in 「動物」); 「しなもん」 gets the final kana wrong.',
+  },
+  {
+    kind: 'choice',
+    id: 'n4-vocab-kanji-024',
+    stem: 'つきの 【光】が とても きれいな よるでした。',
+    options: ['ひかり', 'こう', 'ひがり', 'ひかる'],
+    answerIndex: 0,
+    explanation:
+      '「光」（光、光線）單獨當名詞時取訓讀「ひかり」。「こう」是音讀，用於「観光」「日光」等複合詞，單獨使用不這樣唸；「ひがり」第二拍誤加濁音；「ひかる」是動詞「光る」的讀法，名詞「光」後面不加「る」，皆為錯誤選項。',
+    explanationEn:
+      '「光」 (light) as a standalone noun takes the kun-reading ひかり. 「こう」 is the on-reading used in compounds like 「観光」 and 「日光」; 「ひがり」 wrongly voices the second syllable; 「ひかる」 is the reading of the verb 「光る」, not the noun.',
+  },
+  {
+    kind: 'choice',
+    id: 'n4-vocab-kanji-025',
+    stem: 'やまの 上は 【空気】が きれいで、きもちが いいです。',
+    options: ['くうき', 'くき', 'そらき', 'くうぎ'],
+    answerIndex: 0,
+    explanation:
+      '「空気」（空氣）讀「くうき」。「くき」漏掉長音「う」，變成「茎」（莖）的讀音；「そらき」誤把「空」的訓讀「そら」混進音讀複合詞；「くうぎ」把「気」誤唸成濁音「ぎ」，皆為錯誤讀法。',
+    explanationEn:
+      '「空気」 (air) is read くうき. 「くき」 drops the long vowel and becomes the reading of 「茎」 (plant stem); 「そらき」 wrongly mixes the kun-reading そら of 「空」 into an on-reading compound; 「くうぎ」 wrongly voices 「気」 into ぎ.',
+  },
+  {
+    kind: 'choice',
+    id: 'n4-vocab-kanji-026',
+    stem: 'あしたは クラスの みんなと 【遠足】に 行きます。',
+    options: ['えんそく', 'えんぞく', 'とおあし', 'えんそこ'],
+    answerIndex: 0,
+    explanation:
+      '「遠足」（遠足、郊遊）讀「えんそく」。「えんぞく」把「足」誤唸成濁音「ぞく」；「とおあし」誤把兩字都唸成訓讀（「遠い」的「とお」、「足」的「あし」），這個複合詞要取音讀；「えんそこ」字尾錯誤，「足」的音讀是「そく」不是「そこ」。',
+    explanationEn:
+      '「遠足」 (school excursion) is read えんそく. 「えんぞく」 wrongly voices 「足」 into ぞく; 「とおあし」 wrongly reads both kanji with kun-readings (とお as in 「遠い」, あし for 「足」) although this compound takes on-readings; 「えんそこ」 gets the ending wrong — the on-reading of 「足」 is そく.',
+  },
+  {
+    kind: 'choice',
+    id: 'n4-vocab-kanji-027',
+    stem: 'すずきさんが おいしい みせを 【教えて】 くれました。',
+    options: ['おしえて', 'きょうえて', 'おそえて', 'おぼえて'],
+    answerIndex: 0,
+    explanation:
+      '「教える」（教、告訴）讀「おしえる」，「教えて」唸「おしえて」。「きょうえて」是把音讀「きょう」（如「教室」）硬套進訓讀動詞；「おそえて」是和「教わる（おそわる）」（受教、跟人學）混淆的錯誤形；「おぼえて」是「覚えて」（記住）的讀法，是另一個詞。',
+    explanationEn:
+      '「教える」 (to teach, to tell) is read おしえる, so 「教えて」 is おしえて. 「きょうえて」 forces the on-reading きょう (as in 「教室」) onto a kun-reading verb; 「おそえて」 confuses it with 「教わる」 (おそわる, to be taught); 「おぼえて」 is the reading of 「覚えて」 (to memorize), a different word.',
+  },
+  {
+    kind: 'choice',
+    id: 'n4-vocab-kanji-028',
+    stem: 'じゅぎょうは 九時に 【始まります】。',
+    options: ['はじまります', 'しまります', 'はしまります', 'はじめます'],
+    answerIndex: 0,
+    explanation:
+      '「始まる」（開始）是自動詞，讀「はじまる」。「しまります」是「閉まる」（關上）的讀法，是另一個詞；「はしまります」第二拍假名錯誤；「はじめます」是他動詞「始める」的讀法，送假名不同，「始まります」不能這樣唸，皆非正解。',
+    explanationEn:
+      '「始まる」 (to begin, intransitive) is read はじまる. 「しまります」 is the reading of 「閉まる」 (to close), a different verb; 「はしまります」 has the wrong second kana; 「はじめます」 is the reading of the transitive 「始める」, whose okurigana differs, so it cannot be the reading of 「始まります」.',
+  },
+  {
+    kind: 'choice',
+    id: 'n4-vocab-kanji-029',
+    stem: 'じかんが なかったので、えきまで 【走って】 行きました。',
+    options: ['はしって', 'そうって', 'あるいて', 'はしいって'],
+    answerIndex: 0,
+    explanation:
+      '「走る」（跑）讀「はしる」，「走って」唸「はしって」。「そうって」是把音讀「そう」（如「走行」）硬套進訓讀動詞；「あるいて」是「歩いて」（走路）的讀法，語意相關但是另一個詞；「はしいって」多了一拍假名，皆非正解。',
+    explanationEn:
+      '「走る」 (to run) is read はしる, so 「走って」 is はしって. 「そうって」 forces the on-reading そう (as in 「走行」) onto a kun-reading verb; 「あるいて」 is the reading of 「歩いて」 (to walk), a related but different verb; 「はしいって」 inserts an extra kana.',
+  },
+  {
+    kind: 'choice',
+    id: 'n4-vocab-kanji-030',
+    stem: '【春】に なると、この こうえんは さくらが きれいです。',
+    options: ['はる', 'しゅん', 'はり', 'なつ'],
+    answerIndex: 0,
+    explanation:
+      '「春」（春天）單獨當名詞時取訓讀「はる」。「しゅん」是音讀，用於「春分」等複合詞，單獨使用不這樣唸；「はり」字尾假名錯誤，是「針」的讀法；「なつ」是「夏」（夏天）的讀法，季節弄錯了，皆不正確。',
+    explanationEn:
+      '「春」 (spring) as a standalone noun takes the kun-reading はる. 「しゅん」 is the on-reading used in compounds like 「春分」; 「はり」 has the wrong final kana and is actually the reading of 「針」 (needle); 「なつ」 is the reading of 「夏」 (summer), the wrong season.',
+  },
+  {
+    kind: 'choice',
+    id: 'n4-vocab-kanji-031',
+    stem: 'ねつが さがらないので、【医者】に みて もらいました。',
+    options: ['いしゃ', 'いしや', 'いじゃ', 'いっしゃ'],
+    answerIndex: 0,
+    explanation:
+      '「医者」（醫生）讀「いしゃ」，「者」在「医者」「学者」等複合詞中讀「しゃ」。「いしや」把拗音「しゃ」誤唸成兩拍的「しや」；「いじゃ」誤加濁音；「いっしゃ」誤加促音，皆是不存在的讀法。',
+    explanationEn:
+      '「医者」 (doctor) is read いしゃ — in compounds like 「医者」 and 「学者」, 「者」 is read しゃ. 「いしや」 splits the glide しゃ into two full syllables; 「いじゃ」 wrongly adds voicing; 「いっしゃ」 wrongly inserts a small っ.',
+  },
+  {
+    kind: 'choice',
+    id: 'n4-vocab-kanji-032',
+    stem: 'からだの ために、まいにち 【野菜】を たくさん 食べます。',
+    options: ['やさい', 'のさい', 'やせい', 'やざい'],
+    answerIndex: 0,
+    explanation:
+      '「野菜」（蔬菜）讀「やさい」。「のさい」誤把「野」的訓讀「の」（如「野原」）混進音讀複合詞；「やせい」是「野生」的讀音，字形相近但是另一個詞；「やざい」把「さい」誤唸成濁音，皆為錯誤選項。',
+    explanationEn:
+      '「野菜」 (vegetables) is read やさい. 「のさい」 wrongly mixes the kun-reading の of 「野」 (as in 「野原」) into an on-reading compound; 「やせい」 is the reading of 「野生」 (wild), a similar-looking but different word; 「やざい」 wrongly voices さい into ざい.',
+  },
 ]

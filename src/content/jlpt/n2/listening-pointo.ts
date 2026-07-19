@@ -253,4 +253,154 @@ export const questions: JlptQuestion[] = [
     explanationEn:
       'The woman says the appeal is the work itself: she would be entrusted with launching her current product in the local market 「企画の段階から任せてもらえる」, an experience impossible in Japan, which is why 「どうしても挑戦したくて」. Language skills are set aside with 「それが目的というわけじゃない」; the allowance is no incentive because 「生活費でほとんど消える」; and her husband\'s approval merely means there is no obstacle at home, not that his wishes are her reason for applying.',
   },
+  {
+    id: 'n2-listening-pointo-011',
+    kind: 'listening',
+    script: [
+      { speaker: '旁白', text: '会社で男の人と女の人が来週の出張について話しています。' },
+      { speaker: '男', text: '森田さん、来週の出張、行き先が大阪から福岡に変わったって聞いたけど、本当？' },
+      { speaker: '女', text: 'ええ、そうなんです。' },
+      { speaker: '男', text: 'どうして？先方の担当者の都合が悪くなったの？' },
+      { speaker: '女', text: 'いえ、担当の方の日程は問題なかったんです。実は、先方が福岡に新しい工場を建てたでしょう。せっかくならその工場を見てほしいと先方に言われて、打ち合わせごと福岡で行うことになったんです。' },
+      { speaker: '男', text: 'なるほど。飛行機が取れなかったとか、そういう話じゃないんだ。' },
+      { speaker: '女', text: 'ええ、便はすぐ取れました。工場を実際に見れば次の提案にも生かせますから、かえってよかったと思っています。' },
+    ],
+    question: '出張先はどうして福岡に変わりましたか。',
+    options: [
+      '先方の新しい工場を見ることになったから',
+      '先方の担当者の都合が悪くなったから',
+      '大阪行きの飛行機が取れなかったから',
+      '先方との打ち合わせが中止になったから',
+    ],
+    answerIndex: 0,
+    explanation:
+      '女の人說明對方在福岡蓋了新工廠，先方主動提出「せっかくならその工場を見てほしい」，於是連同會議一起改到福岡舉行，這才是變更的原因。負責人的行程被「日程は問題なかった」否定；機票「便はすぐ取れました」，並非訂不到；會議不但沒有取消，反而是「打ち合わせごと福岡で」照常進行，選項與事實相反。',
+    explanationEn:
+      'The woman explains that the client built a new factory in Fukuoka and themselves proposed 「せっかくならその工場を見てほしい」, so the meeting was moved to Fukuoka together with a factory visit — that is the reason for the change. The contact person\'s schedule is denied as a cause with 「日程は問題なかった」, the flight was booked without trouble (「便はすぐ取れました」), and far from being canceled, the meeting is simply being held in Fukuoka instead.',
+  },
+  {
+    id: 'n2-listening-pointo-012',
+    kind: 'listening',
+    script: [
+      { speaker: '旁白', text: '会社で女の人と男の人が定例会議の変更について話しています。' },
+      { speaker: '女', text: '課長、来月から定例会議が月曜の朝から木曜の夕方に変わるそうですね。月曜だと会議室が取りにくいからですか。' },
+      { speaker: '男', text: 'いや、部屋は年間で押さえてあるから、その心配はないんだ。' },
+      { speaker: '女', text: 'では、週明けだと資料の準備が間に合わないという、あの声のせいでしょうか。' },
+      { speaker: '男', text: 'その意見も確かにあったが、それだけなら開始を一時間遅らせれば済む話だ。実はね、来月からシンガポール支社も会議に加わることになったんだよ。向こうとの時差を考えると、こちらの木曜の夕方が一番都合がいいんだ。' },
+      { speaker: '女', text: 'そうだったんですか。海外と一緒となると、資料も英語にしないといけませんね。' },
+      { speaker: '男', text: 'ああ、それはおいおい相談しよう。' },
+    ],
+    question: '定例会議はどうして木曜の夕方に変わりますか。',
+    options: [
+      '海外の支社が会議に参加することになったから',
+      '月曜は会議室が取りにくいから',
+      '資料の準備が間に合わないから',
+      '会議を英語で行うことになったから',
+    ],
+    answerIndex: 0,
+    explanation:
+      '課長說出關鍵：「シンガポール支社も会議に加わることになった」，考量時差後「木曜の夕方が一番都合がいい」，海外支社參加才是變更主因。會議室「年間で押さえてある」被否定；資料來不及的意見雖然存在，但「開始を一時間遅らせれば済む」被降級排除；英語只是女の人聯想到的後續課題，「おいおい相談しよう」，並非變更原因。',
+    explanationEn:
+      'The section chief reveals the key fact: 「シンガポール支社も会議に加わることになった」, and considering the time difference, 「木曜の夕方が一番都合がいい」 — the overseas branch joining the meeting is the real reason. The room concern is denied because it 「年間で押さえてある」; the complaint about materials not being ready is acknowledged but downgraded since 「開始を一時間遅らせれば済む」; and holding the meeting in English is merely a future topic to discuss later (「おいおい相談しよう」), not the cause.',
+  },
+  {
+    id: 'n2-listening-pointo-013',
+    kind: 'listening',
+    script: [
+      { speaker: '旁白', text: '会社で男の人が商談から戻った女の人と話しています。' },
+      { speaker: '男', text: '大田さん、今日の南陽産業さんとの商談、手応えはどうだった？' },
+      { speaker: '女', text: '悪くありませんでした。ただ、先方が一番こだわっていたのは、意外なところでしたよ。' },
+      { speaker: '男', text: '価格だろう？あそこは値段に厳しいと有名だから。' },
+      { speaker: '女', text: '値下げの話も出ましたが、そこは想定の範囲内でした。納期についても、今の体制で問題ないそうです。決め手になりそうなのは、少ない数からでも注文できるかどうかなんです。倉庫を小さくして、在庫をなるべく持たない方針に変えたそうで。' },
+      { speaker: '男', text: 'なるほど、それでか。うちは小さな注文にも対応できるから、そこを前面に出そう。' },
+      { speaker: '女', text: 'ええ、次回の提案書はその点を中心にまとめます。' },
+    ],
+    question: '取引先が一番重視している条件は何ですか。',
+    options: [
+      '少ない数から注文できること',
+      '価格を下げること',
+      '納期を早めること',
+      '倉庫を大きくすること',
+    ],
+    answerIndex: 0,
+    explanation:
+      '女の人指出對方最在意的是「少ない数からでも注文できるかどうか」，因為對方縮小倉庫、改採盡量不囤庫存的方針，這是最可能的決勝點。降價雖被提出，但「想定の範囲内」，不是最重視的條件；交期「今の体制で問題ない」被排除；倉庫是對方「小さくして」，選項「大きくする」正好相反。',
+    explanationEn:
+      'The woman reports that what the client cares about most is 「少ない数からでも注文できるかどうか」, because they have downsized their warehouse and shifted to holding as little inventory as possible. Price cuts did come up but were 「想定の範囲内」, so not the top concern; the delivery schedule is fine as is (「今の体制で問題ない」); and the client is making its warehouse smaller, so enlarging it is the exact opposite of what was said.',
+  },
+  {
+    id: 'n2-listening-pointo-014',
+    kind: 'listening',
+    script: [
+      { speaker: '旁白', text: '会社で女の人と男の人が服装の決まりの変更について話しています。' },
+      { speaker: '女', text: '部長、来月から服装が自由になるって本当ですか。夏の軽装なら、もうやっていますけど。' },
+      { speaker: '男', text: 'ああ、今度は一年を通じて自由になるんだ。' },
+      { speaker: '女', text: '冷房の設定を上げて、電気代を減らすのが狙いですか。' },
+      { speaker: '男', text: '節約なら今の夏の軽装で十分効果が出ているよ。実はね、一番の狙いは採用なんだ。就職説明会で学生から、服装が堅い会社は古い感じがするという声が多くてね。若い人に選んでもらえる会社にしたいんだよ。' },
+      { speaker: '女', text: 'そういうことでしたか。でも、取引先に失礼になりませんか。' },
+      { speaker: '男', text: 'お客様にお会いする日はスーツと決まっているから、心配ないよ。' },
+    ],
+    question: '服装の決まりはどうして変わりますか。',
+    options: [
+      '若い人に選ばれる会社にしたいから',
+      '電気代を減らしたいから',
+      '取引先に頼まれたから',
+      '夏の軽装の効果がなかったから',
+    ],
+    answerIndex: 0,
+    explanation:
+      '部長明言「一番の狙いは採用なんだ」：說明會上學生反映服裝拘謹的公司顯得老派，公司希望「若い人に選んでもらえる会社にしたい」，這是放寬服裝規定的主因。省電費被「今の夏の軽装で十分効果が出ている」排除；客戶並沒有提出要求，只是女の人擔心失禮；夏季輕裝並非沒有效果，該選項與對話內容相反。',
+    explanationEn:
+      'The department head states plainly 「一番の狙いは採用なんだ」: students at job fairs say companies with stiff dress codes feel old-fashioned, and the firm wants to be 「若い人に選んでもらえる会社」 — attracting young talent is the real aim. Cutting electricity costs is ruled out because the current summer dress-down already delivers enough savings; the clients never requested the change (the woman merely worries about rudeness); and the summer policy did work, so saying it had no effect contradicts the dialogue.',
+  },
+  {
+    id: 'n2-listening-pointo-015',
+    kind: 'listening',
+    script: [
+      { speaker: '旁白', text: '会社で男の人と女の人が来月の海外出張について話しています。' },
+      { speaker: '男', text: '西さん、来月のベトナム出張、なくなったんだって？楽しみにしてたのに、残念だね。予算が削られたの？' },
+      { speaker: '女', text: 'いえ、費用はもう承認されていたんです。' },
+      { speaker: '男', text: 'じゃあ、ビザの手続きが間に合わなかったとか？' },
+      { speaker: '女', text: '書類はとっくにそろえてありました。実は、見学する予定だった先方の工場が、設備の入れ替え工事に入ってしまって。来月いっぱいは中に入れないそうなんです。' },
+      { speaker: '男', text: 'ああ、それじゃ行っても仕方ないね。' },
+      { speaker: '女', text: 'ええ。打ち合わせだけオンラインで先に済ませて、工場の見学は工事が終わる再来月に、改めて出張することになりました。' },
+    ],
+    question: '女の人はどうして来月の出張に行かないことになりましたか。',
+    options: [
+      '先方の工場が工事中で見学できないから',
+      '出張の予算が削られたから',
+      'ビザの手続きが間に合わなかったから',
+      '先方との打ち合わせがなくなったから',
+    ],
+    answerIndex: 0,
+    explanation:
+      '女の人說明主因：預定參觀的對方工廠進入設備更換工程，「来月いっぱいは中に入れない」，去了也看不到，所以下個月的出差取消。預算被「もう承認されていた」否定；簽證文件「とっくにそろえてありました」也不是問題；會議並沒有消失，而是改成先以線上進行，工廠參觀延到下下個月再出差，選項與事實不符。',
+    explanationEn:
+      'The woman explains the real cause: the client\'s factory they planned to tour has begun replacing its equipment and 「来月いっぱいは中に入れない」, so there is no point going next month. The budget was already approved, ruling that option out; the visa paperwork 「とっくにそろえてありました」, so it was never a problem; and the meeting itself was not canceled — it will simply be held online first, with the factory visit rescheduled for the month after next.',
+  },
+  {
+    id: 'n2-listening-pointo-016',
+    kind: 'listening',
+    script: [
+      { speaker: '旁白', text: '会社で女の人と男の人が新しいプロジェクトのリーダーについて話しています。' },
+      { speaker: '女', text: '課長、今度の新製品のプロジェクト、リーダーは中村さんに決まったそうですね。海外の会社とも組むから、英語力で選ばれたんですか。' },
+      { speaker: '男', text: 'いや、英語だけなら中村より上の者もいるよ。通訳も付くしね。' },
+      { speaker: '女', text: 'では、経験の長さでしょうか。' },
+      { speaker: '男', text: '経験なら課内で一番若いくらいだ。決め手はね、調整力だよ。今度の計画は開発、営業、工場と、関わる部署が多いだろう。中村は前の仕事で、もめていた部署の間に入って、見事にまとめてくれたんだ。' },
+      { speaker: '女', text: 'ああ、あの件ですか。確かにあれは中村さんでなければ、まとまらなかったでしょうね。' },
+      { speaker: '男', text: 'そういうことだ。本人は指名されて驚いていたけどね。' },
+    ],
+    question: '中村さんはどうしてリーダーに選ばれましたか。',
+    options: [
+      '部署の間をまとめる調整力があるから',
+      '英語力がだれよりも高いから',
+      '課内でいちばん経験が長いから',
+      '本人が強く希望したから',
+    ],
+    answerIndex: 0,
+    explanation:
+      '課長點名「決め手はね、調整力だよ」：這次計畫牽涉開發、營業、工廠多個部門，中村過去曾居中化解部門間的糾紛、漂亮收場，這是獲選主因。英語被「英語だけなら中村より上の者もいる」否定；經驗反而是「課内で一番若いくらい」；本人並未爭取，聽到指名還「驚いていた」，可見不是自己強烈希望。',
+    explanationEn:
+      'The section chief names the deciding factor: 「決め手はね、調整力だよ」 — the project spans development, sales, and the factory, and Nakamura once stepped in between quarreling departments and pulled them together brilliantly. English ability is denied with 「英語だけなら中村より上の者もいるよ」; far from being the most experienced, he is about the youngest in the section; and he never volunteered — he was surprised at being named himself.',
+  },
 ]

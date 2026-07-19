@@ -148,4 +148,112 @@ export const questions: JlptQuestion[] = [
       },
     ],
   },
+  {
+    kind: 'passage',
+    id: 'n3-reading-chubun-004',
+    passage:
+      '今年の春、私の課に新入社員が入り、私が仕事を教える係になった。人に教えるのは初めてで、正直、自分の仕事が遅れるのではないかと心配だった。\n実際に教え始めると、困ったことが起きた。毎日やっている仕事なのに、「どうしてこの順番でやるんですか」と聞かれて、答えられなかったのだ。私は先輩に教わったやり方を、理由も考えずにそのまま続けていただけだった。それから私は、説明する前に、一つ一つの作業の意味を自分で確認するようになった。すると、長年のやり方の中に、今では必要のない作業が交ざっていることにも気がついた。\n新入社員に教えたおかげで、私は自分の仕事を見直すことができた。教えることは、教えられることでもあるのだと思う。',
+    explanation: '',
+    questions: [
+      {
+        id: 'n3-reading-chubun-004-q1',
+        stem: '「困ったこと」とあるが、どんなことか。',
+        options: [
+          '毎日やっている仕事なのに、順番の理由を聞かれて答えられなかったこと',
+          '新入社員が仕事の順番をなかなか覚えられなかったこと',
+          '自分の仕事が遅れて、終わらなくなったこと',
+          '先輩に教わったやり方を忘れてしまったこと',
+        ],
+        answerIndex: 0,
+        explanation:
+          '「困ったこと」的內容緊接在後：被新人問「どうしてこの順番でやるんですか」，明明是每天在做的工作卻答不出來。「新入社員が覚えられなかった」錯，答不出來的是筆者自己，不是新人記不住；「仕事が遅れた」只是開始教之前的擔心，文中沒說真的發生；「やり方を忘れた」錯，筆者照著做了多年，只是從沒想過理由。',
+        explanationEn:
+          'What troubled the writer follows immediately: asked 「どうしてこの順番でやるんですか」, he could not answer even though it was work he did every day. "The new employee could not memorize the order" is wrong — the one unable to answer was the writer himself, not the newcomer failing to remember; "his own work fell behind" was only a worry before he started teaching, never said to have happened; "forgot the method he was taught" is wrong because he had followed it for years, merely without ever considering the reasons.',
+      },
+      {
+        id: 'n3-reading-chubun-004-q2',
+        stem: '仕事を教え始めてから、筆者が気がついたことは何か。',
+        options: [
+          '長年のやり方の中に、今では必要のない作業が交ざっていたこと',
+          '新入社員のほうが自分より仕事が速いこと',
+          '先輩に教わったやり方がすべて間違っていたこと',
+          '教える係になると、自分の給料が上がること',
+        ],
+        answerIndex: 0,
+        explanation:
+          '第二段末寫得很清楚：「長年のやり方の中に、今では必要のない作業が交ざっていることにも気がついた」。「新入社員のほうが速い」文中完全沒有提到；「すべて間違っていた」說得太過頭，筆者只發現混有不再必要的作業，並非全盤否定前輩的做法；「給料が上がる」是無中生有的選項。',
+        explanationEn:
+          'The end of paragraph two states it plainly: 「長年のやり方の中に、今では必要のない作業が交ざっていることにも気がついた」. "The newcomer works faster than him" is never mentioned; "everything his senior taught was wrong" overshoots — the writer only found some steps that were no longer necessary, not a wholesale rejection of the method; and a pay raise for taking the mentoring role is pure fabrication.',
+      },
+      {
+        id: 'n3-reading-chubun-004-q3',
+        stem: 'この文章で筆者がもっとも言いたいことは何か。',
+        options: [
+          '人に教えることは、自分の仕事を見直すことにもつながる',
+          '新入社員に仕事を教えると、自分の仕事が遅れてしまう',
+          '仕事のやり方は、理由を考えずに先輩のとおりに続けるべきだ',
+          '新入社員は、仕事の順番について質問しないほうがいい',
+        ],
+        answerIndex: 0,
+        explanation:
+          '結論在最後一段：「新入社員に教えたおかげで、私は自分の仕事を見直すことができた。教えることは、教えられることでもある」。「自分の仕事が遅れてしまう」只是教之前的擔心，結果反而有收穫；「理由を考えずに続けるべきだ」正是筆者反省的舊態度；「質問しないほうがいい」方向相反，新人的提問正是帶來改變的契機。',
+        explanationEn:
+          'The conclusion sits in the final paragraph: thanks to teaching the newcomer, 「私は自分の仕事を見直すことができた。教えることは、教えられることでもある」. "Your own work falls behind" was merely the worry beforehand, and the result was the opposite — he gained from it; "keep following your senior\'s way without thinking about reasons" is exactly the old attitude the writer came to reflect on; "newcomers should not ask questions" points the wrong way, since the newcomer\'s question was what triggered the change.',
+      },
+    ],
+  },
+  {
+    kind: 'passage',
+    id: 'n3-reading-chubun-005',
+    passage:
+      '先月、会社の近くのアパートに引っ越した。新しい部屋は前の部屋より少し狭くなるので、荷物を全部は持って行けない。そこで、引っ越しの準備をしながら、荷物を減らすことにした。\nやってみて驚いたのは、「いつか使うだろう」と思って取っておいた物の多さだ。何年も開けていない箱、一度も着ていない服、二つも三つもある同じような鍋。私は、使っていない物のために、部屋の場所代を払っていたようなものだった。\n残すかどうか迷ったときは、「この一年の間に使ったかどうか」で決めた。使っていない物は、必要としている人にゆずるか、リサイクルの店に持って行った。おかげで、新しい部屋は前より狭いのに、前より広く感じられる。物が少ないと、掃除も楽だし、どこに何があるかすぐ分かる。引っ越しは、生活を見直すいい機会になったと思う。',
+    explanation: '',
+    questions: [
+      {
+        id: 'n3-reading-chubun-005-q1',
+        stem: '筆者が荷物を減らすことにしたのは、なぜか。',
+        options: [
+          '新しい部屋が前より狭くて、荷物を全部は持って行けないから',
+          '使っていない物を高く売りたかったから',
+          '引っ越しの会社に荷物が多すぎると言われたから',
+          '前の部屋の掃除が大変だったから',
+        ],
+        answerIndex: 0,
+        explanation:
+          '第一段說明原因：「新しい部屋は前の部屋より少し狭くなるので、荷物を全部は持って行けない。そこで…荷物を減らすことにした」。「高く売りたかった」錯，不用的東西是讓給需要的人或拿去回收商店，不是為了賣錢；「引っ越しの会社に言われた」文中沒有出現；「掃除が大変だった」錯，「掃除も楽」是減物之後才提到的好處，不是動機。',
+        explanationEn:
+          'Paragraph one gives the reason: 「新しい部屋は前の部屋より少し狭くなるので、荷物を全部は持って行けない」, and so the writer decided to cut down his belongings. "Wanted to sell unused things at a high price" is wrong — they were given to people who needed them or taken to a recycle shop, not sold for profit; being told by the moving company that he had too much appears nowhere; "cleaning the old room was hard" is wrong because easier cleaning is a benefit mentioned only after downsizing, not the motive.',
+      },
+      {
+        id: 'n3-reading-chubun-005-q2',
+        stem: '「部屋の場所代を払っていたようなものだった」とは、どういう意味か。',
+        options: [
+          '使わない物を置くために、部屋の広さとお金を無駄にしていたということ',
+          '荷物を置くために、部屋をもう一つ借りていたということ',
+          'リサイクルの店にお金を払って、物を預けていたということ',
+          '引っ越しの料金が、荷物の数のせいで高くなったということ',
+        ],
+        answerIndex: 0,
+        explanation:
+          '前文列舉多年未開的箱子、沒穿過的衣服、重複的鍋子，筆者感嘆自己等於為「使っていない物」付了房間的空間費——租來的空間被無用之物佔據、房租白花了。「部屋をもう一つ借りていた」是把比喻誤讀成事實；「リサイクルの店に預けていた」錯，回收商店只是後來處理物品的去處；「引っ越しの料金」文中沒有提到因為東西多而變貴。',
+        explanationEn:
+          'After listing unopened boxes, never-worn clothes, and duplicate pots, the writer laments that he was in effect paying room rent for 「使っていない物」 — rented space was occupied by useless things, wasting both space and money. "Renting a second room for his belongings" mistakes the metaphor for fact; "paying a recycle shop to store things" is wrong, as the shop is merely where he later took the items; and nothing in the text says the moving fee rose because of the amount of luggage.',
+      },
+      {
+        id: 'n3-reading-chubun-005-q3',
+        stem: '引っ越しのあとの生活について、筆者はどう感じているか。',
+        options: [
+          '部屋は前より狭いのに広く感じられて、生活しやすくなった',
+          '物が少なくなって、かえって不便になった',
+          'ゆずった物のことが忘れられなくて、後悔している',
+          '荷物が多かった前の部屋のほうが住みやすかった',
+        ],
+        answerIndex: 0,
+        explanation:
+          '最後一段寫「新しい部屋は前より狭いのに、前より広く感じられる。物が少ないと、掃除も楽だし、どこに何があるかすぐ分かる」，全是正面評價。「かえって不便になった」與此相反；「後悔している」錯，文中沒有任何後悔讓出物品的描述；「前の部屋のほうが住みやすかった」也與結尾「生活を見直すいい機会になった」的肯定語氣不符。',
+        explanationEn:
+          'The final paragraph says the new room, though smaller, 「前より広く感じられる」, cleaning is easier, and he can instantly find where everything is — an entirely positive assessment. "Became inconvenient instead" says the opposite; "regrets giving things away" is wrong, as no regret is described anywhere; and preferring the old, cluttered room contradicts the affirmative closing line that the move was a good chance to rethink his lifestyle.',
+      },
+    ],
+  },
 ]

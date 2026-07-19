@@ -201,4 +201,204 @@ export const questions: JlptQuestion[] = [
     explanationEn:
       'To volunteer help, the volitional 「持ちましょうか」— "shall I carry that for you?" — is the natural offer. 「持ってくれませんか」 means "could you carry this for me?", reversing the favor so that you are asking the elderly woman to carry your luggage; 「持ってあげましたか」 is past tense, asking "did you carry it for someone?", which is neither an offer nor in the right tense.',
   },
+  {
+    id: 'n4-listening-hatsuwa-011',
+    kind: 'listening',
+    script: [
+      { speaker: '旁白', text: '図書館で借りた本を、コーヒーで汚してしまいました。本を返しに行きます。' },
+      { speaker: '旁白', text: '図書館の人に何と言いますか。' },
+    ],
+    question: '何と言いますか。',
+    options: [
+      'すみません、借りた本を汚してしまいました。',
+      'すみません、借りた本を汚されてしまいました。',
+      'すみません、借りた本を汚してもいいですか。',
+    ],
+    answerIndex: 0,
+    spokenOptions: true,
+    explanation:
+      '自己弄髒了借來的書要道歉，用「汚してしまいました」（〜てしまう：表示懊悔的過失）最合適。「汚されてしまいました」是被動形，變成「書被別人弄髒了」，像在推卸責任，主語弄錯；「汚してもいいですか」是徵求「可以弄髒嗎」的許可，事情已經發生了，語意完全不通。',
+    explanationEn:
+      'To apologize for staining a borrowed book yourself, 「汚してしまいました」 (〜てしまう expressing a regrettable mistake) is the right form. 「汚されてしまいました」 is passive — "the book got stained by someone" — which shifts the blame away from you, so the subject is wrong; 「汚してもいいですか」 asks permission to stain it, but the damage is already done, so it makes no sense.',
+  },
+  {
+    id: 'n4-listening-hatsuwa-012',
+    kind: 'listening',
+    script: [
+      { speaker: '旁白', text: '授業で先生がプリントを配りましたが、一枚足りなくて、もらえませんでした。' },
+      { speaker: '旁白', text: '先生に何と言いますか。' },
+    ],
+    question: '何と言いますか。',
+    options: [
+      'すみません、プリントがもらえませんでした。もう一枚いただけませんか。',
+      'すみません、プリントをもう一枚あげましょうか。',
+      'すみません、プリントをもらったことがありますか。',
+    ],
+    answerIndex: 0,
+    spokenOptions: true,
+    explanation:
+      '沒拿到講義要向先生說明情況並請求，用「もらえませんでした」加上謙讓的「もう一枚いただけませんか」（能否再給我一張）最合適。「あげましょうか」變成自己要發講義給先生，授受方向相反；「もらったことがありますか」是問先生「你拿過講義嗎」的經驗問句，答非所問，語意不通。',
+    explanationEn:
+      'When you did not receive a handout, you explain the situation and make a polite request: 「もらえませんでした。もう一枚いただけませんか」— "I could not get one; could I have another?" 「あげましょうか」 offers to hand a printout to the teacher, reversing the direction of giving; 「もらったことがありますか」 asks the teacher about their past experience of receiving handouts — an absurd non-request.',
+  },
+  {
+    id: 'n4-listening-hatsuwa-013',
+    kind: 'listening',
+    script: [
+      { speaker: '旁白', text: '熱が出て学校を休んだので、漢字のテストが受けられませんでした。別の日に受けたいです。' },
+      { speaker: '旁白', text: '先生に何と言いますか。' },
+    ],
+    question: '何と言いますか。',
+    options: [
+      'すみません、テストを別の日に受けさせていただけませんか。',
+      'すみません、テストを別の日に受けてくださいませんか。',
+      'すみません、テストを別の日に受けてあげましょうか。',
+    ],
+    answerIndex: 0,
+    spokenOptions: true,
+    explanation:
+      '想請先生讓自己改天補考，用使役形加授受的「受けさせていただけませんか」（能否讓我考）最恰當，是 N4 的重要文型。「受けてくださいませんか」是請先生去考試，考試的人弄錯了；「受けてあげましょうか」把考試說成施恩給先生，授受方向和語意都不通。',
+    explanationEn:
+      'To ask the teacher to let you take the test on another day, the causative plus receiving form 「受けさせていただけませんか」— "would you kindly let me take it?" — is the right N4 pattern. 「受けてくださいませんか」 asks the teacher to take the test, so the wrong person would be the test-taker; 「受けてあげましょうか」 frames taking the test as a favor done for the teacher, wrong in both direction and sense.',
+  },
+  {
+    id: 'n4-listening-hatsuwa-014',
+    kind: 'listening',
+    script: [
+      { speaker: '旁白', text: '昨日この店で買ったくつが小さかったです。大きいのに替えたいです。' },
+      { speaker: '旁白', text: '店の人に何と言いますか。' },
+    ],
+    question: '何と言いますか。',
+    options: [
+      'このくつ、少し小さいので、大きいサイズに替えていただけませんか。',
+      'このくつ、少し小さいので、大きいサイズに替えてあげましょうか。',
+      'このくつ、少し小さいので、大きいサイズに替わりましたか。',
+    ],
+    answerIndex: 0,
+    spokenOptions: true,
+    explanation:
+      '想換尺寸要客氣地請店員幫忙，用「替えていただけませんか」（能否幫我換）。「替えてあげましょうか」是「我幫你換好嗎」，變成客人要幫店員換鞋，授受方向相反；「替わりましたか」用自動詞的過去式，變成在問「已經換好了嗎」，請託都還沒提出就問結果，動詞和時態都不對。',
+    explanationEn:
+      'To exchange the shoes, you politely ask the clerk with 「替えていただけませんか」— "could you exchange these for me?" 「替えてあげましょうか」 means "shall I exchange them for you?", reversing the favor so the customer serves the clerk; 「替わりましたか」 uses the intransitive verb in the past tense, asking "has it already been exchanged?" before even making the request — wrong verb and wrong tense.',
+  },
+  {
+    id: 'n4-listening-hatsuwa-015',
+    kind: 'listening',
+    script: [
+      { speaker: '旁白', text: '店で大きいストーブを買いました。車がないので、家まで持って帰れません。' },
+      { speaker: '旁白', text: '店の人に何と言いますか。' },
+    ],
+    question: '何と言いますか。',
+    options: [
+      'すみません、これ、家まで届けてもらえませんか。',
+      'すみません、これ、家まで届けてあげましょうか。',
+      'すみません、これ、家まで届いてもいいですか。',
+    ],
+    answerIndex: 0,
+    spokenOptions: true,
+    explanation:
+      '想請店家送貨到家，用「届けてもらえませんか」（能否幫我送）。「届けてあげましょうか」是「我幫你送好嗎」，變成客人要幫店員送貨，授受方向相反；「届いてもいいですか」用了自動詞「届く」（送達），變成在問「東西可以到嗎」，不成請託。他動詞「届ける」和自動詞「届く」的混用是常見的錯誤。',
+    explanationEn:
+      'To ask the store to deliver, use 「届けてもらえませんか」— "could you deliver this to my house?" 「届けてあげましょうか」 offers to deliver it for the clerk, reversing the favor; 「届いてもいいですか」 mistakenly uses the intransitive 「届く」 (to arrive), asking "may it arrive?", which is no request at all — a classic transitive/intransitive mix-up between 「届ける」 and 「届く」.',
+  },
+  {
+    id: 'n4-listening-hatsuwa-016',
+    kind: 'listening',
+    script: [
+      { speaker: '旁白', text: '店で友だちの誕生日プレゼントを買いました。きれいな紙で包んでほしいです。' },
+      { speaker: '旁白', text: '店の人に何と言いますか。' },
+    ],
+    question: '何と言いますか。',
+    options: [
+      'すみません、これ、プレゼント用に包んでいただけませんか。',
+      'すみません、これ、プレゼント用に包んであげましょうか。',
+      'すみません、これ、プレゼント用に包んでもいいですか。',
+    ],
+    answerIndex: 0,
+    spokenOptions: true,
+    explanation:
+      '請店員包裝禮物用「包んでいただけませんか」（能否幫我包）最合適。「包んであげましょうか」是「我幫你包好嗎」，變成客人要替店員包東西，授受方向相反；「包んでもいいですか」是徵求「自己來包」的許可，可是想要的是店員代為包裝，做動作的人弄錯了。',
+    explanationEn:
+      'To have a gift wrapped, ask the clerk with 「包んでいただけませんか」— "could you wrap this for me?" 「包んであげましょうか」 means "shall I wrap it for you?", turning the customer into the one doing the favor; 「包んでもいいですか」 asks permission to wrap it yourself, but what you want is for the clerk to do the wrapping, so the actor is wrong.',
+  },
+  {
+    id: 'n4-listening-hatsuwa-017',
+    kind: 'listening',
+    script: [
+      { speaker: '旁白', text: '電車が駅に着きましたが、ドアの近くに人がたくさん立っています。降りたいです。' },
+      { speaker: '旁白', text: '何と言いますか。' },
+    ],
+    question: '何と言いますか。',
+    options: [
+      'すみません、降ります。通していただけませんか。',
+      'すみません、ここで降りてくださいませんか。',
+      'すみません、電車を降りてあげましょうか。',
+    ],
+    answerIndex: 0,
+    spokenOptions: true,
+    explanation:
+      '下車時請人讓路，先說明「降ります」再用「通していただけませんか」（能否讓我過）請求最自然。「ここで降りてくださいませんか」是請別的乘客下車，下車的人弄錯了；「降りてあげましょうか」用「〜てあげる」把自己下車說成施恩給別人，語意完全不通。',
+    explanationEn:
+      'To get off a crowded train, you announce 「降ります」 and then request passage with 「通していただけませんか」— "could you let me through?" 「ここで降りてくださいませんか」 asks the other passengers to get off the train, so the wrong person would leave; 「降りてあげましょうか」 uses 〜てあげる to frame your own getting off as a favor to someone, which makes no sense.',
+  },
+  {
+    id: 'n4-listening-hatsuwa-018',
+    kind: 'listening',
+    script: [
+      { speaker: '旁白', text: '新幹線で、自分の予約した席に、知らない人が座っています。' },
+      { speaker: '旁白', text: 'その人に何と言いますか。' },
+    ],
+    question: '何と言いますか。',
+    options: [
+      'あのう、すみません。そこは私の席だと思うんですが。',
+      'あのう、すみません。私の席に座ってください。',
+      'あのう、すみません。そこに座ったことがありますか。',
+    ],
+    answerIndex: 0,
+    spokenOptions: true,
+    explanation:
+      '發現自己的座位被坐，用委婉的「そこは私の席だと思うんですが」提醒對方最自然，句尾的「〜と思うんですが」能緩和語氣、避免衝突。「私の席に座ってください」是邀請對方坐自己的位子，和想請對方離開的目的相反；「座ったことがありますか」是問對方的經驗，答非所問，語意不通。',
+    explanationEn:
+      'When someone is sitting in your reserved seat, the soft 「そこは私の席だと思うんですが」— "I believe that is my seat" — raises the issue politely, with the trailing 「〜と思うんですが」 cushioning the tone. 「私の席に座ってください」 invites the person to sit in your seat, the opposite of asking them to move; 「座ったことがありますか」 asks about their past experience of sitting there — an irrelevant question.',
+  },
+  {
+    id: 'n4-listening-hatsuwa-019',
+    kind: 'listening',
+    script: [
+      { speaker: '旁白', text: '母が台所で晩ご飯を作っています。とても忙しそうです。手伝いたいです。' },
+      { speaker: '旁白', text: '母に何と言いますか。' },
+    ],
+    question: '何と言いますか。',
+    options: [
+      'お母さん、忙しそうだね。何か手伝おうか。',
+      'お母さん、忙しそうだね。ちょっと手伝ってくれない？',
+      'お母さん、忙しそうだね。手伝わなくてもいい？',
+    ],
+    answerIndex: 0,
+    spokenOptions: true,
+    explanation:
+      '主動提出幫忙用意向形「手伝おうか」（我來幫忙吧）最自然。「手伝ってくれない？」是請母親幫自己的忙，授受方向相反，想幫忙的人變成了被幫的人；「手伝わなくてもいい？」是在問「可以不幫嗎」，想偷懶的語氣和想幫忙的情境完全相反。',
+    explanationEn:
+      'To volunteer help, the volitional 「手伝おうか」— "shall I help with something?" — is the natural offer. 「手伝ってくれない？」 asks your mother to help you instead, reversing the direction of the favor; 「手伝わなくてもいい？」 asks "is it okay if I do not help?", the tone of someone trying to get out of helping — the exact opposite of the situation.',
+  },
+  {
+    id: 'n4-listening-hatsuwa-020',
+    kind: 'listening',
+    script: [
+      { speaker: '旁白', text: '今から出かけますが、外は強い雨です。駅まで歩くと20分かかります。父は家にいます。' },
+      { speaker: '旁白', text: '父に何と言いますか。' },
+    ],
+    question: '何と言いますか。',
+    options: [
+      'お父さん、雨だから、車で駅まで送ってくれない？',
+      'お父さん、雨だから、車で駅まで送ってあげようか。',
+      'お父さん、雨だから、車で駅まで送られてくれない？',
+    ],
+    answerIndex: 0,
+    spokenOptions: true,
+    explanation:
+      '拜託父親開車送自己，口語的請託用「送ってくれない？」（可以送我嗎）最自然。「送ってあげようか」是「我送你去好嗎」，變成自己要開車送父親，授受方向相反；「送られてくれない？」把被動形硬塞進請託句裡，日文裡沒有這種說法，文法錯誤。',
+    explanationEn:
+      'To ask your father for a ride, the casual request 「送ってくれない？」— "could you drive me to the station?" — is the natural choice. 「送ってあげようか」 means "shall I drive you there?", offering to drive your father instead; 「送られてくれない？」 jams the passive form into the request pattern, a combination that simply does not exist in Japanese — grammatically broken.',
+  },
 ]

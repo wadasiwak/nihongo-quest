@@ -177,4 +177,178 @@ export const questions: JlptQuestion[] = [
       },
     ],
   },
+  {
+    id: 'n4-reading-tanbun-007',
+    kind: 'passage',
+    passage:
+      'わたしの国の学校では、そうじの人が教室をそうじします。日本の学校では、生徒が自分たちで教室をそうじすると聞いて、はじめはとてもびっくりしました。でも、今の日本語学校で毎日そうじをしてみると、自分たちでそうじした教室は、きれいに使おうという気持ちになります。今では、生徒がそうじをするのは、いいことだと思っています。',
+    explanation: '',
+    questions: [
+      {
+        id: 'n4-reading-tanbun-007-q1',
+        stem: 'この人は、生徒が教室をそうじすることについて、今、どう思っていますか。',
+        options: [
+          'いいことだと思っている',
+          '今もびっくりしている',
+          'そうじの人がしたほうがいいと思っている',
+          '国の学校のほうがきれいだと思っている',
+        ],
+        answerIndex: 0,
+        explanation:
+          '文末明說「今では、生徒がそうじをするのは、いいことだと思っています」，所以現在的想法是「好事」。「今もびっくりしている」錯，吃驚是「はじめは」的反應，已被「でも」之後的內容推翻；「そうじの人がしたほうがいい」錯，那只是他國家學校的做法，不是他的主張；「国の学校のほうがきれい」文中完全沒有比較哪邊乾淨。',
+        explanationEn:
+          'The last sentence says it directly: 「今では、生徒がそうじをするのは、いいことだと思っています」 — the writer now thinks it is a good thing. "Still surprised" is wrong: being surprised belongs to 「はじめは」 and is overturned by what follows 「でも」; "cleaning staff should do it" is merely how schools in the writer\'s country work, not the writer\'s opinion; and the passage never compares which country\'s schools are cleaner.',
+      },
+    ],
+  },
+  {
+    id: 'n4-reading-tanbun-008',
+    kind: 'passage',
+    passage:
+      'わたしはよく、インターネットで服を買います。店より安いし、家までとどけてくれるので、便利だからです。でも、くつだけは、いつも店で買います。くつは、はいてみないと、自分の足に合うかどうか分からないからです。前に一度、インターネットで買ったくつが小さくて、はけなかったことがあります。それから、くつは店ではいてみてから、買うことにしています。',
+    explanation: '',
+    questions: [
+      {
+        id: 'n4-reading-tanbun-008-q1',
+        stem: 'この人は、どうしてくつは店で買いますか。',
+        options: [
+          'はいてみないと、足に合うかどうか分からないから',
+          '店のほうがインターネットより安いから',
+          '店の人がくつをえらんでくれるから',
+          '家までとどけてくれるから',
+        ],
+        answerIndex: 0,
+        explanation:
+          '文中明說「くつは、はいてみないと、自分の足に合うかどうか分からないからです」，不試穿就不知道合不合腳，這才是在店裡買鞋的理由。「店のほうが安いから」正好相反，文中說網路「店より安い」；「店の人がえらんでくれる」文中沒提；「家までとどけてくれる」是網購的優點，不是在店裡買的理由。',
+        explanationEn:
+          'The passage states the reason: 「くつは、はいてみないと、自分の足に合うかどうか分からないからです」 — without trying shoes on, you can\'t tell whether they fit. "Stores are cheaper than the internet" is backwards: the text says online shopping is 「店より安い」; a clerk choosing shoes for the writer is never mentioned; and home delivery is an advantage of online shopping, not a reason to buy at a store.',
+      },
+    ],
+  },
+  {
+    id: 'n4-reading-tanbun-009',
+    kind: 'passage',
+    passage:
+      'お父さんへ\n今日の夜、姉さんの家族がうちに来ます。わたしは仕事で、帰りが七時になります。すみませんが、六時に駅へむかえに行ってください。それから、駅へ行く前に、スーパーでジュースとくだものを買っておいてください。お金はテーブルの上にあります。ばんごはんは、姉さんが作ってくれるそうです。\n京子',
+    explanation: '',
+    questions: [
+      {
+        id: 'n4-reading-tanbun-009-q1',
+        stem: 'お父さんは、今日、何をしますか。',
+        options: [
+          'スーパーで買い物をしてから、駅へむかえに行く',
+          '駅へ行ってから、スーパーで買い物をする',
+          'ばんごはんを作ってから、駅へ行く',
+          '七時に駅へむかえに行く',
+        ],
+        answerIndex: 0,
+        explanation:
+          '依據「駅へ行く前に、スーパーでジュースとくだものを買っておいてください」，順序是先買東西、再去車站接人。「駅へ行ってから買い物」順序相反；「ばんごはんを作って」錯，晚飯是姉さん要做的（作ってくれるそうです）；「七時に駅へ」錯，接人的時間是六點，七點是京子下班回家的時間。',
+        explanationEn:
+          'The memo says 「駅へ行く前に、スーパーでジュースとくだものを買っておいてください」, so the order is shopping first, then picking everyone up at the station. "Station first, then shopping" reverses the order; "make dinner" is wrong — dinner will be made by the older sister (作ってくれるそうです); and "go to the station at seven" is wrong, since pickup time is six and seven is when Kyoko gets home from work.',
+      },
+      {
+        id: 'n4-reading-tanbun-009-q2',
+        stem: '京子さんは、どうして駅へむかえに行けませんか。',
+        options: [
+          '仕事で、帰りが七時になるから',
+          'ばんごはんを作らなければならないから',
+          'スーパーで買い物をするから',
+          '姉さんの家族と出かけるから',
+        ],
+        answerIndex: 0,
+        explanation:
+          '依據「わたしは仕事で、帰りが七時になります」，京子因為工作要七點才能回家，趕不上六點去車站接人。「ばんごはんを作らなければならない」錯，晚飯是姉さん做，不是京子；「スーパーで買い物をする」錯，買東西是拜託爸爸做的事；「姉さんの家族と出かける」文中完全沒提，姉さん一家是今晚要來家裡。',
+        explanationEn:
+          'The memo says 「わたしは仕事で、帰りが七時になります」 — Kyoko won\'t be home until seven because of work, so she can\'t be at the station at six. "She has to make dinner" is wrong: dinner is the older sister\'s job, not Kyoko\'s; "she is shopping at the supermarket" is wrong — the shopping is what she asks her father to do; and going out with the sister\'s family is never mentioned, since they are coming to the house tonight.',
+      },
+    ],
+  },
+  {
+    id: 'n4-reading-tanbun-010',
+    kind: 'passage',
+    passage:
+      'わたしのしゅみは、絵をかくことです。休みの日は、小さいスケッチブックとえんぴつを持って、近くの公園へ行きます。公園の木や花、ねこなどをかきます。じょうずではないので、はじめは人に見られるのがはずかしかったです。でも先週、わたしの絵を見ていた小さい女の子が「上手だね」と言ってくれて、とてもうれしくなりました。これからも、たくさんかきたいと思います。',
+    explanation: '',
+    questions: [
+      {
+        id: 'n4-reading-tanbun-010-q1',
+        stem: 'この人は、先週、どうしてうれしくなりましたか。',
+        options: [
+          '女の子が絵を「上手だね」と言ってくれたから',
+          '絵がじょうずにかけるようになったから',
+          '公園でねこに会えたから',
+          '新しいスケッチブックを買ったから',
+        ],
+        answerIndex: 0,
+        explanation:
+          '依據「小さい女の子が『上手だね』と言ってくれて、とてもうれしくなりました」，開心的原因是小女孩稱讚了他的畫。「じょうずにかけるようになった」錯，文中說自己「じょうずではない」，並沒有說畫變好了；「ねこに会えたから」錯，貓只是他平常畫的題材之一；「新しいスケッチブックを買った」文中完全沒提。',
+        explanationEn:
+          'The passage says 「小さい女の子が『上手だね』と言ってくれて、とてもうれしくなりました」 — the writer was happy because a little girl praised the drawing. "Because the writer became good at drawing" is wrong: the text says 「じょうずではない」 and never claims improvement; "because of meeting a cat" is wrong — cats are just one of the usual subjects to draw; and buying a new sketchbook is never mentioned.',
+      },
+    ],
+  },
+  {
+    id: 'n4-reading-tanbun-011',
+    kind: 'passage',
+    passage:
+      'リンさん\n日曜日のぎょうざパーティーのことですが、場所はわたしのアパートで、十二時からです。ざいりょうはわたしが買っておきますから、リンさんは飲み物を二本ぐらい持ってきてください。作り方は、りょうりが上手な王さんが教えてくれます。アパートの入口が分かりにくいので、着いたら電話してください。むかえに行きます。\n田中',
+    explanation: '',
+    questions: [
+      {
+        id: 'n4-reading-tanbun-011-q1',
+        stem: 'リンさんは、日曜日、何を持って行きますか。',
+        options: [
+          '飲み物',
+          'ぎょうざのざいりょう',
+          'りょうりの本',
+          '何も持って行かなくてもいい',
+        ],
+        answerIndex: 0,
+        explanation:
+          '依據「リンさんは飲み物を二本ぐらい持ってきてください」，林同學要帶的是飲料。「ぎょうざのざいりょう」錯，材料是田中「買っておきます」，由田中先準備；「りょうりの本」文中沒提，作法是由會做菜的王さん現場教；「何も持って行かなくてもいい」錯，田中明確拜託了帶飲料這件事。',
+        explanationEn:
+          'The message says 「リンさんは飲み物を二本ぐらい持ってきてください」 — Lin should bring drinks. "The gyoza ingredients" is wrong because Tanaka says 「買っておきます」, meaning Tanaka will buy them in advance; a cookbook is never mentioned — Wang, who is good at cooking, will teach everyone on the spot; and "doesn\'t need to bring anything" is wrong since Tanaka explicitly asks for drinks.',
+      },
+      {
+        id: 'n4-reading-tanbun-011-q2',
+        stem: 'リンさんは、アパートに着いたら、まず何をしますか。',
+        options: [
+          '田中さんに電話する',
+          '一人で部屋をさがす',
+          '王さんに作り方を教える',
+          'ざいりょうを買いに行く',
+        ],
+        answerIndex: 0,
+        explanation:
+          '依據「着いたら電話してください。むかえに行きます」，到了公寓要先打電話給田中，田中會來接。「一人で部屋をさがす」錯，正因為「入口が分かりにくい」才要打電話等人來接；「王さんに作り方を教える」方向相反，是王さん教大家；「ざいりょうを買いに行く」錯，材料由田中事先買好。',
+        explanationEn:
+          'The message says 「着いたら電話してください。むかえに行きます」 — upon arriving, Lin should first call Tanaka, who will come to meet her. Looking for the room alone is wrong: the phone call is needed precisely because 「入口が分かりにくい」; "teaching Wang how to cook" reverses the roles — Wang is the one who teaches; and buying ingredients is wrong because Tanaka buys them beforehand.',
+      },
+    ],
+  },
+  {
+    id: 'n4-reading-tanbun-012',
+    kind: 'passage',
+    passage:
+      'わたしは去年から、そふに将棋を教えてもらっています。こまの動かし方がむずかしくて、はじめのころは、何度やってもまけていました。でも先週、はじめてそふに勝つことができました。そのとき、わたしよりも、そふのほうがうれしそうな顔をしていました。「教えた人が強くなるのは、うれしいものだよ」と、そふは笑いながら言いました。',
+    explanation: '',
+    questions: [
+      {
+        id: 'n4-reading-tanbun-012-q1',
+        stem: 'そふは、どうしてうれしそうな顔をしていましたか。',
+        options: [
+          '教えた「わたし」が強くなって、勝ったから',
+          'そふが将棋に勝ったから',
+          '新しいこまをもらったから',
+          '「わたし」がまけたから',
+        ],
+        answerIndex: 0,
+        explanation:
+          '依據「教えた人が強くなるのは、うれしいものだよ」，爺爺開心是因為自己教的「わたし」變強、贏了棋。「そふが勝ったから」正好相反，上週是「わたし」第一次贏了爺爺；「新しいこまをもらった」文中沒提，「こま」只出現在「動かし方がむずかしい」的說明裡；「わたしがまけたから」錯，輸棋是以前的事，而且那也不是爺爺開心的理由。',
+        explanationEn:
+          'Grandfather\'s own words explain it: 「教えた人が強くなるのは、うれしいものだよ」 — he was happy because the grandchild he taught grew stronger and won. "Because grandfather won" is the opposite: last week the writer beat him for the first time; receiving new pieces is never mentioned — 「こま」 only appears in the remark about how hard the moves are; and "because the writer lost" is wrong, since losing belongs to the earlier period and wasn\'t what pleased him.',
+      },
+    ],
+  },
 ]

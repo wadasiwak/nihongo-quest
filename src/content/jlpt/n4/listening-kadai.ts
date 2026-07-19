@@ -211,4 +211,212 @@ export const questions: JlptQuestion[] = [
     explanationEn:
       'The man says 「この二つをお願いします」 and hands his two bags to the front desk on the spot, so leaving his luggage comes first, and only then does he go out for lunch. Eating lunch is indeed his next plan, but it happens after depositing the bags, making it a sequence trap; going up to his room is blocked by 「チェックインは3時からなんです」— check-in has not started yet; and waiting in the lobby until 3 is never suggested by anyone.',
   },
+  {
+    id: 'n4-listening-kadai-011',
+    kind: 'listening',
+    script: [
+      { speaker: '旁白', text: '教室で先生と男の学生が明日の遠足について話しています。' },
+      { speaker: '女', text: '明日の遠足はバスで行きます。今からバスの席を決めますから、まずこの紙に名前を書いてください。' },
+      { speaker: '男', text: 'はい。先生、お弁当の注文もするんですよね。' },
+      { speaker: '女', text: '注文は名前を書いた後で受け付けます。' },
+      { speaker: '男', text: 'わかりました。飲み物はどうしますか。' },
+      { speaker: '女', text: '飲み物は明日、自分で持って来てください。' },
+      { speaker: '男', text: 'はい、じゃあ、書きます。' },
+    ],
+    question: '男の学生はこのあとまず何をしますか。',
+    options: ['紙に名前を書く', 'お弁当を注文する', '飲み物を持って来る', 'バスの席に座る'],
+    answerIndex: 0,
+    explanation:
+      '先生說「まずこの紙に名前を書いてください」，所以最先要做的是在紙上寫名字。訂便當被先生說「名前を書いた後で受け付けます」，要寫完名字才受理，順序不對；飲料是「明日、自分で持って来てください」，是明天的事；坐上巴士的座位更是遠足當天才會做的事。',
+    explanationEn:
+      'The teacher\'s first instruction is 「まずこの紙に名前を書いてください」, so writing his name on the paper comes first. Ordering the boxed lunch is accepted only 「名前を書いた後で」— after writing the name — so its order is wrong; drinks are for tomorrow (「明日、自分で持って来てください」); and taking a seat on the bus happens on the day of the excursion itself.',
+  },
+  {
+    id: 'n4-listening-kadai-012',
+    kind: 'listening',
+    script: [
+      { speaker: '旁白', text: '大学で男の学生と女の学生がサークルのポスターについて話しています。' },
+      { speaker: '男', text: '新しい人を集めるポスター、写真はもう選んだよ。あとは説明の文だけだね。' },
+      { speaker: '女', text: '文はもう書いたよ。これ、どうかな。' },
+      { speaker: '男', text: 'いいね。じゃあ、すぐ印刷しようか。' },
+      { speaker: '女', text: '待って。印刷の前に、部長に文を見せて、チェックしてもらわなければならないよ。' },
+      { speaker: '男', text: 'そうだった。じゃあ、部長の教室に行ってくるよ。' },
+      { speaker: '女', text: 'お願い。私は印刷の紙を準備しておくね。' },
+    ],
+    question: '男の学生はこのあとまず何をしますか。',
+    options: ['部長に文を見せに行く', 'ポスターを印刷する', 'ポスターの写真を選ぶ', '印刷の紙を準備する'],
+    answerIndex: 0,
+    explanation:
+      '男の学生本來想馬上印，但女の学生更正說「印刷の前に、部長に文を見せて、チェックしてもらわなければならないよ」，他也回答「部長の教室に行ってくるよ」，所以最先做的是拿文章給部長看。印海報要等部長確認之後才行，是順序顛倒的干擾項；照片已經選好，是完成的事；準備印刷用紙是女の学生說「私が準備しておく」的工作。',
+    explanationEn:
+      'The male student wants to print right away, but the female student corrects him: 「印刷の前に、部長に文を見せて、チェックしてもらわなければならないよ」. He replies 「部長の教室に行ってくるよ」, so showing the text to the club president comes first. Printing only happens after the check, making it a sequence trap; the photo has already been chosen; and preparing the printing paper is her job (「私は印刷の紙を準備しておくね」).',
+  },
+  {
+    id: 'n4-listening-kadai-013',
+    kind: 'listening',
+    script: [
+      { speaker: '旁白', text: '学校の図書室で男の学生と図書室の先生が話しています。' },
+      { speaker: '男', text: 'すみません、この辞書を家に借りて帰りたいんですが。' },
+      { speaker: '女', text: 'ごめんなさい。辞書は借りられないんです。図書室の中で使ってください。' },
+      { speaker: '男', text: 'そうですか。でも、家で宿題に使いたいんです。' },
+      { speaker: '女', text: 'それなら、使いたいページをコピーしたらどうですか。' },
+      { speaker: '男', text: 'あ、いいですね。そうします。' },
+      { speaker: '女', text: 'コピーの機械を使う前に、カウンターでカードを借りてくださいね。' },
+      { speaker: '男', text: 'わかりました。' },
+    ],
+    question: '男の学生はこのあとまず何をしますか。',
+    options: ['カウンターでカードを借りる', '辞書のページをコピーする', '辞書を家に持って帰る', '図書室で宿題をする'],
+    answerIndex: 0,
+    explanation:
+      '図書室の先生說使用影印機之前「カウンターでカードを借りてくださいね」，男の学生回答「わかりました」，所以最先做的是到櫃檯借卡片。影印辭典的頁面要在借到卡片之後，順序不對；把辭典帶回家被「辞書は借りられないんです」明確否定；在圖書室寫作業則和他想在家寫作業的需求不符。',
+    explanationEn:
+      'The librarian tells him to borrow a card at the counter before using the copier (「コピーの機械を使う前に、カウンターでカードを借りてくださいね」), and he agrees, so getting the card comes first. Copying the dictionary pages happens only after that; taking the dictionary home is explicitly denied by 「辞書は借りられないんです」; and doing homework in the library contradicts his wish to work at home.',
+  },
+  {
+    id: 'n4-listening-kadai-014',
+    kind: 'listening',
+    script: [
+      { speaker: '旁白', text: '本屋で女の人と店の男の人が話しています。' },
+      { speaker: '女', text: 'すみません、旅行の雑誌「歩く京都」はありますか。' },
+      { speaker: '男', text: '申し訳ありません。その雑誌は今、売り切れなんです。' },
+      { speaker: '女', text: 'そうですか。困ったなあ。今週使いたいんです。' },
+      { speaker: '男', text: '駅前の店にはまだあると思いますよ。今、電話で聞いてみましょうか。' },
+      { speaker: '女', text: 'お願いします。' },
+      { speaker: '男', text: 'はい、二冊あるそうです。お名前を言っておきましたから、今日中に取りに行ってください。' },
+      { speaker: '女', text: 'ありがとうございます。すぐ行きます。' },
+    ],
+    question: '女の人はこのあとまず何をしますか。',
+    options: ['駅前の店へ雑誌を取りに行く', 'この店で雑誌が来るのを待つ', '来週もう一度この店に来る', '別の雑誌を買う'],
+    answerIndex: 0,
+    explanation:
+      '店員打電話確認站前的分店還有兩本，並說「今日中に取りに行ってください」，女の人回答「すぐ行きます」，所以接下來是到站前的店取雜誌。在這家店等是不可能的，因為店員只說「売り切れなんです」、沒說會補貨；下週再來和她「今週使いたいんです」的需求矛盾；買別的雜誌對話中沒有出現。',
+    explanationEn:
+      'The clerk phones the branch by the station, confirms two copies remain, and says 「今日中に取りに行ってください」. The woman answers 「すぐ行きます」, so she is heading to the station-front store to pick up the magazine. Waiting at this store is pointless — it is 「売り切れ」 with no restock mentioned; coming back next week contradicts her need to use it this week (「今週使いたいんです」); and buying a different magazine never comes up.',
+  },
+  {
+    id: 'n4-listening-kadai-015',
+    kind: 'listening',
+    script: [
+      { speaker: '旁白', text: 'ケーキ屋で女の人と店の男の人が話しています。' },
+      { speaker: '女', text: 'すみません、明日の誕生日ケーキを予約したいんですが。' },
+      { speaker: '男', text: 'ありがとうございます。ケーキの上にお名前を書くことができますよ。' },
+      { speaker: '女', text: 'じゃあ、お願いします。' },
+      { speaker: '男', text: 'では、まずこの紙に、書く名前と受け取りの時間を書いてください。' },
+      { speaker: '女', text: 'はい。お金は今払いますか。' },
+      { speaker: '男', text: 'いいえ、明日、受け取るときで大丈夫です。ろうそくは無料でお付けしますよ。' },
+      { speaker: '女', text: 'よかった。じゃあ、書きますね。' },
+    ],
+    question: '女の人はこのあとまず何をしますか。',
+    options: ['紙に名前と時間を書く', 'お金を払う', 'ケーキを受け取る', 'ろうそくを買う'],
+    answerIndex: 0,
+    explanation:
+      '店員說「まずこの紙に、書く名前と受け取りの時間を書いてください」，女の人也回答「じゃあ、書きますね」，所以最先做的是在單子上填名字和取貨時間。付錢被店員以「明日、受け取るときで大丈夫です」延到明天；取蛋糕也是明天的事；蠟燭是「無料でお付けしますよ」免費附送的，不用買。',
+    explanationEn:
+      'The clerk says 「まずこの紙に、書く名前と受け取りの時間を書いてください」, and the woman replies 「じゃあ、書きますね」, so filling in the name and pickup time on the form comes first. Payment is deferred to tomorrow with 「明日、受け取るときで大丈夫です」; picking up the cake is also tomorrow; and the candles come free (「無料でお付けしますよ」), so there is nothing to buy.',
+  },
+  {
+    id: 'n4-listening-kadai-016',
+    kind: 'listening',
+    script: [
+      { speaker: '旁白', text: '駅で男の人と駅員の女の人が話しています。' },
+      { speaker: '男', text: 'すみません、桜山駅まで行きたいんですが、次の急行に乗ればいいですか。' },
+      { speaker: '女', text: '急行は桜山には止まりませんよ。' },
+      { speaker: '男', text: 'えっ、そうなんですか。じゃあ、各駅停車で行きます。' },
+      { speaker: '女', text: '各駅停車だと一時間かかりますよ。急行で中山駅まで行って、そこで各駅停車に乗り換えたほうが早いです。三十分ぐらいですから。' },
+      { speaker: '男', text: 'そうですか。切符はこのままでいいですか。' },
+      { speaker: '女', text: 'ええ、買い直さなくても大丈夫ですよ。急行は2番線から出ます。' },
+      { speaker: '男', text: 'ありがとうございます。' },
+    ],
+    question: '男の人はこのあとまず何をしますか。',
+    options: ['2番線で急行に乗る', 'この駅から各駅停車に乗る', '切符を買い直す', 'バスで桜山駅へ行く'],
+    answerIndex: 0,
+    explanation:
+      '駅員建議搭急行到中山駅再轉各駅停車比較快，男の人接受了，而且駅員說「急行は2番線から出ます」，所以接下來是到2番線搭急行。直接搭各駅停車是他一度想做的，但被「一時間かかりますよ」勸退，是被更正的干擾項；重買車票被「買い直さなくても大丈夫ですよ」否定；搭巴士對話中沒有出現。',
+    explanationEn:
+      'The station attendant recommends taking the express to Nakayama Station and transferring to a local train — about thirty minutes instead of an hour — and the man accepts. Since 「急行は2番線から出ます」, boarding the express on track 2 comes first. Taking the local train from here was his fallback idea, but she talks him out of it with 「一時間かかりますよ」; rebuying the ticket is denied by 「買い直さなくても大丈夫ですよ」; and a bus is never mentioned.',
+  },
+  {
+    id: 'n4-listening-kadai-017',
+    kind: 'listening',
+    script: [
+      { speaker: '旁白', text: 'バス会社の営業所で女の人と係の男の人が話しています。' },
+      { speaker: '女', text: 'すみません、さっきのバスに紙の袋を忘れてしまったんですが。' },
+      { speaker: '男', text: '何時のバスですか。' },
+      { speaker: '女', text: '2時ごろ、駅前から乗りました。' },
+      { speaker: '男', text: 'そのバスはまだ走っていますね。終点に4時に着きますから、着いたら運転手が調べます。' },
+      { speaker: '女', text: 'じゃあ、終点まで取りに行きましょうか。' },
+      { speaker: '男', text: 'いいえ、行かなくていいですよ。4時過ぎにここに電話をください。あれば、この営業所に届きますから。' },
+      { speaker: '女', text: 'わかりました。じゃあ、そうします。' },
+    ],
+    question: '女の人はこのあとまず何をしますか。',
+    options: ['4時過ぎに営業所に電話する', '今すぐ終点まで取りに行く', '交番に行って聞く', '新しい袋を買いに行く'],
+    answerIndex: 0,
+    explanation:
+      '係の人說「4時過ぎにここに電話をください」，東西找到後會送到營業所，女の人也回答「そうします」，所以接下來要做的是4點過後打電話到營業所確認。自己去終點站取被「行かなくていいですよ」明確否定，是被更正的干擾項；去派出所問和買新袋子對話中都沒有出現，屬於無中生有的選項。',
+    explanationEn:
+      'The staff member tells her 「4時過ぎにここに電話をください」— the bus reaches its last stop at four, the driver will check, and the bag will be sent to this office if found. She agrees with 「そうします」, so calling the office after four is her next move. Going to the terminal herself is explicitly ruled out by 「行かなくていいですよ」, a corrected distractor; asking at a police box and buying a new bag never come up in the conversation.',
+  },
+  {
+    id: 'n4-listening-kadai-018',
+    kind: 'listening',
+    script: [
+      { speaker: '旁白', text: '観光案内所で女の人と係の男の人が話しています。' },
+      { speaker: '女', text: 'すみません、自転車を借りたいんですが。' },
+      { speaker: '男', text: 'はい。ご利用は初めてですか。' },
+      { speaker: '女', text: 'はい、初めてです。' },
+      { speaker: '男', text: 'では、先に外に並んでいる自転車の中から、好きなのを選んで来てください。番号を教えてもらえれば、こちらで申し込みの紙を用意しますので。' },
+      { speaker: '女', text: 'わかりました。お金は先に払いますか。' },
+      { speaker: '男', text: 'お金は返すときにお願いします。5時までに戻って来てくださいね。' },
+      { speaker: '女', text: 'はい、じゃあ、見て来ます。' },
+    ],
+    question: '女の人はこのあとまず何をしますか。',
+    options: ['外で自転車を選ぶ', '申し込みの紙を書く', 'お金を払う', '自転車を返しに行く'],
+    answerIndex: 0,
+    explanation:
+      '係の人說「先に外に並んでいる自転車の中から、好きなのを選んで来てください」，女の人也回答「じゃあ、見て来ます」，所以最先做的是到外面挑腳踏車。申込用的紙要等她選好、告知號碼之後店家才會準備，填寫在挑車之後，順序不對；付錢被「お金は返すときにお願いします」延到還車時；還車是5點前才要做的最後一步。',
+    explanationEn:
+      'The attendant says 「先に外に並んでいる自転車の中から、好きなのを選んで来てください」, and the woman replies 「じゃあ、見て来ます」, so choosing a bicycle outside comes first. The application form is prepared only after she reports the bike\'s number, so filling it in comes later; payment is deferred until the return (「お金は返すときにお願いします」); and returning the bike by five is the very last step.',
+  },
+  {
+    id: 'n4-listening-kadai-019',
+    kind: 'listening',
+    script: [
+      { speaker: '旁白', text: '家で母親と息子が話しています。' },
+      { speaker: '男', text: 'お母さん、宿題が終わったから、ゲームをしてもいい？' },
+      { speaker: '女', text: 'いいけど、その前に、玄関の靴を並べてくれない？もうすぐお客さんが来るから。' },
+      { speaker: '男', text: 'わかった。お風呂の掃除はしなくてもいい？' },
+      { speaker: '女', text: 'お風呂は夕方でいいよ。それから、牛乳も買って来てほしいんだけど……。' },
+      { speaker: '男', text: '今から？' },
+      { speaker: '女', text: 'やっぱり牛乳はいいわ。お父さんが帰りに買って来るから。じゃあ、先に靴をお願いね。' },
+      { speaker: '男', text: 'はーい、わかった。' },
+    ],
+    question: '息子はこのあとまず何をしますか。',
+    options: ['玄関の靴を並べる', 'お風呂の掃除をする', '牛乳を買いに行く', 'ゲームをする'],
+    answerIndex: 0,
+    explanation:
+      '母親說客人快來了，「その前に、玄関の靴を並べてくれない？」，最後又叮嚀「じゃあ、先に靴をお願いね」，所以最先做的是把玄關的鞋子排好。洗浴室被「お風呂は夕方でいいよ」延到傍晚；買牛奶先被提出、隨後又被「お父さんが帰りに買って来るから」收回，是被更正的干擾項；打電動要等鞋子排好之後才行。',
+    explanationEn:
+      'The mother asks him to line up the shoes in the entryway first because a guest is coming (「その前に、玄関の靴を並べてくれない？」) and closes with 「じゃあ、先に靴をお願いね」, so tidying the shoes comes first. Cleaning the bath is pushed to the evening with 「お風呂は夕方でいいよ」; the milk errand is proposed and then withdrawn (「お父さんが帰りに買って来るから」), a corrected distractor; and the video game must wait until the shoes are done.',
+  },
+  {
+    id: 'n4-listening-kadai-020',
+    kind: 'listening',
+    script: [
+      { speaker: '旁白', text: '家で男の人と女の人が明日の旅行の準備をしています。' },
+      { speaker: '女', text: 'ねえ、かばんに服はもう入れた？' },
+      { speaker: '男', text: 'まだだよ。今からやるところ。' },
+      { speaker: '女', text: 'その前に、カメラの電池を充電しておいて。時間がかかるから、先にしたほうがいいよ。' },
+      { speaker: '男', text: 'そうだね。薬も買っておいたほうがいいかな。' },
+      { speaker: '女', text: '薬はうちにあるから、大丈夫。' },
+      { speaker: '男', text: 'わかった。かばんは今夜、車に運んでおく？' },
+      { speaker: '女', text: 'それは明日の朝でいいよ。' },
+    ],
+    question: '男の人はこのあとまず何をしますか。',
+    options: ['カメラの電池を充電する', 'かばんに服を入れる', '薬を買いに行く', 'かばんを車に運ぶ'],
+    answerIndex: 0,
+    explanation:
+      '女の人說裝行李之前「カメラの電池を充電しておいて。時間がかかるから、先にしたほうがいいよ」（〜ておく：事先做好），男の人也同意，所以最先做的是幫相機電池充電。把衣服裝進包包是他原本要做的事，但被更正為充電之後，是順序型干擾項；買藥被「薬はうちにあるから、大丈夫」否定；把包包搬上車被延到明天早上。',
+    explanationEn:
+      'The wife tells him to charge the camera battery before packing: 「カメラの電池を充電しておいて。時間がかかるから、先にしたほうがいいよ」 (〜ておく: do it in advance), and he agrees, so charging comes first. Packing the clothes was his original plan but is reordered to after the charging, a sequence trap; buying medicine is denied with 「薬はうちにあるから、大丈夫」; and carrying the bags to the car is postponed to tomorrow morning.',
+  },
 ]

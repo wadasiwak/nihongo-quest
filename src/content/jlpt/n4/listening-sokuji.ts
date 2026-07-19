@@ -229,4 +229,232 @@ export const questions: JlptQuestion[] = [
     explanationEn:
       '「使わせてもらってもいいですか」 combines the causative with a receiving verb — an N4 pattern for politely asking "would you let me use it for a moment?" Granting the request with 「ええ、どうぞ。今は使っていませんから」 (go ahead, I\'m not using it now) is the natural reply. The second option thanks the speaker with 「貸してくれてありがとう」 as if you had been lent something, but the one who wants to borrow is the other person; the third grabs onto 「辞書」 and answers where the dictionary was bought — not what was asked.',
   },
+  {
+    id: 'n4-listening-sokuji-013',
+    kind: 'listening',
+    script: [
+      { speaker: '女', text: 'ねえ、明日の数学の授業、教室が変わるって聞いたんだけど、どこか知ってる？' },
+    ],
+    question: '',
+    options: [
+      'うん、二階の201教室だって。',
+      'ううん、数学の宿題はまだやってないよ。',
+      'うん、教室はもう掃除してあるよ。',
+    ],
+    answerIndex: 0,
+    spokenOptions: true,
+    explanation:
+      '對方在問「教室換到哪裡，你知道嗎」，回答新教室的地點「二階の201教室だって」（〜って：轉述聽來的消息）最自然。第二個選項抓住「数学」這個詞，卻回答作業還沒寫，答非所問；第三個選項抓住「教室」回答已經打掃好了（〜てある：表示狀態），和「換到哪間教室」的問題完全無關。',
+    explanationEn:
+      'The question is where the math class has moved to, so giving the new location — 「二階の201教室だって」 (〜って marking hearsay) — is the natural answer. The second option latches onto the word 「数学」 and talks about unfinished homework; the third grabs 「教室」 and reports that it has been cleaned (〜てある: resultant state) — neither answers where the class will be held.',
+  },
+  {
+    id: 'n4-listening-sokuji-014',
+    kind: 'listening',
+    script: [
+      { speaker: '男', text: '先生、この作文は、いつまでに出せばいいですか。' },
+    ],
+    question: '',
+    options: [
+      '金曜日までに出してください。',
+      'ええ、私が出してあげますよ。',
+      'いいえ、作文はまだ読んでいませんよ。',
+    ],
+    answerIndex: 0,
+    spokenOptions: true,
+    explanation:
+      '學生用「いつまでに出せばいいですか」（〜ばいい：該怎麼做才好）問繳交期限，先生回答期限「金曜日までに出してください」（〜までに：在期限之前）最自然。第二個選項說「私が出してあげます」，變成先生要替學生交作文，授受方向不通；第三個選項回答還沒讀作文，既答非所問，也不是期限。',
+    explanationEn:
+      'The student asks for the deadline with 「いつまでに出せばいいですか」 (〜ばいい: what should I do), so the teacher naturally answers with a deadline: 「金曜日までに出してください」 (〜までに: by that day). The second option, 「私が出してあげますよ」, has the teacher submitting the essay for the student — a nonsensical favor; the third says the essay has not been read yet, which answers nothing about a deadline.',
+  },
+  {
+    id: 'n4-listening-sokuji-015',
+    kind: 'listening',
+    script: [
+      { speaker: '女', text: '昨日休んじゃったから、授業のノート、コピーさせてもらえない？' },
+    ],
+    question: '',
+    options: [
+      'いいよ。昼休みに貸してあげるね。',
+      'うん、コピーしてくれてありがとう。',
+      'そのノート、駅前の店で買ったんだよ。',
+    ],
+    answerIndex: 0,
+    spokenOptions: true,
+    explanation:
+      '「コピーさせてもらえない？」是使役形加授受動詞的請託（能不能讓我影印），答應並約好「昼休みに貸してあげるね」最自然。第二個選項說「コピーしてくれてありがとう」，變成感謝對方影印給自己，授受方向顛倒——被拜託的人明明是自己；第三個選項抓住「ノート」回答筆記本在哪裡買的，答非所問。',
+    explanationEn:
+      '「コピーさせてもらえない？」 is a causative-plus-receiving request — "would you let me copy your notes?" Agreeing and arranging it with 「昼休みに貸してあげるね」 (I will lend them to you at lunch break) is the natural reply. The second option thanks the asker for copying, reversing who does whom the favor — you are the one being asked; the third seizes on 「ノート」 and says where the notebook was bought, which is beside the point.',
+  },
+  {
+    id: 'n4-listening-sokuji-016',
+    kind: 'listening',
+    script: [
+      { speaker: '男', text: 'いらっしゃいませ。今日は何かお探しですか。' },
+    ],
+    question: '',
+    options: [
+      'ええ、あたたかい手袋を探しているんですが。',
+      'いいえ、まだ何も買っていませんよ。',
+      'はい、この店は何でも安いですね。',
+    ],
+    answerIndex: 0,
+    spokenOptions: true,
+    explanation:
+      '店員問「何かお探しですか」（在找什麼商品嗎），回答想找的東西「あたたかい手袋を探しているんですが」最自然，句尾的「〜が」帶出請對方幫忙找的語氣。第二個選項把問題聽成「買了什麼了嗎」，回答還沒買，答非所問；第三個選項只稱讚店裡東西便宜，沒有回應「在找什麼」的詢問。',
+    explanationEn:
+      'The clerk asks 「何かお探しですか」— "are you looking for something?" — so naming what you want, 「あたたかい手袋を探しているんですが」 (warm gloves), is the natural reply, with the trailing 「〜が」 inviting the clerk\'s help. The second option mishears it as "have you bought anything?" and answers about not buying yet; the third merely compliments the shop\'s low prices, never answering what you are looking for.',
+  },
+  {
+    id: 'n4-listening-sokuji-017',
+    kind: 'listening',
+    script: [
+      { speaker: '女', text: 'お会計は800円です。ポイントカードはお持ちですか。' },
+    ],
+    question: '',
+    options: [
+      'いいえ、持っていません。すぐ作れますか。',
+      'はい、お金はカードで払います。',
+      'いいえ、ポイントカードを作ってあげましょうか。',
+    ],
+    answerIndex: 0,
+    spokenOptions: true,
+    explanation:
+      '店員問有沒有集點卡，沒有的話回答「持っていません」，並順勢問「すぐ作れますか」（可能形：能馬上辦嗎）最自然。第二個選項把「ポイントカード」聽成付款用的信用卡，回答要刷卡付錢，字眼相近但答非所問；第三個選項說要幫店員辦集點卡，「〜てあげましょうか」的授受方向完全顛倒。',
+    explanationEn:
+      'Asked whether you have a point card, the natural reply is 「いいえ、持っていません」 plus the follow-up 「すぐ作れますか」 (potential form: can I make one right away?). The second option confuses the loyalty card with a payment card and answers about paying by credit card — a similar word with the wrong meaning; the third offers to make a point card for the clerk, with 「〜てあげましょうか」 reversing the favor entirely.',
+  },
+  {
+    id: 'n4-listening-sokuji-018',
+    kind: 'listening',
+    script: [
+      { speaker: '男', text: 'すみません、このセーターの白いのはありませんか。' },
+    ],
+    question: '',
+    options: [
+      '申し訳ありません。白は今、売り切れなんです。',
+      'はい、白はよくお似合いでしたよ。',
+      'いいえ、私はセーターを持っていませんよ。',
+    ],
+    answerIndex: 0,
+    spokenOptions: true,
+    explanation:
+      '客人在問「有沒有白色的」，店員回答庫存狀況「白は今、売り切れなんです」（〜んです：說明情況）最自然。第二個選項用過去式說「白色很適合您」，可是客人根本還沒試穿過白色的，時態和事實都不合；第三個選項回答店員自己沒有毛衣，把對商品的詢問當成個人物品的問題，答非所問。',
+    explanationEn:
+      'The customer asks whether the sweater comes in white, so reporting the stock — 「白は今、売り切れなんです」 (〜んです giving the explanation) — is the natural answer. The second option says in the past tense that white suited the customer, though they have never tried it on — wrong in both tense and fact; the third says the clerk personally owns no sweater, mistaking a question about merchandise for a personal one.',
+  },
+  {
+    id: 'n4-listening-sokuji-019',
+    kind: 'listening',
+    script: [
+      { speaker: '男', text: 'お客さん、道がとても込んでいますから、少し時間がかかりますよ。' },
+    ],
+    question: '',
+    options: [
+      '大丈夫ですよ。時間はたくさんありますから。',
+      'いいえ、道は込んでいませんよ。',
+      'じゃあ、切符を二枚お願いします。',
+    ],
+    answerIndex: 0,
+    spokenOptions: true,
+    explanation:
+      '計程車司機提醒塞車會多花時間，乘客要回應自己能不能接受，「大丈夫ですよ。時間はたくさんありますから」表示不趕時間，最自然。第二個選項直接否定司機眼前看到的路況，不成回應，也很失禮；第三個選項要買兩張票，可是搭計程車不用買票，把場景當成了車站，語意不通。',
+    explanationEn:
+      'The taxi driver warns that heavy traffic will make the ride longer, so the passenger should respond to that: 「大丈夫ですよ。時間はたくさんありますから」— no rush, plenty of time. The second option flatly denies the congestion the driver can see right in front of him — not a response, and rude besides; the third orders two tickets, but taxis have no tickets — the speaker has confused the scene with a train station.',
+  },
+  {
+    id: 'n4-listening-sokuji-020',
+    kind: 'listening',
+    script: [
+      { speaker: '女', text: 'すみません、空港へ行くバスはどこから出ますか。' },
+    ],
+    question: '',
+    options: [
+      '3番乗り場ですよ。あそこの青い看板の所です。',
+      'いいえ、飛行機はもう出発しましたよ。',
+      'ええ、バスにはもう乗りました。',
+    ],
+    answerIndex: 0,
+    spokenOptions: true,
+    explanation:
+      '對方在問機場巴士的搭車地點，回答具體位置「3番乗り場ですよ」並指出目標「青い看板の所」最自然。第二個選項抓住「空港」這個詞，回答飛機已經起飛，答非所問；第三個選項說自己已經搭過巴士了，把「從哪裡發車」的問題當成「搭了沒」，人稱和語意都不合。',
+    explanationEn:
+      'The question is where the airport bus departs from, so giving the concrete spot — 「3番乗り場ですよ」, over by the blue sign — is the natural answer. The second option latches onto 「空港」 and reports that the plane has already left, which was not asked; the third says the speaker has already ridden the bus, treating "where does it leave from" as "have you boarded yet" — wrong person and wrong meaning.',
+  },
+  {
+    id: 'n4-listening-sokuji-021',
+    kind: 'listening',
+    script: [
+      { speaker: '男', text: 'しまった、定期券を家に忘れて来ちゃった。切符を買わなくちゃ。' },
+    ],
+    question: '',
+    options: [
+      'あそこの機械で買えるよ。急ごう。',
+      'へえ、定期券って便利だね。',
+      'うん、切符はもう捨てちゃったよ。',
+    ],
+    answerIndex: 0,
+    spokenOptions: true,
+    explanation:
+      '對方發現忘記帶月票，說「切符を買わなくちゃ」（〜なくちゃ：得買票才行），回應告訴他哪裡能買「あそこの機械で買えるよ」（買える：可能形）最自然。第二個選項抓住「定期券」感嘆月票很方便，完全沒回應眼前的困擾；第三個選項說票已經丟掉了，可是票根本還沒買，語意矛盾。',
+    explanationEn:
+      'The friend realizes he left his commuter pass at home and says 「切符を買わなくちゃ」 (〜なくちゃ: I have to buy a ticket), so pointing him to where he can buy one — 「あそこの機械で買えるよ」 (買える: potential form) — is the natural response. The second option muses that commuter passes are convenient, ignoring the problem at hand; the third claims the ticket has already been thrown away, though none has been bought yet — contradictory.',
+  },
+  {
+    id: 'n4-listening-sokuji-022',
+    kind: 'listening',
+    script: [
+      { speaker: '男', text: 'ねえ、ちょっと汗をかいたから、お風呂、先に入ってもいい？' },
+    ],
+    question: '',
+    options: [
+      'いいよ。ゆっくり入って。',
+      'うん、私は昨日入ったよ。',
+      'ありがとう。先に入ってくれて助かったよ。',
+    ],
+    answerIndex: 0,
+    spokenOptions: true,
+    explanation:
+      '「先に入ってもいい？」是徵求先洗澡的許可，同意時說「いいよ。ゆっくり入って」最自然。第二個選項回答自己昨天洗過了，和「現在能不能先洗」無關，答非所問；第三個選項感謝對方「先洗了澡」，可是對方才剛開口問、根本還沒去洗，時態不合，「〜てくれて」的授受也不成立。',
+    explanationEn:
+      '「先に入ってもいい？」 asks permission to take the bath first, so granting it with 「いいよ。ゆっくり入って」 (go ahead, take your time) is the natural reply. The second option says the speaker bathed yesterday, irrelevant to whether the other person may go first now; the third thanks them for having bathed first, but they have only just asked and have not gone in yet — wrong tense, and the favor in 「〜てくれて」 never happened.',
+  },
+  {
+    id: 'n4-listening-sokuji-023',
+    kind: 'listening',
+    script: [
+      { speaker: '女', text: '晩ご飯までに、自分の部屋を片付けておいてね。' },
+    ],
+    question: '',
+    options: [
+      'わかった。すぐやるよ。',
+      'ありがとう。片付けてくれて助かったよ。',
+      '今日の晩ご飯はカレーがいいな。',
+    ],
+    answerIndex: 0,
+    spokenOptions: true,
+    explanation:
+      '「片付けておいてね」用「〜ておく」要求在晚飯前先把房間整理好，接受指示回答「わかった。すぐやるよ」最自然。第二個選項變成感謝對方幫忙整理了房間，可是被要求整理的人是自己，授受方向顛倒；第三個選項抓住「晩ご飯」點菜說想吃咖哩，完全沒回應整理房間的要求，答非所問。',
+    explanationEn:
+      '「片付けておいてね」 uses 〜ておく to ask that the room be tidied up before dinner, so accepting with 「わかった。すぐやるよ」 (got it, I will do it right away) is the natural reply. The second option thanks the speaker for tidying up, but you are the one being told to tidy — the favor is reversed; the third grabs onto 「晩ご飯」 and requests curry, never responding to the actual instruction.',
+  },
+  {
+    id: 'n4-listening-sokuji-024',
+    kind: 'listening',
+    script: [
+      { speaker: '男', text: 'ごめん、卵を買うのを忘れちゃった。悪いけど、スーパーで買って来てくれない？' },
+    ],
+    question: '',
+    options: [
+      'いいよ。ほかに何か要る物はある？',
+      'ううん、卵はもう全部食べちゃったよ。',
+      'うん、買って来てくれてありがとう。',
+    ],
+    answerIndex: 0,
+    spokenOptions: true,
+    explanation:
+      '「買って来てくれない？」是請對方去買東西回來的請託，答應並確認「ほかに何か要る物はある？」（還需要別的嗎）最自然。第二個選項回答蛋已經吃完了，可是對方是忘了買、不是在問還剩多少，答非所問；第三個選項感謝對方買回來，可是被拜託去買的人是自己，授受方向顛倒，時態也不對。',
+    explanationEn:
+      '「買って来てくれない？」 asks you to go buy something and bring it back, so agreeing and checking 「ほかに何か要る物はある？」 (anything else you need?) is the natural response. The second option reports that the eggs are all eaten, but the issue is that he forgot to buy them, not how many are left; the third thanks him for buying them, though you are the one being asked to go — reversed favor and wrong tense.',
+  },
 ]

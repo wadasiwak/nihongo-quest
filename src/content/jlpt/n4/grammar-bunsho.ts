@@ -101,4 +101,104 @@ export const questions: JlptQuestion[] = [
       },
     ],
   },
+  {
+    kind: 'passage',
+    id: 'n4-grammar-bunsho-003',
+    passageTitle: 'うちの 犬',
+    passage:
+      '私の うちには、モモという 犬が います。五年前、ちちが 友だちの 家から 小さな 子犬を もらって きました。【１】が モモです。\nモモは さんぽが 大すきで、あめの 日【２】 行きたがります。私が げんかんで くつを はくと、すぐに 走って きて、しっぽを ふります。\n先月、モモが きゅうに ごはんを 食べなく なりました。家族 みんなが しんぱいして、母が びょういんに つれて 【３】、おいしゃさんに 見て もらいました。「もう 年ですから、やわらかい ごはんを あげて ください」と 言われて、すこし あんしんしました。\n犬との 生活は、たいへんな ことも あります。それでも、たのしい ことの 【４】が ずっと 多いです。モモは 私の 大切な 家族です。これからも ずっと いっしょに いたいです。',
+    explanation: '',
+    questions: [
+      {
+        id: 'n4-grammar-bunsho-003-q1',
+        stem: '【１】に入るのはどれか。',
+        options: ['それ', 'これ', 'あれ', 'どれ'],
+        answerIndex: 0,
+        explanation:
+          '指示詞「それ」用來承接前文剛提到的事物：前句說爸爸從朋友家帶回了一隻小狗，「それがモモです」＝「那隻小狗就是モモ」。「これ」指眼前的東西，但這裡是回述五年前的事；「あれ」指說話雙方都遠離的事物，多用於共同的記憶；「どれ」是疑問詞，這裡不是疑問句，都不合文脈。',
+        explanationEn:
+          'The demonstrative 「それ」 refers back to what was just mentioned: the previous sentence says father brought home a puppy, and 「それがモモです」 means "that puppy is Momo." 「これ」 points to something right at hand, but this recalls an event five years ago; 「あれ」 refers to something distant from both speaker and listener, usually a shared memory; 「どれ」 is a question word, but this isn\'t a question.',
+      },
+      {
+        id: 'n4-grammar-bunsho-003-q2',
+        stem: '【２】に入るのはどれか。',
+        options: ['でも', 'しか', 'だけ', 'までに'],
+        answerIndex: 0,
+        explanation:
+          '「名詞＋でも」表示「連…也」：「あめの日でも 行きたがります」＝「連下雨天也想去散步」，強調モモ有多喜歡散步。「しか」後面必須接否定形，這裡是肯定句；「だけ」會變成「只有雨天才想去」，和前面「さんぽが大すき」矛盾；「までに」表期限（在…之前），接在這裡語意不通。',
+        explanationEn:
+          '「noun + でも」 means "even": 「あめの日でも 行きたがります」 says Momo wants a walk even on rainy days, stressing how much she loves walks. 「しか」 requires a negative predicate, but this sentence is affirmative; 「だけ」 would mean she wants to go only on rainy days, contradicting 「さんぽが大すき」; 「までに」 marks a deadline and makes no sense here.',
+      },
+      {
+        id: 'n4-grammar-bunsho-003-q3',
+        stem: '【３】に入るのはどれか。',
+        options: ['いって', 'きて', 'かえって', 'おりて'],
+        answerIndex: 0,
+        explanation:
+          '從家裡把モモ帶到醫院，是離開說話者所在處的移動，用「つれていく」（帶去）：「びょういんに つれて いって」。「きて」是「つれてくる」（帶來），方向和敘述者在家的視角相反；「かえって」（帶回家）和後面「請醫生看診」的內容矛盾；「おりて」（下來）與帶寵物就醫的語境完全不合。',
+        explanationEn:
+          'Taking Momo from home to the vet is movement away from the narrator\'s base, so 「つれていく」 (take along) is used: 「びょういんに つれて いって」. 「きて」 would be 「つれてくる」 (bring here), the opposite direction from the home-based viewpoint; 「かえって」 (take back home) contradicts having the vet examine her; 「おりて」 (go down) doesn\'t fit the context at all.',
+      },
+      {
+        id: 'n4-grammar-bunsho-003-q4',
+        stem: '【４】に入るのはどれか。',
+        options: ['ほう', 'もの', 'こと', 'とき'],
+        answerIndex: 0,
+        explanation:
+          '比較句型「〜のほうが多い」表示「…比較多」：「たのしいことのほうがずっと多いです」＝「開心的事遠比辛苦的事多」，正好和前句「たいへんなこともあります」形成對比。「もの」「こと」「とき」接在「ことの」後面都無法構成比較句型，「楽しいことのことが」這類說法文法不通。',
+        explanationEn:
+          'The comparison 「〜のほうが多い」 means "there are more of...": 「たのしいことのほうがずっと多いです」 says the happy moments far outnumber the hard ones, contrasting with 「たいへんなこともあります」. 「もの」, 「こと」, and 「とき」 cannot follow 「ことの」 to form a comparison — phrases like 「楽しいことのことが」 are simply ungrammatical.',
+      },
+    ],
+  },
+  {
+    kind: 'passage',
+    id: 'n4-grammar-bunsho-004',
+    passageTitle: 'はじめての 夏祭り',
+    passage:
+      '先週の 土曜日、りゅうがくせいの 私は、りょうの 友だちと はじめて 日本の 夏祭りに 行きました。\n会場には、やきそばや かきごおりの 屋台が たくさん ならんで いました。【１】、どこからか たいこの 音も 聞こえて きました。私たちは 屋台で 買った 食べものを、木の 下の ベンチで 食べました。\nでも、こまった ことも ありました。人が とても 多くて、とちゅうで 友だちと はぐれて しまったのです。【２】、けいたいでんわで れんらくして、入り口の 大きな 木の 前で もういちど 会う ことが できました。\n夜に なると、空に 大きな はなびが 上がりました。おなかに ひびく 音と きれいな 光に、私は ことばが 出ませんでした。\n国に 帰った 今でも、目を つむると、【３】 夜の はなびを 思い出します。らいねんの 夏も、祭りには たくさんの 人が あつまる【４】。もし もういちど 日本へ 行けたら、こんどは 私が 家族を あんないしたいです。',
+    explanation: '',
+    questions: [
+      {
+        id: 'n4-grammar-bunsho-004-q1',
+        stem: '【１】に入るのはどれか。',
+        options: ['そして', 'しかし', 'ところで', 'または'],
+        answerIndex: 0,
+        explanation:
+          '前句描述會場排滿了攤販，後句追加「還聽得到太鼓的聲音」，是同方向的資訊追加，用「そして」（然後、而且）最自然。「しかし」是逆接，前後並沒有相反的內容；「ところで」用於轉換話題，但這裡仍在描述會場的樣子；「または」（或者）表二選一，都不合文脈。',
+        explanationEn:
+          'The previous sentence describes stalls lining the venue, and the next adds that drum sounds could also be heard — information in the same direction, so 「そして」 (and/also) is the natural choice. 「しかし」 is contrastive, but nothing here is opposed; 「ところで」 changes the topic, yet the text is still describing the venue; 「または」 (or) presents alternatives — none of them fit.',
+      },
+      {
+        id: 'n4-grammar-bunsho-004-q2',
+        stem: '【２】に入るのはどれか。',
+        options: ['それで', 'ところが', 'それとも', 'なぜなら'],
+        answerIndex: 0,
+        explanation:
+          '前句說和朋友走散了，後句說用手機聯絡、重新會合，是「因為那樣，所以…」的順接因果，用「それで」。「ところが」表出乎意料的轉折，但用手機聯絡是走散後自然的處理方式，並非意外；「それとも」用於疑問句的二選一；「なぜなら」用來補述理由、句尾要呼應「〜からです」，都不合。',
+        explanationEn:
+          'The previous sentence says the writer got separated from the friend, and the next says they phoned each other and met up again — a cause-and-result link, so 「それで」 (so) is correct. 「ところが」 marks an unexpected turn, but phoning is the natural response to getting separated, not a surprise; 「それとも」 offers a choice in questions; 「なぜなら」 introduces a reason and needs 「〜からです」 at the end — none fit.',
+      },
+      {
+        id: 'n4-grammar-bunsho-004-q3',
+        stem: '【３】に入るのはどれか。',
+        options: ['あの', 'この', 'どの', 'あれ'],
+        answerIndex: 0,
+        explanation:
+          '說話者已經回國，回想的是離現在時空都很遠的過去體驗，回憶中的事物用「あの」：「あの夜のはなび」＝「那晚的煙火」。「この」指眼前或身邊的事物，和已回國的設定矛盾；「どの」是疑問詞，這裡不是疑問句；「あれ」是代名詞，不能直接修飾名詞「夜」。',
+        explanationEn:
+          'The writer is back in their home country recalling an experience now far away in time and place; for things in one\'s memories 「あの」 is used: 「あの夜のはなび」 means "the fireworks of that night." 「この」 points to something at hand, contradicting being back home; 「どの」 is a question word, but this isn\'t a question; 「あれ」 is a pronoun and cannot directly modify the noun 「夜」.',
+      },
+      {
+        id: 'n4-grammar-bunsho-004-q4',
+        stem: '【４】に入るのはどれか。',
+        options: ['でしょう', 'ましょう', 'ですか', 'でした'],
+        answerIndex: 0,
+        explanation:
+          '「〜でしょう」接在常體後，表示對未來的推測：「らいねんの夏も、たくさんの人があつまるでしょう」＝「明年夏天應該也會聚集很多人吧」。「ましょう」表提議或邀請，而且不能接在辭書形「あつまる」後；「ですか」「でした」直接接辭書形都不合文法，語意上也和推測不符。',
+        explanationEn:
+          '「〜でしょう」 follows the plain form and expresses a conjecture about the future: 「たくさんの人があつまるでしょう」 means "many people will probably gather again next summer." 「ましょう」 makes a proposal and cannot follow the dictionary form 「あつまる」; 「ですか」 and 「でした」 also cannot attach directly to the dictionary form, and neither expresses conjecture.',
+      },
+    ],
+  },
 ]

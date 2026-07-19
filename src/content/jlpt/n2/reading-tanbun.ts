@@ -177,4 +177,170 @@ export const questions: JlptQuestion[] = [
       },
     ],
   },
+  {
+    id: 'n2-reading-tanbun-007',
+    kind: 'passage',
+    passage:
+      'ポイントが二倍になる日を狙って買い物をする人は多い。私もその一人だったが、ある月の家計簿を見て考え込んでしまった。ポイントのために出かけた日に限って、予定になかった物まで買い込んでいたのである。得をしたつもりが、支出はむしろ増えていた。ポイントとは、店が客を呼ぶための仕組みであって、客のための割引とは限らない。「お得」という言葉を目にしたときこそ、それは本当に必要な買い物なのかと、一度立ち止まって考える必要があるだろう。',
+    explanation: '',
+    questions: [
+      {
+        id: 'n2-reading-tanbun-007-q1',
+        stem: '筆者の考えに合うのはどれか。',
+        options: [
+          '「お得」に見えるときこそ、必要な買い物かどうか立ち止まって考えるべきだ',
+          'ポイントが二倍になる日に買い物をすれば、支出を減らすことができる',
+          'ポイントは客のための割引だから、ためないともったいない',
+          '家計簿をつければ、予定になかった物を買わずにすむ',
+        ],
+        answerIndex: 0,
+        explanation:
+          '結論在最後一句：「『お得』という言葉を目にしたときこそ…一度立ち止まって考える必要がある」，看到「划算」時更該停下來想想是否真的需要。「支出を減らすことができる」與筆者的親身經驗「支出はむしろ増えていた」相反；「客のための割引」被「客のための割引とは限らない」直接否定；「家計簿をつければ買わずにすむ」錯，記帳只是讓筆者發現問題的契機，文中沒說能防止亂買。',
+        explanationEn:
+          'The conclusion is the final sentence: precisely when we see the word 「お得」 ("a good deal"), we should 「一度立ち止まって考える」 whether the purchase is truly necessary. "Shopping on double-point days reduces spending" contradicts the writer\'s own experience that 「支出はむしろ増えていた」; "points are a discount for customers" is directly denied by 「客のための割引とは限らない」; "keeping a household ledger stops impulse buys" is wrong — the ledger merely revealed the problem, and the text never claims it prevents unplanned purchases.',
+      },
+    ],
+  },
+  {
+    id: 'n2-reading-tanbun-008',
+    kind: 'passage',
+    passage:
+      '有給休暇は労働者の権利であるにもかかわらず、日本ではその取得率が低いままだと言われる。理由としてよく挙げられるのは、「周りに迷惑がかかる」という遠慮である。自分が休めば、その分の仕事を誰かが引き受けざるを得ない。そう思うと、申請をためらってしまうのだ。しかし、見方を変えれば、これは個人の気持ちの問題ではなく、職場の仕組みの問題である。一人が休んでも仕事が回るように、日ごろから情報を共有し、仕事を分担しておく。休みやすい職場とは、そうした準備のある職場のことなのだ。',
+    explanation: '',
+    questions: [
+      {
+        id: 'n2-reading-tanbun-008-q1',
+        stem: '有給休暇の取得をためらう理由として、本文で挙げられているのはどれか。',
+        options: [
+          '自分の仕事を周りの人が引き受けることになり、迷惑がかかると思うから',
+          '有給休暇が労働者の権利として認められていないから',
+          '休みの申請の手続きが複雑で、時間がかかるから',
+          '休むと、その月の給料が減ってしまうから',
+        ],
+        answerIndex: 0,
+        explanation:
+          '文中理由是「『周りに迷惑がかかる』という遠慮」：自己一休，工作就得由別人「引き受けざるを得ない」，因此不敢申請。「権利として認められていない」與開頭「労働者の権利であるにもかかわらず」矛盾，有薪假本來就是權利；「手続きが複雑」文中完全沒提；「給料が減る」也沒有根據，有給休暇本就是帶薪休假，此選項只是利用「休む」一詞的干擾。',
+        explanationEn:
+          'The stated reason is the hesitation that 「周りに迷惑がかかる」: if you take a day off, someone else 「引き受けざるを得ない」 (has no choice but to take over) your work, so people hesitate to apply. "Not recognized as a right" contradicts the opening 「労働者の権利であるにもかかわらず」; complicated procedures are never mentioned; a pay cut has no basis either — paid leave is paid by definition, and that option merely reuses the word 「休む」 out of context.',
+      },
+      {
+        id: 'n2-reading-tanbun-008-q2',
+        stem: '筆者の考えに合うのはどれか。',
+        options: [
+          '休暇を取りにくいのは、個人の気持ちではなく職場の仕組みの問題だ',
+          '周りに遠慮する気持ちさえなくせば、誰でもすぐに休めるようになる',
+          '一人が休むと仕事が回らないのは、当然のことで変えようがない',
+          '日本の有給休暇の取得率は、近年大きく上がってきている',
+        ],
+        answerIndex: 0,
+        explanation:
+          '筆者主張「これは個人の気持ちの問題ではなく、職場の仕組みの問題である」，解方是平日就共享資訊、分擔工作。「遠慮する気持ちさえなくせば」把問題又推回個人心態，正是筆者否定的方向；「変えようがない」錯，筆者認為只要平時準備好，一個人休假工作照樣能運轉；「取得率は上がってきている」與開頭「低いままだ」不符。',
+        explanationEn:
+          'The writer argues 「これは個人の気持ちの問題ではなく、職場の仕組みの問題である」 — the fix is routinely sharing information and dividing up work. "If people just stopped holding back, anyone could take leave" pushes the problem back onto individual feelings, exactly what the writer rejects; "it is inevitable that work stalls when one person is away" is wrong because the writer holds that with everyday preparation the work still 「回る」; "the take-up rate has risen sharply" contradicts the opening 「低いままだ」.',
+      },
+    ],
+  },
+  {
+    id: 'n2-reading-tanbun-009',
+    kind: 'passage',
+    passage:
+      '二十四時間営業のコンビニは、眠らない都市の象徴だった。深夜でも明かりがついていて、いつでも同じ物が買える。その安心感に、私たちはすっかり慣れてしまった。ところが近年、人手不足を背景に、深夜の営業をやめる店が少しずつ現れている。「不便になる」と嘆く声もあるが、考えてみれば、深夜に買い物が必要になる場面は年に数えるほどしかない。むしろ、いつでも開いているという安心のために、誰かが夜通し働き続けてきたのである。当たり前だと思っていた便利さの裏側に目を向けるとき、多少の不便は受け入れざるを得ないのではないか。',
+    explanation: '',
+    questions: [
+      {
+        id: 'n2-reading-tanbun-009-q1',
+        stem: '深夜の営業をやめる店が現れているのは、なぜか。',
+        options: [
+          '働く人が足りなくなってきたから',
+          '深夜に買い物をする客が年々増えているから',
+          '「不便になる」という声が多く寄せられたから',
+          '深夜は明かりをつけてはいけなくなったから',
+        ],
+        answerIndex: 0,
+        explanation:
+          '原文明言「人手不足を背景に、深夜の営業をやめる店が少しずつ現れている」，原因是人手不足。「客が年々増えている」文中沒有此說，筆者反而說深夜需要買東西的場面一年沒幾次；「『不便になる』という声」是對停止深夜營業的抱怨，不是停止的原因，方向相反；「明かりをつけてはいけない」錯，「明かり」只是描寫深夜也亮著燈的景象，並無禁止照明的規定。',
+        explanationEn:
+          'The passage states it plainly: 「人手不足を背景に、深夜の営業をやめる店が少しずつ現れている」 — the cause is the labor shortage. "Late-night shoppers are increasing" appears nowhere; the writer instead says occasions requiring a midnight purchase are 「年に数えるほど」; the complaints of 「不便になる」 are a reaction against ending late-night hours, not the reason for it; "lights are no longer allowed at night" misuses 「明かり」, which merely describes the stores staying lit — no lighting ban is mentioned.',
+      },
+      {
+        id: 'n2-reading-tanbun-009-q2',
+        stem: '筆者の考えに合うのはどれか。',
+        options: [
+          '便利さを支えてきた人に目を向け、多少の不便は受け入れるべきだ',
+          '深夜でも買い物ができる安心感は、何よりも守るべきだ',
+          '深夜に買い物が必要になる場面は、誰にでも毎日のようにある',
+          '深夜の営業をやめれば、コンビニで働きたい人が増える',
+        ],
+        answerIndex: 0,
+        explanation:
+          '結尾「当たり前だと思っていた便利さの裏側に目を向けるとき、多少の不便は受け入れざるを得ないのではないか」即筆者主張：想到有人徹夜工作支撐這份方便，就該接受一點不便。「安心感は何よりも守るべきだ」方向相反，那份安心正是靠「誰かが夜通し働き続けてきた」換來的；「毎日のようにある」與「年に数えるほどしかない」矛盾；「働きたい人が増える」文中並未提及。',
+        explanationEn:
+          'The closing line — when we look at the hidden side of the convenience we took for granted, 「多少の不便は受け入れざるを得ないのではないか」 — is the writer\'s claim: accept some inconvenience, mindful that 「誰かが夜通し働き続けてきた」 to sustain it. "The reassurance of midnight shopping must be protected above all" points the opposite way, since that reassurance is exactly what someone\'s overnight labor paid for; "such occasions arise almost daily" contradicts 「年に数えるほどしかない」; "more people will want to work at convenience stores" is never suggested.',
+      },
+    ],
+  },
+  {
+    id: 'n2-reading-tanbun-010',
+    kind: 'passage',
+    passageTitle: '座席のフリーアドレス化について',
+    passage:
+      '社員各位\n総務部からのお知らせです。来月一日より、三階の営業部フロアで、固定席を廃止し、毎朝好きな席を選んで働く「フリーアドレス制」を試験的に導入します。部署を越えた交流を増やすことが目的です。これに伴い、個人の荷物はすべて各自のロッカーに保管し、退社時には机の上に何も残さないようにしてください。書類の置き忘れが続いた場合は、固定席に戻すことも検討します。他のフロアへの導入は、三階での結果を確認したうえで判断します。ご協力をお願いいたします。\n総務部',
+    explanation: '',
+    questions: [
+      {
+        id: 'n2-reading-tanbun-010-q1',
+        stem: 'フリーアドレス制を導入する目的は何か。',
+        options: [
+          '部署を越えた社員の交流を増やすこと',
+          '書類の置き忘れをなくすこと',
+          '個人のロッカーの数を減らすこと',
+          '三階のフロアを他の部署に貸すこと',
+        ],
+        answerIndex: 0,
+        explanation:
+          '通知明寫「部署を越えた交流を増やすことが目的です」。「置き忘れをなくす」錯，文件遺留是導入後要注意的規則（違反可能恢復固定席），不是導入目的；「ロッカーの数を減らす」錯，置物櫃是配套措施——個人物品改放各自的置物櫃，沒說要減少；「他の部署に貸す」文中完全沒有，通知只說其他樓層是否導入要看三樓的結果再判斷。',
+        explanationEn:
+          'The notice states the purpose outright: 「部署を越えた交流を増やすことが目的です」. "Eliminating misplaced documents" is wrong — left-behind papers are a rule to observe after introduction (repeat offenses may bring back fixed seats), not the aim; "reducing the number of lockers" is wrong since lockers are a supporting measure for storing personal items, with no reduction mentioned; "lending the third floor to another department" appears nowhere — the notice only says expansion to other floors depends on the third-floor results.',
+      },
+      {
+        id: 'n2-reading-tanbun-010-q2',
+        stem: 'このお知らせの内容と合っているのはどれか。',
+        options: [
+          '帰るときは、机の上に何も残してはいけない',
+          '来月から、すべてのフロアでフリーアドレス制が始まる',
+          '個人の荷物は、毎朝机の中に入れなければならない',
+          '書類を置き忘れた社員は、すぐに固定席に戻される',
+        ],
+        answerIndex: 0,
+        explanation:
+          '「退社時には机の上に何も残さないようにしてください」與正解一致。「すべてのフロアで」錯，先在三樓試辦，其他樓層要看結果再判斷；「机の中に入れる」錯，個人物品要收進「各自のロッカー」，不是桌子裡；「すぐに固定席に戻される」錯，原文是「置き忘れが続いた場合は…検討します」，是持續發生才會考慮，不是立刻恢復。',
+        explanationEn:
+          '「退社時には机の上に何も残さないようにしてください」 matches the correct option. "All floors start next month" is wrong — it is a trial on the third floor only, with other floors decided after reviewing the results; "put belongings inside the desk" is wrong because personal items go into 「各自のロッカー」, not the desk; "offenders are immediately returned to fixed seats" overstates 「置き忘れが続いた場合は…検討します」, which says a return will merely be considered if it keeps happening.',
+      },
+    ],
+  },
+  {
+    id: 'n2-reading-tanbun-011',
+    kind: 'passage',
+    passage:
+      '贈り物を選ぶとき、相手に何がほしいかを直接聞くべきかどうか、私はいつも迷う。聞けば確実に喜ばれる物を渡せるが、開けるまでの楽しみは消えてしまう。聞かずに選べば驚きは生まれるものの、好みを外すおそれがある。以前は、聞くのは手抜きのようで気が引けた。だが最近は、こう考えるようになった。大事なのは品物そのものではなく、相手のことをあれこれ考えた時間なのだと。聞いたうえで選んでも、聞かずに選んでも、その時間さえあれば、贈り物は十分に気持ちを伝えてくれるのではないだろうか。',
+    explanation: '',
+    questions: [
+      {
+        id: 'n2-reading-tanbun-011-q1',
+        stem: '贈り物について、筆者は今、どのように考えているか。',
+        options: [
+          '相手のことを考えた時間があれば、聞いても聞かなくても気持ちは伝わる',
+          '直接聞くのは手抜きだから、聞かずに選んだほうがいい',
+          '開けるまでの楽しみこそ大事だから、驚きのある物を選ぶべきだ',
+          '好みを外さないように、必ず相手に聞いてから選ぶべきだ',
+        ],
+        answerIndex: 0,
+        explanation:
+          '筆者現在的想法在「だが最近は」之後：「大事なのは品物そのものではなく、相手のことをあれこれ考えた時間」，只要有這段時間，「聞いたうえで選んでも、聞かずに選んでも」心意都能傳達。「手抜きだから聞かないほうがいい」是「以前は」的顧慮，已被推翻；「驚きのある物を選ぶべきだ」「必ず聞いてから選ぶべきだ」各執一端，筆者的結論恰是兩種做法都可以，並未指定其一。',
+        explanationEn:
+          'The writer\'s current view follows 「だが最近は」: what matters is not the item itself but 「相手のことをあれこれ考えた時間」, and given that time, feelings come through 「聞いたうえで選んでも、聞かずに選んでも」. "Asking is lazy, so choose without asking" is the writer\'s former hesitation, since overturned; "pick something surprising" and "always ask first" each cling to one side, while the writer\'s conclusion is precisely that either approach works — neither is prescribed.',
+      },
+    ],
+  },
 ]

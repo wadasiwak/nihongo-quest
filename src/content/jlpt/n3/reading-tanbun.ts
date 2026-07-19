@@ -177,4 +177,83 @@ export const questions: JlptQuestion[] = [
       },
     ],
   },
+  {
+    id: 'n3-reading-tanbun-007',
+    kind: 'passage',
+    passageTitle: '防災訓練のお知らせ',
+    passage:
+      'ひまわり町内会の皆様\n十一月九日（日）の午前十時から、ひまわり公園で防災訓練を行います。消防署の方に、消火器の使い方や、けがをした人の運び方を教えていただきます。参加を希望する方は、十一月二日までに、班長に名前を伝えてください。当日は動きやすい服装で来て、飲み物を各自でお持ちください。雨の場合は、場所を町内会館に変えて行います。\nひまわり町内会',
+    explanation: '',
+    questions: [
+      {
+        id: 'n3-reading-tanbun-007-q1',
+        stem: '防災訓練に参加したい人は、どうしなければならないか。',
+        options: [
+          '十一月二日までに班長に名前を伝える',
+          '十一月九日までに消防署に電話する',
+          '当日の朝、町内会館に集まる',
+          '班長に飲み物を届けてもらうように頼む',
+        ],
+        answerIndex: 0,
+        explanation:
+          '依據「参加を希望する方は、十一月二日までに、班長に名前を伝えてください」，想參加的人要在十一月二日前向班長報名。「消防署に電話する」錯，消防署人員是來教學的，不是報名窗口；「町内会館に集まる」錯，集合地點是ひまわり公園，會館只是雨天的備案；飲料是「各自」攜帶，不能請班長送來。',
+        explanationEn:
+          'The notice says 「参加を希望する方は、十一月二日までに、班長に名前を伝えてください」, so those who want to join must give their name to the group leader by November 2. Calling the fire station is wrong — the firefighters come to teach, they do not take sign-ups; gathering at the community hall is wrong because the venue is Himawari Park and the hall is only the rainy-day backup; drinks are something each participant brings, not something to have the leader deliver.',
+      },
+      {
+        id: 'n3-reading-tanbun-007-q2',
+        stem: 'このお知らせの内容と合っているものはどれか。',
+        options: [
+          '雨の日は、訓練の場所が町内会館に変わる',
+          '雨の日は、訓練が別の日に延期される',
+          '訓練に参加する人は、消火器を持って行く',
+          '訓練は消防署の中で行われる予定だ',
+        ],
+        answerIndex: 0,
+        explanation:
+          '依據「雨の場合は、場所を町内会館に変えて行います」，下雨時只是改地點照常舉行，正解。「別の日に延期される」錯，公告說的是換場地而不是延期；「消火器を持って行く」錯，滅火器的「使い方」是消防署人員教的內容，參加者要自備的是飲料；訓練地點是ひまわり公園（雨天改町内会館），不是在消防署。',
+        explanationEn:
+          'The notice states 「雨の場合は、場所を町内会館に変えて行います」 — in rain the drill still takes place, only the venue moves to the community hall, so that option matches. "Postponed to another day" is wrong because the notice changes the place, not the date; "participants bring a fire extinguisher" is wrong — how to use one is what the firefighters teach, and what participants bring is a drink; the drill is held at Himawari Park (or the hall in rain), not inside the fire station.',
+      },
+    ],
+  },
+  {
+    id: 'n3-reading-tanbun-008',
+    kind: 'passage',
+    passage:
+      '私は一日中座って仕事をしているせいか、去年から腰が痛くなってしまった。病院へ行くと、医者に「薬より、まず体を動かすことが大切ですよ」と言われた。それから私は、一時間に一度は席を立って、軽く体を伸ばすことにしている。始めたばかりのころは、仕事が止まる気がして落ち着かなかった。しかし今では、腰が楽になっただけでなく、短い休みのあとのほうが仕事に集中できると感じている。',
+    explanation: '',
+    questions: [
+      {
+        id: 'n3-reading-tanbun-008-q1',
+        stem: '筆者が体を伸ばすようになったのは、なぜか。',
+        options: [
+          '腰が痛くなり、医者に体を動かすように言われたから',
+          '薬を飲んでも腰の痛みが治らなかったから',
+          '短い休みを取ると仕事に集中できるから',
+          '医者に一時間ごとに薬を飲むように言われたから',
+        ],
+        answerIndex: 0,
+        explanation:
+          '依據「腰が痛くなってしまった。病院へ行くと、医者に『薬より、まず体を動かすことが大切ですよ』と言われた。それから私は…」，契機是腰痛就醫、被醫生建議先活動身體。「薬を飲んでも治らなかった」錯，文中沒說吃過藥，「薬より」只是醫生的比較說法；「集中できるから」是持續之後才發現的好處，不是開始的原因；醫生建議的是活動身體，不是按時吃藥。',
+        explanationEn:
+          'The passage says his back began to hurt, and at the hospital the doctor told him 「薬より、まず体を動かすことが大切ですよ」 — the trigger was the back pain and the doctor\'s advice to move his body. "Medicine did not cure the pain" is wrong: the text never says he took any, and 「薬より」 is merely the doctor\'s comparison; better concentration is a benefit noticed only after continuing, not the starting reason; and the doctor recommended moving, not taking medicine every hour.',
+      },
+      {
+        id: 'n3-reading-tanbun-008-q2',
+        stem: '席を立って体を伸ばすことについて、筆者は今どう思っているか。',
+        options: [
+          '腰にいいだけでなく、仕事の集中にも役立っている',
+          '仕事が止まる気がして、今も落ち着かない',
+          '腰は楽になったが、仕事は遅くなった',
+          '医者に言われたので、仕方なく続けている',
+        ],
+        answerIndex: 0,
+        explanation:
+          '文末「今では、腰が楽になっただけでなく、短い休みのあとのほうが仕事に集中できると感じている」，可見筆者現在給予正面評價。「今も落ち着かない」錯，那是「始めたばかりのころ」的感覺，後面用「しかし今では」明確轉折；「仕事は遅くなった」與集中力提高的敘述相反；「仕方なく続けている」的消極語氣文中完全沒有。',
+        explanationEn:
+          'The ending says 「今では、腰が楽になっただけでなく、短い休みのあとのほうが仕事に集中できると感じている」, so the writer now rates the habit positively. "Still feels restless" is wrong — that was how he felt 「始めたばかりのころ」, explicitly reversed by 「しかし今では」; "work got slower" contradicts the improved concentration; and "continues reluctantly" carries a grudging tone found nowhere in the passage.',
+      },
+    ],
+  },
 ]

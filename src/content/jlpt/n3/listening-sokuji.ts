@@ -229,4 +229,156 @@ export const questions: JlptQuestion[] = [
     explanationEn:
       '「調子が悪い」 here means the machine is acting up, and 「見てもらえますか」 asks the listener to take a look, so agreeing and dealing with it right away — 「今すぐ確認します」 — is the correct response. Talking about one\'s own poor health only matches the phrase 「調子が悪い」 while ignoring the copier; 「見せてあげましたよ」 is wrong in both benefactive direction and tense, claiming to have already shown a copy to someone, which is a complete mismatch.',
   },
+  {
+    id: 'n3-listening-sokuji-013',
+    kind: 'listening',
+    script: [
+      { speaker: '男', text: '悪いけど、この封筒、会社の帰りにポストに出しておいてくれない？' },
+    ],
+    question: '',
+    options: [
+      'うん、いいよ。切手は貼ってある？',
+      'うん、さっきポストに手紙が届いてたよ。',
+      'うん、封筒なら机の上にたくさんあるよ。',
+    ],
+    answerIndex: 0,
+    spokenOptions: true,
+    explanation:
+      '對方拜託「ポストに出しておいてくれない？」，是請自己下班回家路上幫忙投遞信件，答應並確認「切手は貼ってある？」（貼郵票了嗎）最自然。「手紙が届いてた」方向顛倒，說的是「收到」信而不是「寄出」信；「封筒なら机の上にたくさんある」只抓到「封筒」一詞，回答的是文具庫存，完全沒回應對方的請託。',
+    explanationEn:
+      'The speaker asks a favor with 「ポストに出しておいてくれない？」 — mail this envelope on the way home — so agreeing and checking 「切手は貼ってある？」 (is a stamp on it?) is the natural reply. 「手紙が届いてたよ」 reverses the direction, talking about mail that arrived rather than mail to send; and saying there are plenty of envelopes on the desk merely latches onto the word 「封筒」, answering about stationery stock instead of the request.',
+  },
+  {
+    id: 'n3-listening-sokuji-014',
+    kind: 'listening',
+    script: [
+      { speaker: '女', text: 'あれ、顔色が悪いですよ。今日は早く帰って、病院に行ったほうがいいんじゃないですか。' },
+    ],
+    question: '',
+    options: [
+      'ありがとうございます。そうさせてもらいます。',
+      'ええ、病院なら駅の前にありますよ。',
+      '顔なら毎朝ちゃんと洗っていますよ。',
+    ],
+    answerIndex: 0,
+    spokenOptions: true,
+    explanation:
+      '對方關心自己氣色差、勸早點回去看醫生，接受好意的「ありがとうございます。そうさせてもらいます」最合適，「〜させてもらう」表示承對方好意照做。「病院なら駅の前にあります」把對方的關心誤當成在問路，答非所問；「顔なら毎朝洗っています」只抓到「顔」這個字，把「顔色が悪い」（氣色差）曲解成臉沒洗乾淨。',
+    explanationEn:
+      'The speaker worries that the listener looks pale and urges them to go home early and see a doctor, so accepting the kindness with 「ありがとうございます。そうさせてもらいます」 is best — 「〜させてもらう」 means acting on the other person\'s goodwill. Pointing out that the hospital is in front of the station mistakes the concern for a request for directions; and insisting one washes one\'s face every morning latches onto 「顔」, twisting 「顔色が悪い」 (looking unwell) into a matter of face-washing.',
+  },
+  {
+    id: 'n3-listening-sokuji-015',
+    kind: 'listening',
+    script: [
+      { speaker: '女', text: 'こちらのお薬は、一日三回、毎日食事の後に飲んでくださいね。' },
+    ],
+    question: '',
+    options: [
+      'はい、わかりました。食後ですね。',
+      'いいえ、食事ならもう済ませましたよ。',
+      'そんなにたくさんは食べられませんよ。',
+    ],
+    answerIndex: 0,
+    spokenOptions: true,
+    explanation:
+      '藥師在說明服藥方式「一日三回、食事の後に」，病人複誦重點確認的「はい、わかりました。食後ですね」是最自然的回應。「食事ならもう済ませました」把服藥時間的說明誤解成「吃過飯了沒」的提問，答非所問；「たくさんは食べられません」把「飲む」（服藥）混淆成「食べる」（吃東西），完全沒聽懂指示。',
+    explanationEn:
+      'The pharmacist is explaining the dosage — three times a day, after meals — so repeating the key point to confirm, 「はい、わかりました。食後ですね」, is the natural response. 「食事ならもう済ませましたよ」 mistakes the instruction about timing for a question about whether one has eaten; and 「そんなにたくさんは食べられません」 confuses 「飲む」 (taking medicine) with 「食べる」 (eating), showing the instruction was not understood at all.',
+  },
+  {
+    id: 'n3-listening-sokuji-016',
+    kind: 'listening',
+    script: [
+      { speaker: '男', text: 'もしもし、ごめん、今、電車の中だから、降りたらこちらからかけ直してもいい？' },
+    ],
+    question: '',
+    options: [
+      'うん、わかった。じゃあ、待ってるね。',
+      'ううん、電車はまだ来ていないよ。',
+      'うん、昨日はかけ直してくれてありがとう。',
+    ],
+    answerIndex: 0,
+    spokenOptions: true,
+    explanation:
+      '對方表示人在電車上不方便講電話，提議下車後回撥，同意並表示等候的「うん、わかった。じゃあ、待ってるね」最自然。「電車はまだ来ていない」只抓到「電車」一詞，答的是自己等車的狀況，與對方的提議無關；「昨日はかけ直してくれてありがとう」時態錯誤，把「等一下要回撥」說成昨天已經發生的事來道謝。',
+    explanationEn:
+      'The caller says he is on the train and offers to call back after getting off, so agreeing and saying you will wait — 「うん、わかった。じゃあ、待ってるね」 — is the natural reply. 「電車はまだ来ていないよ」 latches onto the word 「電車」 and talks about waiting for a train, unrelated to the offer; and thanking him for calling back yesterday gets the time frame wrong, treating a future callback as something that already happened.',
+  },
+  {
+    id: 'n3-listening-sokuji-017',
+    kind: 'listening',
+    script: [
+      { speaker: '女', text: 'すみません、住民票を一枚もらいたいんですが、どこに並べばいいですか。' },
+    ],
+    question: '',
+    options: [
+      'あちらの三番の窓口にどうぞ。',
+      '住所ならこの紙に書いてありますよ。',
+      '一枚だけでは足りないと思いますよ。',
+    ],
+    answerIndex: 0,
+    spokenOptions: true,
+    explanation:
+      '對方在市公所詢問申請住民票該「どこに並べばいいですか」（在哪裡排隊），直接指引窗口的「あちらの三番の窓口にどうぞ」是正確應對。「住所ならこの紙に書いてあります」只抓到「住」字，答的是地址而不是排隊地點；「一枚だけでは足りない」擅自評論對方需要幾張，既沒回答問題，也顯得多管閒事。',
+    explanationEn:
+      'The visitor at the city office asks 「どこに並べばいいですか」 — where to line up for a residence certificate — so directing them with 「あちらの三番の窓口にどうぞ」 is the correct response. Saying the address is written on this paper only picks up the character 「住」 and answers about an address, not where to queue; and declaring that one copy will not be enough presumes to judge how many they need, answering nothing and overstepping.',
+  },
+  {
+    id: 'n3-listening-sokuji-018',
+    kind: 'listening',
+    script: [
+      { speaker: '男', text: 'ごめん、日曜日の公園の掃除、急に用事ができて、参加できなくなっちゃったんだ。' },
+    ],
+    question: '',
+    options: [
+      'そうなんだ。じゃあ、また次のときにお願いね。',
+      'うん、公園はとてもきれいになったよ。',
+      'じゃあ、日曜日に公園で会おうね。',
+    ],
+    answerIndex: 0,
+    spokenOptions: true,
+    explanation:
+      '對方為週日的公園打掃臨時不能參加而道歉，體諒地回「じゃあ、また次のときにお願いね」（那下次再麻煩你）最自然。「公園はとてもきれいになった」時態錯誤，打掃是週日才要進行的活動，不可能已經變乾淨；「日曜日に公園で会おうね」與對方明說「參加不了」直接矛盾，等於完全沒聽懂對方的話。',
+    explanationEn:
+      'The speaker apologizes that something came up and he can no longer join the Sunday park cleanup, so the understanding reply 「じゃあ、また次のときにお願いね」 — asking him to help next time — is the natural one. Saying the park has become very clean gets the tense wrong, since the cleanup has not happened yet; and proposing to meet at the park on Sunday directly contradicts his statement that he cannot attend, as if his words were never heard.',
+  },
+  {
+    id: 'n3-listening-sokuji-019',
+    kind: 'listening',
+    script: [
+      { speaker: '女', text: 'お客様がいらっしゃったから、会議室にお茶をお願いできる？' },
+    ],
+    question: '',
+    options: [
+      'はい、すぐお持ちします。何人分ですか。',
+      '私はコーヒーのほうが好きなんですが。',
+      'お客様はもうお帰りになりましたよ。',
+    ],
+    answerIndex: 0,
+    spokenOptions: true,
+    explanation:
+      '對方請自己送茶到會議室招待客人，答應並確認人數的「はい、すぐお持ちします。何人分ですか」最合適。「私はコーヒーのほうが好き」把招待客人的請託誤當成在問自己想喝什麼，答非所問；「もうお帰りになりました」與對方說的「いらっしゃったから」（客人剛到）矛盾，不能成立。',
+    explanationEn:
+      'The speaker asks for tea to be brought to the meeting room for visitors, so agreeing and confirming the number — 「はい、すぐお持ちします。何人分ですか」 — is the best reply. Stating a personal preference for coffee mistakes the hosting request for a question about what the listener wants to drink; and saying the visitors have already left contradicts 「いらっしゃったから」, which says they have just arrived, so it cannot stand.',
+  },
+  {
+    id: 'n3-listening-sokuji-020',
+    kind: 'listening',
+    script: [
+      { speaker: '男', text: '来月の町内会の集まり、場所が公民館に変わったって知ってた？' },
+    ],
+    question: '',
+    options: [
+      'ううん、知らなかった。教えてくれてありがとう。',
+      'うん、場所はまだ決まっていないらしいよ。',
+      'そうそう、集まりはとても楽しかったね。',
+    ],
+    answerIndex: 0,
+    spokenOptions: true,
+    explanation:
+      '對方告知下個月町內會的集會地點改到公民館，並用「知ってた？」確認，回「ううん、知らなかった。教えてくれてありがとう」承接新資訊並道謝最自然。「場所はまだ決まっていないらしい」與對方明說的「公民館に変わった」矛盾；「集まりはとても楽しかったね」時態錯誤，集會是下個月的事，還沒有舉行。',
+    explanationEn:
+      'The speaker shares that next month\'s neighborhood meeting has moved to the community center and checks with 「知ってた？」, so replying 「ううん、知らなかった。教えてくれてありがとう」 — acknowledging the news and thanking him — is the natural response. Claiming the venue is still undecided contradicts his clear statement 「公民館に変わった」; and reminiscing that the gathering was fun gets the tense wrong, since it is next month and has not taken place yet.',
+  },
 ]

@@ -126,4 +126,74 @@ export const questions: JlptQuestion[] = [
       },
     ],
   },
+  {
+    id: 'n2-reading-joho-005',
+    kind: 'passage',
+    passageTitle: 'みなと市ものづくり技術展　出展者募集',
+    passage:
+      'みなと市ものづくり技術展　出展者募集\n\n市内のものづくり企業の技術を広く紹介するため、「みなと市ものづくり技術展」を開催します。出展を希望する企業は、下記をご確認のうえ、お申し込みください。\n\n■開催日時：３月５日（木）・６日（金）　１０時～１７時\n■会場：みなと産業交流センター　大ホール\n\n■出展できる方\n・市内に本社または工場がある企業\n・製造業、またはものづくりを支える情報技術関連の企業\n\n■出展料（２日間・税込み）\n・Ａ：標準ブース（間口２ｍ）　４０，０００円\n・Ｂ：広型ブース（間口４ｍ）　７０，０００円\n・Ｃ：実演ブース（間口４ｍ・電源付き、機械の実演ができます）　９０，０００円\n※創業５年以内の企業は、出展料が半額になります（Ｃを除く）。\n※長机１台といす２脚は無料で貸し出します。追加の机は１台２，０００円です。\n\n■申し込み方法\n・市のホームページから申込書をダウンロードし、メールでお送りください。窓口・郵送では受け付けません。\n・締め切り：１月３１日（金）※ブースの数に達し次第、受付を終了します。\n・出展の可否は、２月１４日（金）までにメールでお知らせします。\n\n■注意事項\n・実演を行う場合は、申込書に機械の種類と大きさを必ずご記入ください。\n・出展料は、出展決定の通知を受け取ってから２月末日までにお振り込みください。申し込みの時にお支払いいただく必要はありません。\n・当日の搬入は、前日の１５時から１８時の間にお願いします。',
+    explanation: '',
+    questions: [
+      {
+        id: 'n2-reading-joho-005-q1',
+        stem: '市内に本社があるＩＴ企業のキムさんの会社は、創業３年目である。機械の実演はせず、できるだけ安いブースで出展し、机を１台追加で借りたい。キムさんの会社が支払う金額は、全部でいくらか。',
+        options: ['２２，０００円', '４２，０００円', '３７，０００円', '２０，０００円'],
+        answerIndex: 0,
+        explanation:
+          '金先生的公司是資訊技術相關企業且總公司在市內，符合出展資格。不做實演，最便宜的是標準攤位（Ａ）40,000日圓；創業3年適用「創業5年以內半價」變20,000日圓，再加追加桌子1台2,000日圓，合計22,000日圓。42,000日圓是忘了半價優惠；37,000日圓是誤選廣型攤位（Ｂ）打對折再加桌；20,000日圓則漏算了追加的桌子費用。',
+        explanationEn:
+          'Kim\'s company is an IT-related firm headquartered in the city, so it qualifies. With no live demonstration, the cheapest option is the standard booth (A) at 40,000 yen; being three years old, the company gets the founded-within-five-years half-price rate, 20,000 yen, plus 2,000 yen for one extra table — 22,000 yen in total. 42,000 yen forgets the half-price discount; 37,000 yen mistakenly halves the wide booth (B) and adds the table; 20,000 yen leaves out the extra table fee.',
+      },
+      {
+        id: 'n2-reading-joho-005-q2',
+        stem: '機械の実演をしたい会社の申し込みのしかたとして、正しいものはどれか。',
+        options: [
+          '申込書に機械の種類と大きさを書き、１月３１日までにメールで送る。出展料は決定の通知を受けてから振り込む。',
+          '申込書を窓口に持って行き、その場で出展料９０，０００円を支払う。',
+          'メールで申し込めば、創業５年以内の会社は実演ブースも半額で使える。',
+          '申込書を郵送で送り、出展料は２月１４日までに振り込む。',
+        ],
+        answerIndex: 0,
+        explanation:
+          '實演要用Ｃ攤位，注意事項規定申込書上「機械の種類と大きさを必ずご記入ください」，申請一律從網站下載申込書後以電子郵件寄出、期限1月31日，出展費則是「出展決定の通知を受け取ってから」2月底前匯款。第二個選項錯在「窓口・郵送では受け付けません」且申請時不必付費；第三個選項錯在半價優惠「Ｃを除く」；第四個選項除了不能郵寄，2月14日是通知可否的期限而非匯款期限。',
+        explanationEn:
+          'A demonstration requires booth C, and the notes say the application form must state 「機械の種類と大きさ」; all applications are made by downloading the form from the website and sending it by email by January 31, and the fee is paid by bank transfer by the end of February, only after receiving the acceptance notice. The second option fails because 「窓口・郵送では受け付けません」 and no payment is due at application time; the third fails because the half-price discount applies 「Ｃを除く」 — not to demonstration booths; the fourth uses mail, which is not accepted, and February 14 is the deadline for the acceptance notice, not for payment.',
+      },
+    ],
+  },
+  {
+    id: 'n2-reading-joho-006',
+    kind: 'passage',
+    passageTitle: 'ひまわりスポーツセンター　トレーニング室利用案内',
+    passage:
+      'ひまわりスポーツセンター　トレーニング室利用案内\n\nトレーニング室には、ランニングマシンや筋力トレーニングの機器があり、どなたでも利用できます（１６歳未満の方は利用できません）。\n\n■利用時間\n・平日：９時～２２時\n・土日祝日：９時～１８時\n※毎月第３月曜日は、機器点検のため終日利用できません。\n\n■利用料金（１回・２時間まで）\n・市内在住・在勤の方：３００円\n・市外の方：５００円\n・６５歳以上の方：２００円（市内・市外を問いません）\n※２時間を超える場合は、１時間ごとに１００円が加算されます。\n※お得な回数券（１１回分）：市内の方３，０００円、市外の方５，０００円\n\n■はじめて利用する方へ\n・初回は、機器の使い方を学ぶ「利用者講習会」（無料・約６０分）を必ず受けてください。講習会を受けていない方は、トレーニング室を利用できません。\n・講習会は毎週水曜日１９時と土曜日１０時に行います。前日までに、電話または受付窓口でお申し込みください。\n・講習会の当日は、運動できる服装と室内用の運動靴、本人確認書類（市内在住・在勤の確認にも使います）をお持ちください。\n\n■注意事項\n・利用の当日は、受付で利用料を支払い、利用証を受け取ってください。\n・混雑時は、ランニングマシンの利用を１人３０分までとさせていただくことがあります。\n・タオルの貸し出しは行っていません。各自でご用意ください。',
+    explanation: '',
+    questions: [
+      {
+        id: 'n2-reading-joho-006-q1',
+        stem: '市内の会社に勤めるチンさん（４０歳）は、トレーニング室を初めて利用したいと考えている。チンさんがまずしなければならないことは何か。',
+        options: [
+          '前日までに電話か受付窓口で申し込んで、無料の利用者講習会を受ける。',
+          '利用したい日に受付で５００円を払い、そのままトレーニング室に入る。',
+          '回数券５，０００円を買ってから、利用者講習会に申し込む。',
+          '毎月第３月曜日に行われる利用者講習会に参加する。',
+        ],
+        answerIndex: 0,
+        explanation:
+          '案內明定初次利用者「必ず」要先上免費的利用者講習會，且「講習会を受けていない方は、トレーニング室を利用できません」；講習會要在前一天以前用電話或窗口報名。第二個選項錯在未受講不能進場，且陳先生是市內在勤，費用是300日圓不是500日圓；買回數券並非必要條件，市內的人也是3,000日圓；第四個選項錯在講習會辦在週三與週六，第3個週一整天休館。',
+        explanationEn:
+          'The notice says first-time users 「必ず」 must take the free orientation session, and 「講習会を受けていない方は、トレーニング室を利用できません」; sign-up is by phone or at the reception desk by the day before. The second option fails because entry without the session is not allowed, and Chin works in the city, so his fee would be 300 yen, not 500. Buying a ticket book is not required, and the in-city price is 3,000 yen anyway. The fourth option fails because sessions are held on Wednesdays and Saturdays, while the third Monday of each month is a full-day closure for equipment inspection.',
+      },
+      {
+        id: 'n2-reading-joho-006-q2',
+        stem: '市外に住むオウさん（６８歳・講習会は受講済み）が、平日にトレーニング室を３時間利用する場合、支払う利用料はいくらか。',
+        options: ['３００円', '６００円', '２００円', '５００円'],
+        answerIndex: 0,
+        explanation:
+          '王先生68歲，適用「６５歳以上の方：２００円」且「市内・市外を問いません」，所以基本費不是市外的500日圓而是200日圓。利用3小時超過「１回・２時間まで」的範圍，超出的1小時加收100日圓，合計300日圓。600日圓是誤用市外料金500再加100；200日圓漏算了超時加價；500日圓則是只看市外料金、又忘了65歲以上優惠與加價規則。',
+        explanationEn:
+          'Ou is 68, so the senior rate applies: 「６５歳以上の方：２００円」, and it holds 「市内・市外を問いません」, overriding the 500 yen non-resident fee. Three hours exceeds the two-hour base (「１回・２時間まで」) by one hour, adding 100 yen, for a total of 300 yen. 600 yen wrongly starts from the 500 yen non-resident fee plus the surcharge; 200 yen forgets the extra-hour charge; 500 yen applies only the non-resident rate while ignoring both the senior discount and the surcharge rule.',
+      },
+    ],
+  },
 ]

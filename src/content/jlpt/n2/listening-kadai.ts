@@ -269,4 +269,163 @@ export const questions: JlptQuestion[] = [
     explanationEn:
       'The man initially wanted to ask the customer for a deadline extension, but the woman corrects him with 「待って。その前に」 and tells him to first check whether another supplier they have dealt with before can ship the same part right away; he says 「すぐ電話します」, so asking the other supplier about stock comes first. Requesting an extension from the customer happens only if that route turns out to be too slow, reporting to the section chief is the woman\'s job, and changing the shipping date is merely a possible consequence mentioned in passing, never decided on.',
   },
+  {
+    id: 'n2-listening-kadai-011',
+    kind: 'listening',
+    script: [
+      { speaker: '旁白', text: '会社で女の人と男の人が午後のテレビ会議の準備について話しています。' },
+      { speaker: '女', text: '佐々木くん、午後の大阪支社とのテレビ会議、会議室の機材はもう使える状態？' },
+      { speaker: '男', text: 'カメラは設置しました。ただ、マイクの調子が悪いようで、時々音が途切れるんです。' },
+      { speaker: '女', text: 'それは困るわね。まず支社とつないで、音声のテストをしてみて。だめなら情報システム部に代わりのマイクを借りましょう。' },
+      { speaker: '男', text: 'わかりました。あの、会議の資料は印刷しておきますか。' },
+      { speaker: '女', text: '画面で共有するから、印刷はしなくていいわ。資料の送付は部長がもう済ませたそうよ。' },
+      { speaker: '男', text: '承知しました。議事録は私が取りましょうか。' },
+      { speaker: '女', text: 'それは大阪側の担当者がまとめてくれることになってるの。じゃ、時間がないから急いでね。' },
+      { speaker: '男', text: 'はい、すぐ試してみます。' },
+    ],
+    question: '男の人はこのあとまず何をしますか。',
+    options: [
+      '支社とつないで音声のテストをする',
+      '情報システム部にマイクを借りる',
+      '会議の資料を印刷する',
+      '会議の議事録をまとめる',
+    ],
+    answerIndex: 0,
+    explanation:
+      '麥克風狀況不佳、聲音時斷時續，女の人指示「まず支社とつないで、音声のテストをしてみて」，男の人也回答「すぐ試してみます」，所以第一步是與支社連線測試音訊。向資訊系統部借麥克風是測試不行之後才做的備案；資料因為會用畫面共享，被「印刷はしなくていいわ」否定；議事錄由大阪方的負責人整理，不是他的工作。',
+    explanationEn:
+      'The microphone keeps cutting out, so the woman instructs 「まず支社とつないで、音声のテストをしてみて」 and the man replies 「すぐ試してみます」; testing the audio connection with the branch office is therefore his first task. Borrowing a replacement microphone from the IT department is only a fallback if the test fails, printing the handouts is rejected with 「印刷はしなくていいわ」 because they will be shared on screen, and the minutes will be compiled by the person in Osaka, not by him.',
+  },
+  {
+    id: 'n2-listening-kadai-012',
+    kind: 'listening',
+    script: [
+      { speaker: '旁白', text: '会社で男の人と女の人が出張の経費の精算について話しています。' },
+      { speaker: '男', text: '石井さん、先週の名古屋出張の精算書、今日が締め切りだけど、もう出せそう？' },
+      { speaker: '女', text: 'それが、ホテルの領収書が一枚見当たらなくて、書類がそろわないんです。' },
+      { speaker: '男', text: 'それなら、まずホテルに電話して、再発行してもらえるか頼んでみたら？宿泊した日付を言えば、たいてい対応してくれるよ。' },
+      { speaker: '女', text: 'そうします。あの、タクシー代の領収書はあるんですが、金額が決まりを超えていて。' },
+      { speaker: '男', text: 'それは事情を書いた書類を付ければ大丈夫。精算書の提出は、領収書がそろってからでいいと、僕から経理に伝えておくよ。' },
+      { speaker: '女', text: '助かります。出張の報告書も今日中でしたっけ。' },
+      { speaker: '男', text: '報告書は明日の会議で使うから、夕方までで構わないよ。' },
+      { speaker: '女', text: 'わかりました。では、先に電話をかけます。' },
+    ],
+    question: '女の人はこのあとまず何をしますか。',
+    options: [
+      'ホテルに領収書の再発行を頼む',
+      '経理に精算書を提出する',
+      'タクシー代の事情を書いた書類を作る',
+      '出張の報告書を仕上げる',
+    ],
+    answerIndex: 0,
+    explanation:
+      '住宿收據少了一張、文件湊不齊，男の人建議「まずホテルに電話して、再発行してもらえるか頼んでみたら」，女の人最後也說「先に電話をかけます」，所以第一步是請旅館補發收據。結算單要等收據齊全再交，經理那邊由男の人代為轉達；計程車費的說明文件只是附件，並未被指定最優先；出差報告書傍晚前完成即可，都排在後面。',
+    explanationEn:
+      'One hotel receipt is missing, so the man suggests 「まずホテルに電話して、再発行してもらえるか頼んでみたら？」 and the woman closes with 「先に電話をかけます」; asking the hotel to reissue the receipt is her first move. The expense form is to be submitted only after the receipts are complete — the man will tell accounting himself — the note explaining the over-limit taxi fare is just an attachment with no stated priority, and the trip report is fine by evening, so all of those come later.',
+  },
+  {
+    id: 'n2-listening-kadai-013',
+    kind: 'listening',
+    script: [
+      { speaker: '旁白', text: '会社で女の人と男の人が取引先の来訪について話しています。' },
+      { speaker: '女', text: '大変、山川商事の部長さんが、三時にうちに寄ってくださることになったの。あと一時間しかないわ。' },
+      { speaker: '男', text: 'えっ、急ですね。応接室、空いてるでしょうか。' },
+      { speaker: '女', text: 'それが一番心配なの。埋まってたらただの会議室にお通しすることになるから、まず応接室を押さえて。' },
+      { speaker: '男', text: 'わかりました。お出しするお茶とお菓子も買ってきましょうか。' },
+      { speaker: '女', text: 'お茶は給湯室のもので十分よ。それより、この間の提案書の控えを二部印刷しておいて。話はきっとその件になるから。' },
+      { speaker: '男', text: '印刷は部屋を確保したらすぐやります。駅までのお迎えはどうしますか。' },
+      { speaker: '女', text: '先方は車でいらっしゃるそうだから、迎えは要らないわ。じゃ、お願いね。' },
+      { speaker: '男', text: 'はい、今すぐ確認します。' },
+    ],
+    question: '男の人はこのあとまず何をしますか。',
+    options: [
+      '応接室が空いているか確認して押さえる',
+      '提案書の控えを二部印刷する',
+      'お茶とお菓子を買いに行く',
+      '駅まで取引先を迎えに行く',
+    ],
+    answerIndex: 0,
+    explanation:
+      '距離客戶來訪只剩一小時，女の人最擔心會客室被占用，指示「まず応接室を押さえて」，男の人也說「今すぐ確認します」，所以第一步是確認並預約會客室。影印提案書副本男の人自己說「部屋を確保したらすぐやります」，排在第二；茶點被「給湯室のもので十分」否定，不必外出購買；對方開車前來，接送被明確說「要らない」。',
+    explanationEn:
+      'With only an hour before the client arrives, the woman is most worried about the reception room being taken and orders 「まず応接室を押さえて」; the man answers 「今すぐ確認します」, so checking and securing the reception room comes first. He himself says he will print the proposal copies 「部屋を確保したらすぐ」, putting that second; buying refreshments is waved off with 「給湯室のもので十分よ」; and picking the visitor up at the station is unnecessary because the client is coming by car.',
+  },
+  {
+    id: 'n2-listening-kadai-014',
+    kind: 'listening',
+    script: [
+      { speaker: '旁白', text: '会社で男の人と女の人が共有サーバーの容量について話しています。' },
+      { speaker: '男', text: '課長、共有サーバーの空きが残り一割を切ったと、情報システム部から連絡が来ました。このままだと月末にはいっぱいになるそうです。' },
+      { speaker: '女', text: 'もうそんなに？各部署に古いファイルの整理を頼まないといけないわね。' },
+      { speaker: '男', text: 'では、すぐ全部署に削除のお願いのメールを送りましょうか。' },
+      { speaker: '女', text: '待って。基準がないと、何を消していいか現場が迷うだけよ。まず、何年前のファイルをどこへ移すか、ルールの案を作ってちょうだい。お願いのメールはそれからよ。' },
+      { speaker: '男', text: '確かにそうですね。容量の追加を申し込む手もありますが。' },
+      { speaker: '女', text: '追加は費用がかかるから、整理してみてから考えましょう。' },
+      { speaker: '男', text: 'わかりました。では、さっそく取りかかります。' },
+    ],
+    question: '男の人はこのあとまず何をしますか。',
+    options: [
+      'ファイル整理のルールの案を作る',
+      '全部署に削除を頼むメールを送る',
+      'サーバーの容量の追加を申し込む',
+      '古いファイルを自分で削除する',
+    ],
+    answerIndex: 0,
+    explanation:
+      '男の人原想立刻寄信請各部門刪檔，但被課長「待って」擋下，理由是沒有基準大家會無所適從，改為指示「まず、ルールの案を作ってちょうだい」，所以第一步是擬定檔案整理規則的草案。請託信被「それからよ」排在規則之後；擴充容量因為要花錢，被「整理してみてから考えましょう」延後；自己動手刪舊檔對話中根本沒有人提議。',
+    explanationEn:
+      'The man wants to email every department right away asking them to delete files, but the section chief stops him with 「待って」, saying that without criteria people will not know what to remove, and tells him 「まず、ルールの案を作ってちょうだい」 — drafting the file-cleanup rules comes first. The request email is explicitly pushed back with 「それからよ」, purchasing extra storage is deferred until after the cleanup because it costs money, and deleting old files himself is never proposed by anyone.',
+  },
+  {
+    id: 'n2-listening-kadai-015',
+    kind: 'listening',
+    script: [
+      { speaker: '旁白', text: '会社で女の人と男の人が昨日の会議の議事録について話しています。' },
+      { speaker: '女', text: '高木くん、昨日の営業会議の議事録、読ませてもらったんだけど、下半期の目標の数字、資料と合ってる？' },
+      { speaker: '男', text: 'え、会議で聞き取ったとおりに書いたつもりですが。' },
+      { speaker: '女', text: '資料では五パーセント増になってるのに、議事録では十五パーセントになってるのよ。会議中に訂正があったのかもしれないけど、思い込みで直しちゃだめよ。まず営業部に、どちらが正しいか確認して。' },
+      { speaker: '男', text: '申し訳ありません。確認が取れたら、直してすぐ皆さんに送り直します。' },
+      { speaker: '女', text: 'ええ。配り直すのは数字が確定してからね。部長へのお詫びは要らないわ。間違いは誰にでもあるから、確認さえきちんとすれば大丈夫。' },
+      { speaker: '男', text: 'ありがとうございます。では、すぐ問い合わせます。' },
+    ],
+    question: '男の人はこのあとまず何をしますか。',
+    options: [
+      '営業部に正しい数字を確認する',
+      '議事録を直して皆に送り直す',
+      '部長に謝りに行く',
+      '会議の資料を作り直す',
+    ],
+    answerIndex: 0,
+    explanation:
+      '議事錄與資料上的目標數字兜不攏，女の人叮嚀不可憑印象亂改，指示「まず営業部に、どちらが正しいか確認して」，男の人也說「すぐ問い合わせます」，所以第一步是向營業部確認正確數字。修改後重發被「数字が確定してからね」排在後面；向部長道歉被「要らないわ」明確否定；重做會議資料則從頭到尾沒有人要求。',
+    explanationEn:
+      'The target figure in the minutes does not match the handout, and the woman warns him not to fix it on a hunch, instructing 「まず営業部に、どちらが正しいか確認して」; he replies 「すぐ問い合わせます」, so checking the correct number with the sales department comes first. Correcting and redistributing the minutes must wait until 「数字が確定してから」, apologizing to the department head is expressly ruled out with 「要らないわ」, and remaking the meeting handout is never requested at all.',
+  },
+  {
+    id: 'n2-listening-kadai-016',
+    kind: 'listening',
+    script: [
+      { speaker: '旁白', text: '会社で女の人と男の人が取引先の工場見学について話しています。' },
+      { speaker: '女', text: '中山くん、再来週の川田工業さんの工場見学、段取りはどこまで進んでる？' },
+      { speaker: '男', text: '参加者は八名で確定しました。あとはバスの手配と、当日のしおり作りです。' },
+      { speaker: '女', text: '先方から何か連絡はなかった？' },
+      { speaker: '男', text: 'あ、そうでした。工場に入るにはヘルメットと安全靴が必要で、サイズを今週中に知らせてほしいそうです。' },
+      { speaker: '女', text: 'それが一番急ぎよ。そろえるのに時間がかかるから、まず参加者全員にサイズを聞いて。' },
+      { speaker: '男', text: 'わかりました。バスの見積もりはその後でいいですか。' },
+      { speaker: '女', text: 'ええ。しおりは行程が固まってからで十分。先方へのお礼のメールは私から送っておくわ。' },
+      { speaker: '男', text: '助かります。では、さっそく皆さんに連絡します。' },
+    ],
+    question: '男の人はこのあとまず何をしますか。',
+    options: [
+      '参加者にヘルメットと安全靴のサイズを聞く',
+      'バスの見積もりを取る',
+      '当日のしおりを作る',
+      '取引先にお礼のメールを送る',
+    ],
+    answerIndex: 0,
+    explanation:
+      '對方要求本週內回報安全帽與安全鞋的尺寸，女の人判斷「それが一番急ぎよ」，指示「まず参加者全員にサイズを聞いて」，男の人也說要立刻聯絡大家，所以第一步是向八位參加者收集尺寸。巴士估價被「その後でいい」延後；行程手冊要等行程確定，「固まってからで十分」；給對方的致謝信女の人說由她來寄，不是男の人的工作。',
+    explanationEn:
+      'The client asked for everyone\'s helmet and safety-shoe sizes by the end of this week, and the woman judges 「それが一番急ぎよ」, instructing 「まず参加者全員にサイズを聞いて」; the man says he will contact everyone right away, so collecting sizes from the eight participants comes first. The bus quote is deferred with 「その後でいい」, the day-of itinerary booklet can wait until the schedule is fixed, and the thank-you email to the client will be sent by the woman herself.',
+  },
 ]

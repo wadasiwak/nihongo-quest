@@ -321,4 +321,196 @@ export const questions: JlptQuestion[] = [
     explanationEn:
       '「すっかり」 means completely or entirely, typically paired with verbs like 「わすれる」 or 「かわる」 — 「すっかり わすれる」 (to forget completely) is the classic use. Gripping a handrail firmly needs 「しっかり」; chatting at leisure is 「ゆっくり」; simply emphasizing that a room is big needs 「とても」. All three distractors mix up similar-sounding adverbs.',
   },
+  {
+    kind: 'choice',
+    id: 'n4-vocab-yoho-021',
+    stem: 'あつまる',
+    options: [
+      'あしたの あさは、九時に 学校の まえに あつまって ください。',
+      'しゅみで、外国の きってや おかねを あつまって います。',
+      'つくえの 上を きれいに あつまって ください。',
+      'この 電車は 人が 多くて、とても あつまって います。',
+    ],
+    answerIndex: 0,
+    explanation:
+      '「あつまる」（集まる）是自動詞，指人或物自己聚集到一處，「九時に〜あつまって ください」（請九點集合）用法正確。收集郵票錢幣要用他動詞「あつめる」，是自他動詞混淆；整理桌面是「かたづける」；電車擁擠是「こんで いる」，三句都套錯動詞。',
+    explanationEn:
+      '「あつまる」 (集まる) is intransitive — people or things gathering in one place — so asking everyone to assemble in front of the school at nine is correct. Collecting stamps and coins needs the transitive 「あつめる」; tidying a desk is 「かたづける」; a crowded train is 「こんで いる」. The other three all use the wrong verb.',
+  },
+  {
+    kind: 'choice',
+    id: 'n4-vocab-yoho-022',
+    stem: 'わたる',
+    options: [
+      'しんごうが あおに なってから、みちを わたりましょう。',
+      '先生に しゅくだいを わたりました。',
+      'えきまで じてんしゃに わたって 行きました。',
+      'かいだんを 三がいまで わたりました。',
+    ],
+    answerIndex: 0,
+    explanation:
+      '「わたる」（渡る）指從一側移動到另一側，過馬路、過橋用「わたる」，等綠燈再過馬路用法正確。把作業交給老師是他動詞「わたす」（渡す），自他動詞混淆；騎腳踏車是「のる」；上樓梯到三樓是「あがる（のぼる）」，皆用錯動詞。',
+    explanationEn:
+      '「わたる」 (渡る) means crossing from one side to the other, as with streets or bridges, so crossing after the light turns green is correct. Handing homework to the teacher is the transitive 「わたす」 — a transitivity mix-up; riding a bicycle is 「のる」; going up to the third floor is 「あがる」 or 「のぼる」.',
+  },
+  {
+    kind: 'choice',
+    id: 'n4-vocab-yoho-023',
+    stem: 'のりかえる',
+    options: [
+      'つぎの えきで、地下鉄に のりかえて ください。',
+      'ぬれた ふくを、あたらしい ふくに のりかえました。',
+      'テレビの チャンネルを のりかえました。',
+      'まどの ちかくの せきに のりかえました。',
+    ],
+    answerIndex: 0,
+    explanation:
+      '「のりかえる」（乗り換える）專指中途換乘交通工具，在下一站換地下鐵用法正確。換衣服要說「きがえる」；轉電視頻道是「チャンネルを かえる」；換座位是「せきを かわる（うつる）」。「のりかえる」的對象只能是電車、公車等交通工具。',
+    explanationEn:
+      '「のりかえる」 (乗り換える) is used only for transferring between vehicles, so changing to the subway at the next station is correct. Changing clothes is 「きがえる」; switching TV channels is 「チャンネルを かえる」; moving to another seat is 「せきを かわる」. Its object must be a train, bus, or other vehicle.',
+  },
+  {
+    kind: 'choice',
+    id: 'n4-vocab-yoho-024',
+    stem: 'わすれもの',
+    options: [
+      'きょうしつに わすれものを して、とりに もどりました。',
+      'たんじょうびに、ともだちに わすれものを あげました。',
+      'スーパーで、ばんごはんの わすれものを しました。',
+      'ねる まえに、あしたの わすれものを して おきます。',
+    ],
+    answerIndex: 0,
+    explanation:
+      '「わすれもの」（忘れ物）指忘記帶走、留在原處的東西，「わすれものを する」＝把東西忘在某處，忘在教室再回去拿用法正確。生日送的是「プレゼント」；在超市買晚餐材料是「かいもの」；睡前為明天做的是「じゅんび（したく）」，皆用錯名詞。',
+    explanationEn:
+      '「わすれもの」 (忘れ物) is something left behind by mistake, and 「わすれものを する」 means leaving something somewhere — so going back to the classroom to fetch it is correct. A birthday gift is a プレゼント; buying dinner ingredients at the supermarket is 「かいもの」; getting ready for tomorrow before bed is 「じゅんび」 or 「したく」.',
+  },
+  {
+    kind: 'choice',
+    id: 'n4-vocab-yoho-025',
+    stem: 'しっかり',
+    options: [
+      'あさごはんを しっかり 食べてから、学校へ 行きます。',
+      'きのうの ことは、しっかり わすれて しまいました。',
+      'この へやは ひろくて、しっかりですね。',
+      'この みずうみの 水は、しっかり きれいです。',
+    ],
+    answerIndex: 0,
+    explanation:
+      '「しっかり」＝好好地、紮實地，常與「食べる、勉強する、つかまる」搭配，「あさごはんを しっかり 食べる」（好好吃早餐）用法正確。忘得一乾二淨要用「すっかり」，是音近副詞的混用；「ひろくて、しっかりですね」把副詞當な形容詞用，詞性錯誤；湖水很乾淨要說「とても きれい」。',
+    explanationEn:
+      '「しっかり」 means properly or solidly, pairing with verbs like 「食べる」 and 「勉強する」 — eating a proper breakfast is correct usage. Forgetting completely needs 「すっかり」, a similar-sounding adverb; 「ひろくて、しっかりですね」 misuses the adverb as a na-adjective; and very clean lake water calls for 「とても きれい」.',
+  },
+  {
+    kind: 'choice',
+    id: 'n4-vocab-yoho-026',
+    stem: 'そだてる',
+    options: [
+      'にわで トマトや きゅうりを そだてて います。',
+      'こどもが 元気に そだてて いて、うれしいです。',
+      'ぎんこうで おかねを そだてて います。',
+      'つよい かぜが そだてて、木が たおれました。',
+    ],
+    answerIndex: 0,
+    explanation:
+      '「そだてる」（育てる）是他動詞，指培育植物或養育小孩，「トマトを そだてる」用法正確。小孩健康長大是自動詞「そだつ」（育つ），說「こどもが そだてて」是自他動詞混淆；在銀行存錢是「あずける／ためる」；颳強風是「かぜが ふく」，皆不能用「そだてる」。',
+    explanationEn:
+      '「そだてる」 (育てる) is transitive — raising plants or children — so growing tomatoes and cucumbers in the garden is correct. A child growing up healthy needs the intransitive 「そだつ」, so 「こどもが そだてて」 mixes up the pair; keeping money at a bank is 「あずける」 or 「ためる」; strong wind blowing is 「かぜが ふく」.',
+  },
+  {
+    kind: 'choice',
+    id: 'n4-vocab-yoho-027',
+    stem: 'かよう',
+    options: [
+      'あねは 電車で 大学に かよって います。',
+      'きのう、はじめて 京都に かよいました。',
+      'にもつを ゆうびんきょくへ かよいました。',
+      'その ドアから 中に かよって ください。',
+    ],
+    answerIndex: 0,
+    explanation:
+      '「かよう」（通う）指定期往返同一個地點（通學、通勤），「大学に かよって いる」用法正確。第一次去京都是單次的移動，要用「行く」，「かよう」必須是反覆往返；寄包裹是「おくる」或「もって行く」；從門進去是「はいる」，皆語意不通。',
+    explanationEn:
+      '「かよう」 (通う) means making regular trips to the same place, as in commuting, so 「大学に かよって いる」 is correct. A first-ever trip to Kyoto is a single journey and needs 「行く」 — 「かよう」 requires repeated back-and-forth; taking a package to the post office is 「もって行く」; entering through a door is 「はいる」.',
+  },
+  {
+    kind: 'choice',
+    id: 'n4-vocab-yoho-028',
+    stem: 'やせる',
+    options: [
+      'びょうきを して、三キロ やせました。',
+      'さいふの おかねが やせて しまいました。',
+      'せんたくを したら、シャツが やせて しまいました。',
+      'あめが ふらなくて、川の 水が やせました。',
+    ],
+    answerIndex: 0,
+    explanation:
+      '「やせる」（痩せる）指人或動物體重減輕、變瘦，生病瘦了三公斤用法正確。錢包裡的錢變少是「へる」（減る）；洗衣後襯衫縮小是「ちいさく なる」；河水變少也是「へる」。「やせる」的主語只能是人或動物，三個干擾句都套錯了。',
+    explanationEn:
+      '「やせる」 (痩せる) means a person or animal losing weight, so losing three kilos from illness is correct. Money dwindling is 「へる」 (減る); a shirt shrinking in the wash is 「ちいさく なる」; a river running low is also 「へる」. The subject of 「やせる」 must be a person or animal.',
+  },
+  {
+    kind: 'choice',
+    id: 'n4-vocab-yoho-029',
+    stem: 'ねぼう',
+    options: [
+      'けさ ねぼうして、学校に おくれて しまいました。',
+      'ゆうべは つかれて いたので、九時に ねぼうしました。',
+      'ひるごはんの あと、こうえんで すこし ねぼうしました。',
+      'りょこうで、ホテルに 二日間 ねぼうする よていです。',
+    ],
+    answerIndex: 0,
+    explanation:
+      '「ねぼう」（寝坊）專指早上睡過頭、起晚了，「ねぼうして 学校に おくれた」用法正確。晚上九點早早上床是「はやく ねる」；午飯後小睡是「ひるね（をする）」；旅行住飯店兩晚是「とまる」（泊まる），皆和「睡過頭」無關。',
+    explanationEn:
+      '「ねぼう」 (寝坊) specifically means oversleeping in the morning, so oversleeping and being late for school is correct. Going to bed early at nine is 「はやく ねる」; a nap after lunch is 「ひるね」; staying two nights at a hotel is 「とまる」 (泊まる). None of those involve oversleeping.',
+  },
+  {
+    kind: 'choice',
+    id: 'n4-vocab-yoho-030',
+    stem: 'けしき',
+    options: [
+      'ホテルの まどから 見える うみの けしきが、とても きれいでした。',
+      'かれは きょう、かおの けしきが わるいです。',
+      'テレビで おもしろい けしきを 見ました。',
+      'この りょうりは けしきが よくて、おいしそうです。',
+    ],
+    answerIndex: 0,
+    explanation:
+      '「けしき」（景色）指自然風景，從飯店窗戶看到的海景很美，用法正確。臉色不好要說「かおいろが わるい」；電視上看的是「ばんぐみ」（節目）；料理的外觀要說「見た目が いい」。「けしき」只能形容山、海等風景，三個干擾句都套錯名詞。',
+    explanationEn:
+      '「けしき」 (景色) means natural scenery, so the beautiful sea view from the hotel window is correct. A poor complexion is 「かおいろが わるい」; what you watch on TV is a 「ばんぐみ」 (program); the appearance of a dish is its 「見た目」. 「けしき」 applies only to landscapes like mountains and the sea.',
+  },
+  {
+    kind: 'choice',
+    id: 'n4-vocab-yoho-031',
+    stem: 'ちゅうい',
+    options: [
+      'じてんしゃに のる ときは、車に ちゅういして ください。',
+      'わからない ことばは、じしょで ちゅういして ください。',
+      '先生の 電話ばんごうを、ノートに ちゅういしました。',
+      'りょこうの まえに、ホテルを ちゅういしました。',
+    ],
+    answerIndex: 0,
+    explanation:
+      '「ちゅうい」（注意）＝小心、留意危險，騎腳踏車時注意來車，用法正確。查字典是「しらべる」（調べる）；把電話號碼記在筆記本是「メモする（書く）」；訂飯店是「よやくする」（予約する），三個干擾句都把別的動作硬換成「ちゅういする」。',
+    explanationEn:
+      '「ちゅうい」 (注意) means being careful or watching out for danger, so watching for cars while riding a bicycle is correct. Looking a word up in a dictionary is 「しらべる」; writing a phone number in a notebook is 「メモする」; booking a hotel is 「よやくする」. The distractors all swap in 「ちゅういする」 for entirely different actions.',
+  },
+  {
+    kind: 'choice',
+    id: 'n4-vocab-yoho-032',
+    stem: 'とりかえる',
+    options: [
+      'サイズが 小さかったので、みせで 大きい くつと とりかえて もらいました。',
+      'あたらしい ことばを、ノートに とりかえました。',
+      'くうこうへ ともだちを とりかえに 行きました。',
+      'へやの まどを とりかえて、あたらしい くうきを 入れました。',
+    ],
+    answerIndex: 0,
+    explanation:
+      '「とりかえる」（取り替える）＝把東西換成另一個（交換、更換），鞋子尺寸不合、到店裡換一雙，用法正確。把生字抄在筆記本是「書く」；去機場接朋友是「むかえに 行く」；為了讓空氣流通開窗是「まどを あける」，把「開」說成「換」語意不通。',
+    explanationEn:
+      '「とりかえる」 (取り替える) means exchanging something for another, so having shoes swapped for a bigger pair at the shop is correct. Copying new words into a notebook is 「書く」; picking a friend up at the airport is 「むかえに 行く」; opening a window for fresh air is 「まどを あける」 — "replacing" the window makes no sense there.',
+  },
 ]

@@ -111,4 +111,74 @@ export const questions: JlptQuestion[] = [
       },
     ],
   },
+  {
+    kind: 'passage',
+    id: 'n2-reading-shucho-003',
+    passageTitle: '「研究結果」とのつきあい方',
+    passage:
+      '「コーヒーを一日三杯飲む人は病気になりにくい」——こうした「研究でわかった」という話題は、テレビやインターネットで毎日のように流れてくる。健康や環境にかかわる情報だけに、つい信じたくなるが、数か月後には正反対の内容が報じられることも珍しくない。昨日まで体によいとされていたものが、今日は疑わしいと言われる。いったいどちらを信じればよいのかと、とまどった経験のある人は多いだろう。\nなぜこうしたことが起きるのか。第一に、一つの研究は、あくまで限られた条件のもとで得られた結果にすぎないからである。調べた人数や年齢、期間が変われば、結果も変わりうる。科学の世界では、多くの研究が積み重なってはじめて、確かな知識として認められていく。つまり、私たちが目にしているのは、完成した答えではなく、途中経過の一つひとつなのだと考えたほうがよい。第二に、伝える側の事情もある。「まだよくわからない」という正直な結論より、「〜で健康になる」という断定的な見出しのほうが、人々の関心を引きやすい。その結果、研究者本人が慎重に述べたはずの内容が、単純で刺激的な言葉に置き換えられてしまうのである。\nでは、私たちは研究の報道を無視すればよいのかといえば、そうではない。大切なのは、結果だけに飛びつかず、「誰を対象に、どのくらいの規模で調べたのか」と一歩立ち止まって考える習慣である。調べた対象がごく少数であったり、まだ動物実験の段階であったりするなら、結論を急ぐのは危険だと判断できる。学校の理科教育も、知識を覚えさせるだけで終わらず、こうした情報の受け止め方をこそ教えるべきだろう。\n科学は、一夜にして答えを出す魔法ではなく、疑いと確認を繰り返しながら少しずつ進む営みである。その歩みの遅さを理解したうえで研究の報道とつきあうこと。それが、あふれる情報から自分の暮らしを守る、いちばんの近道なのではないだろうか。',
+    explanation: '',
+    questions: [
+      {
+        id: 'n2-reading-shucho-003-q1',
+        stem: 'こうしたこととは、どんなことか。',
+        options: [
+          '同じ話題について、以前の報道とは正反対の研究結果が後から報じられること',
+          'コーヒーを一日に何杯も飲む人が、年々増えていること',
+          '研究者がテレビに出て、自分の研究の成果を宣伝すること',
+          '健康にかかわる情報が、法律で規制されずに流れていること',
+        ],
+        answerIndex: 0,
+        explanation:
+          '指示語「こうしたこと」指的是前一段的現象：研究話題天天流傳，但「数か月後には正反対の内容が報じられることも珍しくない」，害大家不知該信哪個。咖啡只是開頭舉的例子，「喝的人變多」文中沒說；研究者上電視宣傳、法律規制的問題文中皆未出現，都是利用文中字眼拼湊的干擾項。',
+        explanationEn:
+          'The demonstrative 「こうしたこと」 points back to the phenomenon in the opening paragraph: research stories circulate daily, yet 「数か月後には正反対の内容が報じられることも珍しくない」, leaving people unsure which report to believe. Coffee is only the opening example, and the text never says the number of coffee drinkers is rising; researchers promoting their work on TV and legal regulation of health information never appear — those options merely recombine words from the passage.',
+      },
+      {
+        id: 'n2-reading-shucho-003-q2',
+        stem: '研究の内容が単純で刺激的な言葉に置き換えられてしまうのは、なぜだと筆者は述べているか。',
+        options: [
+          '正直で慎重な結論よりも、断定的な見出しのほうが人々の関心を引きやすいから',
+          '研究者が、自分の成果を実際よりも大きく見せたがるから',
+          '一般の人々には、科学の専門用語がまったく理解できないから',
+          '途中経過の研究を報道することが、認められていないから',
+        ],
+        answerIndex: 0,
+        explanation:
+          '第二段後半明示原因：「まだよくわからない」という正直な結論より「断定的な見出しのほうが、人々の関心を引きやすい」，這是傳播方（伝える側）的事情。文中說「研究者本人が慎重に述べたはずの内容」被替換，可見研究者本人是謹慎的，把責任推給研究者誇大是相反的說法；專門用語看不懂、途中經過不准報導，文中都沒有提及。',
+        explanationEn:
+          'The latter half of the second paragraph gives the reason explicitly: compared with the honest conclusion 「まだよくわからない」, 「断定的な見出しのほうが、人々の関心を引きやすい」 — a circumstance on the media side. Since the text says the content 「研究者本人が慎重に述べたはずの」 gets replaced, the researchers themselves are being careful, so blaming them for exaggerating reverses the passage; incomprehensible jargon and a ban on reporting interim results are never mentioned.',
+      },
+      {
+        id: 'n2-reading-shucho-003-q3',
+        stem: '研究の報道を受け取るとき、どうすべきだと筆者は述べているか。',
+        options: [
+          '結果だけに飛びつかず、調査の対象や規模を確かめて一歩立ち止まって考える。',
+          '信頼できない情報が多いので、研究の報道は見ないようにする。',
+          '正反対の結果が報じられるまで、何も判断せずに待ち続ける。',
+          '理科の知識を増やせば報道にまどわされることはないので、まず知識を覚える。',
+        ],
+        answerIndex: 0,
+        explanation:
+          '第三段說「大切なのは、結果だけに飛びつかず、『誰を対象に、どのくらいの規模で調べたのか』と一歩立ち止まって考える習慣」，正解即此句換句話說。「報道を無視すればよいのかといえば、そうではない」直接否定了「見ないようにする」；等正反結果出現再判斷文中沒有這種說法；筆者主張理科教育「知識を覚えさせるだけで終わらず」，可見光背知識並非他的答案。',
+        explanationEn:
+          'The third paragraph states that what matters is the habit of not jumping at results alone but pausing to ask 「誰を対象に、どのくらいの規模で調べたのか」 — the correct option paraphrases this. The writer explicitly rejects ignoring the reports with 「無視すればよいのかといえば、そうではない」; waiting passively until an opposite result appears is never suggested; and since the writer says science education should not end with 「知識を覚えさせるだけ」, memorizing facts is clearly not his answer either.',
+      },
+      {
+        id: 'n2-reading-shucho-003-q4',
+        stem: 'この文章で筆者が最も言いたいことは何か。',
+        options: [
+          '科学は疑いと確認を繰り返して少しずつ進むものだと理解したうえで、研究の報道とつきあうことが大切だ。',
+          '断定的な見出しをつける報道機関を、社会は厳しく罰するべきだ。',
+          '健康についての情報は、科学者から直接聞く以外に信じる方法はない。',
+          '科学の進歩が遅いのは、研究者の研究の進め方に問題があるからだ。',
+        ],
+        answerIndex: 0,
+        explanation:
+          '末段總結：科學是「疑いと確認を繰り返しながら少しずつ進む営み」，理解「その歩みの遅さ」再與報導打交道，才是守護生活的捷徑——正解涵蓋此主旨。筆者只分析了媒體下標的動機，從未主張處罰報道機關；「直接聽科學家說」文中沒有提及；「歩みの遅さ」是筆者要讀者理解的科學本質，並非在批評研究者做法有問題。',
+        explanationEn:
+          'The final paragraph sums up the thesis: science is an endeavor that 「疑いと確認を繰り返しながら少しずつ進む」, and engaging with research news while understanding 「その歩みの遅さ」 is the surest way to protect one\'s life from the flood of information. The writer analyzes why media choose assertive headlines but never calls for punishing news organizations; hearing directly from scientists is never mentioned; and the slowness of science is presented as its nature to be understood, not as a flaw in how researchers work.',
+      },
+    ],
+  },
 ]

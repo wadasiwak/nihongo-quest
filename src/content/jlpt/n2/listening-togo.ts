@@ -175,4 +175,166 @@ export const questions: JlptQuestion[] = [
     explanationEn:
       'The man works weekday daytimes, so the day membership is ruled out immediately. The night membership looks right for after work, but he has been doing so much overtime that he can leave by six barely one day a week, making 7,000 yen a waste. The full-time membership allows access anytime, yet his wife points out he would realistically only go on weekends, so 10,000 yen is not worth it. Putting it all together, the weekend membership — the cheapest option and the only time he is reliably free — is the sensible choice, and that is what he picks.',
   },
+  {
+    id: 'n2-listening-togo-007',
+    kind: 'listening',
+    script: [
+      { speaker: '旁白', text: '会社で、男の人が調べた出張の交通手段について、女の人と話しています。' },
+      { speaker: '男', text: '来週の広島出張、行き方を四つ調べたよ。新幹線は片道一万五千円で四時間、駅は会場のすぐそばだ。飛行機は早めに予約すれば一万円だけど、空港から会場までバスでさらに一時間かかる。' },
+      { speaker: '男', text: '夜行バスなら六千円で一番安い。朝の六時に着くから、時間には余裕があるね。あとはレンタカーという手もあって、二人で割れば一人七千円くらいだ。' },
+      { speaker: '女', text: '会議は朝十時からでしょう。夜行バスで着いてすぐだと、疲れた顔で先方に会うことになるわよ。大事な商談なのに。' },
+      { speaker: '男', text: 'それもそうだな。レンタカーはどう？帰りに寄り道もできるし。' },
+      { speaker: '女', text: '片道五時間も運転するの？着いたころにはくたくたよ。それに帰りの車内では報告書もまとめたいし。' },
+      { speaker: '男', text: 'じゃあ、安い飛行機かな。' },
+      { speaker: '女', text: '朝一番の便でも、空港からの移動を入れると十時ぎりぎりよ。バスが渋滞したら間に合わないわ。多少高くても、時間が読めるほうにしましょう。' },
+      { speaker: '男', text: '確かに、遅刻したら元も子もないな。そうしよう。' },
+    ],
+    question: '二人はどうやって広島へ行くことにしましたか。',
+    options: [
+      '新幹線で行く',
+      '飛行機で行く',
+      '夜行バスで行く',
+      'レンタカーで行く',
+    ],
+    answerIndex: 0,
+    explanation:
+      '逐一排除：夜行巴士雖最便宜、時間充裕，但一下車就見客戶會滿臉倦容，不適合重要商談；租車單程要開五小時，抵達時已精疲力盡，回程車上還想整理報告書；便宜的飛機加上機場到會場的一小時巴士，十點的會議只能壓線，塞車就遲到。新幹線雖貴，但車站就在會場旁、時間可掌握，最後兩人選了新幹線。',
+    explanationEn:
+      'The options fall one by one: the overnight bus is cheapest and arrives early, but they would meet the client looking exhausted before an important negotiation; the rental car means five hours of driving each way, leaving them worn out, and she wants to write the report on the way back; the cheap flight plus the hour-long airport bus makes the 10 a.m. meeting a razor-thin arrival that one traffic jam would ruin. The Shinkansen costs more but stops right by the venue with a predictable schedule, so they take the bullet train.',
+  },
+  {
+    id: 'n2-listening-togo-008',
+    kind: 'listening',
+    script: [
+      { speaker: '旁白', text: '会社の会議で、情報システム部の男の人がウェブ会議のシステムについて説明しています。' },
+      { speaker: '男', text: '候補は四つです。Ａ社のものは無料ですが、一回の会議が四十分までという制限があります。Ｂ社は月三千円で、時間は無制限、会議の録画もできます。' },
+      { speaker: '男', text: 'Ｃ社は月五千円と高めですが、資料の翻訳など機能が最も豊富です。ただ、画面が複雑で、慣れるまで研修が必要でしょう。Ｄ社は月二千円と手頃ですが、海外との接続が不安定だという評判があります。' },
+      { speaker: '旁白', text: '説明を聞いて、女の人と男の人が話しています。' },
+      { speaker: '女', text: 'うちは毎週、上海の工場と打ち合わせがあるから、海外につながりにくいのは論外ね。' },
+      { speaker: '男', text: 'ですね。無料のは魅力ですが、定例会議はいつも一時間を超えますから、四十分では途中で切れてしまいます。' },
+      { speaker: '女', text: '機能が多いのはよさそうだけど、パソコンが苦手な人も使うのよ。研修までして覚えさせるのは大変だわ。' },
+      { speaker: '男', text: 'それに翻訳は今のところ要りませんしね。録画ができれば、欠席した人にあとで見てもらえますし。' },
+      { speaker: '女', text: 'そうね。値段も手頃だし、それに決めましょう。' },
+    ],
+    question: '二人はどの会社のシステムを選びましたか。',
+    options: [
+      '録画ができるＢ社のシステム',
+      '無料で使えるＡ社のシステム',
+      '機能が豊富なＣ社のシステム',
+      '月二千円のＤ社のシステム',
+    ],
+    answerIndex: 0,
+    explanation:
+      '需對照各系統的限制與公司的條件：每週要與上海工廠開會，連線不穩的Ｄ社首先出局；免費的Ａ社有四十分鐘上限，例會超過一小時會中斷；Ｃ社功能多但畫面複雜，還得辦研習才會用，翻譯功能目前也用不到。Ｂ社時間無限制、可錄影讓缺席者事後補看、月費三千圓也合理，因此雀屏中選。',
+    explanationEn:
+      'Matching each system against the company\'s needs: they meet the Shanghai factory weekly, so D with its unstable overseas connections is out immediately; free system A cuts off at forty minutes while their regular meetings run over an hour; C is feature-rich but complicated enough to require training, and its translation function is not needed yet. B has unlimited time, recording that lets absentees catch up later, and a reasonable 3,000-yen monthly fee, so B is the one they pick.',
+  },
+  {
+    id: 'n2-listening-togo-009',
+    kind: 'listening',
+    script: [
+      { speaker: '旁白', text: '会社で、女の人が考えたお祝いの品について、男の人と話しています。' },
+      { speaker: '女', text: '来月の丸山物産さんの創立三十周年、お祝いの品の候補を四つ考えました。まず定番の胡蝶蘭。それから社名と記念日を入れた置き時計。あとは高級ワインのセットと、先方が好きな品を選べるカタログギフトです。' },
+      { speaker: '男', text: 'なるほど。花は華やかでいいけど、ああいう式には各社から山ほど届くだろう。うちのだと分からなくなりそうだな。' },
+      { speaker: '女', text: 'それに、先方の新しい事務所はあまり広くないと聞きました。置き場所に困らせてしまうかもしれません。' },
+      { speaker: '男', text: 'ワインはどうかな。確か、あそこの社長は大のお酒好きだって……。' },
+      { speaker: '女', text: 'それが、健康のために去年からお酒をやめられたそうなんです。' },
+      { speaker: '男', text: 'そうか、危ないところだった。選べるギフトは便利だけど、お祝いとしては味気ないと思われないかな。' },
+      { speaker: '女', text: 'ええ、正式なお祝いには少し軽い印象ですね。やっぱり、社名入りで長く飾っていただけるものにしましょうか。' },
+      { speaker: '男', text: 'そうだな。それなら記念にも残るし、それでいこう。' },
+    ],
+    question: '二人は何を贈ることにしましたか。',
+    options: [
+      '社名と記念日を入れた置き時計',
+      '胡蝶蘭',
+      '高級ワインのセット',
+      'カタログギフト',
+    ],
+    answerIndex: 0,
+    explanation:
+      '四樣賀禮逐一比較：蝴蝶蘭在這類典禮上各家都送，難以留下印象，對方新辦公室又不寬敞、恐怕沒地方擺；社長去年起為了健康戒酒，紅酒差點送錯；型錄禮品雖方便，當正式賀禮顯得輕率。刻有公司名與紀念日的座鐘能長久擺飾、留作紀念，最後兩人決定送座鐘。',
+    explanationEn:
+      'The four gift ideas are weighed in turn: orchids arrive by the truckload from every company at such ceremonies, so theirs would be lost in the crowd, and the client\'s new office is too small to display them; the wine set nearly backfired because the president gave up alcohol last year for his health; the catalog gift is convenient but feels too casual for a formal celebration. The clock engraved with the company name and anniversary date can be displayed for years as a keepsake, so that is what they send.',
+  },
+  {
+    id: 'n2-listening-togo-010',
+    kind: 'listening',
+    script: [
+      { speaker: '旁白', text: '会社の会議で、総務の女の人が社員の昼食についての案を説明しています。' },
+      { speaker: '女', text: '社員アンケートで、昼食に不便を感じるという声が多かったため、案を四つ用意しました。一つ目はお弁当の配達で、前の日までの注文が必要です。二つ目は昼だけ来てもらう移動販売車。ただし、駐車スペースの確保が条件です。' },
+      { speaker: '女', text: '三つ目は近くの飲食店と提携して、社員証を見せると一割引きにしてもらう案。四つ目は社内にパンと軽食の自動販売機を置く案です。' },
+      { speaker: '旁白', text: '説明を聞いて、男の人と女の人が話しています。' },
+      { speaker: '男', text: '移動販売車は面白いけど、うちの駐車場は来客用でいつも埋まってるよ。場所がないだろう。' },
+      { speaker: '女', text: 'そうですね。自動販売機は手軽ですが、パンと軽食だけでは、毎日のお昼には物足りないという声が出そうです。' },
+      { speaker: '男', text: '弁当の配達は、前の日までに頼まないといけないのか。急に外回りが入る営業には、無駄になりそうだな。' },
+      { speaker: '女', text: 'ええ、うちは外出の多い社員ばかりですから。その点、提携割引なら注文の手間もなく、外に出て気分転換にもなります。会社の費用もほとんどかかりませんし。' },
+      { speaker: '男', text: 'じゃあ、まずはそれで進めてもらおうか。' },
+    ],
+    question: '会社はどの案を進めることにしましたか。',
+    options: [
+      '近くの飲食店と提携して割引してもらう案',
+      'お弁当を配達してもらう案',
+      '移動販売車に来てもらう案',
+      'パンと軽食の自動販売機を置く案',
+    ],
+    answerIndex: 0,
+    explanation:
+      '統整各案的條件：行動餐車需要停車空間，但停車場長期被來客用車占滿；自動販賣機只有麵包輕食，天天當午餐嫌不夠；便當配送必須前一天訂餐，業務常臨時外出，容易造成浪費。與鄰近餐廳合作、出示員工證打九折，不必預訂、能出門轉換心情、公司幾乎零成本，因此決定先推動特約折扣案。',
+    explanationEn:
+      'Each plan is checked against the company\'s constraints: the food truck needs parking, but the lot is always full of visitors\' cars; the vending machine offers only bread and snacks, too meager for a daily lunch; boxed-lunch delivery requires ordering by the previous day, which would go to waste for sales staff who head out on short notice. The partnership discount — ten percent off by showing an employee badge — needs no pre-ordering, gets people out for a change of pace, and costs the company almost nothing, so that plan goes ahead.',
+  },
+  {
+    id: 'n2-listening-togo-011',
+    kind: 'listening',
+    script: [
+      { speaker: '旁白', text: '会社で、女の人がパソコンの画面を見ながら、男の人と出張のホテルについて話しています。' },
+      { speaker: '女', text: '来週の仙台出張のホテル、候補が四つあります。一つ目は会場の隣のホテルで一泊一万二千円。二つ目は駅前で九千円、朝食付きです。三つ目は同じ駅前で八千円ですが、朝食はありません。四つ目は駅からバスで十五分の五千円の宿です。' },
+      { speaker: '男', text: '会場の隣は便利だけど、うちの決まりでは一泊一万円までだろう。' },
+      { speaker: '女', text: 'ええ、申請しても通らないと思います。では、一番安いのはどうでしょう。浮いた分でタクシーも使えますし。' },
+      { speaker: '男', text: 'バスで十五分は困るよ。商談は朝八時半からだ。朝のバスは本数も少ないし、道が混んだら遅れかねない。' },
+      { speaker: '女', text: 'それもそうですね。じゃあ、駅前のどちらかですが、千円の差で朝食が付くかどうかです。' },
+      { speaker: '男', text: '当日の朝は資料の最終確認もあるから、外へ食べに出る時間はないよ。ホテルの中で済ませられるほうが安心だ。' },
+      { speaker: '女', text: 'わかりました。では、こちらで予約します。' },
+    ],
+    question: '女の人はどのホテルを予約しますか。',
+    options: [
+      '朝食付きの駅前のホテル',
+      '会場の隣のホテル',
+      '朝食なしの駅前のホテル',
+      '駅からバスで十五分のホテル',
+    ],
+    answerIndex: 0,
+    explanation:
+      '要同時滿足規定、時間、行程三個條件：會場旁的飯店一晚一萬二，超過公司一晚一萬圓的上限；最便宜的住宿要搭十五分鐘公車，早上班次少又可能塞車，趕不上八點半的商談；車站前兩間只差一千圓，因為當天早上還要做資料的最後確認、沒時間外出覓食，能在飯店內解決早餐的那間更穩妥，於是預約附早餐的站前飯店。',
+    explanationEn:
+      'Three constraints apply: company rules, timing, and the morning schedule. The hotel next to the venue costs 12,000 yen, over the 10,000-yen expense cap; the cheapest inn requires a fifteen-minute bus ride with sparse morning service and possible traffic, too risky for an 8:30 negotiation; between the two station-front hotels, only 1,000 yen apart, the man notes there is no time to go out for breakfast because of the final document check that morning, so eating inside the hotel is safer — the woman books the station-front hotel with breakfast included.',
+  },
+  {
+    id: 'n2-listening-togo-012',
+    kind: 'listening',
+    script: [
+      { speaker: '旁白', text: '事務所で、事務機器の会社の男の人が複合機について説明しています。' },
+      { speaker: '男', text: 'ご提案する複合機は四機種です。最上位のＡは印刷が非常に速く、月々のリース料は三万円。Ｂは標準型でカラー印刷ができ、月二万円です。' },
+      { speaker: '男', text: 'Ｃは小型で月一万円とお安いんですが、白黒専用になります。Ｄは中古の再生品で月八千円。ただ、古い機種ですので、故障の際は部品の取り寄せに一週間ほどかかることがあります。' },
+      { speaker: '旁白', text: '説明を聞いて、会社の女の人と男の人が話しています。' },
+      { speaker: '女', text: '中古の値段は魅力だけど、修理に一週間って。請求書が出せなくなったら、仕事にならないわ。' },
+      { speaker: '男', text: 'ですね。白黒専用のは、どうします？うちは来月から、商品のちらしを自分たちで刷ることになったでしょう。' },
+      { speaker: '女', text: 'そうなのよ。ちらしがカラーで刷れないんじゃ、意味がないわね。' },
+      { speaker: '男', text: '一番速いのはどうです？見た目もかっこいいですし。' },
+      { speaker: '女', text: 'うちの印刷の量で、あの速さは要らないわよ。リース料が今より高くなったら、経費を減らすどころじゃないじゃない。' },
+      { speaker: '男', text: 'それもそうですね。じゃあ、機能と値段のつり合いが取れたこれにしましょう。' },
+    ],
+    question: '二人はどの複合機を選びましたか。',
+    options: [
+      'カラー印刷ができる標準型の複合機',
+      '印刷が速い最上位の複合機',
+      '白黒専用の小型の複合機',
+      '中古の再生品の複合機',
+    ],
+    answerIndex: 0,
+    explanation:
+      '中古機雖然月租最低，但故障時零件調貨要一週，開不出帳單會影響業務；小型機只能印黑白，下個月起要自製彩色傳單，不符需求；最高階機種印得快卻月租三萬，以公司的印量用不到那種速度，租金變貴反而無助於節省經費。標準型能印彩色、月租兩萬，功能與價格最均衡，因此兩人選了標準型。',
+    explanationEn:
+      'The used machine has the lowest fee, but a breakdown means waiting a week for parts, and being unable to print invoices would halt work; the compact model is monochrome-only, useless now that they will print color flyers themselves from next month; the top model is fast but costs 30,000 yen a month — speed they do not need at their print volume, and a higher fee defeats the goal of cutting expenses. The standard model prints in color for 20,000 yen, the best balance of function and price, so that is their choice.',
+  },
 ]

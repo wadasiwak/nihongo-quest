@@ -131,4 +131,134 @@ export const questions: JlptQuestion[] = [
       },
     ],
   },
+  {
+    id: 'n4-reading-joho-005',
+    kind: 'passage',
+    passageTitle: 'みなみ市民体育館　秋のスポーツ教室',
+    passage:
+      'みなみ市民体育館　秋のスポーツ教室\n１０月から１２月まで、四つの教室を行います。はじめての方も大丈夫です。\n\n①たっきゅう教室　　　毎週火曜日　午後７時～９時　　　１５歳以上　３，０００円\n②バドミントン教室　　毎週水曜日　午前１０時～１１時半　１５歳以上　３，０００円\n③ヨガ教室　　　　　　毎週金曜日　午前１０時～１１時　　どなたでも　２，５００円\n④子ども体操教室　　　毎週土曜日　午前９時～１０時　　　小学生　　　２，０００円\n\n・申し込みは、９月２０日（土）までに、体育館の受付か、ホームページからしてください。\n・ラケットとボールは、体育館のものを使うことができます。\n・ヨガ教室に出る方は、大きいタオルを持ってきてください。\n・お金は、教室のはじめての日に、受付ではらってください。\n\nみなみ市民体育館',
+    explanation: '',
+    questions: [
+      {
+        id: 'n4-reading-joho-005-q1',
+        stem: '会社員のパクさんは、月曜日から金曜日の午後６時まで仕事があります。パクさんが出られる教室はどれですか。',
+        options: [
+          '①たっきゅう教室',
+          '②バドミントン教室',
+          '③ヨガ教室',
+          '④子ども体操教室',
+        ],
+        answerIndex: 0,
+        explanation:
+          '要比對「時間」與「對象」兩個條件：朴先生平日下午六點前都在工作，所以只能參加平日晚上或週末的教室。②和③都在平日上午，時間不合；④雖在週六上午，但對象限「小学生」，成人的朴先生不能參加。只有①桌球教室在週二晚上七點開始、對象１５歳以上，兩個條件都符合。',
+        explanationEn:
+          'Two conditions must be matched: the schedule and the eligibility. Pak works weekdays until 6 p.m., so only weekday-evening or weekend classes are possible. Classes ② and ③ are on weekday mornings, so the times don\'t work; ④ is on Saturday morning but is limited to 「小学生」, so an adult can\'t join. Only ①, the table-tennis class on Tuesday from 7 p.m. for ages 15 and up, satisfies both conditions.',
+      },
+      {
+        id: 'n4-reading-joho-005-q2',
+        stem: 'ヨガ教室に出たい人は、どうしますか。',
+        options: [
+          '９月２０日までに申し込んで、教室の日に大きいタオルを持って行く',
+          '９月２０日までに、受付でお金をはらっておく',
+          '教室の日に、体育館のタオルをかりる',
+          'はじめての日に、ホームページから申し込む',
+        ],
+        answerIndex: 0,
+        explanation:
+          '想上瑜伽教室要做兩件事：所有教室共通的「９月２０日までに」報名，加上瑜伽教室專屬的「大きいタオルを持ってきてください」。「先はらっておく」錯，錢是「教室のはじめての日」才在櫃檯付；「体育館のタオルをかりる」錯，可以借的是球拍和球，毛巾要自己帶；「はじめての日に申し込む」錯，報名期限是９月２０日，不是第一天上課時。',
+        explanationEn:
+          'Joining the yoga class involves two things: the common rule of applying 「９月２０日までに」, plus the yoga-specific instruction 「大きいタオルを持ってきてください」. Paying in advance is wrong — the fee is paid at the front desk on 「教室のはじめての日」; borrowing a towel from the gym is wrong — only rackets and balls can be borrowed, towels must be your own; and applying on the first day is wrong because the application deadline is September 20.',
+      },
+    ],
+  },
+  {
+    id: 'n4-reading-joho-006',
+    kind: 'passage',
+    passageTitle: '中央図書館　秋の読書週間イベント',
+    passage:
+      '中央図書館　秋の読書週間イベント\n１１月１日（土）から９日（日）まで、下のイベントを行います。\n\n①おはなし会（子ども向け）　１１月１日（土）・８日（土）　午前１１時～\n　→申し込みはいりません。\n②映画会「山の物語」　１１月２日（日）　午後２時～\n　→先着３０名。１０月２５日から、図書館のカウンターで券をもらってください。\n③古本市　１１月８日（土）・９日（日）　午前１０時～午後４時\n　→一さつ１００円です。\n④としょかんクイズ　期間中いつでも\n　→クイズに全部答えた方に、しおりをプレゼントします。\n\n・映画会の券は、お一人二まいまでです。電話ではもらえません。\n・古本市では、ふくろを売っていませんので、かばんを持ってきてください。\n・イベントの間も、本はいつもどおりかりることができます。\n\n中央図書館',
+    explanation: '',
+    questions: [
+      {
+        id: 'n4-reading-joho-006-q1',
+        stem: '田中さんは、映画会に行きたいです。田中さんは、何をしなければなりませんか。',
+        options: [
+          '１０月２５日から、図書館のカウンターで券をもらう',
+          '１１月２日に、電話で申し込む',
+          '申し込みはいらないので、そのまま行く',
+          'カウンターで券を買う',
+        ],
+        answerIndex: 0,
+        explanation:
+          '映画会寫著「１０月２５日から、図書館のカウンターで券をもらってください」，要先到櫃檯領票。「電話で申し込む」錯，注意事項明說券「電話ではもらえません」；「申し込みはいらない」是①おはなし会的規定，不是映画会；「券を買う」錯，公告寫的是「もらってください」，票是免費領取，不是購買。',
+        explanationEn:
+          'The film-showing entry says 「１０月２５日から、図書館のカウンターで券をもらってください」 — you must pick up a ticket at the library counter from October 25. Applying by phone is wrong because the notes state tickets 「電話ではもらえません」; "no application needed, just go" is the rule for ①, the storytelling event, not the film; and buying a ticket is wrong — the notice says 「もらってください」, so tickets are free to pick up, not sold.',
+      },
+      {
+        id: 'n4-reading-joho-006-q2',
+        stem: '古本市について、合っているものはどれですか。',
+        options: [
+          'かばんを持って行ったほうがいい',
+          '会場でふくろを売っている',
+          '土曜日だけ行われる',
+          '本を一さつ買うと、しおりがもらえる',
+        ],
+        answerIndex: 0,
+        explanation:
+          '注意事項寫「古本市では、ふくろを売っていませんので、かばんを持ってきてください」，所以帶包包去比較好，選項一正確。「ふくろを売っている」正好相反，會場不賣袋子；「土曜日だけ」錯，古本市在８日（土）和９日（日）兩天舉行；「しおりがもらえる」錯，書籤是④としょかんクイズ全部答對的人的贈品，與買書無關。',
+        explanationEn:
+          'The notes say 「古本市では、ふくろを売っていませんので、かばんを持ってきてください」, so bringing a bag is advised and option 1 is correct. "Bags are sold at the venue" is the opposite of the notice; "held only on Saturday" is wrong because the used-book fair runs on both the 8th (Sat) and 9th (Sun); and getting a bookmark is wrong — the bookmark is the prize for answering all of quiz ④, not for buying a book.',
+      },
+    ],
+  },
+  {
+    id: 'n4-reading-joho-007',
+    kind: 'passage',
+    passageTitle: 'ひがし公園　もみじまつりのお知らせ',
+    passage:
+      'ひがし公園　もみじまつりのお知らせ\n１１月１５日（土）と１６日（日）の午前１０時から午後４時まで、ひがし公園でもみじまつりを行います。\n\n・食べ物や飲み物の店が出ます。\n・両日とも、午後１時から、公園のステージでたいこのコンサートがあります。\n・１５日（土）だけ、夜８時まで、もみじのライトアップを見ることができます。\n・雨の日もまつりは行いますが、雨が強いときは、ステージのコンサートは中止です。中止のときは、朝９時までに市のホームページでお知らせします。\n・公園にちゅうしゃじょうはありません。電車かバスで来てください。\n・会場にごみばこはありません。ごみは持って帰ってください。\n\nひがし市かんこう課',
+    explanation: '',
+    questions: [
+      {
+        id: 'n4-reading-joho-007-q1',
+        stem: 'もみじのライトアップは、いつ見ることができますか。',
+        options: [
+          '１５日（土）の夜だけ',
+          '１６日（日）の夜だけ',
+          '両日の夜',
+          '両日の午後４時まで',
+        ],
+        answerIndex: 0,
+        explanation:
+          '公告寫「１５日（土）だけ、夜８時まで、もみじのライトアップを見ることができます」，點燈只在１５日（週六）晚上，選項一正確。「１６日の夜」與「両日の夜」都錯在「だけ」這個字，點燈限定１５日一天；「午後４時まで」錯，下午四點是祭典一般活動的結束時間，點燈是到晚上八點。',
+        explanationEn:
+          'The notice says 「１５日（土）だけ、夜８時まで、もみじのライトアップを見ることができます」 — the illumination is on the night of the 15th (Saturday) only, so option 1 is correct. "The 16th" and "both nights" both fail because of the word 「だけ」, which limits it to the 15th; and "until 4 p.m. on both days" is wrong — 4 p.m. is when the general festival ends, while the illumination runs until 8 p.m.',
+      },
+    ],
+  },
+  {
+    id: 'n4-reading-joho-008',
+    kind: 'passage',
+    passageTitle: 'みなみ公民館　冬の音楽会のお知らせ',
+    passage:
+      'みなみ公民館　冬の音楽会のお知らせ\n１２月２０日（土）午後２時から４時まで、公民館のホールで、冬の音楽会を行います。町の高校生が、ピアノやバイオリンをえんそうします。\n\n・お金はいりませんが、券がひつようです。\n・券は、１２月１日から、公民館の受付でもらうことができます（お一人二まいまで）。\n・電話やメールでの申し込みはできません。\n・小学生より小さいお子さんは、券がなくても、家の人といっしょに入ることができます。\n・ホールに入ることができるのは、午後１時半からです。\n・当日、券をわすれた方は、入ることができませんので、ご注意ください。\n・ホールの中では、飲み物を飲むことができません。\n\nみなみ公民館',
+    explanation: '',
+    questions: [
+      {
+        id: 'n4-reading-joho-008-q1',
+        stem: '音楽会に行きたい人は、券をどうしますか。',
+        options: [
+          '１２月１日から、公民館の受付でもらう',
+          '電話かメールで申し込む',
+          '当日、ホールでお金をはらって買う',
+          '券はいらないので、そのまま行く',
+        ],
+        answerIndex: 0,
+        explanation:
+          '公告寫「券は、１２月１日から、公民館の受付でもらうことができます」，要在１２月１日之後到公民館櫃檯領票。「電話かメールで」錯，公告明說「電話やメールでの申し込みはできません」；「お金をはらって買う」錯，「お金はいりません」，票是免費的，而且當天忘記帶票的人不能入場；「券はいらない」只適用於比小學生年紀小、和家人同行的孩子。',
+        explanationEn:
+          'The notice says 「券は、１２月１日から、公民館の受付でもらうことができます」 — tickets are picked up at the community-center front desk from December 1. Applying by phone or email is wrong because the notice states 「電話やメールでの申し込みはできません」; paying at the hall on the day is wrong since 「お金はいりません」 — tickets are free, and anyone who forgets their ticket cannot enter; and "no ticket needed" applies only to children younger than elementary-school age accompanied by family.',
+      },
+    ],
+  },
 ]

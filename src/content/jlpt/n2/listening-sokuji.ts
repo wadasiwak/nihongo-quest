@@ -229,4 +229,194 @@ export const questions: JlptQuestion[] = [
     explanationEn:
       '「分からなくはない」 is a double negative meaning "I do understand how you feel"; the whole line shows sympathy first and then urges the listener to apologize to the other party, so accepting the advice and promising to visit and apologize tomorrow fits best. 「全然分かってくれない」 hears the double negative as a lack of understanding, reversing the meaning, and having the other party come apologize flips the direction of the apology, going against the advice entirely.',
   },
+  {
+    id: 'n2-listening-sokuji-013',
+    kind: 'listening',
+    script: [
+      { speaker: '女', text: '君に頼むと本当に話が早いね。もう先方とのアポまで取ってくれたのか。' },
+    ],
+    question: '',
+    options: [
+      '恐れ入ります。早めに動いておきました。',
+      'すみません、これからはもっとゆっくり話します。',
+      '先方は話が長くて、少し困りました。',
+    ],
+    answerIndex: 0,
+    spokenOptions: true,
+    explanation:
+      '慣用句「話が早い」指「溝通順暢、辦事俐落」，這裡是稱讚對方動作快、連拜訪的約都先敲好了，謙虛回應「恐れ入ります」並說明自己提前行動最自然。「ゆっくり話します」把慣用句誤解成說話速度太快而道歉，答非所問；「先方は話が長くて」只抓到「話」的字眼，完全沒有回應稱讚本身。',
+    explanationEn:
+      'The idiom 「話が早い」 praises someone as quick on the uptake and efficient — here the listener has even set up the appointment already — so a modest 「恐れ入ります」 acknowledging the compliment and explaining that one acted early is the natural reply. Apologizing and promising to speak more slowly misreads the idiom as literal talking speed, and complaining that the client was long-winded merely latches onto the word 「話」 without responding to the praise.',
+  },
+  {
+    id: 'n2-listening-sokuji-014',
+    kind: 'listening',
+    script: [
+      { speaker: '男', text: '悪いけど、今ちょっと手が離せなくてね。その電話、代わりに出てもらえないかな。' },
+    ],
+    question: '',
+    options: [
+      'わかりました。私が出ておきますね。',
+      '手なら、さっき洗ったばかりですけど。',
+      'はい、先ほどお電話しておきました。',
+    ],
+    answerIndex: 0,
+    spokenOptions: true,
+    explanation:
+      '「手が離せない」是慣用句，意為「正在忙、抽不開身」，對方拜託代接電話，答應「私が出ておきますね」是正確回應。「手なら洗ったばかり」把慣用句誤解成字面的「手」，答非所問；「お電話しておきました」時序與方向都錯——電話正響著等人接，卻回答成自己已經打過電話了。',
+    explanationEn:
+      'The idiom 「手が離せない」 means to be tied up and unable to step away; the speaker asks the listener to answer the phone in his place, so agreeing with 「私が出ておきますね」 is the right response. The remark about having just washed one\'s hands takes the idiom literally, and 「お電話しておきました」 gets both timing and direction wrong — the phone is ringing to be answered, yet the reply claims a call was already made.',
+  },
+  {
+    id: 'n2-listening-sokuji-015',
+    kind: 'listening',
+    script: [
+      { speaker: '女', text: 'せっかくのご提案なんですが、社内で検討した結果、今回は見送らせていただくことになりまして。' },
+    ],
+    question: '',
+    options: [
+      'そうですか、残念です。またの機会にぜひお願いいたします。',
+      'ありがとうございます。では、玄関までお見送りいたします。',
+      'ご採用いただけて、大変うれしく思います。',
+    ],
+    answerIndex: 0,
+    spokenOptions: true,
+    explanation:
+      '「見送らせていただく」在商務場合是「這次不採用」的婉轉說法，被回絕時得體的反應是表達遺憾並期待下次機會。「玄関までお見送り」把「見送る」誤解成字面的送客，答非所問；「ご採用いただけて」把拒絕聽成錄用，肯否完全相反，沒聽懂婉轉的回絕。',
+    explanationEn:
+      'In business, 「見送らせていただく」 is a polite way of declining a proposal, so the graceful reply is to express regret and hope for a future opportunity. Offering to see the speaker to the door misreads 「見送る」 in its literal sense of seeing someone off, and rejoicing over being accepted takes the rejection as an acceptance, reversing the meaning entirely.',
+  },
+  {
+    id: 'n2-listening-sokuji-016',
+    kind: 'listening',
+    script: [
+      { speaker: '男', text: '申し訳ございません。あいにく田中はただいま席を外しておりまして。' },
+    ],
+    question: '',
+    options: [
+      'では、お戻りになりましたら、折り返しお電話をいただけますか。',
+      '椅子を外に運ぶなんて、大変ですね。',
+      '田中さんに直接つながって、よかったです。',
+    ],
+    answerIndex: 0,
+    spokenOptions: true,
+    explanation:
+      '「席を外す」是「暫時不在座位上」的慣用表現，電話中得知要找的人不在，請對方回來後回電是最自然的應對。「椅子を外に運ぶ」把慣用句誤解成字面的搬椅子，答非所問；「直接つながって、よかった」與「田中不在」的前提互相矛盾，肯否錯誤。',
+    explanationEn:
+      '「席を外す」 is the set expression for being away from one\'s desk; on hearing that Tanaka is unavailable, asking for a call back once he returns is the natural move. Sympathizing about carrying chairs outside takes the phrase literally, and being glad to have reached Tanaka directly contradicts the very premise that he is away.',
+  },
+  {
+    id: 'n2-listening-sokuji-017',
+    kind: 'listening',
+    script: [
+      { speaker: '女', text: '今日の部長の話、経費の無駄遣いのことばかりで、耳が痛かったわ。' },
+    ],
+    question: '',
+    options: [
+      '私も、自分のことを言われているようで、反省しましたよ。',
+      '早めに耳鼻科で診てもらったほうがいいですよ。',
+      '部長の声は、そんなに大きかったんですか。',
+    ],
+    answerIndex: 0,
+    spokenOptions: true,
+    explanation:
+      '慣用句「耳が痛い」意為「別人的話正中自己的短處，聽了刺耳慚愧」，附和「我也像被說中一樣在反省」最能接住話意。「耳鼻科で診てもらう」把慣用句誤解成耳朵真的痛，答非所問；「声が大きかった」也是往字面的音量去理解，完全沒聽懂比喻。',
+    explanationEn:
+      'The idiom 「耳が痛い」 means the remarks hit painfully close to home; echoing that with 「自分のことを言われているようで、反省しました」 matches the sentiment perfectly. Recommending an ear-nose-throat doctor treats the idiom as a physical earache, and asking whether the boss\'s voice was that loud likewise goes literal about volume, missing the metaphor.',
+  },
+  {
+    id: 'n2-listening-sokuji-018',
+    kind: 'listening',
+    script: [
+      { speaker: '男', text: '今回のミスは大目に見るけど、次からは提出する前に、必ず数字を確認してよ。' },
+    ],
+    question: '',
+    options: [
+      '申し訳ありませんでした。以後、必ず確認いたします。',
+      'ありがとうございます。では、次も確認しなくていいんですね。',
+      '部長は本当に目が大きくていらっしゃいますね。',
+    ],
+    answerIndex: 0,
+    spokenOptions: true,
+    explanation:
+      '「大目に見る」意為「寬容、不追究」，上司雖然放過這次失誤，重點在「下次務必確認數字」的告誡，因此道歉並承諾改進才是正確反應。「次も確認しなくていい」把告誡聽反了，肯否相反；「目が大きい」把慣用句誤解成字面的眼睛大小，答非所問。',
+    explanationEn:
+      '「大目に見る」 means to let something slide this once; the boss forgives the mistake but the real point is the warning to always verify the numbers before submitting, so apologizing and promising to do so is correct. 「次も確認しなくていいんですね」 hears the warning backwards, and complimenting the boss\'s large eyes takes the idiom literally, answering nothing at all.',
+  },
+  {
+    id: 'n2-listening-sokuji-019',
+    kind: 'listening',
+    script: [
+      { speaker: '女', text: '部長のサインをもらわないことには、この契約の手続きは進められないのよ。' },
+    ],
+    question: '',
+    options: [
+      'では、今から部長のところへ行ってきます。',
+      'じゃあ、サインがなくても進められるんですね。',
+      '有名な選手のサインなら、私も持っていますよ。',
+    ],
+    answerIndex: 0,
+    spokenOptions: true,
+    explanation:
+      '文型「〜ないことには…ない」表示「不先…就無法…」，意即拿到部長簽名是手續的前提，回答「今から部長のところへ」正確接住指示。「サインがなくても進められる」與文型的意思正好相反；「有名な選手のサイン」只抓到「サイン」一詞就聊起簽名收藏，答非所問。',
+    explanationEn:
+      'The pattern 「〜ないことには…ない」 means nothing can proceed until the condition is met — the manager\'s signature is a prerequisite — so heading straight to the manager\'s office responds correctly. Saying the procedure can move ahead without the signature reverses the grammar\'s meaning, and boasting about owning a famous athlete\'s autograph merely latches onto the word 「サイン」 and talks about collecting.',
+  },
+  {
+    id: 'n2-listening-sokuji-020',
+    kind: 'listening',
+    script: [
+      { speaker: '男', text: 'ずいぶん立派な報告書だねえ。表紙だけは。' },
+    ],
+    question: '',
+    options: [
+      'すみません、中身もすぐに手直しします。',
+      'ありがとうございます。デザインを勉強したかいがありました。',
+      'では、表紙を外してから提出いたします。',
+    ],
+    answerIndex: 0,
+    spokenOptions: true,
+    explanation:
+      '句尾補上「表紙だけは」是話中帶刺的說法，暗指「只有封面像樣、內容不行」，聽懂諷刺後道歉並表示會修改內容才是正確反應。「ありがとうございます」把挖苦當成稱讚，語意方向完全相反；「表紙を外して提出」只在字面上處理「表紙」，沒聽出對方真正批評的是內容。',
+    explanationEn:
+      'Tacking on 「表紙だけは」 turns the compliment into sarcasm — only the cover is impressive, implying the content is not. Catching the jab, apologizing, and offering to fix the contents is the right reaction. Thanking him for praising the design takes the sarcasm at face value, and offering to remove the cover before submitting deals only with the literal cover, missing that the real target is the contents.',
+  },
+  {
+    id: 'n2-listening-sokuji-021',
+    kind: 'listening',
+    script: [
+      { speaker: '女', text: '差し支えなければ、こちらの資料を一部いただいてもよろしいでしょうか。' },
+    ],
+    question: '',
+    options: [
+      'ええ、どうぞ。ご自由にお持ちください。',
+      'そうですね、机の間が狭くて少し差し支えますね。',
+      '資料をくださって、ありがとうございます。',
+    ],
+    answerIndex: 0,
+    spokenOptions: true,
+    explanation:
+      '「差し支えなければ」是「如果不會造成困擾的話」的客氣開場，對方請求索取一份資料，回答「どうぞ。ご自由にお持ちください」爽快允諾最自然。「机の間が狭くて差し支える」把固定用法拆開照字面亂用，答非所問；「くださって、ありがとう」授受方向顛倒——是對方想拿資料，不是給自己資料。',
+    explanationEn:
+      '「差し支えなければ」 is a courteous opener meaning "if it is no trouble"; the speaker is asking to take a copy of the material, so granting it with 「どうぞ。ご自由にお持ちください」 is the natural answer. The remark about desks being cramped rips the set phrase apart and uses it literally, and thanking the speaker for giving materials reverses the direction — she wants to receive a copy, not hand one over.',
+  },
+  {
+    id: 'n2-listening-sokuji-022',
+    kind: 'listening',
+    script: [
+      { speaker: '男', text: '二年がかりの例のプロジェクトがようやく終わってね。肩の荷が下りたよ。' },
+    ],
+    question: '',
+    options: [
+      'お疲れさまでした。今夜はゆっくり休んでください。',
+      '重い荷物なら、私がお持ちしましょうか。',
+      '新しいプロジェクトが始まるんですね。おめでとうございます。',
+    ],
+    answerIndex: 0,
+    spokenOptions: true,
+    explanation:
+      '慣用句「肩の荷が下りる」意為「卸下重擔、如釋重負」，對方感慨費時兩年的案子終於結束，慰勞他「お疲れさまでした」並請他好好休息最貼切。「荷物なら私が持ちましょう」把慣用句誤解成字面的行李，答非所問；「新しいプロジェクトが始まる」與「終わった」的內容相反，也沒接住鬆一口氣的心情。',
+    explanationEn:
+      'The idiom 「肩の荷が下りる」 means a weight has been lifted from one\'s shoulders; the speaker is relieved that a two-year project is finally over, so acknowledging his effort with 「お疲れさまでした」 and urging him to rest fits best. Offering to carry his heavy luggage misreads the idiom literally, and congratulating him on a new project starting contradicts what he said about the project ending.',
+  },
 ]

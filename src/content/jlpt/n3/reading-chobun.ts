@@ -141,4 +141,114 @@ export const questions: JlptQuestion[] = [
       },
     ],
   },
+  {
+    kind: 'passage',
+    id: 'n3-reading-chobun-003',
+    passageTitle: '運動会がくれたもの',
+    passage:
+      '今のマンションに住み始めて三年になるが、私は近所の人の顔をほとんど知らなかった。あいさつをするのは、同じ階の田中さんぐらいで、それ以外の人とは、エレベーターで会っても黙ったままだった。仕事が忙しいのだから仕方がない、と自分では思っていた。\nそんな私が、この秋、町内の運動会に参加した。きっかけは、娘が学校で誘いのプリントをもらってきて、「出たい」と言い出したことだ。正直なところ、私は面倒だと思ったが、楽しみにしている娘のためだと思って、親子で申し込んだ。\nところが、行ってみると、予想とはまったく違った。綱引きで隣に並んだのは、いつもエレベーターで黙って会うだけだった男性だった。一緒に汗をかいて、転びそうになって笑い合ううちに、自然に話せるようになった。帰るころには、何人もの人と「また来年も出ましょう」とあいさつを交わしていた。\nそれからは、町で近所の人に会うと、声をかけられることが増えた。娘も、運動会で知り合った友達と公園で遊ぶようになった。私はどの競技で何位になったか、ほとんど覚えていない。それでも、あの日、順位より大切なものをもらった気がしている。地域の行事は、忙しい人こそ、一度出てみる価値があると思う。',
+    explanation: '',
+    questions: [
+      {
+        id: 'n3-reading-chobun-003-q1',
+        stem: '運動会に出る前、筆者と近所の人との関係はどうだったか。',
+        options: [
+          '同じ階の田中さん以外とは、ほとんど付き合いがなかった。',
+          'エレベーターで会う人とは、よく話をしていた。',
+          '田中さんとも、あいさつをしたことがなかった。',
+          '娘の友達の親とだけ、親しくしていた。',
+        ],
+        answerIndex: 0,
+        explanation:
+          '第一段寫道，會打招呼的「同じ階の田中さんぐらいで、それ以外の人とは、エレベーターで会っても黙ったままだった」，可見交往僅止於田中先生。「よく話をしていた」與「黙ったまま」相反；「田中さんとも、あいさつをしたことがなかった」錯，田中先生正是少數會打招呼的對象；「娘の友達の親」錯，女兒是在運動會之後才交到附近的朋友。',
+        explanationEn:
+          'Paragraph one says the only neighbor he greeted was 「同じ階の田中さんぐらい」, and with everyone else he stayed silent even in the elevator — his neighborhood ties stopped at Mr. Tanaka. "Often chatted with people in the elevator" contradicts 「黙ったままだった」; "had never even greeted Mr. Tanaka" is wrong since Tanaka was precisely the one person he did greet; "was close only with the parents of his daughter\'s friends" fails because the daughter made local friends only after the sports day.',
+      },
+      {
+        id: 'n3-reading-chobun-003-q2',
+        stem: '筆者が運動会に参加したきっかけは何か。',
+        options: [
+          '娘が誘いのプリントをもらってきて、出たいと言ったこと',
+          '近所の人と知り合いになりたかったこと',
+          'いつもエレベーターで会う男性に誘われたこと',
+          '田中さんに親子での参加を頼まれたこと',
+        ],
+        answerIndex: 0,
+        explanation:
+          '第二段明言「きっかけは、娘が学校で誘いのプリントをもらってきて、『出たい』と言い出したことだ」，而且筆者本人覺得麻煩，是為了女兒才報名。「知り合いになりたかった」錯，與鄰居熟起來是參加後意外的收穫，不是動機；「男性に誘われた」錯，那位男性是在綱引き才真正認識的；「田中さんに頼まれた」文中完全沒有提到。',
+        explanationEn:
+          'Paragraph two states it outright: 「きっかけは、娘が学校で誘いのプリントをもらってきて、『出たい』と言い出したことだ」 — and the writer, who found it a bother, signed up for his daughter\'s sake. "Wanted to get to know the neighbors" is wrong: those ties were an unexpected reward after joining, not his motive; "was invited by the man from the elevator" is wrong since he only truly met that man during the tug-of-war; being asked by Mr. Tanaka appears nowhere in the text.',
+      },
+      {
+        id: 'n3-reading-chobun-003-q3',
+        stem: '「順位より大切なもの」とは、何だと考えられるか。',
+        options: [
+          '近所の人と声をかけ合えるようになったこと',
+          '綱引きで一位になったこと',
+          '運動をして体が丈夫になったこと',
+          '来年の運動会に必ず出られる権利',
+        ],
+        answerIndex: 0,
+        explanation:
+          '運動會之後「町で近所の人に会うと、声をかけられることが増えた」，女兒也交到朋友，因此「順位より大切なもの」指的是與鄰居之間的交流與連結。「一位になった」錯，筆者說自己幾乎不記得名次，且與「順位より」的語意矛盾；「体が丈夫になった」錯，文中只提到一起流汗，健康不是重點；「来年の…権利」是無中生有，「また来年も」只是道別的招呼語。',
+        explanationEn:
+          'After the sports day, neighbors began calling out to him around town and his daughter made friends, so 「順位より大切なもの」 refers to the new connection with his neighbors. "Winning first place in the tug-of-war" is wrong — he says he barely remembers any rankings, and it contradicts the very phrase "more important than rank"; "becoming physically stronger" is wrong since sweating together is mentioned but health is not the point; a guaranteed right to enter next year is fabricated — 「また来年も」 was merely a parting greeting.',
+      },
+    ],
+  },
+  {
+    kind: 'passage',
+    id: 'n3-reading-chobun-004',
+    passageTitle: '朝ごはんという合図',
+    passage:
+      '朝ごはんを食べない人が増えているという。ある調査によると、二十代では四人に一人が、ほとんど毎朝、何も食べずに家を出るそうだ。理由として多いのは、「時間がない」「朝は食欲がない」「少しでも長く寝ていたい」というものだ。\nしかし、朝ごはんには大切な働きがある。人の体は、寝ている間もエネルギーを使い続けている。だから朝起きたときの体は、車で言えば、ガソリンが少なくなった状態なのだ。朝ごはんは、そこにエネルギーを入れると同時に、体と頭に「一日が始まった」と知らせる合図にもなる。朝食を取っている学生のほうが成績がよいという調査結果もあるそうだ。\nとはいえ、「朝は食欲がない」という人に、無理に食べろと言っても続かないだろう。実は、朝、食欲がないのは、夜遅い時間に食事をしていることが原因である場合が多いという。夕食の時間を少し早くするだけで、朝、自然におなかがすくようになるのだ。また、最初からきちんとした食事を作る必要はない。バナナ一本と牛乳一杯からでも十分だ。\n朝ごはんは、一日の体のリズムを作るスイッチだ。「食べる時間がない」とあきらめるのではなく、食べるために少しだけ早く起きる。その小さな習慣が、午前中の体と頭の調子を変えてくれるはずだ。',
+    explanation: '',
+    questions: [
+      {
+        id: 'n3-reading-chobun-004-q1',
+        stem: '朝ごはんを食べない理由として、この文章で挙げられていないものはどれか。',
+        options: [
+          '朝ごはんを作るとお金がかかるから',
+          '食べる時間がないから',
+          '朝は食欲がないから',
+          '少しでも長く寝ていたいから',
+        ],
+        answerIndex: 0,
+        explanation:
+          '第一段列出的理由是「時間がない」「朝は食欲がない」「少しでも長く寝ていたい」三項，其餘三個選項都在其中。「お金がかかるから」文中完全沒有出現，所以是「挙げられていないもの」，為正解。此題問的是「沒有被提到」的選項，要小心別把文中確實出現的理由選成答案。',
+        explanationEn:
+          'The reasons listed in paragraph one are 「時間がない」, 「朝は食欲がない」, and 「少しでも長く寝ていたい」 — the other three options all appear there. Cost, however, is never mentioned anywhere in the passage, so "because making breakfast costs money" is the one NOT given, making it correct. Note that this question asks for the reason that is absent, so be careful not to pick one of the reasons the text actually states.',
+      },
+      {
+        id: 'n3-reading-chobun-004-q2',
+        stem: '「ガソリンが少なくなった状態」とは、どんな状態か。',
+        options: [
+          '寝ている間にエネルギーが使われて、体のエネルギーが足りなくなった状態',
+          '車を長く運転して、体が疲れてしまった状態',
+          '夜遅くに食事をして、おなかがいっぱいの状態',
+          '朝ごはんを食べすぎて、眠くなってしまった状態',
+        ],
+        answerIndex: 0,
+        explanation:
+          '前一句說「人の体は、寝ている間もエネルギーを使い続けている。だから朝起きたときの体は…」，把身體比喻成汽車、能量比喻成汽油：睡眠期間持續消耗，早上起床時能量所剩不多。「車を運転して疲れた」是把比喻當成真的開車；「おなかがいっぱい」正好相反，那是「朝食欲がない」的原因段落的內容；「食べすぎて眠くなった」文中沒有這種敘述。',
+        explanationEn:
+          'The preceding sentence says 「人の体は、寝ている間もエネルギーを使い続けている」, comparing the body to a car and energy to gasoline: fuel keeps burning during sleep, so the tank is low by morning. "Tired from driving a long time" takes the metaphor literally as actual driving; "full from a late-night meal" is the opposite state and belongs to the paragraph explaining why people lack appetite; "sleepy from eating too much breakfast" appears nowhere in the passage.',
+      },
+      {
+        id: 'n3-reading-chobun-004-q3',
+        stem: '朝、食欲がない人に対して、筆者はどうすればいいと言っているか。',
+        options: [
+          '夕食の時間を早くして、簡単な物から食べ始めればいい。',
+          '食欲がなくても、無理をしてきちんとした食事を取るべきだ。',
+          '朝は何も食べないで、昼にたくさん食べればいい。',
+          '成績を上げるために、食べる前に勉強するべきだ。',
+        ],
+        answerIndex: 0,
+        explanation:
+          '第三段給出兩個建議：「夕食の時間を少し早くするだけで、朝、自然におなかがすくようになる」、「バナナ一本と牛乳一杯からでも十分だ」，即提早晚餐、從簡單的食物開始。「無理をして…取るべきだ」被「無理に食べろと言っても続かないだろう」否定；「昼にたくさん食べればいい」文中沒有提到；「食べる前に勉強する」是亂用文中「成績」一詞，文章只說吃早餐的學生成績較好。',
+        explanationEn:
+          'Paragraph three offers two suggestions: 「夕食の時間を少し早くするだけで、朝、自然におなかがすくようになる」, and that 「バナナ一本と牛乳一杯からでも十分だ」 — eat dinner earlier and start with something simple. "Force yourself to eat a proper meal" is denied by the line that forcing people 「続かないだろう」; eating a big lunch instead is never suggested; and "study before eating" misuses the word "grades" — the passage only reports that students who eat breakfast tend to do better.',
+      },
+    ],
+  },
 ]

@@ -251,4 +251,155 @@ export const questions: JlptQuestion[] = [
     explanationEn:
       'The reason is 「今夜、部長の送別会があって、お酒を飲む予定だから」 — he plans to drink at the manager\'s farewell party tonight, and one cannot drive after drinking, so he took the train. Expensive parking is the woman\'s guess, rejected with 「会社が出してくれるから、それは問題ない」 since the company pays for it; a car breakdown is never mentioned; and 「終電までには帰る」 is just his plan for tonight, not why he left the car at home.',
   },
+  {
+    id: 'n3-listening-pointo-011',
+    kind: 'listening',
+    script: [
+      { speaker: '旁白', text: '会社の昼休みに女の人と男の人が話しています。' },
+      { speaker: '女', text: 'あれ、田中さん、最近お弁当なんですね。前は毎日外で食べていたのに。' },
+      { speaker: '男', text: 'うん、先月から持ってくるようにしたんだ。' },
+      { speaker: '女', text: 'やっぱり、外で食べると高いからですか。' },
+      { speaker: '男', text: 'お金も少しは節約になるけど、それが理由じゃないんだ。実は健康診断で、塩分を取りすぎだと言われてね。外の料理は味が濃いから、自分で作ることにしたんだよ。' },
+      { speaker: '女', text: 'へえ、ご自分で作っているんですか。大変じゃないですか。' },
+      { speaker: '男', text: '料理は前から好きだったからね。朝、少し早く起きるだけだよ。' },
+    ],
+    question: '男の人はどうしてお弁当を持ってくるようになりましたか。',
+    options: [
+      '健康診断で塩分を注意されたから',
+      '外で食べるとお金がかかるから',
+      '最近、料理が好きになったから',
+      '朝早く起きるようになったから',
+    ],
+    answerIndex: 0,
+    explanation:
+      '男の人明說「健康診断で、塩分を取りすぎだと言われて」，因為外食口味太重，才改成自己做便當，這是主因。省錢雖然被提到，但他馬上說「それが理由じゃないんだ」直接否定，是典型的干擾項；喜歡做菜是「前から好きだった」，不是最近才開始的契機；早起只是帶便當之後的結果，不是原因。',
+    explanationEn:
+      'The man states plainly 「健康診断で、塩分を取りすぎだと言われて」 — his health check flagged too much salt, and since restaurant food is strongly seasoned, he switched to making his own lunch. Saving money is mentioned but immediately denied with 「それが理由じゃないんだ」, a classic distractor; liking cooking is something he has had 「前から」, not a new trigger; and getting up early is merely a consequence of bringing a lunch box, not the reason.',
+  },
+  {
+    id: 'n3-listening-pointo-012',
+    kind: 'listening',
+    script: [
+      { speaker: '旁白', text: '薬局で女の人と薬剤師の男の人が話しています。' },
+      { speaker: '女', text: 'すみません、先月からもらっているアレルギーの薬のことなんですが、別の薬に変えてもらうことはできますか。' },
+      { speaker: '男', text: 'どうされましたか。効き目が弱いですか。' },
+      { speaker: '女', text: 'いえ、鼻水はちゃんと止まっています。ただ、飲むととても眠くなるんです。仕事で車を運転するので、困ってしまって。' },
+      { speaker: '男', text: 'それは心配ですね。眠くなりにくい薬もありますから、次の診察のとき、お医者さんに相談してみてください。' },
+      { speaker: '女', text: 'わかりました。その薬、値段は高くなりますか。' },
+      { speaker: '男', text: '少し高くなりますが、そんなに変わりませんよ。' },
+    ],
+    question: '女の人はどうして薬を変えたいのですか。',
+    options: [
+      '薬を飲むと眠くなって、運転に困るから',
+      '薬の効き目が弱いから',
+      '薬の値段が高いから',
+      '鼻水が止まらないから',
+    ],
+    answerIndex: 0,
+    explanation:
+      '女の人說「飲むととても眠くなるんです。仕事で車を運転するので、困ってしまって」，想換藥是因為藥讓她想睡、影響開車，這是主因。藥效不好是藥師的猜測，被她以「鼻水はちゃんと止まっています」否定；價錢是她對新藥提出的問題，不是換藥的原因；「鼻水が止まらない」與她說的內容正好相反。',
+    explanationEn:
+      'The woman says 「飲むととても眠くなるんです。仕事で車を運転するので、困ってしまって」 — the medicine makes her very sleepy, which is a problem because she drives for work. Weak effectiveness is only the pharmacist\'s guess, denied by her 「鼻水はちゃんと止まっています」; the price is merely her question about the new medicine, not her reason; and a runny nose that will not stop is the exact opposite of what she reports.',
+  },
+  {
+    id: 'n3-listening-pointo-013',
+    kind: 'listening',
+    script: [
+      { speaker: '旁白', text: '電話で女の人とホテルの男の人が話しています。' },
+      { speaker: '女', text: 'すみません、昨日そちらに泊まった田中ですが、部屋に忘れ物をしてしまったみたいなんです。' },
+      { speaker: '男', text: 'かしこまりました。どのようなお品でしょうか。' },
+      { speaker: '女', text: '黒い折りたたみの傘です。たしか、ベッドの横の机の上に置いたと思うんですが。' },
+      { speaker: '男', text: '少々お待ちください。……お客様、ございました。傘は机の上ではなくて、バスルームのドアのところにあったそうです。' },
+      { speaker: '女', text: 'ああ、よかった。来週またそちらの近くに行くので、取りに伺います。' },
+      { speaker: '男', text: 'かしこまりました。それでは、フロントでお預かりしておきます。' },
+    ],
+    question: '忘れ物の傘はどこにありましたか。',
+    options: [
+      'バスルームのドアのところ',
+      'ベッドの横の机の上',
+      'ホテルのフロント',
+      'ベッドの下',
+    ],
+    answerIndex: 0,
+    explanation:
+      '飯店人員查過之後說「傘は机の上ではなくて、バスルームのドアのところにあったそうです」，所以雨傘是在浴室門邊被找到的。「ベッドの横の机の上」是女の人自己記憶中的位置，被「ではなくて」明確更正，是被否定的資訊；櫃檯是之後「お預かりしておきます」要保管傘的地方，不是找到的地點；床底下在對話中完全沒出現。',
+    explanationEn:
+      'After checking, the hotel clerk reports 「傘は机の上ではなくて、バスルームのドアのところにあったそうです」, so the umbrella was found by the bathroom door. The desk beside the bed is only where the woman remembered leaving it, explicitly corrected with 「ではなくて」; the front desk is where the umbrella will be kept for pickup (「お預かりしておきます」), not where it was found; and under the bed never comes up in the conversation.',
+  },
+  {
+    id: 'n3-listening-pointo-014',
+    kind: 'listening',
+    script: [
+      { speaker: '旁白', text: '家で男の人と女の人が子ども会のバス旅行について話しています。' },
+      { speaker: '男', text: 'ねえ、子ども会のバス旅行、動物園から水族館に変わったんだって？うちの子、動物園を楽しみにしてたのに。' },
+      { speaker: '女', text: 'そうなのよ。動物園はだめになっちゃって。' },
+      { speaker: '男', text: 'もしかして、バスの料金が高くなったから？' },
+      { speaker: '女', text: '料金はどちらもあまり変わらないの。夏休みの動物園はすごく込んでいて、子どもの数が多いと、迷子になったとき危ないからですって。' },
+      { speaker: '男', text: 'なるほど、安全のためか。それならしかたないね。' },
+      { speaker: '女', text: 'それに水族館は中が涼しいし、班ごとに回れるから、安心なのよ。' },
+    ],
+    question: 'どうしてバス旅行の行き先が変わりましたか。',
+    options: [
+      '動物園は込んでいて、子どもが迷子になると危ないから',
+      'バスの料金が高くなったから',
+      '水族館のほうが中が涼しいから',
+      '動物園が工事で休みだから',
+    ],
+    answerIndex: 0,
+    explanation:
+      '女の人說明「夏休みの動物園はすごく込んでいて、子どもの数が多いと、迷子になったとき危ない」，改去水族館是為了孩子的安全，這是主因。巴士費用是男の人的猜測，被「料金はどちらもあまり変わらない」否定；水族館涼爽、可以分組參觀是改地點後附帶的優點，不是原因；動物園整修停業在對話中沒有被提到。',
+    explanationEn:
+      'The woman explains 「夏休みの動物園はすごく込んでいて、子どもの数が多いと、迷子になったとき危ない」 — the zoo is packed in summer, and with many children it would be dangerous if one got lost, so the destination changed for safety. The bus fare is the man\'s guess, denied with 「料金はどちらもあまり変わらない」; the aquarium being cool inside and easy to tour in groups is an added benefit, not the reason; and the zoo being closed for construction is never mentioned.',
+  },
+  {
+    id: 'n3-listening-pointo-015',
+    kind: 'listening',
+    script: [
+      { speaker: '旁白', text: '会社で女の人と男の人が話しています。' },
+      { speaker: '女', text: '高橋さん、最近、朝十時に来るようになりましたね。前は九時でしたよね。' },
+      { speaker: '男', text: 'ええ、先月から出勤の時間を変えてもらったんです。' },
+      { speaker: '女', text: '朝の電車、込みますもんね。それでですか。' },
+      { speaker: '男', text: '込むのは確かですけど、それは前からですから。実は四月から子どもが保育園に通い始めて、朝は私が送っていくことになったんです。' },
+      { speaker: '女', text: 'そうだったんですか。奥さんは送れないんですか。' },
+      { speaker: '男', text: '妻は仕事が早番で、朝は私より先に家を出るんですよ。' },
+    ],
+    question: '男の人はどうして出勤の時間を変えましたか。',
+    options: [
+      '朝、子どもを保育園に送っていくから',
+      '朝の電車が込んでいるから',
+      '奥さんを駅まで送っていくから',
+      '自分の仕事が早番になったから',
+    ],
+    answerIndex: 0,
+    explanation:
+      '男の人明說「四月から子どもが保育園に通い始めて、朝は私が送っていくことになった」，改上班時間是為了早上送小孩去幼兒園。電車擁擠雖被提到，但他說「それは前からですから」，表示不是這次改時間的原因，是被排除的干擾項；他送的是孩子，不是太太；早班的是太太的工作，不是他自己。',
+    explanationEn:
+      'The man says plainly 「四月から子どもが保育園に通い始めて、朝は私が送っていくことになった」 — his child started daycare in April and he now does the morning drop-off, which is why his start time changed. The crowded train is acknowledged but dismissed with 「それは前からですから」, since it was always like that; the person he takes is his child, not his wife; and the early shift belongs to his wife\'s job, not his own.',
+  },
+  {
+    id: 'n3-listening-pointo-016',
+    kind: 'listening',
+    script: [
+      { speaker: '旁白', text: '市役所で男の人と係の女の人が話しています。' },
+      { speaker: '男', text: 'すみません、広報で見たんですが、外国人に日本語を教えるボランティアに申し込みたいんです。' },
+      { speaker: '女', text: 'ありがとうございます。来月から始まる日本語教室ですね。' },
+      { speaker: '男', text: 'はい。教室は毎週土曜日の午前中でしたよね。' },
+      { speaker: '女', text: 'あ、申し訳ありません。会場の都合で、毎週土曜日の午後二時からに変わったんです。' },
+      { speaker: '男', text: '午後ですか。ああ、よかった。土曜日の午前中は仕事があるので、心配だったんです。' },
+      { speaker: '女', text: 'では、こちらの用紙にお名前をお願いします。それから、来週の水曜日の夜に説明会がありますので、まずそちらにおいでください。' },
+      { speaker: '男', text: 'わかりました。よろしくお願いします。' },
+    ],
+    question: '日本語教室はいつ行われることになりましたか。',
+    options: [
+      '毎週土曜日の午後',
+      '毎週土曜日の午前',
+      '毎週水曜日の夜',
+      '毎週日曜日の午後',
+    ],
+    answerIndex: 0,
+    explanation:
+      '係の人說「会場の都合で、毎週土曜日の午後二時からに変わったんです」，所以日語教室改為每週六下午兩點開始。週六上午是男の人記憶中原本的時間，已被更正，是被否定的資訊；週三晚上是下週一次性「説明会」的時間，不是教室固定上課的時間；週日下午在對話中完全沒有出現。',
+    explanationEn:
+      'The clerk says 「会場の都合で、毎週土曜日の午後二時からに変わったんです」, so the Japanese class now runs every Saturday from 2 p.m. Saturday morning is the original time the man remembered, which has been corrected — rejected information; Wednesday night is the one-off orientation session next week, not the regular class time; and Sunday afternoon never appears in the conversation.',
+  },
 ]

@@ -191,4 +191,80 @@ export const questions: JlptQuestion[] = [
     explanationEn:
       'Having broken someone else\'s cup, you should use the transitive 「割ってしまって」 to own the mistake and offer to replace it. 「コップが割れてしまいましたね」 uses the intransitive verb as if the cup broke by itself, sounding like a bystander dodging responsibility; 「弁償していただけますか」 points in exactly the wrong direction — the person who broke the cup demands compensation from its owner, which is absurd and offensive.',
   },
+  {
+    id: 'n3-listening-hatsuwa-011',
+    kind: 'listening',
+    script: [
+      { speaker: '旁白', text: '病院の待合室で診察の順番を待っています。急に気分が悪くなってきたので、受付の人に伝えます。' },
+    ],
+    question: '何と言いますか。',
+    options: [
+      'すみません、気分が悪いので、少し横にならせていただけませんか。',
+      '気分が悪いなら、横になったほうがいいですよ。',
+      '順番がまだ来ないなんて、この病院はどうなっているんですか。',
+    ],
+    answerIndex: 0,
+    spokenOptions: true,
+    explanation:
+      '向院方提出自己的請求，要用使役て形加請託的「横にならせていただけませんか」（能否讓我躺一下），先說明「気分が悪い」再客氣徵求許可。第二句是院方或旁人對病人說的建議，立場完全顛倒，不舒服的明明是自己；第三句只在抱怨等太久，語氣失禮，而且沒把「身體不適」這個最重要的資訊告訴櫃檯。',
+    explanationEn:
+      'To make a request of the hospital staff, use the causative plus polite request 「横にならせていただけませんか」 — first stating 「気分が悪い」, then courteously asking to be allowed to lie down. The second option is advice that staff or a bystander would give to a patient, so the roles are reversed — the speaker is the one feeling sick; the third merely complains about the wait, is rude, and never conveys the crucial information that the speaker feels unwell.',
+  },
+  {
+    id: 'n3-listening-hatsuwa-012',
+    kind: 'listening',
+    script: [
+      { speaker: '旁白', text: '薬局で薬を受け取りました。袋を見ると、自分のではなく、別の人の名前が書いてあります。店の人に言います。' },
+    ],
+    question: '何と言いますか。',
+    options: [
+      'すみません、名前が違うようなんですが、確認していただけますか。',
+      'この名前でよろしければ、お使いください。',
+      '名前ぐらい、ちゃんと確認しなさいよ。',
+    ],
+    answerIndex: 0,
+    spokenOptions: true,
+    explanation:
+      '指出對方的錯誤要委婉，用「名前が違うようなんですが」的「〜ようだ」緩和斷定語氣，再以「確認していただけますか」請對方查證，是最合適的說法。第二句「お使いください」是店員請客人使用東西時的話，立場顛倒，也沒有解決藥袋名字錯誤的問題；第三句用「〜なさいよ」的命令口氣責備店員，就算對方有錯，這樣說也非常失禮。',
+    explanationEn:
+      'When pointing out someone\'s mistake, soften the claim with 「〜ようだ」 as in 「名前が違うようなんですが」, then ask them to check with 「確認していただけますか」 — the most appropriate wording. The second option, ending in 「お使いください」, is what a clerk says when offering something to a customer, so the roles are reversed and the wrong name on the bag is never addressed; the third scolds the clerk with the commanding 「〜なさいよ」, which is very rude even if the clerk made the error.',
+  },
+  {
+    id: 'n3-listening-hatsuwa-013',
+    kind: 'listening',
+    script: [
+      { speaker: '旁白', text: '会社で電話を受けました。相手の声が小さくて、よく聞こえません。' },
+    ],
+    question: '何と言いますか。',
+    options: [
+      '申し訳ありません、お電話が少し遠いようなのですが。',
+      'すみません、私は耳が遠くなってしまいました。',
+      'よく聞こえないから、大きい声で話しなさい。',
+    ],
+    answerIndex: 0,
+    spokenOptions: true,
+    explanation:
+      '電話中聽不清楚對方的聲音，慣用的委婉說法是「お電話が少し遠いようなのですが」，把原因說成「線路狀況不好」，避免直接怪罪對方聲音小。「耳が遠い」是指人重聽、聽力退化，變成在說自己的耳朵有問題，語意不對；「大きい声で話しなさい」用命令形指使對方，在職場電話應對中非常失禮。',
+    explanationEn:
+      'When you cannot hear the other party on the phone, the set polite phrase is 「お電話が少し遠いようなのですが」, which blames the connection rather than the speaker\'s voice. 「耳が遠い」 means being hard of hearing, so the second option claims the speaker\'s own hearing has deteriorated — the wrong meaning; and 「大きい声で話しなさい」 orders the caller around with a command form, which is extremely rude in business phone manners.',
+  },
+  {
+    id: 'n3-listening-hatsuwa-014',
+    kind: 'listening',
+    script: [
+      { speaker: '旁白', text: '市役所に来ています。申込書の書き方が分からないので、窓口の人に聞きます。' },
+    ],
+    question: '何と言いますか。',
+    options: [
+      'すみません、ここはどう書けばいいか、教えていただけますか。',
+      'よろしければ、書き方を教えて差し上げましょうか。',
+      'こんなに難しい書類、書けるわけがないでしょう。',
+    ],
+    answerIndex: 0,
+    spokenOptions: true,
+    explanation:
+      '請窗口人員教自己填寫方式，用疑問詞子句加「教えていただけますか」謙讓地請託最合適。「教えて差し上げましょうか」授受方向顛倒，變成要教對方怎麼寫，但不會寫的明明是自己；「書けるわけがないでしょう」只是在對表格發脾氣，語氣失禮，也完全沒把「想請教寫法」的需求說出口。',
+    explanationEn:
+      'To ask the counter clerk how to fill in the form, an embedded question plus the humble request 「教えていただけますか」 is the right choice. 「教えて差し上げましょうか」 reverses the benefactive direction, offering to teach the clerk how to write it when the speaker is the one who does not know; 「書けるわけがないでしょう」 just vents anger at the difficult form — rude, and it never actually asks for help with how to write it.',
+  },
 ]

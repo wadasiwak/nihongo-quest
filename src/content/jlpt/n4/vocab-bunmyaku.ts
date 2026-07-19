@@ -225,4 +225,140 @@ export const questions: JlptQuestion[] = [
     explanationEn:
       'After waiting an hour, the bus finally came — 「やっと」 (finally, at long last) is correct, echoing the long wait. 「そろそろ」 means "it should be about time", used before something happens, so it can\'t go with the completed 「来ました」; 「たとえば」 (for example) doesn\'t fit, and 「けっして」 (never) requires a negative.',
   },
+  // ---------- 追加：名詞（2 題） ----------
+  {
+    kind: 'choice',
+    id: 'n4-vocab-bunmyaku-021',
+    stem: 'わたしの （　）は、古い カメラを あつめる ことです。',
+    options: ['しゅみ', 'やくそく', 'ようじ', 'けいけん'],
+    answerIndex: 0,
+    explanation:
+      '「我的『興趣』是收集老相機」，正解是「しゅみ」（趣味，興趣、嗜好），「趣味は〜ことです」是介紹嗜好的固定句型。「やくそく」（約定）、「ようじ」（要辦的事）、「けいけん」（經驗）雖然都是名詞，但接「〜は…あつめる ことです」都語意不通。',
+    explanationEn:
+      '"My hobby is collecting old cameras" — 「しゅみ」 (趣味, hobby) is correct, and 「趣味は〜ことです」 is the set pattern for introducing hobbies. 「やくそく」 (promise), 「ようじ」 (errand), and 「けいけん」 (experience) are all nouns, but none of them makes sense in 「〜は…あつめる ことです」.',
+  },
+  {
+    kind: 'choice',
+    id: 'n4-vocab-bunmyaku-022',
+    stem: 'なつやすみの （　）は、もう 決まりましたか。',
+    options: ['よてい', 'おつり', 'おしらせ', 'あいさつ'],
+    answerIndex: 0,
+    explanation:
+      '「暑假的『計畫』決定了嗎」，正解是「よてい」（予定，預定、計畫），「予定が決まる」是常見搭配。「おつり」（找零）、「あいさつ」（打招呼）接「なつやすみの」語意不通；「おしらせ」（通知）是發布出來的消息，不會用「もう決まりましたか」問對方。',
+    explanationEn:
+      '"Have you decided your plans for summer vacation?" — 「よてい」 (予定, plans) is correct, and 「予定が決まる」 is a common collocation. 「おつり」 (change) and 「あいさつ」 (greeting) make no sense after 「なつやすみの」; 「おしらせ」 (a notice) is information that gets announced, so you would not ask whether it has been "decided".',
+  },
+  // ---------- 追加：動詞（5 題） ----------
+  {
+    kind: 'choice',
+    id: 'n4-vocab-bunmyaku-023',
+    stem: '父の しごとで、来月 大阪へ （　）ことに なりました。',
+    options: ['ひっこす', 'かたづける', 'うけとる', 'ならべる'],
+    answerIndex: 0,
+    explanation:
+      '因為爸爸的工作，下個月要「搬家」到大阪，正解是「ひっこす」（引っ越す，搬家），「大阪へ引っ越す」搭配自然。「かたづける」（收拾）、「うけとる」（收下）、「ならべる」（排列）都是需要受詞的他動詞，而且接「大阪へ」語意都不通。',
+    explanationEn:
+      'Because of Dad\'s job, the family is moving to Osaka next month — 「ひっこす」 (引っ越す, to move house) is correct, and 「大阪へ引っ越す」 is a natural pairing. 「かたづける」 (to tidy up), 「うけとる」 (to receive), and 「ならべる」 (to line up) are all transitive verbs that need objects, and none of them works with 「大阪へ」.',
+  },
+  {
+    kind: 'choice',
+    id: 'n4-vocab-bunmyaku-024',
+    stem: '家の かぎを （　）しまって、へやに 入れませんでした。',
+    options: ['なくして', 'けして', 'ならべて', 'みがいて'],
+    answerIndex: 0,
+    explanation:
+      '把家裡的鑰匙「弄丟」了，所以進不了房間，正解是「なくす」（無くす，遺失）。「けす」（消す）用於關燈、擦掉字，不能接鑰匙；「ならべる」（排列）、「みがく」（磨亮、刷）雖然文法上能接「かぎを」，但都不會造成「進不了房間」的結果，語境不合。',
+    explanationEn:
+      'You lost the house key and could not get into your room — 「なくす」 (to lose) is correct. 「けす」 (消す) is for turning off lights or erasing writing, not keys; 「ならべる」 (to line up) and 「みがく」 (to polish) can grammatically take 「かぎを」, but neither would leave you locked out, so they do not fit the context.',
+  },
+  {
+    kind: 'choice',
+    id: 'n4-vocab-bunmyaku-025',
+    stem: '日曜日、弟を どうぶつえんへ （　） 行きました。',
+    options: ['つれて', 'もって', 'おいて', 'かして'],
+    answerIndex: 0,
+    explanation:
+      '帶弟弟去動物園，正解是「つれる」（連れる，帶〈人〉同行），「〜をつれて行く」是固定用法。「もって行く」的對象是物品，不能用在人身上；「おいて行く」是把人留下、自己走掉，和「帶去動物園」矛盾；「かして」（借出）接人完全不通。',
+    explanationEn:
+      'You took your little brother to the zoo — 「つれる」 (連れる, to take a person along) is correct, in the set pattern 「〜をつれて行く」. 「もって行く」 is for carrying things, not people; 「おいて行く」 means leaving someone behind, contradicting taking him to the zoo; 「かして」 (to lend) makes no sense with a person.',
+  },
+  {
+    kind: 'choice',
+    id: 'n4-vocab-bunmyaku-026',
+    stem: 'からだに よくないので、父は たばこを （　）ました。',
+    options: ['やめ', 'とめ', 'しめ', 'ひろい'],
+    answerIndex: 0,
+    explanation:
+      '因為對身體不好，爸爸「戒掉」了菸，正解是「やめる」（停止、戒除），「たばこをやめる」是固定說法。「とめる」（止める）是使移動中的東西停下（如車子）；「しめる」（閉める）是關門窗；「ひろう」（撿）在這個語境更不合理，皆非正解。',
+    explanationEn:
+      'Because it was bad for his health, Dad quit smoking — 「やめる」 (to quit) is correct, and 「たばこをやめる」 is the set phrase. 「とめる」 (止める) means stopping something in motion, like a car; 「しめる」 (閉める) is for closing doors or windows; 「ひろう」 (to pick up) makes no sense at all in this context.',
+  },
+  {
+    kind: 'choice',
+    id: 'n4-vocab-bunmyaku-027',
+    stem: 'あさ 七時に、まだ ねて いる 弟を （　）ました。',
+    options: ['おこし', 'おき', 'さまし', 'あけ'],
+    answerIndex: 0,
+    explanation:
+      '把還在睡的弟弟「叫醒」，正解是他動詞「おこす」（起こす，喚醒）。「おきる」（起きる）是自動詞「自己起床」，不能接「弟を」，是自他動詞混淆；「さます」（覚ます）要說「目をさます」，不能直接接人；「あける」（開ける）是開門窗，語意不通。',
+    explanationEn:
+      'You woke up your still-sleeping brother — the transitive 「おこす」 (起こす, to wake someone) is correct. 「おきる」 (起きる) is intransitive, "to get up by oneself", so it cannot take 「弟を」 — a transitivity mix-up; 「さます」 (覚ます) is used as 「目をさます」, not directly with a person; 「あける」 (to open) makes no sense here.',
+  },
+  // ---------- 追加：形容詞（3 題） ----------
+  {
+    kind: 'choice',
+    id: 'n4-vocab-bunmyaku-028',
+    stem: 'この 川は （　）ので、およいでは いけません。',
+    options: ['ふかい', 'ながい', 'こい', 'まるい'],
+    answerIndex: 0,
+    explanation:
+      '這條河很「深」所以禁止游泳，正解是「ふかい」（深い，深的），水深才會危險。「ながい」（長的）河很長和能不能游泳無關，因果接不起來；「こい」（濃い）形容味道、顏色濃；「まるい」（圓的）形容形狀，皆不合語境。',
+    explanationEn:
+      'This river is deep, so swimming is not allowed — 「ふかい」 (深い, deep) is correct, since depth is what makes it dangerous. 「ながい」 (long) has nothing to do with whether you can swim there; 「こい」 (濃い) describes strong flavors or colors; 「まるい」 (round) describes shape.',
+  },
+  {
+    kind: 'choice',
+    id: 'n4-vocab-bunmyaku-029',
+    stem: 'ゆうべ おそくまで おきて いたので、きょうは とても （　）です。',
+    options: ['ねむい', 'まぶしい', 'いそがしい', 'うるさい'],
+    answerIndex: 0,
+    explanation:
+      '昨晚熬夜到很晚，今天很「睏」，正解是「ねむい」（眠い，想睡的），和「おそくまで おきて いた」因果相連。「まぶしい」（刺眼的）形容光線；「いそがしい」（忙碌）和熬夜沒有必然關係，因果不通；「うるさい」（吵鬧）形容聲音，皆不合。',
+    explanationEn:
+      'You stayed up late last night, so today you are very sleepy — 「ねむい」 (眠い) is correct, following logically from 「おそくまで おきて いた」. 「まぶしい」 (dazzling) describes light; 「いそがしい」 (busy) does not follow from staying up late; 「うるさい」 (noisy) describes sound.',
+  },
+  {
+    kind: 'choice',
+    id: 'n4-vocab-bunmyaku-030',
+    stem: 'たのしみに して いた りょこうが 中止に なって、とても （　）です。',
+    options: ['ざんねん', 'べんり', 'にぎやか', 'じょうぶ'],
+    answerIndex: 0,
+    explanation:
+      '期待已久的旅行取消了，覺得很「可惜、遺憾」，正解是「ざんねん」（残念）。「べんり」（便利，方便）、「にぎやか」（熱鬧）、「じょうぶ」（丈夫，堅固結實）都是な形容詞，但沒有一個能表達「期待落空」的心情，語境完全不合。',
+    explanationEn:
+      'The trip you were looking forward to was cancelled, and you feel very disappointed — 「ざんねん」 (残念) is correct. 「べんり」 (convenient), 「にぎやか」 (lively), and 「じょうぶ」 (sturdy) are all na-adjectives, but none of them expresses the feeling of dashed hopes.',
+  },
+  // ---------- 追加：副詞（2 題） ----------
+  {
+    kind: 'choice',
+    id: 'n4-vocab-bunmyaku-031',
+    stem: 'こんど （　） わたしの うちへ あそびに 来て ください。',
+    options: ['ぜひ', 'けっして', 'あまり', 'たぶん'],
+    answerIndex: 0,
+    explanation:
+      '邀請對方「請務必」來家裡玩，正解是「ぜひ」（務必、一定），常和「〜てください」搭配表達誠摯邀請。「けっして」（絕不）和「あまり」（不太）後面都必須接否定；「たぶん」（大概）是推測用語，不能用來拜託別人，皆不合。',
+    explanationEn:
+      '"Please do come to my house next time" — 「ぜひ」 (by all means) is correct, often paired with 「〜てください」 for heartfelt invitations. 「けっして」 (never) and 「あまり」 (not very) both require negative endings; 「たぶん」 (probably) expresses conjecture and cannot be used in a request.',
+  },
+  {
+    kind: 'choice',
+    id: 'n4-vocab-bunmyaku-032',
+    stem: 'バスが （　） 来ないので、タクシーで 行きました。',
+    options: ['なかなか', 'そろそろ', 'さっき', 'だいたい'],
+    answerIndex: 0,
+    explanation:
+      '公車「遲遲」不來所以改搭計程車，正解是「なかなか」，「なかなか〜ない」表示事情遲遲不發生。「そろそろ」（差不多該）用於肯定的推測，不接「来ない」；「さっき」（剛才）指過去的時間點；「だいたい」（大致）講程度或概數，皆與語境不合。',
+    explanationEn:
+      'The bus just would not come, so you took a taxi — 「なかなか」 is correct: 「なかなか〜ない」 means something takes forever to happen. 「そろそろ」 (about time to) goes with affirmative expectation, not 「来ない」; 「さっき」 (a moment ago) marks a past time point; 「だいたい」 (roughly) is about approximation.',
+  },
 ]

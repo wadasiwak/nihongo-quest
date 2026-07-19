@@ -206,4 +206,199 @@ export const questions: JlptQuestion[] = [
     explanationEn:
       'The man says 「駅まで迎えに行ってあげなければならないんです」 (〜てあげる plus 〜なければならない: he has to go pick her up) — he is leaving early to meet his mother, who is coming up from the countryside, at the station. Feeling unwell is the woman\'s guess, immediately denied with 「いいえ、元気ですよ」— a classic denied distractor; the hospital and a business trip never come up. As for the leftover work, the woman volunteers 「やっておきます」 (〜ておく: to take care of it in advance).',
   },
+  {
+    id: 'n4-listening-pointo-011',
+    kind: 'listening',
+    script: [
+      { speaker: '旁白', text: '学校で女の学生と男の学生がバスケットボールの試合について話しています。' },
+      { speaker: '女', text: '明日の試合、10時からだよね。' },
+      { speaker: '男', text: 'あ、それが、変わったんだ。体育館が午前中、工事で使えなくなって、午後1時からになったよ。' },
+      { speaker: '女', text: 'そうなんだ。じゃあ、集合は何時？' },
+      { speaker: '男', text: '12時半に体育館の前だよ。' },
+      { speaker: '女', text: 'わかった。試合は何時ごろ終わるの？' },
+      { speaker: '男', text: '3時ごろだと思うよ。' },
+    ],
+    question: '明日の試合は何時から始まりますか。',
+    options: ['午後1時', '午前10時', '12時半', '午後3時'],
+    answerIndex: 0,
+    explanation:
+      '男の学生說時間改了：「体育館が午前中、工事で使えなくなって、午後1時からになったよ」，所以比賽從下午1點開始。「午前10時」是變更前的舊時間，是被更正的干擾項；「12時半」是集合的時間，不是比賽開始的時間；「午後3時」是預計結束的時間，方向剛好相反。',
+    explanationEn:
+      'The male student explains that the time has changed: 「体育館が午前中、工事で使えなくなって、午後1時からになったよ」— the gym is unavailable in the morning due to construction, so the game now starts at 1 p.m. Ten a.m. is the old, superseded time; 12:30 is when they gather (「12時半に体育館の前」), not the start; and 3 p.m. is when the game is expected to end.',
+  },
+  {
+    id: 'n4-listening-pointo-012',
+    kind: 'listening',
+    script: [
+      { speaker: '旁白', text: '学校で女の学生と男の学生が昼ご飯について話しています。' },
+      { speaker: '女', text: '山口さんは、いつもお弁当だね。食堂は使わないの？高いから？' },
+      { speaker: '男', text: 'いや、食堂は安いよ。実は、来年から一人で住むから、料理の練習をしたくて、毎朝自分でお弁当を作っているんだ。' },
+      { speaker: '女', text: 'へえ、えらいね。作るのに時間がかかるでしょう？' },
+      { speaker: '男', text: 'もう慣れたから、20分ぐらいでできるよ。' },
+      { speaker: '女', text: 'すごいね。私も作ってみようかな。' },
+    ],
+    question: '男の学生はどうして毎日お弁当を作っていますか。',
+    options: ['料理の練習をしたいから', '食堂は高いから', '短い時間で作れるから', '食堂の料理が嫌いだから'],
+    answerIndex: 0,
+    explanation:
+      '男の学生說「来年から一人で住むから、料理の練習をしたくて、毎朝自分でお弁当を作っているんだ」，做便當是為了練習做菜。「食堂は高いから」是女の学生的猜測，被他以「いや、食堂は安いよ」否定，是典型的被否定干擾項；「20分ぐらいでできる」是熟練後花的時間，不是做便當的理由；討厭食堂的菜在對話中沒有出現。',
+    explanationEn:
+      'The male student says 「来年から一人で住むから、料理の練習をしたくて、毎朝自分でお弁当を作っているんだ」— he makes his own lunch every morning to practice cooking before living alone next year. The cafeteria being expensive is the female student\'s guess, denied with 「いや、食堂は安いよ」— a classic denied distractor; the twenty minutes is how long it takes him now that he is used to it, not his reason; and disliking the cafeteria food is never mentioned.',
+  },
+  {
+    id: 'n4-listening-pointo-013',
+    kind: 'listening',
+    script: [
+      { speaker: '旁白', text: '服の店で女の人と店の男の人が話しています。' },
+      { speaker: '女', text: 'すみません、この白いシャツを一枚ください。' },
+      { speaker: '男', text: 'ありがとうございます。あ、こちらの青いシャツは今、二枚買うと安くなりますよ。' },
+      { speaker: '女', text: 'へえ、いいですね。じゃあ、青いのを二枚もらいます。' },
+      { speaker: '男', text: 'では、白いシャツと青いシャツ二枚で、全部で三枚ですね。' },
+      { speaker: '女', text: 'あ、ごめんなさい。やっぱり白はやめます。青だけにします。' },
+      { speaker: '男', text: 'かしこまりました。' },
+    ],
+    question: '女の人はシャツを何枚買いますか。',
+    options: ['2枚', '3枚', '1枚', '4枚'],
+    answerIndex: 0,
+    explanation:
+      '女の人最後說「やっぱり白はやめます。青だけにします」，所以買的是藍色兩件、共2枚。「3枚」是店員一度確認的數量（白1件＋青2件），但白色隨後被取消，是被更正的干擾項；「1枚」是最初只買白色時的數量，也已經改變；「4枚」在對話中沒有出現。要聽到最後的更正才能答對。',
+    explanationEn:
+      'The woman finally says 「やっぱり白はやめます。青だけにします」, so she buys only the two blue shirts — two in total. Three is the count the clerk once confirmed (one white plus two blue), but the white shirt is then canceled, making it a corrected distractor; one was her very first order of just the white shirt, also superseded; four never appears. You must catch the last-minute change to answer correctly.',
+  },
+  {
+    id: 'n4-listening-pointo-014',
+    kind: 'listening',
+    script: [
+      { speaker: '旁白', text: '店のサービスカウンターで女の人と店の男の人が話しています。' },
+      { speaker: '女', text: 'すみません、先週買ったこのかばんを返したいんですが。' },
+      { speaker: '男', text: 'かしこまりました。色が気に入りませんでしたか。' },
+      { speaker: '女', text: 'いいえ、色は気に入っています。ポケットの数もちょうどいいんです。でも、思ったより重くて、肩が痛くなってしまって。' },
+      { speaker: '男', text: 'そうでしたか。壊れているところはありませんね。' },
+      { speaker: '女', text: 'はい、ありません。お願いします。' },
+    ],
+    question: '女の人はどうしてかばんを返しますか。',
+    options: ['かばんが重いから', '色が気に入らないから', 'ポケットが少ないから', 'かばんが壊れていたから'],
+    answerIndex: 0,
+    explanation:
+      '女の人說「思ったより重くて、肩が痛くなってしまって」，退貨的原因是包包比想像中重、背了肩膀痛。「色」被她以「色は気に入っています」否定；「ポケットが少ない」也被「ポケットの数もちょうどいいんです」否定；「壊れていた」被最後的「はい、ありません」排除。三個干擾項都是對話中出現但被否定的資訊。',
+    explanationEn:
+      'The woman explains 「思ったより重くて、肩が痛くなってしまって」— the bag is heavier than she expected and makes her shoulder hurt, so weight is why she returns it. The color is ruled out by 「色は気に入っています」; too few pockets by 「ポケットの数もちょうどいいんです」; and damage by her final 「はい、ありません」— all three distractors are details mentioned in the conversation and then denied.',
+  },
+  {
+    id: 'n4-listening-pointo-015',
+    kind: 'listening',
+    script: [
+      { speaker: '旁白', text: '女の人と男の人が駅前の本屋のセールについて話しています。' },
+      { speaker: '女', text: '駅前の本屋、セールをするそうですよ。今日からですか。' },
+      { speaker: '男', text: 'いえ、私は木曜日からだと聞きましたが……。ちょっと店に電話で聞いてみますね。' },
+      { speaker: '女', text: 'お願いします。' },
+      { speaker: '男', text: 'わかりました。セールは金曜日から日曜日までだそうです。' },
+      { speaker: '女', text: '金曜日からですね。じゃあ、金曜日の朝、一緒に行きませんか。' },
+      { speaker: '男', text: 'いいですね。そうしましょう。' },
+    ],
+    question: '本屋のセールはいつから始まりますか。',
+    options: ['金曜日', '今日', '木曜日', '日曜日'],
+    answerIndex: 0,
+    explanation:
+      '男の人打電話向書店確認後說「セールは金曜日から日曜日までだそうです」（〜そうだ：傳聞），所以特賣從星期五開始。「今日から」是女の人一開始的猜測，「木曜日」是男の人原本聽說的日期，兩者都被電話確認的結果更正，是被否定的干擾項；「日曜日」是特賣結束的日子，不是開始的日子。',
+    explanationEn:
+      'After phoning the bookstore, the man reports 「セールは金曜日から日曜日までだそうです」 (〜そうだ: hearsay), so the sale starts on Friday. "From today" is the woman\'s initial guess and Thursday is what the man had heard before — both are overridden by the phone confirmation, making them denied distractors; Sunday is the day the sale ends, not when it begins.',
+  },
+  {
+    id: 'n4-listening-pointo-016',
+    kind: 'listening',
+    script: [
+      { speaker: '旁白', text: '駅のホームで女の人と男の人が話しています。' },
+      { speaker: '女', text: 'あれ、10時の電車、まだ来ませんね。' },
+      { speaker: '男', text: 'さっき放送がありましたよ。動物が線路に入って、20分ぐらい遅れるそうです。' },
+      { speaker: '女', text: 'じゃあ、10時20分ですね。喫茶店でコーヒーでも飲んで来ようかな。' },
+      { speaker: '男', text: '20分しかありませんから、危ないですよ。ホームの椅子で待ちましょう。' },
+      { speaker: '女', text: 'そうですね。そうします。' },
+    ],
+    question: '電車は何時ごろ来ますか。',
+    options: ['10時20分ごろ', '10時ちょうど', '9時40分ごろ', '10時40分ごろ'],
+    answerIndex: 0,
+    explanation:
+      '男の人轉述廣播內容：「動物が線路に入って、20分ぐらい遅れるそうです」（〜そうだ：傳聞），10點的電車誤點約20分鐘，所以大約10點20分才會來。「10時ちょうど」是原本的時刻表時間，已被誤點的消息更正；「9時40分」在對話中沒有出現；「10時40分」把誤點算成40分鐘，數字錯誤。',
+    explanationEn:
+      'The man relays the station announcement: 「動物が線路に入って、20分ぐらい遅れるそうです」 (〜そうだ: hearsay) — an animal got onto the tracks and the 10 o\'clock train is about twenty minutes late, so it arrives around 10:20. Ten sharp is the original timetable, now superseded by the delay; 9:40 never comes up; and 10:40 miscalculates the delay as forty minutes.',
+  },
+  {
+    id: 'n4-listening-pointo-017',
+    kind: 'listening',
+    script: [
+      { speaker: '旁白', text: '駅で近所の男の人と女の人が話しています。' },
+      { speaker: '男', text: 'おはようございます。田中さん、いつもこの6時半の電車ですね。会社は8時半からでしょう？早いですね。' },
+      { speaker: '女', text: 'ええ。でも、仕事が早く始まるからじゃないんです。7時半の電車は人が多くて、座れないんですよ。' },
+      { speaker: '男', text: 'ああ、確かにあの時間は込みますね。' },
+      { speaker: '女', text: 'この電車なら必ず座れますから、座って本を読んで行くんです。' },
+      { speaker: '男', text: 'なるほど。それはいいですね。' },
+    ],
+    question: '女の人はどうして早い電車に乗りますか。',
+    options: ['座って行きたいから', '仕事が早く始まるから', '会社が遠いから', '朝ご飯を会社で食べるから'],
+    answerIndex: 0,
+    explanation:
+      '女の人說「この電車なら必ず座れますから、座って本を読んで行くんです」（座れる：可能形），搭早班車是因為一定有位子坐。「仕事が早く始まるから」被她自己以「仕事が早く始まるからじゃないんです」直接否定，是典型的被否定干擾項；公司很遠、在公司吃早餐對話中都沒有出現，而且上班時間是8點半，並不特別早。',
+    explanationEn:
+      'The woman says 「この電車なら必ず座れますから、座って本を読んで行くんです」 (座れる: potential form) — she takes the earlier train because she can always get a seat and read on the way. Work starting early is denied in her own words, 「仕事が早く始まるからじゃないんです」— a classic denied distractor; the office being far away and eating breakfast at work are never mentioned, and her workday starts at 8:30, hardly early.',
+  },
+  {
+    id: 'n4-listening-pointo-018',
+    kind: 'listening',
+    script: [
+      { speaker: '旁白', text: '駅の窓口で男の人と駅員の女の人が話しています。' },
+      { speaker: '男', text: 'すみません、青海行きの切符をください。大人二枚と、子ども二枚です。' },
+      { speaker: '女', text: 'お子様はおいくつですか。' },
+      { speaker: '男', text: '上の子は8歳で、下の子は5歳です。' },
+      { speaker: '女', text: '5歳のお子様は切符が要りませんよ。無料です。' },
+      { speaker: '男', text: 'そうなんですか。じゃあ、大人二枚と子ども一枚でお願いします。' },
+      { speaker: '女', text: 'かしこまりました。' },
+    ],
+    question: '男の人は切符を全部で何枚買いますか。',
+    options: ['3枚', '4枚', '2枚', '5枚'],
+    answerIndex: 0,
+    explanation:
+      '男の人原本要買「大人二枚と子ども二枚」，但駅員說明「5歳のお子様は切符が要りませんよ。無料です」，他於是改成「大人二枚と子ども一枚」，所以總共買3張。「4枚」是更正前的數量，是被否定的干擾項；「2枚」漏算了8歲孩子要買的兒童票；「5枚」在對話中沒有出現。',
+    explanationEn:
+      'The man first asks for two adult and two child tickets, but the clerk explains 「5歳のお子様は切符が要りませんよ。無料です」— the five-year-old rides free — so he changes his order to 「大人二枚と子ども一枚」: three tickets in total. Four is the pre-correction number, a denied distractor; two forgets the child ticket the eight-year-old still needs; five never appears in the conversation.',
+  },
+  {
+    id: 'n4-listening-pointo-019',
+    kind: 'listening',
+    script: [
+      { speaker: '旁白', text: '家で男の人と女の人が話しています。' },
+      { speaker: '男', text: 'ただいま。あれ、今日は晩ご飯、作らないの？' },
+      { speaker: '女', text: 'うん、今晩は外で食べようと思って。' },
+      { speaker: '男', text: 'いいね。あ、もしかして、今日、誕生日だった？' },
+      { speaker: '女', text: '違うよ。私の誕生日は来週でしょう？今日の午後からガスが止まっていて、料理ができないの。ガス会社の工事で、夜9時まで使えないんだって。' },
+      { speaker: '男', text: 'そうなんだ。じゃあ、駅前の新しい店に行ってみようか。' },
+      { speaker: '女', text: 'うん、そうしよう。' },
+    ],
+    question: '二人はどうして今晩、外で食べますか。',
+    options: ['ガスが止まっていて料理ができないから', '女の人の誕生日だから', '料理を作りたくないから', '新しい店が安いから'],
+    answerIndex: 0,
+    explanation:
+      '女の人說「今日の午後からガスが止まっていて、料理ができないの」，因為瓦斯公司施工、晚上9點前都不能用瓦斯，所以今晚在外面吃。「誕生日」是男の人的猜測，被她以「違うよ。私の誕生日は来週でしょう？」否定，是典型的被否定干擾項；不想做菜、新開的店比較便宜在對話中都沒有出現。',
+    explanationEn:
+      'The woman explains 「今日の午後からガスが止まっていて、料理ができないの」— the gas has been off since this afternoon because of utility company work and stays unusable until 9 p.m., so they will eat out tonight. The birthday is the man\'s guess, denied with 「違うよ。私の誕生日は来週でしょう？」— hers is next week; not wanting to cook and the new restaurant being cheap are never mentioned.',
+  },
+  {
+    id: 'n4-listening-pointo-020',
+    kind: 'listening',
+    script: [
+      { speaker: '旁白', text: '家で母親と息子が話しています。' },
+      { speaker: '男', text: 'お母さん、今度の日曜日、おばあちゃんの家に行くんだよね。' },
+      { speaker: '女', text: 'それがね、おばあちゃん、日曜日は出かけるんだって。だから、土曜日に行くことにしたよ。' },
+      { speaker: '男', text: '土曜日か。午後は友だちとサッカーの約束があるんだけど……。' },
+      { speaker: '女', text: '大丈夫。お昼を一緒に食べて、2時ごろには帰るから。朝10時に家を出るよ。' },
+      { speaker: '男', text: 'よかった。わかった。' },
+    ],
+    question: '二人はいつおばあちゃんの家に行きますか。',
+    options: ['今度の土曜日', '今度の日曜日', '来週の日曜日', '今日の午後'],
+    answerIndex: 0,
+    explanation:
+      '母親說奶奶星期日要出門，「だから、土曜日に行くことにしたよ」（〜ことにする：表示決定），所以是這個星期六去。「日曜日」是原本的計畫，因為奶奶有事被更正，是被否定的干擾項；「来週の日曜日」和「今日の午後」在對話中都沒有出現；而且母親說吃完午餐2點左右就回家，不影響兒子下午的足球約定。',
+    explanationEn:
+      'The mother says the grandmother will be out on Sunday, 「だから、土曜日に行くことにしたよ」 (〜ことにする: to decide on), so they will visit this Saturday. Sunday was the original plan, corrected because of the grandmother\'s outing — a denied distractor; next Sunday and this afternoon never come up; and since they will be home by around two after lunch, the son\'s afternoon soccer plans are safe.',
+  },
 ]

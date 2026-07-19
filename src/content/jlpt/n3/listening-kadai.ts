@@ -236,4 +236,130 @@ export const questions: JlptQuestion[] = [
     explanationEn:
       'The woman instructs 「予約の前に、まず参加する人の数を確認して」, and the man responds 「今からみんなにメールします」, so emailing everyone to confirm the headcount comes first. Booking the Italian restaurant is approved but placed after the count with 「予約の前に」, and he should phone the restaurant only once the replies are in; the izakaya by the station is gently vetoed with 「先月行ったばかりだよ」, prompting a change of venue; and calling to order food would come last of all.',
   },
+  {
+    id: 'n3-listening-kadai-011',
+    kind: 'listening',
+    script: [
+      { speaker: '旁白', text: '会社で女の人と男の人が新しい社員の席の準備について話しています。' },
+      { speaker: '女', text: '来週の月曜日から、新しい人がうちの課に来るの。悪いけど、席の準備をお願いできる？' },
+      { speaker: '男', text: 'はい。じゃあ、まず空いている机を運びます。' },
+      { speaker: '女', text: '机はいいのよ。業者さんが明日、新しいのを運んでくれることになってるから。' },
+      { speaker: '男', text: 'わかりました。パソコンはどうしますか。' },
+      { speaker: '女', text: 'それが一番急ぎなの。総務に申請書を出さないと、届くまで一週間かかるのよ。今日中にお願い。' },
+      { speaker: '男', text: 'はい、すぐ書いて出します。名前の札はどうしましょうか。' },
+      { speaker: '女', text: '名札は私が作っておくから、大丈夫よ。' },
+    ],
+    question: '男の人はこのあとまず何をしますか。',
+    options: ['総務にパソコンの申請書を出す', '空いている机を運ぶ', '新しい社員の名札を作る', '業者に机を注文する'],
+    answerIndex: 0,
+    explanation:
+      '女の人說電腦最急，「総務に申請書を出さないと、届くまで一週間かかる」而且「今日中にお願い」，男の人也回答「すぐ書いて出します」，所以第一件事是向總務提出電腦的申請書。搬桌子是他自己的提議，被「業者さんが明日運んでくれる」否定，不用他做；名牌由女の人以「私が作っておくから」接手；向業者訂桌子在對話中沒有要求他做。',
+    explanationEn:
+      'The woman says the computer is the most urgent item — without submitting the request form to general affairs it takes a week to arrive, and she asks for it 「今日中にお願い」; the man replies 「すぐ書いて出します」, so submitting the PC request form comes first. Moving a spare desk was his own idea, rejected because 「業者さんが明日運んでくれる」; the name plate is taken over by the woman with 「私が作っておくから」; and ordering a desk from the vendor is never asked of him.',
+  },
+  {
+    id: 'n3-listening-kadai-012',
+    kind: 'listening',
+    script: [
+      { speaker: '旁白', text: '薬局で男の人と薬剤師の女の人が話しています。' },
+      { speaker: '男', text: 'すみません、この処方箋の薬、お願いします。' },
+      { speaker: '女', text: 'はい、お預かりします。……申し訳ありません。こちらの薬、今、在庫が一つ足りなくて、そろうのが夕方になってしまうんです。' },
+      { speaker: '男', text: '夕方ですか。うーん、これから仕事なので、また来るのは難しいなあ。' },
+      { speaker: '女', text: 'それでしたら、ご自宅にお届けすることもできますよ。配達は無料です。' },
+      { speaker: '男', text: '助かります。じゃあ、それでお願いします。' },
+      { speaker: '女', text: 'では、こちらの用紙にご住所とお電話番号をお書きください。お届けは明日の午前中になります。' },
+      { speaker: '男', text: 'わかりました。今書きますね。' },
+    ],
+    question: '男の人はこのあとまず何をしますか。',
+    options: ['配達の用紙に住所と電話番号を書く', '夕方、もう一度薬局に来る', '明日の午前中に薬を取りに来る', '病院へ処方箋をもらいに行く'],
+    answerIndex: 0,
+    explanation:
+      '藥師提出可以免費宅配，並請他「こちらの用紙にご住所とお電話番号をお書きください」，男の人回答「今書きますね」，所以第一件事是在配送單上填住址和電話。傍晚再來一趟被他自己以「また来るのは難しい」婉拒，才改成宅配；藥是明天上午「送到家」，不必自己去拿；處方箋他已經交給藥局了，不需要再回醫院拿。',
+    explanationEn:
+      'The pharmacist offers free home delivery and asks him to fill in the form: 「こちらの用紙にご住所とお電話番号をお書きください」; he answers 「今書きますね」, so writing his address and phone number on the delivery form comes first. Coming back in the evening is rejected by his own words 「また来るのは難しい」, which is why delivery was chosen; the medicine will be delivered to his home tomorrow morning, so he does not need to pick it up; and he has already handed over the prescription, so returning to the hospital is unnecessary.',
+  },
+  {
+    id: 'n3-listening-kadai-013',
+    kind: 'listening',
+    script: [
+      { speaker: '旁白', text: '電話で男の人と宅配便の会社の女の人が話しています。' },
+      { speaker: '男', text: 'すみません、留守の間に来た荷物の再配達をお願いしたいんですが。' },
+      { speaker: '女', text: 'かしこまりました。それでは、不在票の番号をお願いします。' },
+      { speaker: '男', text: 'えっと、1234の567です。今日の夜、届けてもらえますか。' },
+      { speaker: '女', text: '申し訳ありません。本日の夜はもういっぱいでして、明日の午前中ならお届けできます。' },
+      { speaker: '男', text: '明日の午前は出かけるんです。あのう、駅前のコンビニで受け取ることはできますか。' },
+      { speaker: '女', text: 'できますよ。ただ、その場合は、先にスマホのアプリで受け取りの手続きをしていただく必要があります。' },
+      { speaker: '男', text: 'わかりました。じゃあ、すぐやってみます。' },
+    ],
+    question: '男の人はこのあとまず何をしますか。',
+    options: ['アプリで受け取りの手続きをする', 'コンビニへ荷物を取りに行く', '明日の午前中に家で荷物を待つ', '今日の夜、もう一度電話をかける'],
+    answerIndex: 0,
+    explanation:
+      '客服說明超商取貨要「先にスマホのアプリで受け取りの手続きをしていただく必要があります」，男の人回答「すぐやってみます」，所以第一件事是用手機的App辦理取貨手續。去超商拿貨要等手續完成、貨送到之後，順序在後；明天上午在家等被他自己以「出かけるんです」否定；今晚配送已被「本日の夜はもういっぱい」回絕，再打一次電話也沒有用。',
+    explanationEn:
+      'The operator explains that convenience-store pickup requires completing the procedure first: 「先にスマホのアプリで受け取りの手続きをしていただく必要があります」, and the man replies 「すぐやってみます」, so doing the pickup procedure on the app comes first. Going to the convenience store happens only after the procedure is done and the parcel arrives; waiting at home tomorrow morning is ruled out by his own 「出かけるんです」; and tonight is already fully booked (「本日の夜はもういっぱい」), so calling again would not help.',
+  },
+  {
+    id: 'n3-listening-kadai-014',
+    kind: 'listening',
+    script: [
+      { speaker: '旁白', text: '公民館で女の人と男の人が町内会の夏祭りの準備について話しています。' },
+      { speaker: '男', text: 'お祭りまであと三日ですね。ポスター、そろそろ貼りに行きましょうか。' },
+      { speaker: '女', text: 'ポスターはまだ印刷屋さんから届いてないの。夕方に届くから、貼るのは明日にしましょう。' },
+      { speaker: '男', text: 'わかりました。じゃあ、会場のテントを立てますか。' },
+      { speaker: '女', text: 'テントは当日の朝、若い人たちがやってくれることになってるわ。それより、商店街の田中さんのお店に、椅子を五十脚借りに行ってくれない？' },
+      { speaker: '男', text: '五十脚ですか。運ぶのが大変そうですね。' },
+      { speaker: '女', text: '軽トラックは佐藤さんが出してくれるって。もうお店の前で待ってるはずよ。' },
+      { speaker: '男', text: 'わかりました。じゃあ、すぐ行ってきます。' },
+    ],
+    question: '男の人はこのあとまず何をしますか。',
+    options: ['商店街へ椅子を借りに行く', 'ポスターを貼りに行く', '会場にテントを立てる', '軽トラックを借りに行く'],
+    answerIndex: 0,
+    explanation:
+      '女の人說「それより、商店街の田中さんのお店に、椅子を五十脚借りに行ってくれない？」，還提到佐藤先生已在店門口等，男の人回答「すぐ行ってきます」，所以最先做的是去商店街借椅子。貼海報因「まだ印刷屋さんから届いてない」被延到明天；搭帳篷是活動當天早上由年輕人負責的事；小貨車由佐藤先生出借，不用他去借。',
+    explanationEn:
+      'The woman says 「それより、商店街の田中さんのお店に、椅子を五十脚借りに行ってくれない？」 and adds that Sato is already waiting in front of the shop with a light truck; the man answers 「すぐ行ってきます」, so borrowing the chairs from the shopping street comes first. Putting up posters is postponed to tomorrow because they 「まだ印刷屋さんから届いてない」; the tents will be set up by the young members on the morning of the festival; and the light truck is provided by Sato, so he does not need to arrange one.',
+  },
+  {
+    id: 'n3-listening-kadai-015',
+    kind: 'listening',
+    script: [
+      { speaker: '旁白', text: '会社で男の人と女の人が名刺について話しています。' },
+      { speaker: '男', text: '佐藤さん、名刺があと十枚ぐらいしかないんです。注文したいんですが。' },
+      { speaker: '女', text: '注文は私が課の分をまとめてシステムでやるから、大丈夫よ。' },
+      { speaker: '男', text: 'よかった。じゃあ、お願いします。' },
+      { speaker: '女', text: 'あ、でも先月、部署の名前が変わったでしょう。その前に、新しい名刺のデータが正しいかどうか、確認してくれる？' },
+      { speaker: '男', text: 'わかりました。どこで確認すればいいですか。' },
+      { speaker: '女', text: '総務のページに見本があるから、それを見て。もし間違いがあったら、総務に連絡してね。' },
+      { speaker: '男', text: 'はい、今から見てみます。' },
+    ],
+    question: '男の人はこのあとまず何をしますか。',
+    options: ['新しい名刺のデータを確認する', 'システムで名刺を注文する', '総務に電話で連絡する', '名刺を百枚印刷する'],
+    answerIndex: 0,
+    explanation:
+      '女の人提醒上個月部門改了名稱，要他「その前に、新しい名刺のデータが正しいかどうか、確認してくれる？」，男の人回答「今から見てみます」，所以第一件事是核對新名片的資料。用系統下訂被女の人以「注文は私がまとめてやる」接手，不用他做；聯絡總務是「もし間違いがあったら」的條件動作，不一定會發生；印一百張名片在對話中根本沒出現。',
+    explanationEn:
+      'The woman reminds him that the department name changed last month and asks 「その前に、新しい名刺のデータが正しいかどうか、確認してくれる？」; he replies 「今から見てみます」, so checking the new business-card data comes first. Ordering through the system is taken over by the woman with 「注文は私がまとめてやる」; contacting general affairs is conditional — only 「もし間違いがあったら」; and printing a hundred cards never appears in the conversation.',
+  },
+  {
+    id: 'n3-listening-kadai-016',
+    kind: 'listening',
+    script: [
+      { speaker: '旁白', text: '病院で男の人が健康診断の受付の女の人と話しています。' },
+      { speaker: '男', text: 'すみません、九時から健康診断を予約している田中です。' },
+      { speaker: '女', text: '田中様ですね。こちらが検査の紙です。まず、あちらの部屋で検査用の服に着替えてください。' },
+      { speaker: '男', text: 'はい。あのう、血液検査は最初ですか。朝から何も食べていないので、早く終わらせたいんですが。' },
+      { speaker: '女', text: '血液検査は今、込んでいますので、着替えたら、先にレントゲンにご案内しますね。' },
+      { speaker: '男', text: 'わかりました。荷物はどうすればいいですか。' },
+      { speaker: '女', text: '着替えの部屋のロッカーに入れて、かぎをかけてください。' },
+      { speaker: '男', text: 'はい、ありがとうございます。' },
+    ],
+    question: '男の人はこのあとまず何をしますか。',
+    options: ['検査用の服に着替える', '血液検査を受ける', 'レントゲンを受ける', '朝ご飯を食べに行く'],
+    answerIndex: 0,
+    explanation:
+      '櫃檯人員指示「まず、あちらの部屋で検査用の服に着替えてください」，所以第一件事是去更衣室換上檢查服。抽血是他想先做完的項目，但被「今、込んでいますので」婉拒；照X光被安排在「着替えたら」之後，順序不對；他說「朝から何も食べていない」是抽血前必須空腹，並不是要去吃早餐。',
+    explanationEn:
+      'The receptionist instructs him: 「まず、あちらの部屋で検査用の服に着替えてください」, so changing into the examination clothes comes first. The blood test is what he hoped to finish early, but it is deferred because it is crowded (「今、込んでいますので」); the X-ray is scheduled for after he changes (「着替えたら」), so its order is wrong; and 「朝から何も食べていない」 means he is fasting for the blood test, not that he is going off to eat breakfast.',
+  },
 ]

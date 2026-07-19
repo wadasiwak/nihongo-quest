@@ -241,4 +241,244 @@ export const questions: JlptQuestion[] = [
     explanationEn:
       'Complete sentence: 「ゆうべ、あまい おかしを 食べ すぎて、おなかが いたく なりました。」 「〜すぎる」 (do to excess) attaches to the verb stem, so 「食べ」 must be immediately followed by 「すぎて」 — the て form 「食べて」 cannot connect here. 「あまい」 is an い-adjective and can only modify the noun 「おかし」, and 「おかしを」 is the object of 「食べ」. Separating 「食べ」 and 「すぎて」 would be ungrammatical, so only one order works.',
   },
+  {
+    kind: 'order',
+    id: 'n4-grammar-narabekae-021',
+    before: 'テーブルの 上に、あしたの',
+    after: 'あります。',
+    segments: ['パーティーで', 'つかう', 'おさらが', 'ならべて'],
+    starIndex: 2,
+    explanation:
+      '完整句：「テーブルの 上に、あしたの パーティーで つかう おさらが ならべて あります。」「〜てあります」（他動詞て形＋ある）表示預先做好的結果狀態，「ならべて」必須緊貼句尾「あります」；「あしたの」的「の」後接名詞「パーティー」，「パーティーで つかう」這個子句再修飾「おさら」。若把「おさらが」移到「つかう」前，子句就失去可修飾的名詞，語序唯一。',
+    explanationEn:
+      'Complete sentence: 「テーブルの 上に、あしたの パーティーで つかう おさらが ならべて あります。」 「〜てあります」 (transitive て form + ある) describes a prepared state, so 「ならべて」 must sit right before the final 「あります」. The 「の」 of 「あしたの」 connects to the noun 「パーティー」, and the clause 「パーティーで つかう」 modifies 「おさら」. Moving 「おさらが」 before 「つかう」 would leave the clause with no noun to modify, so only one order works.',
+  },
+  {
+    kind: 'order',
+    id: 'n4-grammar-narabekae-022',
+    before: 'これは、そぼが',
+    after: 'セーターです。',
+    segments: ['わたしの', 'ために', 'あんで', 'くれた'],
+    starIndex: 1,
+    explanation:
+      '完整句：「これは、そぼが わたしの ために あんで くれた セーターです。」「〜てくれる」表示別人為我做事，「あんで」後必須接「くれた」，「くれた」的連體形再修飾句尾的名詞「セーター」；「わたしの」的「の」後只能接形式名詞「ため」。若讓「わたしの」直接跳去接「セーター」，中間的「ために」就失去依附對象，語序唯一。',
+    explanationEn:
+      'Complete sentence: 「これは、そぼが わたしの ために あんで くれた セーターです。」 「〜てくれる」 marks something done for the speaker: 「あんで」 must be followed by 「くれた」, whose prenominal form then modifies the noun 「セーター」. The 「の」 of 「わたしの」 can only connect to 「ため」; if 「わたしの」 jumped to 「セーター」 instead, 「ために」 would have nothing to attach to, so only one order works.',
+  },
+  {
+    kind: 'order',
+    id: 'n4-grammar-narabekae-023',
+    before: 'デザインが よくても、',
+    after: 'おもいます。',
+    segments: ['かかとが', 'たかい', 'くつは', 'あるきにくいと'],
+    starIndex: 3,
+    explanation:
+      '完整句：「デザインが よくても、かかとが たかい くつは あるきにくいと おもいます。」「〜にくい」（難以…）接動詞連用形，「あるきにくいと」的「と」是引用助詞、必須緊貼句尾「おもいます」；「かかとが たかい」是修飾「くつ」的子句，要放在「くつは」前。若排成「くつは かかとが たかい あるきにくいと」，兩個述語相撞、文法不通，語序唯一。',
+    explanationEn:
+      'Complete sentence: 「デザインが よくても、かかとが たかい くつは あるきにくいと おもいます。」 「〜にくい」 (hard to do) attaches to the verb stem, and the quotative 「と」 of 「あるきにくいと」 must sit right before the final 「おもいます」. The clause 「かかとが たかい」 modifies 「くつ」 and precedes 「くつは」. The order 「くつは かかとが たかい あるきにくいと」 would pile two predicates together ungrammatically, so only one order works.',
+  },
+  {
+    kind: 'order',
+    id: 'n4-grammar-narabekae-024',
+    before: 'ちずを',
+    after: 'しまいました。',
+    segments: ['もって いた', 'のに', 'みちに', 'まよって'],
+    starIndex: 0,
+    explanation:
+      '完整句：「ちずを もって いた のに、みちに まよって しまいました。」「〜のに」表示逆接（明明…卻…），必須接在常體「もって いた」後；「まよって」和句尾「しまいました」組成表懊悔的「〜てしまう」，中間不能插入其他成分；「みちに」是「まよう」的補語，只能放在「まよって」前，語序唯一。',
+    explanationEn:
+      'Complete sentence: 「ちずを もって いた のに、みちに まよって しまいました。」 The contrastive 「〜のに」 (even though) must follow the plain form 「もって いた」; 「まよって」 pairs with the final 「しまいました」 to form the regretful 「〜てしまう」, with nothing allowed in between. 「みちに」 is the complement of 「まよう」 and can only go right before 「まよって」, so only one order works.',
+  },
+  {
+    kind: 'order',
+    id: 'n4-grammar-narabekae-025',
+    before: 'デパートで、',
+    after: 'みました。',
+    segments: ['みせの 人に', 'すすめられた', 'ぼうしを', 'かぶって'],
+    starIndex: 1,
+    explanation:
+      '完整句：「デパートで、みせの 人に すすめられた ぼうしを かぶって みました。」「〜てみる」（做做看）前接て形，「かぶって」必須緊貼句尾「みました」；「みせの 人に」標示受身「すすめられた」的動作者、必須放在其前，「すすめられた」的連體形再修飾「ぼうし」。若把「ぼうしを」移到「すすめられた」前，子句便失去修飾對象，語序唯一。',
+    explanationEn:
+      'Complete sentence: 「デパートで、みせの 人に すすめられた ぼうしを かぶって みました。」 「〜てみる」 (try doing) follows the て form, so 「かぶって」 sits right before the final 「みました」. 「みせの 人に」 marks the agent of the passive 「すすめられた」 and must precede it, and 「すすめられた」 then modifies 「ぼうし」. Moving 「ぼうしを」 before 「すすめられた」 would leave the clause nothing to modify, so only one order works.',
+  },
+  {
+    kind: 'order',
+    id: 'n4-grammar-narabekae-026',
+    before: 'きのう、でんしゃの なかで となりの 人に',
+    after: 'です。',
+    segments: ['あしを', 'ふまれて', 'とても', 'いたかった'],
+    starIndex: 3,
+    explanation:
+      '完整句：「きのう、でんしゃの なかで となりの 人に あしを ふまれて、とても いたかったです。」考受身「ふまれる」（被踩）：動作者「となりの 人に」已在前段給出，被踩的部位「あしを」必須放在「ふまれて」前；「とても」是程度副詞、只能修飾形容詞「いたかった」，不能修飾動詞「ふまれて」，位置唯一，語序唯一。',
+    explanationEn:
+      'Complete sentence: 「きのう、でんしゃの なかで となりの 人に あしを ふまれて、とても いたかったです。」 This tests the passive 「ふまれる」 (get stepped on): the agent 「となりの 人に」 is given before the blank, and 「あしを」, the body part, must precede 「ふまれて」. The degree adverb 「とても」 can only modify the adjective 「いたかった」, not the verb 「ふまれて」, so its position is fixed and only one order works.',
+  },
+  {
+    kind: 'order',
+    id: 'n4-grammar-narabekae-027',
+    before: 'この アパートは、やちんも やすいし、',
+    after: 'すぐに けいやくしました。',
+    segments: ['えきにも', 'ちかいし', 'へやも', 'ひろいので'],
+    starIndex: 2,
+    explanation:
+      '完整句：「この アパートは、やちんも やすいし、えきにも ちかいし、へやも ひろいので、すぐに けいやくしました。」「〜し、〜し」並列理由：「えきにも」只能接「ちかいし」、「へやも」只能接「ひろいので」；表原因的「ので」必須放在最後一個理由上、帶出後句「けいやくしました」。若把「ひろいので」移到句中，後面的「ちかいし」就懸空接不上結果，語序唯一。',
+    explanationEn:
+      'Complete sentence: 「この アパートは、やちんも やすいし、えきにも ちかいし、へやも ひろいので、すぐに けいやくしました。」 「〜し、〜し」 lists reasons: 「えきにも」 can only pair with 「ちかいし」, and 「へやも」 with 「ひろいので」. The causal 「ので」 must sit on the last reason to lead into 「けいやくしました」; moving 「ひろいので」 earlier would leave 「ちかいし」 dangling before the result, so only one order works.',
+  },
+  {
+    kind: 'order',
+    id: 'n4-grammar-narabekae-028',
+    before: 'りょこうの 前に、',
+    after: 'ので、あんしんです。',
+    segments: ['えきから ちかい', 'ホテルを', 'よやくして', 'おいた'],
+    starIndex: 0,
+    explanation:
+      '完整句：「りょこうの 前に、えきから ちかい ホテルを よやくして おいたので、あんしんです。」「〜ておく」（預先做好準備）前接て形，「よやくして」後必須接「おいた」，「おいた」再接表原因的「ので」連到後句；「えきから ちかい」是修飾「ホテル」的子句、必須放在「ホテルを」前。若把「ホテルを」移到子句前，「ちかい」便失去修飾對象，語序唯一。',
+    explanationEn:
+      'Complete sentence: 「りょこうの 前に、えきから ちかい ホテルを よやくして おいたので、あんしんです。」 「〜ておく」 (do in advance) follows the て form, so 「よやくして」 must be followed by 「おいた」, which then takes the causal 「ので」. The clause 「えきから ちかい」 modifies 「ホテル」 and must come before 「ホテルを」; moving 「ホテルを」 in front would leave 「ちかい」 nothing to modify, so only one order works.',
+  },
+  {
+    kind: 'order',
+    id: 'n4-grammar-narabekae-029',
+    before: 'らいげつから、あさ はやく おきて、',
+    after: 'います。',
+    segments: ['いえの ちかくの', 'こうえんを', 'はしろう', 'と おもって'],
+    starIndex: 3,
+    explanation:
+      '完整句：「らいげつから、あさ はやく おきて、いえの ちかくの こうえんを はしろうと おもって います。」「〜（よ）うと思っています」表示打算：意向形「はしろう」後必須緊接「と おもって」，中間不能插入其他成分；「いえの ちかくの」的「の」後接名詞「こうえん」，「こうえんを」是「はしる」的受詞、放在「はしろう」前，語序唯一。',
+    explanationEn:
+      'Complete sentence: 「らいげつから、あさ はやく おきて、いえの ちかくの こうえんを はしろうと おもって います。」 In 「〜（よ）うと思っています」 (planning to), the volitional 「はしろう」 must be immediately followed by 「と おもって」, with nothing in between. The 「の」 of 「いえの ちかくの」 connects to the noun 「こうえん」, and 「こうえんを」, the object, goes before 「はしろう」 — only one order works.',
+  },
+  {
+    kind: 'order',
+    id: 'n4-grammar-narabekae-030',
+    before: 'かいだんで ころんで、',
+    after: 'しまいました。',
+    segments: ['ちちに かって', 'もらった', 'めがねを', 'こわして'],
+    starIndex: 3,
+    explanation:
+      '完整句：「かいだんで ころんで、ちちに かって もらった めがねを こわして しまいました。」「〜てもらう」（請人為我…）：「ちちに かって」後必須接「もらった」，其連體形再修飾「めがね」；「めがねを」是「こわす」的受詞，「こわして」和句尾「しまいました」組成表懊悔的「〜てしまう」。若把「こわして」移到「もらった」前，兩個動詞的對象就亂掉，語序唯一。',
+    explanationEn:
+      'Complete sentence: 「かいだんで ころんで、ちちに かって もらった めがねを こわして しまいました。」 In 「〜てもらう」 (have someone do something for me), 「ちちに かって」 must be followed by 「もらった」, whose prenominal form modifies 「めがね」. 「めがねを」 is the object of 「こわす」, and 「こわして」 pairs with the final 「しまいました」 to express regret. Swapping 「こわして」 before 「もらった」 would scramble both verbs\' roles, so only one order works.',
+  },
+  {
+    kind: 'order',
+    id: 'n4-grammar-narabekae-031',
+    before: 'あした あめが',
+    after: 'なります。',
+    segments: ['ふれば', 'サッカーの', 'しあいは', 'ちゅうしに'],
+    starIndex: 0,
+    explanation:
+      '完整句：「あした あめが ふれば、サッカーの しあいは ちゅうしに なります。」考假定形「〜ば」：開頭的主語「あめが」後必須接ば形「ふれば」；「サッカーの」的「の」後接名詞「しあい」；「ちゅうしに」和句尾「なります」組成「〜になる」（變成…），中間不能插入其他成分。若把「しあいは」放到「サッカーの」前，「の」便無名詞可接，語序唯一。',
+    explanationEn:
+      'Complete sentence: 「あした あめが ふれば、サッカーの しあいは ちゅうしに なります。」 This tests the conditional 「〜ば」: the opening subject 「あめが」 must be followed by the ば form 「ふれば」. The 「の」 of 「サッカーの」 connects to the noun 「しあい」, and 「ちゅうしに」 pairs with the final 「なります」 in the pattern 「〜になる」 (become), with nothing allowed in between — only one order works.',
+  },
+  {
+    kind: 'order',
+    id: 'n4-grammar-narabekae-032',
+    before: '川の そばの かんばんに、',
+    after: 'あります。',
+    segments: ['ここで', 'およいでは', 'いけない', 'と かいて'],
+    starIndex: 1,
+    explanation:
+      '完整句：「川の そばの かんばんに、ここで およいでは いけないと かいて あります。」「〜てはいけない」（不准…）是固定句型，「およいでは」後只能接「いけない」；「ここで」表場所、修飾「およぐ」，必須放最前；「と かいて」的「と」引用告示的內容，後接句尾「あります」組成「〜てある」。若把「と かいて」插進句型中間，句子便不成立，語序唯一。',
+    explanationEn:
+      'Complete sentence: 「川の そばの かんばんに、ここで およいでは いけないと かいて あります。」 「〜てはいけない」 (must not) is a fixed pattern, so 「およいでは」 can only be followed by 「いけない」. 「ここで」 marks the place, modifies 「およぐ」, and goes first; the 「と」 of 「と かいて」 quotes the sign\'s text and joins the final 「あります」 to form 「〜てある」. Inserting 「と かいて」 into the middle would break the sentence, so only one order works.',
+  },
+  {
+    kind: 'order',
+    id: 'n4-grammar-narabekae-033',
+    before: 'えきまえの カフェでは、日本の まんがを',
+    after: 'ことが できます。',
+    segments: ['えいごに', 'ほんやくした', 'ものも', 'よむ'],
+    starIndex: 2,
+    explanation:
+      '完整句：「えきまえの カフェでは、日本の まんがを えいごに ほんやくした ものも よむ ことが できます。」「〜ことができる」（可以…）接動詞辭書形，「よむ」必須緊貼句尾「ことが できます」；「えいごに」是「ほんやくする」的補語、只能放在「ほんやくした」前，這個子句再修飾形式名詞「もの」。若把「ものも」移到子句前，「ほんやくした」便失去修飾對象，語序唯一。',
+    explanationEn:
+      'Complete sentence: 「えきまえの カフェでは、日本の まんがを えいごに ほんやくした ものも よむ ことが できます。」 「〜ことができる」 (can do) takes the dictionary form, so 「よむ」 sits right before the final 「ことが できます」. 「えいごに」 is the complement of 「ほんやくする」 and can only precede 「ほんやくした」, whose clause then modifies 「もの」. Moving 「ものも」 before the clause would leave 「ほんやくした」 nothing to modify, so only one order works.',
+  },
+  {
+    kind: 'order',
+    id: 'n4-grammar-narabekae-034',
+    before: 'かいがいりょこうに 行く ときは、',
+    after: 'して ください。',
+    segments: ['ひこうきの', 'チケットと', 'パスポートを', 'わすれない ように'],
+    starIndex: 3,
+    explanation:
+      '完整句：「かいがいりょこうに 行く ときは、ひこうきの チケットと パスポートを わすれない ように して ください。」「〜ないようにしてください」（請注意不要…）是固定句型，「わすれない ように」必須緊貼句尾「して ください」；「ひこうきの」的「の」後只能接名詞「チケット」（「飛機的護照」語意不通），「チケットと」再和「パスポートを」並列，語序唯一。',
+    explanationEn:
+      'Complete sentence: 「かいがいりょこうに 行く ときは、ひこうきの チケットと パスポートを わすれない ように して ください。」 「〜ないようにしてください」 (please make sure not to...) is a fixed pattern, so 「わすれない ように」 sits right before the final 「して ください」. The 「の」 of 「ひこうきの」 can only connect to 「チケット」 — an "airplane\'s passport" makes no sense — and 「チケットと」 then coordinates with 「パスポートを」, so only one order works.',
+  },
+  {
+    kind: 'order',
+    id: 'n4-grammar-narabekae-035',
+    before: 'バスで 行くより、',
+    after: 'と おもいます。',
+    segments: ['でんしゃで', '行った', 'ほうが', 'はやく つく'],
+    starIndex: 0,
+    explanation:
+      '完整句：「バスで 行くより、でんしゃで 行った ほうが はやく つくと おもいます。」「〜より〜たほうが…」表示比較後的建議，「行った」後必須緊接「ほうが」；「でんしゃで」表手段、修飾「行った」，正好和前句的「バスで」對比；「はやく つく」是述語、後接引用的「と」連到「おもいます」。若把「でんしゃで」移到「ほうが」後，句子便不成立，語序唯一。',
+    explanationEn:
+      'Complete sentence: 「バスで 行くより、でんしゃで 行った ほうが はやく つくと おもいます。」 In the comparison 「〜より〜たほうが」, 「行った」 must be immediately followed by 「ほうが」. 「でんしゃで」 marks the means, modifies 「行った」, and contrasts with 「バスで」; 「はやく つく」 is the predicate linking to 「おもいます」 through the quotative 「と」. Placing 「でんしゃで」 after 「ほうが」 would break the sentence, so only one order works.',
+  },
+  {
+    kind: 'order',
+    id: 'n4-grammar-narabekae-036',
+    before: 'けいさつの 人に、',
+    after: 'と 言われました。',
+    segments: ['みせの 前に', 'とめて ある', '車を', 'うごかせ'],
+    starIndex: 1,
+    explanation:
+      '完整句：「けいさつの 人に、みせの 前に とめて ある 車を うごかせと 言われました。」考命令形「うごかせ」（快移開）的引用：「〜てある」表示停放後的結果狀態，「みせの 前に」只能接「とめて ある」，這個子句再修飾「車」；「車を」是「うごかす」的受詞，「うごかせ」後接引用的「と」連到「言われました」。若把「車を」移到子句前，「とめて ある」便失去修飾對象，語序唯一。',
+    explanationEn:
+      'Complete sentence: 「けいさつの 人に、みせの 前に とめて ある 車を うごかせと 言われました。」 This quotes the imperative 「うごかせ」 (move it!). 「〜てある」 describes the parked state, so 「みせの 前に」 can only connect to 「とめて ある」, and that clause modifies 「車」. 「車を」 is the object of 「うごかす」, and 「うごかせ」 joins 「言われました」 through the quotative と. Moving 「車を」 before the clause would leave 「とめて ある」 nothing to modify, so only one order works.',
+  },
+  {
+    kind: 'order',
+    id: 'n4-grammar-narabekae-037',
+    before: 'なつやすみには、',
+    after: 'よていです。',
+    segments: ['いなかに', 'すんで いる', 'そふの 家へ', 'あそびに 行く'],
+    starIndex: 2,
+    explanation:
+      '完整句：「なつやすみには、いなかに すんで いる そふの 家へ あそびに 行く よていです。」「〜ている」的連體形「すんで いる」修飾「そふ」，表位置的「いなかに」必須放在「すんで いる」前；「そふの 家へ」表目的地、接移動句「あそびに 行く」，「行く」的連體形再修飾句尾的「よてい」。若把「そふの 家へ」移到子句前，「すんで いる」便失去修飾對象，語序唯一。',
+    explanationEn:
+      'Complete sentence: 「なつやすみには、いなかに すんで いる そふの 家へ あそびに 行く よていです。」 The prenominal 「すんで いる」 modifies 「そふ」, and the location 「いなかに」 must precede 「すんで いる」. 「そふの 家へ」 marks the destination of 「あそびに 行く」, whose prenominal form then modifies the final 「よてい」. Moving 「そふの 家へ」 before the clause would leave 「すんで いる」 nothing to modify — only one order works.',
+  },
+  {
+    kind: 'order',
+    id: 'n4-grammar-narabekae-038',
+    before: 'コーチは、れんしゅうの まえに、いつも せんしゅに',
+    after: 'います。',
+    segments: ['ひろい', 'グラウンドを', '三しゅう', 'はしらせて'],
+    starIndex: 2,
+    explanation:
+      '完整句：「コーチは、れんしゅうの まえに、いつも せんしゅに ひろい グラウンドを 三しゅう はしらせて います。」考使役「はしらせる」（叫…跑）：句尾「います」前必須接て形「はしらせて」；「ひろい」是い形容詞、只能修飾名詞「グラウンド」；數量詞「三しゅう」慣用上緊接在「〜を」之後、動詞之前。若把「三しゅう」移到「ひろい」前，句子便不自然，語序唯一。',
+    explanationEn:
+      'Complete sentence: 「コーチは、れんしゅうの まえに、いつも せんしゅに ひろい グラウンドを 三しゅう はしらせて います。」 This tests the causative 「はしらせる」 (make someone run): the final 「います」 requires the て form 「はしらせて」. The い-adjective 「ひろい」 can only modify the noun 「グラウンド」, and the counter 「三しゅう」 idiomatically sits between 「〜を」 and the verb. Placing 「三しゅう」 before 「ひろい」 would sound unnatural, so only one order works.',
+  },
+  {
+    kind: 'order',
+    id: 'n4-grammar-narabekae-039',
+    before: 'ニュースに よると、らいねん、だいがくの 近くに',
+    after: 'そうです。',
+    segments: ['やさいから ふくまで', 'なんでも うって いる', '大きな スーパーが', 'できる'],
+    starIndex: 0,
+    explanation:
+      '完整句：「ニュースに よると、らいねん、だいがくの 近くに やさいから ふくまで なんでも うって いる 大きな スーパーが できるそうです。」傳聞「〜そうだ」接常體、和開頭的「によると」呼應，「できる」必須緊貼句尾「そうです」；「やさいから ふくまで」（從蔬菜到衣服）是範圍、只能修飾「なんでも うって いる」，這個子句再修飾「スーパー」。範圍語移到別處便沒有動詞可依附，語序唯一。',
+    explanationEn:
+      'Complete sentence: 「ニュースに よると、らいねん、だいがくの 近くに やさいから ふくまで なんでも うって いる 大きな スーパーが できるそうです。」 The hearsay 「〜そうだ」 follows the plain form and pairs with 「によると」, so 「できる」 sits right before the final 「そうです」. The range 「やさいから ふくまで」 (from vegetables to clothes) can only modify 「なんでも うって いる」, which in turn modifies 「スーパー」. Moved elsewhere, the range phrase would have no verb to attach to — only one order works.',
+  },
+  {
+    kind: 'order',
+    id: 'n4-grammar-narabekae-040',
+    before: '母に 「あそびに 行く まえに、',
+    after: '」と 言われました。',
+    segments: ['きょう ならった', 'かんじの', 'れんしゅうを', 'しなさい'],
+    starIndex: 1,
+    explanation:
+      '完整句：「母に 「あそびに 行く まえに、きょう ならった かんじの れんしゅうを しなさい」と 言われました。」「〜なさい」是溫和的命令、放在引用的「と 言われました」前；「きょう ならった」（今天學的）是子句、修飾「かんじ」，「かんじの」的「の」後接名詞「れんしゅう」，「れんしゅうを」再接「しなさい」。若排成「かんじの きょう ならった」，子句便無法修飾名詞，語序唯一。',
+    explanationEn:
+      'Complete sentence: 「母に 「あそびに 行く まえに、きょう ならった かんじの れんしゅうを しなさい」と 言われました。」 「〜なさい」 is a gentle command quoted before 「と 言われました」. The clause 「きょう ならった」 (learned today) modifies 「かんじ」, the 「の」 of 「かんじの」 connects to the noun 「れんしゅう」, and 「れんしゅうを」 joins 「しなさい」. The order 「かんじの きょう ならった」 would leave the clause unable to modify the noun — only one order works.',
+  },
 ]

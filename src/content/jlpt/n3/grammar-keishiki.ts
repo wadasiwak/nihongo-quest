@@ -221,4 +221,224 @@ export const questions: JlptQuestion[] = [
     explanationEn:
       '「〜ば〜ほど」 ("the more..., the more...") is a fixed pattern: the same verb appears first in the ba-form, then repeats in the dictionary form before 「ほど」, so 「読めば読むほど」 is correct. Although 「たら」, 「と」, and 「なら」 are all conditional forms, none of them can combine with 「ほど」 to build this pattern — combinations like 「読めたら読むほど」 are simply ungrammatical.',
   },
+  {
+    kind: 'choice',
+    id: 'n3-grammar-keishiki-021',
+    stem: '兄は怒り（　）性格で、小さなことでもすぐ大きな声を出す。',
+    options: ['っぽい', 'っぽく', 'っぽさ', 'っぽければ'],
+    answerIndex: 0,
+    explanation:
+      '「〜っぽい」接動詞ます形，表「容易…、有…傾向」，整體當い形容詞用；修飾名詞「性格」須用辭書形，故「怒りっぽい」正確。「っぽく」是連用形，只能修飾後面的動詞或形容詞，不能直接接名詞；「っぽさ」是名詞化形式，後面不能再接「性格」；「っぽければ」是條件形，接續不合。',
+    explanationEn:
+      '「〜っぽい」 attaches to the masu-stem and means "tends to / easily becomes...", functioning as an i-adjective; to modify the noun 「性格」 it must be in the plain form, so 「怒りっぽい」 is correct. 「っぽく」 is the adverbial form and can only modify a following verb or adjective, not a noun; 「っぽさ」 is a nominalization that cannot be followed by 「性格」; the conditional 「っぽければ」 does not fit this slot.',
+  },
+  {
+    kind: 'choice',
+    id: 'n3-grammar-keishiki-022',
+    stem: '一人暮らしを始めてから、食事の時間が不規則になり（　）だ。',
+    options: ['がち', 'がちに', 'がちな', 'がちの'],
+    answerIndex: 0,
+    explanation:
+      '「〜がちだ」接動詞ます形，表「動不動就…、常常變成…」的（多為負面）傾向，句尾接「だ」時須用原形「がち」，故「なりがちだ」正確。「がちに」是連用修飾形，後面必須接動詞；「がちな」「がちの」是連體形，後面必須接名詞，三者直接接「だ」都不成立。',
+    explanationEn:
+      '「〜がちだ」 attaches to the masu-stem and expresses a (usually undesirable) tendency, "tends to end up..."; before sentence-final 「だ」 the bare form 「がち」 is required, so 「なりがちだ」 is correct. 「がちに」 is adverbial and must be followed by a verb; 「がちな」 and 「がちの」 are attributive forms that must precede a noun — none of the three can connect directly to 「だ」.',
+  },
+  {
+    kind: 'choice',
+    id: 'n3-grammar-keishiki-023',
+    stem: '出張中の部長の（　）、今日の会議には私が出席します。',
+    options: ['かわりに', 'うちに', 'たびに', 'ばかりに'],
+    answerIndex: 0,
+    explanation:
+      '「名詞＋の＋かわりに」表「代替…」，部長出差由我代為出席會議，語意正確。「うちに」前面須接表時間或狀態的詞（如「留守のうちに」），「部長のうちに」不成立；「たびに」表「每當…」，前面須接動作或事件名詞；「ばかりに」表「就因為…導致壞結果」，接續與語意皆不合。',
+    explanationEn:
+      '"Noun + の + かわりに" means "in place of...": the manager is away on a business trip, so the speaker attends the meeting instead — correct. 「うちに」 must follow a word expressing a time span or state (e.g. 「留守のうちに」), so 「部長のうちに」 does not work; 「たびに」 ("every time...") requires an action or event noun; 「ばかりに」 ("just because..., a bad result followed") fits neither the connection nor the meaning.',
+  },
+  {
+    kind: 'choice',
+    id: 'n3-grammar-keishiki-024',
+    stem: '彼女は交換留学生（　）、一年間京都の大学で学んだ。',
+    options: ['として', 'にとって', 'に対して', 'について'],
+    answerIndex: 0,
+    explanation:
+      '「〜として」表身分、資格（以…的身分），「以交換留學生的身分在京都的大學學習了一年」語意正確。「にとって」表「對…而言」，後面通常接評價或感受，不能接「学んだ」這種動作句；「に対して」表動作針對的對象；「について」表談論的主題，兩者接在此處語意都不通。',
+    explanationEn:
+      '「〜として」 marks a role or capacity: "as an exchange student, she studied at a university in Kyoto for a year" — correct. 「にとって」 means "for / from the standpoint of" and is normally followed by an evaluation or feeling, not an action like 「学んだ」; 「に対して」 marks the target of an action and 「について」 marks a topic of discussion — neither makes sense here.',
+  },
+  {
+    kind: 'choice',
+    id: 'n3-grammar-keishiki-025',
+    stem: '初めて海外で暮らす私（　）、言葉の壁は想像以上に大きな問題だった。',
+    options: ['にとって', 'として', 'に対して', 'によって'],
+    answerIndex: 0,
+    explanation:
+      '「〜にとって」表「對…而言、站在…的立場來看」，後面接「大きな問題だった」這類評價句，「對第一次在國外生活的我而言」語意正確。「として」表身分資格，接在此處講不通；「に対して」表動作針對的對象或對比；「によって」表手段、原因或依據，三者都無法與後句的評價語意搭配。',
+    explanationEn:
+      '「〜にとって」 means "for / from the perspective of" and is followed by an evaluative statement like 「大きな問題だった」, so "for me, living abroad for the first time" is correct. 「として」 marks a role or qualification and makes no sense here; 「に対して」 marks the target of an action or a contrast; 「によって」 expresses means, cause, or basis — none of them pairs with the evaluative predicate.',
+  },
+  {
+    kind: 'choice',
+    id: 'n3-grammar-keishiki-026',
+    stem: '彼は目上の人（　）は、いつも丁寧な言葉づかいで話す。',
+    options: ['に対して', 'にとって', 'について', 'によって'],
+    answerIndex: 0,
+    explanation:
+      '「〜に対して」表動作、態度所針對的對象（對…、向…），「對長輩總是用有禮貌的措辭說話」語意正確。「にとって」表「對…而言」，後面須接評價而非說話態度的對象；「について」表談論主題（關於…），與「丁寧に話す」不搭；「によって」表手段或依據，接在此處皆不合。',
+    explanationEn:
+      '「〜に対して」 marks the person toward whom an action or attitude is directed ("toward..."), so "he always speaks politely to his superiors" is correct. 「にとって」 ("for...") must be followed by an evaluation, not the target of a speaking manner; 「について」 marks a topic ("about...") and does not pair with speaking politely; 「によって」 expresses means or basis — none of them fits.',
+  },
+  {
+    kind: 'choice',
+    id: 'n3-grammar-keishiki-027',
+    stem: '次の会議では、新製品の宣伝方法（　）話し合う予定だ。',
+    options: ['について', 'に対して', 'にとって', 'として'],
+    answerIndex: 0,
+    explanation:
+      '「〜について」表談論、思考的主題（就…、關於…），與「話し合う」搭配，「針對宣傳方法進行討論」語意正確。「に対して」表動作指向的對象或對比，不與「話し合う」搭配使用；「にとって」表「對…而言」，後面須接評價或感受；「として」表身分資格，接在此處語意皆不合。',
+    explanationEn:
+      '「〜について」 marks the topic being discussed or considered ("about / concerning...") and collocates with 「話し合う」, so "discuss the promotion plan for the new product" is correct. 「に対して」 marks the target of an action or a contrast and does not pair with 「話し合う」; 「にとって」 ("for...") requires an evaluative or emotional predicate; 「として」 marks a role — neither fits here.',
+  },
+  {
+    kind: 'choice',
+    id: 'n3-grammar-keishiki-028',
+    stem: '私が旅行に行っている（　）に、庭の花がすっかり枯れてしまった。',
+    options: ['間', 'あと', '前', 'たび'],
+    answerIndex: 0,
+    explanation:
+      '「〜ている間に」表「在…的期間（發生了另一件事）」，前接「行っている」，「我去旅行的期間花全枯了」語意通順，故正確。「あと」前面須接動詞た形（行ったあとに）；「前」前面須接辭書形（行く前に）；「たび」前面也須接辭書形，三者接在「ている」後面都是接續錯誤。',
+    explanationEn:
+      '「〜ている間に」 means "while... (something else happened)"; following 「行っている」 it correctly says the garden flowers withered completely during the speaker\'s trip. 「あと」 requires the ta-form (行ったあとに), 「前」 requires the dictionary form (行く前に), and 「たび」 also requires the dictionary form — attaching any of them to the ている form is a connection error.',
+  },
+  {
+    kind: 'choice',
+    id: 'n3-grammar-keishiki-029',
+    stem: 'プレゼンをしている（　）に、突然マイクの音が出なくなってしまった。',
+    options: ['最中', 'とたん', 'うえ', 'かぎり'],
+    answerIndex: 0,
+    explanation:
+      '「〜ている最中に」表「正在做…的節骨眼上（發生了意外）」，簡報進行到一半麥克風突然沒聲音，故「している最中に」正確。「とたん」表「一…就…」，必須接動詞た形（したとたんに），接「している」是接續錯誤；「うえ」表累加（不但…而且）、「かぎり」表「只要…就」，語意皆不合。',
+    explanationEn:
+      '「〜ている最中に」 means "right in the middle of doing... (when something unexpected happened)": the microphone suddenly cut out mid-presentation, so it is correct. 「とたん」 ("the moment...") must follow the ta-form (したとたんに), so attaching it to 「している」 is a connection error; 「うえ」 ("on top of that") and 「かぎり」 ("as long as") both fail semantically.',
+  },
+  {
+    kind: 'choice',
+    id: 'n3-grammar-keishiki-030',
+    stem: 'ゆうべは疲れていて、電気を（　）まま寝てしまった。',
+    options: ['つけた', 'つける', 'つけて', 'つけよう'],
+    answerIndex: 0,
+    explanation:
+      '「〜たまま」表「維持某狀態不變就做了另一件事」，前面必須接動詞た形，「燈開著就睡著了」故「つけたまま」正確。「つけるまま」接辭書形不構成「維持狀態」的文型；「つけてまま」「つけようまま」在文法上都不成立——「まま」不能接て形或意向形。',
+    explanationEn:
+      '「〜たまま」 means "with a state left as it is (while doing something else)" and must follow the ta-form, so 「つけたまま」 ("fell asleep with the light on") is correct. 「つけるまま」 with the dictionary form does not create the "unchanged state" pattern; 「つけてまま」 and 「つけようまま」 are ungrammatical — 「まま」 cannot attach to the te-form or the volitional form.',
+  },
+  {
+    kind: 'choice',
+    id: 'n3-grammar-keishiki-031',
+    stem: '引っ越しの日は人手が足りないので、兄にも手伝いに（　）。',
+    options: ['来てほしい', '来たい', '来よう', '来られたい'],
+    answerIndex: 0,
+    explanation:
+      '「〜てほしい」表希望別人做某動作，希望的對象用「に」標示，「希望哥哥也來幫忙」故「来てほしい」正確。「来たい」是說話者自己想來，與「兄にも」矛盾；「来よう」是意向形，表說話者自己的意志；「来られたい」不是日語中成立的形式，三個干擾項皆錯。',
+    explanationEn:
+      "「〜てほしい」 expresses wanting someone else to do something, with that person marked by 「に」, so 「来てほしい」 (\"I want my brother to come help too\") is correct. 「来たい」 expresses the speaker's own desire to come, contradicting 「兄にも」; 「来よう」 is the volitional form expressing the speaker's own intention; 「来られたい」 is simply not a valid Japanese form.",
+  },
+  {
+    kind: 'choice',
+    id: 'n3-grammar-keishiki-032',
+    stem: '体調が悪いときは、無理をしないで早めに病院へ（　）べきだ。',
+    options: ['行く', '行った', '行って', '行き'],
+    answerIndex: 0,
+    explanation:
+      '「〜べきだ」表基於常理的義務或忠告（應該…），前面必須接動詞辭書形，故「行くべきだ」正確。「行ったべきだ」「行ってべきだ」「行きべきだ」都是接續錯誤——「べき」不能接た形、て形或ます形。只有「する」例外，可說成「すべきだ」。',
+    explanationEn:
+      '「〜べきだ」 expresses obligation or advice based on common sense ("should...") and must follow the dictionary form, so 「行くべきだ」 is correct. 「行ったべきだ」, 「行ってべきだ」, and 「行きべきだ」 are all connection errors — 「べき」 cannot attach to the ta-form, te-form, or masu-stem. The only exception is 「する」, which may also become 「すべきだ」.',
+  },
+  {
+    kind: 'choice',
+    id: 'n3-grammar-keishiki-033',
+    stem: '駅に着いてから財布がないことに気づいた。家を出る前に、かばんの中を（　）よかった。',
+    options: ['確かめれば', '確かめると', '確かめては', '確かめるなら'],
+    answerIndex: 0,
+    explanation:
+      '「〜ばよかった」表對過去的後悔（早知道就…），動詞用ば形接「よかった」，故「確かめればよかった」正確。「確かめるとよかった」的「と」不能用來表達對過去的後悔；「確かめてはよかった」形式不成立；「確かめるならよかった」的「なら」用於承接對方提起的話題做假設，接在此處語意不通。',
+    explanationEn:
+      '「〜ばよかった」 expresses regret about the past ("I should have..."), with the verb in the ba-form before 「よかった」, so 「確かめればよかった」 is correct. 「確かめるとよかった」 cannot express regret about the past with 「と」; 「確かめてはよかった」 is not a valid form; 「確かめるならよかった」 misuses 「なら」, which supposes a situation raised in conversation, so it makes no sense here.',
+  },
+  {
+    kind: 'choice',
+    id: 'n3-grammar-keishiki-034',
+    stem: '今年の夏は、去年（　）暑くないので、エアコンなしで眠れる日も多い。',
+    options: ['ほど', 'ばかり', 'こそ', 'だけ'],
+    answerIndex: 0,
+    explanation:
+      '「ＡはＢほど〜ない」表「Ａ不如Ｂ那麼…」的比較句型，「今年夏天不像去年那麼熱」故「ほど」正確；注意此句型的述語必須是否定形。「ばかり」「こそ」都不能用在這種比較否定中；「だけ」會變成「只有去年不熱」的意思，語意完全不通。',
+    explanationEn:
+      '"A は B ほど〜ない" is the comparative pattern "A is not as ... as B", so "this summer is not as hot as last year" takes 「ほど」; note that the predicate of this pattern must be negative. 「ばかり」 and 「こそ」 cannot be used in this negative comparison; 「だけ」 would twist the sentence into "only last year is not hot", which is nonsensical.',
+  },
+  {
+    kind: 'choice',
+    id: 'n3-grammar-keishiki-035',
+    stem: '兄（　）、弟は口数が少なく、めったに感情を表に出さない。',
+    options: ['に比べて', 'について', 'に加えて', 'にとって'],
+    answerIndex: 0,
+    explanation:
+      '「〜に比べて」表比較的基準（和…相比），「和哥哥相比，弟弟話少、不太表露感情」語意正確。「について」表談論主題（關於哥哥…），後面應接說明內容而非比較；「に加えて」表累加（除了哥哥之外還…），與句意不合；「にとって」表「對…而言」，後面須接評價句，皆不成立。',
+    explanationEn:
+      '「〜に比べて」 marks the standard of comparison ("compared with..."), so "compared with his older brother, the younger brother is quiet and rarely shows emotion" is correct. 「について」 marks a topic ("about the brother") and should be followed by an explanation, not a comparison; 「に加えて」 means "in addition to", which does not fit; 「にとって」 ("for...") requires an evaluative predicate — none works.',
+  },
+  {
+    kind: 'choice',
+    id: 'n3-grammar-keishiki-036',
+    stem: '敬語の使い方は、相手や場面（　）変わるので、注意が必要だ。',
+    options: ['によって', 'にとって', 'に対して', 'につれて'],
+    answerIndex: 0,
+    explanation:
+      '「〜によって」在此表「依…而（不同）」，常與「違う・変わる」搭配，「敬語用法依對象和場合而改變」故正確。「にとって」表「對…而言」，不能與「変わる」構成「因…而異」的句型；「に対して」表針對的對象；「につれて」表「隨著…逐漸…」，前面須接表變化的詞，「場面につれて」不成立。',
+    explanationEn:
+      '「〜によって」 here means "varies depending on..." and typically pairs with 「違う・変わる」, so "keigo usage changes depending on the listener and the situation" is correct. 「にとって」 ("for...") cannot combine with 「変わる」 to mean "differ by..."; 「に対して」 marks a target; 「につれて」 ("as... gradually...") must follow a word expressing change, so 「場面につれて」 does not hold.',
+  },
+  {
+    kind: 'choice',
+    id: 'n3-grammar-keishiki-037',
+    stem: 'ニュースによると、来年の春から電車の運賃が上がる（　）。',
+    options: ['ということだ', 'というものだ', 'ということにした', 'というところだ'],
+    answerIndex: 0,
+    explanation:
+      '「〜ということだ」表傳聞（據說…），與「ニュースによると」前後呼應，故正確。「というものだ」用於對事物本質的斷定或感慨；「ということにした」是「（自己）決定當作…」，電車票價調漲不是說話者能決定的事；「というところだ」表「大約是…的程度」，語意皆不合。',
+    explanationEn:
+      "「〜ということだ」 reports hearsay (\"it is said that...\"), echoing 「ニュースによると」 (\"according to the news\"), so it is correct. 「というものだ」 asserts the essential nature of something with emotion; 「ということにした」 means the speaker decided to treat something as settled, but a train fare hike is not the speaker's decision; 「というところだ」 means \"roughly at the level of...\" — none fits.",
+  },
+  {
+    kind: 'choice',
+    id: 'n3-grammar-keishiki-038',
+    stem: 'あの店のケーキは、味（　）、見た目の美しさでも評判になっている。',
+    options: ['はもちろん', 'をもちろん', 'にもちろん', 'がもちろん'],
+    answerIndex: 0,
+    explanation:
+      '「〜はもちろん」表「…自不用說，連…也」，助詞固定用「は」，「味道自不用說，連外觀的美也備受好評」故正確。「をもちろん」「にもちろん」「がもちろん」都是不存在的搭配——在這個文型裡「もちろん」只能與「は」結合，其他助詞在文法上皆不成立。',
+    explanationEn:
+      '「〜はもちろん」 means "not to mention... / A goes without saying, and B as well", and the particle is fixed as 「は」, so "the taste goes without saying, and the beautiful appearance is also praised" is correct. 「をもちろん」, 「にもちろん」, and 「がもちろん」 are nonexistent combinations — in this pattern 「もちろん」 can only follow 「は」, so every other particle is ungrammatical.',
+  },
+  {
+    kind: 'choice',
+    id: 'n3-grammar-keishiki-039',
+    stem: '発表まではまだ一週間もあるのだから、そんなにあわてる（　）よ。落ち着いて準備しよう。',
+    options: ['ことはない', 'わけがない', 'ものがない', 'はずがある'],
+    answerIndex: 0,
+    explanation:
+      '「〜ことはない」表「沒有必要…」，常用於安慰或建議對方，「還有一整週，不必那麼慌張」語意正確。「わけがない」表「不可能…」的強烈否定推測，與後句「冷靜準備吧」的安撫語氣不合；「ものがない」不構成任何文型；「はずがある」不是日語中成立的說法（只有「はずがない」）。',
+    explanationEn:
+      '「〜ことはない」 means "there is no need to..." and is often used to reassure or advise, so "with a whole week left, there is no need to panic" is correct. 「わけがない」 is a strong denial ("there is no way that..."), clashing with the soothing "let\'s calm down and prepare"; 「ものがない」 does not form any pattern; 「はずがある」 does not exist in Japanese — only 「はずがない」 does.',
+  },
+  {
+    kind: 'choice',
+    id: 'n3-grammar-keishiki-040',
+    stem: '先生は昨日の展覧会で、私の描いた絵を（　）そうだ。',
+    options: ['ご覧になった', '拝見した', 'お目にかかった', 'ご覧した'],
+    answerIndex: 0,
+    explanation:
+      '主語是老師（上位者），須用尊敬語抬高對方的動作，「見る」的尊敬語是「ご覧になる」，故「ご覧になった」正確。「拝見する」是「見る」的謙讓語，只能用於自己的動作，用在老師身上反而失禮；「お目にかかる」是「会う」的謙讓語，動詞本身就選錯；「ご覧した」混用尊敬與謙讓的形式，並不存在。',
+    explanationEn:
+      "The subject is the teacher (a superior), so respectful language must elevate their action; the honorific form of 「見る」 is 「ご覧になる」, making 「ご覧になった」 correct. 「拝見する」 is the humble form of 「見る」, used only for one's own actions — applying it to the teacher would be rude; 「お目にかかる」 is the humble form of 「会う」, so the verb itself is wrong; 「ご覧した」 mixes honorific and humble morphology and does not exist.",
+  },
 ]

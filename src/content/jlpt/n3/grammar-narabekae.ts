@@ -241,4 +241,244 @@ export const questions: JlptQuestion[] = [
     explanationEn:
       'Complete sentence: 「子どものころ、母に毎日ピアノのレッスンに通わせられたのを覚えている。」 This tests the causative-passive 「通わせられる」 ("was made to attend..."): the irrealis stem 「通わ」 must be followed directly by 「せられた」; the 「の」 of 「ピアノの」 must be followed by the noun 「レッスン」, and 「レッスンに」 then connects to the motion verb 「通う」 — each link constrains the next, so the order is unique.',
   },
+  {
+    kind: 'order',
+    id: 'n3-grammar-narabekae-021',
+    before: '弟は母に呼ばれたのに、',
+    after: '返事をしなかった。',
+    segments: ['聞こえない', 'ふり', 'を', 'して'],
+    starIndex: 1,
+    explanation:
+      '完整句：「弟は母に呼ばれたのに、聞こえないふりをして返事をしなかった。」「〜ふりをする」（假裝…）前接連體形，故「ふり」緊跟「聞こえない」；「を」必須接在名詞「ふり」後，「して」又必須接在「を」後連接後句，四段接續環環相扣，語序唯一。',
+    explanationEn:
+      'Complete sentence: 「弟は母に呼ばれたのに、聞こえないふりをして返事をしなかった。」 「〜ふりをする」 ("pretend to...") takes the attributive form before it, so 「ふり」 comes right after 「聞こえない」; the particle 「を」 must follow the noun 「ふり」, and 「して」 must follow 「を」 to link to the rest — each connection constrains the next, so the order is unique.',
+  },
+  {
+    kind: 'order',
+    id: 'n3-grammar-narabekae-022',
+    before: '妹は前から、',
+    after: 'いる。',
+    segments: ['デパートで', '見た', '赤いかばんを', 'ほしがって'],
+    starIndex: 2,
+    explanation:
+      '完整句：「妹は前から、デパートで見た赤いかばんをほしがっている。」第三人稱的願望須用「〜がる」：「ほしがって」接句尾「いる」構成「ほしがっている」；「見た」是連體修飾，必須緊接名詞「赤いかばんを」；「デパートで」修飾「見た」，只能放最前，語序唯一。',
+    explanationEn:
+      'Complete sentence: 「妹は前から、デパートで見た赤いかばんをほしがっている。」 A third person\'s desire requires 「〜がる」: 「ほしがって」 joins the sentence-final 「いる」 to form 「ほしがっている」; 「見た」 is an attributive modifier that must directly precede the noun phrase 「赤いかばんを」; 「デパートで」 modifies 「見た」 and can only go first, so the order is unique.',
+  },
+  {
+    kind: 'order',
+    id: 'n3-grammar-narabekae-023',
+    before: '説明書に',
+    after: '本棚を組み立てた。',
+    segments: ['書いて', 'ある', 'とおり', 'に'],
+    starIndex: 0,
+    explanation:
+      '完整句：「説明書に書いてあるとおりに、本棚を組み立てた。」「〜とおりに」（照著…）前接連體形：「書いて」＋「ある」構成表狀態的「書いてある」，「とおり」只能接在「ある」後，「に」再接在「とおり」後修飾「組み立てた」，四段接續固定，語序唯一。',
+    explanationEn:
+      'Complete sentence: 「説明書に書いてあるとおりに、本棚を組み立てた。」 「〜とおりに」 ("just as / following...") takes the attributive form: 「書いて」 plus 「ある」 forms the stative 「書いてある」, 「とおり」 can only follow 「ある」, and 「に」 attaches after 「とおり」 to modify 「組み立てた」 — every link is fixed, so the order is unique.',
+  },
+  {
+    kind: 'order',
+    id: 'n3-grammar-narabekae-024',
+    before: '犬の散歩の',
+    after: '寄って、朝食のパンを買った。',
+    segments: ['ついで', 'に', '駅前の', 'パン屋に'],
+    starIndex: 0,
+    explanation:
+      '完整句：「犬の散歩のついでに、駅前のパン屋に寄って、朝食のパンを買った。」「名詞＋の＋ついでに」（順便…）：「ついで」必須緊跟開頭的「の」，「に」接在「ついで」後；「駅前の」的「の」後須接名詞「パン屋に」，再連句尾「寄って」，語序唯一。',
+    explanationEn:
+      'Complete sentence: 「犬の散歩のついでに、駅前のパン屋に寄って、朝食のパンを買った。」 In "noun + の + ついでに" ("while at it / on the occasion of..."), 「ついで」 must directly follow the opening 「の」, and 「に」 follows 「ついで」; the 「の」 of 「駅前の」 must be followed by the noun 「パン屋に」, which then connects to 「寄って」 — the order is unique.',
+  },
+  {
+    kind: 'order',
+    id: 'n3-grammar-narabekae-025',
+    before: '駅前に大きな',
+    after: '聞いて、楽しみにしている。',
+    segments: ['図書館が', 'できる', 'という', '話を'],
+    starIndex: 2,
+    explanation:
+      '完整句：「駅前に大きな図書館ができるという話を聞いて、楽しみにしている。」「（句子）＋という＋名詞」用來引導傳聞內容：「という」前面必須是完整子句「図書館ができる」，後面必須緊接名詞「話を」；開頭「大きな」只能修飾名詞「図書館」，語序唯一。',
+    explanationEn:
+      'Complete sentence: 「駅前に大きな図書館ができるという話を聞いて、楽しみにしている。」 "Clause + という + noun" introduces reported content: 「という」 must be preceded by the complete clause 「図書館ができる」 and directly followed by the noun 「話を」; the opening 「大きな」 can only modify the noun 「図書館」, so the order is unique.',
+  },
+  {
+    kind: 'order',
+    id: 'n3-grammar-narabekae-026',
+    before: 'その犬は、',
+    after: 'だった。',
+    segments: ['まるで', '子牛の', 'ような', '大きさ'],
+    starIndex: 1,
+    explanation:
+      '完整句：「その犬は、まるで子牛のような大きさだった。」比喻的「〜のような」（像…一樣的）：「ような」須接在「子牛の」後，且後面必須接名詞「大きさ」；副詞「まるで」與「〜ような」前後呼應，只能放在比喻對象「子牛の」之前，語序唯一。',
+    explanationEn:
+      'Complete sentence: 「その犬は、まるで子牛のような大きさだった。」 The simile 「〜のような」 ("like a..."): 「ような」 must follow 「子牛の」 and be followed by the noun 「大きさ」; the adverb 「まるで」 idiomatically pairs with 「〜ような」 and can only precede the compared item 「子牛の」, so the order is unique.',
+  },
+  {
+    kind: 'order',
+    id: 'n3-grammar-narabekae-027',
+    before: 'こちらは、社長が',
+    after: '本です。',
+    segments: ['留学中に', 'お書き', 'になった', '思い出の'],
+    starIndex: 2,
+    explanation:
+      '完整句：「こちらは、社長が留学中にお書きになった思い出の本です。」考尊敬語構文「お＋ます形＋になる」：「お書き」後必須緊接「になった」；「留学中に」修飾寫書的時點，須放在「お書き」前；「思い出の」的「の」後必須緊接名詞「本」，故固定在句尾，語序唯一。',
+    explanationEn:
+      'Complete sentence: 「こちらは、社長が留学中にお書きになった思い出の本です。」 This tests the honorific construction "お + masu-stem + になる": 「お書き」 must be followed directly by 「になった」; 「留学中に」 states when the book was written and must precede 「お書き」; the 「の」 of 「思い出の」 must directly precede the noun 「本」, locking it at the end — the order is unique.',
+  },
+  {
+    kind: 'order',
+    id: 'n3-grammar-narabekae-028',
+    before: '明日、こちらから',
+    after: 'いたします。',
+    segments: ['会議で', '使う', '資料を', 'お送り'],
+    starIndex: 3,
+    explanation:
+      '完整句：「明日、こちらから会議で使う資料をお送りいたします。」考謙讓語構文「お＋ます形＋いたす」：「お送り」必須緊接句尾「いたします」；「会議で」修飾「使う」，「使う」是連體修飾形、必須緊接名詞「資料を」；三段修飾語環環相扣，語序唯一。',
+    explanationEn:
+      'Complete sentence: 「明日、こちらから会議で使う資料をお送りいたします。」 This tests the humble construction "お + masu-stem + いたす": 「お送り」 must sit directly before the sentence-final 「いたします」; 「会議で」 modifies 「使う」, and 「使う」 is an attributive modifier that must directly precede the noun 「資料を」 — the order is unique.',
+  },
+  {
+    kind: 'order',
+    id: 'n3-grammar-narabekae-029',
+    before: '余裕を持って',
+    after: '、道が込んでいて、待ち合わせに少し遅れてしまった。',
+    segments: ['家を', '出た', 'つもり', 'だったが'],
+    starIndex: 2,
+    explanation:
+      '完整句：「余裕を持って家を出たつもりだったが、道が込んでいて、待ち合わせに少し遅れてしまった。」「〜たつもりだった」表「自以為做到了…（實際卻不然）」：「つもり」必須接在た形「出た」後，「だったが」再接在「つもり」後表逆接；「家を」是「出た」的受詞，只能放最前，語序唯一。',
+    explanationEn:
+      'Complete sentence: 「余裕を持って家を出たつもりだったが、道が込んでいて、待ち合わせに少し遅れてしまった。」 「〜たつもりだった」 means "I thought I had... (but actually had not)": 「つもり」 must follow the ta-form 「出た」, and 「だったが」 follows 「つもり」 as the contrastive link; 「家を」 is the object of 「出た」 and can only go first, so the order is unique.',
+  },
+  {
+    kind: 'order',
+    id: 'n3-grammar-narabekae-030',
+    before: 'このはさみは、',
+    after: '使うものです。',
+    segments: ['厚い', '布を', '切る', 'のに'],
+    starIndex: 3,
+    explanation:
+      '完整句：「このはさみは、厚い布を切るのに使うものです。」表用途的「〜のに使う」（用來…）：「のに」必須接在動詞辭書形「切る」後、再連句尾「使う」；「厚い」是い形容詞連體形，必須緊接名詞「布を」，「布を」是「切る」的受詞，四段語序唯一。',
+    explanationEn:
+      'Complete sentence: 「このはさみは、厚い布を切るのに使うものです。」 The purpose pattern 「〜のに使う」 ("used for..."): 「のに」 must follow the dictionary form 「切る」 and then connect to 「使う」 in the closing text; 「厚い」 is an attributive i-adjective that must directly precede the noun 「布を」, which is the object of 「切る」 — the four segments have a unique order.',
+  },
+  {
+    kind: 'order',
+    id: 'n3-grammar-narabekae-031',
+    before: '一日中歩き回って、',
+    after: '疲れてしまった。',
+    segments: ['もう', '一歩も', '歩けない', 'くらい'],
+    starIndex: 3,
+    explanation:
+      '完整句：「一日中歩き回って、もう一歩も歩けないくらい疲れてしまった。」表程度的「〜くらい」（到…的程度）前接連體形，「くらい」必須緊跟「歩けない」再連句尾「疲れて」；「一歩も」與否定「歩けない」呼應、須放其前；「もう」修飾整個「一歩も歩けない」，只能放最前，語序唯一。',
+    explanationEn:
+      'Complete sentence: 「一日中歩き回って、もう一歩も歩けないくらい疲れてしまった。」 The degree marker 「〜くらい」 ("to the point of...") takes the attributive form, so 「くらい」 must follow 「歩けない」 and connect to 「疲れて」; 「一歩も」 pairs with the negative 「歩けない」 and must precede it; 「もう」 modifies the whole phrase 「一歩も歩けない」 and can only go first — the order is unique.',
+  },
+  {
+    kind: 'order',
+    id: 'n3-grammar-narabekae-032',
+    before: '一度',
+    after: 'ことも多いのだ。',
+    segments: ['失敗した', 'から', 'こそ', '分かる'],
+    starIndex: 1,
+    explanation:
+      '完整句：「一度失敗したからこそ、分かることも多いのだ。」「〜からこそ」（正因為…才…）用來強調理由：「から」必須接在た形「失敗した」後，「こそ」再緊接「から」加強語氣；「分かる」是連體修飾，必須緊接句尾名詞「こと」，四段語序唯一。',
+    explanationEn:
+      'Complete sentence: 「一度失敗したからこそ、分かることも多いのだ。」 「〜からこそ」 ("precisely because...") emphasizes the reason: 「から」 must follow the ta-form 「失敗した」, and 「こそ」 attaches directly after 「から」 for emphasis; 「分かる」 is an attributive modifier that must directly precede the sentence-final noun 「こと」 — the four segments have a unique order.',
+  },
+  {
+    kind: 'order',
+    id: 'n3-grammar-narabekae-033',
+    before: '同じ兄弟でも、',
+    after: '、弟はとても静かだ。',
+    segments: ['よく', 'しゃべる', '兄とは', '違って'],
+    starIndex: 3,
+    explanation:
+      '完整句：「同じ兄弟でも、よくしゃべる兄とは違って、弟はとても静かだ。」「〜とは違って」（和…不同）：「違って」必須接在「兄とは」後；「しゃべる」是連體修飾，必須緊接名詞「兄」；副詞「よく」只能修飾動詞「しゃべる」、放在其前，四段接續環環相扣，語序唯一。',
+    explanationEn:
+      'Complete sentence: 「同じ兄弟でも、よくしゃべる兄とは違って、弟はとても静かだ。」 「〜とは違って」 ("unlike..."): 「違って」 must follow 「兄とは」; 「しゃべる」 is an attributive modifier that must directly precede the noun 「兄」; the adverb 「よく」 can only modify the verb 「しゃべる」 and must precede it — each link constrains the next, so the order is unique.',
+  },
+  {
+    kind: 'order',
+    id: 'n3-grammar-narabekae-034',
+    before: '当日の朝、雨が',
+    after: '、運動会は中止になります。',
+    segments: ['降って', 'いた', '場合', 'は'],
+    starIndex: 0,
+    explanation:
+      '完整句：「当日の朝、雨が降っていた場合は、運動会は中止になります。」「〜場合は」（…的情況下）前接連體形：「降って」＋「いた」構成「降っていた」，「場合」只能接在「いた」後，「は」再接在名詞「場合」後提示條件，四段接續固定，語序唯一。',
+    explanationEn:
+      'Complete sentence: 「当日の朝、雨が降っていた場合は、運動会は中止になります。」 「〜場合は」 ("in the case that...") takes the attributive form: 「降って」 plus 「いた」 forms 「降っていた」, 「場合」 can only follow 「いた」, and 「は」 attaches after the noun 「場合」 to mark the condition — every connection is fixed, so the order is unique.',
+  },
+  {
+    kind: 'order',
+    id: 'n3-grammar-narabekae-035',
+    before: '田中社長は来月、',
+    after: 'と聞いた。',
+    segments: ['海外の', '支社の', '視察に', '行かれる'],
+    starIndex: 3,
+    explanation:
+      '完整句：「田中社長は来月、海外の支社の視察に行かれると聞いた。」考尊敬語的「れる」（社長「行く」的動作用「行かれる」抬高）：「行かれる」接句尾引用的「と」；「海外の」的「の」須緊接名詞「支社」，「支社の」的「の」須緊接「視察」，「視察に」再接「行かれる」，語序唯一。',
+    explanationEn:
+      'Complete sentence: 「田中社長は来月、海外の支社の視察に行かれると聞いた。」 This tests the honorific 「れる」 (the president\'s going is elevated as 「行かれる」): 「行かれる」 connects to the quotative 「と」 at the end; the 「の」 of 「海外の」 must directly precede the noun 「支社」, the 「の」 of 「支社の」 must precede 「視察」, and 「視察に」 then connects to 「行かれる」 — the order is unique.',
+  },
+  {
+    kind: 'order',
+    id: 'n3-grammar-narabekae-036',
+    before: '明日の会議が',
+    after: 'ので、夜の予定が立てられない。',
+    segments: ['何時に', '終わる', 'か', '分からない'],
+    starIndex: 1,
+    explanation:
+      '完整句：「明日の会議が何時に終わるか分からないので、夜の予定が立てられない。」「疑問詞＋〜か」構成間接疑問句：「か」必須接在辭書形「終わる」後，「分からない」再接在「か」後作述語；「何時に」是疑問詞、修飾「終わる」，只能放最前，語序唯一。',
+    explanationEn:
+      'Complete sentence: 「明日の会議が何時に終わるか分からないので、夜の予定が立てられない。」 "Question word + clause + か" forms an embedded question: 「か」 must follow the dictionary form 「終わる」, and 「分からない」 follows 「か」 as the main predicate; the question word 「何時に」 modifies 「終わる」 and can only go first — the order is unique.',
+  },
+  {
+    kind: 'order',
+    id: 'n3-grammar-narabekae-037',
+    before: '市の話では、新しい体育館は',
+    after: '予定だそうだ。',
+    segments: ['来年の', '春の', '連休前に', '完成する'],
+    starIndex: 0,
+    explanation:
+      '完整句：「市の話では、新しい体育館は来年の春の連休前に完成する予定だそうだ。」「〜予定だ」（預計…）前接動詞辭書形，故「完成する」緊貼句尾「予定」；「来年の」的「の」須緊接名詞「春」，「春の」的「の」須緊接「連休」，兩個「の」把時間詞鎖成一串，語序唯一。',
+    explanationEn:
+      'Complete sentence: 「市の話では、新しい体育館は来年の春の連休前に完成する予定だそうだ。」 「〜予定だ」 ("is scheduled to...") takes the dictionary form, so 「完成する」 sits right before the closing 「予定」; the 「の」 of 「来年の」 must directly precede the noun 「春」, and the 「の」 of 「春の」 must precede 「連休」 — the chained 「の」 phrases lock the time expression, so the order is unique.',
+  },
+  {
+    kind: 'order',
+    id: 'n3-grammar-narabekae-038',
+    before: '夕方になると、隣の家から',
+    after: 'してくる。',
+    segments: ['夕飯の', '魚を', '焼く', 'においが'],
+    starIndex: 2,
+    explanation:
+      '完整句：「夕方になると、隣の家から夕飯の魚を焼くにおいがしてくる。」「〜においがする」（傳來…的氣味）：「においが」必須緊接句尾「してくる」；「焼く」是連體修飾，必須緊接名詞「におい」；「夕飯の」的「の」須緊接名詞「魚」，「魚を」是「焼く」的受詞，語序唯一。',
+    explanationEn:
+      'Complete sentence: 「夕方になると、隣の家から夕飯の魚を焼くにおいがしてくる。」 「〜においがする」 ("a smell of... drifts over"): 「においが」 must sit right before the closing 「してくる」; 「焼く」 is an attributive modifier that must directly precede the noun 「におい」; the 「の」 of 「夕飯の」 must precede the noun 「魚」, and 「魚を」 is the object of 「焼く」 — the order is unique.',
+  },
+  {
+    kind: 'order',
+    id: 'n3-grammar-narabekae-039',
+    before: '今朝、会社へ',
+    after: '気がついて、家に戻った。',
+    segments: ['向かう', '途中', 'で', '忘れ物に'],
+    starIndex: 1,
+    explanation:
+      '完整句：「今朝、会社へ向かう途中で忘れ物に気がついて、家に戻った。」「〜途中で」（在往…的半路上）前接動詞辭書形：「途中」必須緊接「向かう」，「で」接在名詞「途中」後；「忘れ物に」與句尾「気がつく」是固定搭配（助詞用「に」），只能放最後，語序唯一。',
+    explanationEn:
+      'Complete sentence: 「今朝、会社へ向かう途中で忘れ物に気がついて、家に戻った。」 「〜途中で」 ("on the way to...") takes the dictionary form: 「途中」 must directly follow 「向かう」, and 「で」 attaches after the noun 「途中」; 「忘れ物に」 pairs with the closing 「気がつく」 as a fixed collocation (with the particle 「に」) and can only come last — the order is unique.',
+  },
+  {
+    kind: 'order',
+    id: 'n3-grammar-narabekae-040',
+    before: '答案を',
+    after: '提出してください。',
+    segments: ['書き', '終わった', '人から', '順に'],
+    starIndex: 0,
+    explanation:
+      '完整句：「答案を書き終わった人から順に提出してください。」考複合動詞「〜終わる」（做完…）：連用形「書き」後必須緊接「終わった」；「終わった」是連體修飾，必須緊接名詞「人」；「人から順に」（從…的人依序）是固定語順，「順に」再連句尾「提出して」，語序唯一。',
+    explanationEn:
+      'Complete sentence: 「答案を書き終わった人から順に提出してください。」 This tests the compound verb 「〜終わる」 ("finish doing..."): the masu-stem 「書き」 must be followed directly by 「終わった」; 「終わった」 is an attributive modifier that must precede the noun 「人」; 「人から順に」 ("in order, starting from those who...") is a fixed sequence, and 「順に」 connects to the closing 「提出して」 — the order is unique.',
+  },
 ]

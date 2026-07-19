@@ -106,4 +106,74 @@ export const questions: JlptQuestion[] = [
       },
     ],
   },
+  {
+    id: 'n3-reading-joho-005',
+    kind: 'passage',
+    passageTitle: 'みなと引っ越しセンター　スタッフ募集',
+    passage:
+      'みなと引っ越しセンター　スタッフ募集\n\n春の引っ越しシーズンに向けて、いっしょに働く仲間を募集します。下のＡ～Ｄから希望の仕事を選んで、ご応募ください。\n\nＡ　引っ越し作業スタッフ\n・仕事：荷物を運ぶ、トラックに積む\n・時間：午前8時～午後5時\n・時給：1,400円\n・条件：18歳以上。体力に自信のある方。週2日からOK。\n\nＢ　トラック運転手\n・仕事：トラックの運転と荷物運び\n・時間：午前8時～午後5時\n・時給：1,600円\n・条件：21歳以上で、運転免許を取ってから3年以上の方。週3日以上働ける方。\n\nＣ　事務スタッフ\n・仕事：電話の受付、書類作り\n・時間：午前9時～午後6時の間で4時間以上\n・時給：1,150円\n・条件：18歳以上。パソコンで文字が打てる方。週3日以上働ける方。\n\nＤ　ダンボール回収スタッフ\n・仕事：使い終わったダンボール箱を車で回収する\n・時間：午後1時～5時\n・時給：1,200円\n・条件：18歳以上で、運転免許のある方。週2日からOK。\n\n【応募方法】\n・ホームページの応募フォームからお申し込みください。電話では受け付けていません。\n・面接の日には、写真をはった履歴書をお持ちください。\n・Ａの作業スタッフは、3月と4月だけ時給が200円上がります。\n・昼ごはんは会社が用意します。交通費は1か月10,000円まで出ます。',
+    explanation: '',
+    questions: [
+      {
+        id: 'n3-reading-joho-005-q1',
+        stem: '大学生のチンさん（19歳）は、運転免許を持っていない。体を動かす仕事を週2日だけしたいと思っている。チンさんの希望に合う仕事はどれか。',
+        options: [
+          'Ａ　引っ越し作業スタッフ',
+          'Ｂ　トラック運転手',
+          'Ｃ　事務スタッフ',
+          'Ｄ　ダンボール回収スタッフ',
+        ],
+        answerIndex: 0,
+        explanation:
+          '條件是：不需要駕照、能活動身體、每週只做2天。Ａ是搬運工作、18歲以上、「週2日からOK」，全部符合。Ｂ要21歲以上且持照3年以上，19歲又無照的陳同學不符；Ｃ是坐辦公室的事務工作，不是活動身體的工作，而且要每週3天以上；Ｄ雖然每週2天起，但條件寫明要有駕照，也不符合。',
+        explanationEn:
+          'The conditions are: no driver\'s license needed, physical work, and only two days a week. Job Ａ is moving work, open to ages 18 and up, and says 「週2日からOK」 — everything fits. Ｂ requires being at least 21 with a license held for three years or more, impossible for a 19-year-old without one; Ｃ is desk work, not physical, and demands three or more days a week; Ｄ starts from two days a week but explicitly requires a driver\'s license, so it does not qualify either.',
+      },
+      {
+        id: 'n3-reading-joho-005-q2',
+        stem: 'キムさん（25歳）は、3月にＡの仕事をすることになった。キムさんが3月にもらえる時給はいくらか。',
+        options: ['1,600円', '1,400円', '1,200円', '1,800円'],
+        answerIndex: 0,
+        explanation:
+          'Ａ的時薪是1,400日圓，但應募方法欄寫明「Ａの作業スタッフは、3月と4月だけ時給が200円上がります」，所以3月的時薪是1,400＋200＝1,600日圓。選1,400日圓是漏看了3月、4月加薪的說明；1,200日圓是誤用了Ｄ的時薪；1,800日圓是把200日圓的加成多算了一次。',
+        explanationEn:
+          'Job Ａ pays 1,400 yen per hour, but the application section states 「Ａの作業スタッフは、3月と4月だけ時給が200円上がります」, so in March the wage is 1,400 + 200 = 1,600 yen. Choosing 1,400 yen means missing the note about the March-April raise; 1,200 yen mistakenly uses job Ｄ\'s wage; 1,800 yen adds the 200 yen bonus twice.',
+      },
+    ],
+  },
+  {
+    id: 'n3-reading-joho-006',
+    kind: 'passage',
+    passageTitle: 'ひばり公民館　スマートフォン教室のご案内',
+    passage:
+      'ひばり公民館　スマートフォン教室のご案内\n\nスマートフォンの使い方を、少人数のクラスでゆっくり学べます。ご自分のスマートフォンをお持ちください。お持ちでない方には、教室の間だけ練習用のスマートフォンをお貸しします。\n\n①はじめてコース\n・内容：電源の入れ方、電話のかけ方、文字の打ち方\n・日時：毎週月曜日　午前10時～11時30分\n・回数と料金：全4回　2,000円\n\n②便利に使うコース\n・内容：地図やカメラの使い方、メッセージの送り方\n・日時：毎週木曜日　午前10時～11時30分\n・回数と料金：全4回　2,000円\n・対象：①を受けた方、または基本の操作ができる方\n\n③安全に使うコース\n・内容：こまったメールへの対応、パスワードの管理\n・日時：第2・第4金曜日　午後2時～3時30分\n・回数と料金：全2回　1,500円\n・対象：メールを使ったことがある方\n\n④写真コース\n・内容：写真のとり方、写真の整理、家族への送り方\n・日時：毎週水曜日　午後2時～3時30分\n・回数と料金：全4回　2,500円\n・対象：基本の操作ができる方\n\n【申し込み方法】\n・公民館の受付に来るか、お電話でお申し込みください。\n・65歳以上の方は、どのコースも料金が500円引きになります。\n・二つ以上のコースに申し込む方は、二つ目のコースが300円引きになります（65歳以上の割引と一緒に使えます）。\n・締め切りは、各コースが始まる日の1週間前です。',
+    explanation: '',
+    questions: [
+      {
+        id: 'n3-reading-joho-006-q1',
+        stem: 'モリさん（68歳）はスマートフォンを買ったばかりで、電話のかけ方も文字の打ち方も分からない。モリさんが最初に受けるのがいいコースはどれか。',
+        options: [
+          '①はじめてコース',
+          '②便利に使うコース',
+          '③安全に使うコース',
+          '④写真コース',
+        ],
+        answerIndex: 0,
+        explanation:
+          '森先生連打電話、打字都還不會，也就是不會「基本の操作」。①沒有任何參加條件，內容正是開機、打電話、打字等入門操作，最適合。②的對象是「①を受けた方、または基本の操作ができる方」；④也要求「基本の操作ができる方」；③要求「メールを使ったことがある方」——這三個條件他目前都不符合。',
+        explanationEn:
+          'Mr. Mori cannot yet make calls or type, meaning he lacks the basic operations. Course ① has no entry requirement and covers exactly the beginner skills — powering on, making calls, typing — so it is the right first course. Course ② is for 「①を受けた方、または基本の操作ができる方」, course ④ also requires basic operation skills, and course ③ requires having used e-mail — none of which he currently satisfies.',
+      },
+      {
+        id: 'n3-reading-joho-006-q2',
+        stem: 'タナカさん（70歳）は、スマートフォンの基本の操作はできる。②と④の二つのコースに申し込むと、全部でいくら払うか。',
+        options: ['3,200円', '3,500円', '4,500円', '2,900円'],
+        answerIndex: 0,
+        explanation:
+          '②2,000日圓＋④2,500日圓＝4,500日圓。田中先生70歲，適用「65歳以上の方は、どのコースも料金が500円引き」，兩門課共減1,000日圓；又報了兩門課，「二つ目のコースが300円引き」再減300日圓，兩種折扣可併用，合計4,500－1,000－300＝3,200日圓。選3,500是漏掉第二門課的300日圓折扣；4,500是完全沒打折；2,900是把300日圓折扣誤算成兩門課都減。',
+        explanationEn:
+          'Courses ② and ④ cost 2,000 + 2,500 = 4,500 yen. At 70, Tanaka gets the senior discount of 500 yen off every course, saving 1,000 yen across the two; taking two courses also earns 300 yen off the second one, and the notice says the discounts can be combined, so the total is 4,500 - 1,000 - 300 = 3,200 yen. Choosing 3,500 yen misses the 300 yen multi-course discount; 4,500 yen applies no discounts at all; 2,900 yen wrongly applies the 300 yen reduction to both courses.',
+      },
+    ],
+  },
 ]

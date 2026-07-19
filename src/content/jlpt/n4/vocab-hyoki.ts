@@ -221,4 +221,136 @@ export const questions: JlptQuestion[] = [
     explanationEn:
       'あかるい (bright) is written 「明るい」, with るい as the okurigana. 「明かるい」 adds an extra か, a spelling mistake; 「暗」 is the kanji of the antonym くらい (dark); 「朝」 (morning) resembles 「明」 on its left side — a shape-based trap — but it has no reading あかるい.',
   },
+  {
+    kind: 'choice',
+    id: 'n4-vocab-hyoki-021',
+    stem: 'にちようびに やきゅうの 【しあい】を 見に 行きます。',
+    options: ['試合', '試会', '詩合', '式合'],
+    answerIndex: 0,
+    explanation:
+      '「しあい」（比賽）寫作「試合」。「会」（会う的会）也能讀「あい」，「試会」是同音異字錯誤，不是日文的詞；「詩」（し，詩）與「試」同音又形近，只差偏旁；「式」（儀式的式）讀「しき」音近，也是干擾，皆不能寫「しあい」。',
+    explanationEn:
+      'しあい (a match, game) is written 「試合」. 「会」 can also be read あい (as in 「会う」), making 「試会」 a homophone trap that is not a real word; 「詩」 (poem) shares the reading し with 「試」 and looks similar, differing only in the radical; 「式」 (ceremony) has the similar-sounding reading しき. Only 「試合」 is correct.',
+  },
+  {
+    kind: 'choice',
+    id: 'n4-vocab-hyoki-022',
+    stem: 'おしょうがつに 【きもの】を きて、じんじゃへ 行きました。',
+    options: ['着物', '着者', '看物', '差物'],
+    answerIndex: 0,
+    explanation:
+      '「きもの」（和服）寫作「着物」。「者」（もの）雖然訓讀也是「もの」，但指人不指物，「着者」不是日文的詞；「看」（看病的看）與「着」字形相近，差在下半；「差」（差す的差）上半與「着」相似，兩者都沒有「き」的讀法，皆為錯誤選項。',
+    explanationEn:
+      'きもの (kimono) is written 「着物」. 「者」 is also read もの but refers to people, not things, so 「着者」 is not a word; 「看」 (as in 「看病」) looks similar to 「着」, differing in the lower half; 「差」 (as in 「差す」) resembles 「着」 in its upper half. Neither look-alike is ever read き.',
+  },
+  {
+    kind: 'choice',
+    id: 'n4-vocab-hyoki-023',
+    stem: 'てんきが いい 日は、【じてんしゃ】で かいしゃへ 行きます。',
+    options: ['自転車', '自転者', '自軽車', '白転車'],
+    answerIndex: 0,
+    explanation:
+      '「じてんしゃ」（腳踏車）寫作「自転車」。「者」與「車」音讀同為「しゃ」，是典型同音異字，但「者」指人，「自転者」不是詞；「軽」（軽い的軽）與「転」同為車字旁、右半不同，是形近干擾；「白」（しろ）是「自」少一筆的形近字，皆不正確。',
+    explanationEn:
+      'じてんしゃ (bicycle) is written 「自転車」. 「者」 shares the on-reading しゃ with 「車」 — a classic homophone — but it means a person, so 「自転者」 is not a word; 「軽」 (as in 「軽い」) shares the cart radical with 「転」 but differs on the right; 「白」 (white) is 「自」 minus one stroke.',
+  },
+  {
+    kind: 'choice',
+    id: 'n4-vocab-hyoki-024',
+    stem: 'ひるごはんは いつも かいしゃの 【しょくどう】で 食べます。',
+    options: ['食堂', '食道', '飲堂', '食童'],
+    answerIndex: 0,
+    explanation:
+      '「しょくどう」（食堂、餐廳）寫作「食堂」。「食道」讀音完全相同，但意思是食物通過的「食道」（身體器官），語境不合，是最危險的同音異字；「飲」（飲む的飲）語意相關但讀「いん」；「童」（児童的童）與「堂」同音形近，「食童」不是詞。',
+    explanationEn:
+      'しょくどう (dining hall) is written 「食堂」. 「食道」 is read exactly the same but means the esophagus — the most dangerous homophone here; 「飲」 (as in 「飲む」) is related in meaning but read いん; 「童」 (as in 「児童」) sounds the same as 「堂」 and looks similar, but 「食童」 is not a word.',
+  },
+  {
+    kind: 'choice',
+    id: 'n4-vocab-hyoki-025',
+    stem: 'こうえんの 【いけ】に、大きな さかなが たくさん います。',
+    options: ['池', '地', '他', '湖'],
+    answerIndex: 0,
+    explanation:
+      '「いけ」（池塘）寫作「池」。「地」（土地的地）是把三點水換成土字旁的形近字，讀「ち」；「他」（其他的他）也只差偏旁，讀「た」；「湖」雖然也是水字旁、語意相近，但那是「みずうみ」（湖）的漢字，比池塘大得多，皆不能寫「いけ」。',
+    explanationEn:
+      'いけ (pond) is written 「池」. 「地」 (ground) swaps the water radical for the earth radical and is read ち; 「他」 (other) also differs only in the radical and is read た; 「湖」 has the water radical and a related meaning, but it is the kanji for みずうみ (lake), something much bigger than a pond.',
+  },
+  {
+    kind: 'choice',
+    id: 'n4-vocab-hyoki-026',
+    stem: 'あさ おきて、つめたい 水で 【かお】を あらいます。',
+    options: ['顔', '額', '頭', '首'],
+    answerIndex: 0,
+    explanation:
+      '「かお」（臉）寫作「顔」。「額」（ひたい，額頭）與「顔」同為頁部、字形相近，但只指額頭；「頭」（あたま，頭）和「首」（くび，脖子）語意相關、容易聯想，但都是別的身體部位的漢字，沒有「かお」的讀法，皆為錯誤選項。',
+    explanationEn:
+      'かお (face) is written 「顔」. 「額」 (ひたい, forehead) shares the 頁 radical with 「顔」 and looks similar, but means only the forehead; 「頭」 (あたま, head) and 「首」 (くび, neck) are related body parts and easy to associate, but neither is ever read かお.',
+  },
+  {
+    kind: 'choice',
+    id: 'n4-vocab-hyoki-027',
+    stem: 'この おもい にもつを 二かいまで 【はこびます】。',
+    options: ['運びます', '連びます', '送びます', '運こびます'],
+    answerIndex: 0,
+    explanation:
+      '「はこぶ」（搬運）寫作「運ぶ」，所以是「運びます」。「連」（連れる的連）與「運」同為辶部、字形相近，但沒有「はこぶ」的讀法；「送」（おくる，寄送）語意相關，也不能讀「はこぶ」；「運こびます」多送了「こ」，是送假名錯誤。',
+    explanationEn:
+      'はこぶ (to carry) is written 「運ぶ」, so the answer is 「運びます」. 「連」 (as in 「連れる」) shares the movement radical with 「運」 and looks similar but is never read はこぶ; 「送」 (おくる, to send) is related in meaning but also has no reading はこぶ; 「運こびます」 adds an extra okurigana こ.',
+  },
+  {
+    kind: 'choice',
+    id: 'n4-vocab-hyoki-028',
+    stem: 'わたしと あねは 【おなじ】 がっこうの がくせいです。',
+    options: ['同じ', '回じ', '円じ', '向じ'],
+    answerIndex: 0,
+    explanation:
+      '「おなじ」（相同）寫作「同じ」。「回」（一回的回）、「円」（えん，日圓）、「向」（向かう的向）都是和「同」外形相近的字，但「回」讀「かい」、「円」讀「えん」、「向」讀「こう／む」，沒有一個能讀「おな」，只有「同じ」是正確寫法。',
+    explanationEn:
+      'おなじ (the same) is written 「同じ」. 「回」 (as in 「一回」), 「円」 (yen), and 「向」 (as in 「向かう」) all resemble 「同」 in shape, but they are read かい, えん, and こう/む respectively — none of them can be read おな. Only 「同じ」 is correct.',
+  },
+  {
+    kind: 'choice',
+    id: 'n4-vocab-hyoki-029',
+    stem: 'あたらしい いえは 【ひろくて】、きれいです。',
+    options: ['広くて', '広ろくて', '店くて', '狭くて'],
+    answerIndex: 0,
+    explanation:
+      '「ひろい」（寬敞）寫作「広い」，送假名只有「い」，所以是「広くて」。「広ろくて」多送了「ろ」，是送假名錯誤；「店」（みせ）與「広」同為广字頭的形近字，沒有「ひろい」的讀法；「狭」是反義詞「せまい」（狹窄）的漢字，語意正好相反。',
+    explanationEn:
+      'ひろい (spacious) is written 「広い」 with only い as okurigana, so the answer is 「広くて」. 「広ろくて」 adds an extra okurigana ろ; 「店」 (みせ, shop) shares the 广 top with 「広」 but has no reading ひろい; 「狭」 is the kanji of the antonym せまい (narrow), the exact opposite in meaning.',
+  },
+  {
+    kind: 'choice',
+    id: 'n4-vocab-hyoki-030',
+    stem: 'この あたらしい パソコンは うすくて 【かるい】です。',
+    options: ['軽い', '軽るい', '転い', '重い'],
+    answerIndex: 0,
+    explanation:
+      '「かるい」（輕的）寫作「軽い」，送假名只有「い」。「軽るい」多送了「る」，是送假名錯誤；「転」（運転的転）與「軽」同為車字旁、右半相近，是形近干擾，沒有「かるい」的讀法；「重」是反義詞「おもい」（重的）的漢字，語意相反。',
+    explanationEn:
+      'かるい (light in weight) is written 「軽い」 with only い as okurigana. 「軽るい」 adds an extra okurigana る; 「転」 (as in 「運転」) shares the cart radical with 「軽」 and looks similar but is never read かるい; 「重」 is the kanji of the antonym おもい (heavy).',
+  },
+  {
+    kind: 'choice',
+    id: 'n4-vocab-hyoki-031',
+    stem: 'きょうは かぜが つよくて、とても 【さむい】です。',
+    options: ['寒い', '寒むい', '実い', '暑い'],
+    answerIndex: 0,
+    explanation:
+      '「さむい」（寒冷）寫作「寒い」，送假名只有「い」。「寒むい」多送了「む」，是送假名錯誤；「実」（実は的実）是與「寒」上半相似的形近字，讀「じつ／み」；「暑」是「あつい」（炎熱）的漢字，語意正好相反，皆不正確。',
+    explanationEn:
+      'さむい (cold) is written 「寒い」 with only い as okurigana. 「寒むい」 adds an extra okurigana む; 「実」 (as in 「実は」) resembles the upper part of 「寒」 but is read じつ or み; 「暑」 is the kanji of あつい (hot), the exact opposite in meaning.',
+  },
+  {
+    kind: 'choice',
+    id: 'n4-vocab-hyoki-032',
+    stem: 'つぎの かどを みぎに 【まがって】 ください。',
+    options: ['曲がって', '由がって', '田がって', '回がって'],
+    answerIndex: 0,
+    explanation:
+      '「まがる」（轉彎）寫作「曲がる」，所以是「曲がって」。「由」（理由的由）和「田」（た，田地）都是與「曲」外形相近的字，但沒有「まが」的讀法；「回」（回る，轉圈）語意容易聯想，訓讀卻是「まわ」不是「まが」，皆不能這樣寫。',
+    explanationEn:
+      'まがる (to turn) is written 「曲がる」, so the answer is 「曲がって」. 「由」 (as in 「理由」) and 「田」 (rice field) both resemble 「曲」 in shape but have no reading まが; 「回」 (as in 「回る」, まわる) is easy to associate in meaning, but its kun-reading is まわ, not まが.',
+  },
 ]

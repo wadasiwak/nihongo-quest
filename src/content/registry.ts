@@ -116,7 +116,9 @@ const PASSAGE_CHARS: Partial<Record<UnitSlug, Partial<Record<Level, [number, num
 
 /**
  * 各單元 expectedCount 覆寫——N5（入門引流）擴充加倍；N1（用戶備考）已二次擴充
- * （2026-07-20：vocab 240／grammar 144／reading 120／listening 144）。
+ * （2026-07-20：vocab 240／grammar 144／reading 120／listening 144）；
+ * N4/N3/N2（中間三級補平深度，2026-07-20：N4 全科加倍至 N5 水準、
+ * N3/N2 grammar 96／reading 50・60／listening 80）。
  * 鎖定新門檻防止內容回退（check：1 ≤ 實際 < expected ⇒ ERROR）。
  */
 const EXPECTED_OVERRIDE: Record<string, number> = {
@@ -124,6 +126,19 @@ const EXPECTED_OVERRIDE: Record<string, number> = {
   'n5-grammar-keishiki': 40, 'n5-grammar-narabekae': 40, 'n5-grammar-bunsho': 16,
   'n5-reading-tanbun': 16, 'n5-reading-chubun': 16, 'n5-reading-joho': 12,
   'n5-listening-kadai': 20, 'n5-listening-pointo': 20, 'n5-listening-hatsuwa': 20, 'n5-listening-sokuji': 24,
+  'n4-vocab-kanji': 32, 'n4-vocab-hyoki': 32, 'n4-vocab-bunmyaku': 32, 'n4-vocab-iikae': 32, 'n4-vocab-yoho': 32,
+  'n4-grammar-keishiki': 40, 'n4-grammar-narabekae': 40, 'n4-grammar-bunsho': 16,
+  'n4-reading-tanbun': 16, 'n4-reading-chubun': 16, 'n4-reading-joho': 12,
+  'n4-listening-kadai': 20, 'n4-listening-pointo': 20, 'n4-listening-hatsuwa': 20, 'n4-listening-sokuji': 24,
+  'n3-grammar-keishiki': 40, 'n3-grammar-narabekae': 40, 'n3-grammar-bunsho': 16,
+  'n3-reading-tanbun': 12, 'n3-reading-chubun': 14, 'n3-reading-chobun': 14, 'n3-reading-joho': 10,
+  'n3-listening-kadai': 16, 'n3-listening-pointo': 16, 'n3-listening-gaiyo': 14,
+  'n3-listening-hatsuwa': 14, 'n3-listening-sokuji': 20,
+  'n2-grammar-keishiki': 40, 'n2-grammar-narabekae': 40, 'n2-grammar-bunsho': 16,
+  'n2-reading-tanbun': 16, 'n2-reading-chubun': 16, 'n2-reading-togo': 8,
+  'n2-reading-shucho': 10, 'n2-reading-joho': 10,
+  'n2-listening-kadai': 16, 'n2-listening-pointo': 16, 'n2-listening-gaiyo': 14,
+  'n2-listening-sokuji': 22, 'n2-listening-togo': 12,
   'n1-vocab-kanji': 60, 'n1-vocab-bunmyaku': 60, 'n1-vocab-iikae': 60, 'n1-vocab-yoho': 60,
   'n1-grammar-keishiki': 60, 'n1-grammar-narabekae': 60, 'n1-grammar-bunsho': 24,
   'n1-reading-tanbun': 22, 'n1-reading-chubun': 22, 'n1-reading-chobun': 24,

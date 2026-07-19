@@ -148,4 +148,151 @@ export const questions: JlptQuestion[] = [
       },
     ],
   },
+  {
+    id: 'n4-reading-chubun-004',
+    kind: 'passage',
+    passage:
+      '先月、わたしの日本語学校で文化祭がありました。わたしのクラスには五つの国から来た学生がいるので、話し合って、いろいろな国のりょうりを売る店を出すことにしました。\n準備はたいへんでした。学校の近くの店を回って、安いざいりょうをさがしたり、前の日の夜おそくまで、教室のかざりを作ったりしました。りょうりの作り方をわすれてしまって、国の母に電話で何度も聞いた学生もいました。\n文化祭の日は、たくさんの人が来てくれました。りょうりは二時間で全部売れてしまいました。「おいしかったから、作り方を教えて」と言ってくれた近所のおばあさんもいました。ただ、店がいそがしくて、ほかのクラスの店を見に行けなかったのは、ざんねんでした。\n準備はたいへんでしたが、クラスのみんなと前より仲よくなることができたので、店を出して本当によかったと思います。来年は、もっとたくさん作るつもりです。',
+    explanation: '',
+    questions: [
+      {
+        id: 'n4-reading-chubun-004-q1',
+        stem: 'このクラスは、どうしていろいろな国のりょうりの店を出すことにしましたか。',
+        options: [
+          'クラスに五つの国から来た学生がいるから',
+          '近所のおばあさんにたのまれたから',
+          '学校の近くに安い店があるから',
+          'ほかのクラスの店を見たかったから',
+        ],
+        answerIndex: 0,
+        explanation:
+          '文中說「わたしのクラスには五つの国から来た学生がいるので…いろいろな国のりょうりを売る店を出すことにしました」，因為班上有來自五個國家的學生才決定開這種店。「おばあさんにたのまれた」錯，鄰居奶奶是文化祭當天來稱讚料理的客人；「近くに安い店がある」只是準備時找便宜食材去的地方，不是開店的理由；「ほかのクラスの店を見たかった」錯，那是當天太忙而沒做到的事。',
+        explanationEn:
+          'The passage says 「わたしのクラスには五つの国から来た学生がいるので…いろいろな国のりょうりを売る店を出すことにしました」 — the class chose this shop because its students come from five countries. "Asked by the old woman" is wrong: she was a visitor who praised the food on the day itself; nearby cheap shops are merely where they hunted for ingredients, not the reason for the shop; and wanting to see other classes\' stalls is what they failed to do because they were too busy.',
+      },
+      {
+        id: 'n4-reading-chubun-004-q2',
+        stem: '文化祭の日、どんなことがありましたか。',
+        options: [
+          'りょうりが二時間で全部売れてしまった',
+          'りょうりがあまり売れなかった',
+          'ほかのクラスの店を見に行った',
+          '夜おそくまで教室のかざりを作った',
+        ],
+        answerIndex: 0,
+        explanation:
+          '文中說「りょうりは二時間で全部売れてしまいました」，當天料理兩小時就全部賣完，選項一正確。「あまり売れなかった」正好相反；「ほかのクラスの店を見に行った」錯，文中說因為店太忙「見に行けなかった」；「かざりを作った」錯，做裝飾是「前の日の夜」的準備工作，不是文化祭當天的事。',
+        explanationEn:
+          'The passage says 「りょうりは二時間で全部売れてしまいました」 — the food sold out in two hours that day, so option 1 is correct. "It didn\'t sell well" is the opposite; "went to see other classes\' stalls" is wrong because the text says they 「見に行けなかった」 due to being busy; and making decorations is wrong — that happened 「前の日の夜」 as preparation, not on the festival day.',
+      },
+      {
+        id: 'n4-reading-chubun-004-q3',
+        stem: 'この人は、文化祭についてどう思っていますか。',
+        options: [
+          'たいへんだったが、店を出してよかった',
+          '準備がたいへんだったので、来年は出したくない',
+          'ざんねんなことばかりだった',
+          '準備はかんたんだった',
+        ],
+        answerIndex: 0,
+        explanation:
+          '文末說「準備はたいへんでしたが…店を出して本当によかったと思います」，雖然辛苦但很值得，選項一正確。「来年は出したくない」正好相反，最後一句說「来年は、もっとたくさん作るつもりです」；「ざんねんなことばかり」錯，遺憾只有沒能去看別班的店這一件；「準備はかんたん」與文中「準備はたいへんでした」矛盾。',
+        explanationEn:
+          'The ending says 「準備はたいへんでしたが…店を出して本当によかったと思います」 — it was hard work but truly worth it, so option 1 is correct. "Doesn\'t want to do it next year" is the opposite of the final line 「来年は、もっとたくさん作るつもりです」; "nothing but regrets" is wrong — the only regret was not seeing the other stalls; and "preparation was easy" contradicts 「準備はたいへんでした」.',
+      },
+    ],
+  },
+  {
+    id: 'n4-reading-chubun-005',
+    kind: 'passage',
+    passage:
+      '去年の秋、テレビで山の番組を見ました。わたしの町から電車で一時間の所にある山で、山の木が赤や黄色になっていて、とてもきれいでした。それで、次の日曜日に、一人で登ってみることにしました。\nはじめての山登りは、たいへんでした。ふつうのくつで行ったので、足がいたくなりました。とちゅうで道をまちがえて、こまっていると、山をよく知っているおじさんが、正しい道を教えてくれました。おじさんは「山では、地図をよく見て、山のくつをはいたほうがいいですよ」と言いました。\n山の上に着いたのは昼すぎでしたが、上から見た秋の山は、テレビで見るよりずっときれいで、つかれをわすれてしまいました。\n今は、月に一度、山に登っています。おじさんに言われたとおり、山のくつを買って、地図もかならず持って行きます。今度は、会社の友だちもさそって、いっしょに登るつもりです。',
+    explanation: '',
+    questions: [
+      {
+        id: 'n4-reading-chubun-005-q1',
+        stem: 'この人は、どうして山に登ってみることにしましたか。',
+        options: [
+          'テレビで見た秋の山がきれいだったから',
+          '山のおじさんにさそわれたから',
+          '会社の友だちと約束したから',
+          '山のくつを買ったから',
+        ],
+        answerIndex: 0,
+        explanation:
+          '文中說在電視上看到「山の木が赤や黄色になっていて、とてもきれいでした。それで…登ってみることにしました」，「それで」點明了因果。「おじさんにさそわれた」錯，大叔是爬山途中才遇到、幫忙指路的人；「友だちと約束した」錯，約朋友一起爬是「今度」的打算；「山のくつを買った」順序相反，買登山鞋是第一次爬完之後聽了建議才做的事。',
+        explanationEn:
+          'The passage says the mountain on TV was beautiful — 「山の木が赤や黄色になっていて、とてもきれいでした。それで…登ってみることにしました」 — with 「それで」 marking the cause. "Invited by the man" is wrong: the man was someone met on the trail who showed the way; "promised friends" is wrong — inviting coworkers is a plan for 「今度」; and buying mountain shoes reverses the order, since that happened after the first climb, following the man\'s advice.',
+      },
+      {
+        id: 'n4-reading-chubun-005-q2',
+        stem: 'はじめての山登りのとき、どんなことがありましたか。',
+        options: [
+          '道をまちがえたが、おじさんが正しい道を教えてくれた',
+          '地図を見て、正しい道を見つけた',
+          '山のくつをはいて登った',
+          '会社の友だちといっしょに登った',
+        ],
+        answerIndex: 0,
+        explanation:
+          '文中說「とちゅうで道をまちがえて、こまっていると…おじさんが、正しい道を教えてくれました」，選項一正確。「地図を見て見つけた」錯，當時他沒帶地圖，帶地圖是之後才養成的習慣；「山のくつをはいて」錯，第一次穿的是「ふつうのくつ」，所以腳才會痛；「友だちといっしょに」錯，第一次是「一人で」去的。',
+        explanationEn:
+          'The passage says 「とちゅうで道をまちがえて、こまっていると…おじさんが、正しい道を教えてくれました」 — he got lost and the man showed him the right path, so option 1 is correct. "Found the way with a map" is wrong: he had no map then, and always carrying one is a later habit; "wore mountain shoes" is wrong — he wore 「ふつうのくつ」, which is why his feet hurt; and "climbed with coworkers" is wrong because the first climb was 「一人で」.',
+      },
+      {
+        id: 'n4-reading-chubun-005-q3',
+        stem: '今のこの人について、文章の内容と合っているものはどれですか。',
+        options: [
+          '地図をかならず持って、月に一度、山に登っている',
+          'ふつうのくつで山に登っている',
+          'テレビで山の番組を見るだけだ',
+          '一年に一度だけ山に登っている',
+        ],
+        answerIndex: 0,
+        explanation:
+          '文中說「今は、月に一度、山に登っています…地図もかならず持って行きます」，選項一正確。「ふつうのくつで」錯，現在已照大叔的建議買了登山鞋；「テレビで見るだけ」錯，電視節目只是最初的契機，現在是實際去爬山；「一年に一度」錯，頻率是「月に一度」，每月一次。',
+        explanationEn:
+          'The passage says 「今は、月に一度、山に登っています…地図もかならず持って行きます」 — he climbs once a month and always carries a map, so option 1 is correct. "In ordinary shoes" is wrong: he has since bought mountain shoes as the man advised; "only watches TV programs" is wrong — the TV show was merely the initial trigger and he now actually climbs; and "once a year" is wrong because the stated frequency is 「月に一度」, once a month.',
+      },
+    ],
+  },
+  {
+    id: 'n4-reading-chubun-006',
+    kind: 'passage',
+    passage:
+      '今年の四月から、わたしは一人でくらしています。りょうりをしたことがなかったので、ばんごはんは毎日、コンビニで買っていました。\n先月、電話でそのことを話すと、母は「体にわるいから、少しは自分で作りなさい」と言って、かんたんなりょうりの作り方を教えてくれました。次の日、教えてもらったスープを作ってみたら、小さいときから知っている母の味がして、なつかしくなりました。\nそれから、わたしは週末に一週間分のりょうりを作って、冷蔵庫に入れておきます。仕事の日は、それをあたためるだけなので、夜おそく帰っても大丈夫です。コンビニで買うより、お金もかかりません。野菜をたくさん使うので、前より体の調子もいいです。\n今も週に一度、母に電話をかけて、新しいりょうりの作り方を聞いています。前は母に電話するのがめんどうだと思っていましたが、今は母と話すのが楽しみになりました。',
+    explanation: '',
+    questions: [
+      {
+        id: 'n4-reading-chubun-006-q1',
+        stem: 'この人は、どうしてりょうりを作るようになりましたか。',
+        options: [
+          '母が電話でりょうりの作り方を教えてくれたから',
+          'コンビニのばんごはんがおいしくないから',
+          '新しい冷蔵庫を買ったから',
+          '会社の近くにコンビニがないから',
+        ],
+        answerIndex: 0,
+        explanation:
+          '文中說媽媽講了「少しは自分で作りなさい」，並且「かんたんなりょうりの作り方を教えてくれました」，之後他才開始自己做菜。「おいしくないから」錯，文中沒說便利商店的東西難吃，媽媽說的是「体にわるい」；「冷蔵庫を買った」錯，冰箱只是保存做好料理的地方；「コンビニがない」錯，他之前每天都在便利商店買晚餐。',
+        explanationEn:
+          'The passage says the mother told him 「少しは自分で作りなさい」 and 「かんたんなりょうりの作り方を教えてくれました」 — he began cooking because she taught him over the phone. "Because convenience-store food tastes bad" is wrong: the text never says that, and what the mother said was 「体にわるい」; "bought a new refrigerator" is wrong — the fridge is just where he stores the food he cooks; and "no convenience store nearby" is wrong because he used to buy dinner there every day.',
+      },
+      {
+        id: 'n4-reading-chubun-006-q2',
+        stem: '今のこの人について、文章の内容と合っているものはどれですか。',
+        options: [
+          '週末にりょうりを作って、冷蔵庫に入れておく',
+          '毎日、コンビニでばんごはんを買っている',
+          '母に電話するのがめんどうだと思っている',
+          '週末に母がりょうりを作りに来てくれる',
+        ],
+        answerIndex: 0,
+        explanation:
+          '文中說「わたしは週末に一週間分のりょうりを作って、冷蔵庫に入れておきます」，選項一正確。「毎日コンビニで買っている」是開始做菜之前的事；「めんどうだと思っている」錯，覺得麻煩是「前は」的想法，現在和媽媽通話變成一種樂趣；「母が作りに来てくれる」錯，媽媽只是用電話教作法，沒有來家裡。',
+        explanationEn:
+          'The passage says 「わたしは週末に一週間分のりょうりを作って、冷蔵庫に入れておきます」 — he cooks a week\'s worth of food on weekends and stores it in the fridge, so option 1 is correct. Buying dinner at the convenience store every day belongs to the time before he started cooking; finding the phone calls a bother is marked by 「前は」 and has changed into something he looks forward to; and the mother coming over to cook is wrong — she only teaches recipes by phone.',
+      },
+    ],
+  },
 ]

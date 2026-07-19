@@ -101,4 +101,104 @@ export const questions: JlptQuestion[] = [
       },
     ],
   },
+  {
+    id: 'n3-grammar-bunsho-003',
+    kind: 'passage',
+    passageTitle: '初めての料理教室',
+    passage:
+      '今年の春から、月に二回、駅前の料理教室に通っている。\nきっかけは健康診断の結果だった。ここ数年、夕食はほとんど外食で、医者に食生活を注意されてしまったのだ。健康のためには、自分で作る【１】ないと思った。しかし、包丁もほとんど握ったことのない私に、いきなり毎日の自炊は難しい。【２】、まずは基本から学ぼうと、思い切って教室に申し込んだ。\n教室では、先生が目の前で手本を見せてくれる。私も先生と同じ手順で切っているつもりだ。【３】、私が切ると、野菜の大きさがどうしてもばらばらになってしまう。長年の経験というのは、簡単にまねできるものではないらしい。\nそれでも、三か月も続けると、少しずつ形になってきた。先週は、初めて家族に肉じゃがを作った。弟に「店の味みたいだ」と言われたときは、うれしくて思わず笑ってしまった。\n次の目標は魚料理だ。これからも、作れる料理を少しずつ増やして【４】と思っている。焦らず、自分のペースで続けていくのが、長続きのこつだろう。',
+    explanation: '',
+    questions: [
+      {
+        id: 'n3-grammar-bunsho-003-q1',
+        stem: '【１】に入るのはどれか。',
+        options: ['しか', 'だけ', 'ばかり', 'こそ'],
+        answerIndex: 0,
+        explanation:
+          '「〜しかない」表「只能…、除此之外別無他法」，「しか」必須與否定形「ない」搭配，「為了健康只能自己做飯」語意通順，故正確。「だけ」「こそ」都不能與「ない」構成這種「別無選擇」的句型；「ばかりない」在文法上不成立。與否定呼應是「しか」的最大特徵。',
+        explanationEn:
+          '「〜しかない」 means "have no choice but to..."; 「しか」 must pair with the negative 「ない」, so "for my health, the only option is to cook for myself" reads naturally and is correct. 「だけ」 and 「こそ」 cannot combine with 「ない」 to express "no other choice"; 「ばかりない」 is simply ungrammatical. Pairing with a negative is the defining feature of 「しか」.',
+      },
+      {
+        id: 'n3-grammar-bunsho-003-q2',
+        stem: '【２】に入るのはどれか。',
+        options: ['そこで', 'ところで', 'それとも', 'なぜなら'],
+        answerIndex: 0,
+        explanation:
+          '前句提出問題「馬上每天自炊太難」，後句是針對這個狀況採取的行動「先從基礎學起、報名教室」，要用表「於是、因此（採取行動）」的接續詞「そこで」。「ところで」用於轉換話題；「それとも」用於疑問句的二選一；「なぜなら」須與句尾「〜からだ」搭配說明理由，皆不合。',
+        explanationEn:
+          'The previous sentence poses a problem — cooking every day right away is too hard — and the next describes the action taken in response: starting from the basics and signing up for the class. This calls for 「そこで」 ("so / thereupon", introducing an action). 「ところで」 changes the topic; 「それとも」 offers an either-or choice in questions; 「なぜなら」 must pair with a sentence-final 「〜からだ」 to give a reason — none fits.',
+      },
+      {
+        id: 'n3-grammar-bunsho-003-q3',
+        stem: '【３】に入るのはどれか。',
+        options: ['ところが', 'そのうえ', 'つまり', 'すると'],
+        answerIndex: 0,
+        explanation:
+          '前句說「我以為自己照著同樣的步驟切」，後句卻是「切出來大小不一」的意外結果，要用表「可是、沒想到」的逆接接續詞「ところが」。「そのうえ」表累加（而且）；「つまり」用於換句話說；「すると」表「於是接著發生…」的順接，都不合前後句的對比關係。',
+        explanationEn:
+          'The preceding sentence says "I think I am cutting with the same steps as the teacher", but what follows is the unexpected result that the pieces come out uneven, so the adversative 「ところが」 ("however, contrary to expectation") is required. 「そのうえ」 adds information ("moreover"); 「つまり」 rephrases ("in other words"); 「すると」 marks a sequential development — none expresses this contrast.',
+      },
+      {
+        id: 'n3-grammar-bunsho-003-q4',
+        stem: '【４】に入るのはどれか。',
+        options: ['いきたい', 'きたい', 'おきたい', 'あげたい'],
+        answerIndex: 0,
+        explanation:
+          '「〜ていく」表從現在朝未來持續發展的變化，與「これからも」呼應，「今後也想把會做的菜逐漸增加下去」故「増やしていきたい」正確。「〜てくる」是朝說話時點靠近的變化，與「これからも」方向相反；「〜ておきたい」表事先準備，語意不合；「増やしてあげたい」的受惠對象不明，語意不通。',
+        explanationEn:
+          '「〜ていく」 expresses a change continuing from now into the future and echoes 「これからも」 ("from now on as well"), so 「増やしていきたい」 ("want to keep expanding my repertoire") is correct. 「〜てくる」 marks a change moving toward the present, the opposite direction of 「これからも」; 「〜ておきたい」 means doing something in advance, which does not fit; 「増やしてあげたい」 implies doing a favor for some unnamed person and makes no sense.',
+      },
+    ],
+  },
+  {
+    id: 'n3-grammar-bunsho-004',
+    kind: 'passage',
+    passageTitle: '各駅停車の窓から',
+    passage:
+      '毎朝、七時半の急行で会社へ通っている。同じ時間に同じ車両に乗り、会社の最寄り駅に着くまで、ずっとスマホの画面を見ている。通勤の四十分は、ただ我慢するだけの時間だと思っていた。\nある朝、事故で急行が止まってしまった。【１】、私は隣のホームから、普段は乗らない各駅停車に乗ることにした。初めて座る各駅停車の窓からは、いつもと違う景色が見えた。川沿いの桜並木、開店の準備を始めた商店街、校庭に集まる子どもたち。どれも毎日通っている町のはずなのに、初めて見るものばかりだった。\nそれ以来、時間に余裕のある朝は、急行【２】各駅停車に乗ることが増えた。窓の外を眺めていると、季節が少しずつ動いていくのが分かる。桜が散り、あじさいが咲き、いつの間にか商店街の店先に秋の果物が並ぶ。\n風景というのは、ただそこにあるだけでは目に入らない【３】らしい。こちらが見ようとしたとき、初めて見えてくるのだ。変わったのは町ではなく、窓の外に目を向けるようになった私のほうなの【４】。',
+    explanation: '',
+    questions: [
+      {
+        id: 'n3-grammar-bunsho-004-q1',
+        stem: '【１】に入るのはどれか。',
+        options: ['それで', 'それとも', 'ところで', 'ただし'],
+        answerIndex: 0,
+        explanation:
+          '前句「急行因事故停駛」是原因，後句「改搭各站停車的電車」是順勢採取的行動，要用表因果的接續詞「それで」（因此、於是）。「それとも」用於疑問句的二選一；「ところで」用來轉換話題；「ただし」表補充條件或但書，三者都不能連接這種因果關係。',
+        explanationEn:
+          'The previous sentence — the express train stopped because of an accident — is the cause, and the next sentence — taking the local train instead — is the resulting action, so the causal connective 「それで」 ("and so / therefore") is required. 「それとも」 presents an either-or choice in questions; 「ところで」 changes the topic; 「ただし」 adds a proviso — none of them can link this cause and effect.',
+      },
+      {
+        id: 'n3-grammar-bunsho-004-q2',
+        stem: '【２】に入るのはどれか。',
+        options: ['ではなく', 'ながら', 'ばかりに', 'どころか'],
+        answerIndex: 0,
+        explanation:
+          '「ＡではなくＢ」表「不是Ａ而是Ｂ」的取捨，「不搭急行、改搭各站停車」語意正確。「ながら」須接動詞ます形或名詞表同時、逆接，「急行ながら」語意不通；「ばかりに」表「就因為…導致壞結果」；「どころか」表「別說…甚至…」的遞進，與單純二選一的語境不合。',
+        explanationEn:
+          '"A ではなく B" expresses replacement — "not A but B" — so "taking the local train rather than the express" is correct. 「ながら」 attaches to a masu-stem or noun for simultaneity or concession, and 「急行ながら」 makes no sense; 「ばかりに」 means "just because..., a bad result followed"; 「どころか」 escalates ("far from A, even B"), which does not fit this simple either-or choice.',
+      },
+      {
+        id: 'n3-grammar-bunsho-004-q3',
+        stem: '【３】に入るのはどれか。',
+        options: ['もの', 'こと', 'ところ', 'はず'],
+        answerIndex: 0,
+        explanation:
+          '「〜ものだ」用來敘述事物的一般性質或真理，「風景這種東西，光是存在還進不了眼裡」是筆者領悟到的一般道理，故「もの」正確。「こと」不能用來表這種本質論的斷定；「ところ」表場所或動作階段；「はず」表推測「照理應該」，後面再接「らしい」也不成立。',
+        explanationEn:
+          '「〜ものだ」 states the general nature of things — "scenery, by its nature, does not register just by being there" is the general truth the writer has realized, so 「もの」 is correct. 「こと」 cannot express this kind of assertion about inherent nature; 「ところ」 denotes a place or the stage of an action; 「はず」 expresses expectation ("should be"), and stacking 「らしい」 after it does not work either.',
+      },
+      {
+        id: 'n3-grammar-bunsho-004-q4',
+        stem: '【４】に入るのはどれか。',
+        options: ['ではないか', 'ではないでしょうか', 'ものか', 'かしら'],
+        answerIndex: 0,
+        explanation:
+          '這篇隨筆通篇使用だ・である常體，結尾委婉表達自己的結論要用常體的「〜のではないか」。「ではないでしょうか」是敬體，與全文文體不一致，在文章文法題中屬於文體錯誤；「ものか」表「絕不…」的強烈否定，語意相反；「かしら」是口語女性語，與書面隨筆的文體不合。',
+        explanationEn:
+          'This essay is written throughout in the plain da/dearu style, so the softened closing conclusion must use the plain 「〜のではないか」. 「ではないでしょうか」 is polite style and breaks the register of the passage — a style error in text-grammar questions; 「ものか」 is an emphatic denial ("absolutely not"), the opposite meaning; 「かしら」 is colloquial feminine speech, unsuited to a written essay.',
+      },
+    ],
+  },
 ]

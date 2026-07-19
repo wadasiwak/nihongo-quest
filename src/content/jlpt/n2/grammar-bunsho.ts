@@ -101,4 +101,104 @@ export const questions: JlptQuestion[] = [
       },
     ],
   },
+  {
+    id: 'n2-grammar-bunsho-003',
+    kind: 'passage',
+    passageTitle: 'つながりすぎる時代の孤独',
+    passage:
+      'スマートフォンを開けば、友人たちの近況が次々と流れてくる。旅行の写真、昼食の一皿、子どもの運動会。SNSのおかげで、私たちはかつてないほど多くの人と「つながって」いる。【１】、孤独を感じる人はむしろ増えているという調査結果がある。つながる手段はこれほど増えたのに、である。\nなぜだろうか。画面の向こうの友人たちは、いつも楽しそうに見える。それに比べて自分の毎日は平凡でつまらない——そう感じた経験は誰にでもあるだろう。だが、人がSNSに載せるのは、生活の中の特別な一瞬だけである。他人の「選ばれた場面」と自分の日常を並べて落ち込んでしまうのは、比べる相手を間違えている証拠【２】。\nまた、SNS上のやりとりは手軽である【３】、どうしても一つ一つの関係は浅くなりがちだ。「いいね」を押すだけのつながりは、数百人分集めても、深夜に悩みを打ち明けられる一人の友人には及ばない。\n道具が悪いのではない。要は使い方である。表面的なつながりの数を追うのをやめ、大切にしたい相手と時間をかけて向き合う。孤独から抜け出す糸口は、案外そんなところにある【４】。',
+    explanation: '',
+    questions: [
+      {
+        id: 'n2-grammar-bunsho-003-q1',
+        stem: '【１】に入るのはどれか。',
+        options: ['それにもかかわらず', 'それゆえ', 'すなわち', 'ただし'],
+        answerIndex: 0,
+        explanation:
+          '前句說「我們與空前多的人相連」，後句卻是「感到孤獨的人反而增加」——與前句預期完全相反的事實，用表強烈逆接的「それにもかかわらず」（儘管如此）。「それゆえ」表因果順接；「すなわち」是換言之；「ただし」用於補充但書、限制條件，都接不起這種出乎意料的反轉。',
+        explanationEn:
+          'The first sentence says we are connected with more people than ever, yet the next reports that people feeling lonely are actually increasing — a fact that defies the expectation, so the strong concessive 「それにもかかわらず」 ("despite that") fits. 「それゆえ」 marks a logical consequence; 「すなわち」 means "in other words"; 「ただし」 adds a proviso or restriction — none can introduce this unexpected reversal.',
+      },
+      {
+        id: 'n2-grammar-bunsho-003-q2',
+        stem: '【２】に入るのはどれか。',
+        options: ['にほかならない', 'にかぎらない', 'にたえない', 'にあたらない'],
+        answerIndex: 0,
+        explanation:
+          '「名詞＋にほかならない」表「正是…、無非是…」的強斷定：拿別人「精選的瞬間」對比自己的日常而沮喪，這正是比較對象搞錯了的證據。「にかぎらない」是「不限於…」；「にたえない」接「証拠」不成句；「にあたらない」是「不足以稱為…」，代入後變成「不算是搞錯的證據」，與整段主張相反。',
+        explanationEn:
+          'Noun + 「にほかならない」 makes a strong assertion ("is nothing other than..."): feeling down after comparing others\' hand-picked moments with your own everyday life is precisely proof that you are comparing against the wrong thing. 「にかぎらない」 means "not limited to..."; 「にたえない」 cannot attach to 「証拠」; 「にあたらない」 means "does not amount to...," which would deny the very claim the passage is making.',
+      },
+      {
+        id: 'n2-grammar-bunsho-003-q3',
+        stem: '【３】に入るのはどれか。',
+        options: ['だけに', 'ものの', 'どころか', 'うちに'],
+        answerIndex: 0,
+        explanation:
+          '「〜だけに」表「正因為…，（後果）更是…」：正因為 SNS 上的往來輕鬆便利，每段關係也就容易流於淺薄，前後是因果強調關係。「ものの」是逆接「雖然…卻」，但「輕鬆」與「變淺」並非對立；「どころか」表「別說…反而」；「うちに」是「趁著…之間」，語意皆不通。',
+        explanationEn:
+          '「だけに」 means "precisely because..., all the more...": precisely because exchanges on social media are so easy and casual, each individual relationship tends to stay shallow — an emphasized cause and effect. 「ものの」 is concessive ("although"), but ease and shallowness are not in opposition; 「どころか」 means "far from..."; 「うちに」 means "while..." — none of these fits.',
+      },
+      {
+        id: 'n2-grammar-bunsho-003-q4',
+        stem: '【４】に入るのはどれか。',
+        options: ['のではないだろうか', 'のではないでしょうか', 'と思います', 'かもしれませんね'],
+        answerIndex: 0,
+        explanation:
+          '本文通篇是だ・である體的評論文，結尾委婉提出主張的「〜のではないだろうか」（不正是…嗎）也必須維持常體。「のではないでしょうか」「と思います」「かもしれませんね」都是敬體表現，與全文文體不一致；文章文法題中，文體不統一即屬錯誤選項。',
+        explanationEn:
+          'The essay is written throughout in the plain だ・である style, so the closing rhetorical suggestion 「のではないだろうか」 ("might it not be that...?") must also stay in plain style. 「のではないでしょうか」, 「と思います」, and 「かもしれませんね」 are all polite-style endings that clash with the register of the text — in text-grammar questions, a break in register marks an option as wrong.',
+      },
+    ],
+  },
+  {
+    id: 'n2-grammar-bunsho-004',
+    kind: 'passage',
+    passageTitle: '「手作り」でなければだめですか',
+    passage:
+      '仕事帰りにスーパーへ寄ると、総菜売り場はいつも混み合っています。揚げ物や煮物をかごに入れながら、どこか後ろめたさを感じる——そんな経験はないでしょうか。私たちの中には、「家庭の食事は手作りであるべきだ」という考えが、いまだに根強く残っているようです。\n【１】、その「当たり前」は、実はそれほど古いものではないそうです。ある食文化の研究者の本によれば、母親が毎食手の込んだ料理を作るという家庭像が広まったのは、せいぜいここ数十年のこと。それ以前の庶民の食卓はずっと質素で、外で買ったものも【２】当たり前に並んでいたといいます。\n共働きの家庭が増えた現在、「毎食手作り」を自分に課すのは現実的ではありません。無理を重ねれば、食事の支度そのものが苦痛になり【３】。総菜や冷凍食品を上手に取り入れて時間の余裕を作り、そのぶん家族とゆっくり食卓を囲む。それも立派な「家庭の味」の形だと私は思います。\n大切なのは、誰が作ったかではなく、どんな気持ちで食卓を囲むかです。「手作りでなければ」という思い込みから、そろそろ自由になっても【４】。',
+    explanation: '',
+    questions: [
+      {
+        id: 'n2-grammar-bunsho-004-q1',
+        stem: '【１】に入るのはどれか。',
+        options: ['ところが', 'ですから', 'あるいは', '要するに'],
+        answerIndex: 0,
+        explanation:
+          '前段說「飯菜應該親手做」的觀念至今根深蒂固，後句卻指出這個「理所當然」其實沒那麼古老——是顛覆讀者預期的意外事實，用「ところが」（然而、沒想到）最恰當。「ですから」是順接因果；「あるいは」表選擇；「要するに」是總結換言，都無法引出這種出人意料的轉折。',
+        explanationEn:
+          'The first paragraph says the belief that home meals should be handmade remains deep-rooted, but the next sentence reveals that this "common sense" is actually not so old — a fact that upsets the reader\'s expectation, so 「ところが」 ("and yet, surprisingly") fits best. 「ですから」 marks a straightforward consequence, 「あるいは」 an alternative, and 「要するに」 a summing-up — none can introduce this unexpected turn.',
+      },
+      {
+        id: 'n2-grammar-bunsho-004-q2',
+        stem: '【２】に入るのはどれか。',
+        options: ['ごく', 'まるで', 'いっそ', 'あえて'],
+        answerIndex: 0,
+        explanation:
+          '「ごく」修飾「当たり前」構成「ごく当たり前に」（極其自然地、再平常不過地）：從前的餐桌上擺著外面買的東西是稀鬆平常的事。「まるで」須與「ようだ」等比況表現呼應；「いっそ」表「乾脆…」的決斷；「あえて」是「特意、硬要」，代入後都與「並んでいた」的客觀敘述不合。',
+        explanationEn:
+          '「ごく」 modifies 「当たり前」 to form 「ごく当たり前に」 ("as a matter of complete course"): store-bought food appearing on the table was utterly ordinary in those days. 「まるで」 must pair with a comparison ending like 「ようだ」; 「いっそ」 expresses a bold resolution ("might as well"); 「あえて」 means "deliberately, daringly" — none matches the neutral description 「並んでいた」.',
+      },
+      {
+        id: 'n2-grammar-bunsho-004-q3',
+        stem: '【３】に入るのはどれか。',
+        options: ['かねません', 'かねます', 'きれません', 'ぬけません'],
+        answerIndex: 0,
+        explanation:
+          '「〜かねない」表「恐怕會（發生壞事）」，敬體為「かねません」：勉強硬撐的話，做飯這件事本身恐怕會變成痛苦，正確。「かねます」語意相反，是「礙難…」的婉拒說法；「きれません」是「〜きれない」（…不完），「苦痛になりきれない」語意不通；「ぬけません」接「なり」不成複合動詞。',
+        explanationEn:
+          '「かねない」 warns that something bad could well happen, and its polite form is 「かねません」: if you keep forcing yourself, preparing meals itself could well turn into a torment, so it is correct. 「かねます」 means the opposite — a polite "we are unable to..."; 「きれません」 is 「〜きれない」 ("cannot finish"), and 「苦痛になりきれない」 makes no sense; 「ぬけません」 does not form a compound with 「なり」.',
+      },
+      {
+        id: 'n2-grammar-bunsho-004-q4',
+        stem: '【４】に入るのはどれか。',
+        options: ['いいのではないでしょうか', 'いいのではないだろうか', 'いいというものだ', 'いいはずだ'],
+        answerIndex: 0,
+        explanation:
+          '本文通篇是です・ます體的隨筆，結尾向讀者提出委婉建議也必須維持敬體，「いいのではないでしょうか」（不是也很好嗎）正確。「いいのではないだろうか」「いいというものだ」「いいはずだ」都是常體表現，與全文敬體不一致，在文章文法題中屬於文體錯誤。',
+        explanationEn:
+          'The piece is a personal essay in the polite です・ます style throughout, so the gentle closing suggestion must also stay polite: 「いいのではないでしょうか」 ("wouldn\'t it be fine to...?") is correct. 「いいのではないだろうか」, 「いいというものだ」, and 「いいはずだ」 are all plain-style endings that break the register of the text, which makes them wrong in a text-grammar question.',
+      },
+    ],
+  },
 ]
